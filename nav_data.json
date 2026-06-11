@@ -1,0 +1,1354 @@
+{
+  "total": 159,
+  "categories": {
+    "platform": {
+      "name": "平台政策",
+      "desc": "按平台分类的规则、API 与费率变动",
+      "sources": [],
+      "subs": {
+        "amazon": {
+          "name": "Amazon",
+          "sources": [
+            {
+              "id": "amz-spapi-changelog",
+              "name": "Amazon SP-API Changelog",
+              "url": "https://developer-docs.amazon.com/sp-api/changelog",
+              "desc": "Amazon 卖家 API 变更日志——直接影响工具开发与自动化运营。",
+              "tier": "S"
+            },
+            {
+              "id": "seller-central-news",
+              "name": "Amazon Seller Central 公告",
+              "url": "https://sellercentral.amazon.com/help/hub/reference/G200271940",
+              "desc": "Amazon 卖家中心官方公告：费率变更、FBA 政策、新功能发布。",
+              "tier": "S"
+            },
+            {
+              "id": "aws-ml-blog",
+              "name": "AWS 机器学习博客",
+              "url": "https://aws.amazon.com/blogs/machine-learning",
+              "desc": "Amazon AI/ML 产品动态——与 Amazon 广告算法和推荐系统紧密相关。",
+              "tier": "A"
+            }
+          ]
+        },
+        "shopify": {
+          "name": "Shopify",
+          "sources": [
+            {
+              "id": "shopify-changelog",
+              "name": "Shopify Developer Changelog",
+              "url": "https://shopify.dev/changelog",
+              "desc": "Shopify 平台 API 与开发者功能变更，第一时间知道平台规则调整。",
+              "tier": "S"
+            },
+            {
+              "id": "shopify-changelog-merchant",
+              "name": "Shopify 商家更新日志",
+              "url": "https://changelog.shopify.com",
+              "desc": "面向商家的 Shopify 功能更新、费率调整、新工具发布。",
+              "tier": "A"
+            },
+            {
+              "id": "shopify-retail-blog",
+              "name": "Shopify Retail Blog",
+              "url": "https://www.shopify.com/blog",
+              "desc": "Shopify 官方博客：电商趋势、卖家案例、营销策略——商家视角一手信息。",
+              "tier": "B"
+            }
+          ]
+        },
+        "tiktok": {
+          "name": "TikTok Shop",
+          "sources": [
+            {
+              "id": "tiktokshop-dev",
+              "name": "TikTok Shop Developer",
+              "url": "https://partner.tiktokshop.com/doc",
+              "desc": "TikTok Shop 开放平台文档与 API 变更，东南亚/欧美站点政策。",
+              "tier": "S"
+            },
+            {
+              "id": "tiktok-creative-center",
+              "name": "TikTok Creative Center",
+              "url": "https://ads.tiktok.com/business/creativecenter",
+              "desc": "TikTok 热门广告素材库——哪些产品/创意正在被大规模投放。",
+              "tier": "S"
+            },
+            {
+              "id": "tiktok-business-blog",
+              "name": "TikTok for Business Blog",
+              "url": "https://www.tiktok.com/business/blog",
+              "desc": "TikTok 商业博客：广告产品更新、电商功能、Shop 政策。",
+              "tier": "A"
+            }
+          ]
+        },
+        "meta": {
+          "name": "Meta / Instagram",
+          "sources": [
+            {
+              "id": "meta-graph-changelog",
+              "name": "Meta Graph API Changelog",
+              "url": "https://developers.facebook.com/docs/graph-api/changelog",
+              "desc": "Facebook/Instagram 图谱 API 变更，影响广告投放与数据获取。",
+              "tier": "A"
+            },
+            {
+              "id": "meta-research",
+              "name": "Meta Research Blog",
+              "url": "https://about.fb.com/news",
+              "desc": "Meta 官方博客：广告产品、商业工具、AI 功能更新。",
+              "tier": "A"
+            },
+            {
+              "id": "instagram-business",
+              "name": "Instagram Business Blog",
+              "url": "https://business.instagram.com/blog",
+              "desc": "Instagram 商业功能更新：Shopping、Reels 电商、创作者变现。",
+              "tier": "B"
+            }
+          ]
+        },
+        "google": {
+          "name": "Google",
+          "sources": [
+            {
+              "id": "google-ads-commerce",
+              "name": "Google Ads & Commerce Blog",
+              "url": "https://blog.google/products/ads-commerce",
+              "desc": "Google 广告与电商产品官方博客：Shopping/Merchant Center 变动。",
+              "tier": "B"
+            },
+            {
+              "id": "google-shopping",
+              "name": "Google Shopping Blog",
+              "url": "https://blog.google/products/shopping",
+              "desc": "Google Shopping 产品更新与最佳实践——免费与付费列表政策。",
+              "tier": "B"
+            },
+            {
+              "id": "google-merchant-blog",
+              "name": "Google Merchant Center 帮助",
+              "url": "https://support.google.com/merchants",
+              "desc": "Google Merchant Center 政策中心：产品数据规范、 disapprovals 原因。",
+              "tier": "A"
+            }
+          ]
+        },
+        "shopee": {
+          "name": "Shopee / Lazada",
+          "sources": [
+            {
+              "id": "shopee-open",
+              "name": "Shopee Open Platform",
+              "url": "https://open.shopee.com",
+              "desc": "Shopee 开放平台公告，东南亚与拉美市场卖家必读。",
+              "tier": "A"
+            },
+            {
+              "id": "lazada-open",
+              "name": "Lazada Open Platform",
+              "url": "https://open.lazada.com",
+              "desc": "Lazada 开放平台文档——东南亚六国市场 API 与政策更新。",
+              "tier": "A"
+            },
+            {
+              "id": "shopee-seller-edu",
+              "name": "Shopee 卖家学习中心",
+              "url": "https://seller.shopee.sg/edu",
+              "desc": "Shopee 卖家教育中心：政策解读、运营指南、新功能培训。",
+              "tier": "B"
+            }
+          ]
+        },
+        "other": {
+          "name": "其他平台",
+          "sources": [
+            {
+              "id": "walmart-marketplace",
+              "name": "Walmart Marketplace 公告",
+              "url": "https://marketplace.walmart.com",
+              "desc": "Walmart 电商平台卖家公告：入驻政策、费率、API 更新。",
+              "tier": "A"
+            },
+            {
+              "id": "ebay-announcements",
+              "name": "eBay 卖家公告",
+              "url": "https://www.ebay.com/sellercenter",
+              "desc": "eBay 卖家中心公告板：品类政策、运费调整、国际销售规则。",
+              "tier": "B"
+            },
+            {
+              "id": "mercado-libre-dev",
+              "name": "Mercado Libre Developer",
+              "url": "https://developers.mercadolibre.com",
+              "desc": "美客多开发者平台——拉美最大电商的 API 与政策更新。",
+              "tier": "A"
+            },
+            {
+              "id": "temu-seller-center",
+              "name": "Temu 卖家中心",
+              "url": "https://seller.kuajingmaihuo.com",
+              "desc": "Temu 跨境卖家后台——拼多多海外版的政策与规则变动。",
+              "tier": "A"
+            },
+            {
+              "id": "practical-ecom",
+              "name": "Practical Ecommerce",
+              "url": "https://www.practicalecommerce.com",
+              "desc": "电商实操指南：多平台运营、SEO、转化优化——实战型内容。",
+              "tier": "B"
+            },
+            {
+              "id": "ecommerce-fuel",
+              "name": "Ecommerce Fuel",
+              "url": "https://www.ecommercefuel.com",
+              "desc": "面向成熟电商卖家的高阶社区与内容，7 位数卖家圈子。",
+              "tier": "B"
+            },
+            {
+              "id": "ecommercebytes",
+              "name": "EcommerceBytes",
+              "url": "https://www.ecommercebytes.com",
+              "desc": "电商行业新闻与卖家社区，覆盖 Amazon/eBay/Etsy/Walmart 多平台。",
+              "tier": "B"
+            },
+            {
+              "id": "mp-pulse",
+              "name": "Marketplace Pulse",
+              "url": "https://www.marketplacepulse.com",
+              "desc": "Amazon/Walmart/eBay 第三方卖家数据与平台趋势深度分析。",
+              "tier": "A"
+            },
+            {
+              "id": "baijing",
+              "name": "白鲸出海",
+              "url": "https://www.baijing.cn",
+              "desc": "中文出海圈活跃资讯社区——泛娱乐与工具类出海应用动态。",
+              "tier": "B"
+            }
+          ]
+        }
+      }
+    },
+    "compliance": {
+      "name": "合规与法规",
+      "desc": "按管辖区的关税、产品安全与贸易政策",
+      "sources": [],
+      "subs": {
+        "us": {
+          "name": "美国",
+          "sources": [
+            {
+              "id": "us-federal-register",
+              "name": "US Federal Register",
+              "url": "https://www.federalregister.gov",
+              "desc": "美国联邦公报原文：de minimis、Section 301、关税与贸易政策。",
+              "tier": "S"
+            },
+            {
+              "id": "cpsc-recalls",
+              "name": "US CPSC 产品召回",
+              "url": "https://www.cpsc.gov/Newsroom",
+              "desc": "美国消费品安全委员会——产品召回通知，直接影响在售品类。",
+              "tier": "S"
+            },
+            {
+              "id": "ustr-press",
+              "name": "USTR 美国贸易代表",
+              "url": "https://ustr.gov",
+              "desc": "美国贸易代表办公室：301 关税、贸易协定、知识产权保护。",
+              "tier": "S"
+            },
+            {
+              "id": "us-cbp",
+              "name": "US CBP 贸易公告",
+              "url": "https://www.cbp.gov/rss/trade",
+              "desc": "美国海关边境保护局：清关政策、执法动态、Section 321。",
+              "tier": "A"
+            },
+            {
+              "id": "fda-imports",
+              "name": "FDA 进口警报",
+              "url": "https://www.fda.gov/industry/import-alerts",
+              "desc": "FDA 进口警报列表——食品、药品、化妆品品类的合规红线。",
+              "tier": "S"
+            },
+            {
+              "id": "epa-chemicals",
+              "name": "EPA 化学品与农药",
+              "url": "https://www.epa.gov/pesticides",
+              "desc": "美国环保署化学品与农药法规——影响家居、清洁、个护品类。",
+              "tier": "A"
+            }
+          ]
+        },
+        "eu": {
+          "name": "欧盟",
+          "sources": [
+            {
+              "id": "eu-eurlex",
+              "name": "EU EUR-Lex 法规数据库",
+              "url": "https://eur-lex.europa.eu",
+              "desc": "欧盟法律数据库原文：GPSR、EPR、数字产品护照等核心法规。",
+              "tier": "S"
+            },
+            {
+              "id": "ec-press",
+              "name": "EU 委员会新闻室",
+              "url": "https://ec.europa.eu/commission/presscorner",
+              "desc": "欧盟委员会官方：数字服务法、产品安全法规、贸易政策。",
+              "tier": "A"
+            },
+            {
+              "id": "echa-reach",
+              "name": "ECHA / REACH 化学品",
+              "url": "https://echa.europa.eu",
+              "desc": "欧盟化学品管理局——REACH 法规与 SVHC 清单更新。",
+              "tier": "S"
+            },
+            {
+              "id": "eu-market-surveillance",
+              "name": "EU Safety Gate (RAPEX)",
+              "url": "https://ec.europa.eu/safety-gate",
+              "desc": "欧盟非食品产品安全快速预警系统——危险产品通报。",
+              "tier": "A"
+            }
+          ]
+        },
+        "uk": {
+          "name": "英国",
+          "sources": [
+            {
+              "id": "uk-hmrc",
+              "name": "UK HMRC 税务海关",
+              "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+              "desc": "英国税务海关总署：VAT 政策、海关程序、跨境电商税务。",
+              "tier": "A"
+            },
+            {
+              "id": "uk-opss",
+              "name": "UK OPSS 产品安全",
+              "url": "https://www.gov.uk/government/organisations/office-for-product-safety-and-standards",
+              "desc": "英国产品安全与标准办公室——GPSR 英国版执行机构。",
+              "tier": "A"
+            }
+          ]
+        },
+        "intl": {
+          "name": "国际 / WTO",
+          "sources": [
+            {
+              "id": "wto-eping",
+              "name": "WTO TBT 通知 ePing",
+              "url": "https://epingalert.org",
+              "desc": "WTO 技术性贸易壁垒通报——各国产品标准变更预警。",
+              "tier": "S"
+            },
+            {
+              "id": "wto-trade-monitor",
+              "name": "WTO Trade Monitoring",
+              "url": "https://www.wto.org/english/news_e/archive_e/trdev_arc_e.htm",
+              "desc": "WTO 贸易政策监控——各国关税与非关税措施变动汇总。",
+              "tier": "A"
+            },
+            {
+              "id": "unctad-trade",
+              "name": "UNCTAD 贸易与物流",
+              "url": "https://unctad.org/topic/transport-and-trade-logistics",
+              "desc": "联合国贸发会议贸易物流——海运连通性、贸易便利化指数。",
+              "tier": "B"
+            }
+          ]
+        },
+        "general": {
+          "name": "综合",
+          "sources": [
+            {
+              "id": "scb-reg-compliance",
+              "name": "SupplyChainBrain 法规合规",
+              "url": "https://www.supplychainbrain.com",
+              "desc": "全球供应链法规追踪：强迫劳动、碳边境、供应链尽职调查。",
+              "tier": "S"
+            },
+            {
+              "id": "scb-supply-risk",
+              "name": "SupplyChainBrain 供应链风险",
+              "url": "https://www.supplychainbrain.com",
+              "desc": "供应链安全与风险专题：制裁、地缘政治、全球断链。",
+              "tier": "A"
+            }
+          ]
+        }
+      }
+    },
+    "supply": {
+      "name": "供应链与物流",
+      "desc": "海运、空运、仓储、运价指数与供应链风险",
+      "sources": [],
+      "subs": {
+        "ocean": {
+          "name": "海运",
+          "sources": [
+            {
+              "id": "freightwaves",
+              "name": "FreightWaves",
+              "url": "https://www.freightwaves.com",
+              "desc": "全球货运与供应链媒体——海运运价、运力与航线分析。",
+              "tier": "A"
+            },
+            {
+              "id": "seatrade-maritime",
+              "name": "Seatrade Maritime",
+              "url": "https://www.seatrade-maritime.com",
+              "desc": "海事航运权威——船公司动态、新船交付、航线调整。",
+              "tier": "A"
+            },
+            {
+              "id": "scb-ocean",
+              "name": "SupplyChainBrain 海运",
+              "url": "https://www.supplychainbrain.com",
+              "desc": "全球海运专题：航运联盟、港口拥堵与费率趋势。",
+              "tier": "A"
+            },
+            {
+              "id": "loadstar",
+              "name": "The Loadstar",
+              "url": "https://theloadstar.com",
+              "desc": "全球货运深度报道——集装箱航运、船公司、港口。",
+              "tier": "B"
+            },
+            {
+              "id": "hellenic-shipping",
+              "name": "Hellenic Shipping News",
+              "url": "https://www.hellenicshippingnews.com",
+              "desc": "全球航运新闻：散货、油轮、集装箱全品类覆盖。",
+              "tier": "B"
+            },
+            {
+              "id": "splash247",
+              "name": "Splash247 海运",
+              "url": "https://splash247.com",
+              "desc": "海运快讯：船公司并购、造船订单、地缘政治影响。",
+              "tier": "B"
+            }
+          ]
+        },
+        "air": {
+          "name": "空运",
+          "sources": [
+            {
+              "id": "air-cargo-news",
+              "name": "Air Cargo News",
+              "url": "https://www.aircargonews.net",
+              "desc": "全球空运新闻——跨境电商包裹运力、费率与航司动态。",
+              "tier": "A"
+            },
+            {
+              "id": "stat-times",
+              "name": "STAT Times 空运物流",
+              "url": "https://www.stattimes.com",
+              "desc": "航空货运与物流媒体——Fleet、运力、机场枢纽动态。",
+              "tier": "B"
+            }
+          ]
+        },
+        "warehouse": {
+          "name": "仓储与履约",
+          "sources": [
+            {
+              "id": "shipbob-blog",
+              "name": "ShipBob Blog",
+              "url": "https://www.shipbob.com/blog",
+              "desc": "电商履约实操：3PL 选择、库存布局、退货管理——卖家视角。",
+              "tier": "B"
+            },
+            {
+              "id": "dc-velocity",
+              "name": "DC Velocity",
+              "url": "https://www.dcvelocity.com",
+              "desc": "配送中心与物流运营——仓库管理、自动化、劳动力趋势。",
+              "tier": "B"
+            },
+            {
+              "id": "supply-chain-quarterly",
+              "name": "Supply Chain Quarterly",
+              "url": "https://www.supplychainquarterly.com",
+              "desc": "供应链管理季刊——战略层面深度分析，学术与行业结合。",
+              "tier": "A"
+            }
+          ]
+        },
+        "index": {
+          "name": "运价指数",
+          "sources": [
+            {
+              "id": "freightos-fbx",
+              "name": "Freightos FBX 运价指数",
+              "url": "https://fbx.freightos.com",
+              "desc": "全球集装箱运价指数——中国至欧美主要航线实时运价。",
+              "tier": "A"
+            },
+            {
+              "id": "drewry-wci",
+              "name": "Drewry WCI 运价指数",
+              "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index",
+              "desc": "Drewry 世界集装箱运价指数——海运即期运费的行业基准。",
+              "tier": "A"
+            },
+            {
+              "id": "xeneta",
+              "name": "Xeneta 运价情报",
+              "url": "https://www.xeneta.com",
+              "desc": "海运空运运价基准平台——基于真实货主合同的数据情报。",
+              "tier": "A"
+            }
+          ]
+        },
+        "risk": {
+          "name": "风险与合规",
+          "sources": [
+            {
+              "id": "scb-global-trade",
+              "name": "SupplyChainBrain 全球贸易",
+              "url": "https://www.supplychainbrain.com",
+              "desc": "全球贸易经济专题——协定、关税变动、制造业产业转移。",
+              "tier": "A"
+            },
+            {
+              "id": "supply-chain-dive",
+              "name": "Supply Chain Dive",
+              "url": "https://www.supplychaindive.com",
+              "desc": "供应链深度报道——物流科技、仓储自动化、风险与韧性。",
+              "tier": "A"
+            }
+          ]
+        },
+        "general": {
+          "name": "综合",
+          "sources": [
+            {
+              "id": "supplychain247",
+              "name": "SupplyChain 24/7",
+              "url": "https://www.supplychain247.com",
+              "desc": "供应链行业新闻聚合——物流、运输、仓储、技术全覆盖。",
+              "tier": "B"
+            },
+            {
+              "id": "trade-ready",
+              "name": "Trade Ready 国际贸易",
+              "url": "https://www.tradeready.ca",
+              "desc": "国际贸易实务：出口流程、融资、市场准入操作指南。",
+              "tier": "B"
+            }
+          ]
+        }
+      }
+    },
+    "demand": {
+      "name": "需求与用户",
+      "desc": "用户原声、搜索趋势、消费需求信号",
+      "sources": [
+        {
+          "id": "voc-reddit",
+          "name": "Reddit 用户原声",
+          "url": "https://www.reddit.com",
+          "desc": "AmazonSeller/FBA/ecommerce 等子版块——卖家与消费者真实反馈。",
+          "tier": "A"
+        },
+        {
+          "id": "voc-amz-reviews",
+          "name": "亚马逊差评聚类",
+          "url": "https://www.amazon.com",
+          "desc": "通过差评聚类识别品类痛点——反向推断产品改进与新品机会。",
+          "tier": "A"
+        },
+        {
+          "id": "voc-amz-movers",
+          "name": "Amazon Movers & Shakers",
+          "url": "https://www.amazon.com/gp/movers-and-shakers",
+          "desc": "Amazon 24 小时内销量飙升榜——品类动量的直接需求信号。",
+          "tier": "B"
+        },
+        {
+          "id": "pinterest-trends",
+          "name": "Pinterest Trends",
+          "url": "https://www.pinterest.com/trends",
+          "desc": "Pinterest 搜索趋势——提前 6-12 个月的消费需求预测。",
+          "tier": "B"
+        },
+        {
+          "id": "google-trends",
+          "name": "Google Trends",
+          "url": "https://trends.google.com/trends",
+          "desc": "Google 搜索趋势——实时了解全球消费者在搜什么品类/品牌。",
+          "tier": "A"
+        },
+        {
+          "id": "signal-linkedin-hiring",
+          "name": "LinkedIn 竞品招聘信号",
+          "url": "https://www.linkedin.com",
+          "desc": "通过岗位变动追踪竞品扩张方向——组织级领先信号。",
+          "tier": "B"
+        },
+        {
+          "id": "exploding-topics",
+          "name": "Exploding Topics",
+          "url": "https://explodingtopics.com",
+          "desc": "AI 追踪快速增长的话题与品类——月度趋势数据集。",
+          "tier": "A"
+        },
+        {
+          "id": "glossy-trends",
+          "name": "Glossy 消费趋势",
+          "url": "https://www.glossy.co",
+          "desc": "时尚与美妆领域消费者行为分析——DTC 品牌创新风向。",
+          "tier": "A"
+        }
+      ],
+      "subs": null
+    },
+    "market": {
+      "name": "市场与趋势",
+      "desc": "行业数据、消费趋势、竞争格局",
+      "sources": [
+        {
+          "id": "thingtesting",
+          "name": "Thingtesting",
+          "url": "https://thingtesting.com",
+          "desc": "DTC 品牌评测平台——新品牌发现与真实用户评测。",
+          "tier": "A"
+        },
+        {
+          "id": "trendhunter-main",
+          "name": "Trend Hunter",
+          "url": "https://www.trendhunter.com",
+          "desc": "全球消费趋势情报——新品、新品类、新消费行为信号。",
+          "tier": "B"
+        },
+        {
+          "id": "similarweb-blog",
+          "name": "Similarweb Blog",
+          "url": "https://www.similarweb.com/blog",
+          "desc": "网站流量与数字市场情报——品类市场份额与竞争格局。",
+          "tier": "A"
+        },
+        {
+          "id": "statista-dossier",
+          "name": "Statista 行业档案",
+          "url": "https://www.statista.com",
+          "desc": "横跨消费品类别的统计数据库——市场规模与预测。",
+          "tier": "A"
+        }
+      ],
+      "subs": null
+    },
+    "media": {
+      "name": "行业媒体",
+      "desc": "国内与海外跨境资讯渠道",
+      "sources": [],
+      "subs": {
+        "cn": {
+          "name": "国内媒体",
+          "sources": [
+            {
+              "id": "kr-asia",
+              "name": "氪出海",
+              "url": "https://36kr.com",
+              "desc": "36氪出海频道——中国公司全球化最新动态与深度报道。",
+              "tier": "A"
+            },
+            {
+              "id": "cifnews",
+              "name": "雨果跨境",
+              "url": "https://www.cifnews.com",
+              "desc": "跨境电商行业门户——平台政策解读、卖家故事、选品指南。",
+              "tier": "B"
+            },
+            {
+              "id": "ebrun",
+              "name": "亿邦动力",
+              "url": "https://www.ebrun.com",
+              "desc": "电商产业信息服务商——品牌数字化、零售创新、跨境电商。",
+              "tier": "B"
+            },
+            {
+              "id": "baijing-app",
+              "name": "白鲸出海",
+              "url": "https://www.baijing.cn",
+              "desc": "中文出海圈活跃社区——应用出海与跨境电商最新资讯。",
+              "tier": "B"
+            },
+            {
+              "id": "luxe-co",
+              "name": "华丽志",
+              "url": "https://www.luxe.co",
+              "desc": "奢侈品与时尚商业媒体——品牌并购、零售创新、消费升级。",
+              "tier": "B"
+            },
+            {
+              "id": "36kr-news",
+              "name": "36氪",
+              "url": "https://36kr.com",
+              "desc": "中国创投与科技商业媒体——消费、出海、AI 赛道全覆盖。",
+              "tier": "B"
+            },
+            {
+              "id": "equal-ocean",
+              "name": "EqualOcean 亿欧",
+              "url": "https://equalocean.com",
+              "desc": "中国品牌全球化智库——出海研究、全球市场分析、行业报告。",
+              "tier": "A"
+            }
+          ]
+        },
+        "intl": {
+          "name": "海外媒体",
+          "sources": [
+            {
+              "id": "modern-retail",
+              "name": "Modern Retail",
+              "url": "https://www.modernretail.co",
+              "desc": "现代零售媒体——DTC 品牌、全渠道零售、电商战略深度分析。",
+              "tier": "A"
+            },
+            {
+              "id": "digital-commerce-360",
+              "name": "Digital Commerce 360",
+              "url": "https://www.digitalcommerce360.com",
+              "desc": "数字商业数据与报道——Top 500/1000 电商排名与品类分析。",
+              "tier": "A"
+            },
+            {
+              "id": "retail-dive",
+              "name": "Retail Dive",
+              "url": "https://www.retaildive.com",
+              "desc": "零售行业深度新闻——门店关张、全渠道策略、零售科技。",
+              "tier": "A"
+            },
+            {
+              "id": "digiday",
+              "name": "Digiday",
+              "url": "https://digiday.com",
+              "desc": "数字营销与媒体——广告技术、电商营销、品牌数字化转型。",
+              "tier": "A"
+            },
+            {
+              "id": "marketing-dive",
+              "name": "Marketing Dive",
+              "url": "https://www.marketingdive.com",
+              "desc": "营销行业深度——品牌策略、广告趋势、CMO 洞察。",
+              "tier": "A"
+            },
+            {
+              "id": "ecommerce-news-europe",
+              "name": "Ecommerce News Europe",
+              "url": "https://ecommercenews.eu",
+              "desc": "欧洲电商新闻——各国市场动态、支付物流、法规统一。",
+              "tier": "A"
+            },
+            {
+              "id": "channelx",
+              "name": "ChannelX",
+              "url": "https://channelx.world",
+              "desc": "全球电商市场报道——Amazon/Marketplace/TikTok Shop 全覆盖。",
+              "tier": "A"
+            },
+            {
+              "id": "2pm",
+              "name": "2PM",
+              "url": "https://2pml.com",
+              "desc": "DTC 品牌与电商策略深度简报——每篇都是行业洞察浓缩。",
+              "tier": "B"
+            },
+            {
+              "id": "adweek",
+              "name": "Adweek",
+              "url": "https://www.adweek.com",
+              "desc": "广告与品牌营销权威媒体——创意案例、代理商与品牌策略。",
+              "tier": "B"
+            },
+            {
+              "id": "retail-times",
+              "name": "Retail Times",
+              "url": "https://retailtimes.co.uk",
+              "desc": "英国零售行业新闻——线下零售、电商、品牌动态。",
+              "tier": "C"
+            },
+            {
+              "id": "youtube-blog",
+              "name": "YouTube 官方博客",
+              "url": "https://blog.youtube",
+              "desc": "YouTube 产品生态更新——短视频、直播电商、创作者变现。",
+              "tier": "B"
+            },
+            {
+              "id": "retail-gazette-uk",
+              "name": "Retail Gazette UK",
+              "url": "https://www.retailgazette.co.uk",
+              "desc": "英国零售商业媒体——百货、超市、连锁与电商竞争格局。",
+              "tier": "C"
+            },
+            {
+              "id": "ecommerce-germany",
+              "name": "Ecommerce Germany News",
+              "url": "https://ecommercegermany.com",
+              "desc": "德国电商新闻——欧洲最大电商市场的政策、平台与品牌动态。",
+              "tier": "B"
+            },
+            {
+              "id": "business-of-fashion-news",
+              "name": "Business of Fashion 新闻",
+              "url": "https://www.businessoffashion.com",
+              "desc": "时尚产业权威媒体——品牌战略、零售创新、消费趋势分析。",
+              "tier": "A"
+            }
+          ]
+        }
+      }
+    },
+    "brand": {
+      "name": "品牌与视觉",
+      "desc": "品牌策略、标识设计、包装、视觉灵感",
+      "sources": [],
+      "subs": {
+        "brand-identity": {
+          "name": "品牌标识",
+          "sources": [
+            {
+              "id": "underconsideration",
+              "name": "Under Consideration",
+              "url": "https://www.underconsideration.com",
+              "desc": "Brand New 母站——全球最权威的品牌标识评论与行业趋势。",
+              "tier": "A"
+            },
+            {
+              "id": "brandnew",
+              "name": "Brand New",
+              "url": "https://www.underconsideration.com/brandnew",
+              "desc": "品牌标识评审标杆——新 logo 发布后的第一手专业点评。",
+              "tier": "A"
+            },
+            {
+              "id": "bpando",
+              "name": "BP&O",
+              "url": "https://bpando.org",
+              "desc": "品牌标识与包装深度案例——每篇都是完整的品牌项目复盘。",
+              "tier": "A"
+            },
+            {
+              "id": "identity-designed",
+              "name": "Identity Designed",
+              "url": "https://identitydesigned.com",
+              "desc": "品牌标识案例深度分析——从概念到落地的完整记录。",
+              "tier": "A"
+            },
+            {
+              "id": "brandingmag",
+              "name": "Branding Mag",
+              "url": "https://www.brandingmag.com",
+              "desc": "品牌策略与案例分析——定位、命名、视觉系统综合性媒体。",
+              "tier": "B"
+            }
+          ]
+        },
+        "design-thinking": {
+          "name": "设计思维",
+          "sources": [
+            {
+              "id": "aiga-eye-on-design",
+              "name": "AIGA Eye on Design",
+              "url": "https://eyeondesign.aiga.org",
+              "desc": "AIGA 出品设计媒体——设计思维、行业趋势、新兴设计师访谈。",
+              "tier": "A"
+            },
+            {
+              "id": "itsnicethat",
+              "name": "It's Nice That",
+              "url": "https://www.itsnicethat.com",
+              "desc": "创意产业标杆——品牌、平面设计、数字艺术、插画全覆盖。",
+              "tier": "A"
+            },
+            {
+              "id": "creative-boom",
+              "name": "Creative Boom",
+              "url": "https://www.creativeboom.com",
+              "desc": "创意产业动态与设计师访谈——关注独立设计师与中小工作室。",
+              "tier": "B"
+            },
+            {
+              "id": "creative-review",
+              "name": "Creative Review",
+              "url": "https://www.creativereview.co.uk",
+              "desc": "英国老牌创意杂志——品牌、广告、设计行业评论与趋势。",
+              "tier": "C"
+            }
+          ]
+        },
+        "typography": {
+          "name": "字体排版",
+          "sources": [
+            {
+              "id": "typewolf",
+              "name": "Typewolf",
+              "url": "https://www.typewolf.com",
+              "desc": "字体趋势与品牌字体推荐——每天一个真实网站字体拆解。",
+              "tier": "A"
+            },
+            {
+              "id": "fontsinuse",
+              "name": "Fonts In Use",
+              "url": "https://fontsinuse.com",
+              "desc": "字体使用案例宝库——按行业、品牌、字体分类检索。",
+              "tier": "A"
+            }
+          ]
+        },
+        "logo-packaging": {
+          "name": "标志包装",
+          "sources": [
+            {
+              "id": "logodesignlove",
+              "name": "Logo Design Love",
+              "url": "https://www.logodesignlove.com",
+              "desc": "标志设计经典博客——从标志到品牌视觉系统的实战分析。",
+              "tier": "B"
+            },
+            {
+              "id": "dieline",
+              "name": "The Dieline",
+              "url": "https://thedieline.com",
+              "desc": "全球包装设计权威——消费品包装策略、材料创新、品牌趋势。",
+              "tier": "B"
+            },
+            {
+              "id": "packaging-of-world",
+              "name": "Packaging of the World",
+              "url": "https://www.packagingoftheworld.com",
+              "desc": "全球包装设计案例聚合——按国家、品类浏览，创意面极广。",
+              "tier": "C"
+            }
+          ]
+        },
+        "visual-inspo": {
+          "name": "视觉灵感",
+          "sources": [
+            {
+              "id": "awwwards",
+              "name": "Awwwards",
+              "url": "https://www.awwwards.com",
+              "desc": "全球网页设计奖项——每天评选最佳网站，视觉趋势风向标。",
+              "tier": "B"
+            },
+            {
+              "id": "swiss-miss",
+              "name": "Swiss Miss",
+              "url": "https://www.swiss-miss.com",
+              "desc": "Tina Roth Eisenberg 个人策展博客——设计灵感精选，品味独特。",
+              "tier": "B"
+            },
+            {
+              "id": "mindsparkle",
+              "name": "Mindsparkle Mag",
+              "url": "https://mindsparklemag.com",
+              "desc": "高质量品牌与网页设计案例——精选全球工作室优秀作品。",
+              "tier": "B"
+            },
+            {
+              "id": "siteinspire",
+              "name": "SiteInspire",
+              "url": "https://www.siteinspire.com",
+              "desc": "网页设计灵感库——按风格、行业筛选，收录最精致网站设计。",
+              "tier": "B"
+            },
+            {
+              "id": "creative-bloq",
+              "name": "Creative Bloq",
+              "url": "https://www.creativebloq.com",
+              "desc": "设计综合媒体——3D、图形、网页、品牌，教程趋势并重。",
+              "tier": "B"
+            },
+            {
+              "id": "dribbble",
+              "name": "Dribbble",
+              "url": "https://dribbble.com",
+              "desc": "全球设计师社区——UI、品牌、插画、动效作品首选发布平台。",
+              "tier": "B"
+            },
+            {
+              "id": "designboom",
+              "name": "Designboom",
+              "url": "https://www.designboom.com",
+              "desc": "综合设计媒体——建筑、产品、艺术、品牌的全球性资讯平台。",
+              "tier": "C"
+            }
+          ]
+        },
+        "brand-strategy": {
+          "name": "品牌空间策略",
+          "sources": [
+            {
+              "id": "dezeen",
+              "name": "Dezeen",
+              "url": "https://www.dezeen.com",
+              "desc": "全球最具影响力设计媒体——建筑、室内、品牌空间。跨境开店前必看。",
+              "tier": "A"
+            },
+            {
+              "id": "robin-report",
+              "name": "The Robin Report",
+              "url": "https://www.therobinreport.com",
+              "desc": "零售品牌战略深度分析——DTC、百货、电商的模式与策略。",
+              "tier": "A"
+            },
+            {
+              "id": "bof",
+              "name": "Business of Fashion",
+              "url": "https://www.businessoffashion.com",
+              "desc": "时尚产业权威——品牌战略、零售创新、消费趋势必读。",
+              "tier": "A"
+            },
+            {
+              "id": "footwear-news",
+              "name": "Footwear News",
+              "url": "https://footwearnews.com",
+              "desc": "鞋履与运动品牌——新品发布、品牌合作、零售趋势。",
+              "tier": "B"
+            },
+            {
+              "id": "producthunt",
+              "name": "Product Hunt",
+              "url": "https://www.producthunt.com",
+              "desc": "每日新产品发现——科技产品、设计工具、AI 应用创新窗口。",
+              "tier": "A"
+            }
+          ]
+        }
+      }
+    },
+    "capital": {
+      "name": "资本与创投",
+      "desc": "融资、并购、出海赛道资本动态",
+      "sources": [
+        {
+          "id": "hacker-news",
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com",
+          "desc": "Y Combinator 旗下科技社区——创业者与投资人日常讨论。",
+          "tier": "B"
+        },
+        {
+          "id": "indie-hackers",
+          "name": "Indie Hackers",
+          "url": "https://www.indiehackers.com",
+          "desc": "独立开发者与微型 SaaS 创业社区——收入透明、经验分享。",
+          "tier": "A"
+        },
+        {
+          "id": "techcrunch",
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com",
+          "desc": "科技与创投媒体——消费品牌融资、DTC 并购、电商赛道风投。",
+          "tier": "A"
+        },
+        {
+          "id": "pitchbook-news",
+          "name": "PitchBook News",
+          "url": "https://pitchbook.com/news",
+          "desc": "私募与风投数据——并购交易、IPO 窗口、行业估值趋势。",
+          "tier": "A"
+        }
+      ],
+      "subs": null
+    },
+    "crowdfunding": {
+      "name": "众筹与新品",
+      "desc": "Kickstarter、Indiegogo 等先行信号",
+      "sources": [
+        {
+          "id": "crowd-kickstarter",
+          "name": "Kickstarter",
+          "url": "https://www.kickstarter.com/discover",
+          "desc": "全球最大众筹平台——消费电子与设计品类先行信号，提前 6-18 个月。",
+          "tier": "A"
+        },
+        {
+          "id": "crowd-indiegogo",
+          "name": "Indiegogo",
+          "url": "https://www.indiegogo.com/explore",
+          "desc": "众筹平台——亚洲品牌出海首选测试渠道，创新产品早期发现。",
+          "tier": "B"
+        },
+        {
+          "id": "backerkit",
+          "name": "BackerKit",
+          "url": "https://www.backerkit.com",
+          "desc": "众筹后市场管理平台——热门众筹项目延伸信号。",
+          "tier": "B"
+        }
+      ],
+      "subs": null
+    },
+    "payment": {
+      "name": "支付与金融",
+      "desc": "跨境支付、金融科技、汇率",
+      "sources": [
+        {
+          "id": "stripe-blog",
+          "name": "Stripe Blog",
+          "url": "https://stripe.com/blog",
+          "desc": "Stripe 官方博客——全球支付基础设施、金融科技趋势。",
+          "tier": "A"
+        },
+        {
+          "id": "checkout-blog",
+          "name": "Checkout.com Blog",
+          "url": "https://www.checkout.com/blog",
+          "desc": "Checkout.com 博客——跨境支付优化、多币种结算策略。",
+          "tier": "A"
+        },
+        {
+          "id": "finextra",
+          "name": "Finextra",
+          "url": "https://www.finextra.com",
+          "desc": "金融科技媒体——支付、银行、监管科技的全球动态。",
+          "tier": "A"
+        },
+        {
+          "id": "paypal-newsroom",
+          "name": "PayPal Newsroom",
+          "url": "https://newsroom.paypal-corp.com",
+          "desc": "PayPal 官方新闻——支付产品更新、跨境结算功能。",
+          "tier": "A"
+        },
+        {
+          "id": "pymnts",
+          "name": "PYMNTS",
+          "url": "https://www.pymnts.com",
+          "desc": "支付与商业媒体——B2B 支付、跨境汇款、嵌入式金融。",
+          "tier": "B"
+        },
+        {
+          "id": "payments-journal",
+          "name": "Payments Journal",
+          "url": "https://www.paymentsjournal.com",
+          "desc": "支付行业媒体——信用卡、ACH、实时支付、数字货币。",
+          "tier": "B"
+        },
+        {
+          "id": "payments-dive",
+          "name": "Payments Dive",
+          "url": "https://www.paymentsdive.com",
+          "desc": "支付行业深度——先买后付、开放银行、支付合规。",
+          "tier": "B"
+        }
+      ],
+      "subs": null
+    },
+    "ai_tools": {
+      "name": "AI 品牌工具",
+      "desc": "AI 视觉、视频、语音、音乐与品牌设计工具",
+      "sources": [
+        {
+          "id": "midjourney",
+          "name": "Midjourney",
+          "url": "https://www.midjourney.com",
+          "desc": "AI 图像生成——品牌视觉探索、概念稿、产品渲染的首选工具。",
+          "tier": "A"
+        },
+        {
+          "id": "dall-e",
+          "name": "DALL·E",
+          "url": "https://openai.com/index/dall-e-3",
+          "desc": "OpenAI 图像生成——与 ChatGPT 深度集成的视觉创意工具。",
+          "tier": "A"
+        },
+        {
+          "id": "runway",
+          "name": "Runway",
+          "url": "https://runwayml.com",
+          "desc": "AI 视频生成与编辑——品牌视频素材、产品演示、动态视觉生产。",
+          "tier": "A"
+        },
+        {
+          "id": "comfyui",
+          "name": "ComfyUI",
+          "url": "https://github.com/comfyanonymous/ComfyUI",
+          "desc": "节点式 AI 图像工作流——Stable Diffusion 最灵活的生产界面。",
+          "tier": "A"
+        },
+        {
+          "id": "adobe-firefly",
+          "name": "Adobe Firefly",
+          "url": "https://www.adobe.com/products/firefly.html",
+          "desc": "Adobe 生成式 AI——与 Photoshop/Illustrator 集成的品牌视觉生产工具。",
+          "tier": "A"
+        },
+        {
+          "id": "canva-ai",
+          "name": "Canva AI",
+          "url": "https://www.canva.com/ai-image-generator",
+          "desc": "Canva AI 设计——品牌模板 + AI 生成，非设计师的快捷品牌工具。",
+          "tier": "B"
+        },
+        {
+          "id": "figma-ai",
+          "name": "Figma AI",
+          "url": "https://www.figma.com/ai",
+          "desc": "Figma AI 功能——UI 与品牌设计的 AI 辅助：自动布局、内容填充。",
+          "tier": "A"
+        },
+        {
+          "id": "stable-diffusion",
+          "name": "Stable Diffusion WebUI",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "desc": "开源 AI 图像生成——本地部署，品牌素材全流程自主可控。",
+          "tier": "A"
+        },
+        {
+          "id": "kaiber",
+          "name": "Kaiber",
+          "url": "https://kaiber.ai",
+          "desc": "AI 视频与动画——品牌故事视频、动态视觉素材生成。",
+          "tier": "B"
+        },
+        {
+          "id": "looka",
+          "name": "Looka",
+          "url": "https://looka.com",
+          "desc": "AI Logo 与品牌套件生成——快速品牌视觉方案原型。",
+          "tier": "B"
+        },
+        {
+          "id": "brandmark",
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "desc": "AI 品牌标识生成——输入关键词，自动生成品牌视觉方案。",
+          "tier": "B"
+        },
+        {
+          "id": "galileo-ai",
+          "name": "Galileo AI",
+          "url": "https://www.usegalileo.ai",
+          "desc": "AI UI 设计——从文本描述生成完整界面设计稿。",
+          "tier": "A"
+        },
+        {
+          "id": "sora-openai",
+          "name": "Sora",
+          "url": "https://openai.com/sora",
+          "desc": "OpenAI 视频生成——文生视频与图生视频，品牌广告素材新范式。",
+          "tier": "A"
+        },
+        {
+          "id": "pika-labs",
+          "name": "Pika",
+          "url": "https://pika.art",
+          "desc": "AI 视频生成——短平快的视频素材生产工具。",
+          "tier": "B"
+        },
+        {
+          "id": "suno-music",
+          "name": "Suno",
+          "url": "https://suno.com",
+          "desc": "AI 音乐生成——品牌视频配乐与播客背景音乐。",
+          "tier": "B"
+        },
+        {
+          "id": "udio",
+          "name": "Udio",
+          "url": "https://www.udio.com",
+          "desc": "AI 音乐生成——品牌声音标识与广告配乐创作工具。",
+          "tier": "B"
+        },
+        {
+          "id": "elevenlabs",
+          "name": "ElevenLabs",
+          "url": "https://elevenlabs.io",
+          "desc": "AI 语音合成——品牌播客、广告旁白、多语言配音。",
+          "tier": "A"
+        },
+        {
+          "id": "replit-ai",
+          "name": "Replit AI",
+          "url": "https://replit.com/ai",
+          "desc": "AI 编程环境——品牌网站与电商工具快速原型开发。",
+          "tier": "B"
+        },
+        {
+          "id": "cursor-ai",
+          "name": "Cursor",
+          "url": "https://cursor.com",
+          "desc": "AI 编程编辑器——品牌技术部署与自动化脚本的首选开发环境。",
+          "tier": "A"
+        }
+      ],
+      "subs": null
+    },
+    "ai_dev": {
+      "name": "AI 开发动态",
+      "desc": "AI 模型发布、API 变更、开发者生态",
+      "sources": [
+        {
+          "id": "google-ai-blog",
+          "name": "Google AI Blog",
+          "url": "https://blog.google/technology/ai",
+          "desc": "Google AI 研究与应用——Gemini、AI Agent、多模态。",
+          "tier": "A"
+        },
+        {
+          "id": "google-dev-blog",
+          "name": "Google AI Developers Blog",
+          "url": "https://developers.googleblog.com",
+          "desc": "Google 开发者博客——AI 工具链、API 更新、最佳实践。",
+          "tier": "A"
+        },
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "url": "https://openai.com/news",
+          "desc": "OpenAI 官方新闻——GPT 系列模型、API、产品发布。",
+          "tier": "S"
+        },
+        {
+          "id": "anthropic-release-notes",
+          "name": "Anthropic API Release Notes",
+          "url": "https://docs.anthropic.com/en/release-notes/api",
+          "desc": "Anthropic Claude 系列模型 API 变更与功能更新。",
+          "tier": "S"
+        },
+        {
+          "id": "nvidia-dev-blog",
+          "name": "NVIDIA 开发者博客",
+          "url": "https://developer.nvidia.com/blog",
+          "desc": "NVIDIA 开发者博客——GPU、CUDA、AI 推理部署。",
+          "tier": "B"
+        }
+      ],
+      "subs": null
+    }
+  },
+  "cat_order": [
+    "platform",
+    "compliance",
+    "supply",
+    "demand",
+    "market",
+    "media",
+    "brand",
+    "capital",
+    "crowdfunding",
+    "payment",
+    "ai_tools",
+    "ai_dev"
+  ],
+  "brand_subs": {
+    "brand-identity": "品牌标识",
+    "design-thinking": "设计思维",
+    "typography": "字体排版",
+    "logo-packaging": "标志包装",
+    "visual-inspo": "视觉灵感",
+    "brand-strategy": "品牌空间策略"
+  }
+}
