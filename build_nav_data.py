@@ -436,7 +436,7 @@ all_sources = [
 # ============================================================
 # Build structured data
 # ============================================================
-cat_order = ["platform", "compliance", "supply", "demand", "market", "media", "brand", "capital", "crowdfunding", "payment", "ai_tools", "ai_dev"]
+cat_order = ["platform", "compliance", "supply", "demand", "market", "media", "capital", "crowdfunding", "payment", "brand", "ai_tools", "ai_dev"]
 cat_meta = {
     "platform": ("平台政策", "按平台分类的规则、API 与费率变动"),
     "compliance": ("合规与法规", "按管辖区的关税、产品安全与贸易政策"),
@@ -510,3 +510,7 @@ for cat in cat_order:
 with open("nav_data.json", "w", encoding="utf-8") as f:
     json.dump({"total": total, "categories": data, "cat_order": cat_order, "brand_subs": brand_subs}, f, ensure_ascii=False, indent=2)
 print(f"\nWritten nav_data.json ({total} sources, {len(cat_order)} categories)")
+
+# Auto-build links.js for nav.sequentry.com JS-rendered page
+import subprocess, sys
+subprocess.run([sys.executable, "build_links_js.py"], check=True)
