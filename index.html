@@ -113,8 +113,8 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .direct-expanded{border-top:1px solid var(--line);padding-top:10px}
 
 /* AI 快速入口 */
-.ai-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(76px,1fr));gap:8px}
-.ai-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:9px 6px 8px;display:grid;gap:6px;place-items:center;text-align:center;transition:border-color .12s,box-shadow .12s,transform .12s}
+.ai-grid{display:flex;gap:8px;overflow-x:auto;overflow-y:hidden;padding-bottom:4px;scroll-snap-type:x proximity}
+.ai-card{flex:0 0 76px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:9px 6px 8px;display:grid;gap:6px;place-items:center;text-align:center;transition:border-color .12s,box-shadow .12s,transform .12s;scroll-snap-align:start}
 .ai-card:hover{border-color:var(--line-strong);box-shadow:0 2px 10px rgba(15,23,42,.05);transform:translateY(-1px)}
 .ai-logo{width:30px;height:30px;border:1px solid var(--line);border-radius:8px;background:var(--paper);display:grid;place-items:center;overflow:hidden}
 .ai-logo img{width:100%;height:100%;object-fit:cover}
@@ -123,6 +123,62 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .ai-logo.fallback span{display:block}
 .ai-card strong{font-size:11px;font-weight:600;line-height:1.2;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ai-card>span.desc{display:none}
+.ai-hint{font:10px/1 var(--mono);color:var(--light);margin-top:6px}
+
+/* 开店入口 / 市场速览 */
+.access-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+.access-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:10px;display:grid;grid-template-columns:22px minmax(0,1fr);gap:4px 9px;align-content:start;transition:border-color .12s,box-shadow .12s,transform .12s}
+.access-card:hover{border-color:var(--line-strong);box-shadow:0 2px 10px rgba(15,23,42,.05);transform:translateY(-1px)}
+.access-card .ico{grid-row:1/4}
+.access-card strong{font-size:13px;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.access-card span{font-size:11.5px;color:var(--muted);line-height:1.42;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.access-actions{grid-column:2;display:flex;gap:6px;flex-wrap:wrap;margin-top:3px}
+.access-actions button{border:1px solid var(--line);border-radius:5px;padding:5px 10px;font:10.5px/1 var(--mono);color:var(--muted);background:transparent}
+.access-actions button:hover{border-color:var(--blue);color:var(--blue)}
+.access-actions button.primary{background:var(--ink);border-color:var(--ink);color:#fff}
+.access-choice{position:fixed;inset:0;z-index:86;display:none;align-items:center;justify-content:center;padding:18px}
+.access-choice.open{display:flex}
+.access-choice-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.18);backdrop-filter:blur(2px)}
+.access-choice-panel{position:relative;width:min(360px,calc(100vw - 36px));border:1px solid var(--line);border-radius:10px;background:var(--paper);box-shadow:0 14px 44px rgba(15,23,42,.18);padding:14px;display:grid;gap:10px}
+.access-choice-head{display:flex;align-items:start;gap:10px}
+.access-choice-head strong{font-size:14px;line-height:1.25}
+.access-choice-head span{display:block;margin-top:3px;color:var(--muted);font-size:11.5px;line-height:1.4}
+.access-choice-close{margin-left:auto;width:28px;height:28px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--muted);font-size:16px;line-height:1}
+.access-choice-list{display:grid;gap:6px}
+.access-choice-list a{border:1px solid var(--line);border-radius:6px;padding:9px 10px;color:var(--deep);font-size:12.5px;line-height:1.2;display:flex;align-items:center;justify-content:space-between}
+.access-choice-list a:hover{border-color:var(--blue);color:var(--blue);background:rgba(30,64,175,.04)}
+.access-choice-list a:after{content:"\2197";font:11px/1 var(--mono);color:var(--light)}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px}
+.market-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:11px 12px;display:grid;gap:7px;align-content:start;min-height:118px}
+.market-card:hover{border-color:var(--line-strong);box-shadow:0 2px 10px rgba(15,23,42,.05)}
+.market-card .micro{font-size:9px;color:var(--blue)}
+.market-card strong{font-size:14px;line-height:1.25}
+.market-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
+.market-links{display:flex;gap:6px;flex-wrap:wrap}
+.market-links a{border:1px solid var(--line);border-radius:5px;padding:5px 7px;font:10px/1 var(--mono);color:var(--muted)}
+.market-links a:hover{border-color:var(--blue);color:var(--blue)}
+.section-action{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:8px 10px;color:var(--blue);font:11px/1 var(--mono)}
+.section-action:hover{border-color:var(--blue);background:rgba(30,64,175,.05)}
+.modal{position:fixed;inset:0;z-index:90;display:none}
+.modal.open{display:block}
+.modal-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.28);backdrop-filter:blur(3px)}
+.modal-panel{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:min(1120px,calc(100vw - 44px));max-height:calc(100vh - 58px);background:var(--paper);border:1px solid var(--line);border-radius:10px;box-shadow:0 18px 60px rgba(15,23,42,.18);overflow:hidden;display:grid;grid-template-rows:auto minmax(0,1fr)}
+.modal-head{display:flex;align-items:flex-start;gap:18px;padding:18px 20px;border-bottom:1px solid var(--line);background:rgba(250,250,250,.95)}
+.modal-head h2{font-family:var(--serif);font-size:22px;line-height:1.2;margin:0 0 5px;font-weight:650}
+.modal-head p{margin:0;color:var(--muted);font-size:12.5px;line-height:1.45}
+.modal-close{margin-left:auto;width:32px;height:32px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--muted);font-size:18px;line-height:1}
+.modal-close:hover{border-color:var(--blue);color:var(--blue)}
+.market-atlas{overflow:auto;padding:18px 20px 22px;display:grid;gap:18px}
+.atlas-section{display:grid;gap:9px}
+.atlas-section h3{margin:0;display:flex;align-items:baseline;gap:8px;font-size:15px;line-height:1.25}
+.atlas-section h3 span{font:10px/1 var(--mono);color:var(--blue);letter-spacing:.08em;text-transform:uppercase}
+.atlas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+.atlas-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:10px 11px;display:grid;gap:6px}
+.atlas-card strong{font-size:13px;line-height:1.3}
+.atlas-card p{margin:0;color:var(--muted);font-size:11.5px;line-height:1.45}
+.atlas-tags{display:flex;flex-wrap:wrap;gap:5px}
+.atlas-tags a,.atlas-tags span{border:1px solid var(--line);border-radius:5px;padding:4px 6px;font:9.5px/1 var(--mono);color:var(--muted)}
+.atlas-tags a:hover{border-color:var(--blue);color:var(--blue)}
 
 /* 今日信息集合（接 feed.js 真数据） */
 .intel-tabs{display:flex;gap:6px;overflow:auto;padding-bottom:1px}
@@ -141,6 +197,21 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .intel-card .intel-source{font:9px/1 var(--mono);color:var(--blue);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .intel-card strong{font-size:13px;line-height:1.32;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .intel-empty{grid-column:1/-1;border:1px dashed var(--line);border-radius:var(--radius);padding:24px;text-align:center;color:var(--muted);font-size:12px}
+.side-intel-summary{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:12px;margin-bottom:10px;display:grid;gap:8px}
+.side-intel-summary .micro{font-size:9.5px;color:var(--blue)}
+.side-intel-summary strong{font-size:20px;line-height:1.08}
+.side-intel-summary span{font-size:12px;color:var(--muted);line-height:1.45}
+.side-intel-tabs{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px;padding-bottom:1px}
+.side-intel-tabs button{flex:0 0 auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:6px 8px;color:var(--muted);font:10px/1 var(--mono)}
+.side-intel-tabs button.active{background:var(--ink);border-color:var(--ink);color:#fff}
+.side-intel-body{display:grid;gap:10px}
+.side-intel-scroll{display:grid;gap:8px;max-height:330px;overflow:auto;padding-right:4px}
+.side-intel-card{display:grid;grid-template-columns:7px minmax(0,1fr);gap:9px;align-items:start;color:var(--muted);font-size:12px;line-height:1.42}
+.side-intel-card:hover{color:var(--blue)}
+.side-intel-card:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--blue);margin-top:5px}
+.side-intel-card strong{display:block;color:var(--deep);font-size:12.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.side-intel-card em{font-style:normal;font:9px/1.35 var(--mono);color:var(--light);display:block;margin-top:3px}
+.side-intel-note{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:10px 11px;color:var(--muted);font-size:12px;line-height:1.45}
 
 /* 完整目录 */
 .catalog{display:grid;gap:24px}
@@ -297,24 +368,30 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
         <div class="direct-expanded" id="directExpanded"></div>
       </section>
 
-      <div class="home-grid">
-        <section class="section" id="sec-ai" data-page-section="ai">
-          <div class="section-head">
-            <div><h2>AI 快速入口</h2><p>主流 AI 工具一键直达</p></div>
-            <span class="grow"></span>
-            <div class="seg" id="aiMode"><button class="active" data-ai-mode="tools">AI 工具</button><button data-ai-mode="api">API 入口</button></div>
+      <section class="section" id="sec-launch" data-page-section="launch">
+        <div class="section-head">
+          <div><h2>开店与后台入口</h2><p>注册、登录、商家后台与广告/支付控制台</p></div>
+          <span class="grow"></span>
+          <button class="section-action" type="button" data-market-modal-open>查看完整市场地图</button>
+        </div>
+        <div class="access-grid" id="launchGrid"></div>
+      </section>
+
+      <section class="section" id="sec-ai" data-page-section="ai">
+        <div class="section-head">
+          <div><h2>AI 快速入口</h2><p>按模型类型切换，单行快速打开</p></div>
+          <span class="grow"></span>
+          <div class="seg" id="aiMode">
+            <button class="active" data-ai-mode="core">通用模型</button>
+            <button data-ai-mode="research">搜索研究</button>
+            <button data-ai-mode="creative">图像视频</button>
+            <button data-ai-mode="china">国内模型</button>
+            <button data-ai-mode="api">API 开发</button>
           </div>
-          <div class="ai-grid" id="aiGrid"></div>
-        </section>
-        <section class="section" id="sec-intel" data-page-section="intel">
-          <div class="section-head">
-            <div><h2>今日信息集合</h2><p>每日更新的跨境动态</p></div>
-            <span class="grow"></span>
-            <div class="intel-tabs" id="intelTabs"></div>
-          </div>
-          <div class="intel-board" id="homeInfo"></div>
-        </section>
-      </div>
+        </div>
+        <div class="ai-grid" id="aiGrid"></div>
+        <div class="ai-hint">横向滚动查看更多入口</div>
+      </section>
 
       <section class="section" id="sec-catalog" data-page-section="catalog">
         <div class="section-head">
@@ -329,8 +406,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 
   <aside class="side">
     <section class="side-panel">
-      <div class="side-title">最近更新</div>
-      <div class="info-list" id="updates"></div>
+      <div class="side-title">今日信息集合</div>
+      <div class="side-intel-tabs" id="sideIntelTabs"></div>
+      <div class="side-intel-body" id="sideIntelBody"></div>
     </section>
     <section class="side-panel">
       <div class="side-title">最近打开</div>
@@ -349,6 +427,34 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 </div>
 
 <button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">↑</button>
+
+<div class="access-choice" id="accessChoice" aria-hidden="true">
+  <div class="access-choice-backdrop" data-access-choice-close></div>
+  <div class="access-choice-panel" role="dialog" aria-modal="true" aria-labelledby="accessChoiceTitle">
+    <div class="access-choice-head">
+      <div>
+        <strong id="accessChoiceTitle">选择入口</strong>
+        <span id="accessChoiceMeta">选择要打开的站点</span>
+      </div>
+      <button class="access-choice-close" type="button" aria-label="关闭" data-access-choice-close>×</button>
+    </div>
+    <div class="access-choice-list" id="accessChoiceList"></div>
+  </div>
+</div>
+
+<div class="modal" id="marketModal" aria-hidden="true">
+  <div class="modal-backdrop" data-market-modal-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="marketModalTitle">
+    <div class="modal-head">
+      <div>
+        <h2 id="marketModalTitle">全球市场与平台地图</h2>
+        <p>按地区、渠道类型和底层能力梳理出海入口。这里先作为导航判断层，后续可继续扩成独立网页。</p>
+      </div>
+      <button class="modal-close" type="button" aria-label="关闭" data-market-modal-close>×</button>
+    </div>
+    <div class="market-atlas" id="marketAtlas"></div>
+  </div>
+</div>
 
 <footer class="foot"><div class="shell">
   <div class="foot-main">
@@ -398,10 +504,54 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   D.categories.forEach(function(c){catMap[c.id]=c;});
   D.links.forEach(function(l){linkMap[l.url]=l;});
 
-  var state={cat:"home",direct:"Amazon",intel:"summary",aiMode:"tools",sub:{},expanded:{},q:"",sel:0};
+  var state={cat:"home",direct:"Amazon",sideIntel:"all",aiMode:"core",sub:{},expanded:{},q:"",sel:0};
 
   /* 场景查询：用于"高频直达"按关键词从 links.js 取链接 */
   var scenes={common:"amazon shopify google trend meta seller chatgpt deepseek deepl fba 汇率 商标 物流 选品 广告"};
+  var SHOP_ACCESS=[
+    {id:"amazon",name:"Amazon Seller",domain:"sell.amazon.com",iconDomain:"amazon.com",desc:"亚马逊开店与卖家中心。",register:[["全球开店","https://sell.amazon.com/"],["欧洲站","https://sell.amazon.com/global-selling/europe"],["日本站","https://sell.amazon.co.jp/"]],admin:[["美国后台","https://sellercentral.amazon.com/"],["英国后台","https://sellercentral.amazon.co.uk/"],["日本后台","https://sellercentral.amazon.co.jp/"]]},
+    {id:"shopify",name:"Shopify",domain:"shopify.com",iconDomain:"shopify.com",desc:"独立站建站、后台管理与合作伙伴入口。",register:[["试用注册","https://www.shopify.com/start"],["Partners","https://partners.shopify.com/"]],admin:[["店铺后台","https://admin.shopify.com/"],["Partners","https://partners.shopify.com/"]]},
+    {id:"tiktok",name:"TikTok Shop",domain:"seller.tiktokglobalshop.com",iconDomain:"tiktok.com",desc:"TikTok Shop 跨境商家入驻和 Seller Center。",register:[["商家入驻","https://seller.tiktokglobalshop.com/"]],admin:[["Seller Center","https://seller.tiktokglobalshop.com/"],["TikTok Ads","https://ads.tiktok.com/"]]},
+    {id:"walmart",name:"Walmart Marketplace",domain:"marketplace.walmart.com",iconDomain:"walmart.com",desc:"沃尔玛市场入驻和 Seller Center。",register:[["申请入驻","https://marketplace.walmart.com/"]],admin:[["卖家后台","https://seller.walmart.com/"]]},
+    {id:"ebay",name:"eBay Seller Hub",domain:"ebay.com",iconDomain:"ebay.com",desc:"eBay 卖家中心、店铺管理与运营后台。",register:[["卖家中心","https://www.ebay.com/sellercenter"]],admin:[["Seller Hub","https://www.ebay.com/sh/ovw"]]},
+    {id:"google",name:"Google Merchant",domain:"merchants.google.com",iconDomain:"google.com",desc:"商品 Feed、Merchant Center 与购物广告基础设施。",register:[["了解注册","https://www.google.com/retail/solutions/merchant-center/"]],admin:[["Merchant Center","https://merchants.google.com/"],["Google Ads","https://ads.google.com/"]]},
+    {id:"meta",name:"Meta Business",domain:"business.facebook.com",iconDomain:"meta.com",desc:"Meta 商务管理平台、广告账户与资产管理。",register:[["Business","https://business.facebook.com/"]],admin:[["Business Suite","https://business.facebook.com/"],["Ads Manager","https://adsmanager.facebook.com/"]]},
+    {id:"shopee",name:"Shopee Seller",domain:"seller.shopee.com",iconDomain:"shopee.com",desc:"Shopee 跨境卖家中心与区域市场后台。",register:[["跨境卖家中心","https://seller.shopee.com/"],["台湾卖家","https://seller.shopee.tw/"],["巴西卖家","https://seller.shopee.com.br/"]],admin:[["跨境后台","https://seller.shopee.com/"],["台湾后台","https://seller.shopee.tw/"],["巴西后台","https://seller.shopee.com.br/"]]},
+    {id:"lazada",name:"Lazada Seller",domain:"sellercenter.lazada.com",iconDomain:"lazada.com",desc:"Lazada 东南亚商家后台与入驻入口。",register:[["Seller Center","https://sellercenter.lazada.com/"]],admin:[["商家后台","https://sellercenter.lazada.com/"],["University","https://university.lazada.com/"]]},
+    {id:"aliexpress",name:"AliExpress Seller",domain:"sell.aliexpress.com",iconDomain:"aliexpress.com",desc:"速卖通商家入驻、商品与店铺管理。",register:[["商家入驻","https://sell.aliexpress.com/"]],admin:[["商家后台","https://gsp.aliexpress.com/"]]}
+  ];
+  var AI_HOT=[
+    {t:"AI Hot Agent",s:"AIHot · 最新 AI 资讯与 Agent 动态",u:"https://aihot.virxact.com/agent",d:"入口"},
+    {t:"OpenAI News",s:"OpenAI · 产品与模型更新",u:"https://openai.com/news/",d:"官方"},
+    {t:"Anthropic News",s:"Anthropic · Claude 与安全研究动态",u:"https://www.anthropic.com/news",d:"官方"},
+    {t:"Google AI Blog",s:"Google · AI 产品与研究更新",u:"https://blog.google/technology/ai/",d:"官方"},
+    {t:"Hugging Face Blog",s:"Hugging Face · 开源模型与社区动态",u:"https://huggingface.co/blog",d:"社区"},
+    {t:"The Batch",s:"DeepLearning.AI · AI 行业周报",u:"https://www.deeplearning.ai/the-batch/",d:"Newsletter"}
+  ];
+  var MARKET_ATLAS=[
+    {label:"region",title:"地区市场",items:[
+      {name:"北美",desc:"美国、加拿大，平台成熟、广告竞争强、合规和履约要求稳定。",tags:[["Amazon","https://sellercentral.amazon.com/"],["Walmart","https://seller.walmart.com/"],["eBay","https://www.ebay.com/sh/ovw"],["Google Merchant","https://merchants.google.com/"]]},
+      {name:"欧洲",desc:"多国本地化、VAT、EPR、CE/UKCA 等规则密集，适合长期品牌化。",tags:[["Amazon EU","https://sell.amazon.com/global-selling/europe"],["Zalando","https://partner.zalando.com/"],["Kaufland","https://www.kauflandglobalmarketplace.com/en/"],["Otto","https://www.otto.market/"]]},
+      {name:"英国",desc:"独立站、Amazon UK、TikTok Shop 和零售媒体并行，合规独立于欧盟。",tags:[["Amazon UK","https://sell.amazon.co.uk/"],["TikTok Shop UK","https://seller.tiktokglobalshop.com/"],["Companies House","https://www.gov.uk/government/organisations/companies-house"]]},
+      {name:"东南亚",desc:"Shopee、Lazada、TikTok Shop 主导，内容电商、本地履约和价格带差异大。",tags:[["Shopee","https://seller.shopee.com/"],["Lazada","https://sellercenter.lazada.com/"],["TikTok Shop","https://seller.tiktokglobalshop.com/"]]},
+      {name:"日本 / 韩国",desc:"消费审美、平台文化和本地客服要求高，适合精细品牌和垂直品类。",tags:[["Amazon Japan","https://sell.amazon.co.jp/"],["Rakuten","https://global.rakuten.com/corp/"],["Coupang","https://globalsellers.coupang.com/"]]},
+      {name:"拉美",desc:"Mercado Libre、Amazon、Shopee 等混合市场，支付、物流和本地化是关键。",tags:[["Mercado Libre","https://global-selling.mercadolibre.com/"],["Amazon Mexico","https://sell.amazon.com/global-selling/mexico"],["Shopee Brazil","https://seller.shopee.com.br/"]]},
+      {name:"中东",desc:"海湾市场客单价较高，Noon、Amazon.ae、本地支付和清关能力重要。",tags:[["Noon","https://sell.withnoon.com/"],["Amazon UAE","https://sell.amazon.ae/"],["Amazon Saudi","https://sell.amazon.sa/"]]},
+      {name:"南亚 / 印度",desc:"规模巨大但本地规则复杂，适合供应链、本地伙伴和价格带精细化。",tags:[["Amazon India","https://sell.amazon.in/"],["Flipkart","https://seller.flipkart.com/"],["IndiaMART","https://www.indiamart.com/"]]},
+      {name:"澳新",desc:"规模较小但消费能力强，适合品牌测试、户外、母婴、家居等品类。",tags:[["Amazon AU","https://sell.amazon.com.au/"],["eBay AU","https://www.ebay.com.au/sh/ovw"],["Catch","https://www.catch.com.au/sell"]]},
+      {name:"非洲",desc:"增长型市场，Jumia 等平台与本地支付、物流网络仍在快速变化。",tags:[["Jumia","https://www.jumia.com/"],["Takealot","https://www.takealot.com/sell"]]}
+    ]},
+    {label:"channel",title:"渠道类型",items:[
+      {name:"综合平台",desc:"适合快速验证需求、利用平台流量和标准化履约。",tags:[["Amazon","https://sellercentral.amazon.com/"],["Walmart","https://seller.walmart.com/"],["eBay","https://www.ebay.com/sh/ovw"]]},
+      {name:"内容电商",desc:"适合短视频素材、达人合作和内容驱动转化。",tags:[["TikTok Shop","https://seller.tiktokglobalshop.com/"],["Meta Business","https://business.facebook.com/"],["YouTube Shopping","https://www.youtube.com/creators/shopping/"]]},
+      {name:"独立站",desc:"适合沉淀品牌资产、私域复购和更高自由度的转化实验。",tags:[["Shopify","https://admin.shopify.com/"],["WooCommerce","https://woocommerce.com/"],["BigCommerce","https://www.bigcommerce.com/"]]},
+      {name:"垂直零售",desc:"适合服饰、美妆、家居、电子等垂直平台和精选渠道。",tags:[["Zalando","https://partner.zalando.com/"],["Wayfair","https://partners.wayfair.com/"],["Etsy","https://www.etsy.com/sell"]]},
+      {name:"B2B / 批发",desc:"适合工厂、ODM/OEM、批发询盘和渠道型客户。",tags:[["Alibaba","https://seller.alibaba.com/"],["Global Sources","https://www.globalsources.com/"],["Faire","https://www.faire.com/brands"]]},
+      {name:"广告与流量",desc:"适合需求验证、素材测试、受众洞察和再营销。",tags:[["Meta Ads","https://business.facebook.com/"],["Google Ads","https://ads.google.com/"],["TikTok Ads","https://ads.tiktok.com/"],["Pinterest Ads","https://ads.pinterest.com/"]]},
+      {name:"支付与金融",desc:"影响转化、收款、风控和现金流周转。",tags:[["PayPal","https://www.paypal.com/business"],["Stripe","https://dashboard.stripe.com/"],["Payoneer","https://www.payoneer.com/"]]},
+      {name:"物流与履约",desc:"影响时效、退货、库存周转和跨境体验。",tags:[["Amazon FBA","https://sell.amazon.com/fulfillment-by-amazon"],["ShipBob","https://www.shipbob.com/"],["Flexport","https://www.flexport.com/"]]}
+    ]}
+  ];
 
   /* ---------- 工具 ---------- */
   function id(x){return document.getElementById(x);}
@@ -413,6 +563,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   function matches(l,q){var h=hay(l);return words(q).some(function(w){return h.indexOf(w)>=0;});}
   function sortLinks(a){return a.slice().sort(function(x,y){return (RANK[x.tier]-RANK[y.tier])||String(x.name).localeCompare(String(y.name));});}
   function sceneLinks(q){var arr=D.links.filter(function(l){return matches(l,q);});return sortLinks(arr.length?arr:D.links);}
+  function domainFromUrl(u){try{return new URL(u).hostname.replace(/^www\./,"");}catch(e){return "";}}
 
   /* 多源 favicon 兜底：DuckDuckGo → 站点 /favicon.ico → icon.horse → 首字母色块 */
   // favicon 多源兜底——国内可达优先（DuckDuckGo/icon.horse 在墙内常失败，故后置）。
@@ -423,7 +574,37 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     function(d){return "https://"+d+"/favicon.ico";},
     function(d){return "https://icons.duckduckgo.com/ip3/"+d+".ico";}
   ];
+  var BRAND_ICON_SRC=[
+    function(d){return "https://www.google.com/s2/favicons?domain="+d+"&sz=64";},
+    function(d){return "https://favicon.im/"+d;},
+    function(d){return "https://"+d+"/favicon.ico";}
+  ];
   function iconKey(d){return String(d||"").toLowerCase();}
+  var LOCAL_ICONS={
+    "sell.amazon.com":["#ff9900","a"],"sellercentral.amazon.com":["#ff9900","a"],
+    "shopify.com":["#95bf47","S"],"admin.shopify.com":["#95bf47","S"],
+    "seller.tiktokglobalshop.com":["#111827","♪"],"tiktok.com":["#111827","♪"],
+    "marketplace.walmart.com":["#0071ce","✶"],"seller.walmart.com":["#0071ce","✶"],
+    "ebay.com":["#e53238","e"],"merchants.google.com":["#4285f4","G"],
+    "business.facebook.com":["#1877f2","f"],"seller.shopee.com":["#ee4d2d","S"],
+    "seller.shopee.tw":["#ee4d2d","S"],"seller.shopee.com.br":["#ee4d2d","S"],
+    "sellercenter.lazada.com":["#1a2b8f","L"],"sell.aliexpress.com":["#e62e04","A"],
+    "gsp.aliexpress.com":["#e62e04","A"],"paypal.com":["#003087","P"],
+    "stripe.com":["#635bff","S"],"dashboard.stripe.com":["#635bff","S"],
+    "zalando.com":["#ff6900","Z"],"partner.zalando.com":["#ff6900","Z"],
+    "kauflandglobalmarketplace.com":["#e30613","K"],"otto.market":["#d4021d","O"],
+    "noon.com":["#feee00","N"],"sell.withnoon.com":["#feee00","N"],
+    "mercadolibre.com":["#ffe600","M"],"global-selling.mercadolibre.com":["#ffe600","M"],
+    "rakuten.com":["#bf0000","R"],"global.rakuten.com":["#bf0000","R"],
+    "coupang.com":["#e41f1f","C"],"globalsellers.coupang.com":["#e41f1f","C"],
+    "etsy.com":["#f1641e","E"],"wayfair.com":["#7f187f","W"],
+    "alibaba.com":["#ff6a00","A"],"seller.alibaba.com":["#ff6a00","A"]
+  };
+  function localIconData(d){
+    var x=LOCAL_ICONS[iconKey(d)];if(!x)return "";
+    var bg=encodeURIComponent(x[0]),txt=encodeURIComponent(x[1]);
+    return "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='"+bg+"'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Inter,Arial,sans-serif' font-size='30' font-weight='700' fill='%23fff'%3E"+txt+"%3C/text%3E%3C/svg%3E";
+  }
   function saveIconCache(){saveLS("sq_nav_icon_cache_v2",iconCache);}
   function iconIndex(d){var v=iconCache[iconKey(d)];return typeof v==="number"?v:0;}
   function iconSrc(d,i){return ICON_SRC[Math.max(0,Math.min(i,ICON_SRC.length-1))](d);}
@@ -431,9 +612,11 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   window.navIconOK=function(img){rememberIcon(img,parseInt(img.dataset.i,10)||0);};
   window.navIcon=function(img){var i=(parseInt(img.dataset.i,10)||0)+1;if(i<ICON_SRC.length){img.dataset.i=i;img.src=iconSrc(img.dataset.d,i);}else{rememberIcon(img,-1);img.remove();}};
   window.aiIconErr=function(img){var i=(parseInt(img.dataset.i,10)||0)+1;if(i<ICON_SRC.length){img.dataset.i=i;img.src=iconSrc(img.dataset.d,i);}else{var p=img.parentNode;rememberIcon(img,-1);img.remove();if(p)p.classList.add("fallback");}};
+  window.brandIconErr=function(img){var i=(parseInt(img.dataset.i,10)||0)+1;if(i<BRAND_ICON_SRC.length){img.dataset.i=i;img.src=BRAND_ICON_SRC[i](img.dataset.d);}else{img.remove();}};
   function iconColor(s){var pal=["#1F2937","#1E40AF","#8B1A1A","#8A6A1F","#3F5161","#1F5C56","#5D6A2C","#6B4A7A"];var h=0;s=s||"?";for(var i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))>>>0;return pal[h%pal.length];}
-  function iconImg(rawD,err){var idx=iconIndex(rawD);if(!rawD||idx<0)return "";var d=esc(rawD);return '<img data-d="'+d+'" data-i="'+idx+'" src="'+esc(iconSrc(rawD,idx))+'" alt="" loading="lazy" onload="navIconOK(this)" onerror="'+err+'(this)">';}
+  function iconImg(rawD,err){var local=localIconData(rawD);if(local)return '<img src="'+local+'" alt="" loading="lazy">';var idx=iconIndex(rawD);if(!rawD||idx<0)return "";var d=esc(rawD);return '<img data-d="'+d+'" data-i="'+idx+'" src="'+esc(iconSrc(rawD,idx))+'" alt="" loading="lazy" onload="navIconOK(this)" onerror="'+err+'(this)">';}
   function icon(l){var rawD=l.domain||"",ch=esc((l.name||"?").trim().charAt(0).toUpperCase());return '<span class="ico" style="background:'+iconColor(l.domain||l.name)+'">'+ch+iconImg(rawD,"navIcon")+'</span>';}
+  function brandIcon(l){var rawD=l.iconDomain||l.domain||"",ch=esc((l.name||"?").trim().charAt(0).toUpperCase());var d=esc(rawD);var img=rawD?'<img data-d="'+d+'" data-i="0" src="'+esc(BRAND_ICON_SRC[0](rawD))+'" alt="" loading="lazy" onerror="brandIconErr(this)">':"";return '<span class="ico" style="background:'+iconColor(rawD||l.name)+'">'+ch+img+'</span>';}
   function aiIcon(l){var rawD=l.domain||"",ch=esc((l.name||"?").trim().charAt(0).toUpperCase()),idx=iconIndex(rawD);return '<span class="ai-logo '+(!rawD||idx<0?'fallback':'')+'">'+iconImg(rawD,"aiIconErr")+'<span>'+ch+'</span></span>';}
   function track(l){if(!l||!l.url)return;recent=[l.url].concat(recent.filter(function(u){return u!==l.url;})).slice(0,12);saveLS("sq_nav_ind_recent",recent);renderRecent();}
   function card(l){return '<a class="site-card" href="'+esc(l.url)+'" target="_blank" rel="noopener" data-url="'+esc(l.url)+'">'+icon(l)+'<span class="site-name">'+esc(l.name)+'</span><span class="site-desc">'+esc(l.desc||"")+'</span><span class="site-domain">'+esc(l.domain||"")+'</span></a>';}
@@ -441,7 +624,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 
   /* ---------- 左侧导航 ---------- */
   function renderRail(){
-    var pages=[["direct","高频直达"],["ai","AI 快速入口"],["intel","今日信息集合"],["catalog","完整目录"]];
+    var pages=[["direct","高频直达"],["launch","开店与后台"],["ai","AI 快速入口"],["catalog","完整目录"]];
     var html='<div class="rail-group">页面模块</div>'+pages.map(function(p){return '<button class="rail-link '+(state.cat===p[0]?'active':'')+'" data-page-target="'+p[0]+'"><span>'+p[1]+'</span></button>';}).join("");
     var last=null;
     D.categories.forEach(function(c){if(c.group!==last){last=c.group;html+='<div class="rail-group">'+esc(GROUP[c.group]||c.group)+'</div>';}html+='<button class="rail-link '+(state.cat===c.id?'active':'')+'" data-cat="'+esc(c.id)+'"><span>'+esc(c.name)+'</span></button>';});
@@ -466,27 +649,64 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     id("directExpanded").innerHTML='<div class="site-grid">'+sortLinks(links).slice(0,8).map(card).join("")+'</div>';
   }
 
+  /* ---------- 开店与后台入口 ---------- */
+  function renderLaunch(){
+    id("launchGrid").innerHTML=SHOP_ACCESS.map(function(l){
+      return '<article class="access-card">'+brandIcon(l)+'<strong>'+esc(l.name)+'</strong><span>'+esc(l.desc)+'</span><div class="access-actions"><button class="primary" type="button" data-access-id="'+esc(l.id)+'" data-access-kind="register">注册</button><button type="button" data-access-id="'+esc(l.id)+'" data-access-kind="admin">后台</button></div></article>';
+    }).join("");
+  }
+  function accessById(pid){return SHOP_ACCESS.filter(function(x){return x.id===pid;})[0];}
+  function closeAccessChoice(){id("accessChoice").classList.remove("open");id("accessChoice").setAttribute("aria-hidden","true");}
+  function openAccessChoice(platform,kind){
+    var choices=(platform&&platform[kind])||[];
+    if(!choices.length)return;
+    if(choices.length===1){window.open(choices[0][1],"_blank","noopener");return;}
+    id("accessChoiceTitle").textContent=platform.name+" · "+(kind==="register"?"注册":"后台");
+    id("accessChoiceMeta").textContent="选择要打开的站点入口";
+    id("accessChoiceList").innerHTML=choices.map(function(x){return '<a href="'+esc(x[1])+'" target="_blank" rel="noopener">'+esc(x[0])+'</a>';}).join("");
+    id("accessChoice").classList.add("open");id("accessChoice").setAttribute("aria-hidden","false");
+  }
+
   /* ---------- AI 快速入口 ---------- */
+  var AI_GROUPS={
+    core:{name:"通用模型",source:"tools",names:["DeepSeek","ChatGPT","Claude","Gemini","Perplexity","Grok","Copilot","Meta AI","Le Chat","Poe","You.com"]},
+    research:{name:"搜索研究",source:"tools",names:["Perplexity","You.com","Kimi","秘塔AI","纳米AI","DeepSeek","ChatGPT","Claude"]},
+    creative:{name:"图像视频",source:"tools",names:["Midjourney","Runway","可灵AI","即梦AI","Suno","ElevenLabs"]},
+    china:{name:"国内模型",source:"tools",names:["Kimi","通义千问","豆包","文小言","智谱清言","讯飞星火","腾讯元宝","海螺AI","阶跃星辰","秘塔AI","纳米AI","DeepSeek"]},
+    api:{name:"API 开发",source:"api"}
+  };
+  function aiGroupList(){
+    var g=AI_GROUPS[state.aiMode]||AI_GROUPS.core;
+    var src=g.source==="api"?AI.api:AI.tools;
+    var list=src&&src.length?src:[];
+    if(g.names&&g.names.length){
+      var rank={};g.names.forEach(function(n,i){rank[n]=i;});
+      list=list.filter(function(l){return rank[l.name]!=null;}).sort(function(a,b){return rank[a.name]-rank[b.name];});
+    }
+    return list.length?list:(AI.tools||[]);
+  }
   function renderAiDock(){
-    var listObj=state.aiMode==="api"?AI.api:AI.tools;var list=listObj&&listObj.length?listObj:AI.tools;
+    var list=aiGroupList();
     id("aiMode").querySelectorAll("button").forEach(function(b){b.classList.toggle("active",b.dataset.aiMode===state.aiMode);});
     id("aiGrid").innerHTML=list.map(function(l){return '<a class="ai-card" href="'+esc(l.url)+'" target="_blank" rel="noopener" data-url="'+esc(l.url)+'" title="'+esc(l.name)+' · '+esc(l.desc||"")+'">'+aiIcon(l)+'<strong>'+esc(l.name)+'</strong><span class="desc">'+esc(l.desc||"")+'</span></a>';}).join("");
   }
 
-  /* ---------- 今日信息集合（feed.js 真数据） ---------- */
-  function feedAll(){var arr=[];Object.keys(FEED).forEach(function(k){(FEED[k]||[]).forEach(function(it){arr.push({cat:k,t:it.t,s:it.s,u:it.u,d:it.d});});});arr.sort(function(a,b){return String(b.d||"").localeCompare(String(a.d||""));});return arr;}
-  function intelModules(){var mods=[{id:"summary",name:"汇总"}];Object.keys(FEED).forEach(function(k){if((FEED[k]||[]).length)mods.push({id:k,name:(catMap[k]&&catMap[k].name)||k});});return mods;}
-  function intelCard(it){var src=(it.s||"")+(it.d?" · "+it.d:"");return '<a class="intel-card" href="'+esc(it.u)+'" target="_blank" rel="noopener"><span class="intel-source">'+esc(src||"来源")+'</span><strong>'+esc(it.t)+'</strong></a>';}
-  function renderIntel(){
-    var mods=intelModules();if(!mods.some(function(m){return m.id===state.intel;}))state.intel="summary";
-    id("intelTabs").innerHTML=mods.map(function(m){return '<button class="'+(m.id===state.intel?'active':'')+'" data-intel="'+esc(m.id)+'">'+esc(m.name)+'</button>';}).join("");
-    var items,label,metric,desc;
-    if(state.intel==="summary"){items=feedAll().slice(0,8);label="TODAY";metric=feedAll().length+" 条动态";desc="各模块最新动态汇总，按时间排序。"+(FEED_UPD?"更新 "+FEED_UPD:"");}
-    else{items=(FEED[state.intel]||[]).slice();label="FEED";metric=items.length+" 条";desc=(catMap[state.intel]&&catMap[state.intel].desc)||"该模块最新动态。";}
-    var cards=items.length?items.map(intelCard).join(""):'<div class="intel-empty">这个模块今天还没有抓到动态。</div>';
-    id("homeInfo").innerHTML='<div class="intel-summary"><span class="micro">'+esc(label)+'</span><strong>'+esc(metric)+'</strong><span>'+esc(desc)+'</span></div><div class="intel-cards">'+cards+'</div>';
+  function renderMarketAtlas(){
+    id("marketAtlas").innerHTML=MARKET_ATLAS.map(function(sec){
+      var cards=sec.items.map(function(item){
+        var tags=item.tags.map(function(t){return '<a href="'+esc(t[1])+'" target="_blank" rel="noopener">'+esc(t[0])+'</a>';}).join("");
+        return '<article class="atlas-card"><strong>'+esc(item.name)+'</strong><p>'+esc(item.desc)+'</p><div class="atlas-tags">'+tags+'</div></article>';
+      }).join("");
+      return '<section class="atlas-section"><h3><span>'+esc(sec.label)+'</span>'+esc(sec.title)+'</h3><div class="atlas-grid">'+cards+'</div></section>';
+    }).join("");
+  }
+  function setMarketModal(open){
+    var modal=id("marketModal");modal.classList.toggle("open",!!open);modal.setAttribute("aria-hidden",open?"false":"true");
+    if(open)renderMarketAtlas();
   }
 
+  /* ---------- 今日信息集合（feed.js 真数据） ---------- */
+  function feedAll(){var arr=[];Object.keys(FEED).forEach(function(k){(FEED[k]||[]).forEach(function(it){arr.push({cat:k,t:it.t,s:it.s,u:it.u,d:it.d});});});arr.sort(function(a,b){return String(b.d||"").localeCompare(String(a.d||""));});return arr;}
   /* ---------- 完整目录 ---------- */
   function catalogPageSize(){return document.body.dataset.view==="compact"?12:10;}
   function catalogLimit(cid,total){
@@ -503,15 +723,34 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
       var shown=base.filter(function(l){return active==="all"||l.sub===active;});
       var limit=catalogLimit(c.id,shown.length);
       var visible=shown.slice(0,limit);
+      var controls=(shown.length>limit?'<button data-dir-more="'+esc(c.id)+'">更多 '+(shown.length-limit)+' 个</button>':'')+(limit>catalogPageSize()?'<button data-dir-collapse="'+esc(c.id)+'">收起</button>':'');
       var tabs='<div class="sub-tabs" data-dir-cat="'+esc(c.id)+'"><button class="'+(active==="all"?'active':'')+'" data-dir-sub="all">全部</button>'+subs.map(function(s){var n=base.filter(function(l){return l.sub===s.id;}).length;return '<button class="'+(active===s.id?'active':'')+'" data-dir-sub="'+esc(s.id)+'">'+esc(s.name)+' · '+n+'</button>';}).join("")+'</div>';
-      return '<section class="dir-section" id="dir-cat-'+esc(c.id)+'" data-dir-section="'+esc(c.id)+'"><div class="dir-head"><span class="dir-index">'+String(idx+1).padStart(2,"0")+'</span><h3>'+esc(c.name)+'</h3><span class="dir-count">'+base.length+' 个</span><span class="dir-desc">'+esc(c.desc||"")+'</span></div>'+tabs+'<div class="site-grid">'+(visible.length?visible.map(card).join(""):'<div class="empty">这个子类暂时没有入口。</div>')+'</div>'+(shown.length>limit?'<div class="more-line"><button data-dir-more="'+esc(c.id)+'">更多 '+(shown.length-limit)+' 个</button></div>':'')+'</section>';
+      return '<section class="dir-section" id="dir-cat-'+esc(c.id)+'" data-dir-section="'+esc(c.id)+'"><div class="dir-head"><span class="dir-index">'+String(idx+1).padStart(2,"0")+'</span><h3>'+esc(c.name)+'</h3><span class="dir-count">'+base.length+' 个</span><span class="dir-desc">'+esc(c.desc||"")+'</span></div>'+tabs+'<div class="site-grid">'+(visible.length?visible.map(card).join(""):'<div class="empty">这个子类暂时没有入口。</div>')+'</div>'+(controls?'<div class="more-line">'+controls+'</div>':'')+'</section>';
     }).join("");
   }
 
   /* ---------- 右侧面板 ---------- */
-  function renderUpdates(){
-    var items=feedAll().slice(0,6);
-    id("updates").innerHTML=items.length?items.map(function(it){return '<a href="'+esc(it.u)+'" target="_blank" rel="noopener"><span class="dot"></span><span>'+esc(it.t)+'<em>'+esc((it.s||"")+(it.d?" · "+it.d:""))+'</em></span></a>';}).join(""):'<a><span class="dot"></span><span>暂无动态，运行 build_feed.py 刷新。</span></a>';
+  function sideIntelCard(it){
+    return '<a class="side-intel-card" href="'+esc(it.u)+'" target="_blank" rel="noopener"><span><strong>'+esc(it.t)+'</strong><em>'+esc((it.s||"")+(it.d?" · "+it.d:""))+'</em></span></a>';
+  }
+  function renderSideIntel(){
+    var modes=[["all","汇总"],["aihot","及时 AI 资讯"],["platform","平台与渠道"],["compliance","合规履约"],["market","市场选品"]];
+    if(!modes.some(function(m){return m[0]===state.sideIntel;}))state.sideIntel="all";
+    id("sideIntelTabs").innerHTML=modes.map(function(m){return '<button class="'+(m[0]===state.sideIntel?'active':'')+'" data-side-intel="'+m[0]+'">'+m[1]+'</button>';}).join("");
+    var items=[],label="TODAY",metric="",desc="";
+    if(state.sideIntel==="aihot"){
+      items=AI_HOT;label="AI NOW";metric=items.length+" 个入口";desc="及时 AI 资讯、Agent、模型和社区动态入口。";
+    }else if(state.sideIntel==="platform"){
+      items=(FEED["platform-channel"]||[]).slice(0,14);metric=items.length+" 条动态";desc="平台规则、卖家政策与渠道生态更新。";
+    }else if(state.sideIntel==="compliance"){
+      items=(FEED["compliance-fulfillment"]||[]).slice(0,14);metric=items.length+" 条动态";desc="法规、履约、物流、支付与风险动态。";
+    }else if(state.sideIntel==="market"){
+      items=(FEED["market-product"]||[]).slice(0,14);metric=items.length+" 条动态";desc="需求信号、消费趋势和选品机会。";
+    }else{
+      items=feedAll().slice(0,14);metric=feedAll().length+" 条动态";desc="各模块最新动态汇总，按时间排序。"+(FEED_UPD?"更新 "+FEED_UPD:"");
+    }
+    var list=items.length?'<div class="side-intel-scroll">'+items.map(sideIntelCard).join("")+'</div>':'<div class="side-intel-note">暂无动态，运行 build_feed.py 刷新。</div>';
+    id("sideIntelBody").innerHTML='<div class="side-intel-summary"><span class="micro">'+esc(label)+'</span><strong>'+esc(metric||"暂无动态")+'</strong><span>'+esc(desc)+'</span></div>'+list;
   }
   function renderRecent(){
     var items=recent.map(function(u){return linkMap[u];}).filter(Boolean).slice(0,7);
@@ -541,9 +780,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   }
   function renderHome(){
     id("home").style.display="";id("searchSection").style.display="none";
-    renderDirect();renderAiDock();renderIntel();renderCatalog();
+    renderDirect();renderLaunch();renderAiDock();renderCatalog();
   }
-  function render(){renderRail();if(state.q){renderSearch();}else{renderHome();}renderUpdates();renderRecent();renderTime();}
+  function render(){renderRail();if(state.q){renderSearch();}else{renderHome();}renderSideIntel();renderRecent();renderTime();}
 
   /* ---------- 交互 ---------- */
   document.addEventListener("click",function(e){
@@ -557,12 +796,19 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     if(direct){state.direct=direct.dataset.direct;renderDirectPanel();return;}
     var aiMode=e.target.closest("[data-ai-mode]");
     if(aiMode){state.aiMode=aiMode.dataset.aiMode;renderAiDock();return;}
-    var intel=e.target.closest("[data-intel]");
-    if(intel){state.intel=intel.dataset.intel;renderIntel();return;}
+    var accessBtn=e.target.closest("[data-access-id]");
+    if(accessBtn){openAccessChoice(accessById(accessBtn.dataset.accessId),accessBtn.dataset.accessKind);return;}
+    if(e.target.closest("[data-access-choice-close]")){closeAccessChoice();return;}
+    var sideIntel=e.target.closest("[data-side-intel]");
+    if(sideIntel){state.sideIntel=sideIntel.dataset.sideIntel;renderSideIntel();return;}
+    if(e.target.closest("[data-market-modal-open]")){setMarketModal(true);return;}
+    if(e.target.closest("[data-market-modal-close]")){setMarketModal(false);return;}
     var dirSub=e.target.closest("[data-dir-sub]");
     if(dirSub){var w=dirSub.closest("[data-dir-cat]");if(w){state.sub[w.dataset.dirCat]=dirSub.dataset.dirSub;delete state.expanded[w.dataset.dirCat];renderCatalog();setTimeout(function(){var el=id("dir-cat-"+w.dataset.dirCat);if(el)el.scrollIntoView({block:"start",behavior:"smooth"});},20);}return;}
     var dirMore=e.target.closest("[data-dir-more]");
     if(dirMore){var cid=dirMore.dataset.dirMore;state.expanded[cid]=(state.expanded[cid]||catalogPageSize())+catalogPageSize();renderCatalog();return;}
+    var dirCollapse=e.target.closest("[data-dir-collapse]");
+    if(dirCollapse){delete state.expanded[dirCollapse.dataset.dirCollapse];renderCatalog();return;}
     var a=e.target.closest("a[data-url]");if(a)track(linkMap[a.dataset.url]);
   });
   id("viewMode").addEventListener("click",function(e){var b=e.target.closest("[data-view]");if(!b)return;document.body.dataset.view=b.dataset.view;id("viewMode").querySelectorAll("button").forEach(function(x){x.classList.toggle("active",x===b);});renderCatalog();});
@@ -577,7 +823,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     else if(e.key==="ArrowUp"){e.preventDefault();state.sel=Math.max(state.sel-1,0);renderSearch();}
     else if(e.key==="Enter"){e.preventDefault();rows[state.sel].click();}
   });
-  window.addEventListener("keydown",function(e){if(e.key==="/"&&document.activeElement!==q){e.preventDefault();q.focus();q.select();}});
+  window.addEventListener("keydown",function(e){if(e.key==="Escape"&&id("accessChoice").classList.contains("open")){closeAccessChoice();return;}if(e.key==="Escape"&&id("marketModal").classList.contains("open")){setMarketModal(false);return;}if(e.key==="/"&&document.activeElement!==q){e.preventDefault();q.focus();q.select();}});
 
   /* 滚动联动：高亮左侧当前所在模块/分类 */
   function syncRail(){
