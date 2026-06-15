@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>收录与评估标准 · 序引海图</title>
+<meta name="description" content="序引海图的收录、分级、复核与风险标注标准。">
+<link rel="canonical" href="https://nav.sequentry.com/standards.html">
+<link rel="icon" type="image/svg+xml" href="./assets/xuyin-haitu-icon.svg">
+<link rel="apple-touch-icon" href="./assets/xuyin-haitu-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAFAFA;--paper:#FFFFFF;--panel:#F4F6F8;--ink:#0F172A;--deep:#1F2937;--muted:#6B7280;--light:#9CA3AF;--line:rgba(15,23,42,.09);--line-strong:rgba(15,23,42,.18);--blue:#1E40AF;--red:#B91C1C;--radius:8px;--sans:Inter,"Noto Sans SC","Microsoft YaHei","PingFang SC",system-ui,sans-serif;--serif:Fraunces,"Noto Serif SC","Source Han Serif SC","Songti SC",Georgia,serif;--mono:"JetBrains Mono","SF Mono",Consolas,Monaco,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;background-image:url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1.2' cy='1.2' r='1' fill='%230F172A' fill-opacity='0.04'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}
+.top{position:sticky;top:0;z-index:10;background:rgba(250,250,250,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top-in{width:min(1120px,calc(100% - 36px));height:64px;margin:0 auto;display:flex;align-items:center;gap:16px}
+.brand{display:grid;grid-template-columns:32px minmax(0,1fr);align-items:center;gap:9px;margin-right:auto}
+.brand img{width:32px;height:32px;display:block}
+.brand-copy{display:grid;gap:2px}
+.brand strong{font-family:var(--serif);font-size:22px;line-height:1;font-weight:650}
+.brand span{font:10px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.nav{display:flex;gap:8px;flex-wrap:wrap}
+.nav a{border:1px solid var(--line);border-radius:6px;background:var(--paper);padding:8px 10px;color:var(--muted);font:11px/1 var(--mono)}
+.nav a:hover{border-color:var(--blue);color:var(--blue)}
+.wrap{width:min(1120px,calc(100% - 36px));margin:0 auto;padding:34px 0 64px}
+.hero{border:1px solid var(--line);border-radius:10px;background:var(--paper);padding:28px}
+.kicker,.eyebrow{font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-size:10px}
+h1{font-family:var(--serif);font-size:38px;line-height:1.12;margin:10px 0 12px;font-weight:650;letter-spacing:0}
+.lead{max-width:760px;color:var(--deep);font-size:15px;line-height:1.8;margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:18px}
+.metric,.card{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:15px}
+.metric strong{display:block;font:24px/1.05 var(--serif);font-weight:650}
+.metric span{display:block;margin-top:6px;color:var(--muted);font-size:12px;line-height:1.45}
+.section{margin-top:22px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.78);padding:22px}
+h2{font-family:var(--serif);font-size:23px;line-height:1.22;margin:0 0 12px;font-weight:650}
+.section>p{color:var(--muted);font-size:13.5px;line-height:1.75;margin:0 0 16px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.card h3{font-size:15px;line-height:1.35;margin:0 0 8px}
+.card p{color:var(--muted);font-size:12.5px;line-height:1.65;margin:0}
+.rule-list{display:grid;gap:10px}
+.rule{display:grid;grid-template-columns:76px minmax(0,1fr);gap:14px;border-top:1px solid var(--line);padding-top:13px}
+.rule:first-child{border-top:0;padding-top:0}
+.rule b{font:12px/1 var(--mono);color:var(--blue)}
+.rule p{margin:0;color:var(--deep);font-size:13px;line-height:1.7}
+.notice{border-left:3px solid var(--red);background:#fff;border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0 8px 8px 0;padding:14px 15px;color:var(--deep);font-size:13px;line-height:1.7}
+.foot{margin-top:28px;color:var(--light);font:11px/1.6 var(--mono);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:760px){.top-in{height:auto;padding:12px 0;align-items:flex-start}.grid,.cards{grid-template-columns:1fr}.rule{grid-template-columns:1fr}h1{font-size:30px}.hero,.section{padding:18px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="./index.html"><img src="./assets/xuyin-haitu-icon.svg" alt=""><span class="brand-copy"><strong>序引海图</strong><span>Sequentry Atlas</span></span></a>
+  <nav class="nav"><a href="./index.html">返回导航</a></nav>
+</div></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="kicker">Method</div>
+    <h1>收录与评估标准</h1>
+    <p class="lead">序引海图不是追求链接数量的导航站，而是面向品牌出海操盘者的工具与信源地图。每个入口都服务于一个明确任务：发现机会、判断规则、搭建能力、规避风险，或提升日常执行效率。</p>
+    <div class="grid">
+      <div class="metric"><strong>S</strong><span>必看入口。官方源、关键控制台、强相关工具，优先展示和复核。</span></div>
+      <div class="metric"><strong>A</strong><span>常看入口。用于趋势判断、运营执行、专题研究和交叉验证。</span></div>
+      <div class="metric"><strong>B</strong><span>长尾入口。补充视角、地区差异、案例材料或低频任务。</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>收录原则</h2>
+    <p>一个入口进入海图，需要回答“它能帮助用户做出什么具体判断或动作”。不能说明用途的链接，即使知名，也不优先收录。</p>
+    <div class="cards">
+      <article class="card"><h3>官方优先</h3><p>平台政策、API 文档、监管法规、商家后台、公告中心优先于二手解读。媒体和社区用于补充语境，不替代原始来源。</p></article>
+      <article class="card"><h3>任务优先</h3><p>分类不是按行业百科展开，而是按品牌出海任务组织：平台、选品、增长、视觉生产、自动化、合规、履约和情报源。</p></article>
+      <article class="card"><h3>复核优先</h3><p>S/A 级入口需要定期复核链接可用性、描述准确性和适用场景。过期、停更或误导性入口降级或移除。</p></article>
+      <article class="card"><h3>风险显性</h3><p>涉及账号、支付、广告、合规和数据采集的入口，需要标注边界。海图不做灰色导流，不用付费排名替代判断。</p></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>评估维度</h2>
+    <div class="rule-list">
+      <div class="rule"><b>Source</b><p>来源是否可靠：官方、监管机构、行业权威、工具厂商、媒体、社区分别承担不同证据权重。</p></div>
+      <div class="rule"><b>Action</b><p>是否能产生动作：开店、检查政策、配置广告、查趋势、验证物流、生成素材、监控竞品。</p></div>
+      <div class="rule"><b>Timing</b><p>是否具有时效性：平台规则、广告政策、费率、物流和关税入口需要高频复核。</p></div>
+      <div class="rule"><b>Risk</b><p>是否存在账号、合规、隐私、支付或内容版权风险。高风险入口只在风险教育语境下出现。</p></div>
+      <div class="rule"><b>Fit</b><p>是否适合中国品牌出海操盘场景，而不是泛电商、泛营销或泛 AI 工具的普通罗列。</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>不收录或谨慎收录</h2>
+    <div class="notice">不收录无法验证来源、强诱导套利、以规避平台规则为核心卖点、付费排名伪装评测、长期失效或安全风险不可控的入口。确有研究价值的高风险主题，只以“风险识别”和“边界提示”的方式呈现。</div>
+  </section>
+
+  <div class="foot"><span>© 2026 Sequentry · 序引效能</span><span>Systematic Entry, Engineered.</span></div>
+</main>
+</body>
+</html>

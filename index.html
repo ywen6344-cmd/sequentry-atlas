@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>品牌出海导航 · Sequentry Nav</title>
-<meta name="description" content="序引效能出品——AI 底座的跨境品牌工具与信息入口。高频直达、AI 快速入口、今日信息集合与完整分类目录。">
-<meta property="og:title" content="品牌出海导航 · Sequentry Nav">
-<meta property="og:description" content="AI 底座的跨境品牌工具与信息入口——高频直达、AI 快速入口、今日信息集合与完整目录。">
+<title>序引海图 · 品牌出海工具导航</title>
+<meta name="description" content="序引海图 — 序引效能（Sequentry）出品的品牌出海工具海图。AI 底座的跨境品牌工具与信息入口：高频直达、AI 快速入口、今日信息集合与完整分类目录。">
+<meta property="og:title" content="序引海图 · 品牌出海的工具海图">
+<meta property="og:description" content="序引效能 · Sequentry 出品。品牌出海的工具海图——高频直达、AI 快速入口、今日信息集合与完整目录。">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://nav.sequentry.com/">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%230F172A'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Songti SC, Source Han Serif SC, Noto Serif CJK SC, serif' font-size='38' font-weight='600' fill='%23FFFFFF'%3E序%3C/text%3E%3C/svg%3E">
-<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%230F172A'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Songti SC, Source Han Serif SC, Noto Serif CJK SC, serif' font-size='38' font-weight='600' fill='%23FFFFFF'%3E序%3C/text%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="./assets/xuyin-haitu-icon.svg">
+<link rel="apple-touch-icon" href="./assets/xuyin-haitu-icon.svg">
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"50773348502349569a11c73225d9c735"}'></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
   --mono:"JetBrains Mono","SF Mono",Consolas,Monaco,monospace;
 }
 *{box-sizing:border-box}
-html{background:var(--bg);scroll-behavior:smooth}
+html{background:var(--bg);scroll-behavior:smooth;zoom:1.1}
 /* 细滚动条：轻、圆、悬停才加深，不喧宾夺主 */
 *{scrollbar-width:thin;scrollbar-color:rgba(15,23,42,.16) transparent}
 ::-webkit-scrollbar{width:10px;height:10px}
@@ -64,7 +64,9 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .flag-de{background:linear-gradient(#000 0 33%,#dd0000 33% 66%,#ffce00 66%)}
 .flag-us{background:repeating-linear-gradient(#b22234 0 1.2px,#fff 1.2px 2.4px);position:relative}.flag-us:before{content:"";position:absolute;left:0;top:0;width:8px;height:6px;background:#3c3b6e}
 .top-inner{height:64px;max-width:1740px;margin:0 auto;padding:0 22px;display:grid;grid-template-columns:minmax(280px,360px) minmax(0,1fr);gap:22px;align-items:center}
-.brand{display:grid;align-content:center;gap:3px;min-width:0;line-height:1.05}
+.brand{display:grid;grid-template-columns:34px minmax(0,1fr);align-items:center;align-content:center;gap:10px;min-width:0;line-height:1.05}
+.brand-mark{width:34px;height:34px;display:block}
+.brand-copy{display:grid;gap:3px;min-width:0}
 .brand strong{font-family:var(--serif);font-size:22px;font-weight:650;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brand small{font-size:12px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brand small b{font:10px/1 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-right:7px}
@@ -287,6 +289,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .foot-brand strong{font-family:var(--serif);font-size:26px;font-weight:600;color:#FAFAFA;letter-spacing:-.01em}
 .foot-brand span{font-family:var(--sans);font-size:15px;color:#9AA1AB}
 .foot-brand em{font-family:var(--mono);font-style:normal;font-size:11px;color:#7C828C;letter-spacing:.06em}
+.foot-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.foot-links a{border:1px solid rgba(255,255,255,.12);border-radius:5px;padding:7px 9px;color:#AEB4BD;font:11px/1 var(--mono)}
+.foot-links a:hover{border-color:rgba(255,255,255,.28);color:#FAFAFA}
 .foot-contact{text-align:right}
 .foot-contact .ct-label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#AEB4BD;margin-bottom:18px}
 .foot-contact p{margin:0 0 7px;color:#9AA1AB;font-size:13.5px;line-height:1.65}
@@ -335,9 +340,12 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     </div>
   </div>
   <div class="top-inner">
-    <a class="brand" href="#" data-home>
-      <strong>品牌出海导航</strong>
-      <small><b>Sequentry Nav</b>AI 底座的跨境工具与信息入口</small>
+    <a class="brand" href="#" data-home title="序引海图 · 品牌出海的工具海图">
+      <img class="brand-mark" src="./assets/xuyin-haitu-icon.svg" alt="">
+      <span class="brand-copy">
+        <strong>序引海图</strong>
+        <small><b>Sequentry Atlas</b>出海工具 · AI 入口 · 每日情报</small>
+      </span>
     </a>
     <label class="command">
       <span class="cmd-icon">⌕</span>
@@ -459,9 +467,13 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 <footer class="foot"><div class="shell">
   <div class="foot-main">
     <div class="foot-brand">
-      <strong>Sequentry</strong>
-      <span>序引效能</span>
+      <strong>序引海图</strong>
       <em>有序 · 入世 — Systematic Entry, Engineered.</em>
+      <span>品牌出海的工具海图</span>
+      <em>序引效能（Sequentry）· 独立品牌出海研究公司</em>
+      <div class="foot-links">
+        <a href="./standards.html">收录与评估标准</a>
+      </div>
     </div>
     <div class="foot-contact">
       <div class="ct-label">Contact / 联系</div>

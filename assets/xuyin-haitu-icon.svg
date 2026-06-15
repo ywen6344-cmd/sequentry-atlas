@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="序引海图 logo · 地球指南针">
+  <defs>
+    <clipPath id="globeClipA"><circle cx="60" cy="60" r="41.5"/></clipPath>
+  </defs>
+  <circle cx="60" cy="60" r="44" fill="#FFFFFF" stroke="#13314F" stroke-width="4.5"/>
+  <g clip-path="url(#globeClipA)" fill="none" stroke="#9DB4C9" stroke-width="2">
+    <line x1="16" y1="60" x2="104" y2="60"/>
+    <line x1="23" y1="40" x2="97" y2="40"/>
+    <line x1="23" y1="80" x2="97" y2="80"/>
+    <ellipse cx="60" cy="60" rx="17" ry="42"/>
+    <ellipse cx="60" cy="60" rx="34" ry="42"/>
+  </g>
+  <g stroke-linecap="round">
+    <line x1="60" y1="16.5" x2="60" y2="25" stroke="#E2A33C" stroke-width="3.6"/>
+    <line x1="103.5" y1="60" x2="95" y2="60" stroke="#13314F" stroke-width="3"/>
+    <line x1="60" y1="103.5" x2="60" y2="95" stroke="#13314F" stroke-width="3"/>
+    <line x1="16.5" y1="60" x2="25" y2="60" stroke="#13314F" stroke-width="3"/>
+  </g>
+  <polygon points="60,27 64.5,60 55.5,60" fill="#E2A33C"/>
+  <polygon points="60,93 64.5,60 55.5,60" fill="#13314F"/>
+  <circle cx="60" cy="60" r="5" fill="#FFFFFF" stroke="#13314F" stroke-width="2.5"/>
+  <circle cx="60" cy="60" r="2.1" fill="#E2A33C"/>
+</svg>
