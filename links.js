@@ -6,8 +6,8 @@ window.NAV_DATA = {
     {
       "id": "platform-channel",
       "group": "research",
-      "name": "平台与渠道",
-      "desc": "平台规则、API、卖家政策与渠道生态",
+      "name": "平台政策与动态",
+      "desc": "平台规则、API 文档、卖家政策与生态动态",
       "subs": [
         {
           "id": "amazon",
@@ -88,6 +88,30 @@ window.NAV_DATA = {
         {
           "id": "content-conversion",
           "name": "内容与转化"
+        }
+      ]
+    },
+    {
+      "id": "search-visibility",
+      "group": "research",
+      "name": "搜索可见性 · SEO/AEO/GEO",
+      "desc": "在传统搜索、AI 回答引擎与生成式引擎里的品牌可见性:工具、诊断与研究",
+      "subs": [
+        {
+          "id": "seo",
+          "name": "SEO 工具"
+        },
+        {
+          "id": "aeo-geo",
+          "name": "AEO / GEO 工具"
+        },
+        {
+          "id": "audit",
+          "name": "诊断与监测"
+        },
+        {
+          "id": "reports",
+          "name": "研究与报告"
         }
       ]
     },
@@ -2440,6 +2464,249 @@ window.NAV_DATA = {
       "url": "https://v0.dev/",
       "domain": "v0.dev",
       "desc": "Vercel 的 AI 生成前端界面，描述即出代码。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "seo",
+      "tier": "S",
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "domain": "search.google.com",
+      "desc": "Google 官方:收录、排名、点击与索引诊断,出海 SEO 起点。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "seo",
+      "tier": "S",
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com/",
+      "domain": "ahrefs.com",
+      "desc": "关键词、外链与自然流量的竞品级分析。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "seo",
+      "tier": "A",
+      "name": "Semrush",
+      "url": "https://www.semrush.com/",
+      "domain": "semrush.com",
+      "desc": "关键词、广告与内容营销一体化平台。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "seo",
+      "tier": "A",
+      "name": "Similarweb",
+      "url": "https://www.similarweb.com/",
+      "domain": "similarweb.com",
+      "desc": "网站流量、来源结构与竞品对比。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "seo",
+      "tier": "B",
+      "name": "Moz",
+      "url": "https://moz.com/",
+      "domain": "moz.com",
+      "desc": "域名权重(DA)与 SEO 基础工具集。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "seo",
+      "tier": "B",
+      "name": "Screaming Frog",
+      "url": "https://www.screamingfrog.co.uk/seo-spider/",
+      "domain": "screamingfrog.co.uk",
+      "desc": "网站爬虫:技术 SEO 审计与抓取诊断。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "aeo-geo",
+      "tier": "A",
+      "name": "Profound",
+      "url": "https://www.tryprofound.com/",
+      "domain": "tryprofound.com",
+      "desc": "监测品牌在 ChatGPT/Perplexity 等 AI 回答中的可见性。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "aeo-geo",
+      "tier": "B",
+      "name": "Peec AI",
+      "url": "https://peec.ai/",
+      "domain": "peec.ai",
+      "desc": "GEO 监测:追踪生成式引擎里的品牌提及与排名。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "aeo-geo",
+      "tier": "B",
+      "name": "Otterly.AI",
+      "url": "https://otterly.ai/",
+      "domain": "otterly.ai",
+      "desc": "AI 搜索可见性与品牌提及监测。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "aeo-geo",
+      "tier": "B",
+      "name": "Scrunch AI",
+      "url": "https://www.scrunchai.com/",
+      "domain": "scrunchai.com",
+      "desc": "面向 AI 代理与回答引擎的品牌可见性平台。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "audit",
+      "tier": "A",
+      "name": "PageSpeed Insights",
+      "url": "https://pagespeed.web.dev/",
+      "domain": "pagespeed.web.dev",
+      "desc": "页面性能与 Core Web Vitals 诊断,影响排名与转化。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "audit",
+      "tier": "B",
+      "name": "Rich Results Test",
+      "url": "https://search.google.com/test/rich-results",
+      "domain": "search.google.com",
+      "desc": "结构化数据(Schema)富结果检测——AEO 基础。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "audit",
+      "tier": "B",
+      "name": "Schema.org",
+      "url": "https://schema.org/",
+      "domain": "schema.org",
+      "desc": "结构化数据词表,让搜索与 AI 更好理解你的页面。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "audit",
+      "tier": "B",
+      "name": "Bing Webmaster Tools",
+      "url": "https://www.bing.com/webmasters",
+      "domain": "bing.com",
+      "desc": "Bing/Copilot 收录与索引诊断。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "reports",
+      "tier": "A",
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/",
+      "domain": "ahrefs.com",
+      "desc": "SEO/AEO 实证研究与方法论长文。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "reports",
+      "tier": "A",
+      "name": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "domain": "searchengineland.com",
+      "desc": "搜索行业新闻、算法更新与 SEO/SEM 动态。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "reports",
+      "tier": "B",
+      "name": "Search Engine Journal",
+      "url": "https://www.searchenginejournal.com/",
+      "domain": "searchenginejournal.com",
+      "desc": "SEO/SEM 教程、新闻与趋势解读。"
+    },
+    {
+      "cat": "search-visibility",
+      "sub": "reports",
+      "tier": "B",
+      "name": "GEO 原始论文(arXiv)",
+      "url": "https://arxiv.org/abs/2311.09735",
+      "domain": "arxiv.org",
+      "desc": "《Generative Engine Optimization》——GEO 概念的研究源头。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "A",
+      "name": "SHEIN 供应商入驻",
+      "url": "https://supplier.shein.com/",
+      "domain": "supplier.shein.com",
+      "desc": "SHEIN 平台供应商/卖家入驻——全托管快时尚跨境。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "A",
+      "name": "Ozon Global",
+      "url": "https://global.ozon.com/",
+      "domain": "global.ozon.com",
+      "desc": "俄罗斯 Ozon 跨境卖家入口,独联体市场主力。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "B",
+      "name": "Wildberries Seller",
+      "url": "https://seller.wildberries.ru/",
+      "domain": "seller.wildberries.ru",
+      "desc": "俄罗斯 Wildberries 卖家后台,体量最大的本土平台。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "B",
+      "name": "Allegro 卖家",
+      "url": "https://allegro.pl/dla-sprzedajacych",
+      "domain": "allegro.pl",
+      "desc": "波兰最大电商 Allegro 卖家入口,中东欧门户。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "B",
+      "name": "Trendyol Global",
+      "url": "https://global.trendyol.com/",
+      "domain": "global.trendyol.com",
+      "desc": "土耳其 Trendyol 跨境卖家,辐射中东与海湾。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "B",
+      "name": "Bol Partner",
+      "url": "https://verkopen.bol.com/",
+      "domain": "bol.com",
+      "desc": "荷兰/比利时 Bol 商家入驻,比荷卢核心平台。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "A",
+      "name": "Coupang Global Sellers",
+      "url": "https://globalsellers.coupang.com/",
+      "domain": "globalsellers.coupang.com",
+      "desc": "韩国 Coupang 跨境卖家入驻,东北亚高客单市场。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "B",
+      "name": "Noon Seller",
+      "url": "https://sell.withnoon.com/",
+      "domain": "sell.withnoon.com",
+      "desc": "中东 Noon 卖家入驻(阿联酋/沙特)。"
+    },
+    {
+      "cat": "platform-channel",
+      "sub": "emerging",
+      "tier": "B",
+      "name": "Faire(B2B 批发)",
+      "url": "https://www.faire.com/brands",
+      "domain": "faire.com",
+      "desc": "欧美 B2B 批发平台,适合品牌做线下零售铺货。"
     }
   ]
 };
