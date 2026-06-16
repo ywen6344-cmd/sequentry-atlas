@@ -125,13 +125,21 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .ai-card{flex:0 0 76px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:9px 6px 8px;display:grid;gap:6px;place-items:center;text-align:center;transition:border-color .12s,box-shadow .12s,transform .12s;scroll-snap-align:start}
 .ai-card:hover{border-color:var(--line-strong);box-shadow:0 2px 10px rgba(15,23,42,.05);transform:translateY(-1px)}
 .ai-logo{width:30px;height:30px;border:1px solid var(--line);border-radius:8px;background:var(--paper);display:grid;place-items:center;overflow:hidden}
-.ai-logo img{width:100%;height:100%;object-fit:cover}
+.ai-logo img{width:100%;height:100%;object-fit:contain}
 .ai-logo span{font:11px/1 var(--mono);font-weight:650;color:var(--blue);display:none}
 .ai-logo.fallback img{display:none}
 .ai-logo.fallback span{display:block}
 .ai-card strong{font-size:11px;font-weight:600;line-height:1.2;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ai-card>span.desc{display:none}
 .ai-hint{font:10px/1 var(--mono);color:var(--light);margin-top:6px}
+.ai-card{position:relative;color:inherit}
+.ai-card.open{border-color:rgba(30,64,175,.34);box-shadow:0 2px 10px rgba(15,23,42,.05)}
+.ai-caret{position:absolute;top:4px;right:5px;font-size:8px;line-height:1;color:var(--light)}
+.ai-card.open .ai-caret{color:var(--blue)}
+.ai-grid-wrap{flex-wrap:wrap;overflow-x:visible}
+.ai-subgroup{margin-top:12px}
+.ai-subgroup:first-child{margin-top:2px}
+.ai-sublabel{font:10px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--light);margin:0 0 7px}
 
 /* 开店入口 / 市场速览 */
 .market-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px}
@@ -308,10 +316,10 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .geo-platform-cluster:hover,.geo-platform-cluster.active{z-index:8;border-color:rgba(30,64,175,.5);box-shadow:0 2px 10px rgba(15,23,42,.08);transform:translate(-50%,-118%)}
 .geo-platform-cluster .ico{width:17px;height:17px;margin:0 0 0 -5px;border-radius:5px;grid-row:auto}
 .geo-platform-cluster .ico:first-child{margin-left:0}
-.geo-platform-cluster .ico:nth-child(n+4){display:none}
+.geo-platform-cluster .geo-more{margin:0 0 0 4px;padding:0 5px;height:16px;display:inline-flex;align-items:center;border-radius:8px;background:rgba(30,64,175,.12);color:#1E40AF;font:650 10px/1 var(--mono);white-space:nowrap}
 .geo-platform-cluster.active{gap:3px}
 .geo-platform-cluster.active .ico{width:21px;height:21px;margin-left:0}
-.geo-platform-cluster.active .ico:nth-child(n+4){display:grid}
+.geo-platform-cluster.active .geo-more{height:19px;font-size:11px;margin-left:1px}
 .geo-status{position:absolute;left:12px;bottom:12px;border:1px solid var(--line);border-radius:6px;background:rgba(250,250,250,.92);padding:7px 9px;color:var(--muted);font:10px/1.35 var(--mono)}
 .mk-grid{stroke:rgba(15,23,42,.05);stroke-width:1}
 .mk-land{fill:rgba(30,64,175,.045);stroke:rgba(30,64,175,.16);stroke-width:1;stroke-linejoin:round}
@@ -374,7 +382,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .dock-add:hover,.dock-add.open{border-color:var(--blue);color:var(--blue)}
 .dock-ai-modes{margin-bottom:11px;display:inline-flex;flex-wrap:wrap}
 .dock-body .ai-hint{margin-top:6px}
-.market-dock{display:grid;gap:14px;min-height:0;grid-template-rows:auto minmax(0,1fr)}
+.market-dock{display:grid;gap:14px;min-height:0;grid-template-rows:auto minmax(0,1fr);padding:14px 18px 16px}
 .market-dock-head{display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap}
 .market-dock-title{display:grid;gap:4px}
 .market-dock-title strong{font-size:16px;line-height:1.2}
@@ -402,7 +410,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .market-region-panel .store-card strong{font-size:12.5px}
 .market-region-panel .store-card p{font-size:11px;line-height:1.38}
 .market-region-panel .store-links{margin-top:4px;gap:5px}
-.market-region-panel .store-links a{padding:4px 7px;font-size:9.5px}
+.market-region-panel .store-links a,.market-region-panel .store-links .lk{padding:4px 7px;font-size:9.5px}
 .market-region-sections{display:grid;gap:16px}
 .market-region-section{display:grid;gap:8px}
 .market-region-section h4{margin:0;display:flex;align-items:baseline;gap:8px;font-size:14px;line-height:1.25}
@@ -413,10 +421,10 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .market-country-tabs button{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:7px 12px;color:var(--deep);font:600 12px/1 var(--sans);transition:border-color .12s,color .12s,background .12s,transform .12s}
 .market-country-tabs button:hover{border-color:rgba(30,64,175,.4);color:var(--blue);background:rgba(30,64,175,.05);transform:translateY(-1px)}
 .market-country-tabs button.active{background:var(--blue);border-color:var(--blue);color:#fff}
-.market-dock[data-market-view="list"]{overflow:auto;padding-top:28px;padding-bottom:88px}
+.market-dock[data-market-view="list"]{display:block;overflow:auto;padding:18px 18px 44px}
 .market-dock[data-market-view="list"] .market-layout{display:block;height:auto;min-height:auto}
 .market-dock[data-market-view="list"] .market-map-side{display:none}
-.market-dock[data-market-view="list"] .market-region-panel{padding:0 0 8px;max-height:none;overflow:visible;height:auto;min-height:auto}
+.market-dock[data-market-view="list"] .market-region-panel{padding:0;margin-top:14px;max-height:none;overflow:visible;height:auto;min-height:auto}
 .market-dock[data-market-view="list"] .market-region-grid{grid-template-columns:repeat(auto-fill,minmax(230px,260px));justify-content:start}
 
 /* 店铺平台：大 logo 卡片 */
@@ -459,9 +467,33 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .store-card p{grid-column:2;margin:0;color:var(--muted);font-size:11.5px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .store-region{display:inline-block;margin-right:6px;font:9px/1 var(--mono);color:var(--blue);font-style:normal}
 .store-links{grid-column:2;display:flex;gap:6px;flex-wrap:wrap;margin-top:5px}
-.store-links a{border:1px solid var(--line);border-radius:5px;padding:5px 8px;font:10px/1 var(--mono);color:var(--muted)}
-.store-links a:hover{border-color:var(--blue);color:var(--blue)}
-.store-links span{color:var(--light);font:10px/1 var(--mono)}
+.store-links a,.store-links .lk{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:5px;padding:5px 8px;font:10px/1 var(--mono);color:var(--muted);text-decoration:none;transition:border-color .12s,color .12s,background .12s}
+.store-links a:hover,.store-links .lk-info:hover{border-color:var(--blue);color:var(--blue)}
+.store-links .lk-signup{background:var(--ink);border-color:var(--ink);color:#fff}
+.store-links .lk-signup:hover{background:#000;border-color:#000;color:#fff}
+.store-links .lk-admin{color:var(--blue);border-color:rgba(30,64,175,.4)}
+.store-links .lk-admin:hover{border-color:var(--blue);background:rgba(30,64,175,.06)}
+.store-links .lk-off,.store-links .lk-closed{color:var(--light);background:transparent;border-style:dashed;cursor:not-allowed}
+.store-legend{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:9px;margin-top:2px;font:9px/1.4 var(--mono);color:var(--muted)}
+.store-legend i{font-style:normal;display:inline-flex;align-items:center;gap:4px}
+.store-legend b{width:9px;height:9px;border-radius:3px;display:inline-block;border:1px solid var(--line)}
+.store-legend b.s{background:var(--ink);border-color:var(--ink)}
+.store-legend b.a{border-color:rgba(30,64,175,.5)}
+.store-legend b.o{border-style:dashed}
+/* 全球开店：总览 + 地区小结 + 待核标记 */
+.market-top{display:grid;gap:12px}
+.meta-draft{display:inline-block;font:9px/1 var(--mono);color:var(--muted);background:var(--paper);border:1px dashed var(--line-strong);border-radius:4px;padding:2px 5px;vertical-align:middle;white-space:nowrap}
+.market-overview{border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:11px 13px;display:grid;gap:9px}
+.mov-stats{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.mov-stat{display:flex;align-items:baseline;gap:5px}
+.mov-stat b{font-family:var(--serif);font-size:19px;font-weight:650;color:var(--ink);line-height:1}
+.mov-stat i{font-style:normal;font-size:10.5px;color:var(--muted)}
+.mov-draft{margin-left:auto}
+.mov-text{display:grid;gap:3px}
+.mov-text p{margin:0;font-size:11px;line-height:1.5;color:var(--muted);display:flex;gap:8px;align-items:baseline}
+.mov-text em{font-style:normal;flex:0 0 42px;white-space:nowrap;color:var(--blue);font:10px/1.6 var(--mono)}
+.region-summary{margin:0;font-size:11px;line-height:1.5;color:var(--muted)}
+.region-summary em{font-style:normal;color:var(--ink);font-weight:600}
 
 /* ===== Responsive ===== */
 @media(max-width:1240px){
@@ -622,7 +654,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     <div class="modal-head">
       <div>
         <h2 id="marketModalTitle">全球开店</h2>
-        <p>点击海图上的市场查看对应国家、地区与站点入口；也可以切换为列表，按地区浏览平台信息。</p>
+        <p>按地区查看主流市场分布，直达各平台官方入驻与后台入口。</p>
       </div>
       <button class="modal-close" type="button" aria-label="关闭" data-market-modal-close>×</button>
     </div>
@@ -661,6 +693,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 <script src="feed.js"></script>
 <script src="ai.js"></script>
 <script src="icons.js"></script>
+<script src="market_meta.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script>
@@ -678,14 +711,15 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   var FEED=(window.NAV_FEED&&window.NAV_FEED.by_cat)||{};
   var FEED_UPD=(window.NAV_FEED&&window.NAV_FEED.updated)||"";
   var AI=window.NAV_AI||{tools:[{name:"ChatGPT",url:"https://chatgpt.com/",domain:"chatgpt.com",desc:"通用 AI 助手。"},{name:"Claude",url:"https://claude.ai/",domain:"claude.ai",desc:"长文分析与写作。"},{name:"DeepSeek",url:"https://chat.deepseek.com/",domain:"chat.deepseek.com",desc:"中文推理。"}],api:[]};
+  var MARKET_META=window.MARKET_META||{cn:{},regions:{},global:{}};
 
   var GROUP={research:"研究入口",production:"生产入口",ops:"风险与履约",source:"信源库"};
   var RANK={S:0,A:1,B:2};
-  var catMap={},linkMap={},recent=read("sq_nav_ind_recent",[]),pinned=read("sq_nav_pinned",[]),iconCache=read("sq_nav_icon_cache_v2",{});
+  var catMap={},linkMap={},recent=read("sq_nav_ind_recent",[]),pinned=read("sq_nav_pinned",[]),iconCache=read("sq_nav_icon_cache_v3",{});
   D.categories.forEach(function(c){catMap[c.id]=c;});
   D.links.forEach(function(l){linkMap[l.url]=l;});
 
-  var state={cat:"home",dock:"shop",store:"热门",marketView:"map",sideIntel:"all",aiMode:"core",sub:{},expanded:{},q:"",sel:0,region:""};
+  var state={cat:"home",dock:"shop",store:"热门",marketView:"map",sideIntel:"all",aiMode:"models",sub:{},expanded:{},q:"",sel:0,region:""};
 
   /* 场景查询：用于"高频直达"按关键词从 links.js 取链接 */
   var scenes={common:"amazon shopify google trend meta seller chatgpt deepseek deepl fba 汇率 商标 物流 选品 广告"};
@@ -816,14 +850,15 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     "ozon.ru":["#005bff","O"],"global.ozon.com":["#005bff","O"],"seller.ozon.ru":["#005bff","O"],
     "wildberries.ru":["#cb11ab","W"],"seller.wildberries.ru":["#cb11ab","W"],
     "allegro.pl":["#ff5a00","A"],"trendyol.com":["#f27a1a","T"],"global.trendyol.com":["#f27a1a","T"],
-    "bol.com":["#0000a4","b"],"faire.com":["#1f1f1f","F"],"globalsellers.coupang.com":["#e41f1f","C"]
+    "bol.com":["#0000a4","b"],"faire.com":["#1f1f1f","F"],"globalsellers.coupang.com":["#e41f1f","C"],
+    "yuewen.cn":["#2E5BFF","阶"]
   };
   function localIconData(d){
     var x=LOCAL_ICONS[iconKey(d)];if(!x)return "";
     var bg=encodeURIComponent(x[0]),txt=encodeURIComponent(x[1]);
     return "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='"+bg+"'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Inter,Arial,sans-serif' font-size='30' font-weight='700' fill='%23fff'%3E"+txt+"%3C/text%3E%3C/svg%3E";
   }
-  function saveIconCache(){saveLS("sq_nav_icon_cache_v2",iconCache);}
+  function saveIconCache(){saveLS("sq_nav_icon_cache_v3",iconCache);}
   function iconIndex(d){var v=iconCache[iconKey(d)];return typeof v==="number"?v:0;}
   function iconSrc(d,i){return ICON_SRC[Math.max(0,Math.min(i,ICON_SRC.length-1))](d);}
   function rememberIcon(img,i){if(!img||!img.dataset.d)return;iconCache[iconKey(img.dataset.d)]=i;saveIconCache();}
@@ -898,11 +933,44 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     var tiles=shopPlats.map(function(pid){var p=accessById(pid);if(!p)return"";return '<button class="plat-card" type="button" data-plat="'+esc(pid)+'"><b class="caret">▾</b>'+platLogo(p)+'<strong>'+esc(platShortName(p))+'</strong></button>';}).filter(Boolean).join("");
     return '<div class="plat-grid">'+tiles+'<button class="plat-card plat-add" type="button" data-shop-add><span class="plat-logo plat-add-ico">＋</span><strong>添加 / 管理</strong></button></div>';
   }
+  /* 通用模型(models)→ 对话+API 双态弹窗；API 开发(api)→ 按国外/国内分组、折行不横滚；
+     更多工具(more)→ 搜索/图像视频/设计UI/3D/国内助手，合到一个标签按小组分隔。 */
+  var AI_API=[
+    {label:"国外 · 聚合 / 平台",names:["OpenRouter","Together AI","Fireworks AI","Groq","Replicate","Hugging Face"]},
+    {label:"国内 · 聚合 / 厂商平台",names:["SiliconFlow","302.AI","AiHubMix","DMXAPI","OhMyGPT","百度千帆","腾讯混元","MiniMax 开放平台","阶跃开放平台","讯飞开放平台"]}
+  ];
+  var AI_MORE=[
+    {label:"搜索 / 研究",names:["Perplexity","You.com","秘塔AI","纳米AI"]},
+    {label:"图像 · 视频 · 音频",names:["Midjourney","Runway","可灵AI","即梦AI","Suno","ElevenLabs"]},
+    {label:"设计 / UI",names:["Lovart","Figma","Canva","Recraft","Framer","Gamma"]},
+    {label:"3D / 建模",names:["Meshy","Tripo3D","Rodin","Spline","Luma AI","Kaedim"]},
+    {label:"国内助手",names:["文小言","腾讯元宝","海螺AI","讯飞星火","阶跃星辰"]},
+    {label:"助手 / 聚合",names:["Copilot","Meta AI","Poe"]}
+  ];
+  function aiModels(){return (AI.models&&AI.models.length)?AI.models:[];}
+  function aiByName(src,name){return (src||[]).filter(function(x){return x.name===name;})[0];}
+  function aiLinkCard(l){return '<a class="ai-card" href="'+esc(l.url)+'" target="_blank" rel="noopener" data-url="'+esc(l.url)+'" title="'+esc(l.name)+' · '+esc(l.desc||"")+'">'+aiIcon(l)+'<strong>'+esc(l.name)+'</strong><span class="desc">'+esc(l.desc||"")+'</span></a>';}
+  function aiGroupedHTML(groups,src){return groups.map(function(g){var cards=g.names.map(function(n){var l=aiByName(src,n);return l?aiLinkCard(l):"";}).join("");return cards?'<div class="ai-subgroup"><div class="ai-sublabel">'+esc(g.label)+'</div><div class="ai-grid ai-grid-wrap">'+cards+'</div></div>':"";}).join("");}
   function aiTabHTML(){
-    var modes=[["core","通用模型"],["research","搜索研究"],["creative","图像视频"],["china","国内模型"],["api","API 开发"]];
+    var modes=[["models","通用模型"],["api","API 开发"],["more","更多工具"]];
+    if(!modes.some(function(m){return m[0]===state.aiMode;}))state.aiMode="models";
     var seg='<div class="seg dock-ai-modes" id="aiMode">'+modes.map(function(m){return '<button class="'+(state.aiMode===m[0]?"active":"")+'" data-ai-mode="'+m[0]+'">'+esc(m[1])+'</button>';}).join("")+'</div>';
-    var grid='<div class="ai-grid">'+aiGroupList().map(function(l){return '<a class="ai-card" href="'+esc(l.url)+'" target="_blank" rel="noopener" data-url="'+esc(l.url)+'" title="'+esc(l.name)+' · '+esc(l.desc||"")+'">'+aiIcon(l)+'<strong>'+esc(l.name)+'</strong><span class="desc">'+esc(l.desc||"")+'</span></a>';}).join("")+'</div>';
-    return seg+grid+'<div class="ai-hint">横向滚动查看更多入口</div>';
+    var body;
+    if(state.aiMode==="models"){
+      body='<div class="ai-grid">'+aiModels().map(function(m,i){return '<button class="ai-card" type="button" data-ai-model="'+i+'" title="'+esc(m.name)+' · 对话 / API 平台"><b class="ai-caret">▾</b>'+aiIcon({name:m.name,domain:m.domain})+'<strong>'+esc(m.name)+'</strong></button>';}).join("")+'</div><div class="ai-hint">点任意模型，选「进入对话 / API 平台」</div>';
+    }else if(state.aiMode==="api"){
+      body=aiGroupedHTML(AI_API,AI.api);
+    }else{
+      body=aiGroupedHTML(AI_MORE,AI.tools);
+    }
+    return seg+body;
+  }
+  function aiChip(glyph,label,url){return '<a class="dd-chip" href="'+esc(url)+'" target="_blank" rel="noopener">'+glyph+'<span>'+esc(label)+'</span></a>';}
+  function openAiDropdown(tile,m){
+    if(!m)return;closeDropdown();var d=id("ddPanel");d.classList.add("chips");
+    d.innerHTML='<div class="dd-head">'+platLogo({name:m.name,domain:m.domain})+'<strong>'+esc(m.name)+'</strong></div>'+
+      '<div class="dd-chips">'+aiChip(GL_SVG.chat,"进入对话",m.chat)+aiChip(GL_SVG.api,"API 平台",m.api)+'</div>';
+    placePanel(d,tile.getBoundingClientRect(),Math.min(248,window.innerWidth-24),false);tile.classList.add("open");
   }
   function favTabHTML(){
     var pins=pinnedLinks();
@@ -933,7 +1001,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     dash:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2.6" width="12" height="10.8" rx="1.6"/><path d="M2 6.4h12"/></svg>',
     ads:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6"/><circle cx="8" cy="8" r="2.3"/></svg>',
     enter:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 2.6h3.4v10.8H9"/><path d="M2 8h7M6.2 5.2 9 8l-2.8 2.8"/></svg>',
-    news:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2.4" y="2.6" width="11.2" height="10.8" rx="1.6"/><path d="M4.9 5.6h6.2M4.9 8h6.2M4.9 10.4h4"/></svg>'
+    news:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2.4" y="2.6" width="11.2" height="10.8" rx="1.6"/><path d="M4.9 5.6h6.2M4.9 8h6.2M4.9 10.4h4"/></svg>',
+    chat:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2.4 4.2c0-.9.7-1.6 1.6-1.6h8c.9 0 1.6.7 1.6 1.6v5c0 .9-.7 1.6-1.6 1.6H6.6l-3 2.4v-2.4H4c-.9 0-1.6-.7-1.6-1.6z"/></svg>',
+    api:'<svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5.8 5 3 8l2.8 3M10.2 5 13 8l-2.8 3M8.8 3.4 7.2 12.6"/></svg>'
   };
   var FLAG_KW=[["us",/美国|美区|美站|美东|美西|US\b/i],["uk",/英国|英区|英站|UK\b/i],["jp",/日本|日区|日站|JP\b/i],["de",/德国|DE\b/i],["eu",/欧洲|欧盟|欧元|EU\b/i],["tw",/台湾|台区|台站/],["br",/巴西|Brazil|BR\b/i],["sg",/新加坡|SG\b/i],["cn",/中国|国内/]];
   function flagFor(s){s=String(s||"");for(var i=0;i<FLAG_KW.length;i++){if(FLAG_KW[i][1].test(s))return FLAG_KW[i][0];}return "";}
@@ -1072,24 +1142,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     ]}
   ];
 
-  /* ---------- AI 快速入口（数据，供 dock 的 AI 标签用） ---------- */
-  var AI_GROUPS={
-    core:{name:"通用模型",source:"tools",names:["DeepSeek","ChatGPT","Claude","Gemini","Perplexity","Grok","Copilot","Meta AI","Le Chat","Poe","You.com"]},
-    research:{name:"搜索研究",source:"tools",names:["Perplexity","You.com","Kimi","秘塔AI","纳米AI","DeepSeek","ChatGPT","Claude"]},
-    creative:{name:"图像视频",source:"tools",names:["Midjourney","Runway","可灵AI","即梦AI","Suno","ElevenLabs"]},
-    china:{name:"国内模型",source:"tools",names:["Kimi","通义千问","豆包","文小言","智谱清言","讯飞星火","腾讯元宝","海螺AI","阶跃星辰","秘塔AI","纳米AI","DeepSeek"]},
-    api:{name:"API 开发",source:"api"}
-  };
-  function aiGroupList(){
-    var g=AI_GROUPS[state.aiMode]||AI_GROUPS.core;
-    var src=g.source==="api"?AI.api:AI.tools;
-    var list=src&&src.length?src:[];
-    if(g.names&&g.names.length){
-      var rank={};g.names.forEach(function(n,i){rank[n]=i;});
-      list=list.filter(function(l){return rank[l.name]!=null;}).sort(function(a,b){return rank[a.name]-rank[b.name];});
-    }
-    return list.length?list:(AI.tools||[]);
-  }
+  /* AI 快速入口的分组数据/渲染见上方 aiTabHTML 区块（AI_API_KEEP / AI_MORE / aiModels）。 */
   function atlasTags(item){return item.tags.map(function(t){return '<a href="'+esc(t[1])+'" target="_blank" rel="noopener">'+esc(t[0])+'</a>';}).join("");}
   var MARKET_STORE_REGION={"日本 / 韩国":"日韩","南亚 / 印度":"南亚","俄罗斯 / 独联体":"俄·独联"};
   var WORLD_TOPO_URL="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
@@ -1117,6 +1170,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     "拉美":[-36,-10],"澳新":[24,-6],"北美":[44,-8]
   };
   var CHINA_ORIGIN_LL=[35,103];
+  var MAP_CLUSTER_ICONS=5;
   var worldGeometriesPromise=null;
   function marketRegions(){return MARKET_ATLAS[0].items;}
   function activeMarketRegion(){
@@ -1132,29 +1186,80 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     var atlas=marketRegions().filter(function(r){return r.name===regionName;})[0];
     return atlas?(atlas.tags||[]).map(function(t){return {name:t[0],domain:domainFromUrl(t[1]),note:"",links:[["打开",t[1]]]};}):[];
   }
-  function marketLinkSet(it,mode){
-    var links=it.links||[];
-    if(mode==="register")return links.filter(function(x){return /入驻|注册|申请|了解|站点/.test(x[0]);}).concat(links.filter(function(x){return !/入驻|注册|申请|了解|站点|后台|Seller|Center|Merchant|广告/.test(x[0]);})).slice(0,3);
-    if(mode==="admin")return links.filter(function(x){return /后台|Seller|Center|Merchant|广告/.test(x[0]);}).slice(0,3);
-    return links.slice(0,3);
+  // 把平台扁平的 links 归类成三种角色：入驻 / 后台 / 其它信息（站点/了解/帮助/广告…）
+  function classifyLinks(it){
+    var links=it.links||[],signup=null,admin=null,extras=[];
+    links.forEach(function(x){
+      var lab=x[0]||"";
+      if(!signup&&/入驻|注册|申请|开店|招商|供应商/.test(lab))signup=x;
+      else if(!admin&&/后台|卖家|Seller|Center|Merchant|控制台/.test(lab))admin=x;
+      else extras.push(x);
+    });
+    return {signup:signup,admin:admin,extras:extras};
+  }
+  function cnMeta(name){return (MARKET_META&&MARKET_META.cn&&MARKET_META.cn[name])||null;}
+  // 一个入驻/后台槽位：未对华开放→琥珀灰禁用+悬停提示；有 URL→分色按钮；缺 URL→虚线"待补充"
+  function storeSlot(role,label,data,cn){
+    if(cn&&cn.closed&&cn.closed.indexOf(role)>=0){
+      var draft=cn.status!=="verified";
+      var tip="尚未对中国用户开放"+(cn.note?"："+cn.note:"")+(draft?"（信息待核实）":"");
+      return '<span class="lk lk-closed" title="'+esc(tip)+'">'+esc(label)+'</span>';
+    }
+    if(data)return '<a class="lk lk-'+role+'" href="'+esc(data[1])+'" target="_blank" rel="noopener">'+esc(label)+'</a>';
+    return '<span class="lk lk-off" title="暂无直达入口 · 待补充">'+esc(label)+'</span>';
+  }
+  function storeLegend(){
+    return '<div class="store-legend"><i><b class="s"></b>入驻</i><i><b class="a"></b>后台</i><i><b class="o"></b>灰色=不可点（悬停看原因）</i></div>';
+  }
+  // 草稿标记：编辑内容(market_meta.js)凡 status!=="verified" 即标「待核」
+  function metaDraft(m){return (m&&m.status!=="verified")?'<span class="meta-draft" title="助手起草，待你核实">待核</span>':'';}
+  // 把同一品牌的区域变体归一（Amazon US/EU/Japan…→amazon），用于全球去重统计
+  function brandKey(n){return String(n).toLowerCase().trim()
+    .replace(/[\s\-]+(us|usa|uk|eu|au|japan|india|uae|saudi|brazil|mexico|global)$/,'')
+    .replace(/\s*(美国|英国|日本|印度|巴西|墨西哥|拉美|欧洲|阿联酋|沙特|全球)$/,'').trim();}
+  // 全球已收录平台数 = 各地区去重品牌（不含「热门」精选 tab，且合并同品牌区域站点）
+  function collectedCount(){var seen={},n=0;GLOBAL_STORES.forEach(function(r){if(r.region==="热门")return;(r.items||[]).forEach(function(it){var k=brandKey(it.name);if(!seen[k]){seen[k]=1;n++;}});});return n;}
+  function marketOverviewHTML(){
+    var g=(MARKET_META&&MARKET_META.global)||{};
+    if(!g.universe&&!g.types)return"";
+    return '<div class="market-overview">'
+      +'<div class="mov-stats">'
+        +'<span class="mov-stat"><b>≈'+esc(g.universe||"—")+'</b><i>全球主流平台</i></span>'
+        +'<span class="mov-stat"><b>'+collectedCount()+'</b><i>本站已收录</i></span>'
+        +'<span class="mov-stat"><b>'+marketRegions().length+'</b><i>覆盖市场区</i></span>'
+        +'<span class="mov-draft">'+metaDraft(g)+'</span>'
+      +'</div>'
+      +'<div class="mov-text">'
+        +(g.types?'<p><em>类型</em><span>'+esc(g.types)+'</span></p>':'')
+        +(g.distribution?'<p><em>分布</em><span>'+esc(g.distribution)+'</span></p>':'')
+        +(g.omitted?'<p><em>未收录</em><span>'+esc(g.omitted)+'</span></p>':'')
+      +'</div>'
+    +'</div>';
+  }
+  function regionSummaryHTML(name,collected){
+    var rm=(MARKET_META&&MARKET_META.regions||{})[name];
+    if(!rm)return"";
+    return '<p class="region-summary"><em>该区主流约 '+esc(rm.universe)+' 个</em> · 已收录 '+collected+(rm.omitted?' · 未收录：'+esc(rm.omitted):'')+' '+metaDraft(rm)+'</p>';
   }
   function marketStoreCard(it,mode,regionName){
-    var links=marketLinkSet(it,mode);
-    var linkHTML=links.length?'<div class="store-links">'+links.map(function(x){return '<a href="'+esc(x[1])+'" target="_blank" rel="noopener">'+esc(x[0])+'</a>';}).join("")+'</div>':"";
+    var c=classifyLinks(it),cn=cnMeta(it.name);
+    var btns=storeSlot("signup","入驻",c.signup,cn)+storeSlot("admin","后台",c.admin,cn)
+      +c.extras.map(function(x){return '<a class="lk lk-info" href="'+esc(x[1])+'" target="_blank" rel="noopener">'+esc(x[0])+'</a>';}).join("");
     var region=regionName?'<em class="store-region">'+esc(regionName)+'</em>':"";
-    return '<article class="store-card">'+brandIcon(it)+'<strong>'+esc(it.name)+'</strong><p>'+region+esc(it.note||"")+'</p>'+linkHTML+'</article>';
+    var closedCls=(cn&&cn.closed&&cn.closed.length)?' is-cn-closed':'';
+    return '<article class="store-card'+closedCls+'">'+brandIcon(it)+'<strong>'+esc(it.name)+'</strong><p>'+region+esc(it.note||"")+'</p><div class="store-links">'+btns+'</div></article>';
   }
   function marketRegionPanel(mode){
     var cur=activeMarketRegion();
     var items=marketStoreItems(cur.name);
     var label=mode==="register"?"入驻入口":(mode==="admin"?"后台入口":"主力平台");
-    return '<div class="market-region-panel"><div class="market-region-head"><span class="micro">'+esc(label)+'</span><h3>'+esc(cur.name)+' · '+items.length+' 个平台</h3><p>'+esc(cur.desc)+'</p></div><div class="market-region-grid">'+items.map(function(it){return marketStoreCard(it,mode);}).join("")+'</div></div>';
+    return '<div class="market-region-panel"><div class="market-region-head"><span class="micro">'+esc(label)+'</span><h3>'+esc(cur.name)+' · '+items.length+' 个平台</h3><p>'+esc(cur.desc)+'</p>'+regionSummaryHTML(cur.name,items.length)+storeLegend()+'</div><div class="market-region-grid">'+items.map(function(it){return marketStoreCard(it,mode);}).join("")+'</div></div>';
   }
   function marketListPanel(){
     var sections=GLOBAL_STORES.map(function(reg){
       return '<section class="market-region-section"><h4><span>'+esc(reg.region)+'</span>'+esc(reg.items.length)+' 个平台</h4><div class="market-region-grid">'+(reg.items||[]).map(function(it){return marketStoreCard(it,"list");}).join("")+'</div></section>';
     }).join("");
-    return '<div class="market-region-panel"><div class="market-region-head"><span class="micro">BY REGION</span><h3>按地区浏览平台</h3><p>同一平台在不同国家/区域的入口分开呈现，方便判断站点分布与本地化优先级。</p></div><div class="market-region-sections">'+sections+'</div></div>';
+    return '<div class="market-region-panel">'+storeLegend()+'<div class="market-region-sections">'+sections+'</div></div>';
   }
   function marketRegionTabs(){
     return '<div class="market-region-select"><div class="market-select-label">选择市场 · 点击切换地图与右侧站点</div><div class="market-country-tabs">'+marketRegions().map(function(r){return '<button class="'+(r.name===state.region?"active":"")+'" type="button" data-region="'+esc(r.name)+'">'+esc(r.name)+'</button>';}).join("")+'</div></div>';
@@ -1166,9 +1271,10 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     var views=[["map","海图"],["list","列表"]];
     if(!views.some(function(v){return v[0]===state.marketView;}))state.marketView="map";
     var mode='<div class="market-mode">'+views.map(function(v){return '<button class="'+(state.marketView===v[0]?"active":"")+'" type="button" data-market-view="'+esc(v[0])+'">'+esc(v[1])+'</button>';}).join("")+'</div>';
-    var head='<div class="market-dock-head"><div class="market-dock-title"><strong>全球市场与站点入口</strong><span>海图模式用于判断市场位置和主力站点；列表模式按地区展开平台信息。</span></div>'+mode+'</div>';
+    var head='<div class="market-dock-head">'+mode+'</div>';
     var body=state.marketView==="list"?marketListPanel():marketMapPanel();
-    var el=id(targetId||"marketAtlas");if(el){el.classList.add("market-dock");el.dataset.marketView=state.marketView;el.innerHTML=head+body;if(state.marketView==="map")hydrateGeoMarketMap();}
+    var top='<div class="market-top">'+head+marketOverviewHTML()+'</div>';
+    var el=id(targetId||"marketAtlas");if(el){el.classList.add("market-dock");el.dataset.marketView=state.marketView;el.innerHTML=top+body;if(state.marketView==="map")hydrateGeoMarketMap();}
   }
   function loadWorldGeometries(){
     if(worldGeometriesPromise)return worldGeometriesPromise;
@@ -1183,6 +1289,16 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
       return false;
     });
     return found;
+  }
+  // 簇在画布外（如北美顶到上边、欧洲挤到右边）会被 overflow:hidden 裁掉；布局完成后按实际盒子回弹进画布。
+  function keepClusterInside(node,el,baseLeft,baseTop){
+    var cb=node.getBoundingClientRect(),eb=el.getBoundingClientRect(),pad=6,dx=0,dy=0;
+    if(cb.right>eb.right-pad)dx=eb.right-pad-cb.right;
+    if(cb.left+dx<eb.left+pad)dx=eb.left+pad-cb.left;
+    if(cb.bottom>eb.bottom-pad)dy=eb.bottom-pad-cb.bottom;
+    if(cb.top+dy<eb.top+pad)dy=eb.top+pad-cb.top;
+    if(dx)node.style.left=(baseLeft+dx)+"px";
+    if(dy)node.style.top=(baseTop+dy)+"px";
   }
   function hydrateGeoMarketMap(){
     var el=id("geoMarketMap");if(!el)return;
@@ -1215,17 +1331,19 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
       origin.append("circle").attr("r",6);
       origin.append("text").attr("x",9).attr("y",4).text("中国 / 供给侧");
       pins.forEach(function(d){
-        var items=marketStoreItems(d.name).slice(0,4);
-        if(!items.length)return;
+        var all=marketStoreItems(d.name);
+        if(!all.length)return;
+        var shown=all.slice(0,MAP_CLUSTER_ICONS),extra=all.length-shown.length;
         var off=MARKET_ICON_OFFSET[d.name]||[0,0];
         var node=document.createElement("div");
         node.className="geo-platform-cluster"+(d.name===state.region?" active":"");
         node.setAttribute("data-region",d.name);
-        node.title=d.name+" · "+items.map(function(it){return it.name;}).join(" / ");
-        node.style.left=Math.max(64,Math.min(w-76,d.x+off[0]))+"px";
-        node.style.top=Math.max(42,Math.min(h-26,d.y+off[1]))+"px";
-        node.innerHTML=items.map(function(it){return brandIcon(it);}).join("");
+        node.title=d.name+" · "+all.length+" 个平台 · "+all.map(function(it){return it.name;}).join(" / ");
+        var bx=d.x+off[0],by=d.y+off[1];
+        node.style.left=bx+"px";node.style.top=by+"px";
+        node.innerHTML=shown.map(function(it){return brandIcon(it);}).join("")+(extra>0?'<span class="geo-more">+'+extra+'</span>':"");
         el.appendChild(node);
+        keepClusterInside(node,el,bx,by);
       });
     }).catch(function(){
       var s=el.querySelector(".geo-status");if(s)s.textContent="GEO DATA UNAVAILABLE · 使用兜底海图";
@@ -1436,6 +1554,8 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     if(shopAdd){if(shopAdd.classList.contains("open"))closeDropdown();else openShopPicker(shopAdd);return;}
     var storeMenuBtn=e.target.closest("[data-store-menu]");
     if(storeMenuBtn){if(storeMenuBtn.classList.contains("open"))closeDropdown();else openStoreMenu(storeMenuBtn);return;}
+    var aiModelTile=e.target.closest("[data-ai-model]");
+    if(aiModelTile){if(aiModelTile.classList.contains("open"))closeDropdown();else openAiDropdown(aiModelTile,aiModels()[+aiModelTile.dataset.aiModel]);return;}
     var dockTab=e.target.closest("[data-dock]");
     if(dockTab){state.dock=dockTab.getAttribute("data-dock");renderDock();return;}
     var marketView=e.target.closest("button[data-market-view]");

@@ -30,7 +30,19 @@ window.NAV_AI = {
     {"name":"可灵AI","url":"https://klingai.kuaishou.com/","domain":"klingai.kuaishou.com","desc":"可灵视频生成。"},
     {"name":"即梦AI","url":"https://jimeng.jianying.com/","domain":"jimeng.jianying.com","desc":"图像和视频创作。"},
     {"name":"Suno","url":"https://suno.com/","domain":"suno.com","desc":"AI 音乐生成。"},
-    {"name":"ElevenLabs","url":"https://elevenlabs.io/","domain":"elevenlabs.io","desc":"AI 语音生成。"}
+    {"name":"ElevenLabs","url":"https://elevenlabs.io/","domain":"elevenlabs.io","desc":"AI 语音生成。"},
+    {"name":"Lovart","url":"https://www.lovart.ai/","domain":"lovart.ai","desc":"AI 设计 agent，海报与品牌视觉。"},
+    {"name":"Figma","url":"https://www.figma.com/","domain":"www.figma.com","desc":"界面设计协作，含 Figma AI / Make。"},
+    {"name":"Canva","url":"https://www.canva.com/","domain":"www.canva.com","desc":"在线平面设计，Magic Studio AI。"},
+    {"name":"Recraft","url":"https://www.recraft.ai/","domain":"www.recraft.ai","desc":"AI 矢量与品牌图形设计。"},
+    {"name":"Framer","url":"https://www.framer.com/","domain":"www.framer.com","desc":"AI 生成网站与落地页。"},
+    {"name":"Gamma","url":"https://gamma.app/","domain":"gamma.app","desc":"AI 生成 PPT / 网页 / 文档。"},
+    {"name":"Meshy","url":"https://www.meshy.ai/","domain":"meshy.ai","desc":"文本 / 图像生成 3D 模型。"},
+    {"name":"Tripo3D","url":"https://www.tripo3d.ai/","domain":"tripo3d.ai","desc":"快速生成可用 3D 资产。"},
+    {"name":"Rodin","url":"https://hyper3d.ai/","domain":"hyper3d.ai","desc":"高精度 AI 3D 建模（Rodin）。"},
+    {"name":"Spline","url":"https://spline.design/","domain":"spline.design","desc":"3D 设计与 AI 建模。"},
+    {"name":"Luma AI","url":"https://lumalabs.ai/","domain":"lumalabs.ai","desc":"3D 捕捉与 Genie 生成。"},
+    {"name":"Kaedim","url":"https://www.kaedim3d.com/","domain":"kaedim3d.com","desc":"图像转 3D 模型。"}
   ],
   "api": [
     {"name":"DeepSeek API","url":"https://platform.deepseek.com/","domain":"platform.deepseek.com","desc":"DeepSeek API 平台。"},
@@ -56,6 +68,20 @@ window.NAV_AI = {
     {"name":"302.AI","url":"https://302.ai/","domain":"302.ai","desc":"AI 应用与 API 聚合入口。"},
     {"name":"AiHubMix","url":"https://aihubmix.com/","domain":"aihubmix.com","desc":"多模型 API 聚合入口。"},
     {"name":"DMXAPI","url":"https://www.dmxapi.com/","domain":"dmxapi.com","desc":"多模型 API 中转入口。"},
-    {"name":"OhMyGPT","url":"https://www.ohmygpt.com/","domain":"ohmygpt.com","desc":"多模型 API 中转入口。"}
+    {"name":"OhMyGPT","url":"https://www.ohmygpt.com/","domain":"ohmygpt.com","desc":"多模型 API 中转入口。"},
+    {"name":"Groq","url":"https://console.groq.com/","domain":"console.groq.com","desc":"超低延迟 LPU 推理 API。"},
+    {"name":"Fireworks AI","url":"https://fireworks.ai/","domain":"fireworks.ai","desc":"开源模型高速推理 API。"}
+  ],
+  "models": [
+    {"name":"DeepSeek","domain":"chat.deepseek.com","chat":"https://chat.deepseek.com/","api":"https://platform.deepseek.com/"},
+    {"name":"ChatGPT","domain":"chatgpt.com","chat":"https://chatgpt.com/","api":"https://platform.openai.com/"},
+    {"name":"Claude","domain":"claude.ai","chat":"https://claude.ai/","api":"https://platform.claude.com/"},
+    {"name":"Gemini","domain":"gemini.google.com","chat":"https://gemini.google.com/","api":"https://aistudio.google.com/"},
+    {"name":"Grok","domain":"grok.com","chat":"https://grok.com/","api":"https://console.x.ai/"},
+    {"name":"Mistral","domain":"chat.mistral.ai","chat":"https://chat.mistral.ai/","api":"https://console.mistral.ai/"},
+    {"name":"通义千问","domain":"tongyi.aliyun.com","chat":"https://tongyi.aliyun.com/qianwen/","api":"https://bailian.console.aliyun.com/"},
+    {"name":"Kimi","domain":"kimi.moonshot.cn","chat":"https://kimi.moonshot.cn/","api":"https://platform.moonshot.cn/"},
+    {"name":"智谱清言","domain":"chatglm.cn","chat":"https://chatglm.cn/","api":"https://open.bigmodel.cn/"},
+    {"name":"豆包","domain":"doubao.com","chat":"https://www.doubao.com/","api":"https://console.volcengine.com/ark/"}
   ]
 };
