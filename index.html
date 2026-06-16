@@ -120,6 +120,9 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .section-head{display:flex;gap:12px;align-items:end;margin-bottom:12px}
 .section-head h2{font-family:var(--serif);font-size:18px;line-height:1.2;margin:0;font-weight:650}
 .section-head p{margin:0;color:var(--muted);font-size:12px;line-height:1.45}
+.section-head p b{color:var(--text);font-weight:600}
+.section-head p .cm-std{color:var(--blue)}
+.section-head p .cm-std:hover{text-decoration:underline}
 .grow{flex:1}
 .seg{display:flex;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--paper)}
 .seg button{border:0;background:transparent;color:var(--muted);font:11px/1 var(--mono);padding:8px 10px}
@@ -659,7 +662,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 
       <section class="section" id="sec-catalog" data-page-section="catalog">
         <div class="section-head">
-          <div><h2>完整目录</h2><p>按分类浏览全部入口</p></div>
+          <div><h2>完整目录</h2><p id="catalogMeta">按分类浏览全部入口</p></div>
           <span class="grow"></span>
           <div class="seg" id="viewMode"><button class="active" data-view="comfort">舒适</button><button data-view="compact">紧凑</button></div>
         </div>
@@ -1728,6 +1731,10 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   window.addEventListener("resize",closeDropdown);
 
   /* ---------- 启动 ---------- */
+  (function(){var m=id("catalogMeta");if(!m)return;
+    m.innerHTML='按分类浏览全部入口 · <b>'+D.links.length+'</b> 个入口 · '+D.categories.length+' 大类'
+      +(D.updated?' · 更新于 '+esc(D.updated):'')
+      +' · <a class="cm-std" href="./standards.html">收录标准 ↗</a>';})();
   buildWorldClock();tickWorldClock();
   render();
   detectCurrentIP();
