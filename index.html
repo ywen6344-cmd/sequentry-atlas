@@ -27,6 +27,8 @@
   --mono:"JetBrains Mono","SF Mono",Consolas,Monaco,monospace;
 }
 *{box-sizing:border-box}
+/* 整站固定放大 110%：zoom 会重排布局（不像 transform 留空隙），新增模块自动继承，无需逐个调。
+   注意：JS 定位的 fixed/浮层需做坐标换算（见 placePanel），否则在 zoom 下会偏移。 */
 html{background:var(--bg);scroll-behavior:smooth;zoom:1.1}
 /* 细滚动条：轻、圆、悬停才加深，不喧宾夺主 */
 *{scrollbar-width:thin;scrollbar-color:rgba(15,23,42,.16) transparent}
@@ -500,7 +502,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   :root{--side:0px}
   .top-inner{grid-template-columns:minmax(220px,300px) minmax(0,1fr) auto;gap:16px}
   .app{grid-template-columns:var(--rail) minmax(0,1fr)}
-  .side{display:none}
+  /* 侧栏不再隐藏：横跨整行落到主区下方，面板改自适应卡片网格 */
+  .side{grid-column:1/-1;position:static;height:auto;overflow:visible;border-left:0;border-top:1px solid var(--line);padding:18px 16px 36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start;gap:14px}
+  .side .side-panel{border:1px solid var(--line);border-radius:8px;background:var(--paper);padding:14px;margin-bottom:0}
   .home-grid{grid-template-columns:1fr}
   .intel-board{grid-template-columns:1fr}
   .market-layout{grid-template-columns:1fr}
@@ -530,6 +534,17 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 
 /* ===== 当前 IP（右栏顶部，所有访客可见）+ 登录占位 + toast ===== */
 .ipnow{display:flex;flex-direction:column;gap:7px}
+.ipnow-exit{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:8px;color:var(--muted);font:11px/1.35 var(--mono)}
+.ipnow-flag{width:22px;height:15px;border-radius:3px;background:#fff;display:inline-grid;place-items:center;color:var(--muted);font:8px/1 var(--mono);flex:none;overflow:hidden;box-shadow:0 0 0 1px rgba(15,23,42,.12) inset}
+.ipnow-flag .flag{width:22px;height:15px;border-radius:3px;box-shadow:none}
+.ipnow-flag img{width:100%;height:100%;display:block;object-fit:cover}
+.ipnow-exit-main{min-width:0;display:grid;gap:4px}
+.ipnow-exit-line{display:flex;align-items:center;justify-content:space-between;gap:7px;min-width:0}
+.ipnow-exit-line span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ipvpn-badge{border:1px solid var(--line);border-radius:999px;background:var(--paper);padding:4px 7px;font:10px/1 var(--mono);white-space:nowrap;flex:none}
+.ipvpn-badge.ok{border-color:rgba(21,128,61,.28);background:rgba(21,128,61,.07);color:#15803d}
+.ipvpn-badge.warn{border-color:rgba(217,119,6,.32);background:rgba(217,119,6,.08);color:#b45309}
+.ipvpn-badge.info{border-color:rgba(30,64,175,.24);background:rgba(30,64,175,.06);color:var(--blue)}
 .ipnow-ip{font:21px/1.15 var(--mono);font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;word-break:break-all;letter-spacing:.01em}
 .ipnow-ip.dim{font-size:14px;font-weight:400;color:var(--light)}
 .ipnow-loc{font:11.5px/1.4 var(--mono);color:var(--muted)}
@@ -537,6 +552,40 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .ipnow-btn{border:1px solid var(--line);border-radius:5px;background:var(--paper);color:var(--muted);font:10.5px/1 var(--mono);padding:6px 9px;display:inline-flex;align-items:center;gap:4px;transition:border-color .12s,color .12s}
 .ipnow-btn:hover{border-color:var(--blue);color:var(--blue)}
 .ipnow-hint{font:10px/1.5 var(--mono);color:var(--light);border-top:1px dashed var(--line);padding-top:7px;margin-top:2px}
+.iptools{border-top:1px dashed var(--line);padding-top:8px;margin-top:2px;display:grid;gap:7px}
+.iptools-head{display:flex;align-items:center;justify-content:space-between;gap:8px;font:10px/1 var(--mono)}
+.iptools-head span,.iptools-title{color:var(--blue);font-weight:650;letter-spacing:.08em;text-transform:uppercase}
+.iptools-head em{font-style:normal;color:var(--light)}
+.iptools-title{border:0;background:transparent;padding:0;font:inherit;cursor:pointer;text-align:left;display:inline-flex;align-items:center;gap:5px}
+.iptools-title:hover,.iptools-title:focus{color:var(--ink);outline:0}
+.iptools-help{width:15px;height:15px;border:1px solid rgba(30,64,175,.32);border-radius:50%;display:inline-grid;place-items:center;color:var(--blue);font:10px/1 var(--mono);font-weight:650;background:rgba(30,64,175,.04);letter-spacing:0}
+.iptools-title:hover .iptools-help,.iptools-title:focus .iptools-help{border-color:var(--blue);background:rgba(30,64,175,.1);color:var(--ink)}
+.iptools-badge{border:1px solid var(--line);border-radius:999px;background:var(--paper);padding:4px 7px;font:10px/1 var(--mono);white-space:nowrap}
+.iptools-badge.ok{border-color:rgba(21,128,61,.28);background:rgba(21,128,61,.07);color:#15803d}
+.iptools-badge.warn{border-color:rgba(217,119,6,.32);background:rgba(217,119,6,.08);color:#b45309}
+.iptools-badge.bad{border-color:rgba(180,35,24,.32);background:rgba(180,35,24,.08);color:#b42318}
+.iptools-badge.info{border-color:rgba(30,64,175,.24);background:rgba(30,64,175,.06);color:var(--blue)}
+.iptools-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.iptool{position:relative;min-height:58px;border:1px solid var(--line);border-radius:6px;background:rgba(255,255,255,.72);padding:8px;color:var(--deep);display:grid;align-content:start;gap:4px;transition:border-color .12s,color .12s,background .12s}
+.iptool:hover,.iptool:focus{border-color:var(--blue);color:var(--blue);background:rgba(30,64,175,.04);outline:0}
+.iptool strong{font-size:12px;line-height:1.22;font-weight:650}
+.iptool>span{font:9.5px/1.35 var(--mono);color:var(--muted)}
+.iptool:hover>span,.iptool:focus>span{color:var(--blue)}
+.iptool-detail{display:none;position:absolute;left:0;top:calc(100% + 6px);z-index:90;width:260px;border:1px solid var(--line);border-radius:7px;background:var(--paper);box-shadow:0 12px 32px rgba(15,23,42,.16);padding:9px 10px;color:var(--deep);font:10px/1.55 var(--mono);text-align:left}
+.iptool:nth-child(even) .iptool-detail{left:auto;right:0}
+.iptool:hover .iptool-detail,.iptool:focus .iptool-detail{display:block}
+.iptool-detail div{word-break:break-word}
+.iptool-status{font-weight:650;margin-bottom:4px}
+.iptool-status.ok{color:#15803d}.iptool-status.warn{color:#d97706}.iptool-status.bad{color:#b42318}.iptool-status.info{color:var(--blue)}
+.modal-panel.env-panel{left:50%;right:auto;top:50%;width:min(680px,calc(100vw - 36px));height:auto;max-height:calc(100vh - 72px);transform:translate(-50%,-50%);grid-template-rows:auto minmax(0,1fr)}
+.env-guide{overflow:auto;padding:20px;display:grid;gap:14px}
+.env-guide-block{border:1px solid var(--line);border-radius:8px;background:var(--paper);padding:14px 15px;display:grid;gap:8px}
+.env-guide-block h3{margin:0;font-size:14px;line-height:1.25}
+.env-guide-block p{margin:0;color:var(--muted);font-size:12.5px;line-height:1.65}
+.env-guide-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.env-guide-item{border:1px solid var(--line);border-radius:6px;background:var(--panel);padding:11px;display:grid;gap:5px}
+.env-guide-item strong{font-size:12.5px;line-height:1.3}
+.env-guide-item span{color:var(--muted);font-size:12px;line-height:1.55}
 .ipnow-alert{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font:10.5px/1.45 var(--mono);color:#b42318;background:#fef3f2;border:1px solid #fecdca;border-radius:6px;padding:7px 9px}
 .ipnow-alert b{color:#912018;font-weight:700;font-variant-numeric:tabular-nums}
 .ipnow-x{margin-left:auto;border:1px solid #fda29b;border-radius:4px;background:#fff;color:#b42318;font:10px/1 var(--mono);padding:4px 7px}
@@ -619,7 +668,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 
   <aside class="side">
     <section class="side-panel ipnow-panel">
-      <div class="side-title">当前 IP</div>
+      <div class="side-title">登录环境自检</div>
       <div class="ipnow" id="ipNow"></div>
     </section>
     <section class="side-panel">
@@ -659,6 +708,35 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
       <button class="modal-close" type="button" aria-label="关闭" data-market-modal-close>×</button>
     </div>
     <div class="market-atlas" id="marketAtlas"></div>
+  </div>
+</div>
+
+<div class="modal" id="ipGuideModal" aria-hidden="true">
+  <div class="modal-backdrop" data-ip-guide-close></div>
+  <div class="modal-panel env-panel" role="dialog" aria-modal="true" aria-labelledby="ipGuideTitle">
+    <div class="modal-head">
+      <div>
+        <h2 id="ipGuideTitle">为什么监测</h2>
+        <p>登录店铺、广告、支付后台前，先确认 IP 和浏览器环境是否稳定，避免异常登录触发风控。</p>
+      </div>
+      <button class="modal-close" type="button" aria-label="关闭" data-ip-guide-close>×</button>
+    </div>
+    <div class="env-guide">
+      <div class="env-guide-block">
+        <h3>跨境开店为什么要看这个</h3>
+        <p>平台会综合判断账号登录环境。短时间内 IP 国家跳变、云服务器出口、浏览器指纹不一致、WebRTC 暴露真实网络，都可能让店铺后台、广告后台、支付账户、邮箱登录看起来“不像平时的你”。</p>
+      </div>
+      <div class="env-guide-list">
+        <div class="env-guide-item"><strong>IP 位置</strong><span>看平台看到你从哪里访问。登录前确认国家、地区和网络商是否符合预期。</span></div>
+        <div class="env-guide-item"><strong>网络风险</strong><span>看当前出口是否像代理、VPN、云服务器或异常节点。异常时建议先别登录关键账号。</span></div>
+        <div class="env-guide-item"><strong>浏览器指纹</strong><span>看这台浏览器的语言、时区、屏幕、WebGL、Canvas 等信息是否稳定一致。</span></div>
+        <div class="env-guide-item"><strong>WebRTC 泄漏</strong><span>看浏览器是否暴露代理之外的真实网络信息，避免“网页走代理，但浏览器漏底”。</span></div>
+      </div>
+      <div class="env-guide-block">
+        <h3>怎么使用</h3>
+        <p>绿色通常可以继续；橙色建议登录前再确认；红色时不建议登录店铺、广告、支付、邮箱等关键账号。这里是前端自检，不替代平台官方风控结果。</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -981,9 +1059,8 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   }
   function platGroups(p){var g=[];if(p.admin&&p.admin.length)g.push(["后台登录",p.admin]);if(p.ads&&p.ads.length)g.push(["广告后台",p.ads]);if(p.register&&p.register.length)g.push(["入驻注册",p.register]);return g;}
   function closeDropdown(){["ddPanel","storeMenu"].forEach(function(n){var d=id(n);if(d){d.classList.remove("open");d.classList.remove("picker");d.classList.remove("chips");d.setAttribute("aria-hidden","true");}});document.querySelectorAll(".plat-card.open,.dock-store-btn.open").forEach(function(b){b.classList.remove("open");});}
-  /* 用 fixed 定位下拉。页面 html 上有 zoom:1.1，会把写入的 left/top 再缩放一次，
-     而 getBoundingClientRect 返回的是缩放后的视觉坐标——两者不一致，导致越靠右的瓦片
-     下拉偏移越大。这里实测一次坐标比例(对 zoom/transform 都鲁棒)，把目标视觉坐标换算回写入值。 */
+  /* fixed 下拉在浏览器缩放、CSS zoom 或 transform 环境下可能出现写入坐标与视觉坐标不一致。
+     这里实测一次坐标比例，把目标视觉坐标换算回写入值。 */
   function placePanel(d,r,w,right){
     d.style.width=w+"px";d.style.left="0px";d.style.top="0px";
     d.classList.add("open");d.setAttribute("aria-hidden","false");
@@ -1377,6 +1454,10 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     var modal=id("marketModal");modal.classList.toggle("open",!!open);modal.setAttribute("aria-hidden",open?"false":"true");
     if(open){var v="map";try{var qs=new URLSearchParams(location.search);if(qs.get("view")==="list")v="list";if(qs.get("region"))state.region=qs.get("region");}catch(e){}state.marketView=v;renderMarketAtlas();}
   }
+  function setIpGuideModal(open){
+    var modal=id("ipGuideModal");if(!modal)return;
+    modal.classList.toggle("open",!!open);modal.setAttribute("aria-hidden",open?"false":"true");
+  }
 
   /* ---------- 今日信息集合（feed.js 真数据） ---------- */
   function feedAll(){var arr=[];Object.keys(FEED).forEach(function(k){(FEED[k]||[]).forEach(function(it){arr.push({cat:k,t:it.t,s:it.s,u:it.u,d:it.d});});});arr.sort(function(a,b){return String(b.d||"").localeCompare(String(a.d||""));});return arr;}
@@ -1417,7 +1498,47 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   var ipNowState={status:"loading",ip:"",loc:""};
   var ipHist=read("sq_nav_ip_hist",[]);if(!Array.isArray(ipHist))ipHist=[];
   var ipChange=null,ipHistOpen=false;
+  var ipEnvState={status:"loading",fp:null,webrtc:null};
   function ipTime(ts){if(!ts)return"";var d=new Date(ts),p=function(n){return String(n).padStart(2,"0");};return p(d.getMonth()+1)+"-"+p(d.getDate())+" "+p(d.getHours())+":"+p(d.getMinutes());}
+  function flagHTML(code){
+    code=(code||"").toUpperCase();
+    if(!/^[A-Z]{2}$/.test(code))return "--";
+    var local={CN:"cn",SG:"sg",JP:"jp",GB:"uk",UK:"uk",DE:"de",US:"us",TW:"tw",BR:"br"};
+    if(local[code])return '<i class="flag flag-'+esc(local[code])+'" title="'+esc(code)+'"></i>';
+    var lower=code.toLowerCase();
+    return '<img src="https://flagcdn.com/w40/'+esc(lower)+'.png" alt="'+esc(code)+'" title="'+esc(code)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode(\''+esc(code)+'\'))">';
+  }
+  function likelyProxyOrg(){
+    return /vpn|proxy|hosting|host|cloud|datacenter|data center|server|colo|vps|aws|amazon|google|microsoft|azure|ovh|digitalocean|hetzner|linode|akamai|cloudflare|oracle|tencent|aliyun|alibaba/i.test([ipNowState.asn,ipNowState.org].filter(Boolean).join(" "));
+  }
+  function timezoneCountryHint(){
+    var tz=(ipEnvState.fp&&ipEnvState.fp.tz)||"";
+    if(/^Asia\/(Shanghai|Chongqing|Harbin|Urumqi)$/.test(tz))return "CN";
+    if(/^America\//.test(tz))return "US";
+    if(/^Europe\/London$/.test(tz))return "GB";
+    if(/^Europe\//.test(tz))return "EU";
+    if(/^Asia\/Tokyo$/.test(tz))return "JP";
+    if(/^Asia\/Seoul$/.test(tz))return "KR";
+    if(/^Asia\/Singapore$/.test(tz))return "SG";
+    return "";
+  }
+  function vpnStatus(){
+    if(ipNowState.status==="loading"||ipEnvState.status==="loading")return {tone:"info",text:"VPN 检测中"};
+    var w=ipEnvState.webrtc||{},hints=[];
+    if(likelyProxyOrg())hints.push("出口网络商像云服务器/代理节点");
+    if(w.publicIps&&w.publicIps.some(function(x){return ipNowState.ip&&x!==ipNowState.ip;}))hints.push("WebRTC 暴露了不同公网候选");
+    var tzCountry=timezoneCountryHint();
+    if(tzCountry&&ipNowState.countryCode&&tzCountry!=="EU"&&tzCountry!==ipNowState.countryCode)hints.push("浏览器时区与出口国家不一致");
+    if(ipNowState.status==="fail")return {tone:"warn",text:"VPN 未确认"};
+    return hints.length?{tone:"warn",text:"疑似代理/VPN",hints:hints}:{tone:"ok",text:"未见明显代理",hints:["网页无法读取 VPN 客户端状态；此处根据出口 IP、网络商、WebRTC 和时区推断。"]};
+  }
+  function ipExitHTML(){
+    var flag=flagHTML(ipNowState.countryCode),label=ipNowState.loc||"正在确认出口位置";
+    var vpn=vpnStatus();
+    if(ipNowState.status==="fail")label="未能确认公网出口";
+    return '<div class="ipnow-exit"><span class="ipnow-flag">'+flag+'</span><div class="ipnow-exit-main"><div class="ipnow-exit-line"><span>当前出口 · '+esc(label)+'</span><b class="ipvpn-badge '+esc(vpn.tone)+'">'+esc(vpn.text)+'</b></div></div></div>';
+  }
+  function ipNetworkText(){return [ipNowState.asn,ipNowState.org].filter(Boolean).join(" · ");}
   function recordIp(ip,loc){
     if(!ip)return;
     var now=Date.now(),top=ipHist[0];
@@ -1429,34 +1550,135 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     }
     saveLS("sq_nav_ip_hist",ipHist);
   }
-  function ipNowHint(){return '<div class="ipnow-hint">你当前的公网出口 IP（走 VPN/代理时显示的是出口节点）。历史与变更只存本机；登录后可跨设备追踪 · 即将上线。</div>';}
+  function ipNowHint(){return '<div class="ipnow-hint">登录店铺、广告、支付后台前，先确认 IP 和浏览器环境是否稳定，避免异常登录触发风控。</div>';}
   function ipHistHTML(){
     if(!ipHistOpen)return"";
     var rows=ipHist.length?ipHist.map(function(h,idx){var cur=idx===0;return '<div class="ipnow-hrow'+(cur?' cur':'')+'" title="'+esc(h.loc||"")+'"><span class="ipnow-hip">'+esc(h.ip)+'</span><span class="ipnow-ht">'+ipTime(h.from)+(cur?' · 当前':' → '+ipTime(h.last))+'</span></div>';}).join(""):'<div class="ipnow-hrow"><span class="ipnow-ht">暂无历史，探测到新 IP 会自动记录。</span></div>';
     return '<div class="ipnow-hist">'+rows+'</div>';
   }
+  function hashString(s){var h=2166136261;for(var i=0;i<String(s).length;i++){h^=String(s).charCodeAt(i);h+=(h<<1)+(h<<4)+(h<<7)+(h<<8)+(h<<24);}return ("00000000"+(h>>>0).toString(16)).slice(-8);}
+  function canvasHash(){
+    try{
+      var c=document.createElement("canvas"),x=c.getContext("2d");c.width=220;c.height=48;
+      x.textBaseline="top";x.font="16px Arial";x.fillStyle="#f60";x.fillRect(4,4,70,22);
+      x.fillStyle="#069";x.fillText("Sequentry IP Check 123",8,10);
+      x.globalCompositeOperation="multiply";x.fillStyle="#0a6";x.beginPath();x.arc(142,22,18,0,Math.PI*2);x.fill();
+      return hashString(c.toDataURL());
+    }catch(e){return "blocked";}
+  }
+  function webglInfo(){
+    try{
+      var c=document.createElement("canvas"),gl=c.getContext("webgl")||c.getContext("experimental-webgl");
+      if(!gl)return {vendor:"",renderer:"WebGL unavailable"};
+      var dbg=gl.getExtension("WEBGL_debug_renderer_info");
+      return {vendor:dbg?gl.getParameter(dbg.UNMASKED_VENDOR_WEBGL):gl.getParameter(gl.VENDOR),renderer:dbg?gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)};
+    }catch(e){return {vendor:"",renderer:"WebGL blocked"};}
+  }
+  function collectFingerprint(){
+    var gl=webglInfo(),tz="";
+    try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||"";}catch(e){}
+    return {
+      tz:tz,lang:(navigator.languages&&navigator.languages.length?navigator.languages.join(", "):navigator.language||""),
+      platform:navigator.platform||"",screen:(screen.width||0)+"x"+(screen.height||0)+"@"+(window.devicePixelRatio||1),
+      cores:navigator.hardwareConcurrency||"",memory:navigator.deviceMemory||"",webdriver:!!navigator.webdriver,
+      dnt:navigator.doNotTrack||window.doNotTrack||"",canvas:canvasHash(),webglVendor:gl.vendor,webglRenderer:gl.renderer
+    };
+  }
+  function isPrivateIP(v){return /^(10\.|127\.|169\.254\.|192\.168\.|172\.(1[6-9]|2\d|3[0-1])\.)/.test(v)||/^fe80:/i.test(v)||/^::1$/.test(v);}
+  function detectWebRTC(){
+    return new Promise(function(resolve){
+      var PC=window.RTCPeerConnection||window.webkitRTCPeerConnection||window.mozRTCPeerConnection;
+      if(!PC){resolve({status:"unsupported",ips:[],publicIps:[],privateIps:[],mdns:0});return;}
+      var pc,done=false,ips=[],mdns=0;
+      function add(v){if(v&&ips.indexOf(v)<0)ips.push(v);}
+      function finish(){
+        if(done)return;done=true;
+        try{if(pc)pc.close();}catch(e){}
+        resolve({status:"ok",ips:ips,publicIps:ips.filter(function(x){return !isPrivateIP(x)&&x.indexOf(".local")<0;}),privateIps:ips.filter(isPrivateIP),mdns:mdns});
+      }
+      try{
+        pc=new PC({iceServers:[{urls:"stun:stun.l.google.com:19302"}]});
+        pc.createDataChannel("sq");
+        pc.onicecandidate=function(ev){
+          if(!ev.candidate){finish();return;}
+          var s=ev.candidate.candidate||"";
+          (s.match(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g)||[]).forEach(add);
+          (s.match(/\b(?:[a-f0-9]{1,4}:){2,}[a-f0-9:]+\b/ig)||[]).forEach(add);
+          if(/\.local\b/.test(s))mdns++;
+        };
+        pc.createOffer().then(function(o){return pc.setLocalDescription(o);}).catch(finish);
+        setTimeout(finish,2200);
+      }catch(e){resolve({status:"blocked",ips:[],publicIps:[],privateIps:[],mdns:0});}
+    });
+  }
+  function runBrowserChecks(){
+    ipEnvState={status:"loading",fp:collectFingerprint(),webrtc:null};renderIpNow();
+    detectWebRTC().then(function(w){ipEnvState={status:"ok",fp:ipEnvState.fp||collectFingerprint(),webrtc:w};renderIpNow();});
+  }
+  function detailLines(lines){return lines.filter(Boolean).map(function(x){return '<div>'+esc(x)+'</div>';}).join("");}
+  function statusDetail(tone,text,lines){return '<div class="iptool-status '+esc(tone)+'">状态：'+esc(text)+'</div>'+detailLines(lines);}
+  function ipOverallStatus(cards){
+    if(cards.some(function(c){return c.tone==="bad";}))return {tone:"bad",text:"暂停登录"};
+    if(cards.some(function(c){return c.tone==="warn";}))return {tone:"warn",text:"登录前确认"};
+    if(cards.some(function(c){return c.tone==="info";}))return {tone:"info",text:"检测中"};
+    return {tone:"ok",text:"环境稳定"};
+  }
+  function riskCard(){
+    var fp=ipEnvState.fp||{},w=ipEnvState.webrtc,signals=[],bad=false,vpn=vpnStatus();
+    if(ipEnvState.status==="loading")return {tone:"info",status:"检测中",details:["检测项：自动化痕迹、WebRTC 候选、WebGL、语言与时区。"]};
+    if(vpn.tone==="warn"&&vpn.hints)signals=signals.concat(vpn.hints);
+    if(fp.webdriver){bad=true;signals.push("检测到 navigator.webdriver，可能是自动化浏览器。");}
+    if(w&&w.publicIps&&w.publicIps.some(function(x){return ipNowState.ip&&x!==ipNowState.ip;})){bad=true;signals.push("WebRTC 暴露了不同于出口 IP 的公网地址。");}
+    if(w&&w.privateIps&&w.privateIps.length)signals.push("WebRTC 可见局域网候选地址："+w.privateIps.join(", "));
+    if(!fp.webglRenderer||/unavailable|blocked/i.test(fp.webglRenderer))signals.push("WebGL 不可用或被拦截，可能影响平台风控一致性。");
+    return {tone:bad?"bad":(signals.length?"warn":"ok"),status:bad?"不建议登录关键账号":(signals.length?"建议登录前再确认":"环境看起来稳定"),details:signals.length?signals:["纯前端无法给出商业 VPN/代理 0-100 评分；此处展示浏览器可见信号。"]};
+  }
+  function ipCheckToolsHTML(){
+    var fp=ipEnvState.fp||{},w=ipEnvState.webrtc,risk=riskCard();
+    var ipDetails=["出口 IP："+(ipNowState.ip||"探测中"),"位置："+(ipNowState.loc||"等待接口返回"),"国家代码："+(ipNowState.countryCode||"-"),"ASN / 组织："+([ipNowState.asn,ipNowState.org].filter(Boolean).join(" · ")||"-")];
+    var fpDetails=["时区："+(fp.tz||"-"),"语言："+(fp.lang||"-"),"屏幕："+(fp.screen||"-"),"平台："+(fp.platform||"-"),"CPU / 内存："+([fp.cores?fp.cores+" cores":"",fp.memory?fp.memory+"GB":""].filter(Boolean).join(" / ")||"-"),"Canvas："+(fp.canvas||"-"),"WebGL："+(fp.webglRenderer||"-"),"DNT / WebDriver："+([fp.dnt||"-",fp.webdriver?"yes":"no"].join(" / "))];
+    var ipTone=ipNowState.status==="ok"?"ok":(ipNowState.status==="fail"?"warn":"info");
+    var ipStatus=ipNowState.status==="ok"?"出口位置已确认":(ipNowState.status==="fail"?"建议稍后重试":"正在确认出口位置");
+    var fpTone=fp.webdriver?"bad":(fp.canvas?"ok":"info");
+    var fpStatus=fp.webdriver?"不建议登录关键账号":(fp.canvas?"浏览器信息已采集":"正在生成指纹摘要");
+    var wrtcTone=!w?"info":(w.status==="unsupported"?"warn":(w.publicIps&&w.publicIps.some(function(x){return ipNowState.ip&&x!==ipNowState.ip;}))?"bad":"ok");
+    var wrtcStatus=!w?"检测中":(wrtcTone==="bad"?"不建议登录关键账号":(w.status==="unsupported"?"建议登录前再确认":"未发现额外公网泄漏"));
+    var wrtcDetails=!w?["等待浏览器返回 ICE candidate。"]:(["状态："+w.status,"公网候选："+((w.publicIps||[]).join(", ")||"-"),"局域网候选："+((w.privateIps||[]).join(", ")||"-"),"mDNS 候选："+(w.mdns||0)]);
+    var cards=[
+      {title:"IP 位置",summary:"平台看到你从哪里访问",tone:ipTone,status:ipStatus,details:ipDetails},
+      {title:"网络风险",summary:"当前网络是否容易被认为异常",tone:risk.tone,status:risk.status,details:risk.details},
+      {title:"浏览器指纹",summary:"这台浏览器看起来是否稳定一致",tone:fpTone,status:fpStatus,details:fpDetails},
+      {title:"WebRTC 泄漏",summary:"是否暴露代理之外的真实网络信息",tone:wrtcTone,status:wrtcStatus,details:wrtcDetails}
+    ];
+    var overall=ipOverallStatus(cards);
+    return '<div class="iptools"><div class="iptools-head"><button class="iptools-title" type="button" data-ip-guide-open aria-label="查看在线监测说明">在线监测<span class="iptools-help" aria-hidden="true">?</span></button><em class="iptools-badge '+esc(overall.tone)+'">'+esc(overall.text)+'</em></div><div class="iptools-grid">'+cards.map(function(t){return '<div class="iptool" tabindex="0"><strong>'+esc(t.title)+'</strong><span>'+esc(t.summary)+'</span><div class="iptool-detail">'+statusDetail(t.tone,t.status,t.details)+'</div></div>';}).join("")+'</div></div>';
+  }
   function renderIpNow(){
     var box=id("ipNow");if(!box)return;
-    if(ipNowState.status==="loading"){box.innerHTML='<div class="ipnow-ip dim">探测中…</div>'+ipNowHint();return;}
-    if(ipNowState.status==="fail"){box.innerHTML='<div class="ipnow-ip dim">未能探测</div><div class="ipnow-loc">网络可能拦截了探测，可稍后重试。</div><div class="ipnow-row"><button class="ipnow-btn" type="button" data-ip-refresh>重试</button>'+(ipHist.length?'<button class="ipnow-btn" type="button" data-ip-hist>历史 '+ipHist.length+'</button>':'')+'</div>'+ipHistHTML()+ipNowHint();return;}
+    if(ipNowState.status==="loading"){box.innerHTML=ipExitHTML()+'<div class="ipnow-ip dim">探测中…</div>'+ipCheckToolsHTML()+ipNowHint();return;}
+    if(ipNowState.status==="fail"){box.innerHTML=ipExitHTML()+'<div class="ipnow-ip dim">未能探测</div><div class="ipnow-loc">网络可能拦截了探测，可稍后重试。</div><div class="ipnow-row"><button class="ipnow-btn" type="button" data-ip-refresh>重试</button>'+(ipHist.length?'<button class="ipnow-btn" type="button" data-ip-hist>历史 '+ipHist.length+'</button>':'')+'</div>'+ipHistHTML()+ipCheckToolsHTML()+ipNowHint();return;}
     var changeHTML=ipChange?'<div class="ipnow-alert">⚠ IP 已变更：<b>'+esc(ipChange.old)+'</b> → <b>'+esc(ipChange.neu)+'</b><button class="ipnow-x" type="button" data-ip-ackchange>知道了</button></div>':'';
-    box.innerHTML='<div class="ipnow-ip">'+esc(ipNowState.ip)+'</div>'+
-      (ipNowState.loc?'<div class="ipnow-loc">'+esc(ipNowState.loc)+'</div>':'')+
+    var network=ipNetworkText();
+    box.innerHTML=ipExitHTML()+'<div class="ipnow-ip">'+esc(ipNowState.ip)+'</div>'+
+      (network?'<div class="ipnow-loc">网络 · '+esc(network)+'</div>':'')+
       changeHTML+
       '<div class="ipnow-row"><button class="ipnow-btn" type="button" data-ip-copy>复制</button><button class="ipnow-btn" type="button" data-ip-refresh>刷新</button><button class="ipnow-btn" type="button" data-ip-hist>历史 '+ipHist.length+'</button></div>'+
-      ipHistHTML()+ipNowHint();
+      ipHistHTML()+ipCheckToolsHTML()+ipNowHint();
   }
   function detectCurrentIP(){
     if(typeof fetch!=="function"){ipNowState={status:"fail",ip:"",loc:""};renderIpNow();return;}
     ipNowState={status:"loading",ip:"",loc:""};renderIpNow();
-    var ends=["https://api.ipify.org?format=json","https://ipapi.co/json/","https://api.ip.sb/geoip"],i=0;
+    var ends=["https://ipapi.co/json/","https://api.ip.sb/geoip","https://api.ipify.org?format=json"],i=0;
     function tryNext(){
       if(i>=ends.length){ipNowState={status:"fail",ip:"",loc:""};renderIpNow();return;}
       var url=ends[i++];
       fetch(url,{cache:"no-store"}).then(function(r){return r.json();}).then(function(j){
         var ip=j.ip||j.query||"";if(!ip){tryNext();return;}
         var loc=[j.country_name||j.country,j.region||j.region_name,j.city].filter(Boolean).join(" · ");
-        ipNowState={status:"ok",ip:ip,loc:loc};recordIp(ip,loc);renderIpNow();
+        var asn=(j.asn&&typeof j.asn==="object")?(j.asn.asn||j.asn.number||""):(j.asn||"");
+        var org=(j.org||j.organization||j.asn_org||j.isp||"");
+        var countryCode=(j.country_code||j.country_code2||((j.country&&String(j.country).length===2)?j.country:"")||"");
+        ipNowState={status:"ok",ip:ip,loc:loc,countryCode:countryCode,asn:asn,org:org};recordIp(ip,loc);renderIpNow();
       }).catch(function(){tryNext();});
     }
     tryNext();
@@ -1538,7 +1760,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     if(pin){e.preventDefault();togglePin(pin.getAttribute("data-pin"));return;}
     var platNews=e.target.closest("[data-plat-news]");
     if(platNews){closeDropdown();gotoPlatformNews(platNews.getAttribute("data-plat-news"));return;}
-    if(e.target.closest("[data-ip-refresh]")){detectCurrentIP();return;}
+    if(e.target.closest("[data-ip-refresh]")){detectCurrentIP();runBrowserChecks();return;}
     if(e.target.closest("[data-ip-copy]")){copyCurrentIP();return;}
     if(e.target.closest("[data-ip-hist]")){ipHistOpen=!ipHistOpen;renderIpNow();return;}
     if(e.target.closest("[data-ip-ackchange]")){ipChange=null;renderIpNow();return;}
@@ -1573,6 +1795,8 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     if(sideIntel){state.sideIntel=sideIntel.dataset.sideIntel;renderSideIntel();return;}
     if(e.target.closest("[data-market-modal-open]")){setMarketModal(true);return;}
     if(e.target.closest("[data-market-modal-close]")){setMarketModal(false);return;}
+    if(e.target.closest("[data-ip-guide-open]")){setIpGuideModal(true);return;}
+    if(e.target.closest("[data-ip-guide-close]")){setIpGuideModal(false);return;}
     var rg=e.target.closest("[data-region]");
     if(rg&&rg.getAttribute("data-region")){state.region=rg.getAttribute("data-region");renderMarketAtlas();return;}
     var dirSub=e.target.closest("[data-dir-sub]");
@@ -1596,7 +1820,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     else if(e.key==="Enter"){e.preventDefault();rows[state.sel].click();}
   });
   function anyMenuOpen(){return id("ddPanel").classList.contains("open")||id("storeMenu").classList.contains("open");}
-  window.addEventListener("keydown",function(e){if(e.key==="Escape"&&anyMenuOpen()){closeDropdown();return;}if(e.key==="Escape"&&id("marketModal").classList.contains("open")){setMarketModal(false);return;}if(e.key==="/"&&document.activeElement!==q){e.preventDefault();q.focus();q.select();}});
+  window.addEventListener("keydown",function(e){if(e.key==="Escape"&&anyMenuOpen()){closeDropdown();return;}if(e.key==="Escape"&&id("marketModal").classList.contains("open")){setMarketModal(false);return;}if(e.key==="Escape"&&id("ipGuideModal").classList.contains("open")){setIpGuideModal(false);return;}if(e.key==="/"&&document.activeElement!==q){e.preventDefault();q.focus();q.select();}});
 
   /* 滚动联动：高亮左侧当前所在模块/分类 */
   function syncRail(){
@@ -1619,6 +1843,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   buildWorldClock();tickWorldClock();
   render();
   detectCurrentIP();
+  runBrowserChecks();
   syncRail();
   try{if(new URLSearchParams(location.search).get("open")==="market")setTimeout(function(){setMarketModal(true);},120);}catch(e){}
   setInterval(renderTime,60000);
