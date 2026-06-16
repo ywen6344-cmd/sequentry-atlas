@@ -8,7 +8,7 @@
 <meta property="og:title" content="序引海图 · 品牌出海的工具海图">
 <meta property="og:description" content="序引效能 · Sequentry 出品。品牌出海的工具海图——高频直达、AI 快速入口、今日信息集合与完整目录。">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://nav.sequentry.com/">
+<link rel="canonical" href="https://atlas.sequentry.com/">
 <link rel="icon" type="image/svg+xml" href="./assets/xuyin-haitu-icon.svg">
 <link rel="apple-touch-icon" href="./assets/xuyin-haitu-icon.svg">
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"50773348502349569a11c73225d9c735"}'></script>
@@ -380,6 +380,16 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .dock-store-btn{border:1px solid var(--blue);border-radius:var(--radius);background:var(--blue);padding:9px 15px;color:#fff;font:650 12.5px/1 var(--sans);display:inline-flex;align-items:center;gap:7px;box-shadow:0 2px 10px rgba(30,64,175,.28);transition:background .14s,box-shadow .14s,transform .12s,border-color .14s}
 .dock-store-btn .gl{width:15px;height:15px;color:#fff}
 .dock-store-btn:hover,.dock-store-btn.open{background:#1b3a9e;border-color:#1b3a9e;box-shadow:0 4px 16px rgba(30,64,175,.4);transform:translateY(-1px)}
+/* 全球开店主入口卡：板块第一落点，决策(去哪开店)优先于运营(打开后台) */
+.dock-store-feature{width:100%;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:13px;text-align:left;border:1px solid rgba(30,64,175,.28);border-radius:8px;background:linear-gradient(180deg,rgba(30,64,175,.06),rgba(30,64,175,.02));padding:13px 15px;margin-bottom:12px;color:var(--ink);transition:border-color .14s,box-shadow .14s,transform .12s,background .14s}
+.dock-store-feature:hover{border-color:var(--blue);box-shadow:0 4px 18px rgba(30,64,175,.16);transform:translateY(-1px);background:linear-gradient(180deg,rgba(30,64,175,.09),rgba(30,64,175,.03))}
+.dsf-icon{width:38px;height:38px;border-radius:9px;background:var(--blue);display:grid;place-items:center;flex:none;box-shadow:0 2px 10px rgba(30,64,175,.28)}
+.dsf-icon .gl{width:20px;height:20px;color:#fff}
+.dsf-text{display:grid;gap:3px;min-width:0}
+.dsf-text strong{font-family:var(--serif);font-size:15px;font-weight:650;line-height:1.2}
+.dsf-text>span{font-size:12px;color:var(--muted);line-height:1.45;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dsf-go{flex:none;font:11px/1 var(--mono);font-weight:600;color:var(--blue);white-space:nowrap;border:1px solid rgba(30,64,175,.3);border-radius:999px;padding:7px 11px;background:var(--paper);transition:background .14s,color .14s,border-color .14s}
+.dock-store-feature:hover .dsf-go{background:var(--blue);color:#fff;border-color:var(--blue)}
 .dock-add{border:1px dashed var(--line-strong);background:transparent;border-radius:var(--radius);padding:7px 12px;color:var(--muted);font-size:12.5px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
 .dock-add:hover,.dock-add.open{border-color:var(--blue);color:var(--blue)}
 .dock-ai-modes{margin-bottom:11px;display:inline-flex;flex-wrap:wrap}
@@ -525,6 +535,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   .rail-link.active{background:var(--ink);color:#fff;border-color:var(--ink)}
   .rail-link span{font-size:12px}
   .main{padding:16px 14px 42px}
+  .dsf-go{display:none}
   .ai-grid{grid-template-columns:repeat(auto-fill,minmax(72px,1fr))}
   .site-grid,body[data-view="compact"] .site-grid{grid-template-columns:1fr}
   .foot-main{grid-template-columns:1fr;gap:28px}
@@ -645,10 +656,13 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     <div id="home">
       <section class="section" id="sec-direct" data-page-section="direct">
         <div class="section-head">
-          <div><h2>直达</h2><p>店铺平台后台 / AI 入口 / 收藏 / 全球市场与开店，一处直达</p></div>
-          <span class="grow"></span>
-          <button class="dock-store-btn" type="button" data-market-modal-open><svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6.2"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4"/></svg>全球开店</button>
+          <div><h2>直达</h2><p>先看去哪开店，再到平台后台、AI 与常用工具，出海动线一处直达</p></div>
         </div>
+        <button class="dock-store-feature" type="button" data-market-modal-open>
+          <span class="dsf-icon"><svg class="gl" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6.2"/><path d="M1.8 8h12.4M8 1.8c2 2 2 10.4 0 12.4M8 1.8c-2 2-2 10.4 0 12.4"/></svg></span>
+          <span class="dsf-text"><strong>全球开店 · 出海第一步</strong><span>按地区看全球主流市场与平台，直达官方入驻与后台入口</span></span>
+          <span class="dsf-go">打开市场地图 →</span>
+        </button>
         <div class="dock-bar">
           <div class="dock-tabs" id="dockTabs"></div>
         </div>

@@ -511,6 +511,6 @@ with open("nav_data.json", "w", encoding="utf-8") as f:
     json.dump({"total": total, "categories": data, "cat_order": cat_order, "brand_subs": brand_subs}, f, ensure_ascii=False, indent=2)
 print(f"\nWritten nav_data.json ({total} sources, {len(cat_order)} categories)")
 
-# Auto-build links.js for nav.sequentry.com JS-rendered page
+# Auto-build links.js for atlas.sequentry.com JS-rendered page
 import subprocess, sys
 subprocess.run([sys.executable, "build_links_js.py"], check=True)
