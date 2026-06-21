@@ -123,6 +123,7 @@ function head(o){
 <link rel="icon" type="image/svg+xml" href="${o.pre}assets/xuyin-haitu-icon.svg">
 <link rel="stylesheet" href="${o.pre}pages.css">
 <script type="application/ld+json">${JSON.stringify(o.jsonld)}</script>
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","xaaa1cqss1");</script>
 </head><body>`;
 }
 function topbar(pre){
@@ -135,7 +136,9 @@ function footer(pre){
   return `<footer><div class="wrap">
 <div><a href="${pre}index.html">序引海图</a> · 品牌出海的工具海图 · <a href="${pre}guides/">出海指南</a> · <a href="${pre}standards.html">收录与评估标准</a></div>
 <div class="cp">© 2026 序引效能（Sequentry）</div>
-</div></footer></body></html>`;
+</div></footer>
+<script defer src="${pre}analytics-events.js"></script>
+</body></html>`;
 }
 function relatedGuidesSection(guides){
   if(!guides||!guides.length) return '';
