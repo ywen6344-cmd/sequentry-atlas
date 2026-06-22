@@ -4,10 +4,11 @@
    过期了重跑本脚本即可：  python build_feed.py
 """
 import json
+from pathlib import Path
 
 SRC = r"C:\Users\延航\Desktop\sequentry-跨境资讯平台\feed-collectors-v2\briefing.json"
-OUT = r"C:\Users\延航\Desktop\sequentry-site\nav\feed.js"
-N = 3  # 每个模块取几条
+OUT = Path(__file__).with_name("feed.js")
+N = 5  # 每个模块取几条
 
 # briefing 主题 -> 导航模块 id
 THEME2CAT = {
@@ -39,8 +40,9 @@ updated = (b.get("generated_at") or "")[:10] or "—"
 data = {"updated": updated, "by_cat": by}
 out  = "// 近期动态快照 —— build_feed.py 从 feeds 项目 briefing.json 生成；过期重跑该脚本即可。\n"
 out += "window.NAV_FEED = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
-open(OUT, "w", encoding="utf-8").write(out)
+OUT.write_text(out, encoding="utf-8")
 
 print("updated:", updated)
+print("out:", OUT)
 for c, l in by.items():
     print(" ", c, len(l))

@@ -1056,7 +1056,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     id("dockBody").innerHTML=state.dock==="ai"?aiTabHTML():(state.dock==="fav"?favTabHTML():shopTilesHTML());
   }
   function platGroups(p){var g=[];if(p.admin&&p.admin.length)g.push(["后台登录",p.admin]);if(p.ads&&p.ads.length)g.push(["广告后台",p.ads]);if(p.register&&p.register.length)g.push(["入驻注册",p.register]);return g;}
-  function closeDropdown(){["ddPanel","storeMenu"].forEach(function(n){var d=id(n);if(d){d.classList.remove("open");d.classList.remove("picker");d.classList.remove("chips");d.setAttribute("aria-hidden","true");}});document.querySelectorAll(".plat-card.open,.dock-store-btn.open").forEach(function(b){b.classList.remove("open");});}
+  function closeDropdown(){["ddPanel","storeMenu"].forEach(function(n){var d=id(n);if(d){d.classList.remove("open");d.classList.remove("picker");d.classList.remove("chips");d.setAttribute("aria-hidden","true");}});document.querySelectorAll(".plat-card.open,.dock-store-btn.open,[data-ai-model].open").forEach(function(b){b.classList.remove("open");});}
   /* fixed 下拉在浏览器缩放、CSS zoom 或 transform 环境下可能出现写入坐标与视觉坐标不一致。
      这里实测一次坐标比例，把目标视觉坐标换算回写入值。 */
   function placePanel(d,r,w,right){

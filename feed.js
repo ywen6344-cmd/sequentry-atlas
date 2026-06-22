@@ -1,85 +1,97 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目 briefing.json 生成；过期重跑该脚本即可。
 window.NAV_FEED = {
- "updated": "2026-06-10",
+ "updated": "2026-06-22",
  "by_cat": {
+  "market-product": [
+   {
+    "t": "H&M能否重振营收增长？",
+    "s": "Business of Fashion",
+    "u": "https://www.businessoffashion.com/briefings/the-week-ahead/can-hm-revive-top-line-growth/",
+    "d": "2026-06-21"
+   },
+   {
+    "t": "Moschino任命Sunnei创始人为创意总监",
+    "s": "Business of Fashion",
+    "u": "https://www.businessoffashion.com/articles/luxury/exclusive-moschino-hires-sunnei-designers-simone-rizzo-loris-messina/",
+    "d": "2026-06-21"
+   },
+   {
+    "t": "Prime Day还值得参加吗？",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/is-prime-day-still-worth-it/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-06-20"
+   }
+  ],
   "platform-channel": [
    {
-    "t": "PayPal与Hey Savi推出英国首个代理商务平台",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/newsarticle/47887/hey-savi-and-paypal-launch-agentic-commerce-platform-with-in-app-checkout?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-06-10"
+    "t": "Rufus与ChatGPT引领代理广告融合",
+    "s": "Marketplace Pulse",
+    "u": "https://www.marketplacepulse.com/articles/rufus-chatgpt-and-the-agentic-ad-convergence",
+    "d": "2026-06-22"
    },
    {
-    "t": "Klarna在美国推出储蓄账户",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110085/klarna-launches-savings-account-in-us?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-06-09"
+    "t": "AI如何改变电商卖家运营",
+    "s": "Marketplace Pulse",
+    "u": "https://www.marketplacepulse.com/articles/how-marketplace-sellers-are-using-ai",
+    "d": "2026-06-22"
    },
    {
-    "t": "Mirakl与Dogma Alares合作加速土耳其电商增长",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/06/mirakl-dogma-alares-to-accelerate-ecommerce-growth-in-turkey/",
-    "d": "2026-06-09"
+    "t": "国产模型加速迭代，算力景气度持续",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/newsflashes/3863099932464386?f=rss",
+    "d": "2026-06-21"
+   },
+   {
+    "t": "沃尔玛中国人事调整，豆包收支数据出炉",
+    "s": "亿邦动力",
+    "u": "https://www.ebrun.com/20260622/682213.shtml",
+    "d": "2026-06-22"
+   },
+   {
+    "t": "TikTok Shop美区年中促爆品清单与直播选品攻略",
+    "s": "雨果跨境",
+    "u": "https://www.cifnews.com/article/186947",
+    "d": "2026-06-22"
    }
   ],
   "compliance-fulfillment": [
    {
-    "t": "DSW母公司Q1财报后股价暴跌近22%",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/dsw-parent-designer-brands-stock-price-falls-q1-earnings-1239003688/",
-    "d": "2026-06-09"
-   },
-   {
-    "t": "欧盟启动跨地中海可再生能源与清洁技术合作倡议",
-    "s": "EU 委员会新闻",
-    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1319",
-    "d": "2026-06-09"
-   },
-   {
-    "t": "欧盟专员发布2026年毒品报告",
-    "s": "EU 委员会新闻",
-    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1308",
-    "d": "2026-06-09"
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Boots所有者洽谈百亿美元出售",
-    "s": "Business of Fashion",
-    "u": "https://www.businessoffashion.com/news/beauty/report-boots-owner-in-talks-on-possible-10-billion-sale/",
-    "d": "2026-06-09"
-   },
-   {
-    "t": "康涅狄格州成第二个监管动态定价州",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/connecticut-new-york-dynamic-pricing-bills-grocery-retail/822337/",
-    "d": "2026-06-09"
-   },
-   {
-    "t": "StockX今夏推直播购物",
-    "s": "Business of Fashion",
-    "u": "https://www.businessoffashion.com/briefings/sports/the-kicks-you-wear-why-stockx-is-launching-live-shopping/",
-    "d": "2026-06-09"
+    "t": "欧盟7月1日关税新政生效，跨境物流预警",
+    "s": "雨果跨境",
+    "u": "https://www.cifnews.com/article/186956",
+    "d": "2026-06-22"
    }
   ],
   "brand-retail": [
    {
-    "t": "乐高推出圣家堂套装纪念高迪逝世百年",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/06/09/lego-sagrada-familia-largest-set-antoni-gaudi-dezeen-debate/",
-    "d": "2026-06-09"
+    "t": "土耳其金融科技Midas瞄准消费者支付业务",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/consumer-payments-2/2026/turkish-fintech-midas-targets-consumer-payments-business/",
+    "d": "2026-06-21"
    },
    {
-    "t": "Bed Bath & Beyond继续收购狂潮",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/bed-bath-beyond-acquisition-installation-renovation/822351/",
-    "d": "2026-06-09"
+    "t": "“代理生活不性感，但我性感”：Tag联合创始人5问",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/professional-development/creative-careers/agency-life-isnt-sexy-but-i-am-5-questions-with-tumisha-balogun",
+    "d": "2026-06-21"
    },
    {
-    "t": "Creative Spark为脱发品牌Leo打造大胆直白形象",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/06/09/creative-spark-hair-loss-brand-leo/",
-    "d": "2026-06-09"
+    "t": "乔丹Air Jordan推出奢华麂皮穆勒鞋",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/sneaker-news/air-jordan-future-mule-release-date-hv5073-003-1239021035/",
+    "d": "2026-06-21"
+   },
+   {
+    "t": "开云旗下奢侈品牌在华门店做“加减法”",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/471025",
+    "d": "2026-06-21"
+   },
+   {
+    "t": "澳门消费升温，奢侈运动品牌扎堆开店",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/469541",
+    "d": "2026-06-21"
    }
   ]
  }
