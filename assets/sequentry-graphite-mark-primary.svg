@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="546" viewBox="0 0 870 546" role="img" aria-label="Sequentry Graphite primary mark">
+  <g fill="#0B0C0E">
+    <rect x="0" y="0" width="870" height="128" rx="64"/>
+    <path d="M434 209H771A99 99 0 0 1 870 308V530A16 16 0 0 1 854 546H758A16 16 0 0 1 742 530V375A38 38 0 0 0 704 337H434A64 64 0 0 1 434 209Z"/>
+    <rect x="0" y="418" width="683" height="128" rx="64"/>
+  </g>
+  <path fill="#596579" d="M64 209H314A8 8 0 0 1 322 217V329A8 8 0 0 1 314 337H64A64 64 0 0 1 64 209Z"/>
+</svg>

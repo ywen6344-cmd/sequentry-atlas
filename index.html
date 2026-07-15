@@ -21,9 +21,9 @@
 <meta name="twitter:image" content="https://atlas.sequentry.com/assets/og-cover.png">
 <meta name="keywords" content="品牌出海,跨境电商工具,出海导航,跨境工具导航,Amazon,Shopify,TikTok Shop,独立站,全球开店,序引效能,Sequentry">
 <link rel="canonical" href="https://atlas.sequentry.com/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"序引海图 Sequentry Atlas","alternateName":"序引海图","url":"https://atlas.sequentry.com/","inLanguage":"zh-CN","description":"序引效能（Sequentry）出品的品牌出海工具海图：高频直达、AI 快速入口、今日信息集合与完整分类目录。","publisher":{"@type":"Organization","name":"序引效能（Sequentry）","url":"https://www.sequentry.com/","logo":"https://atlas.sequentry.com/assets/xuyin-haitu-icon.svg"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://atlas.sequentry.com/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
-<link rel="icon" type="image/svg+xml" href="./assets/xuyin-haitu-icon.svg">
-<link rel="apple-touch-icon" href="./assets/xuyin-haitu-icon.svg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"序引海图 Sequentry Atlas","alternateName":"序引海图","url":"https://atlas.sequentry.com/","inLanguage":"zh-CN","description":"序引效能（Sequentry）出品的品牌出海工具海图：高频直达、AI 快速入口、今日信息集合与完整分类目录。","publisher":{"@type":"Organization","name":"序引效能（Sequentry）","url":"https://www.sequentry.com/","logo":"https://atlas.sequentry.com/assets/sequentry-graphite-app-icon-light.svg"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://atlas.sequentry.com/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+<link rel="icon" type="image/svg+xml" href="./assets/sequentry-graphite-app-icon-light.svg">
+<link rel="apple-touch-icon" href="./assets/sequentry-graphite-app-icon-light.svg">
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"50773348502349569a11c73225d9c735"}'></script>
 <!-- Microsoft Clarity（海图）— 热力图 / 会话录制 / 外链事件 -->
 <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","xaaa1cqss1");</script>
@@ -32,19 +32,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#FAFAFA;--paper:#FFFFFF;--panel:#F4F6F8;
-  --ink:#0F172A;--deep:#1F2937;--text:#4D4D4D;--muted:#6B7280;--light:#9CA3AF;
-  --line:rgba(15,23,42,.09);--line-strong:rgba(15,23,42,.18);--line-soft:rgba(15,23,42,.05);
-  --blue:#1E40AF;
-  --radius:6px;--rail:226px;--side:308px;--top-h:96px;
+  --bg:#F5F7FA;--paper:#FFFFFF;--panel:#EEF2F6;
+  --ink:#0B0C0E;--deep:#1F2937;--text:#4B5563;--muted:#6B7280;--light:#9AA3AE;
+  --graphite:#596579;--silver:#B5BEC9;
+  --line:rgba(89,101,121,.16);--line-strong:rgba(89,101,121,.30);--line-soft:rgba(89,101,121,.08);
+  --blue:#2859FF;
+  --radius:6px;--rail:208px;--side:320px;--top-h:96px;
   --sans:Inter,"Noto Sans SC","Microsoft YaHei","PingFang SC",system-ui,sans-serif;
   --serif:Fraunces,"Noto Serif SC","Source Han Serif SC","Songti SC",Georgia,serif;
   --mono:"JetBrains Mono","SF Mono",Consolas,Monaco,monospace;
 }
 *{box-sizing:border-box}
-/* 整站固定放大 110%：zoom 会重排布局（不像 transform 留空隙），新增模块自动继承，无需逐个调。
-   注意：JS 定位的 fixed/浮层需做坐标换算（见 placePanel），否则在 zoom 下会偏移。 */
-html{background:var(--bg);scroll-behavior:smooth;zoom:1.1}
+html{background:var(--bg);scroll-behavior:smooth}
 /* 细滚动条：轻、圆、悬停才加深，不喧宾夺主 */
 *{scrollbar-width:thin;scrollbar-color:rgba(15,23,42,.16) transparent}
 ::-webkit-scrollbar{width:10px;height:10px}
@@ -53,7 +52,7 @@ html{background:var(--bg);scroll-behavior:smooth;zoom:1.1}
 ::-webkit-scrollbar-thumb:hover{background:rgba(15,23,42,.26);background-clip:padding-box}
 body{
   margin:0;color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;
-  background-image:url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1.2' cy='1.2' r='1' fill='%230F172A' fill-opacity='0.04'/%3E%3C/svg%3E");
+  background:var(--bg);
 }
 a{color:inherit;text-decoration:none}
 button,input{font:inherit}
@@ -87,8 +86,8 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .flag{display:inline-block;width:17px;height:12px;border-radius:2px;flex:none;box-shadow:0 0 0 1px rgba(15,23,42,.12) inset;overflow:hidden}
 .gl{display:block;flex:none}
 .top-inner{height:64px;max-width:1740px;margin:0 auto;padding:0 22px;display:grid;grid-template-columns:minmax(280px,360px) minmax(0,1fr);gap:22px;align-items:center}
-.brand{display:grid;grid-template-columns:34px minmax(0,1fr);align-items:center;align-content:center;gap:10px;min-width:0;line-height:1.05}
-.brand-mark{width:34px;height:34px;display:block}
+.brand{display:grid;grid-template-columns:40px minmax(0,1fr);align-items:center;align-content:center;gap:11px;min-width:0;line-height:1.05}
+.brand-mark{width:40px;height:auto;display:block}
 .brand-copy{display:grid;gap:3px;min-width:0}
 .brand strong{font-family:var(--serif);font-size:22px;font-weight:650;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brand small{font-size:12px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -604,6 +603,123 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .top-login:hover{background:rgba(59,130,246,.3);border-color:rgba(96,165,250,.7);color:#fff}
 .sq-toast{position:fixed;left:50%;bottom:32px;transform:translateX(-50%) translateY(8px);z-index:120;background:var(--ink);color:#fff;font-size:13px;line-height:1.5;padding:11px 16px;border-radius:8px;box-shadow:0 12px 34px rgba(15,23,42,.28);max-width:min(440px,calc(100vw - 32px));opacity:0;transition:opacity .2s,transform .2s;pointer-events:none}
 .sq-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ===== Graphite product layout upgrade ===== */
+.top{background:rgba(245,247,250,.94);border-bottom-color:rgba(89,101,121,.20)}
+.topbar{background:var(--ink);border-bottom:0}
+.clock{border:0;border-right:1px solid rgba(181,190,201,.22);border-radius:0;background:transparent;padding:0 10px}
+.clock:last-child{border-right:0}
+.clock:first-child{border-color:rgba(181,190,201,.22);background:transparent;box-shadow:inset 0 -2px var(--blue)}
+.top-inner{background:rgba(245,247,250,.82)}
+.command{border-color:var(--silver);border-radius:6px;box-shadow:none}
+.command:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px rgba(40,89,255,.10)}
+
+.app{grid-template-columns:var(--rail) minmax(0,1fr) var(--side);background:var(--bg)}
+.rail{background:#F8FAFC;border-right-color:rgba(89,101,121,.20);padding-top:18px}
+.rail-title{color:var(--graphite);padding-left:20px;margin-bottom:16px}
+#rail{position:relative}
+#rail:before{content:"";position:absolute;z-index:0;left:20px;top:39px;bottom:8px;width:1px;background:linear-gradient(180deg,rgba(89,101,121,.08),rgba(89,101,121,.28) 12%,rgba(89,101,121,.28) 88%,rgba(89,101,121,.08))}
+.rail-group{position:relative;z-index:2;color:var(--light);padding-left:20px;background:#F8FAFC}
+.rail-link{position:relative;z-index:2;border:0;padding:7px 14px 7px 20px;color:var(--muted);transition:color .28s ease}
+.rail-link:before{content:"";position:absolute;left:20px;top:50%;width:5px;height:5px;border-radius:50%;background:var(--silver);box-shadow:0 0 0 3px #F8FAFC;transform:translate(-50%,-50%) scale(1);transition:opacity .2s ease,transform .28s cubic-bezier(.22,1,.36,1),background .2s ease}
+.rail-link span{padding-left:13px;transition:transform .4s cubic-bezier(.22,1,.36,1),color .28s ease}
+.rail-link:hover{color:var(--ink);background:transparent}
+.rail-link:hover span{transform:translateX(2px)}
+.rail-link:focus{outline:none}
+.rail-link:focus-visible{box-shadow:inset 0 0 0 1px rgba(40,89,255,.32)}
+.rail-link.active{color:var(--ink);background:transparent}
+.rail-link.active span{font-weight:600;transform:translateX(3px)}
+.rail-link.active:before{opacity:0;transform:translate(-50%,-50%) scale(.45)}
+.rail-focus{position:absolute;z-index:1;left:0;right:0;top:0;height:34px;opacity:0;pointer-events:none;transform:translate3d(0,0,0);will-change:transform,height}
+.rail-focus.is-ready{opacity:1;transition:transform .34s cubic-bezier(.22,1,.36,1),height .26s cubic-bezier(.22,1,.36,1),opacity .16s ease}
+.rail-focus-surface{position:absolute;inset:1px 0;border-radius:0 5px 5px 0;background:linear-gradient(90deg,rgba(40,89,255,.105),rgba(89,101,121,.055) 62%,rgba(89,101,121,0));box-shadow:inset 0 1px rgba(255,255,255,.72),inset 0 -1px rgba(89,101,121,.035)}
+.rail-focus-line{position:absolute;left:19px;top:8px;bottom:8px;width:2px;border-radius:2px;background:rgba(40,89,255,.72)}
+.rail-focus-line:after{content:"";position:absolute;left:50%;top:50%;width:5px;height:5px;border-radius:50%;background:#F8FAFC;border:1.5px solid rgba(40,89,255,.78);box-shadow:0 0 0 2px rgba(40,89,255,.045);transform:translate(-50%,-50%)}
+
+.main{padding:24px 26px 56px}
+.section{background:transparent;border:0;border-radius:0;padding:0;margin-bottom:30px}
+.section-head{position:relative;min-height:38px;align-items:flex-start;padding-left:42px;margin-bottom:14px}
+.section-head:before{position:absolute;left:0;top:2px;width:28px;padding-top:6px;border-top:2px solid var(--graphite);font:10px/1 var(--mono);font-weight:600;color:var(--graphite);letter-spacing:.08em}
+#searchSection .section-head:before{content:"S"}
+#sec-direct .section-head:before{content:"01"}
+#sec-catalog .section-head:before{content:"02"}
+.section-head h2{font-size:20px;color:var(--ink)}
+.section-head p{margin-top:3px;color:var(--muted)}
+
+.dock-store-feature{border:0;border-radius:6px;background:var(--ink);padding:16px 17px;margin-bottom:14px;box-shadow:none}
+.dock-store-feature:hover{border-color:transparent;background:#171A1F;box-shadow:0 4px 18px rgba(11,12,14,.14);transform:translateY(-1px)}
+.dsf-icon{width:40px;height:40px;border-radius:6px;background:var(--blue);box-shadow:none}
+.dsf-text strong{color:#fff;font-size:16px}
+.dsf-text>span{color:var(--silver)}
+.dsf-go{border:0;border-radius:5px;background:var(--blue);color:#fff;padding:8px 12px}
+.dock-store-feature:hover .dsf-go{background:#1747F5}
+.dock-tabs,.seg{border-color:var(--line-strong);border-radius:5px}
+
+.catalog{gap:30px}
+.dir-head{padding-bottom:10px;border-bottom-color:var(--line-strong)}
+.dir-index{color:var(--graphite)}
+.site-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;border:0;border-radius:0;background:transparent;overflow:visible}
+.site-card{grid-template-columns:22px minmax(0,1fr);grid-template-rows:auto auto auto;gap:4px 8px;min-height:104px;padding:11px 10px;border:1px solid rgba(89,101,121,.18);border-radius:6px;background:var(--paper);box-shadow:0 1px 2px rgba(11,12,14,.025);transform:none;transition:border-color .18s ease,box-shadow .22s ease,transform .22s cubic-bezier(.22,1,.36,1),background .18s ease}
+.site-card:hover{position:relative;z-index:1;border-color:rgba(89,101,121,.32);background:#fff;box-shadow:0 7px 18px rgba(11,12,14,.07);transform:translateY(-2px)}
+.site-card .ico{grid-row:1;width:22px;height:22px}
+.site-card .pin{top:8px;right:8px;border-radius:3px}
+.site-name{font-size:12.5px}
+.site-desc,.site-domain{grid-column:1/-1}
+.site-desc{margin-top:3px;line-height:1.46}
+body[data-view="compact"] .site-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;border:0;border-radius:0;background:transparent;overflow:visible}
+body[data-view="compact"] .site-card{grid-template-columns:18px minmax(0,1fr);grid-template-rows:auto auto;gap:3px 7px;min-height:64px;padding:8px;border:1px solid rgba(89,101,121,.18);border-radius:5px;box-shadow:0 1px 2px rgba(11,12,14,.02)}
+body[data-view="compact"] .site-card:hover{border-color:rgba(89,101,121,.32);background:#fff;box-shadow:0 4px 12px rgba(11,12,14,.055);transform:translateY(-1px)}
+body[data-view="compact"] .site-card .ico{grid-row:1/3;width:18px;height:18px;border-radius:4px}
+body[data-view="compact"] .site-name{font-size:11.5px;line-height:1.3;padding-right:12px}
+body[data-view="compact"] .site-desc{display:none}
+body[data-view="compact"] .site-domain{grid-column:2;font-size:8.5px;margin-top:1px}
+body[data-view="compact"] .site-card .pin{top:5px;right:5px}
+.more-line button{border-color:var(--line-strong);border-radius:5px;background:var(--paper)}
+.seg button:focus{outline:none}
+.seg button:focus-visible{box-shadow:inset 0 0 0 1px rgba(40,89,255,.36)}
+
+.side{border-left-color:rgba(89,101,121,.20);background:#EEF2F6;padding:18px 16px 42px}
+.side-panel{border-bottom-color:rgba(89,101,121,.22);padding-bottom:18px;margin-bottom:18px}
+.side-title{color:var(--graphite);font-weight:600}
+.side-intel-summary{border:0;border-left:3px solid var(--blue);border-radius:0;background:rgba(255,255,255,.72);padding:12px 13px}
+.side-intel-card:before{width:8px;height:3px;border-radius:1px;background:var(--graphite);margin-top:6px}
+.side-intel-card:hover:before{background:var(--blue)}
+.side-intel-tabs button{border-color:rgba(89,101,121,.22);border-radius:5px}
+.side-brand-card{border-color:rgba(89,101,121,.24);border-radius:6px;background:rgba(255,255,255,.72)}
+.side-brand-card:hover{border-color:var(--blue);background:#fff}
+.time-row{border-bottom-color:rgba(89,101,121,.12)}
+
+.ai-card,.plat-card,.market-card,.store-card,.intel-card{border-color:var(--line);border-radius:5px;box-shadow:none}
+.ai-card:hover,.plat-card:hover,.market-card:hover,.store-card:hover,.intel-card:hover{border-color:var(--line-strong);box-shadow:0 2px 10px rgba(11,12,14,.05)}
+.to-top{border-radius:6px;box-shadow:0 4px 16px rgba(11,12,14,.10)}
+footer.foot{background:var(--ink)}
+
+@media(max-width:1240px){
+  .side{background:#EEF2F6}
+  .side .side-panel{border-color:rgba(89,101,121,.20);border-radius:6px;box-shadow:none}
+}
+@media(max-width:860px){
+  #rail:before{display:none}
+  #rail{display:flex;gap:6px;min-width:max-content}
+  .rail-focus{display:none}
+  .rail-link:before{display:none}
+  .rail-link{flex:none}
+  .rail-link span{padding-left:0}
+  .rail-link.active{background:var(--ink);color:#fff}
+  .rail-link.active span{transform:none}
+  .world-clock{justify-content:flex-start}
+  .main{padding:18px 14px 44px}
+  .section-head{padding-left:36px}
+  .dock-store-feature{padding:14px}
+  .site-grid{grid-template-columns:repeat(3,minmax(0,1fr));border-radius:5px}
+  body[data-view="compact"] .site-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(max-width:620px){
+  .site-grid,body[data-view="compact"] .site-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  .rail-focus.is-ready,.rail-link,.rail-link:before,.rail-link span{transition:none}
+}
 </style>
 </head>
 <body data-view="comfort">
@@ -621,7 +737,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   </div>
   <div class="top-inner">
     <a class="brand" href="#" data-home title="序引海图 · 品牌出海的工具海图">
-      <img class="brand-mark" src="./assets/xuyin-haitu-icon.svg" alt="">
+      <img class="brand-mark" src="./assets/sequentry-graphite-mark-primary.svg" alt="" aria-hidden="true">
       <span class="brand-copy">
         <strong>序引海图</strong>
         <small><b>Sequentry Atlas</b>跨境品牌打造与品牌出海工具导航</small>
@@ -765,7 +881,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 </div></footer>
 
 <script src="links.js"></script>
-<script src="feed.js"></script>
+<script src="feed.js?v=20260715082049"></script>
 <script src="ai.js"></script>
 <script src="icons.js"></script>
 <script src="market_meta.js"></script>
@@ -956,12 +1072,57 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   function result(l,i){var c=catMap[l.cat]&&catMap[l.cat].name||l.cat||"";return '<a class="result '+(i===state.sel?'sel':'')+'" href="'+esc(l.url)+'" target="_blank" rel="noopener" data-url="'+esc(l.url)+'">'+icon(l)+'<span><strong>'+esc(l.name)+'</strong><span>'+esc(l.domain||"")+' · '+esc(l.desc||"")+'</span></span><em>'+esc(c)+'</em></a>';}
 
   /* ---------- 左侧导航 ---------- */
+  var railFrame=0;
+  function positionRailIndicator(keepVisible){
+    var rail=id("rail");
+    if(!rail)return;
+    cancelAnimationFrame(railFrame);
+    railFrame=requestAnimationFrame(function(){
+      var active=rail.querySelector(".rail-link.active"),focus=rail.querySelector(".rail-focus");
+      if(!active||!focus)return;
+      focus.style.height=active.offsetHeight+"px";
+      focus.style.transform="translate3d(0,"+active.offsetTop+"px,0)";
+      if(!focus.classList.contains("is-ready"))requestAnimationFrame(function(){focus.classList.add("is-ready");});
+      if(!keepVisible||window.matchMedia("(max-width:860px)").matches)return;
+      var scroller=rail.parentElement,top=active.offsetTop,bottom=top+active.offsetHeight;
+      var safeTop=scroller.scrollTop+54,safeBottom=scroller.scrollTop+scroller.clientHeight-42;
+      if(top<safeTop||bottom>safeBottom){
+        var next=Math.max(0,top-(scroller.clientHeight-active.offsetHeight)/2);
+        scroller.scrollTo({top:next,behavior:window.matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});
+      }
+    });
+  }
   function renderRail(){
+    var rail=id("rail");
     var pages=[["direct","直达"],["catalog","完整目录"]];
-    var html='<div class="rail-group">页面模块</div>'+pages.map(function(p){return '<button class="rail-link '+(state.cat===p[0]?'active':'')+'" data-page-target="'+p[0]+'"><span>'+p[1]+'</span></button>';}).join("");
-    var last=null;
-    D.categories.forEach(function(c){if(c.group!==last){last=c.group;html+='<div class="rail-group">'+esc(GROUP[c.group]||c.group)+'</div>';}html+='<button class="rail-link '+(state.cat===c.id?'active':'')+'" data-cat="'+esc(c.id)+'"><span>'+esc(c.name)+'</span></button>';});
-    id("rail").innerHTML=html;
+    if(!rail.dataset.ready){
+      var html='<div class="rail-focus" aria-hidden="true"><span class="rail-focus-surface"></span><span class="rail-focus-line"></span></div><div class="rail-group">页面模块</div>'+pages.map(function(p){return '<button class="rail-link" data-page-target="'+p[0]+'"><span>'+p[1]+'</span></button>';}).join("");
+      var last=null;
+      D.categories.forEach(function(c){if(c.group!==last){last=c.group;html+='<div class="rail-group">'+esc(GROUP[c.group]||c.group)+'</div>';}html+='<button class="rail-link" data-cat="'+esc(c.id)+'"><span>'+esc(c.name)+'</span></button>';});
+      rail.innerHTML=html;
+      rail.dataset.ready="true";
+    }
+    rail.querySelectorAll(".rail-link").forEach(function(link){
+      var key=link.dataset.pageTarget||link.dataset.cat,isActive=key===state.cat;
+      link.classList.toggle("active",isActive);
+      if(isActive)link.setAttribute("aria-current","true");else link.removeAttribute("aria-current");
+    });
+    positionRailIndicator(true);
+  }
+  var railIntent=null,railIntentUntil=0;
+  function navigateRail(key,targetId){
+    var restoringSearch=!!state.q;
+    state.cat=key;
+    state.q="";
+    id("q").value="";
+    railIntent={key:key,targetId:targetId};
+    railIntentUntil=Date.now()+2200;
+    if(restoringSearch)render();else renderRail();
+    requestAnimationFrame(function(){
+      var el=id(targetId);
+      if(!el){railIntent=null;return;}
+      el.scrollIntoView({block:"start",behavior:window.matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth"});
+    });
   }
 
   /* ---------- 直达 dock：店铺平台 / AI 入口 / 收藏 + 全球开店▾ ---------- */
@@ -1683,9 +1844,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
     var home=e.target.closest("[data-home]");
     if(home){e.preventDefault();state.q="";id("q").value="";render();window.scrollTo({top:0,behavior:"smooth"});return;}
     var page=e.target.closest("[data-page-target]");
-    if(page){state.cat=page.dataset.pageTarget;state.q="";id("q").value="";render();setTimeout(function(){var el=id("sec-"+state.cat);if(el)el.scrollIntoView({block:"start",behavior:"smooth"});},20);return;}
+    if(page){var pageKey=page.dataset.pageTarget;navigateRail(pageKey,"sec-"+pageKey);return;}
     var cat=e.target.closest("[data-cat]");
-    if(cat){state.cat=cat.dataset.cat;state.q="";id("q").value="";render();setTimeout(function(){var el=id("dir-cat-"+state.cat);if(el)el.scrollIntoView({block:"start",behavior:"smooth"});},20);return;}
+    if(cat){var catKey=cat.dataset.cat;navigateRail(catKey,"dir-cat-"+catKey);return;}
     var aiMode=e.target.closest("[data-ai-mode]");
     if(aiMode){state.aiMode=aiMode.dataset.aiMode;renderDockBody();return;}
     var sideIntel=e.target.closest("[data-side-intel]");
@@ -1721,6 +1882,15 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   function syncRail(){
     if(state.q)return;
     var th=(parseInt(getComputedStyle(document.documentElement).getPropertyValue("--top-h"),10)||94)+16;
+    if(railIntent){
+      var intentTarget=id(railIntent.targetId),intentTop=intentTarget?intentTarget.getBoundingClientRect().top:Infinity;
+      var intentArrived=intentTarget&&intentTop<=th&&Math.abs(intentTop-th)<=14;
+      if(!intentArrived&&Date.now()<railIntentUntil){
+        if(state.cat!==railIntent.key){state.cat=railIntent.key;renderRail();}
+        return;
+      }
+      railIntent=null;
+    }
     var cur=window.scrollY<80?"direct":state.cat;
     document.querySelectorAll("[data-page-section]").forEach(function(s){if(s.offsetParent===null)return;if(s.getBoundingClientRect().top<=th)cur=s.dataset.pageSection;});
     document.querySelectorAll("[data-dir-section]").forEach(function(s){if(s.offsetParent===null)return;if(s.getBoundingClientRect().top<=th)cur=s.dataset.dirSection;});
@@ -1732,7 +1902,7 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   var toTop=id("toTop");
   toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
   window.addEventListener("scroll",function(){toTop.classList.toggle("show",(window.scrollY||document.documentElement.scrollTop||0)>360);if(anyMenuOpen())closeDropdown();},{passive:true});
-  window.addEventListener("resize",closeDropdown);
+  window.addEventListener("resize",function(){closeDropdown();positionRailIndicator(false);});
 
   /* ---------- 启动 ---------- */
   (function(){var m=id("catalogMeta");if(!m)return;

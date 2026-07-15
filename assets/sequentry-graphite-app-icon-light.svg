@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Sequentry Graphite light app icon">
+  <rect width="1024" height="1024" rx="220" fill="#F5F7FA"/>
+  <g transform="translate(124 268) scale(.892)">
+    <g fill="#0B0C0E">
+      <rect width="870" height="128" rx="64"/>
+      <path d="M434 209H771A99 99 0 0 1 870 308V530A16 16 0 0 1 854 546H758A16 16 0 0 1 742 530V375A38 38 0 0 0 704 337H434A64 64 0 0 1 434 209Z"/>
+      <rect y="418" width="683" height="128" rx="64"/>
+    </g>
+    <path fill="#596579" d="M64 209H314A8 8 0 0 1 322 217V329A8 8 0 0 1 314 337H64A64 64 0 0 1 64 209Z"/>
+  </g>
+</svg>

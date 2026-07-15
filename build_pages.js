@@ -120,7 +120,7 @@ function head(o){
 <meta property="og:image" content="${BASE_URL}/assets/og-cover.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${BASE_URL}/assets/og-cover.png">
-<link rel="icon" type="image/svg+xml" href="${o.pre}assets/xuyin-haitu-icon.svg">
+<link rel="icon" type="image/svg+xml" href="${o.pre}assets/sequentry-graphite-app-icon-light.svg">
 <link rel="stylesheet" href="${o.pre}pages.css">
 <script type="application/ld+json">${JSON.stringify(o.jsonld)}</script>
 <script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","xaaa1cqss1");</script>
@@ -128,7 +128,7 @@ function head(o){
 }
 function topbar(pre){
   return `<header class="site-top"><div class="wrap">
-<a class="site-brand" href="${pre}index.html"><img src="${pre}assets/xuyin-haitu-icon.svg" alt="序引海图"><b>序引海图</b><span>Sequentry&nbsp;Atlas</span></a>
+<a class="site-brand" href="${pre}index.html"><img src="${pre}assets/sequentry-graphite-mark-primary.svg" alt="" aria-hidden="true"><b>序引海图</b><span>Sequentry&nbsp;Atlas</span></a>
 <a class="to-app" href="${pre}index.html">打开导航 →</a>
 </div></header>`;
 }
@@ -235,7 +235,7 @@ function buildGuide(g){
       {"@type":"ListItem","position":3,"name":g.title,"item":BASE_URL+p}]},
     {"@type":"Article","headline":g.title,"description":desc,"datePublished":g.date||TODAY,"dateModified":g.date||TODAY,
      "author":{"@type":"Organization","name":"序引效能（Sequentry）","url":"https://www.sequentry.com/"},
-     "publisher":{"@type":"Organization","name":"序引效能（Sequentry）","logo":BASE_URL+'/assets/xuyin-haitu-icon.svg'},
+     "publisher":{"@type":"Organization","name":"序引效能（Sequentry）","logo":BASE_URL+'/assets/sequentry-graphite-app-icon-light.svg'},
      "image":BASE_URL+'/assets/og-cover.png',"mainEntityOfPage":BASE_URL+p,"inLanguage":"zh-CN"}
   ]};
   const rels=[];
