@@ -2,6 +2,17 @@
 window.NAV_FEED = {
  "updated": "2026-07-15",
  "by_cat": {
+  "compliance-fulfillment": [
+   {
+    "t": "Shopify POS UI扩展支持捆绑组件折扣分摊",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/pos-ui-extensions-2026-07-adds-discount-allocations-to-bundle-components",
+    "d": "2026-07-15",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   }
+  ],
   "platform-channel": [
    {
     "t": "Dollar Shave Club用生成式AI释放广告创意",
@@ -22,7 +33,7 @@ window.NAV_FEED = {
     "score": 83
    },
    {
-    "t": "Ingredient-led brands are dominating AI beauty citations",
+    "t": "成分主导品牌主导AI美容引用",
     "s": "Glossy",
     "u": "https://www.glossy.co/beauty/ingredient-led-brands-are-dominating-ai-beauty-citations/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
     "d": "2026-07-15",
@@ -31,7 +42,7 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "Wellness Briefing: Is hormone tracking the future of women’s wearables? Plus news",
+    "t": "健康简报：激素追踪将成女性可穿戴设备未来？",
     "s": "Glossy",
     "u": "https://www.glossy.co/beauty/wellness/wellness-briefing-is-hormone-tracking-the-future-of-womens-wearables-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
     "d": "2026-07-15",
@@ -40,7 +51,7 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "TikTok美区FBT连放三招，大件费率大跳水，中小卖家也能搭上返现顺风车",
+    "t": "TikTok美区FBT三招调整，大件费率大降",
     "s": "白鲸出海",
     "u": "http://www.baijing.cn/article/56002",
     "d": "2026-07-15",
@@ -60,7 +71,7 @@ window.NAV_FEED = {
   ],
   "market-product": [
    {
-    "t": "44 Million Subprime Consumers Create a New Market for Payments Providers",
+    "t": "4400万次级消费者催生支付新市场",
     "s": "PYMNTS 支付新闻",
     "u": "https://www.pymnts.com/consumer-insights/2026/44million-subprime-consumers-create-new-market-for-payments-providers/",
     "d": "2026-07-15",
@@ -69,7 +80,7 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "Golden Goose Gets Gen Z",
+    "t": "Golden Goose吸引Z世代",
     "s": "The Robin Report",
     "u": "https://therobinreport.com/golden-goose-gets-gen-z/",
     "d": "2026-07-15",
@@ -96,7 +107,7 @@ window.NAV_FEED = {
     "score": 74
    },
    {
-    "t": "UK ecommerce volumes flat in Q2 as consumers become selective",
+    "t": "英国Q2电商包裹量持平，消费者变挑剔",
     "s": "ChannelX",
     "u": "https://channelx.world/2026/07/uk-ecommerce-volumes-flat-in-q2-as-consumers-become-selective/",
     "d": "2026-07-15",
@@ -125,7 +136,7 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "Panasonic launches Japanese Microwave designed for modern American kitchens",
+    "t": "松下推日式微波炉，瞄准美式厨房",
     "s": "Dezeen 设计",
     "u": "https://www.dezeen.com/2026/07/15/panasonic-japanese-microwave/",
     "d": "2026-07-15",
@@ -134,42 +145,22 @@ window.NAV_FEED = {
     "score": 69
    },
    {
-    "t": "Casalgrande Padana推出Essence瓷砖",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/07/14/essence-tiles-casalgrande-padana-dezeen-showroom/",
-    "d": "2026-07-14",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "州诉讼或阻派拉蒙与天空之舞合并",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/tvnewser/state-lawsuit-to-block-paramount-skydance-merger-could-offer-reprieve-to-cnn/",
-    "d": "2026-07-14",
-    "p": "P0",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "'The world is deserving of better design': Koto's Jowey Roden on his mission to make quality typefaces affordable",
+    "t": "Koto联合创始人：让优质字体更亲民",
     "s": "Creative Boom",
     "u": "https://www.creativeboom.com/news/the-world-is-deserving-of-better-design-kotos-jowey-roden-on-his-mission-to-make-quality-typefaces-affordable/",
     "d": "2026-07-15",
     "p": "P2",
     "m": "UK",
     "score": 66
-   }
-  ],
-  "compliance-fulfillment": [
+   },
    {
-    "t": "估值110亿美元，空中云汇助初创企业全球扩张",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3895355856403456?f=rss",
+    "t": "Jordan品牌推播客，每集聚焦Air Jordan音乐遗产",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/sneaker-news/air-jordan-retro-sounds-apple-music-podcast-1239065378/",
     "d": "2026-07-14",
     "p": "P2",
-    "m": "US",
-    "score": 70
+    "m": "GLOBAL",
+    "score": 66
    }
   ]
  }
