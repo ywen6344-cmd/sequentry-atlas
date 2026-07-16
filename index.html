@@ -218,13 +218,20 @@ kbd{display:inline-flex;align-items:center;height:18px;padding:0 5px;border:1px 
 .side-intel-tabs button{flex:0 0 auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);padding:6px 8px;color:var(--muted);font:10px/1 var(--mono)}
 .side-intel-tabs button.active{background:var(--ink);border-color:var(--ink);color:#fff}
 .side-intel-body{display:grid;gap:10px}
-.side-intel-scroll{display:grid;gap:8px;max-height:330px;overflow:auto;padding-right:4px}
+.side-intel-scroll{display:grid;gap:0;max-height:390px;overflow:auto;padding-right:4px;border-top:1px solid var(--line)}
 .side-intel-card{display:grid;grid-template-columns:7px minmax(0,1fr);gap:9px;align-items:start;color:var(--muted);font-size:12px;line-height:1.42}
 .side-intel-card:hover{color:var(--blue)}
-.side-intel-card:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--blue);margin-top:5px}
-.side-intel-card strong{display:block;color:var(--deep);font-size:12.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.side-intel-card:before{content:"";width:6px;height:6px;border:1px solid var(--graphite);background:var(--paper);margin-top:13px}
+.side-intel-card>span{display:block;padding:9px 0;border-bottom:1px solid var(--line)}
+.side-intel-card strong{display:block;color:var(--deep);font-size:12.5px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.side-intel-card small{font-size:10px;line-height:1.45;color:var(--muted);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;margin-top:4px}
 .side-intel-card em{font-style:normal;font:9px/1.35 var(--mono);color:var(--light);display:block;margin-top:3px}
 .side-intel-note{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:10px 11px;color:var(--muted);font-size:12px;line-height:1.45}
+.intel-cta{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:10px;color:var(--muted);font:9px/1.4 var(--mono)}
+.radar-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.radar-head .side-title{margin-bottom:0}
+.radar-all{color:var(--blue);font:10px/1 var(--mono);text-decoration:none;white-space:nowrap}.radar-all:hover{text-decoration:underline}
+.mobile-intel{display:none}
 
 /* 完整目录 */
 .catalog{display:grid;gap:24px}
@@ -532,6 +539,9 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
   /* 侧栏不再隐藏：横跨整行落到主区下方，面板改自适应卡片网格 */
   .side{grid-column:1/-1;position:static;height:auto;overflow:visible;border-left:0;border-top:1px solid var(--line);padding:18px 16px 36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:start;gap:14px}
   .side .side-panel{border:1px solid var(--line);border-radius:8px;background:var(--paper);padding:14px;margin-bottom:0}
+  .side .side-radar-panel{display:none}
+  .mobile-intel{display:block}
+  .mobile-intel .side-intel-scroll{max-height:none;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px}
   .home-grid{grid-template-columns:1fr}
   .intel-board{grid-template-columns:1fr}
   .market-layout{grid-template-columns:1fr}
@@ -642,7 +652,8 @@ footer.foot .shell{width:min(1740px,calc(100% - 44px));margin:0 auto}
 .section-head:before{position:absolute;left:0;top:2px;width:28px;padding-top:6px;border-top:2px solid var(--graphite);font:10px/1 var(--mono);font-weight:600;color:var(--graphite);letter-spacing:.08em}
 #searchSection .section-head:before{content:"S"}
 #sec-direct .section-head:before{content:"01"}
-#sec-catalog .section-head:before{content:"02"}
+#sec-intel .section-head:before{content:"02"}
+#sec-catalog .section-head:before{content:"03"}
 .section-head h2{font-size:20px;color:var(--ink)}
 .section-head p{margin-top:3px;color:var(--muted)}
 
@@ -716,6 +727,7 @@ footer.foot{background:var(--ink)}
 }
 @media(max-width:620px){
   .site-grid,body[data-view="compact"] .site-grid{grid-template-columns:1fr}
+  .mobile-intel .side-intel-scroll{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){
   .rail-focus.is-ready,.rail-link,.rail-link:before,.rail-link span{transition:none}
@@ -731,6 +743,7 @@ footer.foot{background:var(--ink)}
       <nav class="top-links">
         <a href="https://www.sequentry.com/" target="_blank" rel="noopener">品牌研究</a>
         <a class="active" href="#" data-home>导航</a>
+        <a href="briefs/">信号</a>
         <button class="top-login" id="loginBtn" type="button" title="登录后可追踪历史 IP 与多设备同步设置">登录 / 注册</button>
       </nav>
     </div>
@@ -779,6 +792,15 @@ footer.foot{background:var(--ink)}
         <div class="dock-body" id="dockBody"></div>
       </section>
 
+      <section class="section mobile-intel" id="sec-intel" data-page-section="intel">
+        <div class="section-head">
+          <div><h2>今日雷达</h2><p>AI 动态与跨境经营信号的首页摘要</p></div>
+          <span class="grow"></span><a class="radar-all" href="briefs/">查看全部信号 →</a>
+        </div>
+        <div class="side-intel-tabs" id="mobileIntelTabs"></div>
+        <div class="side-intel-body" id="mobileIntelBody"></div>
+      </section>
+
       <section class="section" id="sec-catalog" data-page-section="catalog">
         <div class="section-head">
           <div><h2>完整目录</h2><p id="catalogMeta">按分类浏览全部入口</p></div>
@@ -791,8 +813,8 @@ footer.foot{background:var(--ink)}
   </main>
 
   <aside class="side">
-    <section class="side-panel">
-      <div class="side-title">今日信息集合</div>
+    <section class="side-panel side-radar-panel">
+      <div class="radar-head"><div class="side-title">今日雷达</div><a class="radar-all" href="briefs/">查看全部信号 →</a></div>
       <div class="side-intel-tabs" id="sideIntelTabs"></div>
       <div class="side-intel-body" id="sideIntelBody"></div>
     </section>
@@ -882,6 +904,7 @@ footer.foot{background:var(--ink)}
 
 <script src="links.js"></script>
 <script src="feed.js?v=20260716023455"></script>
+<script src="aihot.js?v=20260716041741"></script>
 <script src="ai.js"></script>
 <script src="icons.js"></script>
 <script src="market_meta.js"></script>
@@ -902,6 +925,9 @@ footer.foot{background:var(--ink)}
   var D=window.NAV_DATA||FALLBACK;
   var FEED=(window.NAV_FEED&&window.NAV_FEED.by_cat)||{};
   var FEED_UPD=(window.NAV_FEED&&window.NAV_FEED.updated)||"";
+  var FEED_TOTAL=(window.NAV_FEED&&window.NAV_FEED.total)||0;
+  var FEED_SOURCES=(window.NAV_FEED&&window.NAV_FEED.source_count)||0;
+  var AIHOT=window.AIHOT_FEED||{items:[],fetched_at:"",stale:true};
   var AI=window.NAV_AI||{tools:[{name:"ChatGPT",url:"https://chatgpt.com/",domain:"chatgpt.com",desc:"通用 AI 助手。"},{name:"Claude",url:"https://claude.ai/",domain:"claude.ai",desc:"长文分析与写作。"},{name:"DeepSeek",url:"https://chat.deepseek.com/",domain:"chat.deepseek.com",desc:"中文推理。"}],api:[]};
   var MARKET_META=window.MARKET_META||{cn:{},regions:{},global:{}};
 
@@ -936,14 +962,7 @@ footer.foot{background:var(--ink)}
     {id:"trendyol",name:"Trendyol",domain:"global.trendyol.com",iconDomain:"trendyol.com",desc:"土耳其 Trendyol 跨境卖家入驻与后台。",register:[["跨境入驻","https://global.trendyol.com/"]],admin:[["卖家后台","https://partner.trendyol.com/"]]},
     {id:"bol",name:"Bol",domain:"bol.com",iconDomain:"bol.com",desc:"荷兰/比利时 Bol 商家入驻与后台。",register:[["商家入驻","https://verkopen.bol.com/"]],admin:[["商家后台","https://verkopen.bol.com/"]]}
   ];
-  var AI_HOT=[
-    {t:"AI Hot Agent",s:"AIHot · 最新 AI 资讯与 Agent 动态",u:"https://aihot.virxact.com/agent",d:"入口"},
-    {t:"OpenAI News",s:"OpenAI · 产品与模型更新",u:"https://openai.com/news/",d:"官方"},
-    {t:"Anthropic News",s:"Anthropic · Claude 与安全研究动态",u:"https://www.anthropic.com/news",d:"官方"},
-    {t:"Google AI Blog",s:"Google · AI 产品与研究更新",u:"https://blog.google/technology/ai/",d:"官方"},
-    {t:"Hugging Face Blog",s:"Hugging Face · 开源模型与社区动态",u:"https://huggingface.co/blog",d:"社区"},
-    {t:"The Batch",s:"DeepLearning.AI · AI 行业周报",u:"https://www.deeplearning.ai/the-batch/",d:"Newsletter"}
-  ];
+  function aihotAll(){return (AIHOT.items||[]).map(function(it){return {kind:"aihot",t:it.title,s:it.source,u:it.original_url||it.permalink||"https://aihot.virxact.com/",d:String(it.published_at||"").slice(0,10),summary:it.summary||""};});}
   var MARKET_ATLAS=[
     {label:"region",title:"地区市场",items:[
       {name:"北美",desc:"美国、加拿大，平台成熟、广告竞争强、合规和履约要求稳定。",tags:[["Amazon","https://sellercentral.amazon.com/"],["Walmart","https://seller.walmart.com/"],["eBay","https://www.ebay.com/sh/ovw"],["Google Merchant","https://merchants.google.com/"]]},
@@ -1615,7 +1634,7 @@ footer.foot{background:var(--ink)}
   }
 
   /* ---------- 今日信息集合（feed.js 真数据） ---------- */
-  function feedAll(){var arr=[];Object.keys(FEED).forEach(function(k){(FEED[k]||[]).forEach(function(it){arr.push({cat:k,t:it.t,s:it.s,u:it.u,d:it.d});});});arr.sort(function(a,b){return String(b.d||"").localeCompare(String(a.d||""));});return arr;}
+  function feedAll(){var arr=[];Object.keys(FEED).forEach(function(k){(FEED[k]||[]).forEach(function(it){arr.push({kind:"commerce",cat:k,t:it.t,s:it.s,u:it.u,d:it.d,p:it.p,m:it.m,score:it.score});});});arr.sort(function(a,b){return String(b.d||"").localeCompare(String(a.d||""));});return arr;}
   /* ---------- 完整目录 ---------- */
   function catalogPageSize(){return document.body.dataset.view==="compact"?12:10;}
   function catalogLimit(cid,total){
@@ -1759,26 +1778,31 @@ footer.foot{background:var(--ink)}
 
   /* ---------- 右侧面板 ---------- */
   function sideIntelCard(it){
-    return '<a class="side-intel-card" href="'+esc(it.u)+'" target="_blank" rel="noopener"><span><strong>'+esc(it.t)+'</strong><em>'+esc((it.s||"")+(it.d?" · "+it.d:""))+'</em></span></a>';
+    var extra=it.summary?'<small>'+esc(it.summary)+'</small>':'';
+    var score=it.kind==="commerce"&&it.score!=null?' · 序引 '+it.score:'';
+    return '<a class="side-intel-card" href="'+esc(it.u)+'" target="_blank" rel="noopener"><span><strong>'+esc(it.t)+'</strong>'+extra+'<em>'+esc((it.s||"")+(it.d?" · "+it.d:"")+score)+'</em></span></a>';
+  }
+  function renderIntelInto(tabsId,bodyId,limit){
+    var tabs=id(tabsId),body=id(bodyId);if(!tabs||!body)return;
+    var modes=[["all","精选"],["aihot","AI 动态"],["commerce","跨境信号"]];
+    if(!modes.some(function(m){return m[0]===state.sideIntel;}))state.sideIntel="all";
+    tabs.innerHTML=modes.map(function(m){return '<button class="'+(m[0]===state.sideIntel?'active':'')+'" data-side-intel="'+m[0]+'">'+m[1]+'</button>';}).join("");
+    var ai=aihotAll(),commerce=feedAll(),items=[],label="TODAY",metric="",desc="";
+    if(state.sideIntel==="aihot"){
+      items=ai;label="AI 资讯";metric=Math.min(limit,items.length)+" 条最新预览";desc="共收录 "+items.length+" 条，页面优先显示对应原始信息源。";
+    }else if(state.sideIntel==="commerce"){
+      items=commerce;label="COMMERCE";metric=Math.min(limit,items.length)+" 条最新预览";desc="完整信号池 "+FEED_TOTAL+" 条 · "+FEED_SOURCES+" 个来源。";
+    }else{
+      items=commerce.slice(0,Math.max(0,limit-1)).concat(ai.slice(0,1));metric=items.length+" 条首页精选";desc="完整信号池 "+(FEED_TOTAL+ai.length)+" 条；跨境来源优先，AI 资讯仅补充 1 条。";
+    }
+    items=items.slice(0,limit);
+    var list=items.length?'<div class="side-intel-scroll">'+items.map(sideIntelCard).join("")+'</div>':'<div class="side-intel-note">暂无本地快照，请运行内容更新脚本。</div>';
+    var updated=(AIHOT.fetched_at?String(AIHOT.fetched_at).slice(0,16).replace("T"," "):FEED_UPD)||"等待更新";
+    body.innerHTML='<div class="side-intel-summary"><span class="micro">'+esc(label)+'</span><strong>'+esc(metric||"暂无动态")+'</strong><span>'+esc(desc)+'</span></div>'+list+'<div class="intel-cta"><span>'+esc(updated)+(AIHOT.stale?' · 缓存':'')+'</span></div>';
   }
   function renderSideIntel(){
-    var modes=[["all","汇总"],["aihot","及时 AI 资讯"],["platform","平台动态"],["compliance","合规履约"],["market","市场选品"]];
-    if(!modes.some(function(m){return m[0]===state.sideIntel;}))state.sideIntel="all";
-    id("sideIntelTabs").innerHTML=modes.map(function(m){return '<button class="'+(m[0]===state.sideIntel?'active':'')+'" data-side-intel="'+m[0]+'">'+m[1]+'</button>';}).join("");
-    var items=[],label="TODAY",metric="",desc="";
-    if(state.sideIntel==="aihot"){
-      items=AI_HOT;label="AI NOW";metric=items.length+" 个入口";desc="及时 AI 资讯、Agent、模型和社区动态入口。";
-    }else if(state.sideIntel==="platform"){
-      items=(FEED["platform-channel"]||[]).slice(0,14);metric=items.length+" 条动态";desc="平台规则、卖家政策与渠道生态更新。";
-    }else if(state.sideIntel==="compliance"){
-      items=(FEED["compliance-fulfillment"]||[]).slice(0,14);metric=items.length+" 条动态";desc="法规、履约、物流、支付与风险动态。";
-    }else if(state.sideIntel==="market"){
-      items=(FEED["market-product"]||[]).slice(0,14);metric=items.length+" 条动态";desc="需求信号、消费趋势和选品机会。";
-    }else{
-      items=feedAll().slice(0,14);metric=feedAll().length+" 条动态";desc="各模块最新动态汇总，按时间排序。"+(FEED_UPD?"更新 "+FEED_UPD:"");
-    }
-    var list=items.length?'<div class="side-intel-scroll">'+items.map(sideIntelCard).join("")+'</div>':'<div class="side-intel-note">暂无动态，运行 build_feed.py 刷新。</div>';
-    id("sideIntelBody").innerHTML='<div class="side-intel-summary"><span class="micro">'+esc(label)+'</span><strong>'+esc(metric||"暂无动态")+'</strong><span>'+esc(desc)+'</span></div>'+list;
+    renderIntelInto("sideIntelTabs","sideIntelBody",5);
+    renderIntelInto("mobileIntelTabs","mobileIntelBody",6);
   }
   function renderRecent(){
     var items=recent.map(function(u){return linkMap[u];}).filter(Boolean).slice(0,7);
