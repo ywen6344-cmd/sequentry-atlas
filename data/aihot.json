@@ -3,11 +3,29 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-7269b8da190ab8fd",
-  "fetched_at": "2026-07-17T01:04:05Z",
+  "fingerprint": "f1-be391a8690b957dd",
+  "fetched_at": "2026-07-17T01:49:49Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmro8l78w00j5bitou01qowy4",
+      "channel": "aihot",
+      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
+      "title_en": "生成式人工智能是一场工程灾难",
+      "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-17T00:40:20.333Z",
+      "category": "tip",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4",
+      "original_url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4"
+      }
+    },
     {
       "id": "cmro185e3011jbij2ond4t12b",
       "channel": "aihot",
@@ -888,24 +906,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrkta2fv011vbi5qe7hdwh0s"
-      }
-    },
-    {
-      "id": "cmrksgyym00utbi5qx5x6v42u",
-      "channel": "aihot",
-      "title": "Anthropic 推出 Claude for Teachers",
-      "title_en": "Introducing Claude for Teachers",
-      "summary": "Anthropic 发布 Claude for Teachers，为美国认证的 K-12 教师免费提供高级 Claude 功能、教学技能库及对接全美 50 州学术标准的课程资源。该工具连接 Learning Commons，可调用 OpenSciEd、IM v.360 等课程资源，并集成 ASSISTments、Brisk Teaching、Canva Education 等第三方工具。教师可基于高质量教材规划课程、为不同水平学生差异化教学，还能通过 Claude Code 和 Cowork 自动分析班级数据、安排重复任务。教师数据不用于模型训练，学生信息受 FERPA 合规的 K-12 数据处理附录保护。Anthropic 同时发布与 Teach for America 及美国教师联合会共创的 AI 素养课程。",
-      "source": "Anthropic：Newsroom（网页）",
-      "published_at": "2026-07-14T15:11:11.440Z",
-      "category": "ai-products",
-      "source_score": 66.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrksgyym00utbi5qx5x6v42u",
-      "original_url": "https://www.anthropic.com/news/claude-for-teachers",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrksgyym00utbi5qx5x6v42u"
       }
     }
   ],
