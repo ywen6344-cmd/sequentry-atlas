@@ -1,8 +1,242 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-17T01:49:49Z",
-  "count": 69,
+  "updated_at": "2026-07-18T01:04:55Z",
+  "count": 82,
   "items": [
+    {
+      "id": "cmrp97h7o0020biuxh7pzewro",
+      "channel": "aihot",
+      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+      "title_en": "Apple's plot to crush OpenAI",
+      "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。",
+      "source": "The Verge：AI（RSS）",
+      "published_at": "2026-07-17T17:41:32.000Z",
+      "category": "industry",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
+      "original_url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro"
+      }
+    },
+    {
+      "id": "cmrp8wsr10bhobitotnd5hzeq",
+      "channel": "aihot",
+      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
+      "title_en": "杨植麟在 GTC 2026 的一次演讲\"How We Scaled Kimi K2.5\"：月之暗面想把 AI 训练中三个沿用了近十年的基础组件，重新做一遍。优化器 Adam（2014 年）、注意力机制…",
+      "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。",
+      "source": "X：宝玉 (@dotey)",
+      "published_at": "2026-07-17T17:38:33.000Z",
+      "category": "paper",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
+      "original_url": "https://x.com/dotey/status/2078172517085085951",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq"
+      }
+    },
+    {
+      "id": "cmrp7cwpv0ay9bitoudhrgt7k",
+      "channel": "aihot",
+      "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
+      "title_en": "The frontier has opened up： four frontier launches in eight days - Grok 4.5， GPT-5.6， Muse Spark 1.1…",
+      "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-07-17T17:11:19.000Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
+      "original_url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k"
+      }
+    },
+    {
+      "id": "cmrp6rlcn0aq5bitortofd0cp",
+      "channel": "aihot",
+      "title": "Sora 2 视频克隆效果惊人，真假难辨",
+      "title_en": "nothing comes close to the perfect video deep clone of sora a year later. it catches mine and sams e…",
+      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
+      "source": "X：Gabriel (@gabriel1)",
+      "published_at": "2026-07-17T16:34:01.000Z",
+      "category": "ai-models",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp",
+      "original_url": "https://x.com/gabriel1/status/2078156277247881438",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp6rlcn0aq5bitortofd0cp"
+      }
+    },
+    {
+      "id": "cmrp5pfjw0af6bitoudv35oqk",
+      "channel": "aihot",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
+      "title_en": "Working at the frontier： How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-07-17T16:32:51.023Z",
+      "category": "tip",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
+      "original_url": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk"
+      }
+    },
+    {
+      "id": "cmrp0qw3s090ybitorwj6diwi",
+      "channel": "aihot",
+      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
+      "title_en": "BrowseComp went from 30% → 90% in 10 months. Search-agent benchmarks are saturating. So we built Lo…",
+      "summary": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在BrowseComp上约90%的成绩；上下文策略仅带来+6.8个百分点的提升。该基准包含544道问题、11个领域，采用树与图结构，已开源。",
+      "source": "X：美团 LongCat (@Meituan_LongCat)",
+      "published_at": "2026-07-17T14:08:29.000Z",
+      "category": "paper",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi",
+      "original_url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi"
+      }
+    },
+    {
+      "id": "cmrove64p07imbitof1v9rzwz",
+      "channel": "aihot",
+      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+      "title_en": "",
+      "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-17T11:10:01.000Z",
+      "category": "industry",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
+      "original_url": "https://www.ithome.com/0/978/277.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz"
+      }
+    },
+    {
+      "id": "cmrozfoiv08mhbitofbllzxl4",
+      "channel": "aihot",
+      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
+      "title_en": "A scorecard for the AI age",
+      "summary": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-07-17T10:00:00.000Z",
+      "category": "tip",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
+      "original_url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4"
+      }
+    },
+    {
+      "id": "cmrorbywu06cebitoixzgpb5l",
+      "channel": "aihot",
+      "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
+      "title_en": "小有可为实战教程|乡村教育一等奖作品拆解",
+      "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。",
+      "source": "公众号：通义实验室（千问）",
+      "published_at": "2026-07-17T09:41:25.000Z",
+      "category": "tip",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
+      "original_url": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l"
+      }
+    },
+    {
+      "id": "cmropqooe05tqbitodvnqnc6u",
+      "channel": "aihot",
+      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+      "title_en": "Schema Harness 在 Arc-AGI-3 公开数据集上取得约 99% 的成绩",
+      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-17T08:41:53.383Z",
+      "category": "paper",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
+      "original_url": "https://schema-harness.github.io/",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u"
+      }
+    },
+    {
+      "id": "cmronvv4105bdbitohe86a4un",
+      "channel": "aihot",
+      "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
+      "title_en": "NVIDIA AI Releases Nemotron 3 Embed： An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
+      "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32，768 tokens。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-07-17T07:53:02.000Z",
+      "category": "ai-models",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
+      "original_url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un"
+      }
+    },
+    {
+      "id": "cmrolz26304oqbito42v7oeaz",
+      "channel": "aihot",
+      "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
+      "title_en": "Wan-Streamer v0.2：响应延迟仅550ms，让 AI 真正与你\"面对面\"",
+      "summary": "通义实验室发布 Wan-Streamer v0.2，这是一款将\"听、看、说、演\"统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并采用 Thinker-Performer 双通路架构在提升画质的同时维持了极低延迟。",
+      "source": "公众号：通义实验室（千问）",
+      "published_at": "2026-07-17T07:14:00.000Z",
+      "category": "ai-models",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
+      "original_url": "https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz"
+      }
+    },
+    {
+      "id": "cmroipdr803rvbito8t018vr1",
+      "channel": "aihot",
+      "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
+      "title_en": "谁能想到Claude和GPT双头统治的时代，居然就这么被中国模型撕开了口子。 Kimi K3登顶Frontend Code Arena总榜第一，1679分同时力压Claude Fable 5与GPT…",
+      "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "published_at": "2026-07-17T04:57:38.000Z",
+      "category": "ai-models",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
+      "original_url": "https://x.com/AYi_AInotes/status/2077981025905316253",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1"
+      }
+    },
     {
       "id": "cmro8l78w00j5bitou01qowy4",
       "channel": "aihot",
@@ -22,24 +256,6 @@
       }
     },
     {
-      "id": "cmro185e3011jbij2ond4t12b",
-      "channel": "aihot",
-      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
-      "title_en": "Automations in Grok",
-      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
-      "source": "xAI：News（网页）",
-      "published_at": "2026-07-16T21:39:40.165Z",
-      "category": "ai-products",
-      "source_score": 85.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b",
-      "original_url": "https://x.ai/news/grok-automations",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b"
-      }
-    },
-    {
       "id": "cmrnz309k00f0biq1v5egac59",
       "channel": "aihot",
       "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
@@ -55,24 +271,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnz309k00f0biq1v5egac59"
-      }
-    },
-    {
-      "id": "cmrnvwztt01bebixyznbje716",
-      "channel": "aihot",
-      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
-      "title_en": "PerceptionBench",
-      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
-      "source": "Moonshot AI：Kimi Blog",
-      "published_at": "2026-07-16T19:11:01.192Z",
-      "category": "paper",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716",
-      "original_url": "https://www.kimi.com/blog/perception-bench",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716"
       }
     },
     {
@@ -127,24 +325,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnvq3xd015sbixyztrtb01z"
-      }
-    },
-    {
-      "id": "cmrnse7qy002tbixy7gnolvr3",
-      "channel": "aihot",
-      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
-      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
-      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-07-16T17:32:26.540Z",
-      "category": "tip",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3",
-      "original_url": "https://claude.com/blog/ai-code-migration",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3"
       }
     },
     {
@@ -541,6 +721,60 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrmbtk3z0002bivco9advwbd"
+      }
+    },
+    {
+      "id": "cmro185e3011jbij2ond4t12b",
+      "channel": "aihot",
+      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
+      "title_en": "Automations in Grok",
+      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
+      "source": "xAI：News（网页）",
+      "published_at": "2026-07-15T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b",
+      "original_url": "https://x.ai/news/grok-automations",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b"
+      }
+    },
+    {
+      "id": "cmrnvwztt01bebixyznbje716",
+      "channel": "aihot",
+      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
+      "title_en": "PerceptionBench",
+      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
+      "source": "Moonshot AI：Kimi Blog",
+      "published_at": "2026-07-15T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716",
+      "original_url": "https://www.kimi.com/blog/perception-bench",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716"
+      }
+    },
+    {
+      "id": "cmrnse7qy002tbixy7gnolvr3",
+      "channel": "aihot",
+      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
+      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
+      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-07-15T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3",
+      "original_url": "https://claude.com/blog/ai-code-migration",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3"
       }
     },
     {
