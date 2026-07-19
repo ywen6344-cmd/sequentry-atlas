@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-18T01:04:55Z",
-  "count": 82,
+  "updated_at": "2026-07-19T01:04:08Z",
+  "count": 84,
   "items": [
+    {
+      "id": "cmrpwwjho06djbisr218fe8ro",
+      "channel": "aihot",
+      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
+      "title_en": "Neil Rimer thinks the AI money is coming back out",
+      "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-07-18T04:47:25.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
+      "original_url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro"
+      }
+    },
     {
       "id": "cmrp97h7o0020biuxh7pzewro",
       "channel": "aihot",
@@ -76,24 +94,6 @@
       }
     },
     {
-      "id": "cmrp5pfjw0af6bitoudv35oqk",
-      "channel": "aihot",
-      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
-      "title_en": "Working at the frontier： How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
-      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-07-17T16:32:51.023Z",
-      "category": "tip",
-      "source_score": 64.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
-      "original_url": "https://claude.com/blog/working-at-the-frontier-cursor",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk"
-      }
-    },
-    {
       "id": "cmrp0qw3s090ybitorwj6diwi",
       "channel": "aihot",
       "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
@@ -109,6 +109,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi"
+      }
+    },
+    {
+      "id": "cmrpy1nvp06pubisrn8ne51v6",
+      "channel": "aihot",
+      "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
+      "title_en": "LLM cliché highlighter",
+      "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。",
+      "source": "Simon Willison 博客",
+      "published_at": "2026-07-17T12:11:11.000Z",
+      "category": "tip",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
+      "original_url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6"
       }
     },
     {
@@ -343,6 +361,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrnrc11901tnbizz2dlcio3z"
+      }
+    },
+    {
+      "id": "cmrp5pfjw0af6bitoudv35oqk",
+      "channel": "aihot",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
+      "title_en": "Working at the frontier： How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
+      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-07-16T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk",
+      "original_url": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrp5pfjw0af6bitoudv35oqk"
       }
     },
     {
