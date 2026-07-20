@@ -3,11 +3,173 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-9c1e57b925b7c938",
-  "fetched_at": "2026-07-19T01:04:08Z",
+  "fingerprint": "f1-320bd46476b623c2",
+  "fetched_at": "2026-07-20T01:04:58Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmrshb0i008zzbiwmuvh5kufa",
+      "channel": "aihot",
+      "title": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
+      "title_en": "不会代码也能做产品，这是一份从0开始的Vibe Coding保姆级教程。",
+      "summary": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-07-20T00:08:00.000Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrshb0i008zzbiwmuvh5kufa",
+      "original_url": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrshb0i008zzbiwmuvh5kufa"
+      }
+    },
+    {
+      "id": "cmrsbql4401gxbiuaj7s1567n",
+      "channel": "aihot",
+      "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+      "title_en": "What to watch for after Jensen Huang's Japan visit",
+      "summary": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-07-19T21:16:07.000Z",
+      "category": "industry",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n",
+      "original_url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n"
+      }
+    },
+    {
+      "id": "cmrrvig4h01ctbi5qyidwptd7",
+      "channel": "aihot",
+      "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
+      "title_en": "🚀 MiniCPM enters the physical world - enabling robots to understand， remember， and act. We open-so…",
+      "summary": "面壁智能开源首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。同时发布高性能推理框架 PhyAI，旨在让机器人实现理解、记忆与行动。",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+      "published_at": "2026-07-19T13:49:01.000Z",
+      "category": "ai-models",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7",
+      "original_url": "https://x.com/OpenBMB/status/2078839529591759025",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7"
+      }
+    },
+    {
+      "id": "cmrru2n5x00vzbi5qea6youod",
+      "channel": "aihot",
+      "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+      "title_en": "WAIC 2026 | 最新「小钢炮」MiniCPM5-2B亮相：适配多款芯片、4B以下全球性能第一",
+      "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "published_at": "2026-07-19T13:12:39.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
+      "original_url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod"
+      }
+    },
+    {
+      "id": "cmrrt03gx00mkbi5qtoim4wvo",
+      "channel": "aihot",
+      "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
+      "title_en": "昆仑万维WAIC专场论坛：董事长兼CEO方汉宣布2026为\"世界模型元年\"",
+      "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+      "source": "公众号：昆仑万维（天工）",
+      "published_at": "2026-07-19T12:35:56.000Z",
+      "category": "ai-models",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo",
+      "original_url": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo"
+      }
+    },
+    {
+      "id": "cmrrjaxlv030jbihklywu3xy6",
+      "channel": "aihot",
+      "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
+      "title_en": "Qwen3.8 is launching and going open-weight soon！🌐 With a massive 2.4T parameters， this model is co…",
+      "summary": "Qwen3.8 即将发布并很快开源权重！🌐\n\n该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。\n\n你无需等待即可测试。就在刚才，Qwen3.8-Max-Preview 已在阿里巴巴的 Token Plan、Qoder 和 QoderWork 上首次亮相。快来抢先体验吧。\n\n期待你的作品。敬请关注！🚀",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "published_at": "2026-07-19T08:10:39.000Z",
+      "category": "ai-models",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6",
+      "original_url": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6"
+      }
+    },
+    {
+      "id": "cmrrd5bjb00cfbikihob9drtj",
+      "channel": "aihot",
+      "title": "AI 热潮正在瓦解全球决策机制",
+      "title_en": "人工智能热潮正在瓦解全球决策机制",
+      "summary": "一位拥有 300 多次行业交流经验的从业者观察到，全球公私机构正陷入集体性 AI 狂热，决策层要么没有计划，要么只能低头回避。过去一年半中，其团队所见的所有 AI 项目均以失败告终（成功率 0%），失败原因常与 LLM 能力无关，而是企业本就难以有效运行软件项目，且 AI 项目叠加了额外风险。内部聊天机器人几乎无人使用，客户服务聊天机器人也极少带来良好体验，例如三菱的语音客服承诺回电却六周未兑现。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-19T05:13:24.607Z",
+      "category": "tip",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj",
+      "original_url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj"
+      }
+    },
+    {
+      "id": "cmrraq5dk03p5bi18vyrt83kp",
+      "channel": "aihot",
+      "title": "ChatGPT Work 功能：建站、邮件、文档处理",
+      "title_en": "ChatGPT Work is for ✅ Creating and hosting sites ✅ Managing your emails for you ✅ Summarizing mount…",
+      "summary": "ChatGPT Work 适用于\n\n✅ 创建和托管网站 ✅ 为你管理电子邮件 ✅ 总结海量文档 ✅ 制作一流的文档、表格和幻灯片\n\n已在你的移动应用或 http://chatgpt.com 上提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中。",
+      "source": "X：Tibo (@thsottiaux)",
+      "published_at": "2026-07-19T04:25:10.000Z",
+      "category": "ai-products",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrraq5dk03p5bi18vyrt83kp",
+      "original_url": "https://x.com/thsottiaux/status/2078697631019303273",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrraq5dk03p5bi18vyrt83kp"
+      }
+    },
+    {
+      "id": "cmrr7sdid02ybbi18afm9lr2i",
+      "channel": "aihot",
+      "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+      "title_en": "Transcribe.cpp",
+      "summary": "transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-19T02:49:15.657Z",
+      "category": "ai-products",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrr7sdid02ybbi18afm9lr2i",
+      "original_url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrr7sdid02ybbi18afm9lr2i"
+      }
+    },
     {
       "id": "cmrpwwjho06djbisr218fe8ro",
       "channel": "aihot",
@@ -745,214 +907,131 @@
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrmbtk3z0002bivco9advwbd"
       }
-    },
-    {
-      "id": "cmro185e3011jbij2ond4t12b",
-      "channel": "aihot",
-      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
-      "title_en": "Automations in Grok",
-      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
-      "source": "xAI：News（网页）",
-      "published_at": "2026-07-15T16:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 85.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b",
-      "original_url": "https://x.ai/news/grok-automations",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmro185e3011jbij2ond4t12b"
-      }
-    },
-    {
-      "id": "cmrnvwztt01bebixyznbje716",
-      "channel": "aihot",
-      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
-      "title_en": "PerceptionBench",
-      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
-      "source": "Moonshot AI：Kimi Blog",
-      "published_at": "2026-07-15T16:00:00.000Z",
-      "category": "paper",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716",
-      "original_url": "https://www.kimi.com/blog/perception-bench",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnvwztt01bebixyznbje716"
-      }
-    },
-    {
-      "id": "cmrnse7qy002tbixy7gnolvr3",
-      "channel": "aihot",
-      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
-      "title_en": "How Anthropic runs large-scale code migrations with Claude Code",
-      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-07-15T16:00:00.000Z",
-      "category": "tip",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3",
-      "original_url": "https://claude.com/blog/ai-code-migration",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrnse7qy002tbixy7gnolvr3"
-      }
-    },
-    {
-      "id": "cmrm9ne9101gqbiijkgrj6t9h",
-      "channel": "aihot",
-      "title": "Telegram 无服务器架构",
-      "title_en": "",
-      "summary": "Telegram Serverless 允许开发者直接在 Telegram 基础设施上运行 Bot 和 Mini App 的后端代码，无需配置服务器或容器。开发者编写普通 JavaScript 模块，通过 `npx tgcloud push` 单命令部署，代码在靠近 Bot API 和内建数据库的轻量级 V8 隔离沙箱中执行。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-07-15T15:37:19.450Z",
-      "category": "ai-products",
-      "source_score": 77.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrm9ne9101gqbiijkgrj6t9h",
-      "original_url": "https://core.telegram.org/bots/serverless",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrm9ne9101gqbiijkgrj6t9h"
-      }
-    },
-    {
-      "id": "cmrlz5b6r01kabi5ksc1pj878",
-      "channel": "aihot",
-      "title": "阿里Qwen将集成至Apple Intelligence服务中国用户",
-      "title_en": "We learned that Alibaba's Qwen will be integrated into Apple Intelligence as part of its AI capabili…",
-      "summary": "阿里巴巴的Qwen模型将被集成到Apple Intelligence中，为中国的iOS、iPadOS、macOS和visionOS用户提供文本与图像理解、内容生成等AI功能。中国网信办已公布包括Apple Intelligence、华为小艺大模型、OPPO AndesGPT在内的七项移动端生成式AI服务备案信息。阿里巴巴董事会主席蔡崇信表示，苹果在选定阿里前曾与多家中国公司洽谈。",
-      "source": "X：X.PIN (@thexpin)",
-      "published_at": "2026-07-15T10:57:15.000Z",
-      "category": "industry",
-      "source_score": 78.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrlz5b6r01kabi5ksc1pj878",
-      "original_url": "https://x.com/thexpin/status/2077346752219521469",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrlz5b6r01kabi5ksc1pj878"
-      }
-    },
-    {
-      "id": "cmrmc527c0088bivcfrd3s2uz",
-      "channel": "aihot",
-      "title": "OpenAI 发布 GPT-Red：通过自动化红队测试提升模型鲁棒性",
-      "title_en": "GPT-Red： Unlocking Self-Improvement for Robustness",
-      "summary": "OpenAI 训练了自动化红队模型 GPT-Red，用于在部署前发现漏洞并在训练中生成攻击以提升模型鲁棒性。GPT-Red 能攻破此前几乎所有模型，其攻击被用于对抗训练 GPT-5.6 Sol，使该模型在直接提示注入基准测试中的失败率降至四个月前最佳生产模型的 1/6。GPT-Red 通过自对弈强化学习训练，投入了 OpenAI 后训练中前所未有的计算规模。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-07-15T10:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrmc527c0088bivcfrd3s2uz",
-      "original_url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrmc527c0088bivcfrd3s2uz"
-      }
-    },
-    {
-      "id": "cmrltzprt0013bi5ku0th9q9q",
-      "channel": "aihot",
-      "title": "国行 Apple 智能完成备案，阿里千问将集成至苹果 AI 能力",
-      "title_en": "国行苹果 AI 功能完成备案，消息称阿里千问将作为 AI 能力集成至\"Apple 智能\"",
-      "summary": "苹果技术开发（上海）有限公司的\"Apple 智能\"大模型已于 2026 年 7 月 8 日完成备案，适用场景为苹果手机。阿里千问将作为 AI 能力集成至 Apple 智能，为 iOS、iPadOS、macOS 和 visionOS 的中国用户提供文本与图像理解、内容生成等功能，用户无需在应用间切换即可直接体验。",
-      "source": "IT之家（RSS）",
-      "published_at": "2026-07-15T08:41:23.000Z",
-      "category": "industry",
-      "source_score": 82.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrltzprt0013bi5ku0th9q9q",
-      "original_url": "https://www.ithome.com/0/977/109.htm",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrltzprt0013bi5ku0th9q9q"
-      }
-    },
-    {
-      "id": "cmrltzprt0014bi5k7mp2uwpy",
-      "channel": "aihot",
-      "title": "金山办公推出 WPS Comate AI 办公客户端",
-      "title_en": "金山办公推出 WPS Comate AI 办公客户端，支持 Skill 技能生态、自动化任务、Wiki 知识库等",
-      "summary": "金山办公在2026 AI生产力大会上推出面向员工的AI办公客户端WPS Comate，可连接组织数据与流程。该产品提供AI岗位专家、Skill技能生态、自动化任务等六大模块，并支持云端与本地双任务模式，个人用户可直接下载体验。",
-      "source": "IT之家（RSS）",
-      "published_at": "2026-07-15T08:39:58.000Z",
-      "category": "ai-products",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrltzprt0014bi5k7mp2uwpy",
-      "original_url": "https://www.ithome.com/0/977/105.htm",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrltzprt0014bi5k7mp2uwpy"
-      }
-    },
-    {
-      "id": "cmrljx6d90bx6bi2bpkubslio",
-      "channel": "aihot",
-      "title": "数据中心已使美国公众电费增加230亿美元，回收成本困难重重",
-      "title_en": "数据中心已使公众的电费增加了230亿美元",
-      "summary": "数据中心对电力的需求已导致美国公众电费增加230亿美元，这一涨价将持续至2028年底。由于电价由州公用事业委员会根据复杂的成本分摊规则设定，数据中心可利用其用电灵活性（如避开系统峰值负荷）规避部分成本分摊，而普通居民难以效仿。监管机构正面临如何公平分配电网基础设施投资成本的挑战。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-07-15T03:51:16.524Z",
-      "category": "tip",
-      "source_score": 72.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrljx6d90bx6bi2bpkubslio",
-      "original_url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrljx6d90bx6bi2bpkubslio"
-      }
     }
   ],
   "hot_topics": [
     {
-      "id": "cmrodegdr021wbito32kpybwh",
-      "title": "Kimi K3：智能的新前沿",
-      "url": "https://mp.weixin.qq.com/s/lu1iJdvy_cDhVaX8PqbucQ",
-      "permalink": "https://aihot.virxact.com/items/cmrodegdr021wbito32kpybwh",
-      "source": "公众号：月之暗面（Kimi）",
-      "sourceCount": 7,
+      "id": "cmrrjaxlv030jbihklywu3xy6",
+      "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
+      "url": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+      "permalink": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "sourceCount": 10,
       "signalCount": 0,
       "sourceNames": [
-        "X：歸藏 (@op7418)",
+        "X：通义千问 / Qwen (@Alibaba_Qwen)",
+        "X：Kim (@kimmonismus)",
         "X：小互 (@xiaohu)",
-        "公众号：月之暗面（Kimi）",
-        "X：卡兹克 (@Khazix0918)",
-        "X：Oran Ge (@oran_ge)",
-        "The Decoder：AI News（RSS）",
-        "X：洪明 (@hongming731)"
+        "IT之家（RSS）",
+        "X：Berry Xia (@berryxia)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+        "X：邵猛 (@shao__meng)",
+        "X：Nathan Lambert (@natolambert)",
+        "X：Testing Catalog (@testingcatalog)"
       ],
-      "latestAt": "2026-07-17T23:49:07.619Z"
+      "latestAt": "2026-07-19T13:44:54.551Z"
     }
   ],
   "daily": {
-    "date": "2026-07-19",
+    "date": "2026-07-20",
     "attribution": {
       "source": "AI HOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-07-19"
+      "canonical": "https://aihot.virxact.com/daily/2026-07-20"
     },
-    "generatedAt": "2026-07-19T00:00:00.559Z",
-    "windowStart": "2026-07-18T00:00:00.000Z",
-    "windowEnd": "2026-07-19T00:00:00.000Z",
+    "generatedAt": "2026-07-20T00:00:00.546Z",
+    "windowStart": "2026-07-19T00:00:00.000Z",
+    "windowEnd": "2026-07-20T00:00:00.000Z",
     "lead": null,
     "sections": [
+      {
+        "label": "模型发布/更新",
+        "items": [
+          {
+            "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
+            "summary": "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。 你无需等待即可测试。就在刚才，Qwen3.8-Max-Preview 已在阿里巴巴的 Token Plan、Qoder 和 QoderWork 上首次亮相。快来抢先体验吧。 期待你的作品。敬请关注！🚀",
+            "sourceUrl": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+            "sourceName": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+            "permalink": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6"
+            }
+          },
+          {
+            "title": "昆仑万维宣布2026为“世界模型元年”，发布Matrix-Game 3.5等模型",
+            "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为“世界模型元年”，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+            "sourceUrl": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
+            "sourceName": "公众号：昆仑万维（天工）",
+            "permalink": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo"
+            }
+          },
+          {
+            "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
+            "summary": "面壁智能开源首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。同时发布高性能推理框架 PhyAI，旨在让机器人实现理解、记忆与行动。",
+            "sourceUrl": "https://x.com/OpenBMB/status/2078839529591759025",
+            "sourceName": "X：面壁智能 OpenBMB (@OpenBMB)",
+            "permalink": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7"
+            }
+          },
+          {
+            "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+            "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
+            "sourceUrl": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
+            "sourceName": "公众号：面壁智能（MiniCPM）",
+            "permalink": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod"
+            }
+          }
+        ]
+      },
       {
         "label": "产品发布/更新",
         "items": [
           {
-            "title": "Claude Code v2.1.214 发布：修复权限绕过、添加 EndConversation 工具与多项 Bash 权限检查改进",
-            "summary": "Claude Code v2.1.214 修复了 Windows PowerShell 5.1 中的权限检查绕过漏洞，以及 Bash 权限检查对超长命令（超过 10,000 字符）和 zsh 变量下标比较的误判问题。",
-            "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
-            "sourceName": "Claude Code：GitHub Releases（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmrpp5dgu0434bisrm2cs33xt",
+            "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+            "summary": "transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。",
+            "sourceUrl": "https://workshop.cjpais.com/projects/transcribe-cpp",
+            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "permalink": "https://aihot.virxact.com/items/cmrr7sdid02ybbi18afm9lr2i",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrpp5dgu0434bisrm2cs33xt"
+              "canonical": "https://aihot.virxact.com/items/cmrr7sdid02ybbi18afm9lr2i"
+            }
+          },
+          {
+            "title": "ChatGPT Work 功能：建站、邮件、文档处理",
+            "summary": "ChatGPT Work 适用于 ✅ 创建和托管网站 ✅ 为你管理电子邮件 ✅ 总结海量文档 ✅ 制作一流的文档、表格和幻灯片 已在你的移动应用或 http://chatgpt.com 上提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中。",
+            "sourceUrl": "https://x.com/thsottiaux/status/2078697631019303273",
+            "sourceName": "X：Tibo (@thsottiaux)",
+            "permalink": "https://aihot.virxact.com/items/cmrraq5dk03p5bi18vyrt83kp",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrraq5dk03p5bi18vyrt83kp"
+            }
+          }
+        ]
+      },
+      {
+        "label": "行业动态",
+        "items": [
+          {
+            "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+            "summary": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设“Vera Rubin AI 工厂”，配备 13,750 颗 Vera CPU 和 27,500 颗 Rubin GPU，预计 2028 年投运。",
+            "sourceUrl": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+            "sourceName": "TechCrunch：AI（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n"
             }
           }
         ]
@@ -961,14 +1040,14 @@
         "label": "技巧与观点",
         "items": [
           {
-            "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临“再分配”",
-            "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临“某种形式的再分配”，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。",
-            "sourceUrl": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-            "sourceName": "TechCrunch：AI（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro",
+            "title": "AI 热潮正在瓦解全球决策机制",
+            "summary": "一位拥有 300 多次行业交流经验的从业者观察到，全球公私机构正陷入集体性 AI 狂热，决策层要么没有计划，要么只能低头回避。过去一年半中，其团队所见的所有 AI 项目均以失败告终（成功率 0%），失败原因常与 LLM 能力无关，而是企业本就难以有效运行软件项目，且 AI 项目叠加了额外风险。内部聊天机器人几乎无人使用，客户服务聊天机器人也极少带来良好体验，例如三菱的语音客服承诺回电却六周未兑现。",
+            "sourceUrl": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "permalink": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrpwwjho06djbisr218fe8ro"
+              "canonical": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj"
             }
           }
         ]
