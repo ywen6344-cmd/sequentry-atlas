@@ -1,122 +1,196 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-20",
- "total": 1410,
+ "updated": "2026-07-21",
+ "total": 1431,
  "source_count": 60,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "market-product": [
    {
-    "t": "月之暗面有望最快6个月内赴港上市",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3903220264404608?f=rss",
+    "t": "英国小企业行政耗时是业务增长两倍",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/smes-spend-twice-the-time-on-admin-as-growing-their-business/",
     "d": "2026-07-20",
-    "p": "P2",
-    "m": "CN",
-    "score": 70
-   },
-   {
-    "t": "eBay在里士满举办卖家庆典",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/ebay-sellerbration-festival-held-in-richmond/",
-    "d": "2026-07-19",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "TikTok Shop体育纪念品半年增长136%",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/tiktok-shop-sports-memorabilia-grows-136-from-january-to-june/",
-    "d": "2026-07-19",
-    "p": "P1",
-    "m": "CN",
-    "score": 62
-   },
-   {
-    "t": "RCS还是SMS？取决于任务需求",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/rcs-or-sms-it-depends-on-the-task",
-    "d": "2026-07-19",
-    "p": "P2",
+    "p": "P0",
     "m": "US",
-    "score": 49
+    "score": 87
+   },
+   {
+    "t": "Lord & Taylor重启自有品牌策略",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/lord-taylors-revives-private-label-strategy-heritage-collection/825624/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "从季节到情感：消费趋势节奏重塑零售规划",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/spons/from-season-to-sentiment-how-the-pace-of-consumer-trends-reshapes-retail-p/824796/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "吉他中心聚焦“严肃乐手”推动复苏",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/guitar-center-plots-its-turnaround-with-a-focus-on-serving-serious-musicians/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "山姆会员店在曼哈顿举办健康活动",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/wellness/sams-club-takes-manhattan-for-wellness-event-with-creators/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 73
+   },
+   {
+    "t": "Z世代银行忠诚度始于支付",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/for-gen-z-banking-loyalty-begins-with-payments/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 71
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "美国7月24日起调整邮政出口关税计算",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/changes-to-usa-exports-from-24th-july/",
+    "d": "2026-07-20",
+    "p": "P0",
+    "m": "US",
+    "score": 87
+   },
+   {
+    "t": "美国对加拿大部分产品加征50%关税",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/p/3904632333862535?f=rss",
+    "d": "2026-07-20",
+    "p": "P0",
+    "m": "CN",
+    "score": 79
    }
   ],
   "brand-retail": [
    {
-    "t": "Bloom Nutrition 如何拓展国际市场",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/how-bloom-nutrition-is-expanding-internationally/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-18",
+    "t": "Reformation启动IPO，目标估值10亿美元",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/07/20/reformation-launches-ipo-targeting-up-to-1-billion-valuation/",
+    "d": "2026-07-20",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 79
    },
    {
-    "t": "Gumi Yum推出1.25英镑新糖果分享袋",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/gumi-yum-expands-its-confectionery-range-with-new-1-25-share-bags/",
-    "d": "2026-07-19",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
+    "t": "Purely Elizabeth 讽刺蛋白质过剩推新品",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/purely-elizabeth-lampoons-protein-maxxing-for-major-product-launch/825554/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    },
    {
-    "t": "Glitch&Grit创意工作室：艺术与策略融合",
-    "s": "Awwwards",
-    "u": "https://www.awwwards.com/sites/glitch-grit",
-    "d": "2026-07-19",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 44
+    "t": "汉堡王推Whopper保证作为转型举措",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/burger-king-rolls-out-whopper-guarantee-as-part-of-turnaround-effort/825562/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    },
    {
-    "t": "《后室》与《痴迷》改变电影规则，工具终跟上",
-    "s": "Creative Bloq 设计",
-    "u": "https://www.creativebloq.com/3d/vfx-cgi/backrooms-and-obsession-changed-the-rules-of-filmmaking-now-the-tools-are-finally-catching-up",
-    "d": "2026-07-18",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 44
-   }
-  ],
-  "market-product": [
-   {
-    "t": "夏奇拉世界杯中场秀赤脚表演，数十年如一日",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-trends/shakira-dances-barefoot-world-cup-halftime-show-1239073966/",
+    "t": "韩国为4.22亿美元Coupang罚款辩护，美国指控保护主义",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/legal/2026/south-korea-defends-record-422-million-coupang-fine-as-us-alleges-protectionism/",
     "d": "2026-07-20",
     "p": "P2",
-    "m": "GLOBAL",
-    "score": 56
+    "m": "US",
+    "score": 66
    },
    {
-    "t": "北面与Sportshoes续约2026三场越野跑赛事",
+    "t": "服装品牌Reformation拟IPO募资2.39亿美元",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/news/investment-tracker/ipo/2026/apparel-brand-reformation-aims-239-million-dollars-ipo/",
+    "d": "2026-07-20",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "Rude Health冷饮系列增长50%后入驻Asda",
     "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/the-north-face-and-sportshoes-continue-partnership-with-runthrough-trails-across-three-2026-events/",
-    "d": "2026-07-19",
+    "u": "https://retailtimes.co.uk/rude-health-expands-distribution-into-asda-following-50-growth-in-chilled-range-sales/",
+    "d": "2026-07-20",
     "p": "P3",
     "m": "UK",
     "score": 56
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "TikTok Shop：小奢侈品的理想销售场",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/tiktop-shop-little-luxury-treats/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "CN",
+    "score": 79
    },
    {
-    "t": "娇兰响应法国欧盟新规，官网降价清库存",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/475004",
-    "d": "2026-07-18",
-    "p": "P2",
-    "m": "EU",
-    "score": 51
+    "t": "阿联酋推出本土支付计划Jaywan",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/the-uaes-domestic-payment-scheme-takes-shape/",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 71
    },
    {
-    "t": "Teddy集团上财年营收增9.16%至8亿欧元",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/474776",
-    "d": "2026-07-18",
-    "p": "P2",
+    "t": "减少摩擦提升转化率",
+    "s": "Checkout.com Blog",
+    "u": "https://www.checkout.com/blog/reduce-friction-to-boost-conversion",
+    "d": "2026-07-20",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "荷兰消协要求Bol和亚马逊停止虚假折扣",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/bol-and-amazon-use-misleading-discounts/",
+    "d": "2026-07-20",
+    "p": "P1",
     "m": "EU",
-    "score": 44
+    "score": 69
+   },
+   {
+    "t": "月之暗面发布Kimi K3，中信建投看好国产AI产业链",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/newsflashes/3904642643036041?f=rss",
+    "d": "2026-07-21",
+    "p": "P2",
+    "m": "CN",
+    "score": 66
+   },
+   {
+    "t": "Meta描述为何仍重要",
+    "s": "Practical Ecommerce",
+    "u": "https://www.practicalecommerce.com/why-meta-descriptions-still-matter",
+    "d": "2026-07-20",
+    "p": "P2",
+    "m": "US",
+    "score": 56
    }
   ]
  }
