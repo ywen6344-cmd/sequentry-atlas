@@ -1,11 +1,56 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-22",
- "total": 1435,
- "source_count": 58,
+ "updated": "2026-07-23",
+ "total": 1409,
+ "source_count": 57,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "TikTok为英国经济贡献100亿英镑",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/tiktoks-discovery-engine-for-growth-boosts-the-british-economy-by-10bn/",
+    "d": "2026-07-22",
+    "p": "P0",
+    "m": "UK",
+    "score": 87
+   },
+   {
+    "t": "eBay国际物流扩展至英国，助力卖家触达1.36亿买家",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/ebay-international-shipping-to-boosts-uks-international-selling/",
+    "d": "2026-07-22",
+    "p": "P0",
+    "m": "UK",
+    "score": 87
+   },
+   {
+    "t": "ESW携手微软Copilot推出智能商务集成",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/07/22/esw-agentic-commerce-integration-microsoft-copilot/",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Juspay与Recurly合作加速订阅业务上市",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110473/juspay-integrates-with-recurly-to-enable-faster-go-to-market-for-subscription-businesses?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Michaels公布Gemini AI助手早期数据",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/07/22/michaels-early-results-google-gemini-powered-ai-assistant/",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "Shopify 事件新增元字段触发器",
     "s": "Shopify Developer Changelog",
@@ -13,75 +58,46 @@ window.NAV_FEED = {
     "d": "2026-07-21",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "Shopify Liquid模板新增区块与局部页面组合功能",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/developer-preview-liquid-block-and-partial-tags",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "代理式AI如何重塑消费者旅程",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/sponsored/unpacked-how-agentic-ai-is-reshaping-the-consumer-journey/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "B2B电商如何备战AI代理发现",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/21/b2b-ecommerce-agentic-ai-discovery-deloitte/",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Velor全球手工艺市场开放创始卖家申请",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/velor-global-makers-marketplace-open-for-founding-seller-applications/",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "财务高管竞相部署AI代理，治理滞后",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/finance-leaders-are-racing-to-deploy-ai-agents-before-governance-is-ready/",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "UK",
     "score": 79
    }
   ],
-  "compliance-fulfillment": [
+  "brand-retail": [
    {
-    "t": "怡颗莓回应草莓检出致癌物；美团否认学历配送服务",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3906043683296648?f=rss",
-    "d": "2026-07-21",
+    "t": "中国采购vs代理中国品牌：分销商入市指南",
+    "s": "Trade Ready 贸易",
+    "u": "https://tradeready.ca/2026/featured-stories/sourcing-from-china-vs-representing-a-chinese-brand-a-market-entry-playbook-for-distributors-and-agents/",
+    "d": "2026-07-22",
     "p": "P0",
     "m": "CN",
     "score": 79
    },
    {
-    "t": "特朗普宣布2026年起对进口仿制药征100%关税",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/newsflashes/3906018817316229?f=rss",
-    "d": "2026-07-21",
-    "p": "P0",
-    "m": "US",
+    "t": "MVRDV用北京屋顶瓦片包裹UR旗舰店",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/07/22/mvrdv-urban-revivo-flagship-beijing/",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "CN",
     "score": 79
-   }
-  ],
-  "brand-retail": [
+   },
+   {
+    "t": "丹麦品牌Søstrene Grene将在圣奥尔本斯开设首家赫特福德郡门店",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/sostrene-grene-announces-first-hertfordshire-store-in-st-albans/",
+    "d": "2026-07-22",
+    "p": "P0",
+    "m": "UK",
+    "score": 72
+   },
+   {
+    "t": "QOD理发店系列：经典香皂打造精致仪式",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/07/qod-barber-shop.html",
+    "d": "2026-07-22",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 72
+   },
    {
     "t": "加拿大床垫零售商7亿美元收购Sleep Number",
     "s": "Retail Dive",
@@ -89,55 +105,66 @@ window.NAV_FEED = {
     "d": "2026-07-21",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "欧洲联赛四强赛纪念奖杯包装设计",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/07/euroleague-final-four-commemorative-trophy-packaging-design.html",
-    "d": "2026-07-21",
-    "p": "P0",
-    "m": "US",
-    "score": 72
-   },
-   {
-    "t": "Reformation启动IPO，目标估值10亿美元",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/20/reformation-launches-ipo-targeting-up-to-1-billion-valuation/",
-    "d": "2026-07-20",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "Purely Elizabeth 讽刺蛋白质过剩推新品",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/purely-elizabeth-lampoons-protein-maxxing-for-major-product-launch/825554/",
-    "d": "2026-07-20",
+    "t": "Cosentino推出新一代矿物表面Éclos",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/07/22/cosentino-generation-mineral-surface-eclos/",
+    "d": "2026-07-22",
     "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "汉堡王推Whopper保证作为转型举措",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/burger-king-rolls-out-whopper-guarantee-as-part-of-turnaround-effort/825562/",
-    "d": "2026-07-20",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Makebardo插画拯救开罗E11VN品牌名",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/07/21/makebardo-e11vn-cairo-brand-identity/",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "US",
+    "m": "UK",
     "score": 69
    }
   ],
+  "compliance-fulfillment": [
+   {
+    "t": "苹果iPhone18系列已量产；小红书否认IPO传闻",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/p/3906606931907971?f=rss",
+    "d": "2026-07-22",
+    "p": "P0",
+    "m": "CN",
+    "score": 79
+   }
+  ],
   "market-product": [
+   {
+    "t": "Bookshop.org疫情后转型求生成功",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/bookshop-org-reinvented-itself-for-post-pandemic-survival-it-worked/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Classpass拓展自我护理与体验品类",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/wellness/wellness-briefing-inside-classpass-category-expansion-into-self-care-and-experiences-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "美国鹰牌借亚马尔夺冠启动返校营销",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/lamine-yamal-american-eagle-back-to-school-gen-z/825862/",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "US",
+    "score": 73
+   },
+   {
+    "t": "消费者对BNPL支持度不减，监管呼声未改",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/consumer-support-for-bnpl-remains-strong-despite-calls-for-regulation/",
+    "d": "2026-07-22",
+    "p": "P1",
+    "m": "US",
+    "score": 71
+   },
    {
     "t": "Chime推出投资服务",
     "s": "Finextra 金融科技",
@@ -145,49 +172,13 @@ window.NAV_FEED = {
     "d": "2026-07-21",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "欧盟对亚洲廉价进口设限",
     "s": "The Robin Report",
     "u": "https://therobinreport.com/eus-backlash-against-asia/",
     "d": "2026-07-21",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "泰勒波特酒庄推出更轻酒瓶",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/taylors-port-introduces-new-lighter-bottles-to-the-portfolio/",
-    "d": "2026-07-21",
-    "p": "P0",
-    "m": "US",
-    "score": 72
-   },
-   {
-    "t": "稳定币是否存在消费者市场？",
-    "s": "Payments Journal",
-    "u": "https://www.paymentsjournal.com/is-there-a-consumer-market-for-stablecoins/",
-    "d": "2026-07-21",
-    "p": "P1",
-    "m": "US",
-    "score": 71
-   },
-   {
-    "t": "Lord & Taylor重启自有品牌策略",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/lord-taylors-revives-private-label-strategy-heritage-collection/825624/",
-    "d": "2026-07-20",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "吉他中心聚焦“严肃乐手”推动复苏",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/guitar-center-plots-its-turnaround-with-a-focus-on-serving-serious-musicians/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-20",
     "p": "P1",
     "m": "US",
     "score": 74
