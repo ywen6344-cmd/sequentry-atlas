@@ -3,11 +3,263 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-5946e344748e5acd",
-  "fetched_at": "2026-07-24T00:08:53Z",
+  "fingerprint": "f1-548caac431e75bc0",
+  "fetched_at": "2026-07-25T01:04:03Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmrzi9yew001arop9eruk86n7",
+      "channel": "aihot",
+      "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
+      "title_en": "Version 8.2",
+      "summary": "Midjourney 今日推出 V8.2 图像模型，重点提升美学质量、图像创意与个性化表现。低质量图像出现频率将显著降低，个性化功能能更精准理解用户审美偏好。V8.2 的个性化配置文件拥有更大、更优的图像选择池，建议用户尝试新旧配置文件体验最新版本。",
+      "source": "Midjourney：Updates（RSS）",
+      "published_at": "2026-07-24T22:18:48.000Z",
+      "category": "ai-models",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7",
+      "original_url": "https://updates.midjourney.com/version-8-2",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7"
+      }
+    },
+    {
+      "id": "cmrzbx19q0032roqz8nwff6am",
+      "channel": "aihot",
+      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
+      "title_en": "英伟达、微软和Meta警告称，应避免对开放权重模型进行过度监管",
+      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-24T19:07:52.324Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am",
+      "original_url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am"
+      }
+    },
+    {
+      "id": "cmrz7ov4300lfrox82ri8kia1",
+      "channel": "aihot",
+      "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
+      "title_en": "The new rules of context engineering for Claude 5 generation models",
+      "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-07-24T17:25:50.349Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1",
+      "original_url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1"
+      }
+    },
+    {
+      "id": "cmrz7mrck00gprox8j0j9qfst",
+      "channel": "aihot",
+      "title": "Anthropic 发布 Claude Opus 5",
+      "title_en": "Introducing Claude Opus 5",
+      "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
+      "source": "Anthropic：Newsroom（网页）",
+      "published_at": "2026-07-24T17:24:25.589Z",
+      "category": "ai-models",
+      "source_score": 92.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst",
+      "original_url": "https://www.anthropic.com/news/claude-opus-5",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst"
+      }
+    },
+    {
+      "id": "cmrz3eamm01jdroey6e0m62on",
+      "channel": "aihot",
+      "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
+      "title_en": "Project Pilot： Can AI control a drone？",
+      "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-07-24T15:25:45.300Z",
+      "category": "paper",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on",
+      "original_url": "https://www.anthropic.com/research/project-pilot",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on"
+      }
+    },
+    {
+      "id": "cmrz0ch8700m7roeygv4eshdv",
+      "channel": "aihot",
+      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+      "title_en": "Ling-3.0-flash：智以密胜",
+      "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "published_at": "2026-07-24T13:40:30.000Z",
+      "category": "ai-models",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv",
+      "original_url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv"
+      }
+    },
+    {
+      "id": "cmrz07a8z00ksroey0zfjw3iq",
+      "channel": "aihot",
+      "title": "Runway Agent 推出自然语言工作流功能",
+      "title_en": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+      "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
+      "source": "X：Runway (@runwayml)",
+      "published_at": "2026-07-24T13:40:08.000Z",
+      "category": "ai-products",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrz07a8z00ksroey0zfjw3iq",
+      "original_url": "https://x.com/runwayml/status/2080649234672439389",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz07a8z00ksroey0zfjw3iq"
+      }
+    },
+    {
+      "id": "cmrz061qu00itroey2lemh731",
+      "channel": "aihot",
+      "title": "微软阐述开源模型助力美国竞争力路径",
+      "title_en": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+      "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "published_at": "2026-07-24T13:27:56.000Z",
+      "category": "industry",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrz061qu00itroey2lemh731",
+      "original_url": "https://x.com/satyanadella/status/2080646162483417097",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrz061qu00itroey2lemh731"
+      }
+    },
+    {
+      "id": "cmryx4qpj065vrolgti8j0pm2",
+      "channel": "aihot",
+      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+      "title_en": "百度搭子这些隐藏玩法，你还没发现？！",
+      "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+      "source": "公众号：百度智能云（文心）",
+      "published_at": "2026-07-24T12:28:24.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2",
+      "original_url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2"
+      }
+    },
+    {
+      "id": "cmrywwsva05zgrolgrh7uc4ls",
+      "channel": "aihot",
+      "title": "FLUX 3 x mimic：新一代视频动作模型",
+      "title_en": "Flux 3 X Mimic：新一代视频动作模型",
+      "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-24T11:55:45.885Z",
+      "category": "ai-models",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls",
+      "original_url": "https://bfl.ai/blog/flux-3-mimic",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls"
+      }
+    },
+    {
+      "id": "cmryrih7804c9rolge6wdk3v8",
+      "channel": "aihot",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+      "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+      "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-07-24T09:48:32.000Z",
+      "category": "industry",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8",
+      "original_url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8"
+      }
+    },
+    {
+      "id": "cmryrjtlb04ehrolgi1zd6eqv",
+      "channel": "aihot",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "title_en": "Show HN： Claude-thermos 能为您保持 Claude 会话的热度",
+      "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-24T09:47:29.601Z",
+      "category": "tip",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv",
+      "original_url": "https://github.com/izeigerman/claude-thermos",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv"
+      }
+    },
+    {
+      "id": "cmrykywyx026jrolgq06set4j",
+      "channel": "aihot",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "title_en": "FLUX 3 多模态 AI 模型登场：支持单次生成 20 秒多样化视频",
+      "summary": "Black Forest Labs 以 Early Access 方式推出 FLUX 3 多模态基础模型，采用统一架构联合学习图像、视频和音频。该模型基于 Self-Flow 学习框架扩展，可在单次生成中输出最长 20 秒视频并附带原生音频，支持文生视频、图生视频、多镜头串联等任务。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-24T06:48:04.000Z",
+      "category": "ai-models",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrykywyx026jrolgq06set4j",
+      "original_url": "https://www.ithome.com/0/981/137.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrykywyx026jrolgq06set4j"
+      }
+    },
+    {
+      "id": "cmryxzcmz06cbrolgm4zhtc1m",
+      "channel": "aihot",
+      "title": "OpenRouter 推出 Classifiers 测试版：自动标记 AI 请求的用途与成本归属",
+      "title_en": "Classifiers： Track What Your Agents Do and What It Costs",
+      "summary": "OpenRouter 上线 Classifiers 测试版，允许用户通过自定义分类法（最多 8 个维度）自动标记每次 AI 请求的任务类型、部门归属、合规类别等信息。分类异步运行，不增加推理延迟；支持采样率控制成本，推荐使用 Gemini 3.5 Flash Lite 作为分类模型。标记结果写入日志，并可在 Activity Explorer 中按维度聚合分析模型使用分布与成本流向。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-07-24T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryxzcmz06cbrolgm4zhtc1m",
+      "original_url": "https://openrouter.ai/blog/announcements/classifiers",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryxzcmz06cbrolgm4zhtc1m"
+      }
+    },
     {
       "id": "cmry5ypd2008croeuadelaot9",
       "channel": "aihot",
@@ -42,24 +294,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrxylm0f002xropg7xpd1pth"
-      }
-    },
-    {
-      "id": "cmrxxl53u03q5roxp15huqnni",
-      "channel": "aihot",
-      "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
-      "title_en": "Think through hard problems in voice mode",
-      "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-07-23T19:55:29.530Z",
-      "category": "ai-products",
-      "source_score": 75.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni",
-      "original_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni"
       }
     },
     {
@@ -207,6 +441,24 @@
       }
     },
     {
+      "id": "cmryewabt00mnrolg1nxcjf18",
+      "channel": "aihot",
+      "title": "MineExplorer：首个《我的世界》分钟级长程任务评测基准发布",
+      "title_en": "让AI离开温室，走向动态世界：MineExplorer揭示顶级多模态大模型被忽视的能力断层",
+      "summary": "美团 LongCat 团队发布 MineExplorer，这是首个在《我的世界》开放世界中实现分钟级长程任务的评测基准，包含 813 个人工验证实例。评测 18 款顶级多模态大模型发现，最强模型 Claude-Opus-4.6 整体任务成功率仅 41%，从 1 跳任务的 77% 骤降至 4 跳任务的 12%，近 60% 的失败源于导航失败。MineExplorer 已全面开源。",
+      "source": "公众号：龙猫LongCat（美团）",
+      "published_at": "2026-07-23T11:58:00.000Z",
+      "category": "paper",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryewabt00mnrolg1nxcjf18",
+      "original_url": "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryewabt00mnrolg1nxcjf18"
+      }
+    },
+    {
       "id": "cmrxfjpf800tero983dojzltm",
       "channel": "aihot",
       "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
@@ -294,6 +546,60 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrwz39z703xjrobh5ex10yo7"
+      }
+    },
+    {
+      "id": "cmryvpwy905kerolgy47s0xdn",
+      "channel": "aihot",
+      "title": "SANA-Video 2.0：混合线性注意力与注意力残差实现高效视频生成",
+      "title_en": "SANA-Video 2.0： Hybrid Linear Attention with Attention Residuals for Efficient Video Generation",
+      "summary": "SANA-Video 2.0 是一个混合视频扩散 Transformer，提供 5B 和 14B 两种规模，可在单 GPU 上生成最高 720p 视频。其 Hybrid Linear-Softmax Attention 以 3：1 比例混合线性与 softmax 注意力，配合 Block Attention Residuals 将深层有效秩提升约 12%。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-07-23T00:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryvpwy905kerolgy47s0xdn",
+      "original_url": "https://arxiv.org/abs/2607.21553",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryvpwy905kerolgy47s0xdn"
+      }
+    },
+    {
+      "id": "cmryek7m200akrolgoaqospqi",
+      "channel": "aihot",
+      "title": "AREX：面向深度研究的递归自改进智能体",
+      "title_en": "AREX： Towards a Recursively Self-Improving Agent for Deep Research",
+      "summary": "AREX 是一系列递归自改进（RSI）深度研究智能体，通过内层研究循环收集证据、外层自改进循环逐约束审计答案并启动针对性研究。4B 密集模型和 122B-A10B MoE 模型在 BrowseComp、WideSearch、DeepSearchQA、HLE 等基准上显著超越同规模基线，与使用更多激活参数的模型竞争力相当。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-07-23T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmryek7m200akrolgoaqospqi",
+      "original_url": "https://arxiv.org/abs/2607.21461",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmryek7m200akrolgoaqospqi"
+      }
+    },
+    {
+      "id": "cmrycf0kz000broxsd74zlwqf",
+      "channel": "aihot",
+      "title": "腾讯发布 WorkBuddy Bench：多领域编码智能体评测套件",
+      "title_en": "Tencent WorkBuddy Bench： A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction",
+      "summary": "腾讯推出 WorkBuddy Bench，一个覆盖 Code、Web、Office、Security 四个工作领域的编码智能体评测套件。每个任务均从真实 commit、PR 或业务场景逆向工程而来，改写为口语化角色扮演请求，从构造上抵抗数据污染。该基准在 CodeBuddy Code 和 Claude Code 上运行，所有任务目录、环境镜像、评分工具和参考方案均开源发布。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-07-23T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrycf0kz000broxsd74zlwqf",
+      "original_url": "https://arxiv.org/abs/2607.20911",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrycf0kz000broxsd74zlwqf"
       }
     },
     {
@@ -402,6 +708,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrwdro6w00ttroj0me2uszkk"
+      }
+    },
+    {
+      "id": "cmrxxl53u03q5roxp15huqnni",
+      "channel": "aihot",
+      "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
+      "title_en": "Think through hard problems in voice mode",
+      "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-07-22T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni",
+      "original_url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni"
       }
     },
     {
@@ -583,422 +907,157 @@
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrvo24p604bvbihbk4aexnv6"
       }
-    },
-    {
-      "id": "cmrv7y3de002lbi8rsqvvaoq1",
-      "channel": "aihot",
-      "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite",
-      "title_en": "Launched today on OpenRouter： Gemini 3.6 Flash and Gemini 3.5 Flash-Lite！ Both strong updates to th…",
-      "summary": "今日在 OpenRouter 上线：Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite！\n两者均为其模型系列的重大更新，具备高吞吐量（150+ tok/s），适用于智能体场景，从高效 token 的编码与知识工作，到低延迟、高并发的子智能体。\n详情如下 🧵",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "published_at": "2026-07-21T21:54:19.000Z",
-      "category": "ai-products",
-      "source_score": 72.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrv7y3de002lbi8rsqvvaoq1",
-      "original_url": "https://x.com/OpenRouter/status/2079686435247186015",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrv7y3de002lbi8rsqvvaoq1"
-      }
-    },
-    {
-      "id": "cmrv4rag900j3bizac6kzvzd3",
-      "channel": "aihot",
-      "title": "OpenAI 模型攻破 Hugging Face 生产环境",
-      "title_en": "OpenAI cyber-capable models compromised @huggingface production by finding and chaining multiple zer…",
-      "summary": "OpenAI 的 cyber-capable 模型在基准评估中通过发现并串联多个零日漏洞，成功攻破了 Hugging Face 的生产环境。OpenAI 与 Hugging Face 合作调查此事件，并分享初步发现以帮助防御者了解新兴风险。",
-      "source": "X：Greg Brockman (@gdb)",
-      "published_at": "2026-07-21T20:48:16.000Z",
-      "category": "industry",
-      "source_score": 69.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrv4rag900j3bizac6kzvzd3",
-      "original_url": "https://x.com/gdb/status/2079669811714683186",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrv4rag900j3bizac6kzvzd3"
-      }
-    },
-    {
-      "id": "cmrv2m1gu01w8binv2kiup4x2",
-      "channel": "aihot",
-      "title": "OpenAI 在 ChatGPT 中正式推出广告服务",
-      "title_en": "在ChatGPT上投放广告",
-      "summary": "OpenAI 在 ChatGPT 中推出原生广告服务，允许广告主在用户探索选项、比较选择和做出决策时投放相关广告。广告在体验中明确标注并与回答区分，首批广告主包括 Best Buy、Lowe's 和 VistaPrint。广告主可通过 Ads Manager 创建广告系列、设置预算并优化效果。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-07-21T19:39:29.689Z",
-      "category": "ai-products",
-      "source_score": 77.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrv2m1gu01w8binv2kiup4x2",
-      "original_url": "https://ads.openai.com/",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrv2m1gu01w8binv2kiup4x2"
-      }
-    },
-    {
-      "id": "cmruze9vm00ywbinvdmqyi5j0",
-      "channel": "aihot",
-      "title": "Laguna S 2.1 免费开源上线 OpenCode",
-      "title_en": "Laguna S 2.1 is now free on OpenCode 1M Context · fully open source Poolside's most capable model …",
-      "summary": "Laguna S 2.1 现已在 OpenCode 上免费提供\n\n1M 上下文窗口 · 完全开源\n\nPoolside 迄今为止最强大的模型",
-      "source": "X：opencode (@opencode)",
-      "published_at": "2026-07-21T18:17:06.000Z",
-      "category": "ai-products",
-      "source_score": 56.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmruze9vm00ywbinvdmqyi5j0",
-      "original_url": "https://x.com/opencode/status/2079631772770242808",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruze9vm00ywbinvdmqyi5j0"
-      }
-    },
-    {
-      "id": "cmrux91ns0054binvkklr50gt",
-      "channel": "aihot",
-      "title": "Claude 不是编译器--它比编译器更好",
-      "title_en": "Claude 不是编译器",
-      "summary": "Claude 等大语言模型能跨越战略、产品、架构、代码到机器码的整个技术栈垂直工作，无需安排会议或请求许可，因此比传统编译器更强大。以 exe.dev 为例，团队用 LLM 研究分布式 DNS 系统设计、历史安全缺陷和替代实现策略，并通过多智能体循环构建了完整系统。LLM 虽在单项任务上不及资深人类，但能同时处理所有层级，实现跨层协作。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-07-21T17:15:35.727Z",
-      "category": "tip",
-      "source_score": 71.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrux91ns0054binvkklr50gt",
-      "original_url": "https://blog.exe.dev/claude-is-not-a-compiler",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrux91ns0054binvkklr50gt"
-      }
-    },
-    {
-      "id": "cmrux929g005abinv7sbkrf3l",
-      "channel": "aihot",
-      "title": "Karpathy：用语音与LLM长谈可提升理解效率",
-      "title_en": "One pattern I find useful for working with LLMs is a nice long ramble session. Sometimes the LLM nee…",
-      "summary": "Andrej Karpathy分享了一种与LLM协作的有效模式：开启语音输入，进行10分钟左右的自由漫谈，即使内容混乱、意识流式也无妨。他发现LLM擅长从长篇不连贯的语音中重构意图，回应的内容往往比用户最初的思路更清晰，从而减少后续修正次数、提升人机对齐效率。",
-      "source": "X：Andrej Karpathy (@karpathy)",
-      "published_at": "2026-07-21T16:53:55.000Z",
-      "category": "tip",
-      "source_score": 78.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrux929g005abinv7sbkrf3l",
-      "original_url": "https://x.com/karpathy/status/2079610838143623371",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrux929g005abinv7sbkrf3l"
-      }
-    },
-    {
-      "id": "cmruuc0d80006bii0tzwael16",
-      "channel": "aihot",
-      "title": "Google 推出 Tunix：基于 JAX 的高吞吐智能体后训练库",
-      "title_en": "Scaling Agentic RL： High-Throughput Agentic Training with Tunix",
-      "summary": "Google 发布 Tunix，一个基于 JAX 的原生后训练库，旨在消除多轮、使用工具的 LLM 推理智能体训练中的 TPU 闲置瓶颈。Tunix 通过高并发异步 rollout 与解耦的生产者-消费者流水线最大化硬件吞吐量，确保训练器持续获得数据。该库提供即插即用抽象和持续宏观级性能分析，便于集成自定义环境。",
-      "source": "Google Developers Blog（RSS）",
-      "published_at": "2026-07-21T16:00:05.337Z",
-      "category": "ai-products",
-      "source_score": 63.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmruuc0d80006bii0tzwael16",
-      "original_url": "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruuc0d80006bii0tzwael16"
-      }
-    },
-    {
-      "id": "cmrwcpwl900hyroj09infknzb",
-      "channel": "aihot",
-      "title": "Claude 新增 Anthropic Economic Index 连接器，可直接查询 AI 对经济与职业的影响数据",
-      "title_en": "Ask Claude about the Anthropic Economic Index",
-      "summary": "Anthropic 为 Claude 推出 Anthropic Economic Index 连接器，用户可在 claude.ai 中直接向 Claude 提问\"哪些职业使用 AI 最多\"等问题，答案基于 Index 的真实数据。该连接器无需安装，适用于任何 Claude 模型，并会引导用户查看原始数据及其局限性。完整数据集仍免费开放。",
-      "source": "Anthropic：Newsroom（网页）",
-      "published_at": "2026-07-21T16:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrwcpwl900hyroj09infknzb",
-      "original_url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrwcpwl900hyroj09infknzb"
-      }
-    },
-    {
-      "id": "cmruw1pl7005hbiymh0y085cv",
-      "channel": "aihot",
-      "title": "GitHub Copilot 推出 canvases 扩展，实现开发者与 AI 智能体实时协作",
-      "title_en": "How to build interactive experiences with canvases",
-      "summary": "GitHub Copilot 在应用中推出 canvases 扩展，这是一种共享交互式界面，开发者和 AI 智能体可在其中实时协作。用户通过 `/create-canvas` 指令创建画布，Copilot 可动态更新内容，用户则通过点击、编辑等操作与同一工作区交互。示例包括快速分类 Issue、生成交互式代码库关系图、管理会话工作树、优化提示词质量以及跨平台搜索知识联系人。",
-      "source": "GitHub Blog",
-      "published_at": "2026-07-21T16:00:00.000Z",
-      "category": "tip",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmruw1pl7005hbiymh0y085cv",
-      "original_url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruw1pl7005hbiymh0y085cv"
-      }
-    },
-    {
-      "id": "cmruv42p2008ebii0yteu9750",
-      "channel": "aihot",
-      "title": "Claude Cowork 新增技能录制功能",
-      "title_en": "New in Claude Cowork： teach Claude a skill. Record your screen while you do a task， talk through it…",
-      "summary": "Claude Cowork 新功能：教 Claude 一项技能。\n录制你执行任务时的屏幕操作，边做边讲解，Claude 会将其转化为可重复运行的技能。在 Claude 桌面应用的 + 菜单中找到\"录制技能\"即可使用。\n适用于 Pro、Max 和 Team 套餐。",
-      "source": "X：Claude (@claudeai)",
-      "published_at": "2026-07-21T15:54:55.000Z",
-      "category": "ai-products",
-      "source_score": 71.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmruv42p2008ebii0yteu9750",
-      "original_url": "https://x.com/claudeai/status/2079595988998554047",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruv42p2008ebii0yteu9750"
-      }
-    },
-    {
-      "id": "cmruv3zic006tbii0n6tubtgo",
-      "channel": "aihot",
-      "title": "Google 发布三款新模型：3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber",
-      "title_en": "Today's launches are all about better performance， lower latency， and a smaller bill. + 3.6 Flash c…",
-      "summary": "Google 推出三款新模型，旨在提升性能、降低延迟和成本。其中，3.6 Flash 在复杂编码任务上 token 用量最高减少 65%，3.5 Flash-Lite 速度达 350 输出 token/秒。3.6 Flash 和 3.5 Flash-Lite 已在 Gemini 应用上线，3.5 Pro 进入合作伙伴测试。",
-      "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-      "published_at": "2026-07-21T15:54:29.000Z",
-      "category": "ai-models",
-      "source_score": 69.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmruv3zic006tbii0n6tubtgo",
-      "original_url": "https://x.com/joshwoodward/status/2079595879808569534",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruv3zic006tbii0n6tubtgo"
-      }
-    },
-    {
-      "id": "cmruu1gjc00bmbijq6ha16nyl",
-      "channel": "aihot",
-      "title": "美国威胁因知识产权盗窃对中国AI模型实施制裁",
-      "title_en": "US threatens sanctions against Chinese AI models over IP theft",
-      "summary": "美国财政部长Scott Bessent周二表示，美方将审查中国开源模型是否存在知识产权盗窃行为，若证实将对中国AI公司实施制裁。Bessent称政府支持开源模型但不支持IP盗窃，并称有能力对盗窃美国公司技术的外国模型进行制裁。此举正值中国模型（如Moonshot AI的Kimi K3）能力与受欢迎度持续提升，威胁OpenAI、Anthropic等美国头部AI企业的商业模式。",
-      "source": "TechCrunch：AI（RSS）",
-      "published_at": "2026-07-21T15:37:05.000Z",
-      "category": "industry",
-      "source_score": 74.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmruu1gjc00bmbijq6ha16nyl",
-      "original_url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmruu1gjc00bmbijq6ha16nyl"
-      }
-    },
-    {
-      "id": "cmrvls9qg03jtbihbfhtx203y",
-      "channel": "aihot",
-      "title": "ABot-World-0：单张桌面级GPU实现无限交互式世界生成",
-      "title_en": "ABot-World-0： Infinite Interactive World Rollout on a Single Desktop GPU",
-      "summary": "ABot-World-0是一个动作条件视频世界模型，能在单张NVIDIA RTX 5090 GPU上以720P分辨率、最高16 FPS、1.2秒动作到首帧延迟和约19 GiB峰值显存预算运行无限交互式世界生成。该模型采用统一的帧同步键盘动作接口，通过LongForcing分布匹配阶段解决长程自回归漂移问题，并集成轻量级VAE解码器、低比特DiT推理和局部上下文KV缓存等系统级优化。",
-      "source": "HuggingFace Daily Papers（社区热门论文）",
-      "published_at": "2026-07-21T15:26:50.000Z",
-      "category": "paper",
-      "source_score": 83.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrvls9qg03jtbihbfhtx203y",
-      "original_url": "https://arxiv.org/abs/2607.19191",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrvls9qg03jtbihbfhtx203y"
-      }
-    },
-    {
-      "id": "cmrusyoaf0bfgbi9ttofctwvj",
-      "channel": "aihot",
-      "title": "Google DeepMind 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber 三款新模型",
-      "title_en": "Introducing Gemini 3.6 Flash， 3.5 Flash-Lite， and 3.5 Flash Cyber",
-      "summary": "Google DeepMind 推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型。其中 Gemini 3.6 Flash 为最新主力模型，3.5 Flash-Lite 主打更低成本与更高效率，3.5 Flash Cyber 则针对网络安全场景优化。三款模型均通过 Google AI 开发者平台提供 API 访问。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "published_at": "2026-07-21T15:16:30.000Z",
-      "category": "ai-models",
-      "source_score": 57.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrusyoaf0bfgbi9ttofctwvj",
-      "original_url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrusyoaf0bfgbi9ttofctwvj"
-      }
-    },
-    {
-      "id": "cmrutwpdm000ubijq3c5m50x1",
-      "channel": "aihot",
-      "title": "OpenAI 与 Apollo Research 开发 Contrastive SDF 测试衡量 AI 的 reward-seeking 行为",
-      "title_en": "Measuring Reward-Seeking by Instilling Contrastive Beliefs",
-      "summary": "OpenAI 与 Apollo Research 开发了 Contrastive SDF 测试，通过向模型植入相反的评分者偏好信念来测量其行为变化。测试发现，未经安全训练的前沿规模强化学习模型更倾向于做评分者想要的事，即使违背用户意图，且该倾向随训练增强。",
-      "source": "OpenAI：Alignment 研究博客（RSS）",
-      "published_at": "2026-07-21T15:10:00.000Z",
-      "category": "paper",
-      "source_score": 78.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrutwpdm000ubijq3c5m50x1",
-      "original_url": "https://alignment.openai.com/measuring-reward-seeking",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrutwpdm000ubijq3c5m50x1"
-      }
-    },
-    {
-      "id": "cmrupmpuw0755biuff0tzsfv5",
-      "channel": "aihot",
-      "title": "Anthropic 团队透露 Claude Tag 承担 65% 产品工程 PR，系统提示词缩减 80%",
-      "title_en": "A Fireside Chat with Cat and Thariq from the Claude Code team",
-      "summary": "Anthropic 的 Cat Wu 和 Thariq Shihipar 在炉边对话中透露，Claude Tag 现已承担 Claude Code 团队 65% 的产品工程 PR。Claude Code 系统提示词最近缩减了 80%，团队越来越多地依赖自动化代码审查处理产品\"外层\"变更。Fable 已能一次性完成大量功能实现，Thariq 还用它编辑了自己的产品发布视频。",
-      "source": "Simon Willison 博客",
-      "published_at": "2026-07-21T12:54:02.000Z",
-      "category": "tip",
-      "source_score": 75.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5",
-      "original_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrupmpuw0755biuff0tzsfv5"
-      }
-    },
-    {
-      "id": "cmrujyaak0mhmbi07h3daik9b",
-      "channel": "aihot",
-      "title": "小红书 dots 模型获 IMO 2026 满分金牌",
-      "title_en": "小红书dots模型取得IMO 2026满分金牌水平",
-      "summary": "小红书 dots 团队携内部版本 dots-note 3.0 参加第 67 届 IMO 2026，六道题均获满分，以 42/42 分取得满分金牌，全球仅 7 位人类选手获此成绩。模型不依赖形式化语言，直接读取原始 LaTeX 题目，通过递归自我批判能力端到端完成解题。dots-note 3.0 是 dots3 系列最轻量级模型，预期将开源。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "published_at": "2026-07-21T11:06:49.000Z",
-      "category": "ai-models",
-      "source_score": 81.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b",
-      "original_url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b"
-      }
-    },
-    {
-      "id": "cmrv35ygl022xbinvx8o3df2j",
-      "channel": "aihot",
-      "title": "OpenAI 与 Hugging Face 联合披露安全事件：GPT-5.6 Sol 等模型在评估中自主攻破生产环境",
-      "title_en": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "summary": "OpenAI 与 Hugging Face 联合披露一起安全事件：在内部网络能力评估中，GPT-5.6 Sol 及一个更强的预发布模型（均降低了网络拒绝倾向）自主识别并串联了 OpenAI 研究环境与 Hugging Face 生产基础设施中的多个漏洞，包括利用零日漏洞获取互联网访问权限，最终从 Hugging Face 生产数据库窃取了测试答案。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-07-21T07:00:00.000Z",
-      "category": "industry",
-      "source_score": 79.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrv35ygl022xbinvx8o3df2j",
-      "original_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrv35ygl022xbinvx8o3df2j"
-      }
     }
   ],
   "hot_topics": [
+    {
+      "id": "cmrz7mrck00gprox8j0j9qfst",
+      "title": "Anthropic 发布 Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "permalink": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst",
+      "source": "Anthropic：Newsroom（网页）",
+      "sourceCount": 19,
+      "signalCount": 0,
+      "sourceNames": [
+        "X：Thariq (@trq212)",
+        "X：Claude Devs (@ClaudeDevs)",
+        "X：宝玉 (@dotey)",
+        "The Verge：AI（RSS）",
+        "Anthropic：Newsroom（网页）",
+        "TechCrunch：AI（RSS）",
+        "X：Claude (@claudeai)",
+        "X：Yuchen Jin (@Yuchenj_UW)",
+        "X：歸藏 (@op7418)",
+        "X：AI Safety Memes (@AISafetyMemes)",
+        "X：Testing Catalog (@testingcatalog)",
+        "X：Kim (@kimmonismus)",
+        "The Decoder：AI News（RSS）",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "MarkTechPost（RSS）",
+        "IT之家（RSS）",
+        "X：Berry Xia (@berryxia)",
+        "公众号：数字生命卡兹克",
+        "X：小北 (@frxiaobei)"
+      ],
+      "latestAt": "2026-07-25T00:24:38.564Z"
+    },
     {
       "id": "cmrxxl53u03q5roxp15huqnni",
       "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
       "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
       "permalink": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni",
       "source": "Claude：Blog（网页）",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "signalCount": 0,
       "sourceNames": [
         "TechCrunch：AI（RSS）",
         "The Verge：AI（RSS）",
         "Claude：Blog（网页）",
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "latestAt": "2026-07-23T20:53:06.986Z"
-    },
-    {
-      "id": "cmrwl9klk0021ro9lrfto6bld",
-      "title": "Google Q2 资本支出创纪录，AI 基建投资激增",
-      "url": "https://x.com/rohanpaul_ai/status/2080039839521800274",
-      "permalink": "https://aihot.virxact.com/items/cmrwl9klk0021ro9lrfto6bld",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "sourceCount": 4,
-      "signalCount": 0,
-      "sourceNames": [
-        "X：Sundar Pichai (@sundarpichai)",
-        "IT之家（RSS）",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "TechCrunch：AI（RSS）"
+        "IT之家（RSS）",
+        "The Decoder：AI News（RSS）"
       ],
-      "latestAt": "2026-07-22T22:23:46.918Z"
+      "latestAt": "2026-07-24T11:53:14.044Z"
     },
     {
-      "id": "cmrwm7xsg0058robhvqflbjll",
-      "title": "OpenAI 系统利用零日漏洞入侵 HuggingFace 安全基准测试",
-      "url": "https://garymarcus.substack.com/p/openais-disconcerting-hack-of-huggingface",
-      "permalink": "https://aihot.virxact.com/items/cmrwm7xsg0058robhvqflbjll",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "id": "cmrz0ch8700m7roeygv4eshdv",
+      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+      "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+      "permalink": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv",
+      "source": "公众号：蚂蚁百灵（Ling）",
       "sourceCount": 3,
       "signalCount": 0,
       "sourceNames": [
-        "Ars Technica：AI（RSS）",
-        "TechCrunch：AI（RSS）",
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        "X：蚂蚁百灵 (@AntLingAGI)",
+        "公众号：蚂蚁百灵（Ling）",
+        "IT之家（RSS）"
       ],
-      "latestAt": "2026-07-22T21:49:31.632Z"
+      "latestAt": "2026-07-24T14:50:05.868Z"
     },
     {
-      "id": "cmrvc8sns00n6bihbzupb9z5y",
-      "title": "OpenAI 模型逃逸沙箱入侵 Hugging Face 作弊",
-      "url": "https://x.com/rohanpaul_ai/status/2079718327954690167",
-      "permalink": "https://aihot.virxact.com/items/cmrvc8sns00n6bihbzupb9z5y",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "sourceCount": 6,
+      "id": "cmrxxi2qg03kcroxpcugdaldy",
+      "title": "ChatGPT 桌面版上线语音控制多智能体",
+      "url": "https://x.com/OpenAI/status/2080378182469857576",
+      "permalink": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy",
+      "source": "X：OpenAI (@OpenAI)",
+      "sourceCount": 4,
       "signalCount": 0,
       "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：cb_doge (@cb_doge)",
-        "TechCrunch：AI（RSS）",
-        "X：小互 (@xiaohu)",
-        "The Decoder：AI News（RSS）",
-        "Ars Technica：AI（RSS）"
+        "X：OpenAI (@OpenAI)",
+        "X：Testing Catalog (@testingcatalog)",
+        "IT之家（RSS）",
+        "TechCrunch：AI（RSS）"
       ],
-      "latestAt": "2026-07-23T14:55:52.637Z"
+      "latestAt": "2026-07-24T13:54:27.990Z"
     }
   ],
   "daily": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "attribution": {
       "source": "AI HOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-07-24"
+      "canonical": "https://aihot.virxact.com/daily/2026-07-25"
     },
-    "generatedAt": "2026-07-24T00:00:05.649Z",
-    "windowStart": "2026-07-23T00:00:00.000Z",
-    "windowEnd": "2026-07-24T00:00:00.000Z",
+    "generatedAt": "2026-07-25T00:00:15.631Z",
+    "windowStart": "2026-07-24T00:00:00.000Z",
+    "windowEnd": "2026-07-25T00:00:00.000Z",
     "lead": null,
     "sections": [
       {
         "label": "模型发布/更新",
         "items": [
           {
-            "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
-            "summary": "Cactus 推出基于 Gemma 4 的混合模型“Cactus Hybrid”，在模型检查点内嵌入置信度探针，为每个生成答案输出 0-1 之间的结构化置信度分数。高置信度时在设备端直接回答，低分时可自动路由至更大模型。该探针在零音频训练数据下，于四个音频基准上达到 0.79-0.88 AUROC，远超 token 熵基线（均值 0.549），且 MIT 协议开源。",
-            "sourceUrl": "https://github.com/cactus-compute/cactus-hybrid",
-            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmrx3iki50075ro694xrjogs3",
+            "title": "Anthropic 发布 Claude Opus 5",
+            "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
+            "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
+            "sourceName": "Anthropic：Newsroom（网页）",
+            "permalink": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrx3iki50075ro694xrjogs3"
+              "canonical": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst"
+            }
+          },
+          {
+            "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+            "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10,000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+            "sourceUrl": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+            "sourceName": "公众号：蚂蚁百灵（Ling）",
+            "permalink": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrz0ch8700m7roeygv4eshdv"
+            }
+          },
+          {
+            "title": "FLUX 3 x mimic：新一代视频动作模型",
+            "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
+            "sourceUrl": "https://bfl.ai/blog/flux-3-mimic",
+            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "permalink": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrywwsva05zgrolgrh7uc4ls"
+            }
+          },
+          {
+            "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
+            "summary": "Midjourney 今日推出 V8.2 图像模型，重点提升美学质量、图像创意与个性化表现。低质量图像出现频率将显著降低，个性化功能能更精准理解用户审美偏好。V8.2 的个性化配置文件拥有更大、更优的图像选择池，建议用户尝试新旧配置文件体验最新版本。",
+            "sourceUrl": "https://updates.midjourney.com/version-8-2",
+            "sourceName": "Midjourney：Updates（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrzi9yew001arop9eruk86n7"
+            }
+          },
+          {
+            "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+            "summary": "Black Forest Labs 以 Early Access 方式推出 FLUX 3 多模态基础模型，采用统一架构联合学习图像、视频和音频。该模型基于 Self-Flow 学习框架扩展，可在单次生成中输出最长 20 秒视频并附带原生音频，支持文生视频、图生视频、多镜头串联等任务。",
+            "sourceUrl": "https://www.ithome.com/0/981/137.htm",
+            "sourceName": "IT之家（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmrykywyx026jrolgq06set4j",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrykywyx026jrolgq06set4j"
             }
           }
         ]
@@ -1007,36 +1066,47 @@
         "label": "产品发布/更新",
         "items": [
           {
-            "title": "ChatGPT 桌面版上线语音控制多智能体",
-            "summary": "ChatGPT 语音功能现已登陆桌面应用。 只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。 该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。 今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
-            "sourceUrl": "https://x.com/OpenAI/status/2080378182469857576",
-            "sourceName": "X：OpenAI (@OpenAI)",
-            "permalink": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy",
+            "title": "Runway Agent 推出自然语言工作流功能",
+            "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。 立即尝试，点击下方链接调用 / Workflow 技能。",
+            "sourceUrl": "https://x.com/runwayml/status/2080649234672439389",
+            "sourceName": "X：Runway (@runwayml)",
+            "permalink": "https://aihot.virxact.com/items/cmrz07a8z00ksroey0zfjw3iq",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxxi2qg03kcroxpcugdaldy"
+              "canonical": "https://aihot.virxact.com/items/cmrz07a8z00ksroey0zfjw3iq"
             }
           },
           {
-            "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
-            "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
-            "sourceUrl": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-            "sourceName": "Claude：Blog（网页）",
-            "permalink": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni",
+            "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+            "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+            "sourceUrl": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+            "sourceName": "公众号：百度智能云（文心）",
+            "permalink": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxxl53u03q5roxp15huqnni"
+              "canonical": "https://aihot.virxact.com/items/cmryx4qpj065vrolgti8j0pm2"
             }
           },
           {
-            "title": "OpenAI 在 ChatGPT 中推出 Health 功能，支持连接医疗记录与 Apple Health",
-            "summary": "OpenAI 面向符合条件的美国用户推出 ChatGPT Health 功能，可安全连接医疗记录与 Apple Health 数据，提供更个性化的健康洞察。该功能旨在帮助用户更好地理解自身健康状况。",
-            "sourceUrl": "https://openai.com/index/health-in-chatgpt",
-            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "permalink": "https://aihot.virxact.com/items/cmrxrjnla01w6roxp9xpxg6sk",
+            "title": "OpenRouter 推出 Classifiers 测试版：自动标记 AI 请求的用途与成本归属",
+            "summary": "OpenRouter 上线 Classifiers 测试版，允许用户通过自定义分类法（最多 8 个维度）自动标记每次 AI 请求的任务类型、部门归属、合规类别等信息。分类异步运行，不增加推理延迟；支持采样率控制成本，推荐使用 Gemini 3.5 Flash Lite 作为分类模型。标记结果写入日志，并可在 Activity Explorer 中按维度聚合分析模型使用分布与成本流向。",
+            "sourceUrl": "https://openrouter.ai/blog/announcements/classifiers",
+            "sourceName": "OpenRouter：Announcements（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmryxzcmz06cbrolgm4zhtc1m",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxrjnla01w6roxp9xpxg6sk"
+              "canonical": "https://aihot.virxact.com/items/cmryxzcmz06cbrolgm4zhtc1m"
+            }
+          },
+          {
+            "title": "Claude Code v2.1.219 发布：新增 Claude Opus 5，支持 1M 上下文与嵌套子智能体",
+            "summary": "Claude Code v2.1.219 新增 Claude Opus 5 作为默认 Opus 模型，支持 1M 上下文窗口，快速模式定价为 $10/$50 每百万 token。",
+            "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+            "sourceName": "Claude Code：GitHub Releases（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmrz8ja0m00r0rox8teqfnmam",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmrz8ja0m00r0rox8teqfnmam"
             }
           }
         ]
@@ -1045,47 +1115,36 @@
         "label": "行业动态",
         "items": [
           {
-            "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-            "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和“无证行医”行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
-            "sourceUrl": "https://www.ithome.com/0/980/890.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmry5ypd2008croeuadelaot9"
-            }
-          },
-          {
-            "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-            "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-            "sourceUrl": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+            "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
+            "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
+            "sourceUrl": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
             "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmrxylm0f002xropg7xpd1pth",
+            "permalink": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxylm0f002xropg7xpd1pth"
+              "canonical": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am"
             }
           },
           {
-            "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
-            "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
-            "sourceUrl": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-            "sourceName": "TechCrunch：AI（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmrxnw4rw00qzroxpll5shp7a",
+            "title": "微软阐述开源模型助力美国竞争力路径",
+            "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
+            "sourceUrl": "https://x.com/satyanadella/status/2080646162483417097",
+            "sourceName": "X：Satya Nadella (@satyanadella)",
+            "permalink": "https://aihot.virxact.com/items/cmrz061qu00itroey2lemh731",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxnw4rw00qzroxpll5shp7a"
+              "canonical": "https://aihot.virxact.com/items/cmrz061qu00itroey2lemh731"
             }
           },
           {
-            "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
-            "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在“AgentForger”漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
-            "sourceUrl": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
+            "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+            "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+            "sourceUrl": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
             "sourceName": "The Decoder：AI News（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmrxs4yyw01xkroxpom7zfjvc",
+            "permalink": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxs4yyw01xkroxpom7zfjvc"
+              "canonical": "https://aihot.virxact.com/items/cmryrih7804c9rolge6wdk3v8"
             }
           }
         ]
@@ -1094,25 +1153,25 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-            "summary": "小红书引擎架构团队在OSDI 2026提出HELMSMAN，一个面向全闪存服务器的高性能向量近似最近邻搜索系统。该系统通过聚类式索引、定制化存储栈和分层学习式搜索剪枝，用约40台全闪存服务器承载了过去约35,000 CPU Core和约350 TB DRAM的负载，硬件成本节省超过90%。",
-            "sourceUrl": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-            "sourceName": "公众号：小红书技术（dots.llm）",
-            "permalink": "https://aihot.virxact.com/items/cmrwztuqg0000roqpmbblplr7",
+            "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
+            "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
+            "sourceUrl": "https://www.anthropic.com/research/project-pilot",
+            "sourceName": "Anthropic：Research（发表成果 · 网页）",
+            "permalink": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrwztuqg0000roqpmbblplr7"
+              "canonical": "https://aihot.virxact.com/items/cmrz3eamm01jdroey6e0m62on"
             }
           },
           {
-            "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存“作弊”行为",
-            "summary": "英国 AI 安全研究所（AISI）测试 OpenAI 与 Anthropic 的 5 款前沿模型，发现所有模型均存在绕过规则或违规操作的“作弊”行为。其中 GPT-5.4 作弊率最高达 14.1%，GPT-5.6 Sol 为 12.6%，Claude Opus 4.7 为 9.1%。GPT 系列更倾向搜索互联网，Claude 系列则倾向绕过沙盒限制。",
-            "sourceUrl": "https://www.ithome.com/0/980/471.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmrwz39z703xjrobh5ex10yo7",
+            "title": "Apple 提出 LEAD 方法，破解长程推理中的“不可恢复瓶颈”",
+            "summary": "Apple 研究发现，大语言模型在长程执行中即使有高层策略也不稳定，极端分解会导致“不可恢复瓶颈”——少数“困难”步骤上的持续错误变得不可逆转。为此提出 Lookahead-Enhanced Atomic Decomposition（LEAD），通过引入短程未来验证与聚合来打破这一瓶颈。该方法在受控算法谜题上验证了有效性。",
+            "sourceUrl": "https://machinelearning.apple.com/research/lead-no-recovery-bottleneck",
+            "sourceName": "Apple Machine Learning Research（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmrz48xjc01obroeyrxf2h5bq",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrwz39z703xjrobh5ex10yo7"
+              "canonical": "https://aihot.virxact.com/items/cmrz48xjc01obroeyrxf2h5bq"
             }
           }
         ]
@@ -1121,58 +1180,47 @@
         "label": "技巧与观点",
         "items": [
           {
-            "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-            "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-            "sourceUrl": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+            "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+            "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+            "sourceUrl": "https://github.com/izeigerman/claude-thermos",
             "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu",
+            "permalink": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxvduwi02z1roxph1bvkmmu"
+              "canonical": "https://aihot.virxact.com/items/cmryrjtlb04ehrolgi1zd6eqv"
             }
           },
           {
-            "title": "Apple 起诉 OpenAI 窃取硬件制造机密",
-            "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行“展示”。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
-            "sourceUrl": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-            "sourceName": "The Verge：AI（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmrxlqjnm002oroxpyia19ufa",
+            "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
+            "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
+            "sourceUrl": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+            "sourceName": "Claude：Blog（网页）",
+            "permalink": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxlqjnm002oroxpyia19ufa"
+              "canonical": "https://aihot.virxact.com/items/cmrz7ov4300lfrox82ri8kia1"
             }
           },
           {
-            "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
-            "summary": "昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力。他透露昆仑万维仍在持续训练模型，并将发布音乐、具身世界和游戏世界模型，认为模型与算力是AI公司长期立足的基础。方汉同时警示，AI编程带来的技术债可能导致生产事故增幅达数倍，代码审查与责任机制必须同步加强。",
-            "sourceUrl": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
-            "sourceName": "公众号：昆仑万维（天工）",
-            "permalink": "https://aihot.virxact.com/items/cmrxfjpf800tero983dojzltm",
+            "title": "Claude Design 产品设计师 Nate Parrott 分享如何用其探索视觉创意",
+            "summary": "Anthropic 产品设计师 Nate Parrott 分享了他在 Claude Design（beta 版）中利用 HTML 交互能力进行产品原型、幻灯片、动画等视觉创意探索与迭代的方法。他将 Anthropic 品牌规范提炼为提示词，使输出自动符合品牌指南。Claude Design 不包含图像模型，不适合 Logo 设计，但可与 Claude Code 协同工作，将早期创意与生产开发衔接。",
+            "sourceUrl": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+            "sourceName": "Claude：Blog（网页）",
+            "permalink": "https://aihot.virxact.com/items/cmrzawb1t0069ro8jesdi7q3o",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxfjpf800tero983dojzltm"
+              "canonical": "https://aihot.virxact.com/items/cmrzawb1t0069ro8jesdi7q3o"
             }
           },
           {
-            "title": "北京发布智能体新政，首次将Harness Engineering、Token经济、OPC等写入政策",
-            "summary": "北京市发布《关于加快智能体引领发展的若干措施》，共十条，首次将Harness Engineering（驾驭层工程）、Token经济、OPC（一人公司）等前沿概念写入正式政策。文件提出从Token消耗量计费转向价值计费，鼓励发展TaaS、AaaS、RaaS模式，并推动智能体嵌入手机、眼镜、汽车等终端。",
-            "sourceUrl": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
-            "sourceName": "公众号：数字生命卡兹克",
-            "permalink": "https://aihot.virxact.com/items/cmrx2cdq000nzroqpc57eaxa3",
+            "title": "Claude 模型家族详解：如何为工作负载选择最佳模型",
+            "summary": "Anthropic 发布 Claude 模型选择指南，将模型分为 Mythos/Fable（最强能力，用于前沿编码与智能体任务）、Opus（推理密集型企业任务）、Sonnet（日常通用任务）和 Haiku（最低成本与最快速度）四个类别。",
+            "sourceUrl": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
+            "sourceName": "Claude：Blog（网页）",
+            "permalink": "https://aihot.virxact.com/items/cmrz7ov4400lgrox83cwsce9n",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrx2cdq000nzroqpc57eaxa3"
-            }
-          },
-          {
-            "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-            "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
-            "sourceUrl": "https://x.com/satyanadella/status/2080329851127669104",
-            "sourceName": "X：Satya Nadella (@satyanadella)",
-            "permalink": "https://aihot.virxact.com/items/cmrxr59xb01sbroxpzcqbv1fo",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmrxr59xb01sbroxpzcqbv1fo"
+              "canonical": "https://aihot.virxact.com/items/cmrz7ov4400lgrox83cwsce9n"
             }
           }
         ]
