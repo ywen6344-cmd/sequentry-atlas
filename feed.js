@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-25",
- "total": 1451,
+ "updated": "2026-07-26",
+ "total": 1434,
  "source_count": 53,
  "score_min": 60,
  "by_cat": {
@@ -13,15 +13,6 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P0",
     "m": "US",
-    "score": 87
-   },
-   {
-    "t": "加拿大品牌因新关税加速布局美国仓储",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/fashion-briefing-canadian-brands-are-investing-in-us-fulfillment-centers-in-wake-of-new-tariffs/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-23",
-    "p": "P0",
-    "m": "US",
     "score": 82
    },
    {
@@ -31,7 +22,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Eurozone Consumers Expect Cooling Inflation While Experts Hold Firm",
@@ -40,7 +31,16 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P2",
     "m": "EU",
-    "score": 66
+    "score": 61
+   },
+   {
+    "t": "Abu Bakr Supermarket launches Community Awards to celebrate local heroes",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/abu-bakr-supermarket-launches-community-awards-to-celebrate-local-heroes/",
+    "d": "2026-07-25",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    }
   ],
   "platform-channel": [
@@ -51,7 +51,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "US",
-    "score": 84
+    "score": 79
    },
    {
     "t": "Amazon expands ultra-fast delivery service Amazon Now to Manchester",
@@ -60,7 +60,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "UK",
-    "score": 83
+    "score": 78
    },
    {
     "t": "Alibaba adds more agentic AI to B2B sourcing",
@@ -69,7 +69,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "New app-added annotations on your analytics charts",
@@ -78,7 +78,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Sociable: Will Meta’s massive AI bet pay off?",
@@ -87,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "AI bubble boosts container utilisation and freight rates",
@@ -96,7 +96,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    }
   ],
   "brand-retail": [
@@ -107,25 +107,25 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "US",
-    "score": 73
+    "score": 68
    },
    {
-    "t": "Neon Commerce获1300万美元融资，为游戏发行商拓展DTC电商",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110486/neon-commerce-raises-13m-to-scale-direct-to-consumer-commerce-for-game-publishers?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-23",
+    "t": "Under Armour teams with ‘Heated Rivalry’ star for new campaign",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/under-armour-heated-rivalry-francois-arnaud-global-ambassador/826165/",
+    "d": "2026-07-24",
     "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
+    "m": "US",
+    "score": 64
    },
    {
-    "t": "约翰·所罗门谈市场逆风时如何建立品牌势头",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/john-solomon-on-building-brand-momentum-when-markets-turn-against-you/",
-    "d": "2026-07-23",
-    "p": "P0",
+    "t": "Is Hoka slowing down?",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/hoka-earnings-slowing-down-q1-disappointment/826124/",
+    "d": "2026-07-24",
+    "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 64
    },
    {
     "t": "Linde table and chair by OUT",
@@ -134,7 +134,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "DE",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Future of Marketing Briefing: The case for and against the death of the big brand ad",
@@ -143,7 +143,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Craig Green Among Designers Helping to Relaunch Ecco’s Collaboration Series",
@@ -152,7 +152,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P2",
     "m": "US",
-    "score": 66
+    "score": 61
    }
   ],
   "compliance-fulfillment": [
@@ -163,7 +163,7 @@ window.NAV_FEED = {
     "d": "2026-07-24",
     "p": "P0",
     "m": "US",
-    "score": 72
+    "score": 67
    }
   ]
  }
