@@ -1,169 +1,115 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-26",
- "total": 1434,
- "source_count": 53,
+ "updated": "2026-07-27",
+ "total": 1422,
+ "source_count": 54,
  "score_min": 60,
  "by_cat": {
+  "compliance-fulfillment": [
+   {
+    "t": "携程因垄断被罚没51.79亿元",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/p/3913118530819457?f=rss",
+    "d": "2026-07-26",
+    "p": "P0",
+    "m": "CN",
+    "score": 79
+   }
+  ],
   "market-product": [
    {
-    "t": "What to know about new proposed tariffs on Canadian goods",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/what-to-know-about-new-proposed-tariffs-on-canadian-goods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-24",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "Snif and Ulta are betting male teenage ‘fragheads’ can become a serious retail business",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/snif-notewrks-ulta-beauty-mens-fragrance/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
-   {
-    "t": "Eurozone Consumers Expect Cooling Inflation While Experts Hold Firm",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/economy/2026/eurozone-consumers-expect-cooling-inflation-while-experts-hold-firm/",
-    "d": "2026-07-24",
-    "p": "P2",
-    "m": "EU",
-    "score": 61
-   },
-   {
-    "t": "Abu Bakr Supermarket launches Community Awards to celebrate local heroes",
+    "t": "Frurt在Morrisons开设首个超市售货亭",
     "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/abu-bakr-supermarket-launches-community-awards-to-celebrate-local-heroes/",
-    "d": "2026-07-25",
+    "u": "https://retailtimes.co.uk/frurt-launches-first-ever-supermarket-kiosk-with-morrisons-in-major-uk-expansion-move/",
+    "d": "2026-07-26",
+    "p": "P0",
+    "m": "UK",
+    "score": 72
+   },
+   {
+    "t": "华泰证券：等待“超级周”方向选择",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/newsflashes/3913068893197697?f=rss",
+    "d": "2026-07-26",
+    "p": "P2",
+    "m": "CN",
+    "score": 70
+   },
+   {
+    "t": "Waitrose投资多业态门店应对消费习惯变化",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/waitrose-invests-in-more-ways-to-shop-to-reflect-changing-customer-habits/",
+    "d": "2026-07-26",
     "p": "P3",
     "m": "UK",
     "score": 56
-   }
-  ],
-  "platform-channel": [
-   {
-    "t": "Invalid metafield queries now return errors in the GraphQL Admin API",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/invalid-metafield-queries-now-return-errors-in-the-graphql-admin-api",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 79
    },
    {
-    "t": "Amazon expands ultra-fast delivery service Amazon Now to Manchester",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/amazon-expands-ultra-fast-delivery-service-amazon-now-to-manchester/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "UK",
-    "score": 78
-   },
-   {
-    "t": "Alibaba adds more agentic AI to B2B sourcing",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/24/alibaba-accio-work-agentic-ai-b2b-sourcing/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "New app-added annotations on your analytics charts",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/new-app-added-annotations-on-your-analytics-charts",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "Sociable: Will Meta’s massive AI bet pay off?",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/sociable-will-metas-massive-ai-bet-pay-off/826138/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "AI bubble boosts container utilisation and freight rates",
-    "s": "Seatrade Maritime",
-    "u": "https://www.seatrade-maritime.com/containers/ai-bubble-boosts-container-utilisation-and-freight-rates",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
+    "t": "Burberry CEO谈中国市场观察与本土化战略",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/475413",
+    "d": "2026-07-25",
+    "p": "P2",
+    "m": "CN",
+    "score": 44
    }
   ],
   "brand-retail": [
    {
-    "t": "Under Armour gets heated with François Arnaud",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/under-armour-heated-rivalry-francois-arnaud-global-ambassador/826139/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 68
-   },
-   {
-    "t": "Under Armour teams with ‘Heated Rivalry’ star for new campaign",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/under-armour-heated-rivalry-francois-arnaud-global-ambassador/826165/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
-   {
-    "t": "Is Hoka slowing down?",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/hoka-earnings-slowing-down-q1-disappointment/826124/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
-   {
-    "t": "Linde table and chair by OUT",
+    "t": "Unfold Projects改造加州中世纪住宅为“有机绿洲”",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/07/24/linde-table-chair-out-dezeen-showroom/",
-    "d": "2026-07-24",
-    "p": "P1",
-    "m": "DE",
-    "score": 64
-   },
-   {
-    "t": "Future of Marketing Briefing: The case for and against the death of the big brand ad",
-    "s": "Digiday",
-    "u": "https://digiday.com/marketing/future-of-marketing-briefing-the-case-for-and-against-the-death-of-the-big-brand-ad/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-24",
+    "u": "https://www.dezeen.com/2026/07/25/encinitas-residence-mid-century-renovation-california-unfold-projects/",
+    "d": "2026-07-25",
     "p": "P1",
     "m": "US",
-    "score": 64
+    "score": 74
    },
    {
-    "t": "Craig Green Among Designers Helping to Relaunch Ecco’s Collaboration Series",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/ecco-kollektive-craig-green-natacha-ramsay-levi-collabs-1239080990/",
-    "d": "2026-07-24",
+    "t": "伦敦女装品牌Never Fully Dressed控股权被私募收购",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/475744",
+    "d": "2026-07-25",
     "p": "P2",
-    "m": "US",
-    "score": 61
+    "m": "UK",
+    "score": 44
+   },
+   {
+    "t": "荣耀新Logo：打破完美主义",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/design/logos-icons/honors-new-logo-is-all-about-pushing-past-perfection",
+    "d": "2026-07-25",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 44
    }
   ],
-  "compliance-fulfillment": [
+  "platform-channel": [
    {
-    "t": "Trump renews 10% tariff on most UK goods",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/07/trump-renews-tariff-uk-goods/",
-    "d": "2026-07-24",
-    "p": "P0",
+    "t": "DeepSeek 暂停融资轮，IPO 前引关注",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-reportedly-suspends-funding-round-ahead-of-ipo/",
+    "d": "2026-07-27",
+    "p": "P2",
     "m": "US",
-    "score": 67
+    "score": 66
+   },
+   {
+    "t": "纽约瞄准产品广告中的AI模特",
+    "s": "Practical Ecommerce",
+    "u": "https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads",
+    "d": "2026-07-26",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "TikTok测试类Prime购物会员服务",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/commerce/ecommerce/2026/tiktok-tests-prime-style-shopping-membership-service/",
+    "d": "2026-07-26",
+    "p": "P2",
+    "m": "US",
+    "score": 49
    }
   ]
  }

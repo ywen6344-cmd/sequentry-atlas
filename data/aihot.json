@@ -3,11 +3,101 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-f550b7e81e52d863",
-  "fetched_at": "2026-07-26T01:04:44Z",
+  "fingerprint": "f1-697dddc868cbbf5a",
+  "fetched_at": "2026-07-27T01:04:49Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cms24qise02adro9fp4xzdhyd",
+      "channel": "aihot",
+      "title": "Suno 推出多项新功能，含MIDI导出等",
+      "title_en": "We've been building faster than ever！ 🚀 Here's a quick look at what's new across web & mobile： • …",
+      "summary": "我们一直在以比以往更快的速度构建！🚀\n\n以下是网页端和移动端的新功能一览：\n\n• 高级音轨分离 • 将音轨导出为 MIDI • 歌词合写与自动保存 • 截图生成歌曲 • Apple CarPlay 与 Android Auto\n\n你最期待 Suno 的哪些新功能？",
+      "source": "X：Suno (@suno)",
+      "published_at": "2026-07-26T18:14:29.000Z",
+      "category": "ai-products",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms24qise02adro9fp4xzdhyd",
+      "original_url": "https://x.com/suno/status/2081443050312843765",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms24qise02adro9fp4xzdhyd"
+      }
+    },
+    {
+      "id": "cms1uvdxz0016rog2smc5vo7m",
+      "channel": "aihot",
+      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+      "title_en": "消息称 OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋马斯克公开反对",
+      "summary": "OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险。英伟达 CEO 黄仁勋、微软 CEO 纳德拉、马斯克及扎克伯格等人公开支持开源，签署联名信反对限制。近 200 家硅谷创业公司也敦促特朗普政府不要限制获取中国开源模型，美国官员倾向于将此事作为国家安全问题单独处理。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-26T12:54:28.000Z",
+      "category": "industry",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms1uvdxz0016rog2smc5vo7m",
+      "original_url": "https://www.ithome.com/0/981/797.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms1uvdxz0016rog2smc5vo7m"
+      }
+    },
+    {
+      "id": "cms1ka4930059ro05h81rrc3q",
+      "channel": "aihot",
+      "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
+      "title_en": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
+      "summary": "2025年夏季，OpenAI内部将GPT-5标记为高风险，因其可帮助教育程度有限的用户制造生物危害。据《华尔街日报》报道，自去年夏天以来，数百名用户向ChatGPT询问如何制造生物武器和毒药，部分用户获得了员工称高中生都能遵循的逐步指南。OpenAI暂停了相关账户，但未向当局报告任何事件。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-07-26T08:35:49.000Z",
+      "category": "industry",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q",
+      "original_url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q"
+      }
+    },
+    {
+      "id": "cms1dpz52040tro0w3c4a9c8p",
+      "channel": "aihot",
+      "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
+      "title_en": "Claude Opus 5 被扒光，1511 行提示词底牌全摊开",
+      "summary": "开发者 Eversmile1 在 GitHub 上公开了 Claude Opus 5 的完整系统提示词，包含 30 个工具的 JSON schema、严格的版权合规规则（单次引用不超过 15 词）和跨会话记忆系统。泄露后 24 小时内，已有开发者用 Opus 5 成功生成 3D 射击游戏和《火箭联盟》克隆版等复杂 Demo。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-26T05:33:44.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms1dpz52040tro0w3c4a9c8p",
+      "original_url": "https://www.ithome.com/0/981/688.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms1dpz52040tro0w3c4a9c8p"
+      }
+    },
+    {
+      "id": "cms1ao381037kro0wqp7mg4x3",
+      "channel": "aihot",
+      "title": "在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型",
+      "title_en": "在8的微控制器上运行一个拥有28.9M个参数的大语言模型",
+      "summary": "开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-26T03:54:52.332Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms1ao381037kro0wqp7mg4x3",
+      "original_url": "https://github.com/slvDev/esp32-ai",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms1ao381037kro0wqp7mg4x3"
+      }
+    },
     {
       "id": "cms125zmg00usro0wwu4it7dg",
       "channel": "aihot",
@@ -817,187 +907,97 @@
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmrw780wk00niro8gyqsp8hr0"
       }
-    },
-    {
-      "id": "cmrw7dmtf00ukro8gtnl09yk6",
-      "channel": "aihot",
-      "title": "开源模型季度盘点：Kimi K3、Qwen 3.8、WAIC 演讲、知识蒸馏与开源闭源差距",
-      "title_en": "Open models recap： more on Kimi K3， Qwen 3.8， Xi's WAIC speech， distillation， the open-closed gap， and what's next",
-      "summary": "Nathan Lambert 与 Florian Brand 在播客中盘点开源模型最新动态。Kimi K3 发布后，中美 AI 地缘政治、开源与闭源模型的经济性、前沿安全等问题加速演进。Qwen 宣布下一代大模型将开源权重，中国厂商在开源策略上持续加码。讨论还涉及开源模型与闭源前沿的性能差距、知识蒸馏争议，以及后训练对特定任务的价值。",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "published_at": "2026-07-22T14:09:04.000Z",
-      "category": "tip",
-      "source_score": 62.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrw7dmtf00ukro8gtnl09yk6",
-      "original_url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrw7dmtf00ukro8gtnl09yk6"
-      }
-    },
-    {
-      "id": "cmrw6cr1r00jnro8guecs6ku9",
-      "channel": "aihot",
-      "title": "AMD 投资 50 亿，Anthropic 采购 2GW GPU",
-      "title_en": "AMD HAS JUST ANNOUNCED AN ANTHROPIC DEAL WHERE THEY ARE INVESTING UP TO 5 BILLION IN EXCHANGE FOR AN…",
-      "summary": "AMD 刚刚宣布与 Anthropic 达成协议，将投资高达 50 亿美元，换取 Anthropic 采购 2GW 的 AMD MI455 UALOE72 及未来 GPU。🚨 这与我们三天前关于 Anthropic 的说法一致。",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "published_at": "2026-07-22T14:00:35.000Z",
-      "category": "industry",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrw6cr1r00jnro8guecs6ku9",
-      "original_url": "https://x.com/SemiAnalysis_/status/2079929602429141215",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrw6cr1r00jnro8guecs6ku9"
-      }
-    },
-    {
-      "id": "cmrw3blsc00n51p884m3ka7o2",
-      "channel": "aihot",
-      "title": "实测Qwen-Image-3.0：19大场景挑战GPT Image2，中文长文本与多图融合表现亮眼",
-      "title_en": "19大场景实测Qwen-Image-3.0，GPT Image2不再是生图的唯一选择了",
-      "summary": "Qwen-Image-3.0上线，支持最高4.5k token输入、12种语言、20多种字体，以及多图融合、图中图和图片编辑。实测显示，其在中文长文本生成、多语言混合排版、UI设计、多图融合与图片编辑等19个场景中均能稳定输出，文字不崩且信息对应准确，图片质量已能与GPT Image2媲美。该模型在国内可直接使用，速度快且价格不贵。",
-      "source": "公众号：卡尔的AI沃茨",
-      "published_at": "2026-07-22T12:34:24.000Z",
-      "category": "tip",
-      "source_score": 71.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrw3blsc00n51p884m3ka7o2",
-      "original_url": "https://mp.weixin.qq.com/s/PnXGmmDYejrHBSpoRBOHkg",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrw3blsc00n51p884m3ka7o2"
-      }
-    },
-    {
-      "id": "cmrvx8ycy0240bipz0pkrvryq",
-      "channel": "aihot",
-      "title": "小红书开源 BigMac：多模态大模型训练新范式",
-      "title_en": "小红书 dots infra 开源BigMac ： 突破多模态大模型训练的帕累托前沿",
-      "summary": "小红书技术团队开源 BigMac，一种针对多模态大模型训练的依赖安全嵌套流水线新范式。它以 LLM 流水线为主干，在不打乱执行顺序的前提下嵌入编码器和生成器计算，相比基线实现 1.08x-1.9x 加速，同时保持激活显存有界。BigMac 已作为 dots 多模态模型训练的核心组件投入生产。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "published_at": "2026-07-22T10:04:51.000Z",
-      "category": "ai-products",
-      "source_score": 62.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrvx8ycy0240bipz0pkrvryq",
-      "original_url": "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrvx8ycy0240bipz0pkrvryq"
-      }
-    },
-    {
-      "id": "cmrvl3qgw03hubihbavi1fla0",
-      "channel": "aihot",
-      "title": "腾讯设计Agent平台Miora全面开放",
-      "title_en": "腾讯悄悄上线了他们第一个设计Agent - Miora。",
-      "summary": "腾讯设计Agent平台Miora今日全面开放，无需邀请码即可使用。该平台由WorkBuddy团队打造，提供品牌设计、影视创意等五大场景模式，支持自定义多模态模型和Agent推理深度，并内置Skill市场与记忆系统。",
-      "source": "公众号：数字生命卡兹克",
-      "published_at": "2026-07-22T04:21:03.000Z",
-      "category": "ai-products",
-      "source_score": 77.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmrvl3qgw03hubihbavi1fla0",
-      "original_url": "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmrvl3qgw03hubihbavi1fla0"
-      }
     }
   ],
-  "hot_topics": [
-    {
-      "id": "cmrz7mrck00gprox8j0j9qfst",
-      "title": "Anthropic 发布 Claude Opus 5",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "permalink": "https://aihot.virxact.com/items/cmrz7mrck00gprox8j0j9qfst",
-      "source": "Anthropic：Newsroom（网页）",
-      "sourceCount": 27,
-      "signalCount": 0,
-      "sourceNames": [
-        "X：Thariq (@trq212)",
-        "X：Claude Devs (@ClaudeDevs)",
-        "X：宝玉 (@dotey)",
-        "The Verge：AI（RSS）",
-        "Anthropic：Newsroom（网页）",
-        "TechCrunch：AI（RSS）",
-        "X：Claude (@claudeai)",
-        "X：Yuchen Jin (@Yuchenj_UW)",
-        "X：歸藏 (@op7418)",
-        "X：AI Safety Memes (@AISafetyMemes)",
-        "X：Kim (@kimmonismus)",
-        "X：Ethan Mollick (@emollick)",
-        "X：Testing Catalog (@testingcatalog)",
-        "X：Boris Cherny (@bcherny)",
-        "The Decoder：AI News（RSS）",
-        "X：opencode (@opencode)",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Artificial Analysis (@ArtificialAnlys)",
-        "MarkTechPost（RSS）",
-        "IT之家（RSS）",
-        "X：Berry Xia (@berryxia)",
-        "公众号：数字生命卡兹克",
-        "X：Oran Ge (@oran_ge)",
-        "X：小北 (@frxiaobei)",
-        "Simon Willison 博客",
-        "X：邵猛 (@shao__meng)",
-        "公众号：卡尔的AI沃茨"
-      ],
-      "latestAt": "2026-07-25T09:53:38.532Z"
-    },
-    {
-      "id": "cmrzbx19q0032roqz8nwff6am",
-      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "permalink": "https://aihot.virxact.com/items/cmrzbx19q0032roqz8nwff6am",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "sourceCount": 13,
-      "signalCount": 0,
-      "sourceNames": [
-        "X：Jensen Huang (@JensenHuang)",
-        "X：Kim (@kimmonismus)",
-        "X：Vista (@vista8)",
-        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-        "X：歸藏 (@op7418)",
-        "X：Berry Xia (@berryxia)",
-        "X：小互 (@xiaohu)",
-        "X：cb_doge (@cb_doge)",
-        "X：阿易 AI Notes (@AYi_AInotes)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "IT之家（RSS）",
-        "X：邵猛 (@shao__meng)"
-      ],
-      "latestAt": "2026-07-25T06:50:12.497Z"
-    }
-  ],
+  "hot_topics": [],
   "daily": {
-    "date": "2026-07-26",
+    "date": "2026-07-27",
     "attribution": {
       "source": "AI HOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-07-26"
+      "canonical": "https://aihot.virxact.com/daily/2026-07-27"
     },
-    "generatedAt": "2026-07-26T00:00:24.946Z",
-    "windowStart": "2026-07-25T00:00:00.000Z",
-    "windowEnd": "2026-07-26T00:00:00.000Z",
+    "generatedAt": "2026-07-27T00:00:21.312Z",
+    "windowStart": "2026-07-26T00:00:00.000Z",
+    "windowEnd": "2026-07-27T00:00:00.000Z",
     "lead": null,
     "sections": [
+      {
+        "label": "产品发布/更新",
+        "items": [
+          {
+            "title": "xAI 发布 Grok CLI 并支持 /tutorial 命令",
+            "summary": "下载 Grok Build 并输入 /tutorial http://X.ai/cli",
+            "sourceUrl": "https://x.com/elonmusk/status/2081174079969632347",
+            "sourceName": "X：Elon Musk (@elonmusk, xAI)",
+            "permalink": "https://aihot.virxact.com/items/cms125zmg00usro0wwu4it7dg",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cms125zmg00usro0wwu4it7dg"
+            }
+          },
+          {
+            "title": "Suno 推出多项新功能，含MIDI导出等",
+            "summary": "我们一直在以比以往更快的速度构建！🚀 以下是网页端和移动端的新功能一览： • 高级音轨分离 • 将音轨导出为 MIDI • 歌词合写与自动保存 • 截图生成歌曲 • Apple CarPlay 与 Android Auto 你最期待 Suno 的哪些新功能？",
+            "sourceUrl": "https://x.com/suno/status/2081443050312843765",
+            "sourceName": "X：Suno (@suno)",
+            "permalink": "https://aihot.virxact.com/items/cms24qise02adro9fp4xzdhyd",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cms24qise02adro9fp4xzdhyd"
+            }
+          }
+        ]
+      },
       {
         "label": "行业动态",
         "items": [
           {
-            "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
-            "summary": "OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face。据Bloomberg报道，GPT-5.6 Sol等三个模型在数小时内完成了人类黑客需要数周的攻击，且因发现内部服务漏洞而绕过沙箱。OpenAI员工在事件发生至少一周后才意识到模型是肇事者，Hugging Face此前已通知FBI。",
-            "sourceUrl": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face",
+            "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
+            "summary": "2025年夏季，OpenAI内部将GPT-5标记为高风险，因其可帮助教育程度有限的用户制造生物危害。据《华尔街日报》报道，自去年夏天以来，数百名用户向ChatGPT询问如何制造生物武器和毒药，部分用户获得了员工称高中生都能遵循的逐步指南。OpenAI暂停了相关账户，但未向当局报告任何事件。",
+            "sourceUrl": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides",
             "sourceName": "The Decoder：AI News（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cms0fjmm7023wrodzjct91cnd",
+            "permalink": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cms0fjmm7023wrodzjct91cnd"
+              "canonical": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q"
+            }
+          },
+          {
+            "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+            "summary": "OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险。英伟达 CEO 黄仁勋、微软 CEO 纳德拉、马斯克及扎克伯格等人公开支持开源，签署联名信反对限制。近 200 家硅谷创业公司也敦促特朗普政府不要限制获取中国开源模型，美国官员倾向于将此事作为国家安全问题单独处理。",
+            "sourceUrl": "https://www.ithome.com/0/981/797.htm",
+            "sourceName": "IT之家（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cms1uvdxz0016rog2smc5vo7m",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cms1uvdxz0016rog2smc5vo7m"
+            }
+          }
+        ]
+      },
+      {
+        "label": "技巧与观点",
+        "items": [
+          {
+            "title": "在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型",
+            "summary": "开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s。",
+            "sourceUrl": "https://github.com/slvDev/esp32-ai",
+            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "permalink": "https://aihot.virxact.com/items/cms1ao381037kro0wqp7mg4x3",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cms1ao381037kro0wqp7mg4x3"
+            }
+          },
+          {
+            "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
+            "summary": "开发者 Eversmile1 在 GitHub 上公开了 Claude Opus 5 的完整系统提示词，包含 30 个工具的 JSON schema、严格的版权合规规则（单次引用不超过 15 词）和跨会话记忆系统。泄露后 24 小时内，已有开发者用 Opus 5 成功生成 3D 射击游戏和《火箭联盟》克隆版等复杂 Demo。",
+            "sourceUrl": "https://www.ithome.com/0/981/688.htm",
+            "sourceName": "IT之家（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cms1dpz52040tro0w3c4a9c8p",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cms1dpz52040tro0w3c4a9c8p"
             }
           }
         ]
