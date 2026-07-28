@@ -1,115 +1,205 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-27",
- "total": 1422,
- "source_count": 54,
+ "updated": "2026-07-28",
+ "total": 1456,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
-  "compliance-fulfillment": [
+  "platform-channel": [
    {
-    "t": "携程因垄断被罚没51.79亿元",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3913118530819457?f=rss",
-    "d": "2026-07-26",
+    "t": "Shopify POS UI扩展可直接打印到硬件收据打印机",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/pos-ui-extensions-can-now-print-directly-to-hardware-receipt-printers",
+    "d": "2026-07-27",
     "p": "P0",
-    "m": "CN",
+    "m": "GLOBAL",
+    "score": 92
+   },
+   {
+    "t": "亚马逊将关闭佛罗里达设施，裁员近500人",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/amazon-temporarily-close-florida-facility-layoffs/825753/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "Facebook推出Marketplace卖家独立App",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/new-facebook-marketplace-seller-app-for-iphone/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "Shopify Payments取消多币种收款账户8币种限制",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/add-a-bank-account-for-every-payout-currency",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Flipper Vantage揭示二手商品最佳销售平台",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/flipper-vantage-reveals-whats-it-worth-and-where-does-it-sell-for-the-most/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "Schnucks推出健康追踪AI助手，为零售商树立新标杆",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/technology/schnucks-new-health-tracking-ai-assistant-is-a-model-for-other-retailers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
     "score": 79
    }
   ],
-  "market-product": [
+  "compliance-fulfillment": [
    {
-    "t": "Frurt在Morrisons开设首个超市售货亭",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/frurt-launches-first-ever-supermarket-kiosk-with-morrisons-in-major-uk-expansion-move/",
-    "d": "2026-07-26",
+    "t": "欧盟跨境免税时代终结：每件包裹均需缴税",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/sponsored/the-new-rules-of-cross-border-commerce-after-de-minimis/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-27",
     "p": "P0",
-    "m": "UK",
-    "score": 72
+    "m": "EU",
+    "score": 87
    },
    {
-    "t": "华泰证券：等待“超级周”方向选择",
+    "t": "瑞幸在泰商标侵权案二审胜诉，获赔近2000万",
     "s": "36氪资讯",
-    "u": "https://36kr.com/newsflashes/3913068893197697?f=rss",
-    "d": "2026-07-26",
-    "p": "P2",
+    "u": "https://36kr.com/p/3914520847570307?f=rss",
+    "d": "2026-07-27",
+    "p": "P0",
     "m": "CN",
-    "score": 70
+    "score": 79
    },
    {
-    "t": "Waitrose投资多业态门店应对消费习惯变化",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/waitrose-invests-in-more-ways-to-shop-to-reflect-changing-customer-habits/",
-    "d": "2026-07-26",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "Burberry CEO谈中国市场观察与本土化战略",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/475413",
-    "d": "2026-07-25",
-    "p": "P2",
-    "m": "CN",
-    "score": 44
+    "t": "加州EPR截止日期临近，包装策略准备好了吗？",
+    "s": "The Dieline 包装设计",
+    "u": "https://thedieline.com/californias-epr-deadline-is-almost-here-is-your-packaging-strategy-ready/",
+    "d": "2026-07-27",
+    "p": "P0",
+    "m": "US",
+    "score": 69
    }
   ],
   "brand-retail": [
    {
-    "t": "Unfold Projects改造加州中世纪住宅为“有机绿洲”",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/07/25/encinitas-residence-mid-century-renovation-california-unfold-projects/",
-    "d": "2026-07-25",
+    "t": "Gap公司向员工开放创作者计划",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/gap-inc-opens-creator-influencer-program-staff-employees/826238/",
+    "d": "2026-07-27",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 83
    },
    {
-    "t": "伦敦女装品牌Never Fully Dressed控股权被私募收购",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/475744",
-    "d": "2026-07-25",
-    "p": "P2",
-    "m": "UK",
-    "score": 44
+    "t": "跨境支付结构解析",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/blogposting/32347/the-anatomy-of-a-cross-border-payment?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
    },
    {
-    "t": "荣耀新Logo：打破完美主义",
-    "s": "Creative Bloq 设计",
-    "u": "https://www.creativebloq.com/design/logos-icons/honors-new-logo-is-all-about-pushing-past-perfection",
-    "d": "2026-07-25",
+    "t": "零售品牌的核心：观点一致性",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/a-point-of-view-the-heart-of-a-retailers-brand/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Rare Beauty以希腊神话为灵感推全球营销",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/rare-beauty-draws-inspiration-from-greek-mythology-for-global-campaign/826225/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Sander座椅岛：双面靠背设计",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/07/27/sander-seating-island-central-backrest/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "DE",
+    "score": 69
+   },
+   {
+    "t": "Deit用口味取代健康说教",
+    "s": "The Dieline 包装设计",
+    "u": "https://thedieline.com/deit-skips-the-health-lecture-and-delivers-on-taste/",
+    "d": "2026-07-27",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 44
+    "score": 66
    }
   ],
-  "platform-channel": [
+  "market-product": [
    {
-    "t": "DeepSeek 暂停融资轮，IPO 前引关注",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/news/artificial-intelligence/2026/deepseek-reportedly-suspends-funding-round-ahead-of-ipo/",
+    "t": "Advance Auto Parts提升当日达配送速度",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/07/27/advance-auto-parts-same-day-delivery-speed-fulfillment/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "劳力士官方二手渠道推动二手表市场增长",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/watch-resellers-say-rolexs-certified-pre-owned-channel-is-increasing-the-overall-market-for-secondhand-watches/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "MANGO 2026上半年营收增长7.2%达18.52亿欧元",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/mango-announces-revenue-growth-of-more-than-7-in-first-half-of-2026/",
+    "d": "2026-07-27",
+    "p": "P0",
+    "m": "US",
+    "score": 72
+   },
+   {
+    "t": "新泽西州率先禁止超市监控定价",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/new-jersey-bans-surveillance-pricing-before-it-takes-hold/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 71
+   },
+   {
+    "t": "营销者如何用互联内容应对新创意范式",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/how-marketers-can-tackle-a-new-creative-paradigm-with-connected-content/826236/",
+    "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Dick's、LiveRamp与Adobe打造零售媒体创意未来",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/commerce/dicks-liveramp-and-adobe-are-building-retail-medias-creative-future/",
     "d": "2026-07-27",
     "p": "P2",
     "m": "US",
     "score": 66
-   },
-   {
-    "t": "纽约瞄准产品广告中的AI模特",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/n-y-targets-ai-models-in-product-ads",
-    "d": "2026-07-26",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "TikTok测试类Prime购物会员服务",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/commerce/ecommerce/2026/tiktok-tests-prime-style-shopping-membership-service/",
-    "d": "2026-07-26",
-    "p": "P2",
-    "m": "US",
-    "score": 49
    }
   ]
  }
