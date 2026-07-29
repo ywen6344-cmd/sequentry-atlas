@@ -1,11 +1,20 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-28",
- "total": 1456,
- "source_count": 55,
+ "updated": "2026-07-29",
+ "total": 1453,
+ "source_count": 57,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "AI代理重塑消费者购物旅程",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/sponsored/unpacked-how-agentic-ai-is-reshaping-the-consumer-journey/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-28",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
    {
     "t": "Shopify POS UI扩展可直接打印到硬件收据打印机",
     "s": "Shopify Developer Changelog",
@@ -13,145 +22,69 @@ window.NAV_FEED = {
     "d": "2026-07-27",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 92
-   },
-   {
-    "t": "亚马逊将关闭佛罗里达设施，裁员近500人",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/amazon-temporarily-close-florida-facility-layoffs/825753/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
-    "score": 83
-   },
-   {
-    "t": "Facebook推出Marketplace卖家独立App",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/new-facebook-marketplace-seller-app-for-iphone/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
-    "score": 83
-   },
-   {
-    "t": "Shopify Payments取消多币种收款账户8币种限制",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/add-a-bank-account-for-every-payout-currency",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Flipper Vantage揭示二手商品最佳销售平台",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/flipper-vantage-reveals-whats-it-worth-and-where-does-it-sell-for-the-most/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Schnucks推出健康追踪AI助手，为零售商树立新标杆",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/technology/schnucks-new-health-tracking-ai-assistant-is-a-model-for-other-retailers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "欧盟跨境免税时代终结：每件包裹均需缴税",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/sponsored/the-new-rules-of-cross-border-commerce-after-de-minimis/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-27",
-    "p": "P0",
-    "m": "EU",
     "score": 87
    },
    {
-    "t": "瑞幸在泰商标侵权案二审胜诉，获赔近2000万",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3914520847570307?f=rss",
-    "d": "2026-07-27",
-    "p": "P0",
-    "m": "CN",
-    "score": 79
-   },
-   {
-    "t": "加州EPR截止日期临近，包装策略准备好了吗？",
-    "s": "The Dieline 包装设计",
-    "u": "https://thedieline.com/californias-epr-deadline-is-almost-here-is-your-packaging-strategy-ready/",
-    "d": "2026-07-27",
-    "p": "P0",
-    "m": "US",
-    "score": 69
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "Gap公司向员工开放创作者计划",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/gap-inc-opens-creator-influencer-program-staff-employees/826238/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
-    "score": 83
-   },
-   {
-    "t": "跨境支付结构解析",
+    "t": "GoCardless与anvil合作推出电信自动化支付",
     "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/blogposting/32347/the-anatomy-of-a-cross-border-payment?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-27",
+    "u": "https://www.finextra.com/pressarticle/110514/gocardless-and-anvil-partner-to-launch-automated-payments-for-telcos-and-msps?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-28",
     "p": "P1",
     "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "零售品牌的核心：观点一致性",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/a-point-of-view-the-heart-of-a-retailers-brand/",
-    "d": "2026-07-27",
+    "t": "Vinted Go:10万件无法投递包裹获新生",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/vinted-go-100000-undeliverable-packages-were-given-second-life/",
+    "d": "2026-07-28",
     "p": "P1",
-    "m": "US",
+    "m": "EU",
     "score": 79
    },
    {
-    "t": "Rare Beauty以希腊神话为灵感推全球营销",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/rare-beauty-draws-inspiration-from-greek-mythology-for-global-campaign/826225/",
-    "d": "2026-07-27",
+    "t": "Fenergo推出Fen-AI平台，赋能客户生命周期管理",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110510/fenergo-launches-fen-ai-to-bring-governed-ai-to-client-lifecycle-management?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-28",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "日清食品美国公司采用AI升级供应链",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/07/28/nissin-foods-usa-adopts-ai-for-supply-chain-upgrade/",
+    "d": "2026-07-28",
     "p": "P1",
     "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Sander座椅岛：双面靠背设计",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/07/27/sander-seating-island-central-backrest/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "DE",
-    "score": 69
-   },
-   {
-    "t": "Deit用口味取代健康说教",
-    "s": "The Dieline 包装设计",
-    "u": "https://thedieline.com/deit-skips-the-health-lecture-and-delivers-on-taste/",
-    "d": "2026-07-27",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
+    "score": 79
    }
   ],
   "market-product": [
    {
-    "t": "Advance Auto Parts提升当日达配送速度",
+    "t": "品牌扩大创作者营销策略",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/modern-retail-research-brands-are-expanding-their-creator-marketing-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-28",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "Albertsons推出ACI Edge运营模式，集中化商品管理",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/27/advance-auto-parts-same-day-delivery-speed-fulfillment/",
-    "d": "2026-07-27",
+    "u": "https://www.digitalcommerce360.com/2026/07/28/albertsons-centralizes-merchandising-under-new-aci-edge-operating-model/",
+    "d": "2026-07-28",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "美元树邀请小企业供应商合作",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/dollar-general-opens-call-small-business-vendors/826340/",
+    "d": "2026-07-28",
     "p": "P1",
     "m": "US",
     "score": 79
@@ -163,42 +96,82 @@ window.NAV_FEED = {
     "d": "2026-07-27",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "MANGO 2026上半年营收增长7.2%达18.52亿欧元",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/mango-announces-revenue-growth-of-more-than-7-in-first-half-of-2026/",
-    "d": "2026-07-27",
+    "t": "20(Something)为Open Point打造融合博物馆现代与科技的新标识",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/07/28/20something-civic-tech-open-point-rebrand/",
+    "d": "2026-07-28",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "韩国拟限制杠杆投资上限20%；雷军打新浮盈7亿？小米回应；月之暗面Kimi K3开源",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/p/3915953688604296?f=rss",
+    "d": "2026-07-28",
     "p": "P0",
-    "m": "US",
-    "score": 72
-   },
+    "m": "CN",
+    "score": 79
+   }
+  ],
+  "brand-retail": [
    {
-    "t": "新泽西州率先禁止超市监控定价",
-    "s": "Payments Journal",
-    "u": "https://www.paymentsjournal.com/new-jersey-bans-surveillance-pricing-before-it-takes-hold/",
+    "t": "Gap公司向员工开放创作者计划",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/gap-inc-opens-creator-influencer-program-staff-employees/826238/",
     "d": "2026-07-27",
     "p": "P1",
     "m": "US",
-    "score": 71
+    "score": 78
    },
    {
-    "t": "营销者如何用互联内容应对新创意范式",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-marketers-can-tackle-a-new-creative-paradigm-with-connected-content/826236/",
+    "t": "零售品牌的核心：观点一致性",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/a-point-of-view-the-heart-of-a-retailers-brand/",
     "d": "2026-07-27",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
+   {
+    "t": "一家饮料品牌审计DSP以提升透明度",
+    "s": "Digiday",
+    "u": "https://digiday.com/sponsored/they-havent-been-given-the-receipts-why-one-brand-is-auditing-its-dsps-for-greater-transparency/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-28",
     "p": "P1",
     "m": "US",
     "score": 69
    },
    {
-    "t": "Dick's、LiveRamp与Adobe打造零售媒体创意未来",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/commerce/dicks-liveramp-and-adobe-are-building-retail-medias-creative-future/",
-    "d": "2026-07-27",
+    "t": "OUT品牌Linde桌椅入选Dezeen新品",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/07/28/linde-chair-table-out-furnishings-flooring-seating-dezeen-showroom/",
+    "d": "2026-07-28",
+    "p": "P1",
+    "m": "DE",
+    "score": 69
+   },
+   {
+    "t": "Suri用创新可替换牙膏管挑战传统",
+    "s": "The Dieline 包装设计",
+    "u": "https://thedieline.com/suri-takes-on-the-toothpaste-tube-with-its-innovative-and-refillable-solution/",
+    "d": "2026-07-28",
     "p": "P2",
-    "m": "US",
+    "m": "GLOBAL",
+    "score": 66
+   },
+   {
+    "t": "旧金山湾咖啡以雾色新装亮相",
+    "s": "The Dieline 包装设计",
+    "u": "https://thedieline.com/san-francisco-bay-coffee-gets-a-fresh-coat-of-fog/",
+    "d": "2026-07-28",
+    "p": "P2",
+    "m": "GLOBAL",
     "score": 66
    }
   ]
