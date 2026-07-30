@@ -1,67 +1,85 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-29",
- "total": 1453,
- "source_count": 57,
+ "updated": "2026-07-30",
+ "total": 1415,
+ "source_count": 59,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
    {
-    "t": "AI代理重塑消费者购物旅程",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/sponsored/unpacked-how-agentic-ai-is-reshaping-the-consumer-journey/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-28",
+    "t": "PayPal与亚马逊在德奥推出分期付款",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110525/paypal-and-amazon-launch-bnpl-payments-for-customers-in-germany-and-austria?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-29",
     "p": "P1",
-    "m": "US",
+    "m": "DE",
     "score": 83
    },
    {
-    "t": "Shopify POS UI扩展可直接打印到硬件收据打印机",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/pos-ui-extensions-can-now-print-directly-to-hardware-receipt-printers",
-    "d": "2026-07-27",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 87
-   },
-   {
-    "t": "GoCardless与anvil合作推出电信自动化支付",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110514/gocardless-and-anvil-partner-to-launch-automated-payments-for-telcos-and-msps?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-28",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Vinted Go:10万件无法投递包裹获新生",
-    "s": "Ecommerce News Europe",
-    "u": "https://ecommercenews.eu/vinted-go-100000-undeliverable-packages-were-given-second-life/",
-    "d": "2026-07-28",
-    "p": "P1",
-    "m": "EU",
-    "score": 79
-   },
-   {
-    "t": "Fenergo推出Fen-AI平台，赋能客户生命周期管理",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110510/fenergo-launches-fen-ai-to-bring-governed-ai-to-client-lifecycle-management?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-28",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "日清食品美国公司采用AI升级供应链",
+    "t": "Advance Auto Parts借忠诚度计划与AI驱动数字增长",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/28/nissin-foods-usa-adopts-ai-for-supply-chain-upgrade/",
-    "d": "2026-07-28",
+    "u": "https://www.digitalcommerce360.com/2026/07/29/advance-auto-parts-loyalty-program-ecommerce-sales/",
+    "d": "2026-07-29",
     "p": "P1",
     "m": "US",
+    "score": 79
+   },
+   {
+    "t": "O'Neill物流与Robust.AI合作仓库自动化",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/07/29/oneill-logistics-partners-with-robust-ai-on-warehouse-automation/",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Shopify图表新增应用注释功能",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/view-app-added-annotations-on-your-analytics-charts",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Shopify消息功能新增WhatsApp营销",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/shopify-messaging-now-supports-whatsapp-marketing",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Opetek推出机构交易AI推理平台",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110522/opetek-launches-ai-reasoning-platform-for-intstitutional-trading-desks?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "GLOBAL",
     "score": 79
    }
   ],
   "market-product": [
+   {
+    "t": "Jamie Oliver与Pinterest合作推出夏季食谱集",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/jamie-oliver-and-pinterest-launch-trend-powered-summer-recipe-collection/",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "皇家邮政推出首批城市电动货运自行车",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/royal-mail-introduces-first-urban-electric-cargo-cycles/",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
    {
     "t": "品牌扩大创作者营销策略",
     "s": "Modern Retail",
@@ -69,16 +87,16 @@ window.NAV_FEED = {
     "d": "2026-07-28",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 78
    },
    {
-    "t": "Albertsons推出ACI Edge运营模式，集中化商品管理",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/28/albertsons-centralizes-merchandising-under-new-aci-edge-operating-model/",
-    "d": "2026-07-28",
-    "p": "P1",
-    "m": "US",
-    "score": 79
+    "t": "中信建投：商用车摩托车板块配置价值凸显",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/newsflashes/3917358336355976?f=rss",
+    "d": "2026-07-29",
+    "p": "P2",
+    "m": "CN",
+    "score": 70
    },
    {
     "t": "美元树邀请小企业供应商合作",
@@ -87,92 +105,74 @@ window.NAV_FEED = {
     "d": "2026-07-28",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "劳力士官方二手渠道推动二手表市场增长",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/watch-resellers-say-rolexs-certified-pre-owned-channel-is-increasing-the-overall-market-for-secondhand-watches/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "20(Something)为Open Point打造融合博物馆现代与科技的新标识",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/07/28/20something-civic-tech-open-point-rebrand/",
-    "d": "2026-07-28",
+    "t": "FreeWheel新增节目级报告应对流媒体透明度问题",
+    "s": "Digiday",
+    "u": "https://digiday.com/future-of-tv/future-of-tv-briefing-freewheel-adds-show-level-reporting-to-tackle-streamings-transparency-problem/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-29",
     "p": "P1",
-    "m": "UK",
+    "m": "US",
     "score": 69
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "韩国拟限制杠杆投资上限20%；雷军打新浮盈7亿？小米回应；月之暗面Kimi K3开源",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3915953688604296?f=rss",
-    "d": "2026-07-28",
-    "p": "P0",
-    "m": "CN",
-    "score": 79
    }
   ],
   "brand-retail": [
    {
-    "t": "Gap公司向员工开放创作者计划",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/gap-inc-opens-creator-influencer-program-staff-employees/826238/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
-    "score": 78
-   },
-   {
-    "t": "零售品牌的核心：观点一致性",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/a-point-of-view-the-heart-of-a-retailers-brand/",
-    "d": "2026-07-27",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "一家饮料品牌审计DSP以提升透明度",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/they-havent-been-given-the-receipts-why-one-brand-is-auditing-its-dsps-for-greater-transparency/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-28",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "OUT品牌Linde桌椅入选Dezeen新品",
+    "t": "耐克发布加热振动恢复拖鞋",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/07/28/linde-chair-table-out-furnishings-flooring-seating-dezeen-showroom/",
-    "d": "2026-07-28",
+    "u": "https://www.dezeen.com/2026/07/29/nike-hyperice-heat-and-vibration-recovery-slider/",
+    "d": "2026-07-29",
     "p": "P1",
-    "m": "DE",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "Degree与纽约地铁通勤者共度酷夏",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/degree-sweats-it-out-with-subway-commuters-for-new-york-summer-campaign/826407/",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "US",
     "score": 69
    },
    {
-    "t": "Suri用创新可替换牙膏管挑战传统",
-    "s": "The Dieline 包装设计",
-    "u": "https://thedieline.com/suri-takes-on-the-toothpaste-tube-with-its-innovative-and-refillable-solution/",
-    "d": "2026-07-28",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
+    "t": "别做悲伤零食：Juicy Marbles品牌标识",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/07/29/dont-be-the-sad-snack/",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
    },
    {
-    "t": "旧金山湾咖啡以雾色新装亮相",
-    "s": "The Dieline 包装设计",
-    "u": "https://thedieline.com/san-francisco-bay-coffee-gets-a-fresh-coat-of-fog/",
-    "d": "2026-07-28",
+    "t": "品牌清晰度为何重要",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/why-brand-clarity-matters/",
+    "d": "2026-07-29",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Altra成VF集团最大增长故事之一",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-industry-news/vf-bracken-darrell-altra-running-shoe-vans-timberland-1239086952/",
+    "d": "2026-07-29",
     "p": "P2",
-    "m": "GLOBAL",
+    "m": "US",
     "score": 66
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "Shein美国扩张受阻：FTC调查与关税压力",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/shein-us-business-ftc-investigation-tariff-costs-prices-hong-kong-ipo/826451/",
+    "d": "2026-07-29",
+    "p": "P0",
+    "m": "US",
+    "score": 77
    }
   ]
  }
