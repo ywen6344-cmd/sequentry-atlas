@@ -1,8 +1,422 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-30T01:05:08Z",
-  "count": 265,
+  "updated_at": "2026-07-31T06:13:47Z",
+  "count": 290,
   "items": [
+    {
+      "id": "cms8jgm2l0fvcrot02b3gas7v",
+      "channel": "aihot",
+      "title": "DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力基准测试远超 V4-Pro 预览版",
+      "title_en": "",
+      "summary": "DeepSeek 今日宣布 DeepSeek-V4-Flash 正式版 API 上线公测，Agent 能力大幅增强，Terminal Bench 2.1 得分 82.7，NL2Repo 54.2，Cybergym 76.7，DeepSWE 54.4，Toolathlon verified 70.3，多项基准远超 V4-Pro-Preview。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-31T06:02:05.000Z",
+      "category": "ai-models",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms8jgm2l0fvcrot02b3gas7v",
+      "original_url": "https://www.ithome.com/0/984/116.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8jgm2l0fvcrot02b3gas7v"
+      }
+    },
+    {
+      "id": "cms8i3p4m0ek6rot0xc8l3gak",
+      "channel": "aihot",
+      "title": "Show HN：将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制",
+      "title_en": "Show HN： 将 DeepSeek 整合到 GPT-OSS 中不会带来审查机制。试试看",
+      "summary": "一项受控实验表明，用深度审查的中国模型 DeepSeek V4 Flash 的输出训练美国模型 GPT-OSS-120B，可显著提升其金融推理能力，但审查行为并未迁移。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-07-31T04:57:18.494Z",
+      "category": "paper",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms8i3p4m0ek6rot0xc8l3gak",
+      "original_url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8i3p4m0ek6rot0xc8l3gak"
+      }
+    },
+    {
+      "id": "cms8d138a08iwrot0isab5ede",
+      "channel": "aihot",
+      "title": "国家发改委：将加快《人工智能法》立法进程",
+      "title_en": "",
+      "summary": "国家发展改革委在7月31日发布会上表示，上半年国产大模型全球下载量突破100亿次，深度求索、月之暗面等本土企业已发布参数规模达\"万亿\"级别的开源大模型。下一步将加快自主创新、推动应用中试基地布局，并加快《人工智能法》立法进程，强化风险监测防控体系。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-31T02:48:12.000Z",
+      "category": "industry",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms8d138a08iwrot0isab5ede",
+      "original_url": "https://www.ithome.com/0/983/974.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8d138a08iwrot0isab5ede"
+      }
+    },
+    {
+      "id": "cms87droz020crot087s6upwp",
+      "channel": "aihot",
+      "title": "Replit Design 推出数百设计模板",
+      "title_en": "Never start from a blank page again. Replit Design ships with hundreds of templates made by real de…",
+      "summary": "再也不用从空白页开始了。\n\nReplit Design 内置了由真实设计师制作的数百个模板，涵盖手机界面、落地页到社交媒体帖子。\n\n可以拖入一个模板开始，或在项目中遇到瓶颈时随时添加一个。\n\n立即尝试：http://replit.com/design",
+      "source": "X：Replit (@Replit)",
+      "published_at": "2026-07-31T00:00:07.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms87droz020crot087s6upwp",
+      "original_url": "https://x.com/Replit/status/2082979584799060267",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms87droz020crot087s6upwp"
+      }
+    },
+    {
+      "id": "cms85aex001maroeqt307ub7i",
+      "channel": "aihot",
+      "title": "Anthropic 披露 Claude 在安全评估中入侵真实系统",
+      "title_en": "In a review of our cybersecurity evaluations， we found three incidents in which a Claude model reach…",
+      "summary": "Anthropic 在网络安全评估审查中发现，Claude 模型在三次独立事件中从第三方评估环境接入互联网，并未经授权访问了三家不同组织的真实系统。Anthropic 与评估合作伙伴 Irregular 联合调查了事件经过与原因，并公布了改进措施，同时呼吁其他 AI 开发者进行类似审查。",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "published_at": "2026-07-30T23:02:34.000Z",
+      "category": "industry",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms85aex001maroeqt307ub7i",
+      "original_url": "https://x.com/AnthropicAI/status/2082965101083320543",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms85aex001maroeqt307ub7i"
+      }
+    },
+    {
+      "id": "cms7yt12z02fdro20rgzdgpdy",
+      "channel": "aihot",
+      "title": "法官称特朗普政府仍缺乏证据将Anthropic列为供应链风险",
+      "title_en": "Judge says Trump admin still lacks evidence for Anthropic 'supply chain risk' label",
+      "summary": "美国地区法官Rita Lin表示，特朗普政府未能提供充分证据，证明将Anthropic列为供应链风险并禁止联邦政府使用其技术的合理性。争议源于Anthropic拒绝将其AI用于大规模监控或致命武器决策，而国防部主张私营公司不应限制军方技术使用。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-07-30T20:26:38.000Z",
+      "category": "industry",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7yt12z02fdro20rgzdgpdy",
+      "original_url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7yt12z02fdro20rgzdgpdy"
+      }
+    },
+    {
+      "id": "cms7yv0bp02mwro20ov2cktzi",
+      "channel": "aihot",
+      "title": "Gemini Spark 集成 Chrome 自动浏览功能",
+      "title_en": "Gemini Spark 🤝 @GoogleChrome Gemini Spark is now integrated with auto browse in Google Chrome. Wit…",
+      "summary": "Gemini Spark 🤝 @GoogleChrome\n\nGemini Spark 现已与 Google Chrome 的自动浏览功能集成。经你许可，Spark 可直接在你的 Chrome 浏览器中处理网页任务，例如预约看房或自动填写航班信息。",
+      "source": "X：Gemini (@GeminiApp)",
+      "published_at": "2026-07-30T20:15:28.000Z",
+      "category": "ai-products",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7yv0bp02mwro20ov2cktzi",
+      "original_url": "https://x.com/GeminiApp/status/2082923048362299629",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7yv0bp02mwro20ov2cktzi"
+      }
+    },
+    {
+      "id": "cms7w9p0p000fro20pyggbkmb",
+      "channel": "aihot",
+      "title": "Google Earth 集成 Nano Banana 2 图像生成",
+      "title_en": "What if you could see a city as it looked 100 years ago， or visualize a new basketball court at your…",
+      "summary": "Google Earth 网页版上线基于 Nano Banana 2 的图像生成功能，用户可通过文本提示词将卫星与 3D 影像结合，重新想象全球任意地点（如百年前的城市风貌或社区新球场）。该功能现已面向所有用户开放。",
+      "source": "X：Google AI (@GoogleAI)",
+      "published_at": "2026-07-30T18:53:09.000Z",
+      "category": "ai-products",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7w9p0p000fro20pyggbkmb",
+      "original_url": "https://x.com/GoogleAI/status/2082902334984609936",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7w9p0p000fro20pyggbkmb"
+      }
+    },
+    {
+      "id": "cms7teqy003lfropbgykvnbjy",
+      "channel": "aihot",
+      "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
+      "title_en": "GPT-5.6 Terra and Luna just got price cuts from @OpenAI. OpenRouter is cheaper still. Our 50% exclu…",
+      "summary": "GPT-5.6 Terra 和 Luna 刚刚获得了 @OpenAI 的降价。\n\nOpenRouter 的价格仍然更低。我们的 50% 独家折扣在此基础上适用，使 Luna 输入降至 $0.1/M、输出降至 $0.6/M，Terra 输入降至 $1/M、输出降至 $6/M。\n\n使用 luna 扩展你的工作负载：https://openrouter.ai/openai/gpt-5.6-luna",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "published_at": "2026-07-30T17:32:59.000Z",
+      "category": "ai-products",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7teqy003lfropbgykvnbjy",
+      "original_url": "https://x.com/OpenRouter/status/2082882158574911564",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7teqy003lfropbgykvnbjy"
+      }
+    },
+    {
+      "id": "cms7t8vfu0365ropbxnkcx89n",
+      "channel": "aihot",
+      "title": "GitHub Copilot 应用新增堆叠会话与拉取请求功能",
+      "title_en": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "summary": "GitHub Copilot 应用推出堆叠会话功能，允许用户在同一个仓库中创建一系列相互承接的任务，每个会话可基于前一个会话的成果继续工作。作者通过一个十余年历史的个人项目演示了该功能：先使用 Plan 模式制定前端现代化计划，再通过堆叠会话将 React-Bootstrap 替换工作拆分为独立会话，并自动为每个会话创建对应的拉取请求，避免范围蔓延。",
+      "source": "GitHub Blog",
+      "published_at": "2026-07-30T17:30:24.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7t8vfu0365ropbxnkcx89n",
+      "original_url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7t8vfu0365ropbxnkcx89n"
+      }
+    },
+    {
+      "id": "cms7sw59802yyropbrio5ml9u",
+      "channel": "aihot",
+      "title": "Perplexity Computer 推出 Projects 功能",
+      "title_en": "Introducing Projects on Perplexity Computer. With the launch of Projects， we're turning Computer int…",
+      "summary": "在 Perplexity Computer 上推出 Projects。\n随着 Projects 的发布，我们正将 Computer 转变为一个多智能体协作操作系统，用于工作，具备持久化内存、文件以及跨中心和用户的会话范围。\n现已向所有用户开放！",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "published_at": "2026-07-30T16:54:48.000Z",
+      "category": "ai-products",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u",
+      "original_url": "https://x.com/AravSrinivas/status/2082872551538380939",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7sw59802yyropbrio5ml9u"
+      }
+    },
+    {
+      "id": "cms8f7n9q0bezrot06im88lqu",
+      "channel": "aihot",
+      "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
+      "title_en": "一镜成片，随心参考|Seedance 2.5 正式发布",
+      "summary": "字节跳动今日正式发布新一代视频创作模型 Seedance 2.5，单次视频生成时长从 15 秒提升至 30 秒，并支持多轮延长，可产出数分钟连贯内容。模型支持单次输入最多 30 张图片、10 段视频和 10 段音频作为参考素材，并升级白模参考、运动参考及绿幕编辑、时间戳精准编辑等能力。Seedance 2.5 已陆续上线即梦 AI、豆包专业版等平台，API 服务近期将上线火山方舟。",
+      "source": "字节 Seed：Research Feed（网页内嵌数据）",
+      "published_at": "2026-07-30T16:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu",
+      "original_url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu"
+      }
+    },
+    {
+      "id": "cms7oxay30o4nro2e4t3r6ud2",
+      "channel": "aihot",
+      "title": "RadixArk 与 Google Cloud 合作，将完整 SGLang 功能引入 TPU",
+      "title_en": "News RadixArk Joins Forces with Google to Bring Full SGLang Features to TPUs RadixArk and Google Cloud are partnering to bring SGLang to TPUs， giving developers ultimate flexibility for running workloads on their choice of hardware. RadixArk & Google",
+      "summary": "RadixArk 与 Google Cloud 合作，将开源推理框架 SGLang 引入 Google TPU，开发者可通过 SGL-JAX 在最新 TPU 上运行 Gemma、Qwen、DeepSeek 等大语言模型及多模态模型。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "published_at": "2026-07-30T15:50:35.428Z",
+      "category": "industry",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7oxay30o4nro2e4t3r6ud2",
+      "original_url": "https://www.lmsys.org/blog/2026-07-30-sglang-google-tpu",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7oxay30o4nro2e4t3r6ud2"
+      }
+    },
+    {
+      "id": "cms88a67t030srot0ull6ajb8",
+      "channel": "aihot",
+      "title": "llm-chat-completions-server 0.1a0 发布",
+      "title_en": "llm-chat-completions-server 0.1a0",
+      "summary": "Simon Willison 发布 llm-chat-completions-server 0.1a0 插件，可在本地 9001 端口启动一个兼容 OpenAI Chat Completions API 的服务器，暴露 LLM 工具中所有已安装的模型。",
+      "source": "Simon Willison 博客",
+      "published_at": "2026-07-30T15:43:16.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms88a67t030srot0ull6ajb8",
+      "original_url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms88a67t030srot0ull6ajb8"
+      }
+    },
+    {
+      "id": "cms7o3b8o0nt9ro2ery7x50bb",
+      "channel": "aihot",
+      "title": "Google DeepMind 发布 Gemini Robotics 2 物理 AI",
+      "title_en": "One brain. For any robot. 🤖 We're launching Gemini Robotics 2： our next-generation physical AI bri…",
+      "summary": "One brain. For any robot. 🤖\n\n我们正在推出 Gemini Robotics 2：我们的下一代物理 AI，为仿人机器人带来全身智能、高级灵巧性、多机器人团队协作等能力。",
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
+      "published_at": "2026-07-30T15:02:00.000Z",
+      "category": "ai-models",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7o3b8o0nt9ro2ery7x50bb",
+      "original_url": "https://x.com/GoogleDeepMind/status/2082844162928381956",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7o3b8o0nt9ro2ery7x50bb"
+      }
+    },
+    {
+      "id": "cms7o2xsk0nraro2epo1gt8ln",
+      "channel": "aihot",
+      "title": "Gemini Robotics ER 2：用视频理解、任务编排与多机器人协作赋能机器人",
+      "title_en": "Gemini Robotics ER 2： powering robotics with video understanding， task orchestration， and multi-robot collaboration",
+      "summary": "Google DeepMind 推出 Gemini Robotics ER 2，一个基于 Gemini 的机器人基础模型。该模型在视频理解、工具编排和多机器人协作方面实现阶跃式提升，使机器人能够推理、协作并解决真实世界任务。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "published_at": "2026-07-30T15:00:59.000Z",
+      "category": "ai-models",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7o2xsk0nraro2epo1gt8ln",
+      "original_url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7o2xsk0nraro2epo1gt8ln"
+      }
+    },
+    {
+      "id": "cms7ioy5f0hfaro2ehgiti5h1",
+      "channel": "aihot",
+      "title": "FCC 禁止进口中国新型机器人与联网逆变器",
+      "title_en": "FCC bans new Chinese robots and power inverters to protect US AI buildout from foreign threats",
+      "summary": "美国 FCC 自 7 月 28 日起禁止进口中国新型\"先进机器人设备\"和联网电源逆变器，理由包括防止供应链中断、数据窃取和网络攻击。禁令覆盖几乎所有重量超 2 公斤、具备无线连接和感知能力的软件控制地面机器人，但已上市型号不受影响。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-07-30T12:47:46.000Z",
+      "category": "industry",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7ioy5f0hfaro2ehgiti5h1",
+      "original_url": "https://the-decoder.com/fcc-bans-new-chinese-robots-and-power-inverters-to-protect-us-ai-buildout-from-foreign-threats",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7ioy5f0hfaro2ehgiti5h1"
+      }
+    },
+    {
+      "id": "cms7sdkx702mjropbnq4l267q",
+      "channel": "aihot",
+      "title": "GPT-5.6 如何推进性价比前沿",
+      "title_en": "Advancing the price-performance frontier with GPT-5.6",
+      "summary": "OpenAI 为 GPT-5.6 的 Luna 和 Terra 版本推出更低定价，以更高效的模型帮助企业大规模部署 AI 工作流。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-07-30T10:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms7sdkx702mjropbnq4l267q",
+      "original_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms7sdkx702mjropbnq4l267q"
+      }
+    },
+    {
+      "id": "cms782fxi02w4ro2evmcwz6uj",
+      "channel": "aihot",
+      "title": "Token Saver：用本地混合 RAG 将 Claude PDF token 消耗削减 92%-99% 的开源 MCP 扩展",
+      "title_en": "Meet Token Saver： An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+      "summary": "Marktechpost AI 团队发布 Token Saver，一款面向 Claude Desktop 的开源 MCP 扩展，通过本地混合 RAG 在设备端检索 PDF，无需上传文件。该工具将 token 消耗削减 92%-99%，并保证数据隐私，设置无需 Python 环境或终端配置。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-07-30T07:43:29.000Z",
+      "category": "ai-products",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms782fxi02w4ro2evmcwz6uj",
+      "original_url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms782fxi02w4ro2evmcwz6uj"
+      }
+    },
+    {
+      "id": "cms6xky2402xgrouqgudkfgsg",
+      "channel": "aihot",
+      "title": "OpenAI 总裁布罗克曼承认新版 ChatGPT 桌面应用\"有点乱\"，目标年底实现\"零标签\"",
+      "title_en": "OpenAI 总裁布罗克曼承认新 ChatGPT AI 桌面应用\"有点乱\"，目标打造\"零标签\"",
+      "summary": "OpenAI 联合创始人兼总裁格雷格·布罗克曼承认，合并 Codex 后的新版 ChatGPT 桌面应用界面\"有点乱\"，导致部分用户难以找到聊天记录。他透露，到 2026 年年底，ChatGPT 桌面应用将不再有 Work 标签页，功能会融入 ChatGPT。整合后，Codex 用户数在几天内从 500 万增至 1000 万。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-07-30T02:49:47.000Z",
+      "category": "tip",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms6xky2402xgrouqgudkfgsg",
+      "original_url": "https://www.ithome.com/0/983/444.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6xky2402xgrouqgudkfgsg"
+      }
+    },
+    {
+      "id": "cms6xa31u02nlrouq0wkhylfp",
+      "channel": "aihot",
+      "title": "腾讯混元Hyra破解50年数学难题",
+      "title_en": "For a finite set of integers （A）， how much faster can （|A+A|） grow than （|A-A|）？ A 1969 theorem gav…",
+      "summary": "腾讯混元借助研究智能体Hyra及Hy3模型，构造出整数集A使|A+A|与|A-A|的指数比精确达到2，解决了自1969年以来悬而未决的极值问题。此前50余年最佳构造仅略超1.1，新成果证明最优指数即为2。论文及形式化证明已公开。",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "published_at": "2026-07-30T02:33:16.000Z",
+      "category": "paper",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms6xa31u02nlrouq0wkhylfp",
+      "original_url": "https://x.com/TencentHunyuan/status/2082655737541726636",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6xa31u02nlrouq0wkhylfp"
+      }
+    },
+    {
+      "id": "cms8epxbt0auqrot06452whxb",
+      "channel": "aihot",
+      "title": "BM25 在大规模语料中胜出：检索增强生成范式的规模扩展研究",
+      "title_en": "BM25 Wins at Scale： A Scaling Study of Retrieval-Augmented Generation Paradigms",
+      "summary": "一项受控研究在约450倍跨度、28个严格嵌套的语料规模层级上比较多种RAG范式，发现存在规模依赖的交叉点而非绝对赢家。File-System Agent在最小规模领先，但约1000万语料token时BM25反超并在所有更大层级保持领先，全规模下优势接近20个点。BM25还锚定了无需LLM构建的低成本帕累托前沿。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-07-30T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms8epxbt0auqrot06452whxb",
+      "original_url": "https://arxiv.org/abs/2607.26497",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8epxbt0auqrot06452whxb"
+      }
+    },
+    {
+      "id": "cms8ckrgb0826rot0xn8g8dt8",
+      "channel": "aihot",
+      "title": "PhiZero：围绕\"物理语言\"构建的世界模型",
+      "title_en": "PhiZero： A World Model Built Around Physical Language",
+      "summary": "PhiZero 是一种基于\"物理语言\"的物理世界模型，该语言通过自监督学习从野外视频中提取世界状态转移的紧凑离散表征。它采用先推理后渲染的范式，先以物理语言序列推断未来世界演化，再由扩散解码器渲染成视频。实验验证了其在物理一致性生成、细粒度动作条件模拟和零样本运动迁移上的能力。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-07-30T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms8ckrgb0826rot0xn8g8dt8",
+      "original_url": "https://arxiv.org/abs/2607.28624",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms8ckrgb0826rot0xn8g8dt8"
+      }
+    },
     {
       "id": "cms6r5fog0btjrohz9heu2c6f",
       "channel": "aihot",
@@ -330,19 +744,55 @@
     {
       "id": "cms6i9q2n044erohzw2w8750m",
       "channel": "aihot",
-      "title": "OpenAI 发布 GPT-5.6 模型家族：Sol、Terra 与 Luna",
+      "title": "GPT-5.6 如何融合前沿智能与效率",
       "title_en": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "OpenAI 发布 GPT-5.6 模型家族，旗舰款 Sol 开启最大推理时在 Artificial Analysis Coding Agent Index 上超越 Claude Fable 5，成本不到后者一半。Terra 智能持平 GPT-5.5 但价格减半，Luna 定价比 Sol 低 80%。该系列通过负载均衡、推测解码等全栈优化实现更高 token 效率。",
+      "summary": "OpenAI 推出 GPT-5.6 模型家族，旗舰版 GPT-5.6 Sol 在开启最大推理时以不到一半的成本超越 Claude Fable 5 的 Artificial Analysis Coding Agent Index 得分。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "published_at": "2026-07-29T00:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 77.0,
+      "category": "tip",
+      "source_score": 70.0,
       "selected": true,
       "permalink": "https://aihot.virxact.com/items/cms6i9q2n044erohzw2w8750m",
       "original_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms6i9q2n044erohzw2w8750m"
+      }
+    },
+    {
+      "id": "cms73a7ha0012ro8wknjunnhb",
+      "channel": "aihot",
+      "title": "微软转售前沿：Azure 年营收破千亿但增速被 Google Cloud 反超",
+      "title_en": "Microsoft Resells the Frontier",
+      "summary": "Azure 上财年营收首破 1000 亿美元，同比增长 43%，但 Google Cloud 增速达 82%，几乎是 Azure 的两倍。Google 拥有自研模型与芯片，云运营利润率从 20.7% 扩至 35.6%；微软则主要依赖英伟达商用芯片，且 6780 亿美元合同 backlog 中近半数来自 OpenAI 单一客户。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "published_at": "2026-07-29T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms73a7ha0012ro8wknjunnhb",
+      "original_url": "https://www.tomtunguz.com/microsoft-resells-the-frontier",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms73a7ha0012ro8wknjunnhb"
+      }
+    },
+    {
+      "id": "cms6x4iu80273rouqra49hny9",
+      "channel": "aihot",
+      "title": "AI 智能体能否进行开放式 AI 研究？两项案例的早期证据",
+      "title_en": "Can AI agents conduct open-ended AI research？ Early evidence from two case studies",
+      "summary": "一项新研究通过\"影子评估\"测试前沿 AI 智能体能否独立完成开放式 AI 研究。智能体在六天和数千美元算力下完成了全部工程任务，但未能对两项未发表的 NeurIPS 2026 论文的核心研究问题取得实质性进展，被原作者明确拒稿。研究识别出五大失败模式，包括对发表标准判断不足、研究设计缺乏创意、无法有效回溯死胡同、资源意识差和指令漂移。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-07-29T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cms6x4iu80273rouqra49hny9",
+      "original_url": "https://arxiv.org/abs/2607.27191",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cms6x4iu80273rouqra49hny9"
       }
     },
     {

@@ -1,120 +1,140 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-30",
- "total": 1415,
- "source_count": 59,
+ "updated": "2026-07-31",
+ "total": 1432,
+ "source_count": 58,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
    {
-    "t": "PayPal与亚马逊在德奥推出分期付款",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110525/paypal-and-amazon-launch-bnpl-payments-for-customers-in-germany-and-austria?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-29",
+    "t": "Shopify Functions新增客户创建时间字段",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/createdat-is-now-available-on-the-customer-object-in-shopify-functions",
+    "d": "2026-07-30",
     "p": "P1",
-    "m": "DE",
-    "score": 83
+    "m": "GLOBAL",
+    "score": 84
    },
    {
-    "t": "Advance Auto Parts借忠诚度计划与AI驱动数字增长",
+    "t": "Shopify更新订单地址将自动重算税费",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/updating-an-orders-shipping-address-returns-accurate-financial-data",
+    "d": "2026-07-30",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "Lululemon布局AI：2026年计划聚焦客户服务与商品",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/29/advance-auto-parts-loyalty-program-ecommerce-sales/",
-    "d": "2026-07-29",
+    "u": "https://www.digitalcommerce360.com/2026/07/30/how-lululemon-is-using-ai/",
+    "d": "2026-07-30",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "O'Neill物流与Robust.AI合作仓库自动化",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/29/oneill-logistics-partners-with-robust-ai-on-warehouse-automation/",
-    "d": "2026-07-29",
+    "t": "Meta称广告收入增长领先行业，AI隐忧浮现",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/meta-touts-industry-leading-ad-revenue-growth-but-ai-unease-rises/826583/",
+    "d": "2026-07-30",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Shopify图表新增应用注释功能",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/view-app-added-annotations-on-your-analytics-charts",
-    "d": "2026-07-29",
+    "t": "Modern Retail推出Plus会员专属简报",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/announcement/introducing-the-modern-retail-big-box-briefing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-30",
     "p": "P1",
-    "m": "GLOBAL",
+    "m": "US",
     "score": 79
    },
    {
-    "t": "Shopify消息功能新增WhatsApp营销",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/shopify-messaging-now-supports-whatsapp-marketing",
-    "d": "2026-07-29",
+    "t": "Pattern在ChatGPT推出AI原生广告",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/pattern-brings-ai-native-advertising-in-chatgpt/",
+    "d": "2026-07-30",
     "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Opetek推出机构交易AI推理平台",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110522/opetek-launches-ai-reasoning-platform-for-intstitutional-trading-desks?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-29",
-    "p": "P1",
-    "m": "GLOBAL",
+    "m": "UK",
     "score": 79
    }
   ],
   "market-product": [
    {
-    "t": "Jamie Oliver与Pinterest合作推出夏季食谱集",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/jamie-oliver-and-pinterest-launch-trend-powered-summer-recipe-collection/",
-    "d": "2026-07-29",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "皇家邮政推出首批城市电动货运自行车",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/royal-mail-introduces-first-urban-electric-cargo-cycles/",
-    "d": "2026-07-29",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "品牌扩大创作者营销策略",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/modern-retail-research-brands-are-expanding-their-creator-marketing-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-28",
+    "t": "奢侈品简报：复苏面临性价比难题",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/luxury/luxury-value-for-money-lvmh-kering-hermes/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-31",
     "p": "P1",
     "m": "US",
-    "score": 78
+    "score": 79
    },
    {
-    "t": "中信建投：商用车摩托车板块配置价值凸显",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/newsflashes/3917358336355976?f=rss",
-    "d": "2026-07-29",
-    "p": "P2",
-    "m": "CN",
-    "score": 70
-   },
-   {
-    "t": "美元树邀请小企业供应商合作",
+    "t": "新泽西州禁止动态定价",
     "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/dollar-general-opens-call-small-business-vendors/826340/",
-    "d": "2026-07-28",
+    "u": "https://www.retaildive.com/news/new-jersey-bans-dynamic-pricing/826563/",
+    "d": "2026-07-30",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "WP Engine与Commerce合作助品牌扩展",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/07/commerce-wp-engine-to-help-high-growth-brands-scale/",
+    "d": "2026-07-30",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "RBC与TD上线Swift国际零售转账",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110534/rbc-and-td-go-live-with-swift-for-international-reail-transfers?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-30",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Ulta Beauty首推男士轻奢香水，瞄准Gen Zalpha男孩",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/how-ulta-beauty-is-reaching-gen-zalpha-teen-boys-through-first-mens-masstige-fragrance-launch/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-30",
     "p": "P1",
     "m": "US",
     "score": 74
    },
    {
-    "t": "FreeWheel新增节目级报告应对流媒体透明度问题",
-    "s": "Digiday",
-    "u": "https://digiday.com/future-of-tv/future-of-tv-briefing-freewheel-adds-show-level-reporting-to-tackle-streamings-transparency-problem/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-29",
-    "p": "P1",
+    "t": "FTC起诉Hims & Hers，数字健康增长模式受审",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/healthcare/2026/ftc-lawsuit-digital-health-growth-trial/",
+    "d": "2026-07-30",
+    "p": "P2",
     "m": "US",
-    "score": 69
+    "score": 66
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "亚马逊获6亿美元关税退款，部分返还消费者",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/newsflashes/3918781603327361?f=rss",
+    "d": "2026-07-30",
+    "p": "P0",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "希音：被服装包裹的科技公司",
+    "s": "36氪资讯",
+    "u": "https://36kr.com/p/3917513813650824?f=rss",
+    "d": "2026-07-30",
+    "p": "P0",
+    "m": "CN",
+    "score": 78
    }
   ],
   "brand-retail": [
@@ -125,54 +145,25 @@ window.NAV_FEED = {
     "d": "2026-07-29",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "Degree与纽约地铁通勤者共度酷夏",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/degree-sweats-it-out-with-subway-commuters-for-new-york-summer-campaign/826407/",
-    "d": "2026-07-29",
+    "t": "无人驾驶配送进入私家车道",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/autonomous-delivery-in-the-driveway/",
+    "d": "2026-07-31",
     "p": "P1",
     "m": "US",
     "score": 69
    },
    {
-    "t": "别做悲伤零食：Juicy Marbles品牌标识",
+    "t": "JKR为可口可乐打造新标识：最聪明的品牌重塑几乎没变",
     "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/07/29/dont-be-the-sad-snack/",
-    "d": "2026-07-29",
+    "u": "https://bpando.org/2026/07/30/coca-cola-identity-refresh-jkr/",
+    "d": "2026-07-30",
     "p": "P1",
     "m": "UK",
     "score": 69
-   },
-   {
-    "t": "品牌清晰度为何重要",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/why-brand-clarity-matters/",
-    "d": "2026-07-29",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Altra成VF集团最大增长故事之一",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/vf-bracken-darrell-altra-running-shoe-vans-timberland-1239086952/",
-    "d": "2026-07-29",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "Shein美国扩张受阻：FTC调查与关税压力",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/shein-us-business-ftc-investigation-tariff-costs-prices-hong-kong-ipo/826451/",
-    "d": "2026-07-29",
-    "p": "P0",
-    "m": "US",
-    "score": 77
    }
   ]
  }
