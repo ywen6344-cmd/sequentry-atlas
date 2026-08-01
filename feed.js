@@ -1,63 +1,63 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-07-31",
- "total": 1432,
- "source_count": 58,
+ "updated": "2026-08-01",
+ "total": 1420,
+ "source_count": 59,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
    {
-    "t": "Shopify Functions新增客户创建时间字段",
+    "t": "Shopify Hydrogen预览更新：新增Vue支持与AI客服",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/createdat-is-now-available-on-the-customer-object-in-shopify-functions",
-    "d": "2026-07-30",
+    "u": "https://shopify.dev/changelog/hydrogen-developer-preview-update-july-30",
+    "d": "2026-07-31",
     "p": "P1",
     "m": "GLOBAL",
     "score": 84
    },
    {
-    "t": "Shopify更新订单地址将自动重算税费",
+    "t": "Shopify POS新增现金管理字段",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/updating-an-orders-shipping-address-returns-accurate-financial-data",
-    "d": "2026-07-30",
+    "u": "https://shopify.dev/changelog/new-fields-for-cash-management-activities-and-drawers",
+    "d": "2026-07-31",
     "p": "P1",
     "m": "GLOBAL",
     "score": 84
    },
    {
-    "t": "Lululemon布局AI：2026年计划聚焦客户服务与商品",
+    "t": "Salesforce投资Brunello Cucinelli AI购物平台",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/07/30/how-lululemon-is-using-ai/",
-    "d": "2026-07-30",
+    "u": "https://www.digitalcommerce360.com/2026/07/31/salesforce-agentic-ai-brunello-cucinelli-callimacus/",
+    "d": "2026-07-31",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Meta称广告收入增长领先行业，AI隐忧浮现",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/meta-touts-industry-leading-ad-revenue-growth-but-ai-unease-rises/826583/",
-    "d": "2026-07-30",
+    "t": "裕信银行携手埃森哲、IBM 拓展欧洲银行业务",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110542/unicredit-accenture-and-ibm-join-forces-for-pan-european-banking-expansion?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-31",
     "p": "P1",
-    "m": "US",
+    "m": "EU",
     "score": 79
    },
    {
-    "t": "Modern Retail推出Plus会员专属简报",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/announcement/introducing-the-modern-retail-big-box-briefing/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-30",
+    "t": "万事达卡与埃及国家银行推出埃及首张美元企业借记卡",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/newsarticle/48175/mastercard-and-national-bank-of-egypt-launch-egypts-first-usd-corporate-debit-card?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-07-31",
     "p": "P1",
-    "m": "US",
+    "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "Pattern在ChatGPT推出AI原生广告",
+    "t": "Sainsbury's以1.2亿英镑出售Argos",
     "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/pattern-brings-ai-native-advertising-in-chatgpt/",
-    "d": "2026-07-30",
+    "u": "https://channelx.world/2026/07/sainsburys-to-sell-argos-just-as-marketplace-due-to-launch/",
+    "d": "2026-07-31",
     "p": "P1",
-    "m": "UK",
+    "m": "US",
     "score": 79
    }
   ],
@@ -78,25 +78,7 @@ window.NAV_FEED = {
     "d": "2026-07-30",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "WP Engine与Commerce合作助品牌扩展",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/commerce-wp-engine-to-help-high-growth-brands-scale/",
-    "d": "2026-07-30",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "RBC与TD上线Swift国际零售转账",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110534/rbc-and-td-go-live-with-swift-for-international-reail-transfers?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-07-30",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Ulta Beauty首推男士轻奢香水，瞄准Gen Zalpha男孩",
@@ -108,25 +90,34 @@ window.NAV_FEED = {
     "score": 74
    },
    {
-    "t": "FTC起诉Hims & Hers，数字健康增长模式受审",
+    "t": "NRF报告：线上欺诈增长，入店行窃趋稳",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/nrf-shoplifting-stabilizing-online-gift-card-fraud-grows/826710/",
+    "d": "2026-07-31",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "AutoNation CEO押注可负担性与韧性消费者将推动复苏",
     "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/healthcare/2026/ftc-lawsuit-digital-health-growth-trial/",
-    "d": "2026-07-30",
+    "u": "https://www.pymnts.com/earnings/2026/autonation-ceo-bets-affordability-and-resilient-buyers-will-fuel-rebound/",
+    "d": "2026-07-31",
     "p": "P2",
     "m": "US",
+    "score": 66
+   },
+   {
+    "t": "澳邮政获批邮票涨价至1.85澳元",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/news/mail/accc-clears-australia-post-stamp-price-increase-to-a1-85.html",
+    "d": "2026-07-31",
+    "p": "P2",
+    "m": "GLOBAL",
     "score": 66
    }
   ],
   "compliance-fulfillment": [
-   {
-    "t": "亚马逊获6亿美元关税退款，部分返还消费者",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/newsflashes/3918781603327361?f=rss",
-    "d": "2026-07-30",
-    "p": "P0",
-    "m": "US",
-    "score": 79
-   },
    {
     "t": "希音：被服装包裹的科技公司",
     "s": "36氪资讯",
@@ -135,18 +126,18 @@ window.NAV_FEED = {
     "p": "P0",
     "m": "CN",
     "score": 78
+   },
+   {
+    "t": "AI挑战信用卡合规边界",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/how-ai-is-testing-the-limits-of-credit-card-compliance/",
+    "d": "2026-07-31",
+    "p": "P1",
+    "m": "US",
+    "score": 71
    }
   ],
   "brand-retail": [
-   {
-    "t": "耐克发布加热振动恢复拖鞋",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/07/29/nike-hyperice-heat-and-vibration-recovery-slider/",
-    "d": "2026-07-29",
-    "p": "P1",
-    "m": "UK",
-    "score": 74
-   },
    {
     "t": "无人驾驶配送进入私家车道",
     "s": "The Robin Report",
@@ -157,13 +148,31 @@ window.NAV_FEED = {
     "score": 69
    },
    {
-    "t": "JKR为可口可乐打造新标识：最聪明的品牌重塑几乎没变",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/07/30/coca-cola-identity-refresh-jkr/",
-    "d": "2026-07-30",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
+    "t": "蜘蛛侠新片证明英雄最强能力是自我革新",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/design/branding/spider-man-brand-new-day-proves-the-heros-greatest-power-has-always-been-reinvention",
+    "d": "2026-07-31",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 66
+   },
+   {
+    "t": "月度包装：Thirst打造更优自有品牌啤酒",
+    "s": "The Dieline 包装设计",
+    "u": "https://thedieline.com/pack-of-the-month-thirst-builds-a-better-private-label-beer/",
+    "d": "2026-07-31",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "DHL电商收购Venipak，进军波罗的海市场",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/news/logistics/dhl-ecommerce-to-acquire-venipak-expanding-into-the-baltic-region.html",
+    "d": "2026-07-31",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 64
    }
   ]
  }
