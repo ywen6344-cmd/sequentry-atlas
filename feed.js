@@ -1,11 +1,29 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-08-01",
- "total": 1420,
- "source_count": 59,
+ "updated": "2026-08-02",
+ "total": 1392,
+ "source_count": 58,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "Shopify更新履约应用Built认证门槛",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/updated-built-for-shopify-requirements-for-fulfillment-services-apps",
+    "d": "2026-08-01",
+    "p": "P1",
+    "m": "US",
+    "score": 84
+   },
+   {
+    "t": "Shein成罗宾报告本周零售失误案例",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/shein-the-robin-report-retail-miss-of-the-week-8-1-26/",
+    "d": "2026-08-01",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "Shopify Hydrogen预览更新：新增Vue支持与AI客服",
     "s": "Shopify Developer Changelog",
@@ -13,16 +31,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "Shopify POS新增现金管理字段",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/new-fields-for-cash-management-activities-and-drawers",
-    "d": "2026-07-31",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
+    "score": 79
    },
    {
     "t": "Salesforce投资Brunello Cucinelli AI购物平台",
@@ -31,7 +40,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "裕信银行携手埃森哲、IBM 拓展欧洲银行业务",
@@ -40,7 +49,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "EU",
-    "score": 79
+    "score": 74
    },
    {
     "t": "万事达卡与埃及国家银行推出埃及首张美元企业借记卡",
@@ -49,16 +58,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Sainsbury's以1.2亿英镑出售Argos",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/07/sainsburys-to-sell-argos-just-as-marketplace-due-to-launch/",
-    "d": "2026-07-31",
-    "p": "P1",
-    "m": "US",
-    "score": 79
+    "score": 74
    }
   ],
   "market-product": [
@@ -69,25 +69,16 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "新泽西州禁止动态定价",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/new-jersey-bans-dynamic-pricing/826563/",
-    "d": "2026-07-30",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "Ulta Beauty首推男士轻奢香水，瞄准Gen Zalpha男孩",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/how-ulta-beauty-is-reaching-gen-zalpha-teen-boys-through-first-mens-masstige-fragrance-launch/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-07-30",
+    "t": "环孢子虫疫情成食品企业公关难题",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/podcasts/the-cyclospora-outbreak-is-creating-a-pr-headache-for-food-businesses/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-01",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 62
    },
    {
     "t": "NRF报告：线上欺诈增长，入店行窃趋稳",
@@ -96,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "AutoNation CEO押注可负担性与韧性消费者将推动复苏",
@@ -105,7 +96,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P2",
     "m": "US",
-    "score": 66
+    "score": 61
    },
    {
     "t": "澳邮政获批邮票涨价至1.85澳元",
@@ -114,19 +105,10 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 66
+    "score": 61
    }
   ],
   "compliance-fulfillment": [
-   {
-    "t": "希音：被服装包裹的科技公司",
-    "s": "36氪资讯",
-    "u": "https://36kr.com/p/3917513813650824?f=rss",
-    "d": "2026-07-30",
-    "p": "P0",
-    "m": "CN",
-    "score": 78
-   },
    {
     "t": "AI挑战信用卡合规边界",
     "s": "Payments Journal",
@@ -134,10 +116,19 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "US",
-    "score": 71
+    "score": 66
    }
   ],
   "brand-retail": [
+   {
+    "t": "Journeys用荒诞音乐剧打破返校营销常规",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/campaign-trail-journeys-amps-up-absurdity-to-break-back-to-school/826657/",
+    "d": "2026-07-31",
+    "p": "P1",
+    "m": "US",
+    "score": 64
+   },
    {
     "t": "无人驾驶配送进入私家车道",
     "s": "The Robin Report",
@@ -145,7 +136,16 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
+   },
+   {
+    "t": "Zendaya再掀蜘蛛侠时尚叙事，方法穿搭是否过火？",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/podcasts/method-dressing-red-carpet-micaela-erlanger/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-07-31",
+    "p": "P1",
+    "m": "US",
+    "score": 64
    },
    {
     "t": "蜘蛛侠新片证明英雄最强能力是自我革新",
@@ -154,7 +154,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 66
+    "score": 61
    },
    {
     "t": "月度包装：Thirst打造更优自有品牌啤酒",
@@ -163,7 +163,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P2",
     "m": "US",
-    "score": 66
+    "score": 61
    },
    {
     "t": "DHL电商收购Venipak，进军波罗的海市场",
@@ -172,7 +172,7 @@ window.NAV_FEED = {
     "d": "2026-07-31",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 64
+    "score": 59
    }
   ]
  }
