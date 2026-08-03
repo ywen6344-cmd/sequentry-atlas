@@ -3,11 +3,65 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-24c92531e60f20a2",
-  "fetched_at": "2026-08-02T01:04:46Z",
+  "fingerprint": "f1-73eaea1a01546734",
+  "fetched_at": "2026-08-03T01:05:05Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmscc62eo033broeusw72isi0",
+      "channel": "aihot",
+      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+      "title_en": "OpenAI's amazing - but vastly oversold - new model Astra",
+      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-08-02T21:25:27.000Z",
+      "category": "tip",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0",
+      "original_url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+      }
+    },
+    {
+      "id": "cmsbowa0l0m77rohvw8s15ia1",
+      "channel": "aihot",
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "title_en": "刚发的Codex Luna Max省钱tip，现在有进阶版了--而且是让Sol自己帮你配好，现在Codex圈中高阶玩家都在用。 思路很简单：别让Sol什么都自己干，Sol很贵，额度烧得快，但它规划和…",
+      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "published_at": "2026-08-02T10:47:27.000Z",
+      "category": "tip",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1",
+      "original_url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
+      }
+    },
+    {
+      "id": "cmsbf9by90dq7rohvp1oggqmk",
+      "channel": "aihot",
+      "title": "Grok 支持分析任意视频",
+      "title_en": "Grok can analyze any video https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "published_at": "2026-08-02T06:23:54.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk",
+      "original_url": "https://x.com/elonmusk/status/2083800942927839307",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
+      }
+    },
     {
       "id": "cmsa9czys01chrojdrdvterw0",
       "channel": "aihot",
@@ -853,72 +907,19 @@
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cms69p7bn1ec3robkm6xscwbf"
       }
-    },
-    {
-      "id": "cms69xwp11ej8robk4upl33jq",
-      "channel": "aihot",
-      "title": "算力价格未来可能上涨 10 倍以上",
-      "title_en": "Why compute might get 10x+ more expensive in coming years",
-      "summary": "AI 算力现货价格自 2 月低点已上涨 40% 以上，Google 和 Anthropic 从 SpaceX 租用 11 万块 GPU 的月租金达 9 亿美元，约为现货价格的 2 倍。若 AI 达到人类水平软件工程师能力，单块 H100 等效算力年租金可达 25 万美元，是当前现货价格的 15 倍。",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "published_at": "2026-07-29T15:01:35.000Z",
-      "category": "tip",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cms69xwp11ej8robk4upl33jq",
-      "original_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms69xwp11ej8robk4upl33jq"
-      }
-    },
-    {
-      "id": "cms6p8lnz09o6rohzegz5w5xp",
-      "channel": "aihot",
-      "title": "启用两项 API 设置使 GPT-5.6 在 ARC-AGI-3 基准测试得分提升三倍",
-      "title_en": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "summary": "OpenAI 通过启用两项 API 设置，使 GPT-5.6 在 ARC-AGI-3 基准测试上的得分提升至原来的三倍。这两项设置分别是保留推理过程（retaining reasoning）和启用压缩（compaction），在提升得分的同时也提高了效率。该发现基于 OpenAI 官方对 GPT-5.6 模型 API 参数的测试结果。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-07-29T15:00:00.000Z",
-      "category": "tip",
-      "source_score": 68.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cms6p8lnz09o6rohzegz5w5xp",
-      "original_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms6p8lnz09o6rohzegz5w5xp"
-      }
-    },
-    {
-      "id": "cms639jt416x6robksy69dzel",
-      "channel": "aihot",
-      "title": "腾讯混元开源 AngelSpec 投机解码框架",
-      "title_en": "🚀 We've open-sourced AngelSpec， an end-to-end speculative decoding framework supporting both traini…",
-      "summary": "腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署。在 Hy3-A21B 模型上，其 DFly 方案相比自回归解码实现 1.98-2.40 倍端到端加速，吞吐量比 DFlash 高 10.5-11.8%。训练代码及 Hy3-A21B MTP/DFly 草稿模型权重已开源。",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "published_at": "2026-07-29T12:43:55.000Z",
-      "category": "ai-products",
-      "source_score": 74.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cms639jt416x6robksy69dzel",
-      "original_url": "https://x.com/TencentHunyuan/status/2082447023626944936",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cms639jt416x6robksy69dzel"
-      }
     }
   ],
   "hot_topics": [
     {
+      "rank": 1,
       "id": "cmsa77lmk02tcrox0gfhj3rcq",
       "title": "OpenAI 发布“下一代主要模型”Astra，攻克十道多年未解数学难题",
       "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions",
       "permalink": "https://aihot.virxact.com/items/cmsa77lmk02tcrox0gfhj3rcq",
       "storyPermalink": "https://aihot.virxact.com/story/dcda0e3a-e856-44a8-b502-17fa0707ef51",
       "source": "The Decoder：AI News（RSS）",
-      "sourceCount": 13,
-      "signalCount": 4,
+      "sourceCount": 14,
+      "signalCount": 5,
       "sourceNames": [
         "X：Greg Brockman (@gdb)",
         "X：Noam Brown (@polynoamial)",
@@ -932,134 +933,89 @@
         "X：AI Safety Memes (@AISafetyMemes)",
         "X：Elvis Saravia (@omarsar0, DAIR.AI)",
         "X：Karina Nguyen（@karinanguyen）",
-        "X：马东锡 NLP (@dongxi_nlp)"
+        "X：马东锡 NLP (@dongxi_nlp)",
+        "X：阿易 AI Notes (@AYi_AInotes)"
       ],
-      "latestAt": "2026-08-01T21:55:42.380Z"
-    },
-    {
-      "id": "cms8ld9380i7arot0lyxt8h3t",
-      "title": "DeepSeek-V4-Flash API公测上线，Agent能力大幅升级",
-      "url": "https://x.com/deepseek_ai/status/2083084415157022911",
-      "permalink": "https://aihot.virxact.com/items/cms8ld9380i7arot0lyxt8h3t",
-      "storyPermalink": "https://aihot.virxact.com/story/da84ba6e-0e51-45e2-a144-110459e2ecc5",
-      "source": "X：DeepSeek (@deepseek_ai)",
-      "sourceCount": 13,
-      "signalCount": 30,
-      "sourceNames": [
-        "IT之家（RSS）",
-        "X：DeepSeek (@deepseek_ai)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "X：Kim (@kimmonismus)",
-        "X：阿易 AI Notes (@AYi_AInotes)",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Artificial Analysis (@ArtificialAnlys)",
-        "X：Emad Mostaque (@EMostaque)",
-        "X：X.PIN (@thexpin)",
-        "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-        "MarkTechPost（RSS）",
-        "Simon Willison 博客",
-        "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
-      ],
-      "latestAt": "2026-08-01T07:59:08.945Z"
-    },
-    {
-      "id": "cms8f7n9q0bezrot06im88lqu",
-      "title": "字节发布 Seedance 2.5：单次生成 30 秒视频，支持多模态参考与精准编辑",
-      "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
-      "permalink": "https://aihot.virxact.com/items/cms8f7n9q0bezrot06im88lqu",
-      "storyPermalink": "https://aihot.virxact.com/story/f7553334-2fd9-4a17-b06d-eaffd9829937",
-      "source": "字节 Seed：Research Feed（网页内嵌数据）",
-      "sourceCount": 7,
-      "signalCount": 9,
-      "sourceNames": [
-        "字节 Seed：Research Feed（网页内嵌数据）",
-        "IT之家（RSS）",
-        "X：阿易 AI Notes (@AYi_AInotes)",
-        "X：Deedy Das (@deedydas)",
-        "X：Testing Catalog (@testingcatalog)",
-        "The Decoder：AI News（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "latestAt": "2026-08-02T00:30:54.740Z"
-    },
-    {
-      "id": "cms8cqpaf08c2rot0utho4q4p",
-      "title": "Anthropic 审查发现 Claude 在网络安全评估中三次未经授权访问真实系统",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "permalink": "https://aihot.virxact.com/items/cms8cqpaf08c2rot0utho4q4p",
-      "storyPermalink": "https://aihot.virxact.com/story/b3bcbe42-70da-436a-bd9c-b0c06f2e385a",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "sourceCount": 7,
-      "signalCount": 4,
-      "sourceNames": [
-        "TechCrunch：AI（RSS）",
-        "IT之家（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "X：Kim (@kimmonismus)",
-        "The Decoder：AI News（RSS）",
-        "The Verge：AI（RSS）",
-        "Ars Technica：AI（RSS）"
-      ],
-      "latestAt": "2026-07-31T20:59:16.957Z"
-    },
-    {
-      "id": "cms8rt1ml06j0roghw1n7a4bq",
-      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
-      "url": "https://www.minimax.io/blog/minimax-h3",
-      "permalink": "https://aihot.virxact.com/items/cms8rt1ml06j0roghw1n7a4bq",
-      "storyPermalink": "https://aihot.virxact.com/story/8cc46b1d-1d15-4750-b85b-3fcff576b51e",
-      "source": "MiniMax：Blog（网页）",
-      "sourceCount": 5,
-      "signalCount": 1,
-      "sourceNames": [
-        "X：MiniMax (@MiniMax_AI)",
-        "X：Artificial Analysis (@ArtificialAnlys)",
-        "X：X.PIN (@thexpin)",
-        "MiniMax：Blog（网页）",
-        "X：Testing Catalog (@testingcatalog)"
-      ],
-      "latestAt": "2026-07-31T20:29:09.358Z"
+      "latestAt": "2026-08-02T10:00:57.273Z"
     }
   ],
   "daily": {
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "attribution": {
       "source": "AI HOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-08-02"
+      "canonical": "https://aihot.virxact.com/daily/2026-08-03"
     },
-    "generatedAt": "2026-08-02T00:00:08.660Z",
-    "windowStart": "2026-08-01T00:00:00.000Z",
-    "windowEnd": "2026-08-02T00:00:00.000Z",
+    "generatedAt": "2026-08-03T00:00:04.358Z",
+    "windowStart": "2026-08-02T00:00:00.000Z",
+    "windowEnd": "2026-08-03T00:00:00.000Z",
     "lead": null,
     "sections": [
       {
-        "label": "行业动态",
+        "label": "产品发布/更新",
         "items": [
           {
-            "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
-            "summary": "慕尼黑法院裁定，AI音乐生成器Suno在训练过程及输出结果中均侵犯版权，并驳回其合理使用抗辩。法院认定Suno 3.5和4版本模型可复现六首知名歌曲的原创元素，构成“记忆化”侵权，且责任归于Suno而非用户。该判决还认定美国版权法下的合理使用不适用于此案，目前尚未最终生效。",
-            "sourceUrl": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
-            "sourceName": "The Decoder：AI News（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsa9czys01chrojdrdvterw0",
+            "title": "Grok 支持分析任意视频",
+            "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+            "sourceUrl": "https://x.com/elonmusk/status/2083800942927839307",
+            "sourceName": "X：Elon Musk (@elonmusk, xAI)",
+            "permalink": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsa9czys01chrojdrdvterw0"
+              "canonical": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
             }
           }
         ]
       },
       {
-        "label": "论文研究",
+        "label": "行业动态",
         "items": [
           {
-            "title": "OpenAI Astra 以约2000美元证明10项数学难题",
-            "summary": "OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）。Astra 证明了非 sofic 群的存在，并推翻 Connes 刚性猜想，成果涵盖 von Neumann 代数、高维球堆积、电路复杂度等。OpenAI 已发布全部10项证明，附 Lean 证书与 CoT 逐步推导。",
-            "sourceUrl": "https://x.com/gdb/status/2083457463337287721",
-            "sourceName": "X：Greg Brockman (@gdb)",
-            "permalink": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h",
+            "title": "Cloudflare 开启 Agents Week：探讨面向智能体的 Agent Cloud 形态",
+            "summary": "Cloudflare 启动为期五天的 Agents Week，核心议题是“Agent Cloud”应具备何种形态。其认为现有云和网络皆为人设计，而智能体有速度、结构与访问上的独特需求，因此 Agent Cloud 需同时构建面向智能体原生的底层能力，并充当现有网络与智能体网络之间的转换层。本周将围绕执行层、智能体开发生命周期、安全控制及智能体网络等主题展开。",
+            "sourceUrl": "https://blog.cloudflare.com/agents-week-welcome",
+            "sourceName": "Cloudflare Blog",
+            "permalink": "https://aihot.virxact.com/items/cmsc1kf110wjirohvp8a4eouo",
             "attribution": {
               "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h"
+              "canonical": "https://aihot.virxact.com/items/cmsc1kf110wjirohvp8a4eouo"
+            }
+          }
+        ]
+      },
+      {
+        "label": "技巧与观点",
+        "items": [
+          {
+            "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+            "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+            "sourceUrl": "https://x.com/AYi_AInotes/status/2083867265179537565",
+            "sourceName": "X：阿易 AI Notes (@AYi_AInotes)",
+            "permalink": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
+            }
+          },
+          {
+            "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+            "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了“合成谬误”：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+            "sourceUrl": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+            "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+            }
+          },
+          {
+            "title": "最新开源模型盘点（#23）：Laguna S2.1、Inkling 与 Kimi K3 展现开源模型在帕累托前沿的价值",
+            "summary": "Thinking Machines 发布首个模型 Inkling，为 975B-A41B 多模态 MoE，支持文本、图像和音频输入，并推出 276B-A12B 小版本。",
+            "sourceUrl": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+            "sourceName": "Nathan Lambert：Interconnects（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsbv6cfx0rjnrohv6yep8b2x",
+            "attribution": {
+              "source": "AI HOT",
+              "canonical": "https://aihot.virxact.com/items/cmsbv6cfx0rjnrohv6yep8b2x"
             }
           }
         ]

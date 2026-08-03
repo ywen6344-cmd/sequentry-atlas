@@ -1,8 +1,62 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-02T01:04:46Z",
-  "count": 307,
+  "updated_at": "2026-08-03T01:05:05Z",
+  "count": 310,
   "items": [
+    {
+      "id": "cmscc62eo033broeusw72isi0",
+      "channel": "aihot",
+      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+      "title_en": "OpenAI's amazing - but vastly oversold - new model Astra",
+      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-08-02T21:25:27.000Z",
+      "category": "tip",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0",
+      "original_url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+      }
+    },
+    {
+      "id": "cmsbowa0l0m77rohvw8s15ia1",
+      "channel": "aihot",
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "title_en": "刚发的Codex Luna Max省钱tip，现在有进阶版了--而且是让Sol自己帮你配好，现在Codex圈中高阶玩家都在用。 思路很简单：别让Sol什么都自己干，Sol很贵，额度烧得快，但它规划和…",
+      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "published_at": "2026-08-02T10:47:27.000Z",
+      "category": "tip",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1",
+      "original_url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
+      }
+    },
+    {
+      "id": "cmsbf9by90dq7rohvp1oggqmk",
+      "channel": "aihot",
+      "title": "Grok 支持分析任意视频",
+      "title_en": "Grok can analyze any video https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "published_at": "2026-08-02T06:23:54.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk",
+      "original_url": "https://x.com/elonmusk/status/2083800942927839307",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
+      }
+    },
     {
       "id": "cmsa9czys01chrojdrdvterw0",
       "channel": "aihot",
