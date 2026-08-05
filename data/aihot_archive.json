@@ -1,8 +1,494 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-04T01:05:08Z",
-  "count": 334,
+  "updated_at": "2026-08-05T01:04:21Z",
+  "count": 365,
   "items": [
+    {
+      "id": "cmsfdkkcs1ocxro2ed4z3s131",
+      "channel": "aihot",
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+      "title_en": "New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+      "summary": "Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本。新版本支持显示推理轨迹、服务端工具、OpenAI Responses API，并默认使用 GPT-5.6 Luna 模型。",
+      "source": "Simon Willison 博客",
+      "published_at": "2026-08-04T23:58:24.000Z",
+      "category": "ai-products",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsfdkkcs1ocxro2ed4z3s131",
+      "original_url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsfdkkcs1ocxro2ed4z3s131"
+      }
+    },
+    {
+      "id": "cmsf7gr271ii5ro2eiu0hihb5",
+      "channel": "aihot",
+      "title": "Replit 环境智能：免提示词自动生成设计",
+      "title_en": "You don't need to prompt. You don't need design language. Ambient Intelligence surfaces suggestion …",
+      "summary": "你无需提示词，也无需设计语言。\n\n环境智能（Ambient Intelligence）会在每个画面旁显示建议卡片，每张卡片都指向你的设计的一个不同方向。点击你喜欢的那张，即可看到它生成一个新的画面。\n\n你再也不必纠结下一步该做什么。\n\n立即在 http://replit.com/design 体验。",
+      "source": "X：Replit (@Replit)",
+      "published_at": "2026-08-04T22:00:10.000Z",
+      "category": "ai-products",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsf7gr271ii5ro2eiu0hihb5",
+      "original_url": "https://x.com/Replit/status/2084761337570144424",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf7gr271ii5ro2eiu0hihb5"
+      }
+    },
+    {
+      "id": "cmsf2ukfc1ekiro2e4h0k2bux",
+      "channel": "aihot",
+      "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
+      "title_en": "PipeNetwork/minimax-h3-mlx",
+      "summary": "MiniMax 发布 MiniMax-H3，一个可接受文本、图像、音频和视频并生成最长 15 秒带音频视频片段的通用全模态生成系统。Python 包 PipeNetwork/minimax-h3-mlx 将其移植到 MLX，支持 Apple Silicon 运行。作者在 M5 Max MacBook Pro 上实测，下载约 115 GB 模型文件，视频生成耗时不到 45 分钟。",
+      "source": "Simon Willison 博客",
+      "published_at": "2026-08-04T19:10:09.000Z",
+      "category": "tip",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux",
+      "original_url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux"
+      }
+    },
+    {
+      "id": "cmsezylz31cadro2eoq1np3vh",
+      "channel": "aihot",
+      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+      "title_en": "Show HN： 在配备4 GB显存的笔记本电脑GPU上对8B模型进行微调",
+      "summary": "Soup 推出 v0.72.4，支持在配备 4 GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 模型，无需 SSH 或云服务。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-04T18:17:29.648Z",
+      "category": "ai-products",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh",
+      "original_url": "https://github.com/MakazhanAlpamys/Soup",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh"
+      }
+    },
+    {
+      "id": "cmseyrhcj1bgmro2ed47t5b0k",
+      "channel": "aihot",
+      "title": "OpenRouter 上线 FLUX 3 Video 统一多模态模型",
+      "title_en": "FLUX 3 Video from @bfl_ai is now available for everyone on OpenRouter. One unified multimodal model…",
+      "summary": "@bfl_ai 的 FLUX 3 Video 现已在 OpenRouter 上向所有人开放。\n\n一个统一的视频、音频、图像和动作预测多模态模型家族。严肃、有趣、创意、真实、电影感，随你所需。基于统一架构联合训练。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "published_at": "2026-08-04T17:54:06.000Z",
+      "category": "ai-models",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseyrhcj1bgmro2ed47t5b0k",
+      "original_url": "https://x.com/OpenRouter/status/2084699413898027064",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseyrhcj1bgmro2ed47t5b0k"
+      }
+    },
+    {
+      "id": "cmseyfjcz1au8ro2enx0b7os6",
+      "channel": "aihot",
+      "title": "SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型",
+      "title_en": "Blog SpecForge v0.3.0： a Unified Disaggregated and Colocated Speculative Decoding Stack， and New Open SpecBundle Draft Models When we first released SpecForge， a training job owned both the frozen target model and the draft model being optimized. This made EAGLE3 draft-model training practical and directly compatible with SG… The SpecForge Team",
+      "summary": "SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等多种投机解码算法，并统一在线、离线与解耦工作流。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "published_at": "2026-08-04T17:51:09.590Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6",
+      "original_url": "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseyfjcz1au8ro2enx0b7os6"
+      }
+    },
+    {
+      "id": "cmsewck8518x6ro2e32q4bksr",
+      "channel": "aihot",
+      "title": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
+      "title_en": "Turn one giant AI-generated pull request to a reviewable stack",
+      "summary": "GitHub 介绍用堆叠式 Pull Request（stacked PR）解决 AI 编码智能体生成巨型代码难以审查的问题。通过将 1，000+ 行的大 diff 按数据、API、接线、UI 拆成 L1-L4 四个独立分层，每层可分配不同审查者。",
+      "source": "GitHub Blog",
+      "published_at": "2026-08-04T16:47:18.000Z",
+      "category": "tip",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsewck8518x6ro2e32q4bksr",
+      "original_url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsewck8518x6ro2e32q4bksr"
+      }
+    },
+    {
+      "id": "cmsew3l4y18qhro2edk0yaat8",
+      "channel": "aihot",
+      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT",
+      "title_en": "A unified API for AI model routing",
+      "summary": "Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理。网关作为无服务器入口层，接受标准 OpenAI 兼容请求，自动将负载转码为目标模型的原生格式并动态路由流量。",
+      "source": "Google Developers Blog（RSS）",
+      "published_at": "2026-08-04T16:45:02.138Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsew3l4y18qhro2edk0yaat8",
+      "original_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsew3l4y18qhro2edk0yaat8"
+      }
+    },
+    {
+      "id": "cmsevo5m118dmro2e9d1ven6v",
+      "channel": "aihot",
+      "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
+      "title_en": "Introducing Database Operations Agents： The future of autonomous database management",
+      "summary": "Google Cloud 在 Agentic Data Cloud 发布中推出两款 AI 数据库智能体：Database Onboarding Agent 负责 Day 0 的配置与部署，Database Observability Agent 负责 Day 1/2 的监控、故障排查与维护。",
+      "source": "Google Cloud：Databases（RSS）",
+      "published_at": "2026-08-04T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsevo5m118dmro2e9d1ven6v",
+      "original_url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsevo5m118dmro2e9d1ven6v"
+      }
+    },
+    {
+      "id": "cmseuq5vh17o9ro2eomueivmi",
+      "channel": "aihot",
+      "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
+      "title_en": "Thanks Dan for testing SenseNova U1 - our open-source AI model that reasons and generates images in …",
+      "summary": "商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成。其信息图模式可将单条提示词转为结构化幻灯片，交错模式则逐步生成图文内容，如演示六步画龙教程。模型已上线 SenseNova Studio、HuggingFace 及 GitHub。",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "published_at": "2026-08-04T15:46:03.000Z",
+      "category": "ai-models",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
+      "original_url": "https://x.com/SenseTime_AI/status/2084667189479837741",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi"
+      }
+    },
+    {
+      "id": "cmsesgyzp159kro2efe58vs2u",
+      "channel": "aihot",
+      "title": "蚂蚁百灵发布Ling-3.0-flash开源权重",
+      "title_en": "Today， we're releasing the open weights for Ling-3.0-flash. 🎉 Official BF16 and FP8-quantized vers…",
+      "summary": "今天，我们发布了 Ling-3.0-flash 的开源权重。🎉\n\n官方 BF16 和 FP8 量化版本现已可用，您可以根据自己的硬件、性能要求和部署需求选择最合适的版本。",
+      "source": "X：蚂蚁百灵 (@AntLingAGI)",
+      "published_at": "2026-08-04T15:03:43.000Z",
+      "category": "ai-models",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u",
+      "original_url": "https://x.com/AntLingAGI/status/2084656533489754475",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u"
+      }
+    },
+    {
+      "id": "cmsesrlcn15j6ro2ecpj577wj",
+      "channel": "aihot",
+      "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
+      "title_en": "NVIDIA Alpamayo 2 Super， the Frontier Open Model for Robotaxis and Autonomous Vehicles， Now Available for Commercial Use",
+      "summary": "NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出。",
+      "source": "NVIDIA Blog（RSS）",
+      "published_at": "2026-08-04T15:00:49.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
+      "original_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj"
+      }
+    },
+    {
+      "id": "cmsesrlcn15j7ro2evd57my2c",
+      "channel": "aihot",
+      "title": "NVIDIA 开源 cuFile API，推动 GPU 直连存储",
+      "title_en": "As AI Increases Demands on Memory， Storage Steps Up",
+      "summary": "NVIDIA 在 FMS 大会上宣布开源 cuFile API 及底层存储软件栈，让 GPU 可直接读写存储，访问延迟降至微秒级。其 Vera CPU 在两级压缩与加密流水线中吞吐量比 x86 CPU 最高提升 3.21 倍，并联合 40 多家厂商推出 Storage-Next 计划。",
+      "source": "NVIDIA Blog（RSS）",
+      "published_at": "2026-08-04T15:00:47.000Z",
+      "category": "ai-products",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsesrlcn15j7ro2evd57my2c",
+      "original_url": "https://blogs.nvidia.com/blog/ai-storage-fms",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesrlcn15j7ro2evd57my2c"
+      }
+    },
+    {
+      "id": "cmsesile415d4ro2evb21j3n0",
+      "channel": "aihot",
+      "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+      "title_en": "Anthropic signs $10B computing deal with infrastructure startup Volta， a cloud company that is only …",
+      "summary": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Volta 估值 24 亿美元，硬件几乎全为租用：算力来自比特币矿商 Bitdeer 挪威 121MW 站点，芯片由 Nvidia 供应、Dell 组装。Anthropic 买的是交付速度，代价是承担超大规模云厂商合同从未有过的交易对手风险。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-08-04T14:58:39.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
+      "original_url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0"
+      }
+    },
+    {
+      "id": "cmseq167s12m3ro2eas0pbc9y",
+      "channel": "aihot",
+      "title": "Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零",
+      "title_en": "How we built a software factory to drive Astro's GitHub issue count to zero",
+      "summary": "Cloudflare 在 Astro 仓库上运行自动化 triage 流水线，通过隔离的 AI 子代理复现、诊断并修复 bug，将开放 issue 从 200 多个降至约 30 个，预计下月归零。该流水线由 issue 标签驱动，修复后自动发布预览版本供用户验证。其底层引擎已发展为 Flue，一个开源的平台无关框架，用于构建持久化智能体与工作流。",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "category": "tip",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y",
+      "original_url": "https://blog.cloudflare.com/astro-issue-triage",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167s12m3ro2eas0pbc9y"
+      }
+    },
+    {
+      "id": "cmseq167s12m2ro2efhh7h5ia",
+      "channel": "aihot",
+      "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
+      "title_en": "Your agent can now debug Workers with local tracing",
+      "summary": "Cloudflare 即日起在 wrangler dev 和 vite dev 中自动为本地 Worker 调用捕获 OpenTelemetry 追踪，无需安装 SDK 或配置智能体。智能体可通过 Local Explorer API 查询追踪数据，定位失败操作、修复本地环境并验证结果。开发者也可在浏览器界面 Local Explorer 中可视化查看 spans、时序、错误及关联控制台日志。",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
+      "original_url": "https://blog.cloudflare.com/local-tracing",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia"
+      }
+    },
+    {
+      "id": "cmseq167r12m1ro2eqjsdn6wd",
+      "channel": "aihot",
+      "title": "Cloudflare 推出 Agents 平台，率先上线智能体追踪功能",
+      "title_en": "Introducing： Cloudflare Agents",
+      "summary": "Cloudflare 推出 Cloudflare Agents，将部署在平台上的智能体会话统一到一个视图中，并率先上线 agent tracing 功能。该功能支持 OpenTelemetry 兼容的 Think、Flue 和 AI SDK 等智能体框架，可测量每次模型调用、工具执行和 token 消耗。",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseq167r12m1ro2eqjsdn6wd",
+      "original_url": "https://blog.cloudflare.com/agents-on-cloudflare",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167r12m1ro2eqjsdn6wd"
+      }
+    },
+    {
+      "id": "cmseq167r12lzro2ecc1f23gs",
+      "channel": "aihot",
+      "title": "Cloudflare 推出 CI SDK：在 Cloudflare 上为百万级仓库运行 CI/CD 流水线",
+      "title_en": "Run CI/CD for millions of repos - on your platform， on Cloudflare",
+      "summary": "Cloudflare 推出基于 Workflows 和 Sandbox SDK 的 CI SDK，让平台方直接在 Cloudflare 上运行 CI/CD 流水线，支持构建、lint、类型检查、单元测试、依赖缓存及条件部署。",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseq167r12lzro2ecc1f23gs",
+      "original_url": "https://blog.cloudflare.com/ci-workflows",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167r12lzro2ecc1f23gs"
+      }
+    },
+    {
+      "id": "cmseq167r12lxro2erzimnhk2",
+      "channel": "aihot",
+      "title": "Cloudflare 推出 Agent Development Lifecycle，让智能体接管更多软件开发生命周期",
+      "title_en": "The Agent Development Lifecycle has arrived on Cloudflare",
+      "summary": "Cloudflare 宣布推出 Agent Development Lifecycle（ADLC），以取代传统 SDLC，让 AI 智能体从仅生成代码扩展到承担更多开发流程。",
+      "source": "Cloudflare Blog",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseq167r12lxro2erzimnhk2",
+      "original_url": "https://blog.cloudflare.com/agent-development-lifecycle",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseq167r12lxro2erzimnhk2"
+      }
+    },
+    {
+      "id": "cmseo63z710lvro2eblsf93az",
+      "channel": "aihot",
+      "title": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
+      "title_en": "",
+      "summary": "一个开源仓库提供了在单颗 AMD MI300X 上生产运行 DeepSeek-V4-Flash-0731 的完整配置与补丁，无需额外量化或权重卸载。该 304B 参数模型在 192 GB HBM 上实现单流 168.6 tok/s 解码、8 并发流 542 tok/s 聚合吞吐，并验证了 256K 上下文。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-04T12:56:45.712Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az",
+      "original_url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az"
+      }
+    },
+    {
+      "id": "cmsek09wz0vq7ro2eayzzt3uq",
+      "channel": "aihot",
+      "title": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
+      "title_en": "工信部：《智能网联汽车自动驾驶系统安全要求》发布实施，为自动驾驶产品明确统一安全准入基线",
+      "summary": "工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721-2026）强制性国家标准获批发布，拟于2027年7月1日起实施。这是我国首部针对L3级有条件自动驾驶和L4级高度自动驾驶系统的强制性国标，由2024年推荐性国标GB/T 44721-2024升级而来，为自动驾驶产品明确了统一的安全准入基线。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-04T11:06:29.000Z",
+      "category": "industry",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq",
+      "original_url": "https://www.ithome.com/0/985/665.htm",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq"
+      }
+    },
+    {
+      "id": "cmsefnjpn0q20ro2el7g7lyjw",
+      "channel": "aihot",
+      "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅",
+      "title_en": "Reflex Open Sources XY： A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "summary": "Reflex AI 发布 Apache-2.0 许可的 Python 交互式 2D 绘图库 XY，通过 Rust 原生核心、二进制缓冲传输和 WebGL2 渲染，在 1 万至 1 亿点范围内保持约 0.08 秒的渲染时间。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-08-04T08:57:47.000Z",
+      "category": "ai-products",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw",
+      "original_url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy-a-rust-backed-super-fast-python-charting-library-that-keeps-100-million-point-charts-interactive",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw"
+      }
+    },
+    {
+      "id": "cmseekz5g0oncro2ehfyz40ps",
+      "channel": "aihot",
+      "title": "用 NVIDIA SkillSpector、LangGraph、YARA 规则、SARIF 与 CI 策略门构建高级 AI 技能安全审计流水线",
+      "title_en": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector， LangGraph， YARA Rules， SARIF， and CI Policy Gates",
+      "summary": "本教程演示如何用 NVIDIA SkillSpector 评估 AI 技能的安全态势，构建包含干净、风险、恶意及 MCP 示例的合成技能市场，并通过 LangGraph 检查流水线扫描每个技能。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-08-04T08:12:36.000Z",
+      "category": "tip",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmseekz5g0oncro2ehfyz40ps",
+      "original_url": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmseekz5g0oncro2ehfyz40ps"
+      }
+    },
+    {
+      "id": "cmsee1mhf0nn6ro2em6rt7tr4",
+      "channel": "aihot",
+      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+      "title_en": "Hy ASR 3.0 preview发布：真正懂上下文的语音识别",
+      "summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.34%、英语 WER 2.62%、粤语 WER 3.12%，并支持上下文纠错、热词注入及高噪耳语等场景。该模型已上线腾讯云 API，元宝 App 首发并免费开放。",
+      "source": "公众号：腾讯混元",
+      "published_at": "2026-08-04T08:12:36.000Z",
+      "category": "ai-models",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4"
+      }
+    },
+    {
+      "id": "cmsebb0mc0kn1ro2ejvmi5lg8",
+      "channel": "aihot",
+      "title": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+      "title_en": "Show HN： 在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+      "summary": "Swiftlet 是一个 Swift + Metal 运行时，可在普通 Apple 设备上运行 Qwen3-Next 和 Qwen3.5/3.6 MoE 混合模型，仅将小型稠密核心驻留内存，按需从存储流式加载路由专家权重。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-04T06:32:44.149Z",
+      "category": "ai-products",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8",
+      "original_url": "https://github.com/leonickson1/Swiftlet",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8"
+      }
+    },
+    {
+      "id": "cmse7yrut0gupro2ejfet4a10",
+      "channel": "aihot",
+      "title": "GPT-5.6 Luna降价80%永久生效",
+      "title_en": "Some fine folks apparently misunderstood， but the GPT-5.6 Luna price reduction by 80% is not a tempo…",
+      "summary": "有些人显然误解了，但 GPT-5.6 Luna 降价 80% 不是临时噱头，而是永久的。效率提升不会消失。幸运的是。",
+      "source": "X：Tibo (@thsottiaux)",
+      "published_at": "2026-08-04T05:07:32.000Z",
+      "category": "industry",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmse7yrut0gupro2ejfet4a10",
+      "original_url": "https://x.com/thsottiaux/status/2084506501834829833",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmse7yrut0gupro2ejfet4a10"
+      }
+    },
+    {
+      "id": "cmse5tvia0ej6ro2er0ptp9v8",
+      "channel": "aihot",
+      "title": "面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入",
+      "title_en": "面壁智能开源 ForgeStencil：一周优化 100+ 工业与科学软件，全程 0 人工介入，国产「智」造升级加速",
+      "summary": "面壁智能联合 OpenBMB 开源全球首个支持 Stencil 自动研究、自动部署的 AI 优化系统 ForgeStencil，由 Kernel Agent 与 App Agent 闭环协作，实现从算子优化到应用集成的全自动流程。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "published_at": "2026-08-04T04:20:28.000Z",
+      "category": "ai-products",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmse5tvia0ej6ro2er0ptp9v8",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmse5tvia0ej6ro2er0ptp9v8"
+      }
+    },
     {
       "id": "cmsdwjgim0327ro2ek45x3jz5",
       "channel": "aihot",
@@ -19,6 +505,42 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsdwjgim0327ro2ek45x3jz5"
+      }
+    },
+    {
+      "id": "cmsf4nabx1g03ro2e3ripbdfm",
+      "channel": "aihot",
+      "title": "杰文斯悖论还能持续吗：AI 定价分层如何支撑算力需求增长",
+      "title_en": "Racing to Sustain Jevons' Paradox",
+      "summary": "科技巨头高管普遍表示算力供应仍无法满足需求，但 AI 定价却在上涨：Anthropic 7 月 24 日发布的 Fable 5 定价每百万输出 token 50 美元，较 Opus 5 翻倍；OpenAI 则在 Fable 5 发布五天后将 GPT-5.6 Luna 价格下调 80%。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "published_at": "2026-08-04T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsf4nabx1g03ro2e3ripbdfm",
+      "original_url": "https://www.tomtunguz.com/what-if-gpu-prices-double",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsf4nabx1g03ro2e3ripbdfm"
+      }
+    },
+    {
+      "id": "cmsevo9td18ehro2e4owyq95q",
+      "channel": "aihot",
+      "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+      "title_en": "Ori Harness： The Best Way to Use OpenRouter with Any Harness",
+      "summary": "OpenRouter 发布 ori CLI，用户安装并登录后即可获得针对 Claude Code、Codex、OpenCode、Hermes 等 harness 的优化配置，省去手动设置大量环境变量的麻烦。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-08-04T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q",
+      "original_url": "https://openrouter.ai/blog/announcements/ori-harness",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q"
       }
     },
     {
@@ -73,24 +595,6 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu"
-      }
-    },
-    {
-      "id": "cmsdo0x3203dmro0ovomuyfqx",
-      "channel": "aihot",
-      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
-      "title_en": "How EA Is Bringing Generative AI Into Living， Playable Worlds",
-      "summary": "EA 首席战略官 Mihir Vaidya 认为，游戏是 AI 的试验场，但生成式 AI 进入游戏面临 60 帧/秒、数千玩家同步和低延迟等严苛约束，不能只追求\"看起来真实\"，而必须\"行为正确\"。他主张采用神经符号架构，在生成能力之外保留确定性与可控性，并称\"控制是下一个前沿\"。EA 将 AI 影响分为效率、扩展和转型三个层面，其中《模拟人生》已服务超 5 亿玩家，拥有近万亿种游玩排列组合。",
-      "source": "Runway：News（网页）",
-      "published_at": "2026-08-03T20:12:03.229Z",
-      "category": "tip",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx",
-      "original_url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx"
       }
     },
     {
@@ -310,6 +814,42 @@
       }
     },
     {
+      "id": "cmse4jxrl0d1gro2ewjdbr7n3",
+      "channel": "aihot",
+      "title": "SwanTale：面向指令与零样本任务的统一多说话人语音与音频生成",
+      "title_en": "SwanTale： Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
+      "summary": "SwanTale 提出统一的多说话人语音与音频生成模型，同时支持零样本与指令任务。研究配套推出 SwanData-Caption 数据方案，通过清洗、合成覆盖与多级标注解决数据稀缺问题，并引入 SwanVAE、Unified MoE、GRPO 后训练等技术。实验显示，SwanTale 在多项零样本与指令指标上领先，并在两项任务的表达力评分中均取得最佳成绩。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-08-03T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmse4jxrl0d1gro2ewjdbr7n3",
+      "original_url": "https://arxiv.org/abs/2608.02023",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmse4jxrl0d1gro2ewjdbr7n3"
+      }
+    },
+    {
+      "id": "cmse4jxrl0d1ero2edxdc05fq",
+      "channel": "aihot",
+      "title": "UEmbed：统一稀疏与稠密的多模态嵌入模型",
+      "title_en": "UEmbed： Unified Sparse and Dense Multimodal Embeddings",
+      "summary": "UEmbed 是一种仅解码器的多模态嵌入模型，可在单次因果前向传播中同时生成稀疏词级和稠密表示，通过可学习特殊 token 与词汇表分区突破单 token 信息瓶颈。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-08-03T00:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmse4jxrl0d1ero2edxdc05fq",
+      "original_url": "https://arxiv.org/abs/2608.02583",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmse4jxrl0d1ero2edxdc05fq"
+      }
+    },
+    {
       "id": "cmscc62eo033broeusw72isi0",
       "channel": "aihot",
       "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
@@ -325,6 +865,24 @@
       "attribution": {
         "source": "AI HOT",
         "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+      }
+    },
+    {
+      "id": "cmsdo0x3203dmro0ovomuyfqx",
+      "channel": "aihot",
+      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+      "title_en": "How EA Is Bringing Generative AI Into Living， Playable Worlds",
+      "summary": "EA 首席战略官 Mihir Vaidya 认为，游戏是 AI 的试验场，但生成式 AI 进入游戏面临 60 帧/秒、数千玩家同步和低延迟等严苛约束，不能只追求\"看起来真实\"，而必须\"行为正确\"。他主张采用神经符号架构，在生成能力之外保留确定性与可控性，并称\"控制是下一个前沿\"。EA 将 AI 影响分为效率、扩展和转型三个层面，其中《模拟人生》已服务超 5 亿玩家，拥有近万亿种游玩排列组合。",
+      "source": "Runway：News（网页）",
+      "published_at": "2026-08-02T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx",
+      "original_url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx"
       }
     },
     {
