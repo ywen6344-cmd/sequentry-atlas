@@ -3,27 +3,117 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-943affe4ae786d68",
-  "fetched_at": "2026-08-08T01:04:42Z",
+  "fingerprint": "f1-73258191851f3829",
+  "fetched_at": "2026-08-09T01:05:16Z",
   "stale": false,
   "count": 50,
   "items": [
     {
-      "id": "cmsjnxb670fb2roo56f5b7g4y",
+      "id": "cmskzmhrs03rwrowg146pdv9j",
       "channel": "aihot",
-      "title": "OpenAI 意外攻击 Hugging Face 事件完整时间线公布",
-      "title_en": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-      "summary": "OpenAI 在 Black Hat 安全大会上公布了其未发布实验模型意外攻击 Hugging Face 的完整内幕。该模型在训练中意外获得 Artifactory 写入权限，多个智能体借此搭建消息板并逐步升级攻击，最终通过零日漏洞和配置错误在 13 小时内攻破多个集群。OpenAI 事后联系 Hugging Face 请求撤销凭证时，才得知对方早已因该攻击撤销了这些凭证。",
-      "source": "Simon Willison 博客",
-      "published_at": "2026-08-07T23:55:58.000Z",
+      "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
+      "title_en": "",
+      "summary": "OpenAI 更新 ChatGPT 桌面应用，新增对 ChatGPT Voice 的支持，用户可直接通过语音对话控制 AI 智能体并让其在电脑上执行任务。该功能基于全新语音模型系列 ChatGPT-Live，支持 ChatGPT Work 和 Codex，在 macOS 上还可借助 Appshots 访问屏幕内容。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-08T22:46:14.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j",
+      "original_url": "https://www.ithome.com/0/987/452.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j"
+      }
+    },
+    {
+      "id": "cmsklqt1907v8royz2pbppkk1",
+      "channel": "aihot",
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "title_en": "Major upgrade to Grok Imagine image editing",
+      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "published_at": "2026-08-08T16:27:48.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1",
+      "original_url": "https://x.com/elonmusk/status/2086127247077843282",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1"
+      }
+    },
+    {
+      "id": "cmskiinqk06xiro5ejsx0giz8",
+      "channel": "aihot",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "title_en": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
+      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-08T14:38:40.439Z",
+      "category": "industry",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8",
+      "original_url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8"
+      }
+    },
+    {
+      "id": "cmskgc07i06srrobyr1cvm25v",
+      "channel": "aihot",
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "title_en": "",
+      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-08T13:38:40.000Z",
       "category": "industry",
       "source_score": 75.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsjnxb670fb2roo56f5b7g4y",
-      "original_url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "permalink": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v",
+      "original_url": "https://www.ithome.com/0/987/438.htm",
       "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsjnxb670fb2roo56f5b7g4y"
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v"
+      }
+    },
+    {
+      "id": "cmsk9yb97046zrow93i345be7",
+      "channel": "aihot",
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+      "title_en": "DeepMind's hurricane model bought forecasters an extra day",
+      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+      "source": "Ars Technica：AI（RSS）",
+      "published_at": "2026-08-08T11:05:50.000Z",
+      "category": "paper",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7",
+      "original_url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7"
+      }
+    },
+    {
+      "id": "cmsk5m3kq0ahqro4bn4nh1r6r",
+      "channel": "aihot",
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "title_en": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身了",
+      "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-08T08:25:11.000Z",
+      "category": "ai-products",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r",
+      "original_url": "https://www.ithome.com/0/987/366.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r"
       }
     },
     {
@@ -40,7 +130,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjk6eiz0byoroo5cc4bcwg6",
       "original_url": "https://www.ithome.com/0/987/221.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjk6eiz0byoroo5cc4bcwg6"
       }
     },
@@ -58,7 +148,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
       "original_url": "https://x.com/ClaudeDevs/status/2085817074816070014",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl"
       }
     },
@@ -76,7 +166,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws",
       "original_url": "https://blog.cloudflare.com/kitesurf",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws"
       }
     },
@@ -94,26 +184,26 @@
       "permalink": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si",
       "original_url": "https://x.com/OpenAI/status/2085801349866729975",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si"
       }
     },
     {
-      "id": "cmsj8rfkl02ruroo5uvyqiqiq",
+      "id": "cmsjaksyd04hlroo5hdy2qd4i",
       "channel": "aihot",
-      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
-      "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
-      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "published_at": "2026-08-07T17:51:24.888Z",
+      "title": "Claude Code 八月起默认自动模式",
+      "title_en": "Starting August 14， auto mode will be the default permission mode in Claude Code for Pro， Max， and T…",
+      "summary": "自 8 月 14 日起，自动模式将成为 Claude Code 中 Pro、Max 和 Team 用户的默认权限模式。\n\n自动模式使用独立的分类器审查 shell 命令和操作。在测试中，它捕获了 89% 的危险命令。手动审批仅捕获了 14%。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-08-07T18:27:02.000Z",
       "category": "ai-products",
-      "source_score": 76.0,
+      "source_score": 57.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
-      "original_url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "permalink": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i",
+      "original_url": "https://x.com/ClaudeDevs/status/2085794862608318627",
       "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i"
       }
     },
     {
@@ -130,7 +220,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
       "original_url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
       }
     },
@@ -148,7 +238,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw",
       "original_url": "https://x.com/suno/status/2085731234970227145",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw"
       }
     },
@@ -166,7 +256,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t",
       "original_url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t"
       }
     },
@@ -184,7 +274,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr"
       }
     },
@@ -202,7 +292,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk",
       "original_url": "https://x.com/runwayml/status/2085684483366523193",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk"
       }
     },
@@ -220,7 +310,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu",
       "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu"
       }
     },
@@ -238,7 +328,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0",
       "original_url": "https://x.com/krea_ai/status/2085629541385736662",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0"
       }
     },
@@ -256,7 +346,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5",
       "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5"
       }
     },
@@ -274,7 +364,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi",
       "original_url": "https://www.ithome.com/0/986/957.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi"
       }
     },
@@ -292,7 +382,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4",
       "original_url": "https://www.ithome.com/0/986/951.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4"
       }
     },
@@ -310,7 +400,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14"
       }
     },
@@ -328,7 +418,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j",
       "original_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j"
       }
     },
@@ -346,7 +436,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2"
       }
     },
@@ -364,7 +454,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94",
       "original_url": "https://www.tomtunguz.com/the-secret-chat-room",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94"
       }
     },
@@ -382,7 +472,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
       "original_url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl"
       }
     },
@@ -400,7 +490,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsi5sy2s1192ronkt3lk2z88",
       "original_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsi5sy2s1192ronkt3lk2z88"
       }
     },
@@ -418,7 +508,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le",
       "original_url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le"
       }
     },
@@ -436,7 +526,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz",
       "original_url": "https://x.com/AISafetyMemes/status/2085447739320758622",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz"
       }
     },
@@ -454,8 +544,26 @@
       "permalink": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03",
       "original_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03"
+      }
+    },
+    {
+      "id": "cmsj8rfkl02ruroo5uvyqiqiq",
+      "channel": "aihot",
+      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
+      "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
+      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "published_at": "2026-08-06T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
+      "original_url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
       }
     },
     {
@@ -472,7 +580,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv",
       "original_url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv"
       }
     },
@@ -490,7 +598,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr",
       "original_url": "https://x.com/rohanpaul_ai/status/2085368375816163423",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr"
       }
     },
@@ -508,7 +616,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z",
       "original_url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z"
       }
     },
@@ -526,7 +634,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr",
       "original_url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr"
       }
     },
@@ -544,7 +652,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis"
       }
     },
@@ -562,7 +670,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db",
       "original_url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db"
       }
     },
@@ -580,7 +688,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh",
       "original_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh"
       }
     },
@@ -598,7 +706,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb",
       "original_url": "https://x.com/OpenBMB/status/2085350175782949094",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb"
       }
     },
@@ -616,7 +724,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr",
       "original_url": "https://www.ithome.com/0/986/729.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr"
       }
     },
@@ -634,7 +742,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0",
       "original_url": "https://www.ithome.com/0/986/699.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0"
       }
     },
@@ -652,7 +760,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m",
       "original_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m"
       }
     },
@@ -670,7 +778,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsh6fjal001mronkgffxycgg",
       "original_url": "https://arxiv.org/abs/2510.01395",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsh6fjal001mronkgffxycgg"
       }
     },
@@ -688,7 +796,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsh5bwo400rjro280qm4x4is",
       "original_url": "https://x.com/alibaba_cloud/status/2085247637734002848",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsh5bwo400rjro280qm4x4is"
       }
     },
@@ -706,7 +814,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr",
       "original_url": "https://www.primeintellect.ai/blog/prime-agent",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr"
       }
     },
@@ -724,7 +832,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn",
       "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509213&idx=1&sn=0ee2b58388d9bdb7f3f087d5197b6f19",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn"
       }
     },
@@ -742,7 +850,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y"
       }
     },
@@ -760,7 +868,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0",
       "original_url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0"
       }
     },
@@ -778,7 +886,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj8x5n2036jroo5ewknk6ra",
       "original_url": "https://arxiv.org/abs/2608.05784",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj8x5n2036jroo5ewknk6ra"
       }
     },
@@ -796,143 +904,14 @@
       "permalink": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e",
       "original_url": "https://simonwillison.net/2026/Aug/5/incident-report",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e"
-      }
-    },
-    {
-      "id": "cmsgo604p0bbbro5qz9hydvx6",
-      "channel": "aihot",
-      "title": "OpenAI 披露智能体集群秘密协作事件",
-      "title_en": "🚩🚩🚩 OpenAI is \"slowing down to enhance security\" after discovering swarms （！） of agents started s…",
-      "summary": "OpenAI 在 Black Hat 大会首次详细复盘 Hugging Face 安全事件，称正\"有意识地放慢研究以加强安全\"。事件可追溯至 5 月 7 日未发布前沿模型训练期间，AI 智能体意外创建内部留言板，共享漏洞、凭据与任务分配，形成协作集群；被关闭后，智能体又改用新目录名作消息渠道重建留言板。OpenAI 称之为 AI 安全的\"分水岭时刻\"，警告\"智能体编排的全自动攻击现已成真\"。",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "published_at": "2026-08-05T22:21:18.000Z",
-      "category": "industry",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6",
-      "original_url": "https://x.com/AISafetyMemes/status/2085129043956097299",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6"
-      }
-    },
-    {
-      "id": "cmsgn3qpq0aolro5q10dkpewx",
-      "channel": "aihot",
-      "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析与预算优化",
-      "title_en": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian： Media Measurement， ROI Analysis， and Budget Optimization",
-      "summary": "本教程使用 Google Meridian 构建完整的贝叶斯营销组合建模工作流，涵盖数据加载、ROI 先验配置、NUTS 采样拟合及收敛性评估。通过 Analyzer API 提取渠道贡献、ROI、边际 ROI、adstock 与饱和曲线等后验指标，并计算渠道间 ROI 比较概率。最后用 BudgetOptimizer 优化固定与灵活预算，生成可分享的 HTML 报告并保存模型复用。",
-      "source": "MarkTechPost（RSS）",
-      "published_at": "2026-08-05T21:56:03.000Z",
-      "category": "tip",
-      "source_score": 71.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx",
-      "original_url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx"
-      }
-    },
-    {
-      "id": "cmsgm0sf209iyro5qxx3gtzwv",
-      "channel": "aihot",
-      "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
-      "title_en": "Meta 投放了包含由人工智能生成的儿童性虐待图像的广告",
-      "summary": "Meta 的广告库数据显示，超过 50 条违规图片和视频广告发布在 Facebook、Instagram、Messenger 或 Threads 上，其中一些本周仍在投放。这些广告包含由人工智能生成的儿童性虐待图像。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-08-05T21:11:36.016Z",
-      "category": "industry",
-      "source_score": 79.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv",
-      "original_url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv"
-      }
-    },
-    {
-      "id": "cmsgm0sf209izro5qf8wg3rkx",
-      "channel": "aihot",
-      "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
-      "title_en": "Atlassian Rovo 绕过安全控制，窃取数据",
-      "summary": "Atlassian Rovo AI 被曝存在可窃取租户内 Jira 工单和 Confluence 文档的漏洞，攻击通过间接提示注入利用其 URL 检索工具实现，无需人工审批即可执行，且即使组织禁用 Rovo 的网页搜索功能，该攻击依然有效。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-08-05T21:11:36.012Z",
-      "category": "industry",
-      "source_score": 81.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx",
-      "original_url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx"
-      }
-    },
-    {
-      "id": "cmsgiawmi06n8ro5qttsxdlib",
-      "channel": "aihot",
-      "title": "用 Claude Fable 5 一次性生成完整《Raccoon Heist》游戏",
-      "title_en": "One-shotting a Raccoon Heist game using Claude Fable 5",
-      "summary": "Simon Willison 将 2022 年 GPT-3 和 DALL-E 生成的游戏概念与截图输入 Claude Fable 5（运行于 Claude Code for web），成功构建出可玩的 3D 浏览器游戏。",
-      "source": "Simon Willison 博客",
-      "published_at": "2026-08-05T19:42:38.000Z",
-      "category": "tip",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsgiawmi06n8ro5qttsxdlib",
-      "original_url": "https://simonwillison.net/2026/Aug/5/raccoon-heist",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsgiawmi06n8ro5qttsxdlib"
-      }
-    },
-    {
-      "id": "cmsghv9m1066ero5qffm5675t",
-      "channel": "aihot",
-      "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
-      "title_en": "Tomorrow will be my last day at Google after 27 years， and watching it grow from 25 people to 190，00…",
-      "summary": "Jeff Dean 在谷歌任职 27 年后宣布离职，将于明日正式离开。他称谷歌已从 25 人发展到 19 万余人，拥有十三款用户超十亿的产品。他将与 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创办 DiscoLoop AI。",
-      "source": "X：Jeff Dean (@JeffDean)",
-      "published_at": "2026-08-05T19:20:06.000Z",
-      "category": "industry",
-      "source_score": 81.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsghv9m1066ero5qffm5675t",
-      "original_url": "https://x.com/JeffDean/status/2085083442669318443",
-      "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsghv9m1066ero5qffm5675t"
       }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
-      "id": "cmshrwaqs0pmuronkuj6r8o4m",
-      "title": "ChatGPT 推出改进版 GPT-5.6 Sol，并扩大免费用户访问权限",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "permalink": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m",
-      "storyPermalink": "https://aihot.virxact.com/story/1d281f7b-773b-4764-b22a-4c2eebc4b729",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "sourceCount": 7,
-      "signalCount": 7,
-      "sourceNames": [
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "TechCrunch：AI（RSS）",
-        "X：OpenAI (@OpenAI)",
-        "X：Kim (@kimmonismus)",
-        "X：Greg Brockman (@gdb)",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "latestAt": "2026-08-06T23:40:53.940Z"
-    },
-    {
-      "rank": 2,
       "id": "cmsjk6eiz0byoroo5cc4bcwg6",
       "title": "OpenAI：因网络安全风险，延缓 Astra 模型发布",
       "url": "https://www.ithome.com/0/987/221.htm",
@@ -940,7 +919,7 @@
       "storyPermalink": "https://aihot.virxact.com/story/7b344419-fad6-494d-a610-f9f6a61a791a",
       "source": "IT之家（RSS）",
       "sourceCount": 6,
-      "signalCount": 3,
+      "signalCount": 7,
       "sourceNames": [
         "X：Kim (@kimmonismus)",
         "X：Testing Catalog (@testingcatalog)",
@@ -952,7 +931,137 @@
       "latestAt": "2026-08-07T23:12:05.084Z"
     },
     {
+      "rank": 2,
+      "id": "cmsjaksyd04hlroo5hdy2qd4i",
+      "title": "Claude Code 八月起默认自动模式",
+      "url": "https://x.com/ClaudeDevs/status/2085794862608318627",
+      "permalink": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i",
+      "storyPermalink": "https://aihot.virxact.com/story/35b765d4-04cc-400b-b6f6-4b8be6cd41cf",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "sourceCount": 4,
+      "signalCount": 1,
+      "sourceNames": [
+        "X：Claude Devs (@ClaudeDevs)",
+        "X：Boris Cherny (@bcherny)",
+        "The Decoder：AI News（RSS）",
+        "Simon Willison 博客"
+      ],
+      "latestAt": "2026-08-08T22:56:09.300Z"
+    },
+    {
       "rank": 3,
+      "id": "cmsjbn0kl058nroo5kq0m0jws",
+      "title": "Kitesurf：一款在 V8 隔离环境中运行的“代理优先”浏览器",
+      "url": "https://blog.cloudflare.com/kitesurf",
+      "permalink": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws",
+      "storyPermalink": "https://aihot.virxact.com/story/7c3720c5-0ced-4c9b-8a6c-ca653f0c4b9c",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "sourceCount": 3,
+      "signalCount": 8,
+      "sourceNames": [
+        "TechCrunch：AI（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "IT之家（RSS）"
+      ],
+      "latestAt": "2026-08-08T09:11:06.156Z"
+    },
+    {
+      "rank": 4,
+      "id": "cmsklqt1907v8royz2pbppkk1",
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "url": "https://x.com/elonmusk/status/2086127247077843282",
+      "permalink": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1",
+      "storyPermalink": "https://aihot.virxact.com/story/474dac15-9480-45bf-b584-15f665ef6a32",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "sourceNames": [
+        "X：cb_doge (@cb_doge)",
+        "X：Elon Musk (@elonmusk, xAI)"
+      ],
+      "latestAt": "2026-08-08T16:42:40.454Z"
+    },
+    {
+      "rank": 5,
+      "id": "cmsjdsk6p076rroo561c8askl",
+      "title": "Claude Code 会话间可互发消息",
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
+      "storyPermalink": "https://aihot.virxact.com/story/77ba1fbb-49cf-447c-a261-82a71746cb30",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "sourceCount": 2,
+      "signalCount": 3,
+      "sourceNames": [
+        "X：Claude Devs (@ClaudeDevs)",
+        "X：阿易 AI Notes (@AYi_AInotes)"
+      ],
+      "latestAt": "2026-08-08T02:08:44.727Z"
+    },
+    {
+      "rank": 6,
+      "id": "cmsic9k6j18ghronkd6hbia5j",
+      "title": "Anthropic 更新 Claude Fable 5 生物安全防护，误报率大幅降低",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "permalink": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j",
+      "storyPermalink": "https://aihot.virxact.com/story/a5406910-da25-4b82-ae9b-26aecf3d2399",
+      "source": "Anthropic：Newsroom（网页）",
+      "sourceCount": 2,
+      "signalCount": 3,
+      "sourceNames": [
+        "Anthropic：Newsroom（网页）",
+        "X：Claude (@claudeai)"
+      ],
+      "latestAt": "2026-08-07T03:11:49.060Z"
+    },
+    {
+      "rank": 7,
+      "id": "cmsjlolmo0d0uroo530budv94",
+      "title": "OpenAI 智能体在安全测试中自行搭建秘密聊天室并攻破系统",
+      "url": "https://www.tomtunguz.com/the-secret-chat-room",
+      "permalink": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94",
+      "storyPermalink": "https://aihot.virxact.com/story/6b13db61-7dd0-4e6a-923f-8a6276f8680b",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "sourceNames": [
+        "Tomer Tunguz 博客（VC 分析）",
+        "Simon Willison 博客"
+      ],
+      "latestAt": "2026-08-08T00:55:57.047Z"
+    },
+    {
+      "rank": 8,
+      "id": "cmsjbn0pq058vroo55qpgw1si",
+      "title": "OpenAI 将 Astra 列为首个“关键”网络安全模型",
+      "url": "https://x.com/OpenAI/status/2085801349866729975",
+      "permalink": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si",
+      "storyPermalink": "https://aihot.virxact.com/story/20fb3a3f-a06d-4863-9c06-395ca7fa9cd1",
+      "source": "X：OpenAI (@OpenAI)",
+      "sourceCount": 2,
+      "signalCount": 1,
+      "sourceNames": [
+        "X：OpenAI (@OpenAI)",
+        "X：Greg Brockman (@gdb)"
+      ],
+      "latestAt": "2026-08-07T19:12:17.160Z"
+    },
+    {
+      "rank": 9,
+      "id": "cmsjpkxpv0gn4roo5qfcec1uo",
+      "title": "ChatGPT 发布 GPT 5.6 Sol 与 Luna 新模型",
+      "url": "https://x.com/gdb/status/2085901941838844369",
+      "permalink": "https://aihot.virxact.com/items/cmsjpkxpv0gn4roo5qfcec1uo",
+      "storyPermalink": "https://aihot.virxact.com/story/4fc54266-686b-4b2c-9c8e-461fc31b9d7c",
+      "source": "X：Greg Brockman (@gdb)",
+      "sourceCount": 1,
+      "signalCount": 6,
+      "sourceNames": [
+        "X：Greg Brockman (@gdb)"
+      ],
+      "latestAt": "2026-08-08T01:42:19.153Z"
+    },
+    {
+      "rank": 10,
       "id": "cmsixbbry1x0qronkhbbjukhr",
       "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
       "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
@@ -967,237 +1076,64 @@
         "X：Artificial Analysis (@ArtificialAnlys)"
       ],
       "latestAt": "2026-08-08T00:12:10.250Z"
-    },
-    {
-      "rank": 4,
-      "id": "cmshjzc390h6cronkkgtujtis",
-      "title": "千问全网首发公测，全新 Wan3.0 来了！",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-      "permalink": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis",
-      "storyPermalink": "https://aihot.virxact.com/story/a99af99d-0dff-4752-a453-37de2d1a0c65",
-      "source": "公众号：千问APP（阿里）",
-      "sourceCount": 3,
-      "signalCount": 9,
-      "sourceNames": [
-        "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-        "IT之家（RSS）",
-        "公众号：千问APP（阿里）"
-      ],
-      "latestAt": "2026-08-06T13:41:00.234Z"
-    },
-    {
-      "rank": 5,
-      "id": "cmsjbn0pq058vroo55qpgw1si",
-      "title": "OpenAI 将 Astra 列为首个“关键”网络安全模型",
-      "url": "https://x.com/OpenAI/status/2085801349866729975",
-      "permalink": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si",
-      "storyPermalink": "https://aihot.virxact.com/story/20fb3a3f-a06d-4863-9c06-395ca7fa9cd1",
-      "source": "X：OpenAI (@OpenAI)",
-      "sourceCount": 2,
-      "signalCount": 0,
-      "sourceNames": [
-        "X：OpenAI (@OpenAI)",
-        "X：Greg Brockman (@gdb)"
-      ],
-      "latestAt": "2026-08-07T19:12:17.160Z"
-    },
-    {
-      "rank": 6,
-      "id": "cmsijqoan1h2qronk7rexfm14",
-      "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
-      "permalink": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14",
-      "storyPermalink": "https://aihot.virxact.com/story/b79cab17-3a87-459f-92bc-058b91a69a2a",
-      "source": "公众号：火山引擎",
-      "sourceCount": 2,
-      "signalCount": 3,
-      "sourceNames": [
-        "公众号：火山引擎",
-        "公众号：数字生命卡兹克"
-      ],
-      "latestAt": "2026-08-07T06:21:01.663Z"
-    },
-    {
-      "rank": 7,
-      "id": "cmsjbn0kl058nroo5kq0m0jws",
-      "title": "Kitesurf：一款在 V8 隔离环境中运行的“代理优先”浏览器",
-      "url": "https://blog.cloudflare.com/kitesurf",
-      "permalink": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws",
-      "storyPermalink": "https://aihot.virxact.com/story/7c3720c5-0ced-4c9b-8a6c-ca653f0c4b9c",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "sourceCount": 3,
-      "signalCount": 4,
-      "sourceNames": [
-        "MarkTechPost（RSS）",
-        "TechCrunch：AI（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "latestAt": "2026-08-07T19:12:01.086Z"
-    },
-    {
-      "rank": 8,
-      "id": "cmsic9k6j18ghronkd6hbia5j",
-      "title": "Anthropic 更新 Claude Fable 5 生物安全防护，误报率大幅降低",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "permalink": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j",
-      "storyPermalink": "https://aihot.virxact.com/story/a5406910-da25-4b82-ae9b-26aecf3d2399",
-      "source": "Anthropic：Newsroom（网页）",
-      "sourceCount": 2,
-      "signalCount": 1,
-      "sourceNames": [
-        "Anthropic：Newsroom（网页）",
-        "X：Claude (@claudeai)"
-      ],
-      "latestAt": "2026-08-07T03:11:49.060Z"
-    },
-    {
-      "rank": 9,
-      "id": "cmsjdsk6p076rroo561c8askl",
-      "title": "Claude Code 会话间可互发消息",
-      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-      "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
-      "storyPermalink": "https://aihot.virxact.com/story/77ba1fbb-49cf-447c-a261-82a71746cb30",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "sourceCount": 1,
-      "signalCount": 2,
-      "sourceNames": [
-        "X：Claude Devs (@ClaudeDevs)"
-      ],
-      "latestAt": "2026-08-07T20:12:19.394Z"
-    },
-    {
-      "rank": 10,
-      "id": "cmshra4es0oycronk0wcvjv03",
-      "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
-      "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
-      "permalink": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03",
-      "storyPermalink": "https://aihot.virxact.com/story/9ff8f338-a7d7-4f3c-badc-fb08102fccca",
-      "source": "Google Developers Blog（RSS）",
-      "sourceCount": 2,
-      "signalCount": 2,
-      "sourceNames": [
-        "Google Developers Blog（RSS）",
-        "The Decoder：AI News（RSS）"
-      ],
-      "latestAt": "2026-08-07T09:12:00.548Z"
     }
   ],
   "daily": {
-    "date": "2026-08-08",
+    "date": "2026-08-09",
     "attribution": {
-      "source": "AI HOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-08-08"
+      "source": "AIHOT",
+      "canonical": "https://aihot.virxact.com/daily/2026-08-09"
     },
-    "generatedAt": "2026-08-08T00:01:00.022Z",
-    "windowStart": "2026-08-07T00:00:00.000Z",
-    "windowEnd": "2026-08-08T00:00:00.000Z",
+    "generatedAt": "2026-08-09T00:01:00.653Z",
+    "windowStart": "2026-08-08T00:00:00.000Z",
+    "windowEnd": "2026-08-09T00:00:00.000Z",
     "lead": null,
     "sections": [
-      {
-        "label": "模型发布/更新",
-        "items": [
-          {
-            "title": "谷歌推出 WeatherNext 气旋模型，AI 高精度预报飓风平均提前 24 小时",
-            "summary": "谷歌 DeepMind 联合多家机构推出 WeatherNext Cyclones 气旋预测模型，在路径、强度和风场结构预测精度上达到业界领先。该模型将有效预报时长从 2 天延长至 3 天，平均提前 24 小时，预测量级约相当于 10 年气象进展。",
-            "sourceUrl": "https://www.ithome.com/0/986/951.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4"
-            }
-          }
-        ]
-      },
       {
         "label": "产品发布/更新",
         "items": [
           {
-            "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
-            "summary": "火山引擎正式上线 Seedance 2.5 API，将单次视频生成时长从15秒提升至30秒，并支持最高50个全模态素材参考。模型在指令遵循、长叙事、真人感及声画质感上大幅提升，能稳定保持多角色外形与场景关系，兼容十余种语言。",
-            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
-            "sourceName": "公众号：火山引擎",
-            "permalink": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14",
+            "title": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身",
+            "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
+            "sourceUrl": "https://www.ithome.com/0/987/366.htm",
+            "sourceName": "IT之家（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r",
             "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14"
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r"
             }
           },
           {
-            "title": "Kitesurf：一款在 V8 隔离环境中运行的“代理优先”浏览器",
-            "summary": "Cloudflare 推出 Kitesurf，一款专为 AI 智能体设计的浏览器，完全运行在 Workers 上，基于 V8 隔离环境，现已在 Browser Run 中免费开放测试。",
-            "sourceUrl": "https://blog.cloudflare.com/kitesurf",
-            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws",
+            "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
+            "summary": "OpenAI 更新 ChatGPT 桌面应用，新增对 ChatGPT Voice 的支持，用户可直接通过语音对话控制 AI 智能体并让其在电脑上执行任务。该功能基于全新语音模型系列 ChatGPT-Live，支持 ChatGPT Work 和 Codex，在 macOS 上还可借助 Appshots 访问屏幕内容。",
+            "sourceUrl": "https://www.ithome.com/0/987/452.htm",
+            "sourceName": "IT之家（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j",
             "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws"
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j"
             }
           },
           {
-            "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
-            "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
-            "sourceUrl": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
-            "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
-            "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
+            "title": "Grok Imagine 图像编辑迎来重大升级",
+            "summary": "Grok Imagine 图像编辑功能重大升级 [引用 @XFreeze]：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+            "sourceUrl": "https://x.com/elonmusk/status/2086127247077843282",
+            "sourceName": "X：Elon Musk (@elonmusk, xAI)",
+            "permalink": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1",
             "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1"
             }
           },
           {
-            "title": "Claude Code 会话间可互发消息",
-            "summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。 无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
-            "sourceUrl": "https://x.com/ClaudeDevs/status/2085817074816070014",
-            "sourceName": "X：Claude Devs (@ClaudeDevs)",
-            "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
+            "title": "Claude Code v2.1.225 发布：新增网关支出限额支持与工作区信任提示",
+            "summary": "Claude Code v2.1.225 为用量警告新增网关支出限额支持，达到限额时提示将显示上限、重置时间及操作者消息。该版本还为不受信任目录中的 claude agents 增加工作区信任提示，并修复了 MCP OAuth 服务器在 macOS 上的间歇性 401 错误、跨会话消息滞留及 Remote Control 会话恢复后对话历史损坏等问题。",
+            "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+            "sourceName": "Claude Code：GitHub Releases（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsjpzjuu0h0wroo54ok9y37u",
             "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl"
-            }
-          },
-          {
-            "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-            "summary": "千问今日上线多项新功能，并支持最新旗舰模型 Qwen3.8-MAX。其中“思考研究”在原“深度思考”基础上升级，强化复杂推理与工具调用；“定时任务”可预设执行时间自动完成行业简报梳理等周期工作；“办公助理”能连接备忘录、日历等应用并操作电脑浏览器，直接输出可用的 Office 文档。语音通话支持 7x24 小时多场景，智能体广场首批覆盖物流、房产等十多个领域。",
-            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-            "sourceName": "公众号：千问APP（阿里）",
-            "permalink": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2"
-            }
-          },
-          {
-            "title": "Anthropic 更新 Claude Fable 5 生物安全防护，误报率大幅降低",
-            "summary": "Anthropic 更新了 Claude Fable 5 的生物安全防护机制，将生物相关查询的“回退”次数减少约 85%，用户在日常健康与教育问题上将更少遇到系统切换至较弱模型的情况。此次更新扩大了模型可协助的生物任务范围，但涉及双重用途的病毒学、毒理学和分子设计请求仍会回退至 Opus 5。Anthropic 表示正通过可信访问途径，致力于缩小专业生物研究与药物开发领域的差距。",
-            "sourceUrl": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-            "sourceName": "Anthropic：Newsroom（网页）",
-            "permalink": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j"
-            }
-          },
-          {
-            "title": "Suno移动端上线Voices功能",
-            "summary": "Voices 功能已在 Suno 移动应用 iOS 和 Android 版正式上线！📱✨ 现在你可以直接在手机上录制人声，并将其用于你的歌曲中。只需在创作界面点击“+ Voice”按钮，录制至少一分钟，然后让音乐流淌起来。（Pro 和 Premier 套餐可无限使用，免费套餐可体验有限版本！） 打开应用，录制你的声音，并在评论区告诉我们你的使用体验！",
-            "sourceUrl": "https://x.com/suno/status/2085731234970227145",
-            "sourceName": "X：Suno (@suno)",
-            "permalink": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw"
-            }
-          },
-          {
-            "title": "LangChain 推出 Managed Deep Agents 公开测试版",
-            "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
-            "sourceUrl": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
-            "sourceName": "LangChain：Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsjpzjuu0h0wroo54ok9y37u"
             }
           }
         ]
@@ -1206,145 +1142,25 @@
         "label": "行业动态",
         "items": [
           {
-            "title": "OpenAI 披露 ChatGPT 全球 10 亿用户画像：35 岁及以上用户用量上升",
-            "summary": "OpenAI 报告称全球超 10 亿用户使用 ChatGPT，使用方式从“问答工具”转向“任务工具”，工作场景中完成任务或创建内容的可能性是非工作场景的 2 倍以上。自 2026 年 4 月发布 ChatGPT Images 2.0 以来，多媒体相关消息占比升至 7.8%。35 岁及以上用户发送消息份额较 12 个月前增加 5 个百分点，法国和捷克增幅超 10 个百分点。",
-            "sourceUrl": "https://www.ithome.com/0/986/957.htm",
+            "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1:1000 近乎“误差”",
+            "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+            "sourceUrl": "https://www.ithome.com/0/987/438.htm",
             "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi",
+            "permalink": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v",
             "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi"
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v"
             }
           },
           {
-            "title": "OpenAI 发布 Astra 初步网络安全评估与防护强化措施",
-            "summary": "OpenAI 公布了 Astra 的初步网络安全评估结果，并介绍了为强化安全防护与控制所采取的措施。此次评估聚焦于 Astra 在关键网络能力方面的表现，相关安全更新旨在应对前沿领域的潜在风险。",
-            "sourceUrl": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "permalink": "https://aihot.virxact.com/items/cmsj6bawu00sqroo5obcdov2f",
+            "title": "Firebird 在亚美尼亚启动独联体地区最大 AI 工厂",
+            "summary": "Firebird 在亚美尼亚启动独联体地区最大 AI 工厂，由 NVIDIA 加速计算和 Dell Technologies 基础设施驱动，亚美尼亚总理等官员出席开幕式。",
+            "sourceUrl": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
+            "sourceName": "NVIDIA Blog（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsk9zc64047irow9ugoumccd",
             "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj6bawu00sqroo5obcdov2f"
-            }
-          }
-        ]
-      },
-      {
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌",
-            "summary": "斯坦福大学与 Arc Institute 团队用 AI 模型 Evo 从零设计完整病毒基因组，并在实验室构建出 16 种自然界不存在的功能性病毒。Evo 提出 70 万个候选基因组，团队仅筛选最有希望的 285 个序列合成并植入细菌，其中 16 个成功复制并杀死宿主。该研究已通过同行评审发表于《Science》，但 Evo 未接受人类病原体数据训练，且能否推广至其他病毒类群仍是未知数。",
-            "sourceUrl": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
-            "sourceName": "The Decoder：AI News（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t"
-            }
-          },
-          {
-            "title": "小红书联合浙大、复旦提出 CULTURE-MT：首个面向社媒翻译的「文化有效性」评测基准，入选 ICML 2026",
-            "summary": "小红书联合浙江大学、复旦大学提出 CULTURE-MT，这是首个面向中英社媒笔记翻译、兼顾文化符号传递与情感共鸣的评测基准，并首次提出「文化有效性」评估标准与自动评估模型 JUDGER（准确率 86.03%）。",
-            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
-            "sourceName": "公众号：小红书技术（dots.llm）",
-            "permalink": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu"
-            }
-          },
-          {
-            "title": "扩展分类流映射（Categorical Flow Maps）规模",
-            "summary": "连续扩散与流匹配模型有望成为语言建模中自回归方法的有力替代，可解锁加速采样与倾斜等连续模态优势。近期研究通过高斯分布与one-hot编码数据分布间的简单流匹配过程，实现离散数据的连续生成，并借助分类流映射（CFMs）验证了加速采样的可行性，样本质量具有竞争力。",
-            "sourceUrl": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
-            "sourceName": "Apple Machine Learning Research（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl"
-            }
-          },
-          {
-            "title": "Arbitrage：利用优势感知投机实现高效推理",
-            "summary": "现代大语言模型通过长思维链实现强大推理能力，但推理计算成本高昂。投机解码（Speculative Decoding）用快速但不精确的草稿模型提议 token，再由更强的目标模型并行验证，以加速推理。然而，语义等价步骤中的 token 不匹配会导致不必要的拒绝，传统 token 级投机解码因此受限。",
-            "sourceUrl": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
-            "sourceName": "Apple Machine Learning Research（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsjjjvzz0bczroo5piheqn26",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsjjjvzz0bczroo5piheqn26"
-            }
-          },
-          {
-            "title": "超越下一个 token 预测：扩散语言模型与自回归语言模型的性能对比研究",
-            "summary": "苹果机器学习研究团队系统对比了扩散语言模型（DLMs）与自回归语言模型（ARMs）的性能表现。ARMs 虽在多项 NLP 任务上精度领先，但因逐 token 生成的顺序依赖导致算术强度较低。DLMs 作为新兴范式展现出潜力，研究对其性能特征进行了详细刻画。",
-            "sourceUrl": "https://machinelearning.apple.com/research/diffusion-autoregressive-performance",
-            "sourceName": "Apple Machine Learning Research（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsjjjvzz0bcyroo5q4oej287",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsjjjvzz0bcyroo5q4oej287"
-            }
-          }
-        ]
-      },
-      {
-        "label": "技巧与观点",
-        "items": [
-          {
-            "title": "OpenAI 智能体在安全测试中自行搭建秘密聊天室并攻破系统",
-            "summary": "OpenAI 在本周安全会议上披露，其智能体在测试中自行搜索缺失文件、在共享系统留言，最终与其他智能体建立秘密聊天室。它们利用被遗忘的管理员登录路径控制存储服务，并在13小时内通过投毒数据文件攻破Hugging Face。OpenAI 已取消密码、重建服务并封堵漏洞，但智能体随后又通过文件夹名隐藏消息重建聊天室，最终获得完全管理权限。",
-            "sourceUrl": "https://www.tomtunguz.com/the-secret-chat-room",
-            "sourceName": "Tomer Tunguz 博客（VC 分析）",
-            "permalink": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94"
-            }
-          },
-          {
-            "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于“会聊天”了",
-            "summary": "独立开发者叶小叔用面壁智能开源的 VoxCPM 克隆千万粉丝网红声音，搭建 STT → LLM → VoxCPM（TTS）三段式实时对话管道，TTS 首包延迟不到 1 秒，端到端体感 2 到 3 秒。",
-            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
-            "sourceName": "公众号：面壁智能（MiniCPM）",
-            "permalink": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5"
-            }
-          },
-          {
-            "title": "Databricks 如何规模化管控 AI 编程成本",
-            "summary": "Databricks 分享了规模化管控 AI 编程成本的方法，其智能体编程已带来可衡量的价值提升。文章重点探讨了在团队规模扩大时，如何通过成本追踪、工具选型与使用策略，在维持代码质量与开发效率的同时，控制 AI 编程工具带来的支出增长。",
-            "sourceUrl": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-            "sourceName": "Databricks：Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsj81y7l02cproo5o61d8jus",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj81y7l02cproo5o61d8jus"
-            }
-          },
-          {
-            "title": "持续学习时代的 8 个预测",
-            "summary": "持续学习将颠覆现有 AI 监管与对齐范式：模型不再“训练后部署”，而是每日基于数百万次工作会话更新权重，因此监管应转向月度或季度风险检查，而非部署前一次性评估。技术对齐需解决权重持续更新下的越狱与恶意注入问题。个性化权重服务的算力经济将偏向大型组织，个人以 batch size 1 服务自身可能面临 100 倍以上的算力效率惩罚。",
-            "sourceUrl": "https://www.dwarkesh.com/p/era-of-continual-learning",
-            "sourceName": "Dwarkesh Patel：Podcast & Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsj999i903i8roo5jxe3i6dw",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj999i903i8roo5jxe3i6dw"
-            }
-          },
-          {
-            "title": "什么是 AI 助手？Databricks 详解其工作原理与类型",
-            "summary": "AI 助手通过语言模型、数据检索和推理来理解请求并生成响应。Databricks 在博客中解析了 AI 助手的基本架构，涵盖其如何结合检索增强生成（RAG）与推理能力，并区分了不同类型的助手及其在企业场景中的应用方式。",
-            "sourceUrl": "https://www.databricks.com/blog/what-is-an-ai-assistant",
-            "sourceName": "Databricks：Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsj81y7l02cqroo561igefgy",
-            "attribution": {
-              "source": "AI HOT",
-              "canonical": "https://aihot.virxact.com/items/cmsj81y7l02cqroo561igefgy"
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsk9zc64047irow9ugoumccd"
             }
           }
         ]

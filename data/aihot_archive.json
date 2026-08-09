@@ -1,8 +1,116 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-08T01:04:42Z",
-  "count": 436,
+  "updated_at": "2026-08-09T01:05:16Z",
+  "count": 443,
   "items": [
+    {
+      "id": "cmskzmhrs03rwrowg146pdv9j",
+      "channel": "aihot",
+      "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
+      "title_en": "",
+      "summary": "OpenAI 更新 ChatGPT 桌面应用，新增对 ChatGPT Voice 的支持，用户可直接通过语音对话控制 AI 智能体并让其在电脑上执行任务。该功能基于全新语音模型系列 ChatGPT-Live，支持 ChatGPT Work 和 Codex，在 macOS 上还可借助 Appshots 访问屏幕内容。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-08T22:46:14.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j",
+      "original_url": "https://www.ithome.com/0/987/452.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmskzmhrs03rwrowg146pdv9j"
+      }
+    },
+    {
+      "id": "cmsklqt1907v8royz2pbppkk1",
+      "channel": "aihot",
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "title_en": "Major upgrade to Grok Imagine image editing",
+      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "published_at": "2026-08-08T16:27:48.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1",
+      "original_url": "https://x.com/elonmusk/status/2086127247077843282",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsklqt1907v8royz2pbppkk1"
+      }
+    },
+    {
+      "id": "cmskiinqk06xiro5ejsx0giz8",
+      "channel": "aihot",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "title_en": "现在，我们已经整理出了OpenAI意外攻击Hugging Face事件的时间线",
+      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-08T14:38:40.439Z",
+      "category": "industry",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8",
+      "original_url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmskiinqk06xiro5ejsx0giz8"
+      }
+    },
+    {
+      "id": "cmskgc07i06srrobyr1cvm25v",
+      "channel": "aihot",
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "title_en": "",
+      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-08T13:38:40.000Z",
+      "category": "industry",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v",
+      "original_url": "https://www.ithome.com/0/987/438.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmskgc07i06srrobyr1cvm25v"
+      }
+    },
+    {
+      "id": "cmsk9yb97046zrow93i345be7",
+      "channel": "aihot",
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+      "title_en": "DeepMind's hurricane model bought forecasters an extra day",
+      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+      "source": "Ars Technica：AI（RSS）",
+      "published_at": "2026-08-08T11:05:50.000Z",
+      "category": "paper",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7",
+      "original_url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsk9yb97046zrow93i345be7"
+      }
+    },
+    {
+      "id": "cmsk5m3kq0ahqro4bn4nh1r6r",
+      "channel": "aihot",
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "title_en": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身了",
+      "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-08T08:25:11.000Z",
+      "category": "ai-products",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r",
+      "original_url": "https://www.ithome.com/0/987/366.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsk5m3kq0ahqro4bn4nh1r6r"
+      }
+    },
     {
       "id": "cmsjnxb670fb2roo56f5b7g4y",
       "channel": "aihot",
@@ -35,7 +143,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjk6eiz0byoroo5cc4bcwg6",
       "original_url": "https://www.ithome.com/0/987/221.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjk6eiz0byoroo5cc4bcwg6"
       }
     },
@@ -53,7 +161,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
       "original_url": "https://x.com/ClaudeDevs/status/2085817074816070014",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl"
       }
     },
@@ -71,7 +179,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws",
       "original_url": "https://blog.cloudflare.com/kitesurf",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjbn0kl058nroo5kq0m0jws"
       }
     },
@@ -89,26 +197,26 @@
       "permalink": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si",
       "original_url": "https://x.com/OpenAI/status/2085801349866729975",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjbn0pq058vroo55qpgw1si"
       }
     },
     {
-      "id": "cmsj8rfkl02ruroo5uvyqiqiq",
+      "id": "cmsjaksyd04hlroo5hdy2qd4i",
       "channel": "aihot",
-      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
-      "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
-      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "published_at": "2026-08-07T17:51:24.888Z",
+      "title": "Claude Code 八月起默认自动模式",
+      "title_en": "Starting August 14， auto mode will be the default permission mode in Claude Code for Pro， Max， and T…",
+      "summary": "自 8 月 14 日起，自动模式将成为 Claude Code 中 Pro、Max 和 Team 用户的默认权限模式。\n\n自动模式使用独立的分类器审查 shell 命令和操作。在测试中，它捕获了 89% 的危险命令。手动审批仅捕获了 14%。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-08-07T18:27:02.000Z",
       "category": "ai-products",
-      "source_score": 76.0,
+      "source_score": 57.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
-      "original_url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "permalink": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i",
+      "original_url": "https://x.com/ClaudeDevs/status/2085794862608318627",
       "attribution": {
-        "source": "AI HOT",
-        "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsjaksyd04hlroo5hdy2qd4i"
       }
     },
     {
@@ -125,7 +233,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
       "original_url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke"
       }
     },
@@ -143,7 +251,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw",
       "original_url": "https://x.com/suno/status/2085731234970227145",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj1zu9421ynronknsiz6vgw"
       }
     },
@@ -161,7 +269,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t",
       "original_url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsiys4dz1yqironkuitnfi7t"
       }
     },
@@ -179,7 +287,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsixbbry1x0qronkhbbjukhr"
       }
     },
@@ -197,7 +305,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk",
       "original_url": "https://x.com/runwayml/status/2085684483366523193",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsiujxlq1u0zronkvvklblwk"
       }
     },
@@ -215,7 +323,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu",
       "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496008&idx=1&sn=08f2ce717483f63bc00a2181e59e3f40",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsiry2eo1r4tronkt9qv2twu"
       }
     },
@@ -233,7 +341,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0",
       "original_url": "https://x.com/krea_ai/status/2085629541385736662",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsimzpmf1ks3ronk4hh1d0z0"
       }
     },
@@ -251,7 +359,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5",
       "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5"
       }
     },
@@ -269,7 +377,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi",
       "original_url": "https://www.ithome.com/0/986/957.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsilvone1jezronk60ahdbgi"
       }
     },
@@ -287,7 +395,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4",
       "original_url": "https://www.ithome.com/0/986/951.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsilvone1jf1ronk6fs8o4d4"
       }
     },
@@ -305,7 +413,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsijqoan1h2qronk7rexfm14"
       }
     },
@@ -323,7 +431,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j",
       "original_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsic9k6j18ghronkd6hbia5j"
       }
     },
@@ -341,7 +449,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsib6211178jronko75alzk2"
       }
     },
@@ -359,7 +467,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94",
       "original_url": "https://www.tomtunguz.com/the-secret-chat-room",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsjlolmo0d0uroo530budv94"
       }
     },
@@ -377,7 +485,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
       "original_url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl"
       }
     },
@@ -395,7 +503,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsi5sy2s1192ronkt3lk2z88",
       "original_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsi5sy2s1192ronkt3lk2z88"
       }
     },
@@ -413,7 +521,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le",
       "original_url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshxocv70ukbronk3p0bh1le"
       }
     },
@@ -431,7 +539,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz",
       "original_url": "https://x.com/AISafetyMemes/status/2085447739320758622",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshx88tn0u50ronkhe4eiunz"
       }
     },
@@ -449,8 +557,26 @@
       "permalink": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03",
       "original_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03"
+      }
+    },
+    {
+      "id": "cmsj8rfkl02ruroo5uvyqiqiq",
+      "channel": "aihot",
+      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
+      "title_en": "Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
+      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "published_at": "2026-08-06T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq",
+      "original_url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsj8rfkl02ruroo5uvyqiqiq"
       }
     },
     {
@@ -467,7 +593,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv",
       "original_url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshnkwhc0l8xronk6qyoqqyv"
       }
     },
@@ -485,7 +611,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr",
       "original_url": "https://x.com/rohanpaul_ai/status/2085368375816163423",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshmizyd0k71ronkfu9jy9lr"
       }
     },
@@ -503,7 +629,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z",
       "original_url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshmiaz00k2zronkzukabc5z"
       }
     },
@@ -521,7 +647,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr",
       "original_url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshkd62s0hgfronku3c71unr"
       }
     },
@@ -539,7 +665,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjzc390h6cronkkgtujtis"
       }
     },
@@ -557,7 +683,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db",
       "original_url": "https://www.theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshkd62s0hggronktiznk5db"
       }
     },
@@ -575,7 +701,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh",
       "original_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh"
       }
     },
@@ -593,7 +719,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb",
       "original_url": "https://x.com/OpenBMB/status/2085350175782949094",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb"
       }
     },
@@ -611,7 +737,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr",
       "original_url": "https://www.ithome.com/0/986/729.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshjall30g5vronk3jwsdnyr"
       }
     },
@@ -629,7 +755,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0",
       "original_url": "https://www.ithome.com/0/986/699.htm",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshh5fi00dsyronkhrkq34l0"
       }
     },
@@ -647,7 +773,7 @@
       "permalink": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m",
       "original_url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmshrwaqs0pmuronkuj6r8o4m"
       }
     },
@@ -665,7 +791,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsh6fjal001mronkgffxycgg",
       "original_url": "https://arxiv.org/abs/2510.01395",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsh6fjal001mronkgffxycgg"
       }
     },
@@ -683,7 +809,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsh5bwo400rjro280qm4x4is",
       "original_url": "https://x.com/alibaba_cloud/status/2085247637734002848",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsh5bwo400rjro280qm4x4is"
       }
     },
@@ -701,7 +827,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr",
       "original_url": "https://www.primeintellect.ai/blog/prime-agent",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr"
       }
     },
@@ -719,7 +845,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn",
       "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509213&idx=1&sn=0ee2b58388d9bdb7f3f087d5197b6f19",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgzooby066proxzvq5fhshn"
       }
     },
@@ -737,7 +863,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y"
       }
     },
@@ -755,7 +881,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0",
       "original_url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0"
       }
     },
@@ -773,7 +899,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsj8x5n2036jroo5ewknk6ra",
       "original_url": "https://arxiv.org/abs/2608.05784",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsj8x5n2036jroo5ewknk6ra"
       }
     },
@@ -791,7 +917,7 @@
       "permalink": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e",
       "original_url": "https://simonwillison.net/2026/Aug/5/incident-report",
       "attribution": {
-        "source": "AI HOT",
+        "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e"
       }
     },
