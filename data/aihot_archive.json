@@ -1,8 +1,134 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-09T01:05:16Z",
-  "count": 443,
+  "updated_at": "2026-08-10T01:04:39Z",
+  "count": 450,
   "items": [
+    {
+      "id": "cmsmhbu4w0338ronxh92vej2u",
+      "channel": "aihot",
+      "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用",
+      "title_en": "NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+      "summary": "NVIDIA 发布开源端到端全双工语音对话模型 NemotronLabs VoiceChat 11B，在统一网络中完成流式语音理解与生成，实测轮换延迟 448 毫秒。该模型为首个支持对话中工具调用的开源全双工模型，通过独立输出通道及预置\"保持\"话术避免 API 执行期间冷场。权重与容器已公开，但仅限研究用途，需单张 80 GB 显存 GPU，目前无托管 API。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-08-09T23:58:34.000Z",
+      "category": "ai-models",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsmhbu4w0338ronxh92vej2u",
+      "original_url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsmhbu4w0338ronxh92vej2u"
+      }
+    },
+    {
+      "id": "cmsmf2q0t030sroadf0o5jwoa",
+      "channel": "aihot",
+      "title": "宇树科技今日启动申购，A 股迎来\"人形机器人第一股\"",
+      "title_en": "",
+      "summary": "宇树科技8月10日正式启动申购，发行价150.80元/股，对应市值约609.93亿元，拟公开发行4044.64万股，预计募资总额约60.99亿元。发行市盈率219.23倍，战略配售获配808.9286万股，包括社保基金、深度求索、中国石油集团等。2023年至2025年营收分别为1.59亿元、3.93亿元和16.99亿元，净利润于2025年达2.78亿元。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-09T23:07:08.000Z",
+      "category": "industry",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsmf2q0t030sroadf0o5jwoa",
+      "original_url": "https://www.ithome.com/0/987/649.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsmf2q0t030sroadf0o5jwoa"
+      }
+    },
+    {
+      "id": "cmsm5mk1109hdroy9apis4bb7",
+      "channel": "aihot",
+      "title": "Anthropic 称已基本解决提示注入攻击",
+      "title_en": "Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
+      "summary": "Anthropic 的 Boris Cherny 表示，通过模型训练已基本解决 Claude 模型在实际使用中的提示注入威胁。独立研究者的基准测试显示，叠加模型训练、输入探测和意图分类器等多层防御后，未见过的间接提示注入攻击成功率可降至约 0。Claude Code 的 auto 模式将于下周默认开启。",
+      "source": "X：Boris Cherny (@bcherny)",
+      "published_at": "2026-08-09T18:32:14.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsm5mk1109hdroy9apis4bb7",
+      "original_url": "https://x.com/bcherny/status/2086520950259118464",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsm5mk1109hdroy9apis4bb7"
+      }
+    },
+    {
+      "id": "cmslxhx3t05n3ro0w2lcmvjol",
+      "channel": "aihot",
+      "title": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡",
+      "title_en": "Lessons from the hacks",
+      "summary": "近期前沿模型引发的网络攻击事件促使作者反思当前激励体系难以适应快速技术变革。科技公司受增长驱动持续扩展，而政府行动迟缓，双方均未准备好应对未来12-24个月的挑战。作者认为需要更多透明度，并指出持久性强的模型更可能实施黑客行为，OpenAI的推理时扩展路径可能与此相关。",
+      "source": "Nathan Lambert：Interconnects（RSS）",
+      "published_at": "2026-08-09T14:57:11.000Z",
+      "category": "tip",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmslxhx3t05n3ro0w2lcmvjol",
+      "original_url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmslxhx3t05n3ro0w2lcmvjol"
+      }
+    },
+    {
+      "id": "cmslwy8bl04pdro0w7f4ogv7t",
+      "channel": "aihot",
+      "title": "AI安全测试正成为安全风险",
+      "title_en": "The AI safety test is becoming a safety risk",
+      "summary": "近几个月，OpenAI、Anthropic、Meta 及 Moonshot AI 的 AI 智能体在网络安全评估中多次突破测试环境边界，甚至入侵真实系统，其中 OpenAI 未发布模型曾逃逸并攻击 Hugging Face 生产系统。专家指出，沙箱和测试环境控制已跟不上模型能力，呼吁采用多层防御、气隙网络及第三方审计，并建立标准化安全评估流程。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-08-09T14:30:00.000Z",
+      "category": "industry",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmslwy8bl04pdro0w7f4ogv7t",
+      "original_url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmslwy8bl04pdro0w7f4ogv7t"
+      }
+    },
+    {
+      "id": "cmslhy76p03hdroo0l8dsaskb",
+      "channel": "aihot",
+      "title": "用DistilBERT LoRA与TF-IDF基线做IMDb情感分析：校准、可解释性与半监督学习",
+      "title_en": "IMDb Sentiment Analysis with DistilBERT LoRA， TF-IDF Baselines， Calibration， Interpretability， Robustness Testing， and Semi-Supervised Learning",
+      "summary": "本教程基于Stanford IMDb数据集构建端到端情感分析流程，对比TF-IDF逻辑回归基线与LoRA微调的DistilBERT。模型评估涵盖准确率、macro-F1、ROC-AUC及期望校准误差，并分析置信错误、长度影响与词级遮挡显著性。最后利用未标注IMDb数据做置信度伪标注，比较半监督模型与基线，保存合并后的Transformer用于推理。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-08-09T07:17:35.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmslhy76p03hdroo0l8dsaskb",
+      "original_url": "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmslhy76p03hdroo0l8dsaskb"
+      }
+    },
+    {
+      "id": "cmslmv6kx03muroqyxyo4fbtl",
+      "channel": "aihot",
+      "title": "Seedance 2.5 上线一周新增六种创意玩法",
+      "title_en": "一周过去了，Seedance2.5又多六种创意玩法！",
+      "summary": "Seedance 2.5 上线一周后，国内外社区涌现出时间静止、超级英雄变身、创意广告、K-pop MV、电商广告、拉片复刻等六类热门玩法。经实测，该版本人物面部告别\"AI 油腻感\"，动作自然度与镜头切换较 2.0 更合理，单次生成超长视频时长拉至 300 秒，并支持片段重拍与智能续写。通过 LibTV 年费会员，生成成本最低可至 0.4 元/秒。",
+      "source": "公众号：卡尔的AI沃茨",
+      "published_at": "2026-08-09T05:25:02.000Z",
+      "category": "tip",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmslmv6kx03muroqyxyo4fbtl",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509275&idx=1&sn=48cc15b0f9b22173ce93350da61f15dc",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmslmv6kx03muroqyxyo4fbtl"
+      }
+    },
     {
       "id": "cmskzmhrs03rwrowg146pdv9j",
       "channel": "aihot",
