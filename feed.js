@@ -1,178 +1,140 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-08-12",
- "total": 1246,
- "source_count": 58,
+ "updated": "2026-08-16",
+ "total": 1006,
+ "source_count": 56,
  "score_min": 60,
  "by_cat": {
   "brand-retail": [
    {
-    "t": "Ferguson完成5笔收购 Q2销售增4.6%",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/08/11/ferguson-completes-5-acquisitions-sales-q2-fy26/",
-    "d": "2026-08-11",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "CeraVe借家装梗推防晒，瞄准Z世代",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/cerave-tackles-tanmaxxing-in-social-series-to-pitch-gen-z-on-spf/827365/",
-    "d": "2026-08-11",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Rhone CMO谈服装品牌营销转折点",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/rhone-cmo-on-marketing-at-an-inflection-point-for-the-apparel-brand/827382/",
-    "d": "2026-08-11",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "ShopifyQL开放Shop Campaigns绩效数据查询",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/shop-campaigns-shopifyql",
-    "d": "2026-08-10",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "健康领域并购热潮不减，宝洁38亿美元收购Thorne",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/wellness/the-wellness-ma-hot-streak-shows-no-signs-of-slowing-down/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-11",
-    "p": "P1",
-    "m": "US",
-    "score": 73
-   },
-   {
-    "t": "Ulta Beauty押注头皮护理市场，引入高端品牌Nutrire",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/ulta-beauty-bets-on-the-growing-scalp-care-market-with-prestige-hair-care-brand-nutrire/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-10",
+    "t": "私募股权利弊：Tubby Todd从DTC转战Target",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/the-pros-and-cons-of-taking-on-private-equity/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-15",
     "p": "P1",
     "m": "US",
     "score": 74
-   }
-  ],
-  "compliance-fulfillment": [
+   },
    {
-    "t": "Shopify托管市场将终止DDU支持",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/managed-markets-is-ending-delivered-duty-unpaid-ddu-support",
-    "d": "2026-08-11",
+    "t": "家得宝旗下SRS收购Lohmiller扩HVAC分销",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/08/14/home-depot-srs-hvac-lohmiller-acquisition/",
+    "d": "2026-08-14",
     "p": "P1",
+    "m": "US",
+    "score": 64
+   },
+   {
+    "t": "Instagram十年首换标识，全新字标更简洁",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/08/14/instagram-rebrand-wordmark-script-2026/",
+    "d": "2026-08-14",
+    "p": "P1",
+    "m": "US",
+    "score": 64
+   },
+   {
+    "t": "宝格丽七夕营销：从教导者到倡导者",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/478543",
+    "d": "2026-08-16",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
+   },
+   {
+    "t": "Fabletics全球拓店暂避中国市场，目标五年营收20亿美元",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/478479",
+    "d": "2026-08-16",
+    "p": "P2",
+    "m": "US",
+    "score": 49
+   },
+   {
+    "t": "SSTR：钻井减阻品牌网站设计",
+    "s": "Awwwards",
+    "u": "https://www.awwwards.com/sites/sstr-friction-reduction",
+    "d": "2026-08-16",
+    "p": "P2",
     "m": "GLOBAL",
-    "score": 79
+    "score": 49
    }
   ],
   "market-product": [
    {
-    "t": "Saks关店后，Simon租金收入或翻倍",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/simon-poised-millions-more-rent-saks-global-store-closures/827556/",
-    "d": "2026-08-11",
+    "t": "Chime考虑在其消费者应用中支持稳定币",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/chime-considers-adding-stablecoin-support-to-its-consumer-app/",
+    "d": "2026-08-14",
     "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "美国零售商为假日季提前囤货",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/retailers-stocked-up-holiday-season-imports/827437/",
-    "d": "2026-08-10",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "政府提前叫停虚假折扣与订阅陷阱",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/08/government-brings-forward-ending-fake-discounts-and-subscription-traps/",
-    "d": "2026-08-10",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "冻酸奶复兴:16 Handles等品牌借社媒回春",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/whats-driving-frozen-yogurts-second-act-as-16-handles-and-go-greek-experience-a-renaissance/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-10",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Hasbro借Kylie播客回归，瞄准千禧妈妈",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/mummy-pig-returns-to-kylie-kelces-podcast-as-hasbro-aims-for-millennial-moms/",
-    "d": "2026-08-11",
-    "p": "P2",
     "m": "US",
     "score": 66
+   },
+   {
+    "t": "2026假日购物五大预测",
+    "s": "Practical Ecommerce",
+    "u": "https://www.practicalecommerce.com/5-predictions-for-2026-holiday-shopping",
+    "d": "2026-08-16",
+    "p": "P2",
+    "m": "US",
+    "score": 56
+   },
+   {
+    "t": "WPP吹哨人案新指控：索尼调查发现回扣欺诈",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/agencies/exclusive-new-claims-in-wpp-whistleblower-suit-allege-sony-probe-found-rebate-fraud/",
+    "d": "2026-08-14",
+    "p": "P2",
+    "m": "US",
+    "score": 51
+   },
+   {
+    "t": "英国时装协会新活动落地Westfield",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/westfield-named-the-retail-home-of-the-british-fashion-councils-latest-campaign/",
+    "d": "2026-08-16",
+    "p": "P3",
+    "m": "UK",
+    "score": 46
+   },
+   {
+    "t": "别怪Z世代：Instagram新logo争议背后",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/design/logos-icons/no-gen-z-isnt-to-blame-for-instagrams-controversial-new-logo",
+    "d": "2026-08-15",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 44
    }
   ],
   "platform-channel": [
    {
-    "t": "Shopify POS 收据编辑器升级：统一管理多类型收据",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/enhanced-printed-receipt-editor",
-    "d": "2026-08-11",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "eBay国际运输服务问答详解",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/08/ebay-qa-on-ebay-international-shipping/",
-    "d": "2026-08-10",
+    "t": "GameStop CEO 瑞安·科恩：本周零售失手",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/ryan-cohen-the-robin-report-retail-miss-of-the-week-8-15-26/",
+    "d": "2026-08-15",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 64
    },
    {
-    "t": "品牌争设TikTok Shop主管，社交电商战略升温",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/brands-briefing-more-brands-are-on-the-hunt-for-a-head-of-tiktok-shop-as-they-try-to-define-a-social-commerce-strategy/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-11",
+    "t": "克罗格任命沃尔玛与Jet.com背景新高管掌电商",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/08/14/kroger-names-new-head-of-ecommerce/",
+    "d": "2026-08-14",
     "p": "P1",
-    "m": "CN",
-    "score": 69
+    "m": "US",
+    "score": 64
    },
    {
-    "t": "苹果支付负责人贝利将退休",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/apple/apple-pay-tracker/2026/jennifer-bailey-to-retire-after-leading-apple-pay-since-2014-launch/",
-    "d": "2026-08-12",
+    "t": "AI版Bama Rush女孩穿‘不存在’Nike鞋走红",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-features/ai-bama-rushtok-nike-sneakers-1239125514/",
+    "d": "2026-08-14",
     "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "谷歌广告3个AI提示词技巧",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/3-ai-prompts-for-google-ads",
-    "d": "2026-08-11",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "TMX与Optio达成技术合作",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110622/tmx-investor-solutions-agrees-tech-collaboration-with-optio-incentives?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-08-11",
-    "p": "P1",
     "m": "GLOBAL",
-    "score": 62
+    "score": 61
    }
   ]
  }
