@@ -1,8 +1,206 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-16T16:32:46Z",
-  "count": 533,
+  "updated_at": "2026-08-18T01:04:32Z",
+  "count": 545,
   "items": [
+    {
+      "id": "cmsxwd7a40coxroz06g25sfaf",
+      "channel": "aihot",
+      "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
+      "title_en": "一个极度实用的深度思考Prompt，帮你挖出最本质的答案。",
+      "summary": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-08-17T23:58:00.000Z",
+      "category": "tip",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsxwd7a40coxroz06g25sfaf",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxwd7a40coxroz06g25sfaf"
+      }
+    },
+    {
+      "id": "cmsxv0p3v0bntroz0227a6b3j",
+      "channel": "aihot",
+      "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+      "title_en": "Build zero-trust AI agents with Google's Agent Development Kit",
+      "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
+      "source": "Google Developers Blog（RSS）",
+      "published_at": "2026-08-17T23:22:25.902Z",
+      "category": "tip",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j",
+      "original_url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j"
+      }
+    },
+    {
+      "id": "cmsxsvb5s0a4troz0z2q2nu3h",
+      "channel": "aihot",
+      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+      "title_en": "Cursor 推出 Origin，作为 GitHub 的替代方案",
+      "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-17T22:14:00.748Z",
+      "category": "ai-products",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+      "original_url": "https://cursor.com/changelog/origin-code-hosting",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
+      }
+    },
+    {
+      "id": "cmsxld6es03o8roz0jblf3ii9",
+      "channel": "aihot",
+      "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+      "title_en": "我们追踪了一批珍本图书的运输过程。最终，这些书被送到了亚马逊的一处人工智能训练中心",
+      "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-17T18:46:04.518Z",
+      "category": "industry",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9",
+      "original_url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
+      }
+    },
+    {
+      "id": "cmsxkakju0300roz0zx6cvdeu",
+      "channel": "aihot",
+      "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+      "title_en": "如何禁用或避免侵入式人工智能",
+      "summary": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-17T17:58:12.144Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu",
+      "original_url": "https://www.librarian.net/notoai",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu"
+      }
+    },
+    {
+      "id": "cmsx8zij405t2rommm4gwgzjh",
+      "channel": "aihot",
+      "title": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
+      "title_en": "https://x.com/i/article/2089330332369588224",
+      "summary": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总机会约6000亿美元。",
+      "source": "X：Jensen Huang (@JensenHuang)",
+      "published_at": "2026-08-17T12:40:19.000Z",
+      "category": "industry",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsx8zij405t2rommm4gwgzjh",
+      "original_url": "https://x.com/JensenHuang/status/2089331487342829862",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsx8zij405t2rommm4gwgzjh"
+      }
+    },
+    {
+      "id": "cmsx9jvre05y6romms3bo1umb",
+      "channel": "aihot",
+      "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+      "title_en": "Securing the Infrastructure of Intelligence",
+      "summary": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+      "source": "NVIDIA Blog（RSS）",
+      "published_at": "2026-08-17T12:34:51.000Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb",
+      "original_url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb"
+      }
+    },
+    {
+      "id": "cmsx9jy2a05yerommy1e0jc6t",
+      "channel": "aihot",
+      "title": "A 股迎来\"人形机器人第一股\"，宇树科技官宣 8 月 19 日科创板上市",
+      "title_en": "",
+      "summary": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通用机器人公司。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-17T12:25:27.000Z",
+      "category": "industry",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t",
+      "original_url": "https://www.ithome.com/0/990/812.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t"
+      }
+    },
+    {
+      "id": "cmsx9696t05u7rommdoa60l4p",
+      "channel": "aihot",
+      "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+      "title_en": "The Defender's Window",
+      "summary": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-08-17T05:30:00.000Z",
+      "category": "tip",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p",
+      "original_url": "https://openai.com/index/the-defenders-window",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p"
+      }
+    },
+    {
+      "id": "cmsx7ffrz049uromm6en3if02",
+      "channel": "aihot",
+      "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
+      "title_en": "Understand your AI usage： every agent， model， and request",
+      "summary": "OpenRouter 发布 Activity 仪表盘和 beta Analytics API，可按智能体、模型、请求维度查看支出、token 量、缓存命中率等指标，并支持下钻至单条请求日志。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-08-17T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02",
+      "original_url": "https://openrouter.ai/blog/announcements/activity-dashboard",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02"
+      }
+    },
+    {
+      "id": "cmswesk6a0r2hrovml2edcl2c",
+      "channel": "aihot",
+      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+      "title_en": "Qwen 3.8 27B is excellent， but it defaults to wildly overthinking things",
+      "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
+      "source": "Simon Willison 博客",
+      "published_at": "2026-08-16T22:00:39.000Z",
+      "category": "tip",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c",
+      "original_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c"
+      }
+    },
     {
       "id": "cmsvptx2m061frovmjoavsi0l",
       "channel": "aihot",
@@ -145,6 +343,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88"
+      }
+    },
+    {
+      "id": "cmswlcuwb0wcyrovmfccplna7",
+      "channel": "aihot",
+      "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+      "title_en": "GLM-5.3：前沿编程能力与涌现的网络安全能力",
+      "summary": "智谱发布GLM-5.3，基于与GLM-5.2相同的基座，通过极致后训练Scaling提升智能上界，编程能力较前代提升50%，在Terminal Bench 3.0等公开基准中取得开源第一。模型在白盒代码审查等安全任务中表现持平Mythos 5，并在CyberGym测试中得分84.5%。GLM-5.3即日起上线ZCode、AutoClaw等工具，API很快上线，完整模型权重将在两周内开源。",
+      "source": "智谱：研究（网页内嵌数据）",
+      "published_at": "2026-08-14T06:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmswlcuwb0wcyrovmfccplna7",
+      "original_url": "https://www.zhipuai.cn/zh/research/162",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmswlcuwb0wcyrovmfccplna7"
       }
     },
     {
