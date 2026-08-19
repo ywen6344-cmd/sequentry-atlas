@@ -3,11 +3,173 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-8b51ac97c786914d",
-  "fetched_at": "2026-08-18T01:04:32Z",
+  "fingerprint": "f1-635bdac1f97d55ed",
+  "fetched_at": "2026-08-19T01:03:59Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmsz8gh3n06e4rodpl8l2syek",
+      "channel": "aihot",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "title_en": "How Claude is accelerating protein design and analytical chemistry",
+      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-08-18T22:27:16.191Z",
+      "category": "paper",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+      "original_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
+      }
+    },
+    {
+      "id": "cmsz79zol04j8rodpvun6zobl",
+      "channel": "aihot",
+      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "title_en": "Mojo 现已开源！",
+      "summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-18T21:26:01.095Z",
+      "category": "ai-products",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl",
+      "original_url": "https://www.modular.com/blog/mojo-open-source",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl"
+      }
+    },
+    {
+      "id": "cmsz49ptt022qrodp5mc1nt1x",
+      "channel": "aihot",
+      "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+      "title_en": "Claude can now send emails in Gmail and manage files in Google Drive. Ask Claude to reply to a thre…",
+      "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。\n\n让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。\n\n从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。",
+      "source": "X：Claude (@claudeai)",
+      "published_at": "2026-08-18T20:06:01.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz49ptt022qrodp5mc1nt1x",
+      "original_url": "https://x.com/claudeai/status/2089806039088517356",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz49ptt022qrodp5mc1nt1x"
+      }
+    },
+    {
+      "id": "cmsz1zjiy013pro3f1e0aafra",
+      "channel": "aihot",
+      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+      "title_en": "Claude on call： How Claude Tag serves as Anthropic's first responder for CI/CD failures",
+      "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-08-18T19:26:08.389Z",
+      "category": "tip",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra",
+      "original_url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra"
+      }
+    },
+    {
+      "id": "cmsz1974l06hbro20gosn5d78",
+      "channel": "aihot",
+      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+      "title_en": "How Much Memory Does Your Agent Actually Need？",
+      "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-08-18T18:09:38.000Z",
+      "category": "paper",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78",
+      "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78"
+      }
+    },
+    {
+      "id": "cmsz0hbsg05l0ro204080cotv",
+      "channel": "aihot",
+      "title": "OpenAI 在\"关键网络能力\"时代放缓模型开发节奏",
+      "title_en": "Pacing model development in an era of cyber-critical capabilities",
+      "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的\"关键网络安全能力\"阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
+      "original_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv"
+      }
+    },
+    {
+      "id": "cmsykcnkt0yh1roz0a9h404r5",
+      "channel": "aihot",
+      "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+      "title_en": "Introducing ChatGPT for Teens： Built for learning， backed by protections",
+      "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户自动启用，内置更强安全保护与家长控制。新增 Study Mode、负责任作业提醒、测验与学习可视化，以及可设定默认开启时段的 Study Hours，引导青少年分步解题而非直接给答案。OpenAI 同时宣布与 CodeAI 合作，帮助青少年理解、质疑并创造性地使用 AI。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5",
+      "original_url": "https://openai.com/index/chatgpt-for-teens",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5"
+      }
+    },
+    {
+      "id": "cmsycmgww0rkrroz0nfma0z05",
+      "channel": "aihot",
+      "title": "设计 AI 评测：先求清晰，再谈可视化",
+      "title_en": "Designing AI Evals： Clarity Now and Visualization Next",
+      "summary": "本文演示如何用开源评测框架 Inspect AI 和 Harbor 评估 agent 技能，并借助 Google Sheets 和 Data Studio 进行可视化分析。",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "category": "tip",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05",
+      "original_url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05"
+      }
+    },
+    {
+      "id": "cmsyqip4o14umroz0ch5iv0iv",
+      "channel": "aihot",
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "title_en": "Multi-Vector （Late Interaction） Embedding Models with Sentence Transformers",
+      "summary": "Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，可直接加载 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，用于 ColBERT 式晚期交互检索。",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-08-18T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv",
+      "original_url": "https://huggingface.co/blog/multi-vector-encoder",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv"
+      }
+    },
     {
       "id": "cmsxwd7a40coxroz06g25sfaf",
       "channel": "aihot",
@@ -153,6 +315,24 @@
       }
     },
     {
+      "id": "cmsy8afig0mvmroz0gb3hz0iq",
+      "channel": "aihot",
+      "title": "inclusionAI 开源 ConceptEdit：基于概念缩放与密集监督的图像编辑数据生成管线",
+      "title_en": "inclusionAI/ConceptEdit",
+      "summary": "蚂蚁集团 inclusionAI 开源 ConceptEdit，一个基于概念缩放与密集监督的图像编辑数据生成管线。该管线通过三阶段流程（VLM 生成指令、FLUX 执行编辑、VQA 评估筛选）构建大规模、基于分类法的图像编辑数据集，并提供单概念与多概念两种变体。项目采用 MIT 许可证，支持断点续跑，需 OpenAI 兼容 VLM 端点与本地 FLUX 检查点。",
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "published_at": "2026-08-17T07:22:08.000Z",
+      "category": "ai-products",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsy8afig0mvmroz0gb3hz0iq",
+      "original_url": "https://github.com/inclusionAI/ConceptEdit",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsy8afig0mvmroz0gb3hz0iq"
+      }
+    },
+    {
       "id": "cmsx9696t05u7rommdoa60l4p",
       "channel": "aihot",
       "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
@@ -258,6 +438,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v"
+      }
+    },
+    {
+      "id": "cmsyhyrd60wg3roz03o05ne6l",
+      "channel": "aihot",
+      "title": "MOSS-VL技术报告：将实时交互作为一等能力的开源视觉语言模型家族",
+      "title_en": "MOSS-VL Technical Report",
+      "summary": "MOSS-VL是一个将实时交互（边感知边说话）作为一等能力的开源视觉语言模型家族，通过门控交叉注意力让语言解码器在生成时同步处理视觉输入。MOSS-VL-Realtime在四个流式基准中平均成绩居开源模型之首（三项第一、一项第二），在OmniMMI Proactive Alerting上以66.0分大幅领先最佳基线（37.5分）。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-08-15T00:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsyhyrd60wg3roz03o05ne6l",
+      "original_url": "https://arxiv.org/abs/2608.15045",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsyhyrd60wg3roz03o05ne6l"
       }
     },
     {
@@ -709,209 +907,54 @@
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj"
       }
-    },
-    {
-      "id": "cmsrramim02jero0nte55cfgi",
-      "channel": "aihot",
-      "title": "MiniMax Music 3.0 发布：新一代开源权重、生产级全能音乐模型",
-      "title_en": "MiniMax Music 3.0： Next-Generation Open-Weights， Production-Ready & Versatile Music Model",
-      "summary": "MiniMax 推出 Music 3.0，新一代音乐生成模型，可根据创意概念和可选歌词一次性完成整首歌的作曲、编曲、演奏与制作，最长支持五分钟。",
-      "source": "MiniMax：Blog（网页）",
-      "published_at": "2026-08-12T16:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 63.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsrramim02jero0nte55cfgi",
-      "original_url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsrramim02jero0nte55cfgi"
-      }
-    },
-    {
-      "id": "cmsq5saxh051mro2e90h10exo",
-      "channel": "aihot",
-      "title": "我写了一本 AI 教科书--AI 还要多久才能写得更好？",
-      "title_en": "I wrote an AI textbook - how long until AI can do it better？",
-      "summary": "作者在完成一本 RLHF 教科书后反思，LLM 在长文非虚构写作上进展停滞，GPT 4.5 和 Kimi K2 等写作强模型已显老旧，而编码、数学等任务已接近超人水平。模型能改错字、做编辑，但组织整章内容时仍混乱且易出错，作者认为这阻碍了模型自主解决开放科学问题。",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "published_at": "2026-08-12T13:01:16.000Z",
-      "category": "tip",
-      "source_score": 62.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo",
-      "original_url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsq5saxh051mro2e90h10exo"
-      }
-    },
-    {
-      "id": "cmsq1hwsb02norobuzbw8cdcc",
-      "channel": "aihot",
-      "title": "Meta 开源 Muse Glimmer 登陆 OpenRouter",
-      "title_en": "The first open-weights model from @AIatMeta Superintelligence Labs， Muse Glimmer is live on OpenRout…",
-      "summary": "Meta AI 超级智能实验室的首个开放权重模型 Muse Glimmer 已在 OpenRouter 上线！\n\n这是一款 30B 密集文本+图像模型，采用 Apache 2.0 许可证，旨在成为可靠的本地智能体，MCP Atlas 得分 75.5，SWE-Bench Pro 得分 51.2。\n\nhttps://openrouter.ai/meta/muse-glimmer-30b",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "published_at": "2026-08-12T12:00:18.000Z",
-      "category": "ai-products",
-      "source_score": 72.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsq1hwsb02norobuzbw8cdcc",
-      "original_url": "https://x.com/OpenRouter/status/2087509478480765218",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsq1hwsb02norobuzbw8cdcc"
-      }
-    },
-    {
-      "id": "cmspr6h6s01hero4hjcdf95mw",
-      "channel": "aihot",
-      "title": "LTX-2.5 模型登场：AI 生成 10 秒 720P 视频仅需 6.8 秒，原生集成 ComfyUI",
-      "title_en": "",
-      "summary": "LTX 推出 LTX-2.5 模型，原生集成 ComfyUI，在 2 张英伟达 GB200 配置下生成 10 秒 720P 视频仅需 6.8 秒。LTX-2.5 Fast 以每秒 0.09 美元生成带音频 720p 视频，10 秒片段成本 0.90 美元；年度经常性收入低于 1，000 万美元的组织可免费使用。",
-      "source": "IT之家（RSS）",
-      "published_at": "2026-08-12T06:46:51.000Z",
-      "category": "ai-models",
-      "source_score": 71.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmspr6h6s01hero4hjcdf95mw",
-      "original_url": "https://www.ithome.com/0/988/766.htm",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmspr6h6s01hero4hjcdf95mw"
-      }
-    },
-    {
-      "id": "cmspo193n05q2rojeue8j2k5a",
-      "channel": "aihot",
-      "title": "Research Gold 号称\"100%人类撰写、绝不使用AI\"，实则全程由AI驱动",
-      "title_en": "一家声称提供\"100%由人类撰写、绝不使用AI\"的医学研究的公司，其实100%由AI驱动",
-      "summary": "面向医学研究者的网站 Research Gold 宣称其服务\"100%由人类撰写、绝不使用AI\"，并列出多名博士审稿人。但调查发现，这些审稿人系AI生成、并不存在；部分真实方法学家的身份和照片未经许可被挪用。致电该公司时，自称\"Sarah\"的AI助手坚称自己是真人，邮件与聊天回复也均为AI生成。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-08-12T05:41:30.137Z",
-      "category": "industry",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmspo193n05q2rojeue8j2k5a",
-      "original_url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmspo193n05q2rojeue8j2k5a"
-      }
-    },
-    {
-      "id": "cmspc30un0e4xrorts1kax9zg",
-      "channel": "aihot",
-      "title": "零基础用户半天上手AI的12步实操流程",
-      "title_en": "我们经常会感觉，AI已经这么火了，可是在我日常中，跟很多别的行业的朋友们聊，大家总是会天然的觉得，用AI，是一件很难的事情。 有很多人，不敢开始。 包括其实我日常被问的最多的问题，也是类似的： 卡老师，我想学AI、用AI，我要怎么开始。 所以呢，我今天就想写一个非常非常初级的小流程，如果你想用好AI，你就按着一步一步做，不仅可以入门，也基本有了最核心的心法。 1. 首先，你需要一台电脑，Mac最好，Windows也可以，内存不要低于16个G，你一定需要一台电脑，这个是我们用好AI的前提。 2. 如果你能使用海外产品，Google搜索ChatGPT，然后注册账号，冲一个月20美金的订阅费用，再在官网上，下载Codex，然后安装。 3. 如果你不能使用海外产品，百度搜索WorkBuddy，下载然后登录，可以先不充会员，记得嫖一下积分。 4. 在Codex中把模型选择为GPT-5.6 Sol最高，在WorkBuddy中选Kimi K3。 5. 下载一个语音输入法，Mac可以使用豆包输入法，Windows可以使用微信输入法，从此以后，你跟AI发送消息的时候，就不要再打字了，直接用嘴进行表达。 6. 把你脑海中你现在最头疼、最不想干、最抗拒的事情，一股脑的用语音输入法说给AI，记得用【背景、痛点、需求】的框架来去说，然后再附上一句，\"请你先不要开始干活，用苏格拉底提问法向我提问，一次只问一个问题，直到你认为已经完全理解这件事。\" 7. 回答AI跟你提出的问题。 8. 等AI跟你问的差不多了，输出了一个最终方案的时候，把你跟这个事情相关的所有文件，比如文档、表格、PPT、参考资料啥的，放在一个新建的文件夹里，扔给AI，然后说，\"这是我的所有的文件，请你帮我直接完成吧，遇到必须由我决定的地方，再停下来问我。\" 9. 调整AI给你的结果，千万别觉得AI不行然后就自己去干了，告诉AI，哪里不对，让它去调整，如果你说不出来，也可以说\"我现在讲不出来具体原因，但我就是不喜欢，请你对比几个方向，一次问我一个问题，帮我把判断标准找出来。\" 10. 大概2~3轮，你的这个最不想做的事，AI大概率就替你做完了。 11. 跟AI说，帮我把刚才的整个过程和这个事情，做成一个可以供我反复使用的Skill，以后，类似的事情，你就可以用AI自动化了。 12. 从此以后，遇到不想干的，扔给AI，提供你的文件和【背景、痛点、需求】，让AI帮你完成，同时沉淀成Skill。 好了。 现在，只需要半天时间，你已经学会使用AI了。 没错，就是如此简单。",
-      "summary": "文章给出一套零基础用户半天上手AI的12步实操流程：准备内存不低于16G的电脑，订阅ChatGPT并安装Codex或使用WorkBuddy，用语音输入法以【背景、痛点、需求】框架向AI交代任务，经苏格拉底提问澄清需求后投喂文件让AI直接完成，最后沉淀为可复用Skill。文中建议Codex选GPT-5.6 Sol最高模型，WorkBuddy选Kimi K3。",
-      "source": "公众号：数字生命卡兹克",
-      "published_at": "2026-08-12T00:08:00.000Z",
-      "category": "tip",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmspc30un0e4xrorts1kax9zg",
-      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685084&idx=1&sn=0899296dbc140eeb745f7a99f9d5ed9c",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmspc30un0e4xrorts1kax9zg"
-      }
-    },
-    {
-      "id": "cmsqf39o0015groxvnc7oiwop",
-      "channel": "aihot",
-      "title": "Cursor 与 SpaceXAI 联合发布 Grok 4.6",
-      "title_en": "Introducing Grok 4.6",
-      "summary": "Cursor 与 SpaceXAI 今日发布 Grok 4.6，重点强化长时运行智能体与交互式视觉任务，在多项智能体编程与知识工作基准上达到前沿水平，并在 Artificial Analysis Intelligence Index 上追平 GPT-5.6 Sol。",
-      "source": "Cursor Blog",
-      "published_at": "2026-08-12T00:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsqf39o0015groxvnc7oiwop",
-      "original_url": "https://cursor.com/blog/grok-4-6",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsqf39o0015groxvnc7oiwop"
-      }
-    },
-    {
-      "id": "cmsqabu0f001krouc6sfhic2d",
-      "channel": "aihot",
-      "title": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
-      "title_en": "Introducing Grok 4.6",
-      "summary": "xAI 今日发布 Grok 4.6，在 Grok 4.5 基础上重点强化长时运行智能体及更复杂的交互式与视觉工作能力。该模型在多项智能体编码与知识工作基准上达到前沿水平，在 Artificial Analysis Intelligence Index（九项基准综合分）上追平 GPT-5.6 Sol。",
-      "source": "xAI：News（网页）",
-      "published_at": "2026-08-12T00:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 77.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsqabu0f001krouc6sfhic2d",
-      "original_url": "https://x.ai/news/grok-4-6",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsqabu0f001krouc6sfhic2d"
-      }
-    },
-    {
-      "id": "cmsq9h6gs01x5ronde8fdla7e",
-      "channel": "aihot",
-      "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
-      "title_en": "Live Web Search Benchmarks： Pick the Right Engine， Depth， and Model for Your Agent",
-      "summary": "OpenRouter 发布实时排行榜，系统评测模型、搜索引擎、搜索方法与预算四类配置组合。数据显示，将搜索预算从 1 轮增至 25 轮可使 BrowseComp 得分近乎翻倍，成本仅增 2.5-7 倍；模型选择比引擎更重要，平均分差 15 分 vs 10 分。失败率高的任务应降低搜索深度以控制成本。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "published_at": "2026-08-12T00:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsq9h6gs01x5ronde8fdla7e",
-      "original_url": "https://openrouter.ai/blog/announcements/web-search-benchmark",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsq9h6gs01x5ronde8fdla7e"
-      }
-    },
-    {
-      "id": "cmsp3o23e04vnrortt7twvx4v",
-      "channel": "aihot",
-      "title": "Mojo 1.0 正式发布：为生态系统增长提供稳定基础",
-      "title_en": "Mojo 1.0",
-      "summary": "Mojo 语言正式发布 1.0 版本，提供稳定、可用于生产环境的语言基础，自 2023 年首次发布以来已发展成通用语言。自开源标准库以来，近 200 名贡献者合入超 1，100 个拉取请求，改动超 200，000 行代码。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-08-11T19:52:14.184Z",
-      "category": "ai-products",
-      "source_score": 73.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsp3o23e04vnrortt7twvx4v",
-      "original_url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsp3o23e04vnrortt7twvx4v"
-      }
-    },
-    {
-      "id": "cmsp2lgxo03xjrortthctedzu",
-      "channel": "aihot",
-      "title": "ChatGPT 与 Gemini 双双突破 10 亿用户",
-      "title_en": "ChatGPT and Gemini both just passed 1 billion users",
-      "summary": "OpenAI 与 Google 的聊天机器人均跨过 10 亿用户门槛。OpenAI 在 8 月 6 日的博文中披露 ChatGPT 月活用户超 10 亿，Google CEO 皮查伊则宣布 Gemini 月活达 10 亿，成为其史上增长最快的产品。OpenAI 称 ChatGPT 在 7 月周活用户已达 10 亿，而 Gemini 在 2 月月活为 7.5 亿，增长势头更猛。",
-      "source": "The Verge：AI（RSS）",
-      "published_at": "2026-08-11T19:41:42.000Z",
-      "category": "industry",
-      "source_score": 80.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsp2lgxo03xjrortthctedzu",
-      "original_url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsp2lgxo03xjrortthctedzu"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
+      "id": "cmsz0hbsg05l0ro204080cotv",
+      "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "permalink": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
+      "storyPermalink": "https://aihot.virxact.com/story/1c28288a-22d7-4d4e-9bf1-a384527b1454",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "sourceCount": 12,
+      "signalCount": 1,
+      "sourceNames": [
+        "TechCrunch：AI（RSS）",
+        "X：OpenAI (@OpenAI)",
+        "X：Kim (@kimmonismus)",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "X：Jakub Pachocki（OpenAI 首席科学家，@merettm）",
+        "X：Greg Brockman (@gdb)",
+        "The Decoder：AI News（RSS）",
+        "X：Sam Altman (@sama)",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "X：Testing Catalog (@testingcatalog)",
+        "The Verge：AI（RSS）",
+        "X：Peter Steinberger (@steipete)"
+      ],
+      "latestAt": "2026-08-18T19:59:44.558Z"
+    },
+    {
+      "rank": 2,
+      "id": "cmsz8gh3n06e4rodpl8l2syek",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+      "storyPermalink": "https://aihot.virxact.com/story/6ed4b694-76eb-4642-8e0e-e1d26ddd0b44",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "sourceCount": 3,
+      "signalCount": 0,
+      "sourceNames": [
+        "Anthropic：Research（发表成果 · 网页）",
+        "X：Anthropic (@AnthropicAI)",
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "latestAt": "2026-08-18T23:18:18.849Z"
+    },
+    {
+      "rank": 3,
       "id": "cmsx9jvre05y6romms3bo1umb",
       "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
       "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
@@ -931,7 +974,55 @@
       "latestAt": "2026-08-18T00:22:25.999Z"
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "id": "cmsyqip4o14umroz0ch5iv0iv",
+      "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "permalink": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv",
+      "storyPermalink": "https://aihot.virxact.com/story/411a1a5a-e329-4eeb-83d0-34d48dbb7214",
+      "source": "Hugging Face：Blog（RSS）",
+      "sourceCount": 1,
+      "signalCount": 1,
+      "sourceNames": [
+        "Hugging Face：Blog（RSS）"
+      ],
+      "latestAt": "2026-08-18T14:05:05.620Z"
+    },
+    {
+      "rank": 5,
+      "id": "cmsxsvb5s0a4troz0z2q2nu3h",
+      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+      "url": "https://cursor.com/changelog/origin-code-hosting",
+      "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+      "storyPermalink": "https://aihot.virxact.com/story/a0b46a26-95de-4cae-b75e-54c1f123937c",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "sourceCount": 3,
+      "signalCount": 2,
+      "sourceNames": [
+        "X：Eric Zakariasson (@ericzakariasson)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "TechCrunch：AI（RSS）"
+      ],
+      "latestAt": "2026-08-18T22:23:58.177Z"
+    },
+    {
+      "rank": 6,
+      "id": "cmsz79zol04j8rodpvun6zobl",
+      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+      "url": "https://www.modular.com/blog/mojo-open-source",
+      "permalink": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl",
+      "storyPermalink": "https://aihot.virxact.com/story/4b339413-0f68-410d-8a56-720f603e1eaf",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "sourceNames": [
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "Simon Willison 博客"
+      ],
+      "latestAt": "2026-08-18T22:01:40.332Z"
+    },
+    {
+      "rank": 7,
       "id": "cmsxld6es03o8roz0jblf3ii9",
       "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
       "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
@@ -947,106 +1038,86 @@
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
       "latestAt": "2026-08-17T20:53:05.960Z"
-    },
-    {
-      "rank": 3,
-      "id": "cmsxsvb5s0a4troz0z2q2nu3h",
-      "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-      "url": "https://cursor.com/changelog/origin-code-hosting",
-      "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
-      "storyPermalink": "https://aihot.virxact.com/story/a0b46a26-95de-4cae-b75e-54c1f123937c",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "sourceCount": 2,
-      "signalCount": 2,
-      "sourceNames": [
-        "X：Eric Zakariasson (@ericzakariasson)",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "latestAt": "2026-08-17T22:23:07.832Z"
-    },
-    {
-      "rank": 4,
-      "id": "cmsx9jy2a05yerommy1e0jc6t",
-      "title": "A 股迎来“人形机器人第一股”，宇树科技官宣 8 月 19 日科创板上市",
-      "url": "https://www.ithome.com/0/990/812.htm",
-      "permalink": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t",
-      "storyPermalink": "https://aihot.virxact.com/story/1a6febe1-053d-4dab-ad21-d1ab648da020",
-      "source": "IT之家（RSS）",
-      "sourceCount": 1,
-      "signalCount": 1,
-      "sourceNames": [
-        "IT之家（RSS）"
-      ],
-      "latestAt": "2026-08-17T13:22:19.094Z"
     }
   ],
   "daily": {
-    "date": "2026-08-18",
+    "date": "2026-08-19",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-08-18"
+      "canonical": "https://aihot.virxact.com/daily/2026-08-19"
     },
-    "generatedAt": "2026-08-18T00:00:17.730Z",
-    "windowStart": "2026-08-17T00:00:00.000Z",
-    "windowEnd": "2026-08-18T00:00:00.000Z",
+    "generatedAt": "2026-08-19T00:00:25.272Z",
+    "windowStart": "2026-08-18T00:00:00.000Z",
+    "windowEnd": "2026-08-19T00:00:00.000Z",
     "lead": null,
     "sections": [
       {
         "label": "产品发布/更新",
         "items": [
           {
-            "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
-            "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
-            "sourceUrl": "https://cursor.com/changelog/origin-code-hosting",
+            "title": "Sentence Transformers v6.0 新增 MultiVectorEncoder，支持 ColBERT 风格多向量模型",
+            "summary": "Sentence Transformers v6.0 新增第四种模型类型 MultiVectorEncoder，可直接加载 PyLate、Stanford-NLP ColBERT 及 colpali-engine 检查点，用于 ColBERT 式晚期交互检索。",
+            "sourceUrl": "https://huggingface.co/blog/multi-vector-encoder",
+            "sourceName": "Hugging Face：Blog（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsyqip4o14umroz0ch5iv0iv"
+            }
+          },
+          {
+            "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+            "summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。",
+            "sourceUrl": "https://www.modular.com/blog/mojo-open-source",
             "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+            "permalink": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h"
+              "canonical": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl"
             }
           },
           {
-            "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
-            "summary": "OpenRouter 发布 Activity 仪表盘和 beta Analytics API，可按智能体、模型、请求维度查看支出、token 量、缓存命中率等指标，并支持下钻至单条请求日志。",
-            "sourceUrl": "https://openrouter.ai/blog/announcements/activity-dashboard",
-            "sourceName": "OpenRouter：Announcements（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02",
+            "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
+            "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。 让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。 从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。",
+            "sourceUrl": "https://x.com/claudeai/status/2089806039088517356",
+            "sourceName": "X：Claude (@claudeai)",
+            "permalink": "https://aihot.virxact.com/items/cmsz49ptt022qrodp5mc1nt1x",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02"
+              "canonical": "https://aihot.virxact.com/items/cmsz49ptt022qrodp5mc1nt1x"
             }
           },
           {
-            "title": "OpenRouter 图像生成 API：代码优先的接入教程",
-            "summary": "OpenRouter 推出专用图像生成 API，通过统一请求格式和单一密钥即可调用多个提供商的图像模型。开发者向 POST /api/v1/images 发送请求，响应中的 data[0].b64_json 包含 base64 编码的图像数据，解码后即可保存为本地文件。教程演示了 Python 和 JavaScript 两种实现，并支持通过 input_references 传入参考图像生成变体。",
-            "sourceUrl": "https://openrouter.ai/blog/tutorials/image-generation",
-            "sourceName": "OpenRouter：Announcements（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsxqq46m07msroz0jt2la4p6",
+            "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+            "summary": "OpenAI 发布 ChatGPT for Teens，为 13-17 岁用户自动启用，内置更强安全保护与家长控制。新增 Study Mode、负责任作业提醒、测验与学习可视化，以及可设定默认开启时段的 Study Hours，引导青少年分步解题而非直接给答案。OpenAI 同时宣布与 CodeAI 合作，帮助青少年理解、质疑并创造性地使用 AI。",
+            "sourceUrl": "https://openai.com/index/chatgpt-for-teens",
+            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+            "permalink": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxqq46m07msroz0jt2la4p6"
+              "canonical": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5"
             }
           },
           {
-            "title": "AgentCore Payments 中间件为 LangChain 智能体提供 API 支付能力",
-            "summary": "AgentCore Payments 中间件让 LangChain 智能体以确定性会话预算支付 API 费用。该中间件为 x402 支付签名，LangSmith 可追踪每一笔支付记录。",
-            "sourceUrl": "https://www.langchain.com/blog/langchain-agentcore-payments",
-            "sourceName": "LangChain：Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsxebmb6021wroi2l5h9u16e",
+            "title": "Git 大规模托管为何如此困难",
+            "summary": "Git 的分布式设计使其大规模托管面临固有挑战：packfile 作为存储和网络传输的基础单元，在服务器端成为可用性与扩展性的瓶颈。业界曾尝试三种方案——分布式文件系统、分布式 packfile、分布式 Git 本身，其中对象级分布式存储因 Git 协议要求网络传输 packfile 导致 clone 性能不佳而被放弃。",
+            "sourceUrl": "https://cursor.com/blog/git-at-any-scale",
+            "sourceName": "Cursor Blog",
+            "permalink": "https://aihot.virxact.com/items/cmsyzrrob04xpro20arbjlil6",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxebmb6021wroi2l5h9u16e"
+              "canonical": "https://aihot.virxact.com/items/cmsyzrrob04xpro20arbjlil6"
             }
           },
           {
-            "title": "Claude Code v2.1.234 发布：新增项目目录名变量与 GitLab MR 徽章，修复多项安全与稳定性问题",
-            "summary": "Claude Code v2.1.234 新增可选 CLAUDE_CODE_PROJECT_DIR_NAME 环境变量、selection:clear 键绑定及 GitLab MR 徽章，并在用量限制重置后自动继续会话。",
-            "sourceUrl": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
-            "sourceName": "Claude Code：GitHub Releases（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsxpts5p06yoroz00hfoz9ch",
+            "title": "Claude Science 产品指南：面向生命科学研究的 AI 工作台",
+            "summary": "Anthropic 发布 Claude Science（测试版），一个覆盖生命科学数字化流程的 AI 工作台，支持数据分析、图表生成与结果产出，并可通过本地守护进程将重任务调度至自有 GPU、SLURM 集群或云账户。",
+            "sourceUrl": "https://claude.com/blog/the-claude-science-product-guide",
+            "sourceName": "Claude：Blog（网页）",
+            "permalink": "https://aihot.virxact.com/items/cmsywmxwn01itro20kjm5l7rh",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxpts5p06yoroz00hfoz9ch"
+              "canonical": "https://aihot.virxact.com/items/cmsywmxwn01itro20kjm5l7rh"
             }
           }
         ]
@@ -1055,47 +1126,14 @@
         "label": "行业动态",
         "items": [
           {
-            "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
-            "summary": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
-            "sourceUrl": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
-            "sourceName": "NVIDIA Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb"
-            }
-          },
-          {
-            "title": "A 股迎来“人形机器人第一股”，宇树科技官宣 8 月 19 日科创板上市",
-            "summary": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通用机器人公司。",
-            "sourceUrl": "https://www.ithome.com/0/990/812.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsx9jy2a05yerommy1e0jc6t"
-            }
-          },
-          {
-            "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
-            "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
-            "sourceUrl": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
-            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxld6es03o8roz0jblf3ii9"
-            }
-          },
-          {
-            "title": "OpenAI 为 14 个独立项目提供资助，推动智能时代经济机遇与韧性研究",
-            "summary": "OpenAI 宣布向 14 个由独立组织主导的项目提供总计 100 万美元资金及最高 100 万美元 API 额度，以推动 AI 进步下的经济机遇与社会韧性研究。",
-            "sourceUrl": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+            "title": "OpenAI 启动新计划，强化国家安全领域 AI 的民主监督",
+            "summary": "OpenAI 启动新计划，帮助民主监督机构发展专业能力与工具，以理解和监督政府将 AI 用于国家安全。未来一年，OpenAI 将提供 500 万美元用于培训、技术支持和 OpenAI 积分，并与监督机构试点工具，帮助授权审查员检查 AI 辅助政府决策的相关记录。OpenAI 强调 AI 应增强而非取代人类判断，且不承担对政府的监督角色。",
+            "sourceUrl": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
             "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "permalink": "https://aihot.virxact.com/items/cmsx4vvm301g9romm3o5n8btx",
+            "permalink": "https://aihot.virxact.com/items/cmsz3p3rp01t1rodp1d431n7i",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsx4vvm301g9romm3o5n8btx"
+              "canonical": "https://aihot.virxact.com/items/cmsz3p3rp01t1rodp1d431n7i"
             }
           }
         ]
@@ -1104,14 +1142,47 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "PhotoScan：用智能手机照片估算胰岛素抵抗，精度接近DXA",
-            "summary": "Google Research 推出 PhotoScan，一种从智能手机 2D 照片直接估算三维身体成分的深度学习框架，可预测胰岛素抵抗，在临床研究中精度接近 DXA 扫描。",
-            "sourceUrl": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery",
-            "sourceName": "Google Research：Blog（网页）",
-            "permalink": "https://aihot.virxact.com/items/cmsxq3q3x07h2roz0z906es50",
+            "title": "Claude 如何加速蛋白质设计与分析化学研究",
+            "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+            "sourceUrl": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+            "sourceName": "Anthropic：Research（发表成果 · 网页）",
+            "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxq3q3x07h2roz0z906es50"
+              "canonical": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
+            }
+          },
+          {
+            "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
+            "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
+            "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+            "sourceName": "Hugging Face：Blog（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsz1974l06hbro20gosn5d78"
+            }
+          },
+          {
+            "title": "GRPO 超越英语：多语言与非英语环境下的大规模研究",
+            "summary": "一项大规模实证研究考察了 GRPO 在多语言和非英语环境下的表现，覆盖多种基础模型、训练语言及推理语言奖励设置。研究发现，以母语进行推理训练与英语推理训练之间的性能差距很小，表明 RLVR 在非英语场景下同样有效。该研究为多语言推理模型的强化学习训练提供了重要参考。",
+            "sourceUrl": "https://machinelearning.apple.com/research/grpo-beyond-english",
+            "sourceName": "Apple Machine Learning Research（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsysep9401r2ros3trfpnowd",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsysep9401r2ros3trfpnowd"
+            }
+          },
+          {
+            "title": "MVICAD2：引入延迟与膨胀的多视图独立成分分析",
+            "summary": "巴黎-萨克雷大学等机构提出MVICAD2，允许不同被试的脑源在时间延迟和膨胀两方面存在差异，以解决MVICA假设过于严格、仅估计延迟不足以刻画听觉刺激等脑动态的问题。该模型源可识别，似然有闭式近似，并通过正则化与优化提升性能。模拟显示其优于现有方法，Cam-CAN数据集验证了延迟和膨胀与衰老相关。",
+            "sourceUrl": "https://machinelearning.apple.com/research/mvicad2-delays-dilations",
+            "sourceName": "Apple Machine Learning Research（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsyyu6un0363ro20tlno5hzl",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsyyu6un0363ro20tlno5hzl"
             }
           }
         ]
@@ -1120,91 +1191,58 @@
         "label": "技巧与观点",
         "items": [
           {
-            "title": "OpenAI 如何用前沿智能加固自身防御：The Defender’s Window",
-            "summary": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。",
-            "sourceUrl": "https://openai.com/index/the-defenders-window",
+            "title": "设计 AI 评测：先求清晰，再谈可视化",
+            "summary": "本文演示如何用开源评测框架 Inspect AI 和 Harbor 评估 agent 技能，并借助 Google Sheets 和 Data Studio 进行可视化分析。",
+            "sourceUrl": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+            "sourceName": "Google AI：DEV 作者专属（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05"
+            }
+          },
+          {
+            "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
+            "summary": "OpenAI 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到《预备框架》下的“关键网络安全能力”阈值，暂时放缓了模型扩展速度，包括暂停最新部署模型的强化学习训练两周，并搁置最大规模前沿 RL 运行。公司已加强研究环境安全，要求对 Astra 及网络相关负载实施最严格防护，并扩展思维链监控，采用多阶段激活分类器检测机制。",
+            "sourceUrl": "https://openai.com/index/pacing-model-development-cyber-capabilities",
             "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "permalink": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p",
+            "permalink": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p"
+              "canonical": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv"
             }
           },
           {
-            "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
-            "summary": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
-            "sourceUrl": "https://www.librarian.net/notoai",
-            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu"
-            }
-          },
-          {
-            "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-            "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
-            "sourceUrl": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-            "sourceName": "Google Developers Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j"
-            }
-          },
-          {
-            "title": "开源模型生态的未来：Nvidia 押注“教所有人炼 token”",
-            "summary": "开源模型生态正日益依赖 Nvidia 的资助，其已投入 260 亿美元推动近乎开源的模型开发，以扩大推理芯片需求。若此路径不奏效，开源模型将转向效率、可修改性等长尾场景，与闭源模型分化。同时，基础模型训练门槛升高，开源社区兴趣正从全量训练转向对 DeepSeek V4 Flash、GLM 5.X 等模型的微调。",
-            "sourceUrl": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-            "sourceName": "Nathan Lambert：Interconnects（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsxfcx2n036jroi2rxg0tdmq",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxfcx2n036jroi2rxg0tdmq"
-            }
-          },
-          {
-            "title": "同一集群利用率提升 33 个百分点：改变的是分配顺序",
-            "summary": "Hugging Face 构建了一个约束感知的 GPU 分配器，并在七个基准场景中与 FIFO 调度器对比。在相同硬件和负载下，GPU 利用率最高提升 33 个百分点，优先级加权输出在全部场景中均上升，最高达 105%。分配器将实时推理需求按曲线而非峰值处理，批量任务按优先级跨整个调度周期排序，从而回收了预留闲置容量。",
-            "sourceUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-            "sourceName": "Hugging Face：Blog（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmsxnxhxa05wjroz0grlpa8a9",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxnxhxa05wjroz0grlpa8a9"
-            }
-          },
-          {
-            "title": "ABC Legal 如何借助 Claude Managed Agents 让每位员工成为构建者",
-            "summary": "ABC Legal 为 1,100 名员工部署 Claude Enterprise 后，通过 Claude Managed Agents 将零散实验转变为受治理的智能体体系，截至 2026 年 7 月已上线 50 多个生产级智能体，部分覆盖的人工任务成本降低约 50%，约 310 名员工日常使用 Claude。",
-            "sourceUrl": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+            "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+            "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
+            "sourceUrl": "https://claude.com/blog/ai-ci-cd-on-call",
             "sourceName": "Claude：Blog（网页）",
-            "permalink": "https://aihot.virxact.com/items/cmsxi809j02vnroswjnpyp2gv",
+            "permalink": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxi809j02vnroswjnpyp2gv"
+              "canonical": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra"
             }
           },
           {
-            "title": "当模型持续学习：测试时训练如何改变 AI 的记忆与成本",
-            "summary": "测试时训练（Test-time training）让模型在使用中持续更新权重，而非训练结束后冻结。相比标准 Transformer，其内存需求从随上下文线性增长变为恒定，斯坦福研究显示推理速度最高可提升 2.7 倍，且 In-Place TTT 无需重训即可将 4B 模型提升至 128k 上下文性能。但代价是每个用户需独立模型副本，服务成本转向算力与芯片，更适合编码助手等个性化场景。",
-            "sourceUrl": "https://www.tomtunguz.com/test-time-training-impact",
+            "title": "笔记本模型也能媲美云端前沿模型：Qwen3.8-27B 登顶智能指数",
+            "summary": "作者将 Qwen3.8-27B 装入智能体后表现优异，该模型在 Artificial Analysis 智能指数中排名 135 款模型之首，得分 52，超过 Z.ai 的 753B 参数开源模型 GLM-5.2（51 分）。",
+            "sourceUrl": "https://www.tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai",
             "sourceName": "Tomer Tunguz 博客（VC 分析）",
-            "permalink": "https://aihot.virxact.com/items/cmsxj97e9016aroz080y9zfto",
+            "permalink": "https://aihot.virxact.com/items/cmsyyp5v302yoro20yixaalt7",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxj97e9016aroz080y9zfto"
+              "canonical": "https://aihot.virxact.com/items/cmsyyp5v302yoro20yixaalt7"
             }
           },
           {
-            "title": "SGLang 重构 CUDA Graph 支持，Breakable CUDA Graph 成 prefill 默认方案",
-            "summary": "SGLang 重构 CUDA Graph 支持，通过 runner/backend 接口拆分使不同捕获策略可复用。其社区首创的 Breakable CUDA Graph（BCG）现为 prefill 默认方案，代码量仅为 torch.compile 方案的约四分之一（521 行对比 1,771 行），构建速度快 3.8–5.2 倍。",
-            "sourceUrl": "https://www.lmsys.org/blog/2026-08-17-advanced-cuda-graph",
-            "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
-            "permalink": "https://aihot.virxact.com/items/cmsxjbtk6018lroz0ywmuve4h",
+            "title": "Populous 如何用 Runway 呈现全球标志性场馆设计",
+            "summary": "全球设计公司 Populous 高级建筑师 Georgina Myers 介绍团队用 Runway 辅助体育场馆概念设计：过去完整视频需外部渲染团队至少三周，且提交前两周须冻结设计模型；如今 Runway 能生成传达尺度感的完整渲染和航拍图，将视觉制作时间缩短，让设计师把时间还给设计本身。该工具已用于利雅得 MBS 体育场等中东项目，支持 9 种不同活动模式的场景迭代。",
+            "sourceUrl": "https://runwayml.com/news/customers/populous",
+            "sourceName": "Runway：News（网页）",
+            "permalink": "https://aihot.virxact.com/items/cmsyuee7f000irobqbzybcq21",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmsxjbtk6018lroz0ywmuve4h"
+              "canonical": "https://aihot.virxact.com/items/cmsyuee7f000irobqbzybcq21"
             }
           }
         ]
