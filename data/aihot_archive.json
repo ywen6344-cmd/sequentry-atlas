@@ -1,24 +1,132 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-19T01:03:59Z",
-  "count": 556,
+  "updated_at": "2026-08-20T01:04:17Z",
+  "count": 564,
   "items": [
     {
-      "id": "cmsz8gh3n06e4rodpl8l2syek",
+      "id": "cmt0s2ems0dkxro2oylebzxob",
       "channel": "aihot",
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "title_en": "How Claude is accelerating protein design and analytical chemistry",
-      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "published_at": "2026-08-18T22:27:16.191Z",
+      "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
+      "title_en": "",
+      "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 2000 万。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-08-20T00:17:26.000Z",
+      "category": "industry",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob",
+      "original_url": "https://www.ithome.com/0/991/886.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt0s2ems0dkxro2oylebzxob"
+      }
+    },
+    {
+      "id": "cmt0mqceo08lzro2o6xi3rlk4",
+      "channel": "aihot",
+      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
+      "title_en": "在网络关键能力时代推进模型开发",
+      "summary": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链监控范围。涉及 Astra 或网络模型的工作负载需满足最严格安全标准，部分训练和评估工作仍处于暂停状态。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-19T21:42:09.969Z",
+      "category": "industry",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4",
+      "original_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4"
+      }
+    },
+    {
+      "id": "cmt0kxcuu07f2ro2owuqpbjc8",
+      "channel": "aihot",
+      "title": "FastMetal 让 Mac 本地 30 秒生成视频",
+      "title_en": "A 5-second 480P video， generated entirely on a Mac， in 30 seconds. No CUDA， no cloud， 3.9 GiB of mem…",
+      "summary": "一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。\n\nFastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上运行，默认 INT8。\n\n三个模型：1.3B 支持 480P，5B 支持 720P，14B 追求画质。\n\n📷 博客：http://haoailab.com/blogs/fastmetal 📷 代码：http://github.com/hao-ai-lab/FastVideo 📷 模型：http://huggingface.co/collections/FastVideo/fastmetal",
+      "source": "X：Sky Computing Lab (@haoailab)",
+      "published_at": "2026-08-19T20:42:57.000Z",
+      "category": "ai-products",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8",
+      "original_url": "https://x.com/haoailab/status/2090177721913770407",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt0kxcuu07f2ro2owuqpbjc8"
+      }
+    },
+    {
+      "id": "cmt0e7sxo01eiro2o4l4y9jmh",
+      "channel": "aihot",
+      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+      "title_en": "Blog Pushing the Limits of Serving DeepSeek-V4-Pro DeepSeek-V4-Pro is a 1.6-trillion-parameter Mixture-of-Experts （MoE） model released with both FP8 and FP4 weights. Models at this scale naturally benefit from accelerators such as NVIDIA Blackwell GPU… Tianyu Zhang， Yusong Gao， Yun Zhang",
+      "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "published_at": "2026-08-19T17:56:13.817Z",
       "category": "paper",
       "source_score": 73.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
-      "original_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "permalink": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh",
+      "original_url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
+        "canonical": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh"
+      }
+    },
+    {
+      "id": "cmt05zhyg139trodp6bxsy9e2",
+      "channel": "aihot",
+      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+      "title_en": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-08-19T13:48:49.000Z",
+      "category": "ai-models",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2",
+      "original_url": "https://huggingface.co/blog/LiquidAI/qad",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2"
+      }
+    },
+    {
+      "id": "cmszeb2mx0b3srodpef1ub0j0",
+      "channel": "aihot",
+      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+      "title_en": "GLM-5.3上线：拓展智能上界的可及边界",
+      "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
+      "source": "公众号：智谱（GLM）",
+      "published_at": "2026-08-19T01:03:29.000Z",
+      "category": "ai-products",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0"
+      }
+    },
+    {
+      "id": "cmt0d2tsl1961rodpnvzxo4cc",
+      "channel": "aihot",
+      "title": "OpenRouter 宣布加入 Stripe",
+      "title_en": "OpenRouter is Joining Stripe",
+      "summary": "OpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-08-19T00:00:00.000Z",
+      "category": "industry",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc",
+      "original_url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc"
       }
     },
     {
@@ -55,24 +163,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsz49ptt022qrodp5mc1nt1x"
-      }
-    },
-    {
-      "id": "cmsz1zjiy013pro3f1e0aafra",
-      "channel": "aihot",
-      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
-      "title_en": "Claude on call： How Claude Tag serves as Anthropic's first responder for CI/CD failures",
-      "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-08-18T19:26:08.389Z",
-      "category": "tip",
-      "source_score": 63.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra",
-      "original_url": "https://claude.com/blog/ai-ci-cd-on-call",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra"
       }
     },
     {
@@ -166,6 +256,24 @@
       }
     },
     {
+      "id": "cmszieman0euzrodptihyllom",
+      "channel": "aihot",
+      "title": "StartupBench：面向市场验证端到端工作流的通用智能体基准测试",
+      "title_en": "StartupBench： Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+      "summary": "StartupBench 是一个基于市场验证的 AI 初创公司产品构建的端到端智能体基准，从真实采用的产品工作流中提炼任务，而非研究者预设任务。在统一智能体框架下，最强模型也仅能完成约 30% 的任务，复杂指令遵循和领域专业知识是主要失败来源。该基准揭示了当前通用智能体在真实用户任务上的能力边界。",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "published_at": "2026-08-18T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmszieman0euzrodptihyllom",
+      "original_url": "https://arxiv.org/abs/2608.17800",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmszieman0euzrodptihyllom"
+      }
+    },
+    {
       "id": "cmsxwd7a40coxroz06g25sfaf",
       "channel": "aihot",
       "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
@@ -253,6 +361,42 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsxkakju0300roz0zx6cvdeu"
+      }
+    },
+    {
+      "id": "cmsz8gh3n06e4rodpl8l2syek",
+      "channel": "aihot",
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "title_en": "How Claude is accelerating protein design and analytical chemistry",
+      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-08-17T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+      "original_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek"
+      }
+    },
+    {
+      "id": "cmsz1zjiy013pro3f1e0aafra",
+      "channel": "aihot",
+      "title": "Claude Tag 如何担任 Anthropic CI/CD 故障的一线响应者",
+      "title_en": "Claude on call： How Claude Tag serves as Anthropic's first responder for CI/CD failures",
+      "summary": "Anthropic 的 CI 工程师用 Claude Tag 构建了值班智能体，作为 CI/CD 故障的一线响应者。Claude 在事故发生后中位 14 分钟发布首份基于证据的分析，最快案例中 3 分钟内验证修复并确认错误率恢复基线。该方案通过 Slack 频道、Datadog 或 Grafana 工具访问及 GitHub 技能文件实现，Anthropic 已发布通用设置套件供其他团队部署。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-08-17T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra",
+      "original_url": "https://claude.com/blog/ai-ci-cd-on-call",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmsz1zjiy013pro3f1e0aafra"
       }
     },
     {
