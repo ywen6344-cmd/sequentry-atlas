@@ -1,6 +1,6 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-08-20",
+ "updated": "2026-08-21",
  "total": 1076,
  "source_count": 58,
  "score_min": 60,
@@ -32,15 +32,6 @@ window.NAV_FEED = {
     "p": "P0",
     "m": "US",
     "score": 79
-   },
-   {
-    "t": "Medline二季度销售增11.6%，获关税退款",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/08/18/medline-tariff-refunds-sales-q2-fy26/",
-    "d": "2026-08-18",
-    "p": "P0",
-    "m": "US",
-    "score": 82
    }
   ],
   "market-product": [
@@ -90,13 +81,13 @@ window.NAV_FEED = {
     "score": 74
    },
    {
-    "t": "ANA警告营销者勿过度依赖零售媒体数据",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/ana-cautions-marketers-against-overreliance-on-retail-media-data/828109/",
-    "d": "2026-08-18",
+    "t": "TJX加速开店，折扣零售持续火热",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/tjx-to-accelerate-store-openings-as-off-price-continues-its-hot-streak/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-19",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 69
    }
   ],
   "platform-channel": [

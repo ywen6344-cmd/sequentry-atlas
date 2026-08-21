@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-08-20T01:04:02.683362+00:00",
+  "generated_at": "2026-08-21T01:56:30.303297+00:00",
   "count": 1076,
-  "featured_count": 27,
+  "featured_count": 26,
   "source_count": 58,
   "score_min": 60,
-  "overview": "今日关税退款与平台政策调整交织，DTC品牌需警惕“降价潮”对利润率的挤压，同时关注Shopify导航变革对转化路径的直接影响。更值得深思的是，零售巨头正借广告与当日达重塑增长模型，而Z世代决策已全面转向评论驱动，品牌叙事重心必须从流量争夺转向信任构建。",
+  "overview": "今日信号指向零售巨头正借关税退款与AI履约重塑价格与体验，而DTC品牌则转向垂直内容与评论驱动。对研究者而言，核心是观察大平台如何用效率红利反哺消费者，以及小众品牌如何以信任替代流量，这预示竞争从获客转向留存与价值交付。",
   "items": [
     {
       "id": "sig_9a08e9e39239",
@@ -1949,7 +1949,7 @@
       "channel": "commerce",
       "title": "Adobe：AI推荐流量转化率超同行",
       "original_title": "Adobe: AI-referral traffic spending, converting more than counterparts",
-      "summary": "Shoppers visiting online retailers’ sites from artificial intelligence referrals are both converting at a higher rate and spending more money than their counterparts not using AI, according to data from Adobe Analytics. Adobe found that shoppers using AI referrals generate 53% more revenue per visit than other shoppers. Additionally, AI-based retail site visits convert at […] The post Adobe: AI-referral traffic spending, converting more than counterparts appeared first on Digital Commerce 360 .",
+      "summary": "AI推荐流量单次访问收入高53%，值得DTC品牌关注AI渠道的转化效率与客单价优势。",
       "source": "Digital Commerce 360",
       "source_id": "digital-commerce-360",
       "published_at": "2026-08-19",
@@ -1964,7 +1964,7 @@
       "escalated": false,
       "original_url": "https://www.digitalcommerce360.com/2026/08/19/adobe-ai-referral-traffic-data-july-2026/",
       "verified_date": true,
-      "featured": false
+      "featured": true
     },
     {
       "id": "sig_70e1b9a3da74",
@@ -2191,7 +2191,7 @@
       "channel": "commerce",
       "title": "IAB重审广告AI披露，法律要求增多",
       "original_title": "IAB revisits AI disclosure in ads as legal requirements multiply",
-      "summary": "With a string of new legislation creating a patchwork of rules, the group is attempting to establish an industry baseline, but implementation remains murky.",
+      "summary": "关注美国AI广告披露法规碎片化，DTC品牌需提前合规布局，避免法律风险。",
       "source": "Marketing Dive",
       "source_id": "marketing-dive",
       "published_at": "2026-08-19",
@@ -2206,7 +2206,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/news/iab-revisits-ai-disclosure-in-ads-as-legal-requirements-multiply/828182/",
       "verified_date": true,
-      "featured": false
+      "featured": true
     },
     {
       "id": "sig_f8ddf2fc954f",
@@ -3335,7 +3335,7 @@
       "channel": "commerce",
       "title": "汽车运输船推动更精准排放数据",
       "original_title": "Car carriers step up push for more accurate emissions data",
-      "summary": "A coalition of major global car carrier operators, known as the Global Ro-Ro Community (GRC), has established the GRC Council (GRCC), a body tasked with maintaining and improving the coalition’s GHG accounting methodology and data rules. ClassNK, which has served as an independent verifier for the GRC since its 2024 launch, was put in charge …",
+      "summary": "关注航运业环保合规趋势，DTC品牌可借鉴其数据透明化策略以增强消费者信任。",
       "source": "Splash247 海运",
       "source_id": "splash247",
       "published_at": "2026-08-19",
@@ -3445,7 +3445,7 @@
       "channel": "commerce",
       "title": "邮政快递博览会下月伦敦开幕，欧洲最大包裹展回归",
       "original_title": "Parcel+Post Expo opens next month – Europe’s biggest parcel event returns to London",
-      "summary": "Parcel+Post Expo 2026 opens next month (September 23-24), taking place for the first time at Excel London. This year’s event brings world-class experts, leading solution providers and the latest innovations from across the postal and logistics industries to the UK capital, with a technology exhibition, Innovation Labs and a revamped Leadership Conference all on the agenda. Free to attend, the show will take place alongside eCommerce Expo, the UK’s biggest e-commerce event.…",
+      "summary": "关注物流展会与电商展联动，可观察DTC品牌履约与物流创新趋势。",
       "source": "Parcel & Postal Tech",
       "source_id": "parcel-postal-tech",
       "published_at": "2026-08-19",
@@ -3621,7 +3621,7 @@
       "channel": "commerce",
       "title": "Sinokor 60亿美元油轮押注大获成功",
       "original_title": "Sinokor’s $6bn tanker bet pays off spectacularly",
-      "summary": "Few shipping bets have paid off as spectacularly as Sinokor Maritime’s extraordinary tanker buying campaign. The South Korean owner has dominated secondhand tanker acquisitions in 2026, buying 73 ships for $5.925bn, according to VesselsValue. That is roughly equivalent to the combined spending of the next eight largest tanker buyers in the year to date and …",
+      "summary": "关注韩国船东逆周期重资产打法，73艘收购策略可借鉴DTC品牌供应链布局。",
       "source": "Splash247 海运",
       "source_id": "splash247",
       "published_at": "2026-08-19",
@@ -3775,7 +3775,7 @@
       "channel": "commerce",
       "title": "Chipotle携手Salish Matter拓展Gen Alpha营销",
       "original_title": "Chipotle broadens Gen Alpha marketing with Salish Matter collab",
-      "summary": "A partnership with the 16-year-old YouTube and TikTok star marks the first time the brand has brought a custom creator order to its Kid’s Meal.",
+      "summary": "品牌首次将创作者定制餐引入儿童套餐，可拆解其借年轻网红触达新一代消费者的策略。",
       "source": "Marketing Dive",
       "source_id": "marketing-dive",
       "published_at": "2026-08-19",
@@ -3790,7 +3790,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/news/chipotle-broadens-gen-alpha-marketing-strategy-with-salish-matter-collab/828178/",
       "verified_date": true,
-      "featured": false
+      "featured": true
     },
     {
       "id": "sig_0a501fbc1f39",
@@ -4120,7 +4120,7 @@
       "escalated": true,
       "original_url": "https://www.digitalcommerce360.com/2026/08/18/medline-tariff-refunds-sales-q2-fy26/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_586e201cffff",
@@ -4252,7 +4252,7 @@
       "escalated": false,
       "original_url": "https://shopify.dev/changelog/hydrogen-developer-preview-update-august-18-2026",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_a2d33639373a",
@@ -4736,7 +4736,7 @@
       "escalated": false,
       "original_url": "https://digiday.com/marketing/openai-builds-offerings-on-consent-as-it-expands-chatgpt-ads-to-europe/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_a6be516f274a",
@@ -5110,7 +5110,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/news/ana-cautions-marketers-against-overreliance-on-retail-media-data/828109/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_0f886bffd493",
@@ -5220,7 +5220,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/news/brands-shake-up-back-to-school-marketing-to-reach-hyper-value-seekers/827821/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_29304b0c2513",
@@ -5572,7 +5572,7 @@
       "escalated": false,
       "original_url": "https://bpando.org/2026/08/18/perky-bros-southern-hospitality-tennessee-resort-southall/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_8c301c7295cf",
