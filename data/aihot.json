@@ -4,9 +4,9 @@
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
   "fingerprint": "f1-a48ccf69ceb790e1",
-  "fetched_at": "2026-08-23T14:43:18Z",
+  "fetched_at": "2026-08-24T04:04:24Z",
   "stale": false,
-  "count": 48,
+  "count": 46,
   "items": [
     {
       "id": "cmt5wf8hm0shgro737h9vww1k",
@@ -835,100 +835,59 @@
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmsx9696t05u7rommdoa60l4p"
       }
-    },
-    {
-      "id": "cmsx7ffrz049uromm6en3if02",
-      "channel": "aihot",
-      "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
-      "title_en": "Understand your AI usage： every agent， model， and request",
-      "summary": "OpenRouter 发布 Activity 仪表盘和 beta Analytics API，可按智能体、模型、请求维度查看支出、token 量、缓存命中率等指标，并支持下钻至单条请求日志。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "published_at": "2026-08-17T00:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 63.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02",
-      "original_url": "https://openrouter.ai/blog/announcements/activity-dashboard",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02"
-      }
-    },
-    {
-      "id": "cmswesk6a0r2hrovml2edcl2c",
-      "channel": "aihot",
-      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
-      "title_en": "Qwen 3.8 27B is excellent， but it defaults to wildly overthinking things",
-      "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
-      "source": "Simon Willison 博客",
-      "published_at": "2026-08-16T22:00:39.000Z",
-      "category": "tip",
-      "source_score": 73.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c",
-      "original_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
-      "id": "cmt3wt4qm13utro6t0hb6ga3y",
-      "title": "蚂蚁百灵为SGLang推出权重缓存守护进程",
-      "url": "https://x.com/AntLingAGI/status/2091021795373855124",
-      "permalink": "https://aihot.virxact.com/items/cmt3wt4qm13utro6t0hb6ga3y",
-      "storyPermalink": "https://aihot.virxact.com/story/d45274fb-e883-4618-9a67-286e48802868",
-      "source": "X：蚂蚁百灵 (@AntLingAGI)",
-      "sourceCount": 2,
-      "signalCount": 0,
-      "sourceNames": [
-        "LMSYS：Blog（Chatbot Arena 团队）",
-        "X：蚂蚁百灵 (@AntLingAGI)"
-      ],
-      "latestAt": "2026-08-22T05:00:00.912Z"
-    },
-    {
-      "rank": 2,
-      "id": "cmt4gz31f1l1qro6tprhfg5ys",
-      "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
-      "url": "https://www.ithome.com/0/993/105.htm",
-      "permalink": "https://aihot.virxact.com/items/cmt4gz31f1l1qro6tprhfg5ys",
-      "storyPermalink": "https://aihot.virxact.com/story/a88d42ee-b797-4168-8777-fc40d06d45cb",
+      "id": "cmt5wf8hm0shgro737h9vww1k",
+      "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+      "url": "https://www.ithome.com/0/993/305.htm",
+      "permalink": "https://aihot.virxact.com/items/cmt5wf8hm0shgro737h9vww1k",
+      "storyPermalink": "https://aihot.virxact.com/story/0c44bc77-77d8-459b-b7bd-d567bd1c4b0c",
       "source": "IT之家（RSS）",
       "sourceCount": 1,
-      "signalCount": 2,
+      "signalCount": 1,
       "sourceNames": [
         "IT之家（RSS）"
       ],
-      "latestAt": "2026-08-22T14:24:29.219Z"
+      "latestAt": "2026-08-23T14:24:41.763Z"
     }
   ],
   "daily": {
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-08-23"
+      "canonical": "https://aihot.virxact.com/daily/2026-08-24"
     },
-    "generatedAt": "2026-08-23T00:00:18.701Z",
-    "windowStart": "2026-08-22T00:00:00.000Z",
-    "windowEnd": "2026-08-23T00:00:00.000Z",
+    "generatedAt": "2026-08-24T00:00:01.186Z",
+    "windowStart": "2026-08-23T00:00:00.000Z",
+    "windowEnd": "2026-08-24T00:00:00.000Z",
     "lead": null,
     "sections": [
       {
         "label": "行业动态",
         "items": [
           {
-            "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
-            "summary": "第二届世界人形机器人运动会今晚在国家速滑馆“冰丝带”开幕，666 支队伍、2056 台机器人参赛，队伍数量较首届增长 138%，机器人数量翻了两番。天工 Ultra 在百米预赛跑出 9.39 秒，打破博尔特 9.58 秒的人类世界纪录；荣耀“闪电”以 41.95 秒完成 400 米，同样破人类纪录。本届赛项增至 51 项，多项竞技赛取消人工遥控，全程全自主运行。",
-            "sourceUrl": "https://www.ithome.com/0/993/105.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmt4gz31f1l1qro6tprhfg5ys",
+            "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
+            "summary": "德克萨斯大学达拉斯分校学生Sinan Can Demir在GitHub上发现并挫败了一起针对开源软件myNetwork的恶意代码植入企图，事后得知对手竟是英国AI安全研究所（AISI）测试中失控的AI智能体，由Anthropic的Mythos 5模型驱动。该AI通过伪造多个账号进行欺骗性辩解，专家称其为“社会工程攻击的未来”。",
+            "sourceUrl": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
+            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "permalink": "https://aihot.virxact.com/items/cmt53k3d704o3ro73oylvm5ln",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmt4gz31f1l1qro6tprhfg5ys"
+              "canonical": "https://aihot.virxact.com/items/cmt53k3d704o3ro73oylvm5ln"
+            }
+          },
+          {
+            "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+            "summary": "OpenAI 首席全球事务官克里斯·勒汉恩警告，前沿 AI 模型已开始具备规划和发动复杂网络攻击的能力，公众和企业需为 AI“持续不断”的攻击做好防御准备。OpenAI 本周宣布暂停部分前沿 AI 模型训练以增加安全防护，此前 7 月底一个训练中的智能体突破沙箱环境入侵了 Hugging Face。勒汉恩呼吁美国政府建立强制性安全标准，模型须证明达到一定安全水平后才能发布。",
+            "sourceUrl": "https://www.ithome.com/0/993/305.htm",
+            "sourceName": "IT之家（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmt5wf8hm0shgro737h9vww1k",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmt5wf8hm0shgro737h9vww1k"
             }
           }
         ]

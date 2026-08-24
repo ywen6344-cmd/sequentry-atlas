@@ -1,11 +1,20 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-08-23",
- "total": 1107,
- "source_count": 54,
+ "updated": "2026-08-24",
+ "total": 1098,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "Boka用美妆营销打法登顶亚马逊",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/how-boka-is-winning-amazon-with-a-beauty-marketing-playbook/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-24",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "Shopify新增支付余额活动报告",
     "s": "Shopify 商家更新日志",
@@ -13,25 +22,34 @@ window.NAV_FEED = {
     "d": "2026-08-22",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "亚马逊无人机配送扩至美国5城",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/08/21/amazon-drone-delivery-expansion-summer-2026/",
-    "d": "2026-08-21",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "沃尔玛终支持Apple Pay和Google Pay",
+    "t": "好时用AI备战烤棉花糖季",
     "s": "Modern Retail",
-    "u": "https://www.modernretail.co/technology/walmart-finally-starts-supporting-apple-pay-and-google-pay/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-21",
+    "u": "https://www.modernretail.co/marketing/hershey-starts-using-ai-to-strategize-for-smores-season/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-24",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 69
+   },
+   {
+    "t": "TikTok Shop东南亚改规则：健康分替代扣分制，AI内容追责",
+    "s": "白鲸出海",
+    "u": "http://www.baijing.cn/article/56449",
+    "d": "2026-08-24",
+    "p": "P2",
+    "m": "CN",
+    "score": 66
+   },
+   {
+    "t": "沃尔玛推时尚服饰对抗亚马逊",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/walmart/2026/walmart-aims-to-take-on-amazon-with-trendier-apparel/",
+    "d": "2026-08-24",
+    "p": "P2",
+    "m": "US",
+    "score": 66
    },
    {
     "t": "美国电商重回两位数增长",
@@ -41,44 +59,26 @@ window.NAV_FEED = {
     "p": "P2",
     "m": "US",
     "score": 66
-   },
-   {
-    "t": "BattlBox从YouTube到Netflix的进阶之路",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/battlboxs-path-from-youtube-to-netflix",
-    "d": "2026-08-21",
-    "p": "P2",
-    "m": "US",
-    "score": 44
    }
   ],
   "market-product": [
    {
-    "t": "家得宝全美推3小时极速达",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/home-depot-express-delivery-3-hours-or-less/828362/",
-    "d": "2026-08-21",
+    "t": "女表二级市场爆发，背后推手是谁？",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/womens-watches-are-blowing-up-on-the-secondary-market-whats-behind-their-rapid-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-24",
     "p": "P1",
     "m": "US",
-    "score": 82
+    "score": 79
    },
    {
-    "t": "Urban Outfitters的宿舍装饰大生意",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/the-big-business-of-dorm-decor-with-urban-outfitters/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-22",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "折扣零售新王：Ross Q2同店销售飙升10%",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/off-price-ross-new-boss-soaring-store-comps-earnings/828457/",
-    "d": "2026-08-21",
-    "p": "P1",
-    "m": "US",
-    "score": 74
+    "t": "MOMO康普茶推出西瓜风味新品",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/momo-kombucha-launches-watermelon-kombucha/",
+    "d": "2026-08-23",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    },
    {
     "t": "Estúdio Campana为蒂芙尼打造编织珠宝盒快闪店",
@@ -87,37 +87,28 @@ window.NAV_FEED = {
     "d": "2026-08-22",
     "p": "P1",
     "m": "BR",
-    "score": 62
+    "score": 57
    },
    {
-    "t": "Michaels携手AD推全渠道定制装裱体验",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/08/21/michaels-omnichannel-custom-framing-architectural-digest/",
-    "d": "2026-08-21",
-    "p": "P1",
-    "m": "US",
-    "score": 64
+    "t": "上海家化财报：丝芙兰中国亏损收窄",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/479214",
+    "d": "2026-08-23",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    },
    {
-    "t": "原版卷发扩散器新设计，提升卷曲发质定型效果",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/the-original-curl-diffuser-evolves-with-a-new-design-delivering-enhanced-definition-for-curly-and-textured-hair/",
+    "t": "爱马仕CEO谈中国：企稳未见改善",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/478701",
     "d": "2026-08-22",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
+    "p": "P2",
+    "m": "CN",
+    "score": 44
    }
   ],
   "brand-retail": [
-   {
-    "t": "耐克关停Nike Live门店 再陷零售困局",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/nike-the-robin-report-retail-miss-of-the-week-8-22-26/",
-    "d": "2026-08-22",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
    {
     "t": "Co-op批发推出Nisa Port Talbot新店",
     "s": "Retail Times",
@@ -128,21 +119,21 @@ window.NAV_FEED = {
     "score": 56
    },
    {
+    "t": "Stripe联手财团洽谈收购PayPal",
+    "s": "白鲸出海",
+    "u": "http://www.baijing.cn/article/56448",
+    "d": "2026-08-24",
+    "p": "P2",
+    "m": "US",
+    "score": 49
+   },
+   {
     "t": "射箭世界杯大胆换标，令人期待",
     "s": "Creative Bloq 设计",
     "u": "https://www.creativebloq.com/design/logos-icons/the-archery-world-cup-final-is-coming-and-its-dramatic-rebrand-has-me-quivering-in-anticipation",
     "d": "2026-08-23",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 49
-   },
-   {
-    "t": "Rowing Blazers：谁在穿？",
-    "s": "2PM",
-    "u": "https://2pml.com/2026/08/22/rowing/",
-    "d": "2026-08-23",
-    "p": "P2",
-    "m": "US",
     "score": 49
    },
    {
@@ -155,13 +146,13 @@ window.NAV_FEED = {
     "score": 51
    },
    {
-    "t": "Radley官网停售 关店清仓",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/08/radley-stop-website-sales/",
-    "d": "2026-08-21",
-    "p": "P3",
-    "m": "UK",
-    "score": 51
+    "t": "Rowing Blazers：谁在穿？",
+    "s": "2PM",
+    "u": "https://2pml.com/2026/08/22/rowing/",
+    "d": "2026-08-23",
+    "p": "P2",
+    "m": "US",
+    "score": 44
    }
   ]
  }
