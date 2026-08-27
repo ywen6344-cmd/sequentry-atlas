@@ -1,178 +1,178 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-08-26",
- "total": 1170,
- "source_count": 57,
+ "updated": "2026-08-27",
+ "total": 1188,
+ "source_count": 58,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "compliance-fulfillment": [
    {
-    "t": "沃尔玛全面押注波西米亚风新自有品牌",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/walmart-new-private-label-scenerio/828696/",
-    "d": "2026-08-25",
-    "p": "P0",
-    "m": "US",
-    "score": 87
-   },
-   {
-    "t": "Shopify脚本标签2027年停用，需迁移至应用嵌入块",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/online-store-script-tags-deprecation",
-    "d": "2026-08-24",
-    "p": "P0",
-    "m": "US",
-    "score": 87
-   },
-   {
-    "t": "AI营销策略：从试验到执行，三星、拜耳等品牌案例",
-    "s": "Digiday",
-    "u": "https://digiday.com/announcement/ai-marketing-strategies-from-experimentation-to-execution-with-samsung-bayer-davids-bridal-and-dolcegabbana-beauty/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-24",
-    "p": "P1",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "亚马逊携手Levi Roots打造加勒比风味烧烤",
+    "t": "Temu聚焦供应链应对监管变化",
     "s": "ChannelX",
-    "u": "https://channelx.world/2026/08/amazon-and-levi-roots-bring-caribbean-flavour-to-the-august-bank-holiday/",
-    "d": "2026-08-24",
-    "p": "P1",
-    "m": "UK",
-    "score": 78
-   },
-   {
-    "t": "澳洲支付奖励平台Pay.com.au进军美国",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/newsarticle/48293/paycomau-brings-aussie-rewards-platform-to-the-us?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-08-24",
-    "p": "P1",
+    "u": "https://channelx.world/2026/08/temu-focus-on-supply-chain-to-combat-regulatory-landscapes/",
+    "d": "2026-08-26",
+    "p": "P0",
     "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Shopify按发货地优化美国税务计算",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/shopify-tax-is-now-compatible-with-order-routing",
-    "d": "2026-08-24",
-    "p": "P1",
-    "m": "US",
-    "score": 74
+    "score": 87
    }
   ],
   "market-product": [
    {
-    "t": "Dick’s助Foot Locker扭亏为盈，前景仍黯淡",
+    "t": "零售媒体营销2026指南：家得宝等品牌策略",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/modern-retail-research-the-marketers-2026-guide-to-retail-media-marketing-including-the-home-depot-milani-cosmetics-and-tinuiti/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "US",
+    "score": 87
+   },
+   {
+    "t": "2026零售媒体营销指南：家得宝、Milani等品牌策略",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/glossy-research-the-marketers-2026-guide-to-retail-media-marketing-including-the-home-depot-milani-cosmetics-and-tinuiti/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "US",
+    "score": 87
+   },
+   {
+    "t": "FTC盯上个性化定价，消费者影响几何？",
     "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/dicks-sporting-goods-foot-locker-in-the-game-despite-declines-losses-gloomy-outlook-q2/828694/",
-    "d": "2026-08-25",
+    "u": "https://www.retaildive.com/news/ftc-personalized-surveillance-pricing-what-it-means-CX/828626/",
+    "d": "2026-08-26",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Beyond Meat携手英国名医与健身达人推九月活动",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/beyond-meat-partners-with-dr-amir-khan-lucy-mecklenburgh-for-september-campaign/",
-    "d": "2026-08-25",
-    "p": "P0",
-    "m": "UK",
-    "score": 72
-   },
-   {
-    "t": "Wendy's挖角前麦当劳CMO任首席营销官",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/wendys-hires-ex-mcdonalds-cmo-as-chief-marketing-customer-growth-officer/828580/",
-    "d": "2026-08-24",
+    "t": "Target为Beauty Studio开业办店内活动",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/target-beauty-studio-launch/828803/",
+    "d": "2026-08-26",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 79
    },
    {
-    "t": "女表二级市场爆发，背后推手是谁？",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/womens-watches-are-blowing-up-on-the-secondary-market-whats-behind-their-rapid-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-24",
+    "t": "焦虑且财务紧张的消费者仍推动零售增长",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/the-consumer-anxious-financially-stretched-and-driving-retail-growth/",
+    "d": "2026-08-26",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 79
    },
    {
-    "t": "世界杯需求推动Soccer.com销售增长",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/08/25/world-cup-sales-demand-soccer-dot-com/",
-    "d": "2026-08-25",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Dick's称Foot Locker转型尚早，下调年度预期",
+    "t": "新品牌涌入Target美妆区",
     "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/dicks-sporting-goods-says-its-still-early-in-the-foot-locker-turnaround-as-it-cites-footwear-challenges/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-08-25",
+    "u": "https://www.modernretail.co/operations/new-brands-flock-to-targets-post-ulta-beauty-section/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-26",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 73
    }
   ],
-  "compliance-fulfillment": [
+  "platform-channel": [
    {
-    "t": "迪尔Q3营收增长 受益关税退款",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/08/24/deere-sales-revenue-q3-fy26/",
-    "d": "2026-08-24",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "中国关税惩罚失效",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/the-china-tariff-punishment-failed/",
-    "d": "2026-08-24",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "2026黑色星期五考验英零售商欧洲盈利",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/08/black-friday-2026-will-test-whether-uk-retailers-can-still-grow-profitably-in-europe/",
-    "d": "2026-08-24",
+    "t": "Shopify Events新增四个订阅主题",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/four-additional-topics-are-now-available-for-events",
+    "d": "2026-08-26",
     "p": "P1",
-    "m": "EU",
-    "score": 74
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "Shopify提交记录新增主题编辑者姓名",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/github-commits-now-name-the-last-theme-editor",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "Povison拥抱AI流量推荐，备战假日季增长",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/08/26/povison-ai-traffic-referrals-cyber-5/",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Draco Diamond：AEO与AI流量趋势助力Cyber 5",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/08/26/draco-diamond-aeo-ai-traffic-cyber-5/",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Movemint 将个性化技术拓展至银行业",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110736/movemint-expands-to-banking-sector?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Bath & Body Works称亚马逊销售额增长三倍",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/bath-body-works-says-its-amazon-sales-have-tripled-as-it-seeks-to-return-to-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    }
   ],
   "brand-retail": [
    {
-    "t": "Athleta以更大胆使命重塑品牌叙事",
+    "t": "新加坡海运优势转向信任：中东风险永久重估",
+    "s": "Splash247 海运",
+    "u": "https://splash247.com/splash-singapore-paratuss-gus-majed-on-how-middle-east-risk-has-been-permanently-repriced/",
+    "d": "2026-08-26",
+    "p": "P0",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "美联航助ESPN梦幻橄榄球节目空中直播",
     "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-athleta-is-revamping-its-brand-narrative-with-bolder-purpose/828620/",
-    "d": "2026-08-25",
+    "u": "https://www.marketingdive.com/news/why-united-helped-broadcast-espns-fantasy-football-show-live-from-the-sky/828739/",
+    "d": "2026-08-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "可口可乐携手创作者与梦幻体育，迎战大学橄榄球季",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/coke-tackles-college-football-season-with-creator-content-fantasy-sports/828780/",
+    "d": "2026-08-26",
     "p": "P1",
     "m": "US",
     "score": 69
    },
    {
-    "t": "DNCO为佛蒙特州新标志注入手工质感",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/08/25/dnco-vermont-tourism-branding/",
-    "d": "2026-08-25",
+    "t": "欧洲能成为品牌吗？",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/08/26/can-europe-become-a-brand/",
+    "d": "2026-08-26",
     "p": "P1",
-    "m": "US",
-    "score": 62
+    "m": "EU",
+    "score": 69
    },
    {
-    "t": "上市会改变Reformation吗？",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/will-going-public-change-reformation/",
-    "d": "2026-08-25",
-    "p": "P1",
-    "m": "US",
-    "score": 62
+    "t": "Berghaus首店开业：英伦品牌被误认德国",
+    "s": "Creative Boom",
+    "u": "https://www.creativeboom.com/insight/bob-neville-on-berghaus-manchester-culture-and-the-british-brand-everyone-thinks-is-german/",
+    "d": "2026-08-26",
+    "p": "P2",
+    "m": "UK",
+    "score": 66
    }
   ]
  }
