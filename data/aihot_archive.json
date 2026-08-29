@@ -1,8 +1,170 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-28T01:04:48Z",
-  "count": 634,
+  "updated_at": "2026-08-29T01:08:10Z",
+  "count": 643,
   "items": [
+    {
+      "id": "cmtdcdico01sxrobxtg1cs1ul",
+      "channel": "aihot",
+      "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
+      "title_en": "5 lessons from the OpenAI / Hugging Face incident",
+      "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但\"失控\"叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-08-28T18:24:05.000Z",
+      "category": "tip",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtdcdico01sxrobxtg1cs1ul",
+      "original_url": "https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtdcdico01sxrobxtg1cs1ul"
+      }
+    },
+    {
+      "id": "cmtdbbfo6018arobxq8t77h9x",
+      "channel": "aihot",
+      "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+      "title_en": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+      "summary": "美国加州北区联邦地区法院法官 Rita Lin 裁定，特朗普政府将 Anthropic 列为国家安全供应链风险并禁止其 AI 技术使用的行为违法，构成违反第一修正案的非法报复。裁决指出，Anthropic 因拒绝放弃对其产品用于致命自主战争和大规模监控美国人的限制而遭政府封禁。法院批准了 Anthropic 部分即决判决动议。",
+      "source": "Ars Technica：AI（RSS）",
+      "published_at": "2026-08-28T18:07:55.000Z",
+      "category": "industry",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
+      "original_url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x"
+      }
+    },
+    {
+      "id": "cmtd83hb4018fro667i1tbc34",
+      "channel": "aihot",
+      "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+      "title_en": "Automated researchers can reliably mitigate alignment failures",
+      "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-08-28T17:25:56.912Z",
+      "category": "paper",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
+      "original_url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34"
+      }
+    },
+    {
+      "id": "cmtd32q060c3vroq546ccqp7r",
+      "channel": "aihot",
+      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+      "title_en": "GLM-5.3 is now open-weight. Our most capable model for agentic coding and cyber defense is now avai…",
+      "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
+      "source": "X：智谱 Z.ai (@Zai_org)",
+      "published_at": "2026-08-28T15:04:44.000Z",
+      "category": "ai-models",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
+      "original_url": "https://x.com/Zai_org/status/2093354097122455713",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r"
+      }
+    },
+    {
+      "id": "cmtd00dbh09tkroq5v7kcw183",
+      "channel": "aihot",
+      "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
+      "title_en": "Stop Wrestling with ASR： The Complete Guide to Gemini 3.5 Transcribe 🎙️",
+      "summary": "Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳。该模型支持 85+ 种语言自动识别与代码切换，可通过 custom_vocabulary 传入最多 1，000 个领域术语避免专有名词拼写错误，并提供 Smart Transcription 与 Verbatim 两种模式。",
+      "source": "Google AI：DEV 作者专属（RSS）",
+      "published_at": "2026-08-28T13:34:29.000Z",
+      "category": "tip",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
+      "original_url": "https://dev.to/googleai/stop-wrestling-with-asr-the-complete-guide-to-gemini-35-transcribe-1m6i",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183"
+      }
+    },
+    {
+      "id": "cmtcxdp3f07l3roq5uk6om1aw",
+      "channel": "aihot",
+      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+      "title_en": "终端-工作台-科学：在科学研究工作流中评估人工智能代理",
+      "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-28T12:04:47.737Z",
+      "category": "paper",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw",
+      "original_url": "https://www.terminal-bench-science.ai/announcement",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw"
+      }
+    },
+    {
+      "id": "cmtcpvj9e04cpro645lmugnew",
+      "channel": "aihot",
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "title_en": "AI 工程师笔记本--在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-08-28T08:36:31.021Z",
+      "category": "tip",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew",
+      "original_url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew"
+      }
+    },
+    {
+      "id": "cmtcjzlxy03f8rodbxqdotbhg",
+      "channel": "aihot",
+      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+      "title_en": "Hy4 preview 发布",
+      "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
+      "source": "公众号：腾讯混元",
+      "published_at": "2026-08-28T06:03:48.000Z",
+      "category": "ai-models",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg"
+      }
+    },
+    {
+      "id": "cmtdgo8nh04rurobxlzwr101x",
+      "channel": "aihot",
+      "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+      "title_en": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "summary": "Voice Arena 与 Hugging Face 合作，为 Open ASR 排行榜引入 Monsoon en-IN 和 Monsoon hi-IN 两个评测集，覆盖印地语与印度英语，其中印地语是该排行榜多语言板块首个非欧洲语言。数据集含公开与私有分割，共 4，888 位说话人，并记录 12 项说话人属性，旨在暴露按地区、年龄、性别等维度分布不均的语音识别误差。",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-08-28T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtdgo8nh04rurobxlzwr101x",
+      "original_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtdgo8nh04rurobxlzwr101x"
+      }
+    },
     {
       "id": "cmtc61ej101lqrojqto587wu9",
       "channel": "aihot",
@@ -73,24 +235,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmtc05bnj015srome8fm42xy8"
-      }
-    },
-    {
-      "id": "cmtbtrn8j0222ro2kb7opgppz",
-      "channel": "aihot",
-      "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）",
-      "title_en": "Blog MiniMax-H3 on 8×H200： 1.95× Lossless， Up to 6.24× at 0.76-0.91 SSIM We benchmarked MiniMax-H3 video generation on 8× NVIDIA H200 with SGLang Diffusion， holding prompts， seeds， resolution， frame rate， and denoising steps fixed across six workloads. - SGLang's dense， l… SGLang Diffusion Team， Cache-DiT Team， NVIDIA， Ant Group",
-      "summary": "SGLang Diffusion 团队在 8×NVIDIA H200 上对 MiniMax-H3 视频生成进行基准测试，其密集无损路径较 Diffusers 快 1.85-1.95×，无近似损失。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "published_at": "2026-08-27T17:57:02.062Z",
-      "category": "paper",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz",
-      "original_url": "https://www.lmsys.org/blog/2026-08-27-minimax-h3-h200",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz"
       }
     },
     {
@@ -253,6 +397,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go"
+      }
+    },
+    {
+      "id": "cmtbtrn8j0222ro2kb7opgppz",
+      "channel": "aihot",
+      "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）",
+      "title_en": "Blog MiniMax-H3 on 8×H200： 1.95× Lossless， Up to 6.24× at 0.76-0.91 SSIM We benchmarked MiniMax-H3 video generation on 8× NVIDIA H200 with SGLang Diffusion， holding prompts， seeds， resolution， frame rate， and denoising steps fixed across six workloads. - SGLang's dense， l… SGLang Diffusion Team， Cache-DiT Team， NVIDIA， Ant Group",
+      "summary": "SGLang Diffusion 团队在 8×NVIDIA H200 上对 MiniMax-H3 视频生成进行基准测试，其密集无损路径较 Diffusers 快 1.85-1.95×，无近似损失。",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "published_at": "2026-08-26T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz",
+      "original_url": "https://www.lmsys.org/blog/2026-08-27-minimax-h3-h200",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz"
       }
     },
     {
