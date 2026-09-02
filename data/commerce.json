@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-09-01T01:05:47.310560+00:00",
+  "generated_at": "2026-09-02T01:07:25.151950+00:00",
   "count": 1178,
-  "featured_count": 24,
+  "featured_count": 21,
   "source_count": 54,
   "score_min": 60,
-  "overview": "今日DTC品牌研究的关键信号：平台基建与体验营销双线并进。Shopify语义化版本管理、Snapchat简化衡量工具，指向品牌技术栈的成熟化；而Dr. Squatch弃广告重体验、Anthropologie借Nike扩客群，则印证了“信任优先于交易”的转向。物流成本与原材料涨价压力下，品牌需在体验溢价与效率之间找到新平衡。",
+  "overview": "今日DTC品牌研究的关键信号：平台基建与体验营销双轨并行。Shopify语义化版本管理及Snapchat衡量工具升级，指向品牌技术栈的标准化与可测性；而Dr. Squatch弃广告重体验、Anthropologie借Nike扩客群，则印证了“信任优先于交易”的转向。物流成本与原材料涨价压力下，品牌需在体验溢价与运营效率间找到新平衡点。",
   "items": [
     {
       "id": "sig_9a08e9e39239",
@@ -3372,7 +3372,7 @@
       "escalated": false,
       "original_url": "https://www.dezeen.com/2026/08/30/foster-partners-norton-motorcycles-showroom/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_0255893ebf90",
@@ -3504,7 +3504,7 @@
       "escalated": false,
       "original_url": "https://www.pymnts.com/bnpl/2026/affirm-ceo-sees-greater-bnpl-demand-as-gas-prices-climb/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_7a6d9ed17197",

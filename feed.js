@@ -1,6 +1,6 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-01",
+ "updated": "2026-09-02",
  "total": 1178,
  "source_count": 54,
  "score_min": 60,
@@ -97,15 +97,6 @@ window.NAV_FEED = {
     "p": "P1",
     "m": "US",
     "score": 69
-   },
-   {
-    "t": "Affirm CEO：油价上涨推动BNPL需求",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/bnpl/2026/affirm-ceo-sees-greater-bnpl-demand-as-gas-prices-climb/",
-    "d": "2026-08-30",
-    "p": "P2",
-    "m": "US",
-    "score": 61
    }
   ],
   "brand-retail": [
@@ -137,15 +128,6 @@ window.NAV_FEED = {
     "score": 60
    },
    {
-    "t": "Foster+Partners为诺顿摩托设计零售展台",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/08/30/foster-partners-norton-motorcycles-showroom/",
-    "d": "2026-08-30",
-    "p": "P1",
-    "m": "UK",
-    "score": 64
-   },
-   {
     "t": "伊藤忠收购Outdoor Products中国运营商股权",
     "s": "华丽志",
     "u": "https://luxe.co/post/480407",
@@ -162,6 +144,15 @@ window.NAV_FEED = {
     "p": "P2",
     "m": "CN",
     "score": 49
+   },
+   {
+    "t": "Myasna Gildiya品牌重塑：简化包装突出产品",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/08/myasna-gildiya.html",
+    "d": "2026-08-31",
+    "p": "P3",
+    "m": "GLOBAL",
+    "score": 46
    }
   ]
  }
