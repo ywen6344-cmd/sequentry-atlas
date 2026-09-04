@@ -1,61 +1,61 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-03",
- "total": 1153,
- "source_count": 57,
+ "updated": "2026-09-04",
+ "total": 1156,
+ "source_count": 54,
  "score_min": 60,
  "by_cat": {
   "market-product": [
    {
-    "t": "Boscov’s重构电商履约运营",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/boscovs-revamps-ecommerce-fulfillment-operations/829412/",
-    "d": "2026-09-02",
-    "p": "P1",
+    "t": "美加贸易战致北美时尚市场一体化减弱",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/fashion-briefing-the-canada-us-trade-war-is-creating-a-less-integrated-north-american-fashion-market/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-03",
+    "p": "P0",
     "m": "US",
-    "score": 83
+    "score": 87
    },
    {
-    "t": "Life Time推LT Social 健身房进入娱乐时代",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/wellness/wellness-briefing-life-time-launches-lt-social-as-gyms-enter-their-entertainment-era-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-02",
+    "t": "皇家邮政推出新地点查找工具",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/new-royal-mail-location-finder-launched/",
+    "d": "2026-09-03",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "维密拥抱怀旧与娱乐潮流",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/victorias-secret-fragrance-nostalgia-entertainment-trends/829539/",
+    "d": "2026-09-03",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Block推Cash App评分 进军替代信用评分",
-    "s": "Payments Journal",
-    "u": "https://www.paymentsjournal.com/block-unlocks-cash-app-score-amid-alternative-credit-scoring-push/",
-    "d": "2026-09-02",
+    "t": "Compare Group扩张至4个欧洲新市场",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/compare-group-expands-to-4-new-european-markets/",
+    "d": "2026-09-03",
     "p": "P1",
-    "m": "US",
-    "score": 71
+    "m": "EU",
+    "score": 79
    },
    {
-    "t": "好时联手Katseye迎合Z世代放纵需求",
+    "t": "Hoka将Strava跑步数据融入户外数字广告",
     "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-hersheys-katseye-campaign-takes-on-gen-zs-desire-for-indulgence/829013/",
-    "d": "2026-09-01",
+    "u": "https://www.marketingdive.com/news/hoka-builds-strava-running-stats-into-digital-ooh-campaign/829480/",
+    "d": "2026-09-03",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 69
    },
    {
-    "t": "新一代消费者重塑借记卡角色",
-    "s": "Payments Journal",
-    "u": "https://www.paymentsjournal.com/a-new-generation-of-consumers-is-changing-the-role-of-debit-cards/",
-    "d": "2026-09-01",
-    "p": "P0",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "卢德之夏：零售业面临新责任",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/the-summer-of-ludd/",
-    "d": "2026-09-02",
+    "t": "山姆会员店新增轮胎福利瞄准高留存会员",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/big-box-briefing-sams-club-targets-high-retention-members-with-new-tire-benefit/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-03",
     "p": "P1",
     "m": "US",
     "score": 69
@@ -63,69 +63,96 @@ window.NAV_FEED = {
   ],
   "platform-channel": [
    {
-    "t": "Anthropic发布零售AI购物代理蓝图",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-gives-retailers-blueprint-for-ai-shopping-agents/",
-    "d": "2026-09-02",
-    "p": "P0",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Anthropic发布Claude新功能，瞄准智能体电商",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/02/anthropic-debuts-claude-features-focused-on-agentic-commerce/",
-    "d": "2026-09-02",
+    "t": "Hydrogen开发者预览更新：9月2日",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/hydrogen-developer-preview-update-september-2-2026",
+    "d": "2026-09-03",
     "p": "P1",
-    "m": "US",
-    "score": 79
+    "m": "GLOBAL",
+    "score": 84
    },
    {
-    "t": "Williams-Sonoma AI助手提升客户互动与转化",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/williams-sonoma-ai-assistants-drive-customer-engagement-conversions/829051/",
-    "d": "2026-09-02",
+    "t": "亚马逊二手特惠日回归 最高五折",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/amazon-second-chance-deal-days-returns-with-up-to-50-off/",
+    "d": "2026-09-03",
     "p": "P1",
-    "m": "US",
-    "score": 79
+    "m": "UK",
+    "score": 83
    },
    {
-    "t": "Juspay推Breeze Universal 助品牌跨AI平台被发现",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110783/juspay-pilots-offering-that-enables-brand-discovery-across-ai-platforms?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-02",
+    "t": "Shopify POS可查看顾客在线购物车",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/permitted-store-staff-can-now-see-an-identified-customer-s-online-cart-in-pos",
+    "d": "2026-09-03",
     "p": "P1",
     "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "英国消费者为AI自主购物设150英镑信任门槛",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/uk-shoppers-put-150-agentic-trust-threshold-on-autonomous-ai-purchases/",
-    "d": "2026-09-02",
+    "t": "电商趋势：哪些AI渠道为在线零售商带来推荐流量？",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/03/ecommerce-trends-ai-sources-referral-traffic-online-retailers/",
+    "d": "2026-09-03",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "eBay英国推出交易卡价格指南",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/ebay-expands-trading-card-investment-with-new-uk-price-guide/",
-    "d": "2026-09-01",
+    "t": "Finzly推出AI保障层Assure",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110810/finzly-debuts-ai-assurance-layer?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-03",
     "p": "P1",
-    "m": "UK",
-    "score": 78
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "FIS推出嵌入式银行平台",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110809/fis-rolls-out-embedded-banking-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-03",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
    }
   ],
   "brand-retail": [
    {
-    "t": "Schönbuch更新Stripes储物系统",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/02/stripes-storage-jehs-laub-schonbuch-dezeen-showroom/",
-    "d": "2026-09-02",
+    "t": "Untuckit被Randa收购",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/randa-acquires-untuckit-dtc-apparel/829561/",
+    "d": "2026-09-03",
     "p": "P1",
-    "m": "UK",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "MOJ蜂蜜：也门家族品牌包装设计",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/09/moj-honey.html",
+    "d": "2026-09-03",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 72
+   },
+   {
+    "t": "Emeco起诉Zara Home抄袭Norman Foster设计椅",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/03/emeco-sues-zara-home-20-06-chair-norman-foster/",
+    "d": "2026-09-03",
+    "p": "P1",
+    "m": "US",
     "score": 69
+   },
+   {
+    "t": "Shipfix联合创始人跨界发布电子音乐",
+    "s": "Splash247 海运",
+    "u": "https://splash247.com/shipfix-co-founder-swaps-freight-screens-for-synths/",
+    "d": "2026-09-03",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 66
    },
    {
     "t": "包装业最脏的活:猫砂品牌设计",
@@ -134,25 +161,7 @@ window.NAV_FEED = {
     "d": "2026-09-02",
     "p": "P1",
     "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "乔丹新款Air Jordan 1冬季配色回归",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/sneaker-news/air-jordan-1-element-low-gtx-release-date-fv4227-004-1239195367/",
-    "d": "2026-09-02",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
-   },
-   {
-    "t": "Axe品牌定位成熟化 致敬Y2K根源",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/axe-vies-for-more-mature-brand-positioning-while-nodding-to-y2k-roots/829426/",
-    "d": "2026-09-02",
-    "p": "P1",
-    "m": "US",
-    "score": 62
+    "score": 64
    }
   ]
  }
