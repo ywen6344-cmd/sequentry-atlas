@@ -1,8 +1,8 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-07",
- "total": 1138,
- "source_count": 54,
+ "updated": "2026-09-08",
+ "total": 1113,
+ "source_count": 53,
  "score_min": 60,
  "by_cat": {
   "market-product": [
@@ -16,6 +16,15 @@ window.NAV_FEED = {
     "score": 83
    },
    {
+    "t": "品牌为Q4假期备战新退货政策",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/retailers/why-brands-are-prepping-new-return-policies-for-q4/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
     "t": "谷歌拆分告终，出版商乐见其成",
     "s": "Digiday",
     "u": "https://digiday.com/media/google-divestiture-is-dead-and-publishers-are-fine-with-that/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
@@ -25,22 +34,89 @@ window.NAV_FEED = {
     "score": 69
    },
    {
-    "t": "深度解析：音乐节背后的商业逻辑",
-    "s": "2PM",
-    "u": "https://2pml.com/2026/09/05/fest/",
-    "d": "2026-09-06",
-    "p": "P2",
-    "m": "US",
-    "score": 44
+    "t": "新邻里徽章让消费者看清超市社区回馈",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/new-neighbourly-badge-helps-shoppers-easily-see-how-supermarkets-give-back-to-their-local-communities/",
+    "d": "2026-09-07",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    },
    {
-    "t": "维密上半年净销售额超30亿美元，净利2.45亿",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/480932",
-    "d": "2026-09-05",
+    "t": "Exchange for Change启动月度DRS准备度调查",
+    "s": "Retail Gazette UK",
+    "u": "https://www.retailgazette.co.uk/blog/2026/09/exchange-for-change-drs/",
+    "d": "2026-09-07",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "欧盟最大碳捕集项目在荷兰启动",
+    "s": "EU 委员会新闻",
+    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1809",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "TikTok Shop欧盟跨区销售10月19日上线",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/tiktok-shop-sell-across-eu-launches-19th-october-2026/",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "CN",
+    "score": 79
+   },
+   {
+    "t": "eBay推出捆绑折扣功能",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/spotlight-ebay-bundle-discounts/",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "Aviator Nation备战AI购物时代",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/aviator-nation-shopify-ai-shopping-shop-app/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "亚马逊更新2025年Q4涉税数据",
+    "s": "白鲸出海",
+    "u": "http://www.baijing.cn/article/56596",
+    "d": "2026-09-07",
     "p": "P2",
     "m": "CN",
-    "score": 44
+    "score": 70
+   },
+   {
+    "t": "TikTok Shop开放欧盟英国跨境销售",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/tiktok-shop-opens-cross-border-sales-between-eu-and-uk/",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "EU",
+    "score": 69
+   },
+   {
+    "t": "别急着看衰Shein",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/dont-count-shein-out-yet/",
+    "d": "2026-09-07",
+    "p": "P1",
+    "m": "CN",
+    "score": 69
    }
   ],
   "brand-retail": [
@@ -63,95 +139,39 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "Uber联合创始人携Atoms重返网约车赛道",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/transportation/ridesharing/2026/uber-co-founder-eyes-return-to-ride-hailing-with-atoms-startup/",
-    "d": "2026-09-06",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "戴森发布首款电动牙刷 集成冲牙功能",
+    "t": "Ceramiche Keope推出仿石灰岩瓷砖系列",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/05/dyson-first-electric-toothbrush-this-week/",
-    "d": "2026-09-05",
-    "p": "P1",
-    "m": "UK",
-    "score": 64
-   },
-   {
-    "t": "Helly Hansen五年计划：转型高端专业品牌，目标营收超11亿美元",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/480845",
-    "d": "2026-09-06",
-    "p": "P2",
-    "m": "US",
-    "score": 49
-   },
-   {
-    "t": "Hawkstone与Wildfarmed联推限量拉格",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/hawkstone-and-wildfarmed-join-forces-to-put-british-farming-centre-stage-with-launch-of-hawkstone-wildthing-lager/",
-    "d": "2026-09-05",
-    "p": "P3",
-    "m": "UK",
-    "score": 51
-   }
-  ],
-  "platform-channel": [
-   {
-    "t": "Aviator Nation备战AI购物时代",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/aviator-nation-shopify-ai-shopping-shop-app/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "u": "https://www.dezeen.com/2026/09/07/grace-tile-collection-ceramiche-keope-dezeen-showroom/",
     "d": "2026-09-07",
     "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "亚马逊更新2025年Q4涉税数据",
-    "s": "白鲸出海",
-    "u": "http://www.baijing.cn/article/56596",
-    "d": "2026-09-07",
-    "p": "P2",
-    "m": "CN",
-    "score": 70
-   },
-   {
-    "t": "别急着看衰Shein",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/dont-count-shein-out-yet/",
-    "d": "2026-09-07",
-    "p": "P1",
-    "m": "CN",
+    "m": "EU",
     "score": 69
    },
    {
-    "t": "批发5元卖40美金，DIY压花器TikTok爆赚",
-    "s": "白鲸出海",
-    "u": "http://www.baijing.cn/article/56597",
-    "d": "2026-09-07",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "未来五年AI与航运业变革前瞻",
+    "t": "太古航运将项目货运并入主品牌",
     "s": "Splash247 海运",
-    "u": "https://splash247.com/ai-and-shipping-over-the-next-five-years/",
+    "u": "https://splash247.com/swire-shipping-folds-project-cargo-arm-into-main-brand/",
     "d": "2026-09-07",
     "p": "P2",
     "m": "GLOBAL",
     "score": 66
    },
    {
-    "t": "AI购物主导权之争：平台还是商家？",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/the-race-to-own-ai-shopping",
-    "d": "2026-09-06",
-    "p": "P2",
+    "t": "蓝仙姑重返英国货架",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/blue-nun-returns-to-uk-shelves/",
+    "d": "2026-09-07",
+    "p": "P3",
     "m": "US",
+    "score": 56
+   },
+   {
+    "t": "运动户外品牌加速区域首店布局",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/481071",
+    "d": "2026-09-07",
+    "p": "P2",
+    "m": "CN",
     "score": 56
    }
   ]

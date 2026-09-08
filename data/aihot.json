@@ -3,11 +3,65 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-c45862ba4e147e05",
-  "fetched_at": "2026-09-07T04:07:17Z",
+  "fingerprint": "f1-efa4104a763975d0",
+  "fetched_at": "2026-09-08T01:08:23Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmtrxbv5n02etroftlb6u96xt",
+      "channel": "aihot",
+      "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
+      "title_en": "用GPT-6 Astra操控Blender，保姆级教程来了。",
+      "summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-09-08T00:17:23.000Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt"
+      }
+    },
+    {
+      "id": "cmtrkorpo07jdrotnozlrlyx2",
+      "channel": "aihot",
+      "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+      "title_en": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
+      "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-09-07T18:12:41.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2",
+      "original_url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2"
+      }
+    },
+    {
+      "id": "cmtqy60930445ro7r5nodgoig",
+      "channel": "aihot",
+      "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
+      "title_en": "最高法发文明确\"AI 换脸拟声\"等案件裁判规则",
+      "summary": "最高人民法院发布《关于依法审理涉人工智能纠纷案件的意见》，共 5 部分 24 条，明确 AI 换脸拟声、AI 复活逝者、大数据杀熟、仿冒名人带货、网络开盒及自动驾驶事故等情形的裁判规则。文件规定未经同意生成可识别的虚拟数字形象或合成人声构成侵害人格和声音权益，仿冒名人带货构成欺诈的消费者可主张惩罚性赔偿，车辆缺陷与驾驶人过错结合致损时可同时请求驾驶人及生产者、销售者担责。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-09-07T07:46:08.000Z",
+      "category": "industry",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.virxact.com/items/cmtqy60930445ro7r5nodgoig",
+      "original_url": "https://www.ithome.com/0/999/313.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.virxact.com/items/cmtqy60930445ro7r5nodgoig"
+      }
+    },
     {
       "id": "cmtqhifvf04pwrohqvdfqmfxp",
       "channel": "aihot",
@@ -853,108 +907,48 @@
         "source": "AIHOT",
         "canonical": "https://aihot.virxact.com/items/cmtlnmh4o0fmsrow5i7pdq8b0"
       }
-    },
-    {
-      "id": "cmtm02uu60t29row5y74k0eai",
-      "channel": "aihot",
-      "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
-      "title_en": "Daybreak for Frontline Defenders： $1B to protect essential services",
-      "summary": "OpenAI 发布 Daybreak for Frontline Defenders 全球计划，承诺提供10亿美元的 Daybreak 补贴访问、培训、技术支持与合作，计划在未来六个月内消耗，优先支持水处理、电网、州和地方政府、社区银行、非营利组织和开源维护者等资源有限的一线防御者。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-09-03T13:15:00.000Z",
-      "category": "ai-products",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtm02uu60t29row5y74k0eai",
-      "original_url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtm02uu60t29row5y74k0eai"
-      }
-    },
-    {
-      "id": "cmtli5yd109u4row52i1xg9j4",
-      "channel": "aihot",
-      "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-      "title_en": "NVIDIA to Acquire Hugging Face",
-      "summary": "NVIDIA 宣布已同意以 12，930，300，000 美元收购 Hugging Face，黄仁勋在官方博客公布了这一消息。Hugging Face 目前有超过 1800 万开发者，托管超过 300 万个模型、50 万个数据集和 100 万个应用，服务超过 20 万家企业。",
-      "source": "NVIDIA Blog（RSS）",
-      "published_at": "2026-09-03T11:59:49.000Z",
-      "category": "industry",
-      "source_score": 91.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4",
-      "original_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4"
-      }
-    },
-    {
-      "id": "cmtnt5cb50b8mroqs7x4pukfm",
-      "channel": "aihot",
-      "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值",
-      "title_en": "GPT-6 Astra： A new generation of intelligence",
-      "summary": "OpenAI 发布新一代模型 GPT-6 Astra，称其在计算机使用、软件工程、科学和网络安全等方向达到 SOTA。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-09-03T11:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 88.0,
-      "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm",
-      "original_url": "https://openai.com/index/gpt-6-astra",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm"
-      }
     }
   ],
   "hot_topics": [],
   "daily": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.virxact.com/daily/2026-09-07"
+      "canonical": "https://aihot.virxact.com/daily/2026-09-08"
     },
-    "generatedAt": "2026-09-07T00:00:08.061Z",
-    "windowStart": "2026-09-06T00:00:00.000Z",
-    "windowEnd": "2026-09-07T00:00:00.000Z",
+    "generatedAt": "2026-09-08T00:00:00.984Z",
+    "windowStart": "2026-09-07T00:00:00.000Z",
+    "windowEnd": "2026-09-08T00:00:00.000Z",
     "lead": null,
     "sections": [
+      {
+        "label": "行业动态",
+        "items": [
+          {
+            "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+            "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
+            "sourceUrl": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+            "sourceName": "The Decoder：AI News（RSS）",
+            "permalink": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2"
+            }
+          }
+        ]
+      },
       {
         "label": "技巧与观点",
         "items": [
           {
-            "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-            "summary": "OpenAI 发文披露自动化研究进展，宣布已达成去年秋天设定的今年 9 月拥有自动化研究实习生（可在人类指导下完成耗时数天的明确研究任务）的目标，并计划在 2028 年 3 月前造出自动化 AI 研究员。",
-            "sourceUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
-            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "permalink": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v",
+            "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+            "summary": "GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。",
+            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
+            "sourceName": "公众号：数字生命卡兹克",
+            "permalink": "https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v"
-            }
-          },
-          {
-            "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
-            "summary": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。",
-            "sourceUrl": "https://www.ithome.com/0/998/927.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2"
-            }
-          },
-          {
-            "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-            "summary": "OpenAI 发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目中确认推理模型可扩展训练的起点，并系统阐述目标对齐与价值对齐的区分。文章指出链式思维监控的效果正随着模型能力提升而逐步减弱，GPT‑6 Astra 在对齐上显著优于 GPT‑5.6 Sol；作者预期进展可能持续走向机器递归自我改进（RSI），呼吁自愿放缓扩展、建立第三方安全门槛并加强国际协调。",
-            "sourceUrl": "https://openai.com/index/an-alien-mind",
-            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "permalink": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1"
+              "canonical": "https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp"
             }
           }
         ]
