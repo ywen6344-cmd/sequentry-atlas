@@ -1,8 +1,296 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-08T01:08:23Z",
-  "count": 772,
+  "updated_at": "2026-09-09T01:06:27Z",
+  "count": 793,
   "items": [
+    {
+      "id": "cmttcqkx404pprofp0jwc34zu",
+      "channel": "aihot",
+      "title": "GPT-6 Astra推理等级怎么选才最省Token",
+      "title_en": "一文带你看懂，GPT-6 Astra推理等级怎么选才最省Token。",
+      "summary": "卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-09-09T00:09:00.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686094&idx=1&sn=c06c40993f7ab28f2302619e4b89986b",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu"
+      }
+    },
+    {
+      "id": "cmttbyra803k5rofpxjajvkez",
+      "channel": "aihot",
+      "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
+      "title_en": "On the Navier-Stokes Millennium Prize Problem",
+      "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
+      "source": "Simon Willison 博客",
+      "published_at": "2026-09-08T23:55:12.000Z",
+      "category": "tip",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmttbyra803k5rofpxjajvkez",
+      "original_url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmttbyra803k5rofpxjajvkez"
+      }
+    },
+    {
+      "id": "cmttchnc104jvrofp05adlcv6",
+      "channel": "aihot",
+      "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
+      "title_en": "the team poured their heart and souls into it， and it warms our hearts to see the response ❤️ we ar…",
+      "summary": "Meta 的 Muse 智能体产品开放更多用户试用，入口为 https://muse.ai/join，Meta 首席 AI 官 Alexandr Wang 称团队为产品倾注心血并感谢用户反响。引用的评价称其设计、速度和浏览器等智能体流程表现出色，具备 Instagram 等 Meta 产品原生集成优势，但也指出 soul.md 等命名对普通用户不直观、feed 内容相关性不足等问题。",
+      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+      "published_at": "2026-09-08T23:48:02.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
+      "original_url": "https://x.com/alexandr_wang/status/2097472059077202339",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6"
+      }
+    },
+    {
+      "id": "cmtt7nvmn02h6romq0xpo0p2w",
+      "channel": "aihot",
+      "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+      "title_en": "Introducing Runway for Premiere Pro & After Effects",
+      "summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
+      "source": "Runway：News（网页）",
+      "published_at": "2026-09-08T21:58:07.884Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
+      "original_url": "https://runwayml.com/news/company-news/runway-for-adobe",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w"
+      }
+    },
+    {
+      "id": "cmtt65r1002f0rocpzpypdjgt",
+      "channel": "aihot",
+      "title": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
+      "title_en": "Astra is fully rolled out to Plus， Pro， Business， and Enterprise users in Codex and ChatGPT Work. G…",
+      "summary": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。",
+      "source": "X：OpenAI (@OpenAI)",
+      "published_at": "2026-09-08T21:06:10.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtt65r1002f0rocpzpypdjgt",
+      "original_url": "https://x.com/OpenAI/status/2097431322117476423",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtt65r1002f0rocpzpypdjgt"
+      }
+    },
+    {
+      "id": "cmtszfjuo04a7ro5wxi2n02va",
+      "channel": "aihot",
+      "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
+      "title_en": "I spent much of the weekend talking with the team who did this work. Seb--and everyone else--acted w…",
+      "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
+      "source": "X：Sam Altman (@sama)",
+      "published_at": "2026-09-08T18:02:46.000Z",
+      "category": "tip",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va",
+      "original_url": "https://x.com/sama/status/2097385167002415140",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va"
+      }
+    },
+    {
+      "id": "cmtsyfj5p01qgro5wfoz5h410",
+      "channel": "aihot",
+      "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
+      "title_en": "Landmark event on the way to ASI， congratulations to the team Just because one solution showing blo…",
+      "summary": "Emad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解，该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。",
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "published_at": "2026-09-08T17:35:10.000Z",
+      "category": "tip",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410",
+      "original_url": "https://x.com/EMostaque/status/2097378223138959719",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410"
+      }
+    },
+    {
+      "id": "cmtsz2a0q02ciro5w7oz3a0ix",
+      "channel": "aihot",
+      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "title_en": "OpenAI fought dirty on career-making math problem， says NYU mathematician",
+      "summary": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-09-08T17:32:15.000Z",
+      "category": "industry",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
+      "original_url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix"
+      }
+    },
+    {
+      "id": "cmtsy52b401faro5wv9smnfmk",
+      "channel": "aihot",
+      "title": "Noam Brown 评 OpenAI 用智能体求解 Navier-Stokes 千禧年难题：成本会快速下降",
+      "title_en": "Yes， this result cost millions of dollars. But remember that when @OpenAI announced o3 it cost ~$50…",
+      "summary": "Noam Brown 就 OpenAI 宣布以智能体组合求解 Navier-Stokes 千禧年大奖难题发表看法，承认这次证明花费数百万美元，但认为成本会快速下降。",
+      "source": "X：Noam Brown (@polynoamial)",
+      "published_at": "2026-09-08T17:25:41.000Z",
+      "category": "tip",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsy52b401faro5wv9smnfmk",
+      "original_url": "https://x.com/polynoamial/status/2097375837670785447",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsy52b401faro5wv9smnfmk"
+      }
+    },
+    {
+      "id": "cmtsynojw01xqro5wb8n7ysor",
+      "channel": "aihot",
+      "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
+      "title_en": "We congratulate Levent Alpöge and Tristan Buckmaster on their remarkable mathematical work. We （the…",
+      "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
+      "source": "X：OpenAI (@OpenAI)",
+      "published_at": "2026-09-08T17:23:27.000Z",
+      "category": "paper",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
+      "original_url": "https://x.com/OpenAI/status/2097375276384567642",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor"
+      }
+    },
+    {
+      "id": "cmtsxacbf04jkrob5fu5sp5ti",
+      "channel": "aihot",
+      "title": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
+      "title_en": "https://x.com/i/article/2095208140753317888",
+      "summary": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-09-08T17:01:27.000Z",
+      "category": "tip",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsxacbf04jkrob5fu5sp5ti",
+      "original_url": "https://x.com/ClaudeDevs/status/2097369738968195513",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsxacbf04jkrob5fu5sp5ti"
+      }
+    },
+    {
+      "id": "cmtsx0wm4041jrob5liwjypsq",
+      "channel": "aihot",
+      "title": "Dwarkesh Patel 研究：预训练进步主要来自数据改进",
+      "title_en": "Pretraining progress is mostly coming from data",
+      "summary": "Dwarkesh Patel 发布实验分析，在最高 1e19 FLOPs 的算力预算下训练 2019 至 2025 年各年度代表性模型配方与数据语料，发现数据改进带来 12.0x 算力效率提升，模型改进为 3.7x，数据贡献约为模型的 3.24 倍。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "published_at": "2026-09-08T16:10:16.000Z",
+      "category": "paper",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsx0wm4041jrob5liwjypsq",
+      "original_url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsx0wm4041jrob5liwjypsq"
+      }
+    },
+    {
+      "id": "cmtt0pw2p018pro9owlhpi092",
+      "channel": "aihot",
+      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+      "title_en": "Introducing ChatGPT Images 2.5",
+      "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-08T11:30:00.000Z",
+      "category": "ai-models",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
+      "original_url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092"
+      }
+    },
+    {
+      "id": "cmtszna9e04isro5woti0ixg6",
+      "channel": "aihot",
+      "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
+      "title_en": "On the Navier-Stokes Millennium Prize Problem",
+      "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-08T10:00:00.000Z",
+      "category": "paper",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
+      "original_url": "https://openai.com/index/navier-stokes-solution",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6"
+      }
+    },
+    {
+      "id": "cmtscjydz01garow6gi54pft9",
+      "channel": "aihot",
+      "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
+      "title_en": "纳维-斯托克斯方程--特里斯坦·巴克马斯特 【pdf】",
+      "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-08T07:20:02.739Z",
+      "category": "tip",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtscjydz01garow6gi54pft9",
+      "original_url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtscjydz01garow6gi54pft9"
+      }
+    },
+    {
+      "id": "cmts9dr2m029hrobq86wrny37",
+      "channel": "aihot",
+      "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
+      "title_en": "Mistral raises €3B to make sovereign， open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
+      "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
+      "source": "Mistral AI：News（网页）",
+      "published_at": "2026-09-08T05:58:27.839Z",
+      "category": "industry",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37",
+      "original_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37"
+      }
+    },
     {
       "id": "cmtrxbv5n02etroftlb6u96xt",
       "channel": "aihot",
@@ -14,11 +302,29 @@
       "category": "tip",
       "source_score": 76.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt",
+      "permalink": "https://aihot.news/items/cmtrxbv5n02etroftlb6u96xt",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt"
+        "canonical": "https://aihot.news/items/cmtrxbv5n02etroftlb6u96xt"
+      }
+    },
+    {
+      "id": "cmtt3hrxg02xarowa0a6iz1dc",
+      "channel": "aihot",
+      "title": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+      "title_en": "Is the 3x AI Productivity Gain just a Computer that Never Sleeps？",
+      "summary": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "published_at": "2026-09-08T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtt3hrxg02xarowa0a6iz1dc",
+      "original_url": "https://tomtunguz.com/openai-research-acceleration-agentic-productivity",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtt3hrxg02xarowa0a6iz1dc"
       }
     },
     {
@@ -32,11 +338,11 @@
       "category": "industry",
       "source_score": 76.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2",
+      "permalink": "https://aihot.news/items/cmtrkorpo07jdrotnozlrlyx2",
       "original_url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2"
+        "canonical": "https://aihot.news/items/cmtrkorpo07jdrotnozlrlyx2"
       }
     },
     {
@@ -50,11 +356,11 @@
       "category": "industry",
       "source_score": 85.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtqy60930445ro7r5nodgoig",
+      "permalink": "https://aihot.news/items/cmtqy60930445ro7r5nodgoig",
       "original_url": "https://www.ithome.com/0/999/313.htm",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtqy60930445ro7r5nodgoig"
+        "canonical": "https://aihot.news/items/cmtqy60930445ro7r5nodgoig"
       }
     },
     {
@@ -68,11 +374,11 @@
       "category": "tip",
       "source_score": 71.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp",
+      "permalink": "https://aihot.news/items/cmtqhifvf04pwrohqvdfqmfxp",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp"
+        "canonical": "https://aihot.news/items/cmtqhifvf04pwrohqvdfqmfxp"
       }
     },
     {
@@ -86,11 +392,29 @@
       "category": "tip",
       "source_score": 81.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtq5pxc10275roiufscxyie4",
+      "permalink": "https://aihot.news/items/cmtq5pxc10275roiufscxyie4",
       "original_url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtq5pxc10275roiufscxyie4"
+        "canonical": "https://aihot.news/items/cmtq5pxc10275roiufscxyie4"
+      }
+    },
+    {
+      "id": "cmtsqn93g024jrokaxle3za5f",
+      "channel": "aihot",
+      "title": "Berkeley RDI 发布开源平台 CUA-Lite，面向计算机使用智能体",
+      "title_en": "CUA-Lite： An Open Platform for Computer-Use Agents",
+      "summary": "Berkeley RDI 推出开源平台 CUA-Lite，为计算机使用智能体提供三个标准化抽象。其环境接口下运行 15+ 个覆盖桌面、浏览器和移动端的基准，并提供含 30k+ 可验证任务的免 VM 桌面沙箱；统一监督数据格式已转换 10+ 个公开 CUA 数据集；每模型一个 harness 在评测、SFT 和 RL 间共享，支持 14 个模型族。",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "published_at": "2026-09-06T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsqn93g024jrokaxle3za5f",
+      "original_url": "https://rdi.berkeley.edu/blog/cua-lite",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsqn93g024jrokaxle3za5f"
       }
     },
     {
@@ -104,11 +428,11 @@
       "category": "tip",
       "source_score": 72.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1",
+      "permalink": "https://aihot.news/items/cmtq23v6k01aorotwh8xip8r1",
       "original_url": "https://openai.com/index/an-alien-mind",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1"
+        "canonical": "https://aihot.news/items/cmtq23v6k01aorotwh8xip8r1"
       }
     },
     {
@@ -122,11 +446,11 @@
       "category": "tip",
       "source_score": 81.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v",
+      "permalink": "https://aihot.news/items/cmtpzyon6019iroemu68v4s2v",
       "original_url": "https://openai.com/index/research-acceleration-view-inside-openai",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v"
+        "canonical": "https://aihot.news/items/cmtpzyon6019iroemu68v4s2v"
       }
     },
     {
@@ -140,11 +464,11 @@
       "category": "tip",
       "source_score": 77.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2",
+      "permalink": "https://aihot.news/items/cmtphtttc01pkroxxh8pinzq2",
       "original_url": "https://www.ithome.com/0/998/927.htm",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2"
+        "canonical": "https://aihot.news/items/cmtphtttc01pkroxxh8pinzq2"
       }
     },
     {
@@ -158,11 +482,11 @@
       "category": "ai-products",
       "source_score": 76.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtoxdsbb032sromz8bcrhsii",
+      "permalink": "https://aihot.news/items/cmtoxdsbb032sromz8bcrhsii",
       "original_url": "https://x.com/testingcatalog/status/2096350628054176240",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtoxdsbb032sromz8bcrhsii"
+        "canonical": "https://aihot.news/items/cmtoxdsbb032sromz8bcrhsii"
       }
     },
     {
@@ -194,11 +518,11 @@
       "category": "industry",
       "source_score": 82.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtoq071c01tjro4mqmxcuu03",
+      "permalink": "https://aihot.news/items/cmtoq071c01tjro4mqmxcuu03",
       "original_url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtoq071c01tjro4mqmxcuu03"
+        "canonical": "https://aihot.news/items/cmtoq071c01tjro4mqmxcuu03"
       }
     },
     {
@@ -212,11 +536,11 @@
       "category": "tip",
       "source_score": 78.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtofayvo02uoroht238ucfjw",
+      "permalink": "https://aihot.news/items/cmtofayvo02uoroht238ucfjw",
       "original_url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtofayvo02uoroht238ucfjw"
+        "canonical": "https://aihot.news/items/cmtofayvo02uoroht238ucfjw"
       }
     },
     {
@@ -248,11 +572,11 @@
       "category": "tip",
       "source_score": 77.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtoba1tm047nroxh3vml7on9",
+      "permalink": "https://aihot.news/items/cmtoba1tm047nroxh3vml7on9",
       "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685905&idx=1&sn=2a6327daa3fb1d5573a824afd63af7f6",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtoba1tm047nroxh3vml7on9"
+        "canonical": "https://aihot.news/items/cmtoba1tm047nroxh3vml7on9"
       }
     },
     {
@@ -266,11 +590,11 @@
       "category": "industry",
       "source_score": 84.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtoazuoz03z6roxhurow5v5s",
+      "permalink": "https://aihot.news/items/cmtoazuoz03z6roxhurow5v5s",
       "original_url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtoazuoz03z6roxhurow5v5s"
+        "canonical": "https://aihot.news/items/cmtoazuoz03z6roxhurow5v5s"
       }
     },
     {
@@ -302,11 +626,11 @@
       "category": "industry",
       "source_score": 83.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmto4hkdv01leromx37jl2511",
+      "permalink": "https://aihot.news/items/cmto4hkdv01leromx37jl2511",
       "original_url": "https://www.ithome.com/0/998/758.htm",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmto4hkdv01leromx37jl2511"
+        "canonical": "https://aihot.news/items/cmto4hkdv01leromx37jl2511"
       }
     },
     {
@@ -338,11 +662,11 @@
       "category": "tip",
       "source_score": 65.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmto1tyjd0kh4roqs2p93ydka",
+      "permalink": "https://aihot.news/items/cmto1tyjd0kh4roqs2p93ydka",
       "original_url": "https://x.com/OpenAI/status/2096133504417616165",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmto1tyjd0kh4roqs2p93ydka"
+        "canonical": "https://aihot.news/items/cmto1tyjd0kh4roqs2p93ydka"
       }
     },
     {
@@ -356,11 +680,11 @@
       "category": "ai-models",
       "source_score": 82.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn",
+      "permalink": "https://aihot.news/items/cmtnphe3t07vfroqsvrbd9enn",
       "original_url": "https://www.ithome.com/0/998/661.htm",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn"
+        "canonical": "https://aihot.news/items/cmtnphe3t07vfroqsvrbd9enn"
       }
     },
     {
@@ -392,11 +716,11 @@
       "category": "industry",
       "source_score": 85.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtnl720g03olroqsrkmbl292",
+      "permalink": "https://aihot.news/items/cmtnl720g03olroqsrkmbl292",
       "original_url": "https://www.ithome.com/0/998/630.htm",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtnl720g03olroqsrkmbl292"
+        "canonical": "https://aihot.news/items/cmtnl720g03olroqsrkmbl292"
       }
     },
     {
@@ -410,11 +734,11 @@
       "category": "ai-models",
       "source_score": 79.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtnkdx8y031qroqs79optcp2",
+      "permalink": "https://aihot.news/items/cmtnkdx8y031qroqs79optcp2",
       "original_url": "https://x.com/sama/status/2096008528834244741",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtnkdx8y031qroqs79optcp2"
+        "canonical": "https://aihot.news/items/cmtnkdx8y031qroqs79optcp2"
       }
     },
     {
@@ -446,11 +770,11 @@
       "category": "ai-models",
       "source_score": 81.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtne97cd058urog1zpa39wm7",
+      "permalink": "https://aihot.news/items/cmtne97cd058urog1zpa39wm7",
       "original_url": "https://x.com/OpenAI/status/2095968413646737608",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtne97cd058urog1zpa39wm7"
+        "canonical": "https://aihot.news/items/cmtne97cd058urog1zpa39wm7"
       }
     },
     {
@@ -464,11 +788,11 @@
       "category": "paper",
       "source_score": 76.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtnbhhu902perog1dmrla299",
+      "permalink": "https://aihot.news/items/cmtnbhhu902perog1dmrla299",
       "original_url": "https://x.com/AnthropicAI/status/2095947707605266436",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtnbhhu902perog1dmrla299"
+        "canonical": "https://aihot.news/items/cmtnbhhu902perog1dmrla299"
       }
     },
     {
@@ -482,11 +806,11 @@
       "category": "tip",
       "source_score": 76.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtn9rovi0tkdromy0vgnyouj",
+      "permalink": "https://aihot.news/items/cmtn9rovi0tkdromy0vgnyouj",
       "original_url": "https://x.com/rohanpaul_ai/status/2095931182903107971",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtn9rovi0tkdromy0vgnyouj"
+        "canonical": "https://aihot.news/items/cmtn9rovi0tkdromy0vgnyouj"
       }
     },
     {
@@ -500,11 +824,11 @@
       "category": "tip",
       "source_score": 80.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtnagm2q01m9rog1y8p2sotq",
+      "permalink": "https://aihot.news/items/cmtnagm2q01m9rog1y8p2sotq",
       "original_url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtnagm2q01m9rog1y8p2sotq"
+        "canonical": "https://aihot.news/items/cmtnagm2q01m9rog1y8p2sotq"
       }
     },
     {
@@ -518,11 +842,11 @@
       "category": "tip",
       "source_score": 83.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtn8fc1w0qb4romyobllbzv9",
+      "permalink": "https://aihot.news/items/cmtn8fc1w0qb4romyobllbzv9",
       "original_url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtn8fc1w0qb4romyobllbzv9"
+        "canonical": "https://aihot.news/items/cmtn8fc1w0qb4romyobllbzv9"
       }
     },
     {
@@ -536,11 +860,11 @@
       "category": "ai-products",
       "source_score": 68.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtn66b6s0o0eromy3rzdsvat",
+      "permalink": "https://aihot.news/items/cmtn66b6s0o0eromy3rzdsvat",
       "original_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtn66b6s0o0eromy3rzdsvat"
+        "canonical": "https://aihot.news/items/cmtn66b6s0o0eromy3rzdsvat"
       }
     },
     {
@@ -554,11 +878,11 @@
       "category": "industry",
       "source_score": 76.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtn41rbm0lw1romys1igl789",
+      "permalink": "https://aihot.news/items/cmtn41rbm0lw1romys1igl789",
       "original_url": "https://www.ithome.com/0/998/620.htm",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtn41rbm0lw1romys1igl789"
+        "canonical": "https://aihot.news/items/cmtn41rbm0lw1romys1igl789"
       }
     },
     {
@@ -572,11 +896,11 @@
       "category": "tip",
       "source_score": 80.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtmvu3n10cloromyzym3svtj",
+      "permalink": "https://aihot.news/items/cmtmvu3n10cloromyzym3svtj",
       "original_url": "https://x.com/kimmonismus/status/2095837763517988869",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtmvu3n10cloromyzym3svtj"
+        "canonical": "https://aihot.news/items/cmtmvu3n10cloromyzym3svtj"
       }
     },
     {
@@ -590,11 +914,11 @@
       "category": "tip",
       "source_score": 78.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtmvk9590ccdromyrrae80ir",
+      "permalink": "https://aihot.news/items/cmtmvk9590ccdromyrrae80ir",
       "original_url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtmvk9590ccdromyrrae80ir"
+        "canonical": "https://aihot.news/items/cmtmvk9590ccdromyrrae80ir"
       }
     },
     {
@@ -608,11 +932,65 @@
       "category": "ai-models",
       "source_score": 63.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtmehz6p01cerotxiqdnxdw2",
+      "permalink": "https://aihot.news/items/cmtmehz6p01cerotxiqdnxdw2",
       "original_url": "https://x.com/satyanadella/status/2095713765446840591",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtmehz6p01cerotxiqdnxdw2"
+        "canonical": "https://aihot.news/items/cmtmehz6p01cerotxiqdnxdw2"
+      }
+    },
+    {
+      "id": "cmtmcipsq00sirovbhprdqc1x",
+      "channel": "aihot",
+      "title": "OpenAI 发布 GPT-6 Astra，主打桌面自动化与网络安全 Critical 档位",
+      "title_en": "总结一下GPT-6 Astra 的亮点给大家，AGI真的离我们越来越近了吗？ 1. 开放问题突破：攻克包括构造 non-sofic 群、推翻 Connes 刚性猜想在内的 10 道数学/计算难题，全部…",
+      "summary": "OpenAI 发布 GPT-6 Astra，主打计算机操作能力。作者总结其亮点包括：以 Lean 形式化证明攻克 10 道数学/计算难题，单次解题 Token 成本约 $2000。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "published_at": "2026-09-04T02:29:45.000Z",
+      "category": "ai-models",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtmcipsq00sirovbhprdqc1x",
+      "original_url": "https://x.com/AYi_AInotes/status/2095700816980222311",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtmcipsq00sirovbhprdqc1x"
+      }
+    },
+    {
+      "id": "cmtmcipsq00sjrovbxu1gd6lk",
+      "channel": "aihot",
+      "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作与对齐能力",
+      "title_en": "大家别再以为OpenAI 只是发了一个更会聊天的 GPT-6了， 首席研究官 @markchen90 转发时只强调了一件事： 电脑上你能干的活，Astra 都能替你干，而且快了近一倍， 更吓人的…",
+      "summary": "OpenAI 发布 GPT-6 Astra，首席研究官 Mark Chen 称其能构建测试软件、跨应用操作电脑并尝试开放科学问题。作者补充数字：OSWorld 真实桌面任务从 75 分钟降到 40 分钟，职场自动化从 18% 升到 41%，未防护越权率从上一代 48% 压到 0%，并称花了 2000 美元算力解出 10 道十年未解的数学与理论计算难题；同时指出带工具的综合测试仍落后 Claude。",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "published_at": "2026-09-04T02:22:24.000Z",
+      "category": "ai-models",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtmcipsq00sjrovbxu1gd6lk",
+      "original_url": "https://x.com/AYi_AInotes/status/2095698966684049433",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtmcipsq00sjrovbxu1gd6lk"
+      }
+    },
+    {
+      "id": "cmtma05f8017zro9fao7eonjg",
+      "channel": "aihot",
+      "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
+      "title_en": "AI 的世界，没有最强，只有更强！",
+      "summary": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，API 模型名 gpt-6-astra，每百万输入 Token 10 美元、输出 50 美元，未来几天推送到 ChatGPT 各档订阅、API 和 AWS Bedrock。",
+      "source": "X：小北 (@frxiaobei)",
+      "published_at": "2026-09-04T01:16:52.000Z",
+      "category": "ai-models",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtma05f8017zro9fao7eonjg",
+      "original_url": "https://x.com/frxiaobei/status/2095682473745363068",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtma05f8017zro9fao7eonjg"
       }
     },
     {
@@ -626,11 +1004,11 @@
       "category": "paper",
       "source_score": 78.0,
       "selected": true,
-      "permalink": "https://aihot.virxact.com/items/cmtm7yl5s01d5robnsn25onbz",
+      "permalink": "https://aihot.news/items/cmtm7yl5s01d5robnsn25onbz",
       "original_url": "https://arcprize.org/blog/astra",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmtm7yl5s01d5robnsn25onbz"
+        "canonical": "https://aihot.news/items/cmtm7yl5s01d5robnsn25onbz"
       }
     },
     {
