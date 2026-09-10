@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-09",
- "total": 1142,
+ "updated": "2026-09-10",
+ "total": 1152,
  "source_count": 53,
  "score_min": 60,
  "by_cat": {
@@ -13,55 +13,120 @@ window.NAV_FEED = {
     "d": "2026-09-08",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 96
+    "score": 91
    },
    {
-    "t": "Shopify客户地址API新增国家代码字段",
+    "t": "Shopify CLI 4.8 新增开发商店创建删除命令",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/customer-address-apis-now-support-countrycode",
-    "d": "2026-09-08",
-    "p": "P0",
-    "m": "US",
-    "score": 92
-   },
-   {
-    "t": "Shopify产品变体支持多条形码",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/multiple-barcodes-in-variants",
-    "d": "2026-09-08",
+    "u": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
+    "d": "2026-09-09",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 83
+    "score": 84
    },
    {
-    "t": "Urban Outfitters旗下Nuuly推进仓储自动化",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/urban-outfitters-nuuly-fulfillment-center-automation/829770/",
-    "d": "2026-09-08",
+    "t": "阿里Accio电商AI成本降超50%",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/alibabas-accio-cuts-ai-costs-for-e-commerce-tasks-by-over-50-compared-with-general-purpose-agents/",
+    "d": "2026-09-09",
     "p": "P1",
-    "m": "US",
+    "m": "UK",
     "score": 83
    },
    {
-    "t": "美国银行推出私募瀑布引擎平台",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110837/us-bank-introduces-private-waterfall-engine-for-alternative-investments-clients?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-08",
+    "t": "亚马逊德国收紧参考价与建议零售价规则",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/update-your-recommended-retail-prices-on-amazon/",
+    "d": "2026-09-09",
+    "p": "P1",
+    "m": "DE",
+    "score": 79
+   },
+   {
+    "t": "Rugs Direct上线AI助手Ask Cleo优化站内搜索与产品页",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/09/rugs-direct-ai-agent-assistant-ask-cleo/",
+    "d": "2026-09-09",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "ShopMy、谷歌及WordPress入围Digiday技术奖",
-    "s": "Digiday",
-    "u": "https://digiday.com/announcement/awards/shopmy-google-and-wordpress-are-among-this-years-digiday-technology-awards-finalists/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-08",
+    "t": "PhonePe携手Visa推出三款核心支付应用",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110855/phonepe-introduces-suite-of-three-core-visa-applications?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-09",
     "p": "P1",
-    "m": "US",
+    "m": "GLOBAL",
     "score": 79
    }
   ],
+  "market-product": [
+   {
+    "t": "11家零售媒体网络如何差异化吸引广告主",
+    "s": "Digiday",
+    "u": "https://digiday.com/media/how-11-retail-media-networks-are-trying-to-differentiate-themselves-to-advertisers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-09",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "线上眼镜业成熟 GlassesUSA母公司加码垂直整合",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/sponsored/glassesusa-online-eyewear-market-matures/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Weight Watchers联手Dear Media推播客消除GLP-1污名",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/wellness/wellness-briefing-weight-watchers-launches-the-weigh-in-podcast-with-dear-media-to-crush-glp-1-stigma-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "凯撒体育博彩广告为NFL传奇做‘颜值改造’",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/caesars-gives-nfl-legend-a-looksmaxxing-makeover-in-sportsbook-ads/829915/",
+    "d": "2026-09-09",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "全美四名大学生谈Z世代校园潮流与品牌误区",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-features/gen-z-college-students-campus-fashion-interview-1239201588/",
+    "d": "2026-09-09",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   }
+  ],
   "brand-retail": [
+   {
+    "t": "Signet珠宝商Q2扭亏为盈 上调全年预期",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/signet-raises-guidance-kay-jared-zales/829896/",
+    "d": "2026-09-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "1 AM：为深夜奋斗者打造的冷萃咖啡品牌",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/09/1-am.html",
+    "d": "2026-09-09",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 72
+   },
    {
     "t": "Modelo加大大学橄榄球营销投入推新平台",
     "s": "Marketing Dive",
@@ -69,7 +134,7 @@ window.NAV_FEED = {
     "d": "2026-09-08",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Bugaboo用橙皮和旧蛋盒造婴儿车",
@@ -78,7 +143,7 @@ window.NAV_FEED = {
     "d": "2026-09-08",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Rothy's十周年推出史上最大营销活动",
@@ -87,92 +152,16 @@ window.NAV_FEED = {
     "d": "2026-09-08",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Malin + Goetz番茄香氛热度不减",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/at-malin-goetz-tomato-girl-summer-is-still-going-strong/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-07",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "7 Brew首任CMO如何营销美国增长最快品牌",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-7-brews-first-cmo-is-marketing-the-fastest-growing-brand-in-the-us/829755/",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "多乐士发布2027年度色：鼠尾草绿",
+    "t": "Casalgrande Padana五款瓷砖亮相Dezeen展厅",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/08/sage-green-colour-year-2027-dulux/",
-    "d": "2026-09-08",
+    "u": "https://www.dezeen.com/2026/09/09/casalgrande-padana-porcelain-tiles-dezeen-showroom/",
+    "d": "2026-09-09",
     "p": "P1",
-    "m": "US",
+    "m": "UK",
     "score": 69
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Instagram私信成产品开发金矿",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/brands-briefing-instagram-dms-are-proving-to-be-a-gold-mine-for-product-development/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "11家零售媒体网络如何差异化吸引广告主",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/how-11-retail-media-networks-are-trying-to-differentiate-themselves-to-advertisers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Anthropologie引入Nike，运动鞋客群增近30%",
-    "s": "Digiday",
-    "u": "https://digiday.com/marketing/anthropologie-is-launching-nike-as-sneaker-shoppers-increase-nearly-30/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-07",
-    "p": "P1",
-    "m": "US",
-    "score": 78
-   },
-   {
-    "t": "UNFI第四季度销售下滑 网络攻击周年影响",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/08/unfi-ai-supply-chain-sales-q4-2026/",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Z世代广告观看平台在哪？",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/where-is-gen-z-watching-ads/",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "欧盟最大碳捕集项目在荷兰启动",
-    "s": "EU 委员会新闻",
-    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1809",
-    "d": "2026-09-07",
-    "p": "P1",
-    "m": "EU",
-    "score": 74
    }
   ]
  }
