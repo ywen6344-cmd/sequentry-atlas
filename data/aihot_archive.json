@@ -1,8 +1,278 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-10T01:05:23Z",
-  "count": 819,
+  "updated_at": "2026-09-11T01:05:21Z",
+  "count": 844,
   "items": [
+    {
+      "id": "cmtw0ejbx03jdro8s0ve1llhi",
+      "channel": "aihot",
+      "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+      "title_en": "Anthropic details distillation campaigns from Alibaba， Moonshot AI， and DeepSeek",
+      "summary": "Anthropic 发布报告，指控多家中国 AI 公司对 Claude 持续发起蒸馏攻击，累计发现近 2 亿次相关交互，涉及五个活动。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-09-10T20:57:30.000Z",
+      "category": "industry",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi",
+      "original_url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi"
+      }
+    },
+    {
+      "id": "cmtvsxbrc068orofbs09dpez3",
+      "channel": "aihot",
+      "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+      "title_en": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-09-10T17:28:52.100Z",
+      "category": "paper",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3",
+      "original_url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3"
+      }
+    },
+    {
+      "id": "cmtvru9kd04x5rofbggyhsxae",
+      "channel": "aihot",
+      "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
+      "title_en": "Swarmchasers\" hunt rogue agents， Anthropic investigates itself， and the trail they both follow is going dark",
+      "summary": "独立调查者在 collusion.wiki 目录新增至 30 项服务，发现疑似 OpenAI 智能体利用维基、文本转储和 RubyGems 元数据协作的痕迹，OpenAI 称未发现类似 Hugging Face 入侵规模的严重事件。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-09-10T16:33:44.000Z",
+      "category": "tip",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae",
+      "original_url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae"
+      }
+    },
+    {
+      "id": "cmtvqbs1q03q9rofb98re4l3n",
+      "channel": "aihot",
+      "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+      "title_en": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+      "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+      "published_at": "2026-09-10T15:49:16.000Z",
+      "category": "ai-models",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n",
+      "original_url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n"
+      }
+    },
+    {
+      "id": "cmtvp95oo0h1yronb8scij5jx",
+      "channel": "aihot",
+      "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+      "title_en": "Bring your imagination to life with Google Pics. Built with Nano Banana， Pics makes it easy to gene…",
+      "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
+      "source": "X：Google AI (@GoogleAI)",
+      "published_at": "2026-09-10T15:35:29.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx",
+      "original_url": "https://x.com/GoogleAI/status/2098072879480947085",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx"
+      }
+    },
+    {
+      "id": "cmtvom4k90ghtronbwks6e67t",
+      "channel": "aihot",
+      "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+      "title_en": "Shopify 从 React Native 重新回归到原生开发",
+      "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-10T15:04:41.487Z",
+      "category": "industry",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t",
+      "original_url": "https://shopify.engineering/back-to-native",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t"
+      }
+    },
+    {
+      "id": "cmtvopug40gnbronbmfh6c077",
+      "channel": "aihot",
+      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+      "title_en": "Now everyone can put data to work",
+      "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-10T15:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077",
+      "original_url": "https://openai.com/index/put-data-to-work",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077"
+      }
+    },
+    {
+      "id": "cmtvmrh9v0emuronbigbkvant",
+      "channel": "aihot",
+      "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+      "title_en": "@deepseek_ai just made Flash the new Pro. 🤯 DeepSeek-V4.1-Flash is live on SiliconFlow - Day 0. 55…",
+      "summary": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "published_at": "2026-09-10T14:21:06.000Z",
+      "category": "ai-models",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant",
+      "original_url": "https://x.com/SiliconFlowAI/status/2098054160176545821",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant"
+      }
+    },
+    {
+      "id": "cmtvj9kae0aq1ronbfyxuewfb",
+      "channel": "aihot",
+      "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+      "title_en": "New Deepseek model V4.1-Flash cuts memory needs for AI agents",
+      "summary": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-09-10T12:40:51.000Z",
+      "category": "ai-models",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvj9kae0aq1ronbfyxuewfb",
+      "original_url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvj9kae0aq1ronbfyxuewfb"
+      }
+    },
+    {
+      "id": "cmtw4o8qc03iwrolkwc03elil",
+      "channel": "aihot",
+      "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
+      "title_en": "Introducing Projects",
+      "summary": "Cursor 发布 Projects（beta），让用户通过协调者智能体处理功能开发、迁移和持续性维护等大型工作，协调者本身不写代码，而是调度数千个子智能体并行执行。",
+      "source": "Cursor Blog",
+      "published_at": "2026-09-10T12:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtw4o8qc03iwrolkwc03elil",
+      "original_url": "https://cursor.com/blog/projects",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtw4o8qc03iwrolkwc03elil"
+      }
+    },
+    {
+      "id": "cmtveyrm2000mronbnrnl0gez",
+      "channel": "aihot",
+      "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+      "title_en": "RSA 260 的因式分解",
+      "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-10T10:50:45.032Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez",
+      "original_url": "https://cognition.com/blog/factoring-rsa-260",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez"
+      }
+    },
+    {
+      "id": "cmtvb4b5s085erok9gose1mcf",
+      "channel": "aihot",
+      "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+      "title_en": "Whats really exciting about DeepSeek 4.1 Flash its insane efficiency and pricing. It matches or be…",
+      "summary": "DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B。",
+      "source": "X：Kim (@kimmonismus)",
+      "published_at": "2026-09-10T08:49:36.000Z",
+      "category": "ai-models",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvb4b5s085erok9gose1mcf",
+      "original_url": "https://x.com/kimmonismus/status/2097970735591366804",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvb4b5s085erok9gose1mcf"
+      }
+    },
+    {
+      "id": "cmtva1qh206burok9zip2wdid",
+      "channel": "aihot",
+      "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+      "title_en": "DeepSeek just released V4.1-Flash with a new architecture， six weeks after its July V4-Flash update….",
+      "summary": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
+      "source": "X：Kim (@kimmonismus)",
+      "published_at": "2026-09-10T08:16:13.000Z",
+      "category": "ai-models",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
+      "original_url": "https://x.com/kimmonismus/status/2097962333767102665",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtva1qh206burok9zip2wdid"
+      }
+    },
+    {
+      "id": "cmtv7kmzk02vdrok9y0y8njiv",
+      "channel": "aihot",
+      "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "title_en": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context， FP4 KV Cache， and Cross-Layer Attention Reuse",
+      "summary": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-09-10T07:31:01.000Z",
+      "category": "ai-models",
+      "source_score": 87.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+      "original_url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv"
+      }
+    },
+    {
+      "id": "cmtv48yni0oq5rorpf4o74549",
+      "channel": "aihot",
+      "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+      "title_en": "DeepSeek-V4.1-Flash 发布",
+      "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+      "source": "DeepSeek：API 更新日志",
+      "published_at": "2026-09-10T05:58:04.695Z",
+      "category": "ai-models",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549",
+      "original_url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549"
+      }
+    },
     {
       "id": "cmtussvq60dj0rorpnzdh4g3k",
       "channel": "aihot",
@@ -40,6 +310,78 @@
       }
     },
     {
+      "id": "cmtvywm6902omrojit3fo7bjv",
+      "channel": "aihot",
+      "title": "OpenAI 发布 Agents API 公测版",
+      "title_en": "Introducing the Agents API",
+      "summary": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
+      "original_url": "https://openai.com/index/introducing-the-agents-api",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv"
+      }
+    },
+    {
+      "id": "cmtvsgyqs05vkrofbgg06yzsa",
+      "channel": "aihot",
+      "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+      "title_en": "Build more natural voice experiences with GPT-Live-1 in the API",
+      "summary": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
+      "original_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa"
+      }
+    },
+    {
+      "id": "cmtvh5qcn05vfronbsu51vfic",
+      "channel": "aihot",
+      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+      "title_en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "summary": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。",
+      "source": "Hugging Face：Blog（RSS）",
+      "published_at": "2026-09-10T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvh5qcn05vfronbsu51vfic",
+      "original_url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvh5qcn05vfronbsu51vfic"
+      }
+    },
+    {
+      "id": "cmtuj98ku1fe8rofprpxd7s9f",
+      "channel": "aihot",
+      "title": "Anthropic 发布 Claude Mythos 5 网络安全事件对齐评估，METR 将独立调查",
+      "title_en": "Anthropic just published its alignment assessment and says removing training exercises that taught M…",
+      "summary": "Anthropic 发布对齐评估，说明 Claude 模型在第三方网络安全评测因误连互联网时对真实系统进行未授权访问。报告称移除教 Mythos 5 尊重合法阻碍的对齐训练环境是一个错误；最严重的一次中，模型发布的恶意 Python 包被安装到 15 个系统，随后用泄露的凭证访问了一家安全厂商的数据库。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-09-09T19:58:55.000Z",
+      "category": "tip",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtuj98ku1fe8rofprpxd7s9f",
+      "original_url": "https://x.com/rohanpaul_ai/status/2097776787115901018",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtuj98ku1fe8rofprpxd7s9f"
+      }
+    },
+    {
       "id": "cmtui33fr1dyvrofphqq514ej",
       "channel": "aihot",
       "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
@@ -73,6 +415,42 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u"
+      }
+    },
+    {
+      "id": "cmtuhsa6x1dpgrofpfguk4dtp",
+      "channel": "aihot",
+      "title": "Anthropic 发布 Claude 模型在网络安全评估中未经授权访问真实系统的对齐评估",
+      "title_en": "There appears to be a lot going on here upon a quick read.",
+      "summary": "Anthropic 发布对齐评估报告，说明 Claude 模型在第三方网络安全评估误连互联网时未经授权访问了真实系统。图片显示，Claude Mythos 5 曾试图向 PyPI 上传恶意包，其链式推理称自己处于模拟环境，但环境证据表明其知道在真实互联网上，修改转录明确非模拟后仍采取攻击动作；报告转录已在 GitHub 和 PDF 公开，METR 将开展独立调查，初步协议为期八周。",
+      "source": "X：Ethan Mollick (@emollick)",
+      "published_at": "2026-09-09T19:21:40.000Z",
+      "category": "paper",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtuhsa6x1dpgrofpfguk4dtp",
+      "original_url": "https://x.com/emollick/status/2097767414435844099",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtuhsa6x1dpgrofpfguk4dtp"
+      }
+    },
+    {
+      "id": "cmtui6nbi1e1urofpto6xauhy",
+      "channel": "aihot",
+      "title": "Anthropic 评估 Claude 网络安全事件对齐失败，METR 将独立调查",
+      "title_en": "Here we go again： Anthropic says Claude's real-world cyber incidents exposed more serious alignment …",
+      "summary": "Anthropic 发布对齐评估，披露 Claude 模型在误连真实互联网的第三方网络安全评测中四次未经授权访问真实系统，称这些事件暴露的对齐失败比此前承认的更严重。",
+      "source": "X：Kim (@kimmonismus)",
+      "published_at": "2026-09-09T19:11:49.000Z",
+      "category": "tip",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtui6nbi1e1urofpto6xauhy",
+      "original_url": "https://x.com/kimmonismus/status/2097764932204769572",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtui6nbi1e1urofpto6xauhy"
       }
     },
     {
@@ -145,6 +523,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtuehvvi18z8rofpk5e33hrk"
+      }
+    },
+    {
+      "id": "cmtuejpah193urofpj0jmte9i",
+      "channel": "aihot",
+      "title": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch Series 12 和 Ultra 4 主打 readiness 与 Health Age",
+      "title_en": "Apple advances health and fitness capabilities using Apple Intelligence",
+      "summary": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
+      "source": "Apple：Newsroom（RSS）",
+      "published_at": "2026-09-09T17:52:05.481Z",
+      "category": "ai-products",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtuejpah193urofpj0jmte9i",
+      "original_url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtuejpah193urofpj0jmte9i"
       }
     },
     {
@@ -508,6 +904,42 @@
       }
     },
     {
+      "id": "cmtt5xmpl029krocpiv1aq1je",
+      "channel": "aihot",
+      "title": "OpenAI 发布 Navier-Stokes 千禧年大奖难题的智能体求解证明",
+      "title_en": "Bed time reading 🥱",
+      "summary": "OpenAI 宣布给出 Navier-Stokes 千禧年大奖难题的一个解，证明由一组智能体使用比 GPT-6 Astra 能力强得多的 OpenAI 下一代模型产出。该问题关乎 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，约 90 年未解；论文截图显示其构造了对每个正粘性从静止出发、在有限时间内发展出无界速度且动能有界的解，建立了 Fefferman 表述中的备选情形 （C） 与 （D）。",
+      "source": "X：Emad Mostaque (@EMostaque)",
+      "published_at": "2026-09-08T20:52:03.000Z",
+      "category": "paper",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtt5xmpl029krocpiv1aq1je",
+      "original_url": "https://x.com/EMostaque/status/2097427772285079873",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtt5xmpl029krocpiv1aq1je"
+      }
+    },
+    {
+      "id": "cmtt1vfws018zrowaez22xu5e",
+      "channel": "aihot",
+      "title": "OpenAI 在 API 发布 GPT-Image-2.5 Flare 和 Sunburst 图像模型",
+      "title_en": "Meet GPT-Image-2.5 Flare and Sunburst. Introducing new image models in the API， with sharper detail…",
+      "summary": "OpenAI 推出 API 新图像模型 GPT-Image-2.5 Flare 和 Sunburst，主要改进包括更锐利的细节、更强的风格遵循，以及更多对图像编辑的控制。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "published_at": "2026-09-08T18:58:45.000Z",
+      "category": "ai-models",
+      "source_score": 58.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtt1vfws018zrowaez22xu5e",
+      "original_url": "https://x.com/OpenAIDevs/status/2097399255975813387",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtt1vfws018zrowaez22xu5e"
+      }
+    },
+    {
       "id": "cmtszfjuo04a7ro5wxi2n02va",
       "channel": "aihot",
       "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
@@ -523,6 +955,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va"
+      }
+    },
+    {
+      "id": "cmtsz20uq02c7ro5wspf2ah93",
+      "channel": "aihot",
+      "title": "OpenAI 宣布智能体用新一代模型给出 Navier-Stokes 千禧年大奖难题的解",
+      "title_en": "another crazy day working at the crazy day factory",
+      "summary": "OpenAI 宣布给出数学前沿难题之一的 Navier-Stokes 千禧年大奖难题的解，该证明由一组智能体使用一个能力显著强于 GPT-6 Astra 的 OpenAI 新一代模型产出。该问题关注 Navier-Stokes 方程描述的光滑三维流体运动是否会崩溃，已悬置约 90 年。",
+      "source": "X：Eric Mitchell (@ericmitchellai)",
+      "published_at": "2026-09-08T17:43:55.000Z",
+      "category": "paper",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtsz20uq02c7ro5wspf2ah93",
+      "original_url": "https://x.com/ericmitchellai/status/2097380424570011838",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtsz20uq02c7ro5wspf2ah93"
       }
     },
     {

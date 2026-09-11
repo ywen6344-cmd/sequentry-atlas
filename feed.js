@@ -1,75 +1,95 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-10",
- "total": 1152,
- "source_count": 53,
+ "updated": "2026-09-11",
+ "total": 1143,
+ "source_count": 54,
  "score_min": 60,
  "by_cat": {
+  "compliance-fulfillment": [
+   {
+    "t": "梅西百货将关税退款投入复苏计划",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/macys-invests-tariff-refunds-turnaround-Q2-earnings-sales-growth/830009/",
+    "d": "2026-09-10",
+    "p": "P0",
+    "m": "US",
+    "score": 87
+   }
+  ],
   "platform-channel": [
    {
-    "t": "Shopify变体支持多条形码",
+    "t": "Shopify折扣分配器API开发者预览终止",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/product-variant-barcode-is-being-replaced-by-barcodes",
-    "d": "2026-09-08",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 91
-   },
-   {
-    "t": "Shopify CLI 4.8 新增开发商店创建删除命令",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/create-and-delete-dev-stores-in-shopify-cli",
-    "d": "2026-09-09",
+    "u": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
+    "d": "2026-09-10",
     "p": "P1",
     "m": "GLOBAL",
     "score": 84
    },
    {
-    "t": "阿里Accio电商AI成本降超50%",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/alibabas-accio-cuts-ai-costs-for-e-commerce-tasks-by-over-50-compared-with-general-purpose-agents/",
-    "d": "2026-09-09",
-    "p": "P1",
-    "m": "UK",
-    "score": 83
-   },
-   {
-    "t": "亚马逊德国收紧参考价与建议零售价规则",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/update-your-recommended-retail-prices-on-amazon/",
-    "d": "2026-09-09",
-    "p": "P1",
-    "m": "DE",
-    "score": 79
-   },
-   {
-    "t": "Rugs Direct上线AI助手Ask Cleo优化站内搜索与产品页",
+    "t": "电商趋势：劳氏如何运用人工智能",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/09/rugs-direct-ai-agent-assistant-ask-cleo/",
-    "d": "2026-09-09",
+    "u": "https://www.digitalcommerce360.com/2026/09/10/ecommerce-trends-how-lowes-is-using-ai/",
+    "d": "2026-09-10",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "PhonePe携手Visa推出三款核心支付应用",
+    "t": "银行须优先提升AI素养与跨职能协作",
     "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110855/phonepe-introduces-suite-of-three-core-visa-applications?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-09",
+    "u": "https://www.finextra.com/blogposting/32806/banks-must-prioritise-ai-literacy-and-cross-functional-collaboration?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-10",
     "p": "P1",
     "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Arva AI设研究实验室，金融犯罪反欺诈去人工化",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110876/arva-ai-opens-research-lab-to-banish-human-in-the-loop-for-financial-crime-and-fraud?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "亚马逊广告接入ChatGPT，延续抢供给策略",
+    "s": "Digiday",
+    "u": "https://digiday.com/media-buying/amazon-brings-its-dsp-to-openais-chatgpt-ads-extending-its-supply-chasing-streak/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "亚马逊在ChatGPT试点广告服务",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/amazon-pilots-ad-services-in-chatgpt-what-marketers-need-to-know/829945/",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "US",
     "score": 79
    }
   ],
   "market-product": [
    {
-    "t": "11家零售媒体网络如何差异化吸引广告主",
+    "t": "CMO下一章：重归真正的业务领导者",
     "s": "Digiday",
-    "u": "https://digiday.com/media/how-11-retail-media-networks-are-trying-to-differentiate-themselves-to-advertisers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-09",
+    "u": "https://digiday.com/sponsored/why-the-cmos-next-chapter-is-becoming-a-true-business-leader-again/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-10",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 79
+   },
+   {
+    "t": "Milani五年销售额翻倍至2.5亿美元，CEO欲再翻倍",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/mary-van-praag-doubled-milani-cosmetics-annual-sales-to-250-million-in-five-years-now-shes-ready-to-double-them-again/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    },
    {
     "t": "线上眼镜业成熟 GlassesUSA母公司加码垂直整合",
@@ -78,7 +98,7 @@ window.NAV_FEED = {
     "d": "2026-09-09",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Weight Watchers联手Dear Media推播客消除GLP-1污名",
@@ -87,22 +107,13 @@ window.NAV_FEED = {
     "d": "2026-09-09",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "凯撒体育博彩广告为NFL传奇做‘颜值改造’",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/caesars-gives-nfl-legend-a-looksmaxxing-makeover-in-sportsbook-ads/829915/",
-    "d": "2026-09-09",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "全美四名大学生谈Z世代校园潮流与品牌误区",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-features/gen-z-college-students-campus-fashion-interview-1239201588/",
-    "d": "2026-09-09",
+    "t": "每日邮报设新部门，推动社交视频广告收入2027年占比达33%",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/media/daily-mail-new-media-creator-franchises/",
+    "d": "2026-09-10",
     "p": "P2",
     "m": "US",
     "score": 66
@@ -110,12 +121,39 @@ window.NAV_FEED = {
   ],
   "brand-retail": [
    {
-    "t": "Signet珠宝商Q2扭亏为盈 上调全年预期",
+    "t": "American Eagle女装业务再度疲软",
     "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/signet-raises-guidance-kay-jared-zales/829896/",
-    "d": "2026-09-09",
+    "u": "https://www.retaildive.com/news/american-eagle-falls-flat-women-denim-sales-earnings/830043/",
+    "d": "2026-09-10",
     "p": "P1",
     "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Johnsonville借大选广告位推香肠营销",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/johnsonville-puts-sausage-on-the-ballot-to-cut-through-election-ads/829950/",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "阿纳布·贾因获LDF设计创新奖：思辨设计在黑暗中仍能带来希望",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/10/anab-jain-superflux-interview/",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "Jonathan Anderson与Anab Jain获伦敦设计奖章",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/10/london-design-medal-2026-jonathan-anderson/",
+    "d": "2026-09-10",
+    "p": "P1",
+    "m": "UK",
     "score": 79
    },
    {
@@ -125,43 +163,16 @@ window.NAV_FEED = {
     "d": "2026-09-09",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 72
+    "score": 67
    },
    {
-    "t": "Modelo加大大学橄榄球营销投入推新平台",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/modelo-hikes-marketing-spend-on-college-football-for-new-platform/829785/",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Bugaboo用橙皮和旧蛋盒造婴儿车",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/08/bugaboo-biomaterial-pram-aalto-university-finland/",
-    "d": "2026-09-08",
+    "t": "Studio South为面馆Oodles打造严谨与荒诞并存的绝佳品牌标识",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/09/10/oodles-noodles-restaurant-auckland-new-zealand-brand-identity-design-by-studio-south/",
+    "d": "2026-09-10",
     "p": "P1",
     "m": "UK",
-    "score": 74
-   },
-   {
-    "t": "Rothy's十周年推出史上最大营销活动",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/at-its-10th-anniversary-rothys-is-launching-its-biggest-campaign-ever/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-08",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Casalgrande Padana五款瓷砖亮相Dezeen展厅",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/09/casalgrande-padana-porcelain-tiles-dezeen-showroom/",
-    "d": "2026-09-09",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
+    "score": 62
    }
   ]
  }
