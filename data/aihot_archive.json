@@ -1,8 +1,134 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-12T01:08:12Z",
-  "count": 855,
+  "updated_at": "2026-09-13T01:08:13Z",
+  "count": 870,
   "items": [
+    {
+      "id": "cmtz1a2f10pr2roupq2k1944c",
+      "channel": "aihot",
+      "title": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
+      "title_en": "📞 1-800-ChatGPT",
+      "summary": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "published_at": "2026-09-12T23:16:27.000Z",
+      "category": "ai-models",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtz1a2f10pr2roupq2k1944c",
+      "original_url": "https://x.com/OpenAIDevs/status/2098913661993603215",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtz1a2f10pr2roupq2k1944c"
+      }
+    },
+    {
+      "id": "cmtyuqztw0bk6roupjaey0f6w",
+      "channel": "aihot",
+      "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+      "title_en": "Please read this essay. The transformative potential of AI to bring immense benefits to the world r…",
+      "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
+      "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+      "published_at": "2026-09-12T20:18:42.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w",
+      "original_url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w"
+      }
+    },
+    {
+      "id": "cmtyth87f098broupl3k186iw",
+      "channel": "aihot",
+      "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
+      "title_en": "If you showed me Claude Code today in 2018， I would have thought it was AGI. We have already absorb…",
+      "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。",
+      "source": "X：Thariq (@trq212)",
+      "published_at": "2026-09-12T19:46:58.000Z",
+      "category": "tip",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtyth87f098broupl3k186iw",
+      "original_url": "https://x.com/trq212/status/2098860941391872132",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtyth87f098broupl3k186iw"
+      }
+    },
+    {
+      "id": "cmtyof5al04e2rog01a0893gu",
+      "channel": "aihot",
+      "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
+      "title_en": "https://x.com/i/article/2098531824528220160",
+      "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "published_at": "2026-09-12T17:33:23.000Z",
+      "category": "ai-products",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu",
+      "original_url": "https://x.com/OpenAIDevs/status/2098827327832822014",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu"
+      }
+    },
+    {
+      "id": "cmtym1wo1039krodl7j8164q8",
+      "channel": "aihot",
+      "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
+      "title_en": "Introducing v6",
+      "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。",
+      "source": "Suno：Blog（网页）",
+      "published_at": "2026-09-12T16:39:24.855Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8",
+      "original_url": "https://suno.com/blog/introducing-v6",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8"
+      }
+    },
+    {
+      "id": "cmtymlrth035dronv9zqv9ccb",
+      "channel": "aihot",
+      "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+      "title_en": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions w…",
+      "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。",
+      "source": "X：Sam Altman (@sama)",
+      "published_at": "2026-09-12T16:30:45.000Z",
+      "category": "tip",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
+      "original_url": "https://x.com/sama/status/2098811563415150910",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb"
+      }
+    },
+    {
+      "id": "cmtxvt03h068vrous6ilk8ds7",
+      "channel": "aihot",
+      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+      "title_en": "Google stole open source code without crediting the authors （Artemis/Minitap）",
+      "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+      "source": "Hacker News：AI 热帖",
+      "published_at": "2026-09-12T02:39:39.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+      "original_url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7"
+      }
+    },
     {
       "id": "cmtxnd7fw06wcroi31psxg2c6",
       "channel": "aihot",
@@ -37,6 +163,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo"
+      }
+    },
+    {
+      "id": "cmtym24xb0002rob419mlyhlb",
+      "channel": "aihot",
+      "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+      "title_en": "DeepSeek-V4.1-Flash： more efficient prefill for coding agents",
+      "summary": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。",
+      "source": "Baseten 工程博客（网页）",
+      "published_at": "2026-09-11T22:01:37.000Z",
+      "category": "ai-models",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb",
+      "original_url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb"
       }
     },
     {
@@ -148,6 +292,24 @@
       }
     },
     {
+      "id": "cmtym21vu0002ro2bjdpq1vvy",
+      "channel": "aihot",
+      "title": "Together AI 扩展微调服务：新增模型、实验跟踪与更细训练控制",
+      "title_en": "Together AI expands fine-tuning service with more models， live metrics， and finer controls",
+      "summary": "Together AI 扩展 Together Fine-Tuning 服务，新增对 GLM-5.3、Kimi K2.7、Qwen 3.5 系列等最新开源权重模型的支持，并上线实时实验跟踪、数据集预览验证等能力。",
+      "source": "Together AI 研究与产品博客（RSS）",
+      "published_at": "2026-09-11T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtym21vu0002ro2bjdpq1vvy",
+      "original_url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtym21vu0002ro2bjdpq1vvy"
+      }
+    },
+    {
       "id": "cmtw0ejbx03jdro8s0ve1llhi",
       "channel": "aihot",
       "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
@@ -166,6 +328,24 @@
       }
     },
     {
+      "id": "cmtw0d7oq03imro8sdn2bhe7f",
+      "channel": "aihot",
+      "title": "DeepSeek V4.1 Flash 发布，以 40 分超越 DeepSeek V4 Pro 0813 成为新旗舰",
+      "title_en": "DeepSeek V4.1 Flash overtakes DeepSeek V4 Pro 0813 as DeepSeek's new flagship model with a score of …",
+      "summary": "Artificial Analysis 评测显示，DeepSeek V4.1 Flash 在 Intelligence Index 得分 40，超过 DeepSeek V4 Pro 0813 成为 DeepSeek 新旗舰，输入激活参数 8B、输出激活参数 16B，支持 1M token 上下文，MIT 许可。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-09-10T20:36:40.000Z",
+      "category": "ai-models",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtw0d7oq03imro8sdn2bhe7f",
+      "original_url": "https://x.com/ArtificialAnlys/status/2098148674203488422",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtw0d7oq03imro8sdn2bhe7f"
+      }
+    },
+    {
       "id": "cmtvru9kd04x5rofbggyhsxae",
       "channel": "aihot",
       "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
@@ -181,6 +361,42 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae"
+      }
+    },
+    {
+      "id": "cmtym2c3q0003rob0w6kxvnn3",
+      "channel": "aihot",
+      "title": "LlamaIndex 解析 just-in-time Agentic OCR：两遍式文档处理如何平衡成本与精度",
+      "title_en": "Just-in-Time Agentic OCR",
+      "summary": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。",
+      "source": "LlamaIndex：产品、工程与评测",
+      "published_at": "2026-09-10T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtym2c3q0003rob0w6kxvnn3",
+      "original_url": "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtym2c3q0003rob0w6kxvnn3"
+      }
+    },
+    {
+      "id": "cmtym29350002roszb5f930dv",
+      "channel": "aihot",
+      "title": "Augment 复盘软件工厂建设：人均规模调整产出增长 4.5 倍",
+      "title_en": "Beyond AI Coding Agents： How We Built Augment's Software Factory",
+      "summary": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。",
+      "source": "Augment Code 博客（网页）",
+      "published_at": "2026-09-10T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtym29350002roszb5f930dv",
+      "original_url": "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtym29350002roszb5f930dv"
       }
     },
     {
@@ -256,6 +472,24 @@
       }
     },
     {
+      "id": "cmtvnvq3r0g0dronbaqql51u3",
+      "channel": "aihot",
+      "title": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
+      "title_en": "New stateful server tool： Shell！ Any model on OpenRouter can now run commands in a hosted Linux con…",
+      "summary": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "published_at": "2026-09-10T14:58:05.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtvnvq3r0g0dronbaqql51u3",
+      "original_url": "https://x.com/OpenRouter/status/2098063468759027725",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtvnvq3r0g0dronbaqql51u3"
+      }
+    },
+    {
       "id": "cmtvmrh9v0emuronbigbkvant",
       "channel": "aihot",
       "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
@@ -325,6 +559,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez"
+      }
+    },
+    {
+      "id": "cmtyjejg90006rotlkmqx93kl",
+      "channel": "aihot",
+      "title": "Tripo 展示 GPT-6 Astra 与 Blender MCP 结合的 3D Vibe Coding 实操工作流",
+      "title_en": "This is what 3D Vibe Coding looks like in practice. An incredible use case combining Tripo for hig…",
+      "summary": "Tripo 转发用户案例，展示用 Images 2.5、Tripo 智能网格 P2.0、GPT-6 Astra 和 Blender MCP 以 AI 为主制作 3D 角色的完整流程。作者几乎只做视图操作，通过截图加参考图让 Astra 修正形状与纹理，并指出纹理修正在细节上仍较粗糙。作者称此前在 GPT-5.6 Sol 上反复失败的操作在 Astra 上可以直接完成。",
+      "source": "Tripo（官方 X）",
+      "published_at": "2026-09-10T08:57:22.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtyjejg90006rotlkmqx93kl",
+      "original_url": "https://x.com/tripoai/status/2097972692200940013",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtyjejg90006rotlkmqx93kl"
       }
     },
     {
@@ -739,6 +991,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3"
+      }
+    },
+    {
+      "id": "cmtym40hx0004roske1zgdkmu",
+      "channel": "aihot",
+      "title": "Cognition 发布 SWE-2 编码模型，以更低成本逼近前沿",
+      "title_en": "Introducing SWE-2： Pushing the Pareto Frontier",
+      "summary": "Cognition 发布最先进编码模型 SWE-2，基于 2.8T 参数的 Kimi K33 后训练，在 FrontierCode 1.1 Main 取得 50.0%，仅比 Fable 5.1 低不到一分且便宜 64%。",
+      "source": "Cognition 模型 / Devin 博客（网页）",
+      "published_at": "2026-09-09T16:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtym40hx0004roske1zgdkmu",
+      "original_url": "https://cognition.com/blog/swe-2",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtym40hx0004roske1zgdkmu"
       }
     },
     {

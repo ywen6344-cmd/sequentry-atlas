@@ -1,8 +1,8 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-12",
- "total": 1130,
- "source_count": 56,
+ "updated": "2026-09-13",
+ "total": 1116,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
@@ -13,7 +13,7 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 78
    },
    {
     "t": "Shopify多币种收款扩展至澳法",
@@ -22,43 +22,43 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "Shopify折扣分配器API开发者预览终止",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/discounts-allocator-function-api-developer-preview-has-ended",
-    "d": "2026-09-10",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "电商趋势：劳氏如何运用人工智能",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/10/ecommerce-trends-how-lowes-is-using-ai/",
-    "d": "2026-09-10",
+    "t": "Boll & Branch如何划定AI广告的边界",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/where-boll-branch-draws-the-line-on-ai-generated-advertising/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-12",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 69
    },
    {
-    "t": "银行须优先提升AI素养与跨职能协作",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/blogposting/32806/banks-must-prioritise-ai-literacy-and-cross-functional-collaboration?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-10",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "Arva AI设研究实验室，金融犯罪反欺诈去人工化",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110876/arva-ai-opens-research-lab-to-banish-human-in-the-loop-for-financial-crime-and-fraud?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-10",
+    "t": "品牌漂移与AI营销的风险",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/brand-drift-and-the-risks-of-ai-marketing/",
+    "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 64
+   },
+   {
+    "t": "播客：为何九月应去伦敦参加物流电商展",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/podcast/episode-five-why-should-you-be-in-london-this-september.html",
+    "d": "2026-09-11",
+    "p": "P2",
+    "m": "US",
+    "score": 61
+   },
+   {
+    "t": "报告：87%英国企业已从AI获得可量化回报",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/ai-delivers-measurable-returns-for-87-of-uk-businesses-akeneo-reports/",
+    "d": "2026-09-11",
+    "p": "P3",
+    "m": "UK",
+    "score": 55
    }
   ],
   "market-product": [
@@ -69,7 +69,7 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "周报：Chewy销售额大涨，零售高管转战政坛",
@@ -78,7 +78,7 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Whatnot推出直播分析与聊天徽章",
@@ -87,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Primark即将推出送货上门服务",
@@ -96,25 +96,25 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "CMO下一章：重归真正的业务领导者",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/why-the-cmos-next-chapter-is-becoming-a-true-business-leader-again/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-10",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "Milani五年销售额翻倍至2.5亿美元，CEO欲再翻倍",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/mary-van-praag-doubled-milani-cosmetics-annual-sales-to-250-million-in-five-years-now-shes-ready-to-double-them-again/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-10",
+    "t": "Old Navy联手MrBeast加码创作者营销",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/old-navys-mrbeast-deal-boosts-engagement-amid-bigger-bet-on-creators/830100/",
+    "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 64
+   },
+   {
+    "t": "2027春季花园鞋趋势持续升温",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-trends/nyfw-spring-2027-garden-shoe-trend-1239222493/",
+    "d": "2026-09-11",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 61
    }
   ],
   "brand-retail": [
@@ -125,16 +125,16 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "阿纳布·贾因获LDF设计创新奖：思辨设计在黑暗中仍能带来希望",
+    "t": "Design By Them 推出 Gibson Karlo 设计的 Cattle 扶手椅",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/10/anab-jain-superflux-interview/",
-    "d": "2026-09-10",
+    "u": "https://www.dezeen.com/2026/09/11/cattle-chair-gibson-karlo-design-by-them-dezeen-showroom/",
+    "d": "2026-09-11",
     "p": "P1",
     "m": "UK",
-    "score": 74
+    "score": 64
    },
    {
     "t": "Alec's与Purely Elizabeth联名推早餐冰淇淋",
@@ -143,7 +143,7 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 66
+    "score": 61
    },
    {
     "t": "Puma首席商务官将于9月底卸任",
@@ -152,7 +152,7 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P0",
     "m": "UK",
-    "score": 62
+    "score": 57
    },
    {
     "t": "Westman Atelier联手ShopMy将联盟营销带入线下",
@@ -161,7 +161,16 @@ window.NAV_FEED = {
     "d": "2026-09-11",
     "p": "P1",
     "m": "US",
-    "score": 62
+    "score": 57
+   },
+   {
+    "t": "苏格兰皮具品牌Strathberry获私募投资，三年复合增长43%",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/481718",
+    "d": "2026-09-12",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    }
   ]
  }
