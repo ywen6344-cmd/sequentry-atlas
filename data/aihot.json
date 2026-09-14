@@ -3,63 +3,63 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-2c17446ed8c981f4",
-  "fetched_at": "2026-09-13T01:08:13Z",
+  "fingerprint": "f1-74de232c8ced4663",
+  "fetched_at": "2026-09-14T01:04:45Z",
   "stale": false,
   "count": 50,
   "items": [
     {
-      "id": "cmtz1a2f10pr2roupq2k1944c",
+      "id": "cmu06l0dg09hiroryn5e19xp1",
       "channel": "aihot",
-      "title": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
-      "title_en": "📞 1-800-ChatGPT",
-      "summary": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "published_at": "2026-09-12T23:16:27.000Z",
-      "category": "ai-models",
-      "source_score": 70.0,
+      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "title_en": "Two cheers （out of three） for Dario Amodei",
+      "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-09-13T18:34:31.000Z",
+      "category": "tip",
+      "source_score": 62.0,
       "selected": true,
-      "permalink": "https://aihot.news/items/cmtz1a2f10pr2roupq2k1944c",
-      "original_url": "https://x.com/OpenAIDevs/status/2098913661993603215",
+      "permalink": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
+      "original_url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtz1a2f10pr2roupq2k1944c"
+        "canonical": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1"
       }
     },
     {
-      "id": "cmtyuqztw0bk6roupjaey0f6w",
+      "id": "cmu01iavi08reroymepsxnar2",
       "channel": "aihot",
-      "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
-      "title_en": "Please read this essay. The transformative potential of AI to bring immense benefits to the world r…",
-      "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
-      "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
-      "published_at": "2026-09-12T20:18:42.000Z",
-      "category": "tip",
-      "source_score": 70.0,
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "title_en": "Houthis Used Claude Code to Develop Missile Guidance Software： Anthropic",
+      "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+      "source": "Hacker News：AI 热帖",
+      "published_at": "2026-09-13T14:15:40.000Z",
+      "category": "industry",
+      "source_score": 85.0,
       "selected": true,
-      "permalink": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w",
-      "original_url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+      "permalink": "https://aihot.news/items/cmu01iavi08reroymepsxnar2",
+      "original_url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w"
+        "canonical": "https://aihot.news/items/cmu01iavi08reroymepsxnar2"
       }
     },
     {
-      "id": "cmtyth87f098broupl3k186iw",
+      "id": "cmtzezuk0077wrowyi7a4qy7v",
       "channel": "aihot",
-      "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
-      "title_en": "If you showed me Claude Code today in 2018， I would have thought it was AGI. We have already absorb…",
-      "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。",
-      "source": "X：Thariq (@trq212)",
-      "published_at": "2026-09-12T19:46:58.000Z",
+      "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+      "title_en": "Context Engineering Inside the Harness： 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks",
+      "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-09-13T05:56:03.000Z",
       "category": "tip",
-      "source_score": 71.0,
+      "source_score": 78.0,
       "selected": true,
-      "permalink": "https://aihot.news/items/cmtyth87f098broupl3k186iw",
-      "original_url": "https://x.com/trq212/status/2098860941391872132",
+      "permalink": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
+      "original_url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
       "attribution": {
         "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtyth87f098broupl3k186iw"
+        "canonical": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v"
       }
     },
     {
@@ -96,6 +96,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8"
+      }
+    },
+    {
+      "id": "cmtyn3ymd0015ro7fmrjlcr8p",
+      "channel": "aihot",
+      "title": "英伟达是人工智能领域的\"中央银行\"",
+      "title_en": "",
+      "summary": "英伟达通过为客户提供巨额融资支持来拉动芯片需求，过去三年承诺向初创企业投资超 700 亿美元、向客户提供 3000 亿美元财务支持，因此被称为\"AI 的中央银行\"。今年 8 月它同意为俄亥俄州一座大型数据中心提供最高 1050 亿美元的兜底，并与六家华尔街机构合作撬动超 5000 亿美元 AI 基础设施投资。批评者将其类比 1990 年代末思科和朗讯向电信客户放贷的互联网泡沫风险。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-12T16:37:21.932Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmtyn3ymd0015ro7fmrjlcr8p",
+      "original_url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmtyn3ymd0015ro7fmrjlcr8p"
       }
     },
     {
@@ -889,40 +907,21 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3"
       }
-    },
-    {
-      "id": "cmtud99z117yurofph84r3cio",
-      "channel": "aihot",
-      "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
-      "title_en": "GPT-6 Astra， looped transformers， and hidden reasoning",
-      "summary": "OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%。",
-      "source": "Hacker News：AI 热帖",
-      "published_at": "2026-09-09T14:37:47.000Z",
-      "category": "tip",
-      "source_score": 79.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtud99z117yurofph84r3cio",
-      "original_url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtud99z117yurofph84r3cio"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
-      "id": "cmtymlrth035dronv9zqv9ccb",
-      "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
-      "url": "https://x.com/sama/status/2098811563415150910",
-      "permalink": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
+      "id": "cmu06l0dg09hiroryn5e19xp1",
+      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
+      "permalink": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
       "storyPermalink": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
-      "source": "X：Sam Altman (@sama)",
-      "sourceCount": 14,
-      "signalCount": 25,
-      "participantCount": 45,
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "sourceCount": 16,
+      "signalCount": 47,
+      "participantCount": 75,
       "sourceNames": [
-        "The Decoder：AI News（RSS）",
         "X：Dario Amodei (@DarioAmodei)",
         "X：Kim (@kimmonismus)",
         "IT之家（RSS）",
@@ -935,45 +934,60 @@
         "X：Sam Altman (@sama)",
         "X：小北 (@frxiaobei)",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "X：洪明 (@hongming731)",
+        "X：阿易 AI Notes (@AYi_AInotes)",
+        "The Decoder：AI News（RSS）"
       ],
-      "latestAt": "2026-09-12T23:03:23.000Z"
+      "latestAt": "2026-09-13T19:41:48.000Z"
     },
     {
       "rank": 2,
-      "id": "cmtwcj2ca0bnurolk8snm1g6o",
-      "title": "OpenAI 推出 Agents API，基于 Codex harness 在云端构建智能体",
-      "url": "https://x.com/thsottiaux/status/2098238138334548260",
-      "permalink": "https://aihot.news/items/cmtwcj2ca0bnurolk8snm1g6o",
-      "storyPermalink": "https://aihot.virxact.com/story/598b9f73-8f9e-4a03-948f-c96bda5d3b4e",
-      "source": "X：Tibo (@thsottiaux)",
-      "sourceCount": 4,
-      "signalCount": 12,
-      "participantCount": 18,
+      "id": "cmtyhdyje0egorojhjwrlt3i5",
+      "title": "Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元",
+      "url": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo",
+      "permalink": "https://aihot.news/items/cmtyhdyje0egorojhjwrlt3i5",
+      "storyPermalink": "https://aihot.virxact.com/story/711b39b3-5fe7-4a3c-95f9-f956996a4d7a",
+      "source": "The Decoder：AI News（RSS）",
+      "sourceCount": 3,
+      "signalCount": 13,
+      "participantCount": 16,
       "sourceNames": [
-        "X：Tibo (@thsottiaux)",
+        "X：Rohan Paul (@rohanpaul_ai)",
         "The Decoder：AI News（RSS）",
-        "X：Testing Catalog (@testingcatalog)",
-        "X：阿易 AI Notes (@AYi_AInotes)"
+        "IT之家（RSS）"
       ],
-      "latestAt": "2026-09-11T16:35:55.000Z"
+      "latestAt": "2026-09-13T22:41:40.000Z"
     },
     {
       "rank": 3,
+      "id": "cmtszna9e04isro5woti0ixg6",
+      "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "permalink": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
+      "storyPermalink": "https://aihot.virxact.com/story/c569fed6-5ad5-4c71-b7f2-6de4d75eb33f",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "sourceCount": 2,
+      "signalCount": 8,
+      "participantCount": 12,
+      "sourceNames": [
+        "The Verge：AI（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "latestAt": "2026-09-13T11:58:28.662Z"
+    },
+    {
+      "rank": 4,
       "id": "cmty8t82j03zxrojhdlid1wt5",
       "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
       "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
       "permalink": "https://aihot.news/items/cmty8t82j03zxrojhdlid1wt5",
       "storyPermalink": "https://aihot.virxact.com/story/9430c38f-c9b0-41ec-95a2-1aa5b0b804ec",
       "source": "The Decoder：AI News（RSS）",
-      "sourceCount": 7,
-      "signalCount": 3,
-      "participantCount": 10,
+      "sourceCount": 3,
+      "signalCount": 10,
+      "participantCount": 13,
       "sourceNames": [
-        "Hacker News：AI 热帖",
-        "IT之家（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Simon Willison 博客",
         "The Decoder：AI News（RSS）",
         "X：Kim (@kimmonismus)",
         "The Verge：AI（RSS）"
@@ -981,57 +995,36 @@
       "latestAt": "2026-09-12T21:41:36.000Z"
     },
     {
-      "rank": 4,
-      "id": "cmtu2qhzo0xb2rofp6eaokqdd",
-      "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
-      "url": "https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone",
-      "permalink": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
-      "storyPermalink": "https://aihot.virxact.com/story/9a02120a-837d-4a20-987a-4688ac3df838",
-      "source": "The Decoder：AI News（RSS）",
-      "sourceCount": 3,
-      "signalCount": 8,
-      "participantCount": 11,
-      "sourceNames": [
-        "X：ZHO (@ZHO_ZHO_ZHO)",
-        "X：Artificial Analysis (@ArtificialAnlys)",
-        "X：Arena (@arena)"
-      ],
-      "latestAt": "2026-09-12T15:57:37.000Z"
-    },
-    {
       "rank": 5,
-      "id": "cmtx0v3dg030mroedwvkdfyvw",
-      "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
-      "permalink": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
-      "storyPermalink": "https://aihot.virxact.com/story/59a6eabf-1694-481a-abb8-10d4944a5cb5",
-      "source": "The Decoder：AI News（RSS）",
-      "sourceCount": 2,
-      "signalCount": 8,
-      "participantCount": 14,
+      "id": "cmtuhr1gr1dmxrofp90rc4c6u",
+      "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "permalink": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+      "storyPermalink": "https://aihot.virxact.com/story/b9ebd413-667a-4099-ac65-17145aad06ad",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "sourceCount": 1,
+      "signalCount": 9,
+      "participantCount": 10,
       "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "The Decoder：AI News（RSS）"
+        "X：洪明 (@hongming731)"
       ],
-      "latestAt": "2026-09-11T13:50:28.000Z"
+      "latestAt": "2026-09-13T00:49:53.000Z"
     },
     {
       "rank": 6,
-      "id": "cmtxmd06905q5roi3ds616hwo",
-      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-      "url": "https://www.ithome.com/1/001/488.htm",
-      "permalink": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
-      "storyPermalink": "https://aihot.virxact.com/story/711b39b3-5fe7-4a3c-95f9-f956996a4d7a",
-      "source": "IT之家（RSS）",
-      "sourceCount": 3,
-      "signalCount": 5,
+      "id": "cmtvywm6902omrojit3fo7bjv",
+      "title": "OpenAI 发布 Agents API 公测版",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "permalink": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
+      "storyPermalink": "https://aihot.virxact.com/story/598b9f73-8f9e-4a03-948f-c96bda5d3b4e",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "sourceCount": 1,
+      "signalCount": 7,
       "participantCount": 8,
       "sourceNames": [
-        "IT之家（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "The Decoder：AI News（RSS）"
+        "X：洪明 (@hongming731)"
       ],
-      "latestAt": "2026-09-12T14:05:18.000Z"
+      "latestAt": "2026-09-13T00:49:53.000Z"
     },
     {
       "rank": 7,
@@ -1042,137 +1035,85 @@
       "storyPermalink": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
       "source": "MarkTechPost（RSS）",
       "sourceCount": 2,
-      "signalCount": 7,
-      "participantCount": 10,
-      "sourceNames": [
-        "公众号：卡尔的AI沃茨",
-        "X：SemiAnalysis (@SemiAnalysis_)"
-      ],
-      "latestAt": "2026-09-12T03:45:03.000Z"
-    },
-    {
-      "rank": 8,
-      "id": "cmtym24xb0002rob419mlyhlb",
-      "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
-      "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
-      "permalink": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb",
-      "storyPermalink": "https://aihot.virxact.com/story/bbf32fc9-61b8-4492-9946-994ef673ab36",
-      "source": "Baseten 工程博客（网页）",
-      "sourceCount": 3,
-      "signalCount": 8,
-      "participantCount": 11,
-      "sourceNames": [
-        "IT之家（RSS）",
-        "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-        "Baseten 工程博客（网页）"
-      ],
-      "latestAt": "2026-09-11T22:01:37.000Z"
-    },
-    {
-      "rank": 9,
-      "id": "cmtsynojw01xqro5wb8n7ysor",
-      "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
-      "url": "https://x.com/OpenAI/status/2097375276384567642",
-      "permalink": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
-      "storyPermalink": "https://aihot.virxact.com/story/c569fed6-5ad5-4c71-b7f2-6de4d75eb33f",
-      "source": "X：OpenAI (@OpenAI)",
-      "sourceCount": 2,
       "signalCount": 5,
       "participantCount": 8,
       "sourceNames": [
-        "IT之家（RSS）",
-        "The Verge：AI（RSS）"
+        "X：SemiAnalysis (@SemiAnalysis_)",
+        "X：马东锡 NLP (@dongxi_nlp)"
       ],
-      "latestAt": "2026-09-12T11:00:00.000Z"
+      "latestAt": "2026-09-13T01:22:59.000Z"
+    },
+    {
+      "rank": 8,
+      "id": "cmtsz2a0q02ciro5w7oz3a0ix",
+      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "permalink": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
+      "storyPermalink": "https://aihot.virxact.com/story/036f18d8-db67-479f-855d-7bd2a6c4e6c3",
+      "source": "TechCrunch：AI（RSS）",
+      "sourceCount": 2,
+      "signalCount": 2,
+      "participantCount": 4,
+      "sourceNames": [
+        "The Verge：AI（RSS）",
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "latestAt": "2026-09-13T01:11:44.000Z"
+    },
+    {
+      "rank": 9,
+      "id": "cmtw0ejbx03jdro8s0ve1llhi",
+      "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "permalink": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi",
+      "storyPermalink": "https://aihot.virxact.com/story/b71f5de7-0c77-4981-91b8-2c8f74e98f44",
+      "source": "TechCrunch：AI（RSS）",
+      "sourceCount": 0,
+      "signalCount": 4,
+      "participantCount": 4,
+      "sourceNames": [],
+      "latestAt": "2026-09-10T20:57:30.000Z"
     },
     {
       "rank": 10,
-      "id": "cmtuhr1gr1dmxrofp90rc4c6u",
-      "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
-      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-      "permalink": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
-      "storyPermalink": "https://aihot.virxact.com/story/b9ebd413-667a-4099-ac65-17145aad06ad",
-      "source": "Anthropic：Research（发表成果 · 网页）",
+      "id": "cmtvsgyqs05vkrofbgg06yzsa",
+      "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "permalink": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
+      "storyPermalink": "https://aihot.virxact.com/story/36b78a69-27da-4cf0-a4a6-8a666ccd7223",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "sourceCount": 1,
-      "signalCount": 5,
-      "participantCount": 7,
+      "signalCount": 1,
+      "participantCount": 3,
       "sourceNames": [
-        "The Verge：AI（RSS）"
+        "X：洪明 (@hongming731)"
       ],
-      "latestAt": "2026-09-11T16:09:14.000Z"
+      "latestAt": "2026-09-14T00:20:10.000Z"
     }
   ],
   "daily": {
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.news/daily/2026-09-13"
+      "canonical": "https://aihot.news/daily/2026-09-14"
     },
-    "generatedAt": "2026-09-13T00:01:17.449Z",
-    "windowStart": "2026-09-12T00:00:00.000Z",
-    "windowEnd": "2026-09-13T00:00:00.000Z",
+    "generatedAt": "2026-09-14T00:01:17.539Z",
+    "windowStart": "2026-09-13T00:00:00.000Z",
+    "windowEnd": "2026-09-14T00:00:00.000Z",
     "lead": null,
     "sections": [
-      {
-        "label": "模型发布/更新",
-        "items": [
-          {
-            "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
-            "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。",
-            "sourceUrl": "https://suno.com/blog/introducing-v6",
-            "sourceName": "Suno：Blog（网页）",
-            "permalink": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8"
-            }
-          }
-        ]
-      },
-      {
-        "label": "产品发布/更新",
-        "items": [
-          {
-            "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
-            "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。",
-            "sourceUrl": "https://x.com/OpenAIDevs/status/2098827327832822014",
-            "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
-            "permalink": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu"
-            }
-          }
-        ]
-      },
       {
         "label": "行业动态",
         "items": [
           {
-            "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-            "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
-            "sourceUrl": "https://www.minitap.ai/blog/i-expected-better-from-google",
+            "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+            "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2,000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+            "sourceUrl": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
             "sourceName": "Hacker News：AI 热帖",
-            "permalink": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+            "permalink": "https://aihot.news/items/cmu01iavi08reroymepsxnar2",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7"
-            }
-          }
-        ]
-      },
-      {
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-            "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2,000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
-            "sourceUrl": "https://www.rubyhack.ai/",
-            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "permalink": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6"
+              "canonical": "https://aihot.news/items/cmu01iavi08reroymepsxnar2"
             }
           }
         ]
@@ -1181,25 +1122,25 @@
         "label": "技巧与观点",
         "items": [
           {
-            "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
-            "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。",
-            "sourceUrl": "https://x.com/sama/status/2098811563415150910",
-            "sourceName": "X：Sam Altman (@sama)",
-            "permalink": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
+            "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+            "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
+            "sourceUrl": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+            "sourceName": "MarkTechPost（RSS）",
+            "permalink": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb"
+              "canonical": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v"
             }
           },
           {
-            "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
-            "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。",
-            "sourceUrl": "https://x.com/trq212/status/2098860941391872132",
-            "sourceName": "X：Thariq (@trq212)",
-            "permalink": "https://aihot.news/items/cmtyth87f098broupl3k186iw",
+            "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+            "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+            "sourceUrl": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
+            "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+            "permalink": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmtyth87f098broupl3k186iw"
+              "canonical": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1"
             }
           }
         ]
