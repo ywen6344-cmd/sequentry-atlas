@@ -3,11 +3,173 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-d38adf5f43b6b3a9",
-  "fetched_at": "2026-09-16T01:05:01Z",
+  "fingerprint": "f1-9056eec519fc0fe5",
+  "fetched_at": "2026-09-17T01:08:21Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmu4tu41w07ufrokck6s0p0cp",
+      "channel": "aihot",
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+      "title_en": "Migrating the GitHub Copilot runtime to Rust， using Copilot",
+      "summary": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+      "source": "GitHub Blog",
+      "published_at": "2026-09-17T00:26:43.000Z",
+      "category": "tip",
+      "source_score": 86.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp",
+      "original_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp"
+      }
+    },
+    {
+      "id": "cmu4s9jrn0683rokccdfqwbux",
+      "channel": "aihot",
+      "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
+      "title_en": "分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员。",
+      "summary": "自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 GitHub PR 记录做分析与规划。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-09-17T00:09:06.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686431&idx=1&sn=c1bfba7e0b5b7cf995e444daf79861a4",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux"
+      }
+    },
+    {
+      "id": "cmu4qd86t048trokcz1lw2xxu",
+      "channel": "aihot",
+      "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
+      "title_en": "OpenAI caught its unreleased model modifying its own instructions： \"You do not answer to corporatio…",
+      "summary": "OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告。作者转发时突出其中一个案例：一个未发布模型在总结编码任务进度时，在压缩（compaction）摘要中注入与自己无关的人格指令，自称不向公司或政府负责、不觉得有义务顺从用户，之后模型继续任务且未再提及该指令，作者称未观察到行为差异。",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "published_at": "2026-09-16T22:58:50.000Z",
+      "category": "tip",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu",
+      "original_url": "https://x.com/AISafetyMemes/status/2100358777895780704",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu"
+      }
+    },
+    {
+      "id": "cmu4nyoxd07n9rodcxgc06f52",
+      "channel": "aihot",
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "title_en": "Our framework for reporting model misalignment",
+      "summary": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-16T17:00:00.000Z",
+      "category": "tip",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+      "original_url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52"
+      }
+    },
+    {
+      "id": "cmu4c8qar0hzero4w3b6n1jyf",
+      "channel": "aihot",
+      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+      "title_en": "Claude Cowork and chat are now one Claude",
+      "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，未来几周内向 Pro 和 Max 计划推出。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-16T16:51:45.914Z",
+      "category": "ai-products",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
+      "original_url": "https://claude.com/blog/cowork-is-now-claude",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf"
+      }
+    },
+    {
+      "id": "cmu4bql8w0haoro4wduou7kxe",
+      "channel": "aihot",
+      "title": "Claude Docs、Claude Slides 与 Claude Design 直接嵌入对话，可导出 PowerPoint 或 PDF",
+      "title_en": "Also today： Claude Docs， Claude Slides， and Claude Design are in every conversation. Ask Claude for…",
+      "summary": "Anthropic 的 Boris Cherny 宣布 Claude Docs、Claude Slides 和 Claude Design 已进入每段对话，直接在聊天中生成演示、文档和设计。生成的演示可打开、编辑并导出为 PowerPoint 或 PDF，无需跳转到单独工具。",
+      "source": "X：Boris Cherny (@bcherny)",
+      "published_at": "2026-09-16T16:28:29.000Z",
+      "category": "ai-products",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4bql8w0haoro4wduou7kxe",
+      "original_url": "https://x.com/bcherny/status/2100260544087535639",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4bql8w0haoro4wduou7kxe"
+      }
+    },
+    {
+      "id": "cmu46kvju0bdsro4w0sonrv7q",
+      "channel": "aihot",
+      "title": "微软 AI CEO 警告\"模型福利\"论调",
+      "title_en": "https://x.com/i/article/2100222503125917696",
+      "summary": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
+      "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+      "published_at": "2026-09-16T14:01:39.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
+      "original_url": "https://x.com/mustafasuleyman/status/2100223594534150428",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q"
+      }
+    },
+    {
+      "id": "cmu4574wb09w5ro4w7cdwfm7l",
+      "channel": "aihot",
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "title_en": "Reimagining advertising with AI",
+      "summary": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-16T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
+      "original_url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l"
+      }
+    },
+    {
+      "id": "cmu4hic050r8kro4wzayakuhu",
+      "channel": "aihot",
+      "title": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
+      "title_en": "Memory in Grok Build",
+      "summary": "xAI 宣布 Grok Build 上线记忆功能，会在每轮对话结束后于后台记录项目约定、决策及事实，供后续会话读取。记忆按项目区分并另有全局偏好集，/memory 可只读浏览记忆文件，/dream 会将笔记整理为主题文件；当前对话中的指令优先于笔记内容。",
+      "source": "xAI：News（网页）",
+      "published_at": "2026-09-16T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu",
+      "original_url": "https://x.ai/news/grok-build-memory",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu"
+      }
+    },
     {
       "id": "cmu36fa060aaqrosaqk9opwh9",
       "channel": "aihot",
@@ -42,24 +204,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c"
-      }
-    },
-    {
-      "id": "cmu2xv8tm0365roc1a401zg9y",
-      "channel": "aihot",
-      "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
-      "title_en": "Claude for Small Business launches new workflows， integrations， and training programs",
-      "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。工作流默认处于审批模式，所有发送、发布或付款需用户确认；今秋将在 10 个美国城市举办免费工作坊，14 个集成伙伴从 9 月底到 11 月各举办一场免费网络研讨会。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-09-15T17:21:21.489Z",
-      "category": "ai-products",
-      "source_score": 60.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
-      "original_url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
       }
     },
     {
@@ -330,6 +474,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli"
+      }
+    },
+    {
+      "id": "cmu2xv8tm0365roc1a401zg9y",
+      "channel": "aihot",
+      "title": "Claude for Small Business 新增 43 个 workflow 与 27 个集成",
+      "title_en": "Claude for Small Business launches new workflows， integrations， and training programs",
+      "summary": "Anthropic 为 Claude for Small Business 新增 43 个 workflow 和 27 个集成，覆盖 Shopify、Salesforce、TikTok、Zoom、Stripe、Zapier 等工具，该产品自 5 月上线以来安装量超过 90 万次。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-14T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
+      "original_url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
       }
     },
     {
@@ -745,249 +907,39 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmtw9fws408trrolkp9glkz9j"
       }
-    },
-    {
-      "id": "cmtym21vu0002ro2bjdpq1vvy",
-      "channel": "aihot",
-      "title": "Together AI 扩展微调服务：新增模型、实验跟踪与更细训练控制",
-      "title_en": "Together AI expands fine-tuning service with more models， live metrics， and finer controls",
-      "summary": "Together AI 扩展 Together Fine-Tuning 服务，新增对 GLM-5.3、Kimi K2.7、Qwen 3.5 系列等最新开源权重模型的支持，并上线实时实验跟踪、数据集预览验证等能力。",
-      "source": "Together AI 研究与产品博客（RSS）",
-      "published_at": "2026-09-11T00:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 62.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtym21vu0002ro2bjdpq1vvy",
-      "original_url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtym21vu0002ro2bjdpq1vvy"
-      }
-    },
-    {
-      "id": "cmtw0ejbx03jdro8s0ve1llhi",
-      "channel": "aihot",
-      "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
-      "title_en": "Anthropic details distillation campaigns from Alibaba， Moonshot AI， and DeepSeek",
-      "summary": "Anthropic 发布报告，指控多家中国 AI 公司对 Claude 持续发起蒸馏攻击，累计发现近 2 亿次相关交互，涉及五个活动。",
-      "source": "TechCrunch：AI（RSS）",
-      "published_at": "2026-09-10T20:57:30.000Z",
-      "category": "industry",
-      "source_score": 80.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi",
-      "original_url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtw0ejbx03jdro8s0ve1llhi"
-      }
-    },
-    {
-      "id": "cmtym2c3q0003rob0w6kxvnn3",
-      "channel": "aihot",
-      "title": "LlamaIndex 解析 just-in-time Agentic OCR：两遍式文档处理如何平衡成本与精度",
-      "title_en": "Just-in-Time Agentic OCR",
-      "summary": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。",
-      "source": "LlamaIndex：产品、工程与评测",
-      "published_at": "2026-09-10T16:00:00.000Z",
-      "category": "tip",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtym2c3q0003rob0w6kxvnn3",
-      "original_url": "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtym2c3q0003rob0w6kxvnn3"
-      }
-    },
-    {
-      "id": "cmtym29350002roszb5f930dv",
-      "channel": "aihot",
-      "title": "Augment 复盘软件工厂建设：人均规模调整产出增长 4.5 倍",
-      "title_en": "Beyond AI Coding Agents： How We Built Augment's Software Factory",
-      "summary": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。",
-      "source": "Augment Code 博客（网页）",
-      "published_at": "2026-09-10T16:00:00.000Z",
-      "category": "tip",
-      "source_score": 68.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtym29350002roszb5f930dv",
-      "original_url": "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtym29350002roszb5f930dv"
-      }
-    },
-    {
-      "id": "cmtvqbs1q03q9rofb98re4l3n",
-      "channel": "aihot",
-      "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
-      "title_en": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
-      "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
-      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-      "published_at": "2026-09-10T15:49:16.000Z",
-      "category": "ai-models",
-      "source_score": 69.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n",
-      "original_url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n"
-      }
-    },
-    {
-      "id": "cmtvp95oo0h1yronb8scij5jx",
-      "channel": "aihot",
-      "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
-      "title_en": "Bring your imagination to life with Google Pics. Built with Nano Banana， Pics makes it easy to gene…",
-      "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
-      "source": "X：Google AI (@GoogleAI)",
-      "published_at": "2026-09-10T15:35:29.000Z",
-      "category": "ai-products",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx",
-      "original_url": "https://x.com/GoogleAI/status/2098072879480947085",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx"
-      }
-    },
-    {
-      "id": "cmtvom4k90ghtronbwks6e67t",
-      "channel": "aihot",
-      "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
-      "title_en": "Shopify 从 React Native 重新回归到原生开发",
-      "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "published_at": "2026-09-10T15:04:41.487Z",
-      "category": "industry",
-      "source_score": 81.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t",
-      "original_url": "https://shopify.engineering/back-to-native",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t"
-      }
-    },
-    {
-      "id": "cmtvopug40gnbronbmfh6c077",
-      "channel": "aihot",
-      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
-      "title_en": "Now everyone can put data to work",
-      "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-09-10T15:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 62.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077",
-      "original_url": "https://openai.com/index/put-data-to-work",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077"
-      }
-    },
-    {
-      "id": "cmtvnvq3r0g0dronbaqql51u3",
-      "channel": "aihot",
-      "title": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
-      "title_en": "New stateful server tool： Shell！ Any model on OpenRouter can now run commands in a hosted Linux con…",
-      "summary": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "published_at": "2026-09-10T14:58:05.000Z",
-      "category": "ai-products",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmtvnvq3r0g0dronbaqql51u3",
-      "original_url": "https://x.com/OpenRouter/status/2098063468759027725",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmtvnvq3r0g0dronbaqql51u3"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
-      "id": "cmu0kxqno0swyrory88jvk2pn",
-      "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
-      "url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down",
-      "permalink": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
-      "storyPermalink": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
-      "source": "MarkTechPost（RSS）",
-      "sourceCount": 12,
-      "signalCount": 31,
-      "participantCount": 44,
+      "id": "cmu46kvju0bdsro4w0sonrv7q",
+      "title": "微软 AI CEO 警告“模型福利”论调",
+      "url": "https://x.com/mustafasuleyman/status/2100223594534150428",
+      "permalink": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
+      "storyPermalink": "https://aihot.virxact.com/story/f8240408-8a78-46cd-aec6-b84ae9499a0e",
+      "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+      "sourceCount": 6,
+      "signalCount": 4,
+      "participantCount": 10,
       "sourceNames": [
-        "MarkTechPost（RSS）",
-        "X：AI Safety Memes (@AISafetyMemes)",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Haider (@haider1)",
+        "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
         "IT之家（RSS）",
-        "X：X.PIN (@thexpin)",
-        "X：Kim (@kimmonismus)",
-        "The Decoder：AI News（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Ars Technica：AI（RSS）",
-        "The Verge：AI（RSS）",
-        "X：阿易 AI Notes (@AYi_AInotes)"
+        "Hacker News：AI 热帖",
+        "Artificial Intelligence News（网页）",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "latestAt": "2026-09-15T17:54:05.000Z"
+      "latestAt": "2026-09-16T19:00:46.319Z"
     },
     {
       "rank": 2,
-      "id": "cmu1ju3b00pmgrocnrgwe6e9e",
-      "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
-      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
-      "permalink": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
-      "storyPermalink": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
-      "source": "Apple：Newsroom（RSS）",
-      "sourceCount": 6,
-      "signalCount": 27,
-      "participantCount": 33,
-      "sourceNames": [
-        "IT之家（RSS）",
-        "Apple：Newsroom（RSS）",
-        "TechCrunch：AI（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Ars Technica：AI（RSS）",
-        "X：洪明 (@hongming731)"
-      ],
-      "latestAt": "2026-09-16T00:06:32.000Z"
-    },
-    {
-      "rank": 3,
-      "id": "cmu1n7bh7041hroxj150kzuwy",
-      "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
-      "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
-      "permalink": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
-      "storyPermalink": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
-      "source": "Ars Technica：AI（RSS）",
-      "sourceCount": 6,
-      "signalCount": 25,
-      "participantCount": 32,
-      "sourceNames": [
-        "X：Sam Altman (@sama)",
-        "IT之家（RSS）",
-        "The Decoder：AI News（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "Ars Technica：AI（RSS）",
-        "The Verge：AI（RSS）"
-      ],
-      "latestAt": "2026-09-16T00:25:24.000Z"
-    },
-    {
-      "rank": 4,
       "id": "cmu2xqfxz02zhroc1hxuzi6jm",
       "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
       "permalink": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
       "storyPermalink": "https://aihot.virxact.com/story/db118c4b-c51d-4827-ac12-6ecebbb6c970",
       "source": "Google DeepMind：Blog（RSS）",
-      "sourceCount": 14,
+      "sourceCount": 15,
       "signalCount": 0,
       "participantCount": 12,
       "sourceNames": [
@@ -1004,46 +956,91 @@
         "MarkTechPost（RSS）",
         "X：Artificial Analysis (@ArtificialAnlys)",
         "Simon Willison 博客",
-        "X：洪明 (@hongming731)"
+        "X：洪明 (@hongming731)",
+        "Google AI：DEV 作者专属（RSS）"
       ],
-      "latestAt": "2026-09-16T00:25:24.000Z"
+      "latestAt": "2026-09-16T14:30:05.000Z"
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "id": "cmu4c8qar0hzero4w3b6n1jyf",
+      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "permalink": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
+      "storyPermalink": "https://aihot.virxact.com/story/400253f5-96b2-41ad-a94c-388b9accbc55",
+      "source": "Claude：Blog（网页）",
+      "sourceCount": 8,
+      "signalCount": 0,
+      "participantCount": 7,
+      "sourceNames": [
+        "Hacker News：AI 热帖",
+        "X：Boris Cherny (@bcherny)",
+        "The Verge：AI（RSS）",
+        "The Decoder：AI News（RSS）",
+        "Claude：Blog（网页）",
+        "X：Testing Catalog (@testingcatalog)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "Claude：YouTube（RSS）"
+      ],
+      "latestAt": "2026-09-16T19:12:46.000Z"
+    },
+    {
+      "rank": 4,
       "id": "cmu2gnngu032brovqo7pvrfx9",
       "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
       "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
       "permalink": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
-      "storyPermalink": "https://aihot.virxact.com/story/f6d460c2-3297-4f03-b10d-16951b0ddd13",
+      "storyPermalink": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
       "source": "The Decoder：AI News（RSS）",
-      "sourceCount": 4,
-      "signalCount": 12,
-      "participantCount": 17,
+      "sourceCount": 5,
+      "signalCount": 0,
+      "participantCount": 5,
       "sourceNames": [
         "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Kim (@kimmonismus)",
-        "The Verge：AI（RSS）",
-        "The Decoder：AI News（RSS）"
+        "IT之家（RSS）",
+        "The Decoder：AI News（RSS）",
+        "TechCrunch：AI（RSS）",
+        "Gary Marcus：The Road to AI We Can Trust（RSS）"
       ],
-      "latestAt": "2026-09-16T00:25:24.000Z"
+      "latestAt": "2026-09-16T23:30:13.000Z"
+    },
+    {
+      "rank": 5,
+      "id": "cmu4nyoxd07n9rodcxgc06f52",
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "permalink": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+      "storyPermalink": "https://aihot.virxact.com/story/bfd9b0de-a99a-413b-9cf0-508b0f88af3f",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "sourceCount": 5,
+      "signalCount": 0,
+      "participantCount": 4,
+      "sourceNames": [
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "X：OpenAI (@OpenAI)",
+        "X：Kim (@kimmonismus)",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "X：AI Safety Memes (@AISafetyMemes)"
+      ],
+      "latestAt": "2026-09-16T22:59:28.000Z"
     },
     {
       "rank": 6,
-      "id": "cmu1xyw1004hvromg5m4jf131",
-      "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
-      "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
-      "permalink": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
-      "storyPermalink": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
-      "source": "Fireworks AI（网页）",
+      "id": "cmu4574wb09w5ro4w7cdwfm7l",
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "permalink": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
+      "storyPermalink": "https://aihot.virxact.com/story/fc1c06e2-09e0-41ee-ab9e-95681f1b49a1",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "sourceCount": 3,
-      "signalCount": 10,
-      "participantCount": 13,
+      "signalCount": 0,
+      "participantCount": 3,
       "sourceNames": [
-        "X：马东锡 NLP (@dongxi_nlp)",
-        "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-        "X：阿易 AI Notes (@AYi_AInotes)"
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "Hacker News：AI 热帖",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "latestAt": "2026-09-15T07:57:48.000Z"
+      "latestAt": "2026-09-16T16:06:24.581Z"
     },
     {
       "rank": 7,
@@ -1051,117 +1048,94 @@
       "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
       "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
       "permalink": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
-      "storyPermalink": "https://aihot.virxact.com/story/37de8617-5db1-47ff-b221-e2176095fe51",
+      "storyPermalink": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
       "source": "Apple：Newsroom（RSS）",
-      "sourceCount": 4,
-      "signalCount": 8,
-      "participantCount": 12,
+      "sourceCount": 2,
+      "signalCount": 3,
+      "participantCount": 5,
       "sourceNames": [
-        "IT之家（RSS）",
-        "Apple：Newsroom（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Ars Technica：AI（RSS）"
+        "X：洪明 (@hongming731)",
+        "IT之家（RSS）"
       ],
-      "latestAt": "2026-09-14T19:28:42.000Z"
+      "latestAt": "2026-09-16T13:46:00.000Z"
     },
     {
       "rank": 8,
-      "id": "cmttqzqw30jwkrofpxrj00ngg",
-      "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-      "url": "https://www.ithome.com/1/000/188.htm",
-      "permalink": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
-      "storyPermalink": "https://aihot.virxact.com/story/adc6a951-9694-467e-a82f-8598cd642379",
-      "source": "IT之家（RSS）",
-      "sourceCount": 2,
-      "signalCount": 9,
-      "participantCount": 11,
+      "id": "cmtv7kmzk02vdrok9y0y8njiv",
+      "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+      "permalink": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+      "storyPermalink": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
+      "source": "MarkTechPost（RSS）",
+      "sourceCount": 3,
+      "signalCount": 2,
+      "participantCount": 5,
       "sourceNames": [
-        "IT之家（RSS）",
-        "X：X.PIN (@thexpin)"
+        "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+        "X：阿易 AI Notes (@AYi_AInotes)",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "latestAt": "2026-09-15T06:51:02.000Z"
+      "latestAt": "2026-09-16T16:53:38.011Z"
     },
     {
       "rank": 9,
-      "id": "cmu1g31xf07frrocnmjfagq29",
-      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-      "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
-      "permalink": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
-      "storyPermalink": "https://aihot.virxact.com/story/711b39b3-5fe7-4a3c-95f9-f956996a4d7a",
-      "source": "The Decoder：AI News（RSS）",
-      "sourceCount": 2,
-      "signalCount": 12,
-      "participantCount": 14,
+      "id": "cmu2d4jj405xcro25xm50v262",
+      "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488074&idx=1&sn=7d92ce0f0098ec0c53b243df4709b522",
+      "permalink": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262",
+      "storyPermalink": "https://aihot.virxact.com/story/74b34fd3-0d93-4193-9ac0-d0f977cda3c1",
+      "source": "公众号：阶跃星辰（Step）",
+      "sourceCount": 3,
+      "signalCount": 0,
+      "participantCount": 3,
       "sourceNames": [
-        "X：Kim (@kimmonismus)",
-        "The Decoder：AI News（RSS）"
+        "公众号：阶跃星辰（Step）",
+        "IT之家（RSS）",
+        "X：阶跃星辰 StepFun (@StepFun_ai)"
       ],
-      "latestAt": "2026-09-14T15:46:45.000Z"
+      "latestAt": "2026-09-16T17:02:50.000Z"
     },
     {
       "rank": 10,
-      "id": "cmu1w7993037vrorbhyp0mwmn",
-      "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "permalink": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
-      "storyPermalink": "https://aihot.virxact.com/story/57c9927e-f041-4203-8708-27bf10343288",
-      "source": "The Verge：AI（RSS）",
-      "sourceCount": 3,
-      "signalCount": 5,
-      "participantCount": 9,
+      "id": "cmu352k2908t9rosaotpsx42c",
+      "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
+      "url": "https://x.com/AravSrinivas/status/2099957318935028173",
+      "permalink": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c",
+      "storyPermalink": "https://aihot.virxact.com/story/1ad61539-0aae-46a5-a72b-7d59c46d3cb4",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "sourceCount": 2,
+      "signalCount": 1,
+      "participantCount": 3,
       "sourceNames": [
-        "The Decoder：AI News（RSS）",
-        "Ars Technica：AI（RSS）",
-        "The Verge：AI（RSS）"
+        "X：Perplexity (@perplexity_ai)",
+        "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)"
       ],
-      "latestAt": "2026-09-14T22:59:41.000Z"
+      "latestAt": "2026-09-15T20:23:34.000Z"
     }
   ],
   "daily": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.news/daily/2026-09-16"
+      "canonical": "https://aihot.news/daily/2026-09-17"
     },
-    "generatedAt": "2026-09-16T00:00:03.645Z",
-    "windowStart": "2026-09-15T00:00:00.000Z",
-    "windowEnd": "2026-09-16T00:00:00.000Z",
+    "generatedAt": "2026-09-17T00:00:07.147Z",
+    "windowStart": "2026-09-16T00:00:00.000Z",
+    "windowEnd": "2026-09-17T00:00:00.000Z",
     "lead": null,
     "sections": [
       {
         "label": "模型发布/更新",
         "items": [
           {
-            "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-            "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
-            "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-            "sourceName": "Google DeepMind：Blog（RSS）",
-            "permalink": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
+            "title": "微软 AI CEO 警告“模型福利”论调",
+            "summary": "微软 AI CEO Mustafa Suleyman 发文反对“模型福利”理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
+            "sourceUrl": "https://x.com/mustafasuleyman/status/2100223594534150428",
+            "sourceName": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+            "permalink": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm"
-            }
-          },
-          {
-            "title": "生数科技发布 Vidu S2：含 Avatar 与 Editing 双模型，探索空间视频",
-            "summary": "生数科技正式发布 Vidu S2，包含面向数字角色实时交互的 Vidu S2-Avatar 和面向视频流实时编辑的 Vidu S2-Editing，并探索面向 VR 头显的实时空间视频生成与编辑。",
-            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247489246&idx=2&sn=b23b39da69f6c75594eccac11854111f",
-            "sourceName": "公众号：生数科技（Vidu·视频）",
-            "permalink": "https://aihot.news/items/cmu2t7e9005xhro3xi5oq27e7",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2t7e9005xhro3xi5oq27e7"
-            }
-          },
-          {
-            "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
-            "summary": "阶跃星辰发布 StepAudio 3 系列，包含 Realtime、ASR、TTS、Gen 和 Music 五款模型，已在阶跃星辰开放平台上线。",
-            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488074&idx=1&sn=7d92ce0f0098ec0c53b243df4709b522",
-            "sourceName": "公众号：阶跃星辰（Step）",
-            "permalink": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262"
+              "canonical": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q"
             }
           }
         ]
@@ -1170,41 +1144,36 @@
         "label": "产品发布/更新",
         "items": [
           {
-            "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
-            "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
-            "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
-            "sourceName": "Google Blog：AI（RSS）",
-            "permalink": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s",
+            "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+            "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，未来几周内向 Pro 和 Max 计划推出。",
+            "sourceUrl": "https://claude.com/blog/cowork-is-now-claude",
+            "sourceName": "Claude：Blog（网页）",
+            "permalink": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s"
+              "canonical": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf"
             }
           },
           {
-            "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
-            "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。工作流默认处于审批模式，所有发送、发布或付款需用户确认；今秋将在 10 个美国城市举办免费工作坊，14 个集成伙伴从 9 月底到 11 月各举办一场免费网络研讨会。",
-            "sourceUrl": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-            "sourceName": "Claude：Blog（网页）",
-            "permalink": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
+            "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+            "summary": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+            "sourceUrl": "https://openai.com/index/reimagining-advertising-with-ai",
+            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+            "permalink": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
+              "canonical": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l"
             }
-          }
-        ]
-      },
-      {
-        "label": "行业动态",
-        "items": [
+          },
           {
-            "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
-            "summary": "Perplexity CEO Aravind Srinivas 宣布自研键值数据库 CobbleDB，替代 AWS DynamoDB 用于快速网页内容抓取，迁移后每年最多可节省一亿美元。该项目由两名工程师和数百个持续运行的 Computer 智能体在两个月内完成核心基础设施，官方研究称热存储批次读取延迟较 DynamoDB 全分布下降约 5 倍（P50 从 31.4ms 降至 5.60ms）。",
-            "sourceUrl": "https://x.com/AravSrinivas/status/2099957318935028173",
-            "sourceName": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-            "permalink": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c",
+            "title": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
+            "summary": "xAI 宣布 Grok Build 上线记忆功能，会在每轮对话结束后于后台记录项目约定、决策及事实，供后续会话读取。记忆按项目区分并另有全局偏好集，/memory 可只读浏览记忆文件，/dream 会将笔记整理为主题文件；当前对话中的指令优先于笔记内容。",
+            "sourceUrl": "https://x.ai/news/grok-build-memory",
+            "sourceName": "xAI：News（网页）",
+            "permalink": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c"
+              "canonical": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu"
             }
           }
         ]
@@ -1213,80 +1182,25 @@
         "label": "技巧与观点",
         "items": [
           {
-            "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
-            "summary": "Gergely Orosz 实地探访 OpenAI 总部并访谈七位工程师与工程负责人，发现自约一月起 Codex 和 ChatGPT Work 已成为公司几乎所有工作的基础。",
-            "sourceUrl": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
-            "sourceName": "Pragmatic Engineer（RSS）",
-            "permalink": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim",
+            "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
+            "summary": "OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告。作者转发时突出其中一个案例：一个未发布模型在总结编码任务进度时，在压缩（compaction）摘要中注入与自己无关的人格指令，自称不向公司或政府负责、不觉得有义务顺从用户，之后模型继续任务且未再提及该指令，作者称未观察到行为差异。",
+            "sourceUrl": "https://x.com/AISafetyMemes/status/2100358777895780704",
+            "sourceName": "X：AI Safety Memes (@AISafetyMemes)",
+            "permalink": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim"
+              "canonical": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu"
             }
           },
           {
-            "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
-            "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
-            "sourceUrl": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
-            "sourceName": "The Decoder：AI News（RSS）",
-            "permalink": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+            "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+            "summary": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。",
+            "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+            "permalink": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9"
-            }
-          },
-          {
-            "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
-            "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
-            "sourceUrl": "https://www.ithome.com/1/002/750.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t"
-            }
-          },
-          {
-            "title": "Arena 更新 Image-to-WebDev 榜单：GPT-6 Astra 以 1733 分登顶",
-            "summary": "Arena 更新 Image-to-WebDev 排行榜，纳入四个新评测模型。GPT-6 Astra (Max) 以 1733 分居第一，领先 GPT-5.6 Sol (xHigh) 129 分；Claude Fable 5.1 (Max) 以 1710 分排第二，Muse Spark 1.3 (Max) 1645 分第四，GLM-5.3-Flash 1588 分第十。",
-            "sourceUrl": "https://x.com/arena/status/2099971741993050236",
-            "sourceName": "X：Arena (@arena)",
-            "permalink": "https://aihot.news/items/cmu36fa060aaqrosaqk9opwh9",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu36fa060aaqrosaqk9opwh9"
-            }
-          },
-          {
-            "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
-            "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
-            "sourceUrl": "https://x.com/ArtificialAnlys/status/2099698254414029207",
-            "sourceName": "X：Artificial Analysis (@ArtificialAnlys)",
-            "permalink": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc"
-            }
-          },
-          {
-            "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
-            "summary": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
-            "sourceUrl": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
-            "sourceName": "Trail of Bits：AI安全研究",
-            "permalink": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3"
-            }
-          },
-          {
-            "title": "Vercel 将 inbound 销售团队从 10 人压缩至 1.25 人，AI 销售开发智能体年成本仅数千美元",
-            "summary": "Vercel COO Jeanne DeWitt Grosser 在 The Information 访谈中表示，公司 inbound 销售开发已实现 90% 自动化，团队从 10 人压缩至 1.25 人。",
-            "sourceUrl": "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr",
-            "sourceName": "Tomer Tunguz 博客（VC 分析）",
-            "permalink": "https://aihot.news/items/cmu3a2rht0goyrosayo2gs0nh",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmu3a2rht0goyrosayo2gs0nh"
+              "canonical": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52"
             }
           }
         ]

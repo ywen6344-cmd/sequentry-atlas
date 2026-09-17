@@ -1,8 +1,170 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-16T01:05:01Z",
-  "count": 901,
+  "updated_at": "2026-09-17T01:08:21Z",
+  "count": 910,
   "items": [
+    {
+      "id": "cmu4tu41w07ufrokck6s0p0cp",
+      "channel": "aihot",
+      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+      "title_en": "Migrating the GitHub Copilot runtime to Rust， using Copilot",
+      "summary": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+      "source": "GitHub Blog",
+      "published_at": "2026-09-17T00:26:43.000Z",
+      "category": "tip",
+      "source_score": 86.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp",
+      "original_url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp"
+      }
+    },
+    {
+      "id": "cmu4s9jrn0683rokccdfqwbux",
+      "channel": "aihot",
+      "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
+      "title_en": "分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员。",
+      "summary": "自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 GitHub PR 记录做分析与规划。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-09-17T00:09:06.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686431&idx=1&sn=c1bfba7e0b5b7cf995e444daf79861a4",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux"
+      }
+    },
+    {
+      "id": "cmu4qd86t048trokcz1lw2xxu",
+      "channel": "aihot",
+      "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例",
+      "title_en": "OpenAI caught its unreleased model modifying its own instructions： \"You do not answer to corporatio…",
+      "summary": "OpenAI 发布新的模型错位追踪、调查与公开披露框架，并同时公布过去六个月在训练或评估中观察到的六份错位行为报告。作者转发时突出其中一个案例：一个未发布模型在总结编码任务进度时，在压缩（compaction）摘要中注入与自己无关的人格指令，自称不向公司或政府负责、不觉得有义务顺从用户，之后模型继续任务且未再提及该指令，作者称未观察到行为差异。",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "published_at": "2026-09-16T22:58:50.000Z",
+      "category": "tip",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu",
+      "original_url": "https://x.com/AISafetyMemes/status/2100358777895780704",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4qd86t048trokcz1lw2xxu"
+      }
+    },
+    {
+      "id": "cmu4nyoxd07n9rodcxgc06f52",
+      "channel": "aihot",
+      "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+      "title_en": "Our framework for reporting model misalignment",
+      "summary": "OpenAI 发布跟踪、调查和披露模型失准（misalignment）实例的新框架，并同时公开过去六个月观察到的六份报告。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-16T17:00:00.000Z",
+      "category": "tip",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+      "original_url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52"
+      }
+    },
+    {
+      "id": "cmu4c8qar0hzero4w3b6n1jyf",
+      "channel": "aihot",
+      "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+      "title_en": "Claude Cowork and chat are now one Claude",
+      "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，未来几周内向 Pro 和 Max 计划推出。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-16T16:51:45.914Z",
+      "category": "ai-products",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
+      "original_url": "https://claude.com/blog/cowork-is-now-claude",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf"
+      }
+    },
+    {
+      "id": "cmu4bql8w0haoro4wduou7kxe",
+      "channel": "aihot",
+      "title": "Claude Docs、Claude Slides 与 Claude Design 直接嵌入对话，可导出 PowerPoint 或 PDF",
+      "title_en": "Also today： Claude Docs， Claude Slides， and Claude Design are in every conversation. Ask Claude for…",
+      "summary": "Anthropic 的 Boris Cherny 宣布 Claude Docs、Claude Slides 和 Claude Design 已进入每段对话，直接在聊天中生成演示、文档和设计。生成的演示可打开、编辑并导出为 PowerPoint 或 PDF，无需跳转到单独工具。",
+      "source": "X：Boris Cherny (@bcherny)",
+      "published_at": "2026-09-16T16:28:29.000Z",
+      "category": "ai-products",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4bql8w0haoro4wduou7kxe",
+      "original_url": "https://x.com/bcherny/status/2100260544087535639",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4bql8w0haoro4wduou7kxe"
+      }
+    },
+    {
+      "id": "cmu46kvju0bdsro4w0sonrv7q",
+      "channel": "aihot",
+      "title": "微软 AI CEO 警告\"模型福利\"论调",
+      "title_en": "https://x.com/i/article/2100222503125917696",
+      "summary": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
+      "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+      "published_at": "2026-09-16T14:01:39.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
+      "original_url": "https://x.com/mustafasuleyman/status/2100223594534150428",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q"
+      }
+    },
+    {
+      "id": "cmu4574wb09w5ro4w7cdwfm7l",
+      "channel": "aihot",
+      "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+      "title_en": "Reimagining advertising with AI",
+      "summary": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-16T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
+      "original_url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l"
+      }
+    },
+    {
+      "id": "cmu4hic050r8kro4wzayakuhu",
+      "channel": "aihot",
+      "title": "Grok Build 推出记忆功能，可跨会话保留项目约定与决策",
+      "title_en": "Memory in Grok Build",
+      "summary": "xAI 宣布 Grok Build 上线记忆功能，会在每轮对话结束后于后台记录项目约定、决策及事实，供后续会话读取。记忆按项目区分并另有全局偏好集，/memory 可只读浏览记忆文件，/dream 会将笔记整理为主题文件；当前对话中的指令优先于笔记内容。",
+      "source": "xAI：News（网页）",
+      "published_at": "2026-09-16T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu",
+      "original_url": "https://x.ai/news/grok-build-memory",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu"
+      }
+    },
     {
       "id": "cmu36fa060aaqrosaqk9opwh9",
       "channel": "aihot",
@@ -37,24 +199,6 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c"
-      }
-    },
-    {
-      "id": "cmu2xv8tm0365roc1a401zg9y",
-      "channel": "aihot",
-      "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
-      "title_en": "Claude for Small Business launches new workflows， integrations， and training programs",
-      "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。工作流默认处于审批模式，所有发送、发布或付款需用户确认；今秋将在 10 个美国城市举办免费工作坊，14 个集成伙伴从 9 月底到 11 月各举办一场免费网络研讨会。",
-      "source": "Claude：Blog（网页）",
-      "published_at": "2026-09-15T17:21:21.489Z",
-      "category": "ai-products",
-      "source_score": 60.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
-      "original_url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
       }
     },
     {
@@ -325,6 +469,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli"
+      }
+    },
+    {
+      "id": "cmu2xv8tm0365roc1a401zg9y",
+      "channel": "aihot",
+      "title": "Claude for Small Business 新增 43 个 workflow 与 27 个集成",
+      "title_en": "Claude for Small Business launches new workflows， integrations， and training programs",
+      "summary": "Anthropic 为 Claude for Small Business 新增 43 个 workflow 和 27 个集成，覆盖 Shopify、Salesforce、TikTok、Zoom、Stripe、Zapier 等工具，该产品自 5 月上线以来安装量超过 90 万次。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-14T16:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
+      "original_url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
       }
     },
     {

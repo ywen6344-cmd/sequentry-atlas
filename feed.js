@@ -1,67 +1,123 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-16",
- "total": 1227,
+ "updated": "2026-09-17",
+ "total": 1259,
  "source_count": 57,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
    {
-    "t": "Shopify后台2026年9月换新界面，开发者需适配",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/prepare-your-app-for-the-shopify-admins-new-look",
-    "d": "2026-09-15",
-    "p": "P1",
-    "m": "US",
-    "score": 88
-   },
-   {
-    "t": "Meta推出订阅服务Meta One，含AI与创作者工具",
-    "s": "Meta Research Blog",
-    "u": "https://about.fb.com/news/2026/09/presentation-de-meta-one-un-service-dabonnement-offrant-davantage-de-fonctionnalites-et-dia-pour-creer-se-connecter-et-se-demarquer/",
-    "d": "2026-09-15",
+    "t": "eBay英国投20万英镑资助青年创业者",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/ebay-to-invest-up-to-200000-to-back-britains-next-generation/",
+    "d": "2026-09-16",
     "p": "P0",
-    "m": "US",
+    "m": "UK",
     "score": 87
    },
    {
-    "t": "Shopify目录API支持按媒体类型筛选商品",
+    "t": "Shopify 更新 Events 负载与订阅配置",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/filter-catalog-search-results-by-media-type",
-    "d": "2026-09-15",
+    "u": "https://shopify.dev/changelog/updates-to-events-payloads-and-subscription-configuration",
+    "d": "2026-09-16",
     "p": "P1",
     "m": "GLOBAL",
     "score": 84
    },
    {
-    "t": "对标亚马逊，塔吉特十月促销活动回归",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/dueling-amazon-target-october-sales-events-return/830402/",
-    "d": "2026-09-15",
+    "t": "百思买假日季接入ChatGPT，聊天界面内可直接购物",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/16/best-buy-opens-up-gift-buying-and-discover-through-chatgpt-ahead-of-holidays/",
+    "d": "2026-09-16",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Fabacus携手亚马逊推出VIP知识产权协议",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/fabacus-verified-intellectual-property-protocol-launches-with-amazon/",
-    "d": "2026-09-15",
+    "t": "Shopify 重新设计付款页面：一屏查看所有付款",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/payouts-page-redesign-see-all-your-payouts-in-one-view",
+    "d": "2026-09-16",
     "p": "P1",
-    "m": "US",
+    "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "AI疲劳下品牌重拾客服电话线",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/brands-briefing-customer-service-phone-lines-are-getting-a-second-look-thanks-to-ai-fatigue/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-15",
+    "t": "FI Works推出AI驱动分析平台",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110926/fi-works-launches-ai-driven-analytics?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-16",
     "p": "P1",
-    "m": "US",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "洲际交易所推出私募信贷参考数据服务",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110925/ice-launches-private-credit-reference-data-service?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-16",
+    "p": "P1",
+    "m": "GLOBAL",
     "score": 79
    }
   ],
+  "market-product": [
+   {
+    "t": "Kim Gravel推直播带货平台，欲打造预约式电视购物",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/commerce/kim-gravel-wants-to-make-live-selling-the-new-appointment-tv/",
+    "d": "2026-09-16",
+    "p": "P0",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Coach携手Spotify推秋季 campaign，巴士巡演同步启动",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/coach-channels-music-into-fall-campaign-with-spotify-integration-bus-tour/830501/",
+    "d": "2026-09-16",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Draper James与Levain Cookies：如何超越创始人打造品牌",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/brand-marketing/reese-witherspoons-draper-james-and-levain-cookies-on-building-beyond-their-founders/",
+    "d": "2026-09-16",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   }
+  ],
   "brand-retail": [
+   {
+    "t": "Sage推出感色烤面包机，告别烤焦",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/16/eye-q-toaster-colour-sensor-sage-appliances/",
+    "d": "2026-09-16",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "The Laundress入驻Target，开启最大零售扩张",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/the-laundress-enters-target-embarking-on-its-largest-retail-expansion-to-date/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-16",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Carter's品牌焕新，瞄准Z世代与千禧父母",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/carters-refreshing-brand-gen-z-millennial-parents/830443/",
+    "d": "2026-09-16",
+    "p": "P1",
+    "m": "US",
+    "score": 73
+   },
    {
     "t": "推出婚纱两年后，婚礼服饰占Tanner Fletcher业务一半",
     "s": "Glossy",
@@ -69,109 +125,15 @@ window.NAV_FEED = {
     "d": "2026-09-15",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Herman Miller 升级 Aeron 座椅，延续其“持久设计”",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/14/aeron-chair-herman-miller/",
-    "d": "2026-09-14",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "IHOP借Katseye配乐营销，切入小确幸潮流",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/ihop-bites-into-little-treat-trend-with-katseye-soundtracked-campaign/830014/",
-    "d": "2026-09-14",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Carter's启动品牌焕新，瞄准Z世代和千禧父母",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/carters-unveils-brand-refresh-as-it-courts-more-gen-z-and-millennial-parents/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-15",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "零售商如何花掉巨额关税退款？",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/so-what-are-retailers-doing-with-all-those-tariff-refunds/",
-    "d": "2026-09-14",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "联邦快递推出Shopify应用，应对意外进口费用",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/fedex-launches-shopify-app-to-combat-surprise-import-charges/830262/",
-    "d": "2026-09-14",
-    "p": "P1",
-    "m": "US",
-    "score": 78
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Ulta Beauty加码健康领域，引入Midi Health",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/wellness/ulta-beauty-doubles-down-on-wellness-with-the-launch-of-midi-health/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-14",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Target家居商品高级副总裁Mara Sirhal：以自我反思引领团队",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/mara-sirhal-leading-through-self-reflection/",
-    "d": "2026-09-15",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Thatch估值达10亿美元，雇主将健康福利预算交给员工",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/healthcare/2026/thatch-reaches-1b-valuation-as-employers-hand-workers-health-benefits-budgets/",
-    "d": "2026-09-15",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "Dick's Ed Stack：运动鞋问题在库存错配而非需求",
+    "t": "Tory Burch 2027春季鞋履再突破，前卫精致",
     "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/dicks-ed-stack-athletic-footwear-overcapacity-legacy-shoes-1239234726/",
-    "d": "2026-09-15",
+    "u": "https://wwd.com/footwear-news/shoe-trends/tory-burch-spring-2027-shoes-1239236605/",
+    "d": "2026-09-16",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 66
-   },
-   {
-    "t": "气候媒体Heatmap数据中心业务实现三位数增长",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/media/climate-publisher-heatmap-turned-data-centers-into-triple-digit-growth/",
-    "d": "2026-09-15",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "观点：快而遗忘——选择与可靠如何构建消费者忠诚",
-    "s": "Parcel & Postal Tech",
-    "u": "https://www.parcelandpostaltechnologyinternational.com/opinion/opinion-fast-and-forgettable-why-choice-and-reliability-build-consumer-loyalty.html",
-    "d": "2026-09-15",
-    "p": "P2",
-    "m": "US",
     "score": 66
    }
   ]
