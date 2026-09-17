@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
  "updated": "2026-09-17",
- "total": 1259,
+ "total": 1265,
  "source_count": 57,
  "score_min": 60,
  "by_cat": {
@@ -61,36 +61,16 @@ window.NAV_FEED = {
     "score": 79
    }
   ],
-  "market-product": [
+  "brand-retail": [
    {
-    "t": "Kim Gravel推直播带货平台，欲打造预约式电视购物",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/commerce/kim-gravel-wants-to-make-live-selling-the-new-appointment-tv/",
-    "d": "2026-09-16",
-    "p": "P0",
+    "t": "时尚简报：Brooks Brothers的复兴计划与十亿美元雄心",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/fashion-briefing-inside-brooks-brothers-turnaround-plan-and-billion-dollar-ambitions/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-17",
+    "p": "P1",
     "m": "US",
     "score": 79
    },
-   {
-    "t": "Coach携手Spotify推秋季 campaign，巴士巡演同步启动",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/coach-channels-music-into-fall-campaign-with-spotify-integration-bus-tour/830501/",
-    "d": "2026-09-16",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Draper James与Levain Cookies：如何超越创始人打造品牌",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/reese-witherspoons-draper-james-and-levain-cookies-on-building-beyond-their-founders/",
-    "d": "2026-09-16",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   }
-  ],
-  "brand-retail": [
    {
     "t": "Sage推出感色烤面包机，告别烤焦",
     "s": "Dezeen 设计",
@@ -119,21 +99,41 @@ window.NAV_FEED = {
     "score": 73
    },
    {
-    "t": "推出婚纱两年后，婚礼服饰占Tanner Fletcher业务一半",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/2-years-after-launching-bridal-wedding-attire-now-makes-up-half-of-tanner-fletchers-business/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-15",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
     "t": "Tory Burch 2027春季鞋履再突破，前卫精致",
     "s": "Footwear News",
     "u": "https://wwd.com/footwear-news/shoe-trends/tory-burch-spring-2027-shoes-1239236605/",
     "d": "2026-09-16",
     "p": "P2",
     "m": "GLOBAL",
+    "score": 66
+   }
+  ],
+  "market-product": [
+   {
+    "t": "Kim Gravel推直播带货平台，欲打造预约式电视购物",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/commerce/kim-gravel-wants-to-make-live-selling-the-new-appointment-tv/",
+    "d": "2026-09-16",
+    "p": "P0",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Coach携手Spotify推秋季 campaign，巴士巡演同步启动",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/coach-channels-music-into-fall-campaign-with-spotify-integration-bus-tour/830501/",
+    "d": "2026-09-16",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Draper James与Levain Cookies：如何超越创始人打造品牌",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/brand-marketing/reese-witherspoons-draper-james-and-levain-cookies-on-building-beyond-their-founders/",
+    "d": "2026-09-16",
+    "p": "P2",
+    "m": "US",
     "score": 66
    }
   ]
