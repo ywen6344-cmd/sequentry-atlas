@@ -1,67 +1,29 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-17",
- "total": 1265,
- "source_count": 57,
+ "updated": "2026-09-18",
+ "total": 1257,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "brand-retail": [
    {
-    "t": "eBay英国投20万英镑资助青年创业者",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/ebay-to-invest-up-to-200000-to-back-britains-next-generation/",
-    "d": "2026-09-16",
+    "t": "当奢侈品牌大使变成对手",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/when-luxurys-brand-ambassadors-become-adversaries/",
+    "d": "2026-09-17",
     "p": "P0",
-    "m": "UK",
+    "m": "US",
     "score": 87
    },
    {
-    "t": "Shopify 更新 Events 负载与订阅配置",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/updates-to-events-payloads-and-subscription-configuration",
-    "d": "2026-09-16",
+    "t": "一条Facebook帖子如何让太空时代建筑标志重生",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/17/futuro-house-matti-suuronen-marimekko-helsinki-design-week/",
+    "d": "2026-09-17",
     "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "百思买假日季接入ChatGPT，聊天界面内可直接购物",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/16/best-buy-opens-up-gift-buying-and-discover-through-chatgpt-ahead-of-holidays/",
-    "d": "2026-09-16",
-    "p": "P1",
-    "m": "US",
+    "m": "UK",
     "score": 79
    },
-   {
-    "t": "Shopify 重新设计付款页面：一屏查看所有付款",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/payouts-page-redesign-see-all-your-payouts-in-one-view",
-    "d": "2026-09-16",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "FI Works推出AI驱动分析平台",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110926/fi-works-launches-ai-driven-analytics?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-16",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "洲际交易所推出私募信贷参考数据服务",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/110925/ice-launches-private-credit-reference-data-service?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-16",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   }
-  ],
-  "brand-retail": [
    {
     "t": "时尚简报：Brooks Brothers的复兴计划与十亿美元雄心",
     "s": "Glossy",
@@ -78,7 +40,7 @@ window.NAV_FEED = {
     "d": "2026-09-16",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "The Laundress入驻Target，开启最大零售扩张",
@@ -87,28 +49,84 @@ window.NAV_FEED = {
     "d": "2026-09-16",
     "p": "P1",
     "m": "US",
+    "score": 74
+   },
+   {
+    "t": "Jordan Brand推出训练器材产品线",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/jordan-brand-debuts-strength-training-equipment-line/830659/",
+    "d": "2026-09-17",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "Shopify 为现有 UI 扩展开放包体积例外申请",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/request-a-bundle-size-exception-for-existing-ui-extensions",
+    "d": "2026-09-17",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "电商趋势：营销预算如何适应AI驱动的购物",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/17/ecommerce-trends-how-marketing-budgets-are-adapting-to-ai-driven-purchases/",
+    "d": "2026-09-17",
+    "p": "P1",
+    "m": "US",
     "score": 79
    },
    {
-    "t": "Carter's品牌焕新，瞄准Z世代与千禧父母",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/carters-refreshing-brand-gen-z-millennial-parents/830443/",
-    "d": "2026-09-16",
+    "t": "WisdomTree与MoonPay扩大美国代币化基金渠道",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110941/wisdomtree-and-moonpay-expand-us-access-to-tokenised-funds?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-17",
     "p": "P1",
     "m": "US",
-    "score": 73
+    "score": 79
    },
    {
-    "t": "Tory Burch 2027春季鞋履再突破，前卫精致",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-trends/tory-burch-spring-2027-shoes-1239236605/",
-    "d": "2026-09-16",
-    "p": "P2",
+    "t": "Partior与LSEG DiSH合作实现全天候结算银行流动性",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110934/partior-and-lseg-dish-collaborate-on-always-on-settlement-bank-liquidity?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-17",
+    "p": "P1",
     "m": "GLOBAL",
-    "score": 66
+    "score": 79
+   },
+   {
+    "t": "Nexi与ReFiBuy合作提升欧洲商户AI商务可见性",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/nexi-and-refibuy-partner-to-enhance-european-merchant-discoverability-for-theagentic-commerce-era/",
+    "d": "2026-09-17",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   },
+   {
+    "t": "eBay英国投20万英镑资助青年创业者",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/ebay-to-invest-up-to-200000-to-back-britains-next-generation/",
+    "d": "2026-09-16",
+    "p": "P0",
+    "m": "UK",
+    "score": 82
    }
   ],
   "market-product": [
+   {
+    "t": "耐克任命LVMH高管阿尔诺为董事",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/nike-adds-lvmh-exec-alexandre-arnault-board-innovation-turnaround/830662/",
+    "d": "2026-09-17",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "Kim Gravel推直播带货平台，欲打造预约式电视购物",
     "s": "Adweek",
@@ -116,25 +134,7 @@ window.NAV_FEED = {
     "d": "2026-09-16",
     "p": "P0",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Coach携手Spotify推秋季 campaign，巴士巡演同步启动",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/coach-channels-music-into-fall-campaign-with-spotify-integration-bus-tour/830501/",
-    "d": "2026-09-16",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Draper James与Levain Cookies：如何超越创始人打造品牌",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/reese-witherspoons-draper-james-and-levain-cookies-on-building-beyond-their-founders/",
-    "d": "2026-09-16",
-    "p": "P2",
-    "m": "US",
-    "score": 66
+    "score": 74
    }
   ]
  }
