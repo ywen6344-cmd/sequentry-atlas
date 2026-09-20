@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-19",
- "total": 1306,
+ "updated": "2026-09-20",
+ "total": 1293,
  "source_count": 54,
  "score_min": 60,
  "by_cat": {
@@ -13,7 +13,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P0",
     "m": "US",
-    "score": 92
+    "score": 87
    },
    {
     "t": "ReFiBuy为Claude商务代理提供持续优化的产品数据",
@@ -22,7 +22,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P0",
     "m": "US",
-    "score": 87
+    "score": 82
    },
    {
     "t": "dunnhumby风投投资Azoma，加速智能体商务优化平台",
@@ -31,16 +31,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "UK",
-    "score": 83
-   },
-   {
-    "t": "Shopify 为现有 UI 扩展开放包体积例外申请",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/request-a-bundle-size-exception-for-existing-ui-extensions",
-    "d": "2026-09-17",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
+    "score": 78
    },
    {
     "t": "梅西百货推广AI库存补货工具",
@@ -49,7 +40,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "US",
-    "score": 73
+    "score": 68
    },
    {
     "t": "Apple Pay携手Axis银行接近登陆印度",
@@ -58,7 +49,16 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "IN",
-    "score": 71
+    "score": 66
+   },
+   {
+    "t": "Basura推出数据中心毛绒玩具，捏压时发出刺耳嗡鸣",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/18/basura-big-data-centre-toy-bezzy/",
+    "d": "2026-09-18",
+    "p": "P1",
+    "m": "US",
+    "score": 64
    }
   ],
   "brand-retail": [
@@ -69,34 +69,34 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "当奢侈品牌大使变成对手",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/when-luxurys-brand-ambassadors-become-adversaries/",
-    "d": "2026-09-17",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "一条Facebook帖子如何让太空时代建筑标志重生",
+    "t": "乌克兰设计师在纽约打造雕塑感珠宝旗舰店",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/17/futuro-house-matti-suuronen-marimekko-helsinki-design-week/",
-    "d": "2026-09-17",
-    "p": "P1",
-    "m": "UK",
-    "score": 74
-   },
-   {
-    "t": "时尚简报：Brooks Brothers的复兴计划与十亿美元雄心",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/fashion-briefing-inside-brooks-brothers-turnaround-plan-and-billion-dollar-ambitions/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-17",
+    "u": "https://www.dezeen.com/2026/09/19/guzema-jewellery-boutique-soho-new-york-victoria-yakusha-studio/",
+    "d": "2026-09-19",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 69
+   },
+   {
+    "t": "Novig请悉尼·斯威尼代言被批品牌失误",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/novig-the-robin-report-retail-miss-of-the-week-9-19-26/",
+    "d": "2026-09-19",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Rothy’s如何打造持久DTC鞋履品牌",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/how-rothys-built-a-dtc-footwear-brand-with-staying-power/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-19",
+    "p": "P1",
+    "m": "US",
+    "score": 69
    },
    {
     "t": "ODP集团更名为Office Depot集团，弃用ODP Business Solutions名称",
@@ -105,7 +105,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Wedge为Bastét牙膏设计反常规品牌视觉",
@@ -114,7 +114,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "US",
-    "score": 62
+    "score": 57
    }
   ],
   "market-product": [
@@ -125,7 +125,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Riverty在卢森堡开设银行",
@@ -134,7 +134,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "EU",
-    "score": 79
+    "score": 74
    },
    {
     "t": "匡威广告被指影射私刑遭批后道歉",
@@ -143,7 +143,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P2",
     "m": "US",
-    "score": 66
+    "score": 61
    },
    {
     "t": "观点：快而遗忘——选择与可靠如何构建消费者忠诚",
@@ -152,7 +152,7 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P2",
     "m": "US",
-    "score": 66
+    "score": 61
    },
    {
     "t": "创作者在时尚美妆业角色如何演变",
@@ -161,7 +161,16 @@ window.NAV_FEED = {
     "d": "2026-09-18",
     "p": "P1",
     "m": "US",
-    "score": 66
+    "score": 61
+   },
+   {
+    "t": "Co-op在阿特尔伯勒开设新店，主打可持续创新",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/co-ops-newest-store-launches-to-serve-community-of-attleborough/",
+    "d": "2026-09-19",
+    "p": "P3",
+    "m": "US",
+    "score": 56
    }
   ]
  }
