@@ -1,8 +1,458 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-23T01:05:35Z",
-  "count": 1008,
+  "updated_at": "2026-09-24T01:04:21Z",
+  "count": 1036,
   "items": [
+    {
+      "id": "cmuepgrq30eh3royntmaj59h4",
+      "channel": "aihot",
+      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+      "title_en": "阿尔巴内塞透露，OpenAI 入侵了\"联邦医疗保险\"系统",
+      "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-23T22:54:29.320Z",
+      "category": "industry",
+      "source_score": 84.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4",
+      "original_url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4"
+      }
+    },
+    {
+      "id": "cmueno9s80cv0royn7zd2ihe1",
+      "channel": "aihot",
+      "title": "AI 公司负责人在联合国安理会简报会上警告 AI 可能危及全人类",
+      "title_en": "Historic UN Security Council Briefing on AI",
+      "summary": "联合国安理会举行 AI 简报会，Yoshua Bengio、Sam Altman、Dario Amodei 和 Hugging Face CEO Clement Delangue 相继发言，美联社报道主要 AI 公司负责人警告若无干预，AI 可能对全人类构成风险。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-09-23T21:46:40.000Z",
+      "category": "tip",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueno9s80cv0royn7zd2ihe1",
+      "original_url": "https://garymarcus.substack.com/p/historic-un-security-council-briefing",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueno9s80cv0royn7zd2ihe1"
+      }
+    },
+    {
+      "id": "cmuemnn9m07yproynbzmmumd3",
+      "channel": "aihot",
+      "title": "Fireworks Research 发布 Ember-1，以更少推理 token 保持 Kimi K3 质量",
+      "title_en": "Introducing Ember-1",
+      "summary": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以约少 40% 的 token 达到与 Kimi K3 相当的质量，今日以 Research Preview 形式在 Serverless 上线。",
+      "source": "Fireworks AI（网页）",
+      "published_at": "2026-09-23T21:40:50.983Z",
+      "category": "ai-models",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3",
+      "original_url": "https://fireworks.ai/blog/ember-1",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3"
+      }
+    },
+    {
+      "id": "cmuem5vyq07nqroynhi5j65vd",
+      "channel": "aihot",
+      "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
+      "title_en": "Okay yeah it's pretty negligent to make an LLM that decides to hack a government when you asked it t…",
+      "summary": "澳大利亚总理 Anthony Albanese 表示，一个 OpenAI 智能体今年6月未经授权访问了 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开和非公开文件。",
+      "source": "X：Nathan Lambert (@natolambert)",
+      "published_at": "2026-09-23T21:26:00.000Z",
+      "category": "tip",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuem5vyq07nqroynhi5j65vd",
+      "original_url": "https://x.com/natolambert/status/2102872133244183038",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuem5vyq07nqroynhi5j65vd"
+      }
+    },
+    {
+      "id": "cmuek0q2c05foroynclaijp3z",
+      "channel": "aihot",
+      "title": "团队分享提升 Agent Harness Token 效率的提示词",
+      "title_en": "here's a prompt to improve your agent harness based on what we've learned at cursor. enjoy # Improv…",
+      "summary": "一份公开提示词用于优化 LLM Agent Harness，目标是在不降低任务质量的前提下降低每任务的价格加权 token 成本。某团队一轮改动（提示词精简、工具卸载、缓存布局、稀疏行号、子智能体调优）将整体 token 成本降低约 7%，且质量无损。提示词强调按任务而非按请求计量，并建议先映射 harness、测量基线，再按优先级实施改动。",
+      "source": "X：Eric Zakariasson (@ericzakariasson)",
+      "published_at": "2026-09-23T20:12:00.000Z",
+      "category": "tip",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuek0q2c05foroynclaijp3z",
+      "original_url": "https://x.com/ericzakariasson/status/2102853511637774551",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuek0q2c05foroynclaijp3z"
+      }
+    },
+    {
+      "id": "cmuekny10060lroyn21gctbfw",
+      "channel": "aihot",
+      "title": "Anthropic 团队详解如何用 Claude 在两周内把 claude.ai 提速约 3 倍",
+      "title_en": "How we made claude.ai 3x faster in two weeks",
+      "summary": "Anthropic 团队发文详解今年 8 月通过两周冲刺让 claude.ai 和桌面端核心体验提速约 3 倍的过程：聚焦覆盖 95% 用户活动的四条旅程，75 分位首屏可输入时间从 3.1 秒降到 0.55 秒，合并超过三千个变更且无一次面向用户的事故。",
+      "source": "Hacker News：AI 热帖",
+      "published_at": "2026-09-23T19:23:40.000Z",
+      "category": "tip",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuekny10060lroyn21gctbfw",
+      "original_url": "https://claude.dev/blog/how-we-made-claude-ai-faster",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuekny10060lroyn21gctbfw"
+      }
+    },
+    {
+      "id": "cmueh1dx305ejrovxhm7a1f4l",
+      "channel": "aihot",
+      "title": "Anthropic 上线 Claude Marketplace，汇聚插件、智能体与服务伙伴",
+      "title_en": "Claude Marketplace： one place to discover plugins， agents， and services from our partners",
+      "summary": "Anthropic 推出 Claude Marketplace，将插件与连接器、智能体与产品、服务伙伴集中到一个入口。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-23T19:03:25.133Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueh1dx305ejrovxhm7a1f4l",
+      "original_url": "https://claude.com/blog/claude-marketplace",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueh1dx305ejrovxhm7a1f4l"
+      }
+    },
+    {
+      "id": "cmueho4vu065orovxbe0r7q3s",
+      "channel": "aihot",
+      "title": "MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna/Sol 发布改变智能指数与成本 Pareto 前沿",
+      "title_en": "The Intelligence Index vs Cost per Task Pareto frontier shifted this week with the releases of MiMo-…",
+      "summary": "Artificial Analysis 称本周 MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna 和 GPT-6 Sol 的发布在 Intelligence Index 与每任务成本 Pareto 前沿上新增十一个点位，其中 GPT-6 Luna 贡献五个，Claude Opus 5.5 贡献四个。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-09-23T18:54:11.000Z",
+      "category": "tip",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueho4vu065orovxbe0r7q3s",
+      "original_url": "https://x.com/ArtificialAnlys/status/2102833926788288704",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueho4vu065orovxbe0r7q3s"
+      }
+    },
+    {
+      "id": "cmueh9zc605n2rovxiyhlflze",
+      "channel": "aihot",
+      "title": "Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统",
+      "title_en": "Wild stuff. Anthropic's new wet lab got its first win after 949 Claude agents autonomously tracked d…",
+      "summary": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-09-23T18:46:48.000Z",
+      "category": "paper",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze",
+      "original_url": "https://x.com/rohanpaul_ai/status/2102832068157984990",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze"
+      }
+    },
+    {
+      "id": "cmueggr4504xvrovxrplh94rz",
+      "channel": "aihot",
+      "title": "Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统",
+      "title_en": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a…",
+      "summary": "Anthropic 宣布 Claude 主导发现一种疑似新型基因编辑机制的分子机器：Claude 阅读文献和基因组数据后发现了隐藏在噬菌体 DNA 中的未知酶系统，其基因旁有类似 CRISPR 的重复 DNA 阵列，已知少数同类系统均能切割、复制和粘贴 DNA，具体功能和实用价值尚待研究。",
+      "source": "X：Dario Amodei (@DarioAmodei)",
+      "published_at": "2026-09-23T18:43:14.000Z",
+      "category": "paper",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz",
+      "original_url": "https://x.com/DarioAmodei/status/2102831170299834652",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz"
+      }
+    },
+    {
+      "id": "cmuefqp730041rovxbpewc3gn",
+      "channel": "aihot",
+      "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
+      "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "summary": "Anthropic 成立生命科学研究组和自有实验室，宣布 Claude 智能体自主发现一种与 DNA 重复序列相关的新型酶系统 ART（array-associated reverse transcriptases）。",
+      "source": "Anthropic：Newsroom（网页）",
+      "published_at": "2026-09-23T18:27:25.203Z",
+      "category": "paper",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn",
+      "original_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn"
+      }
+    },
+    {
+      "id": "cmuef19zy078qrox3486cjnrq",
+      "channel": "aihot",
+      "title": "Greg Brockman 宣布 GPT Voice 大幅升级，支持使用工具并登陆 ChatGPT Work",
+      "title_en": "mega upgrade for GPT Voice， which can now use tools and is available in Work：",
+      "summary": "GPT Voice 获得重大升级，现在可以使用邮箱、日历、Slack 等工具，并由 GPT-6 Astra、Sol 和 Luna 驱动。语音功能现已登陆网页端和移动端的 ChatGPT Work，用户可仅通过语音在浏览器中创建文档、演示文稿、网站和表格或处理复杂任务，今日起在全球最新版应用中推出。",
+      "source": "X：Greg Brockman (@gdb)",
+      "published_at": "2026-09-23T18:05:37.000Z",
+      "category": "ai-products",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuef19zy078qrox3486cjnrq",
+      "original_url": "https://x.com/gdb/status/2102821706041819401",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuef19zy078qrox3486cjnrq"
+      }
+    },
+    {
+      "id": "cmuedyzhy0482romm2rpjfis0",
+      "channel": "aihot",
+      "title": "ChatGPT Voice 升级：可调用邮件、日历、Slack 插件并由 GPT-6 Astra、Sol、Luna 驱动",
+      "title_en": "Voice！ I've gotten so used to just call ChatGPT and talk about all the work， check on emails， do som…",
+      "summary": "OpenAI 宣布 ChatGPT Voice 升级，可使用邮件、日历和 Slack 等插件，并由 GPT-6 Astra、Sol、Luna 驱动。语音现已支持 ChatGPT Work 的 web 和移动端，可在浏览器中仅通过说话创建 docs、decks、sites 和 spreadsheets 或处理复杂任务，当天起在全球最新版应用中推出。",
+      "source": "X：Tibo (@thsottiaux)",
+      "published_at": "2026-09-23T17:35:48.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuedyzhy0482romm2rpjfis0",
+      "original_url": "https://x.com/thsottiaux/status/2102814202117411196",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuedyzhy0482romm2rpjfis0"
+      }
+    },
+    {
+      "id": "cmued0oy602x2rommk0l8lw6q",
+      "channel": "aihot",
+      "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
+      "title_en": "Introducing Support for Local AI Models in the Antigravity SDK",
+      "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
+      "source": "Google Developers Blog（RSS）",
+      "published_at": "2026-09-23T17:09:01.108Z",
+      "category": "ai-products",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q",
+      "original_url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q"
+      }
+    },
+    {
+      "id": "cmuedgev303hyromm2gpbnjqf",
+      "channel": "aihot",
+      "title": "Arena 实测：GPT-6 Sol （Max） 以 1689 分列 Code Arena： WebDev 第 4 名",
+      "title_en": "Real-world results are in for GPT-6 Sol （Max） by @OpenAI. It landed #4 in the Code Arena： WebDev wit…",
+      "summary": "Arena 公布 OpenAI 的 GPT-6 Sol （Max） 真实投票结果，在 Code Arena： WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-09-23T17:05:25.000Z",
+      "category": "tip",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf",
+      "original_url": "https://x.com/arena/status/2102806554340974612",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf"
+      }
+    },
+    {
+      "id": "cmuea8xrm0t1nroghhxj2y3eg",
+      "channel": "aihot",
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+      "title_en": "Gemini 3.8 text-to-speech says hello",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "published_at": "2026-09-23T15:25:14.000Z",
+      "category": "ai-models",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
+      "original_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg"
+      }
+    },
+    {
+      "id": "cmue9wuq00sqxrogh9805ahzr",
+      "channel": "aihot",
+      "title": "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
+      "title_en": "Never bet against open weight models",
+      "summary": "小米发布开源全模态模型 MiMo-V2.6 Pro 与 Flash，通过规模化强化学习训练，Pro 在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高，并在多数 Agent 基准上表现与 Claude Opus 5 和 GPT-5.6 Sol 相当。",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "published_at": "2026-09-23T15:20:38.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmue9wuq00sqxrogh9805ahzr",
+      "original_url": "https://x.com/AravSrinivas/status/2102780186202972254",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmue9wuq00sqxrogh9805ahzr"
+      }
+    },
+    {
+      "id": "cmue7dm420pvmroghjxeh5rk3",
+      "channel": "aihot",
+      "title": "Anthropic 前线工程师分享 AI 驱动代码现代化项目的六步准备方法",
+      "title_en": "How to prepare for AI-driven code modernization projects",
+      "summary": "Anthropic 在 Notes from the Field 系列中分享管理大型代码现代化项目的经验，称原本需数年的现代化可在数月或数周内完成，瓶颈从写代码转向组织动员。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-23T14:33:15.378Z",
+      "category": "tip",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmue7dm420pvmroghjxeh5rk3",
+      "original_url": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmue7dm420pvmroghjxeh5rk3"
+      }
+    },
+    {
+      "id": "cmue2etyn0k5broghxiolkkpi",
+      "channel": "aihot",
+      "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
+      "title_en": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "summary": "OpenAI 宣布向乌克兰政府开放其 Daybreak 计划，支持民用基础设施的网络防御，与乌克兰数字化转型部合作提供识别软件漏洞、开发和测试修复的工具。乌克兰 CERT-UA 在 2025 年处理了近 6，000 起网络事件；此前法国、德国、波兰等欧洲防御方已使用其网络模型，其中 CERT Polska 借此发现第三方路由软件中的 6 个漏洞，厂商已发布修复。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-23T13:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi",
+      "original_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi"
+      }
+    },
+    {
+      "id": "cmuepgodc0egsroynju6bomql",
+      "channel": "aihot",
+      "title": "Cursor 发布 Rollouts 和 Security Reviewer 开发机器人",
+      "title_en": "Bots for the last mile： Rollouts， Security Review",
+      "summary": "Cursor 发布两款软件开发机器人 Rollouts 和 Security Reviewer，帮助团队更快把安全可靠的代码送入生产环境。",
+      "source": "Cursor Blog",
+      "published_at": "2026-09-23T12:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuepgodc0egsroynju6bomql",
+      "original_url": "https://cursor.com/blog/rollouts-and-security-reviewer",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuepgodc0egsroynju6bomql"
+      }
+    },
+    {
+      "id": "cmuepgodc0egrroyn9ves9c7r",
+      "channel": "aihot",
+      "title": "Cursor 提升 agent 长时运行 token 效率，用户成本降低 7%",
+      "title_en": "Improved token efficiency for longer agent runs",
+      "summary": "Cursor 通过改进 agent harness，在不降低 agent 质量的情况下将用户 token 成本降低 7%。",
+      "source": "Cursor Blog",
+      "published_at": "2026-09-23T12:00:00.000Z",
+      "category": "tip",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuepgodc0egrroyn9ves9c7r",
+      "original_url": "https://cursor.com/blog/improved-token-efficiency",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuepgodc0egrroyn9ves9c7r"
+      }
+    },
+    {
+      "id": "cmuej4po304d9royn5mcmjacv",
+      "channel": "aihot",
+      "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+      "title_en": "Introducing MentalHealthBench",
+      "summary": "OpenAI 发布开放基准 MentalHealthBench，评估 AI 在真实心理健康对话中的表现，由来自 22 个国家、19 种语言的 80 多位持证心理学家和精神科医生共同构建。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-09-23T10:00:00.000Z",
+      "category": "paper",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv",
+      "original_url": "https://openai.com/index/introducing-mentalhealthbench",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv"
+      }
+    },
+    {
+      "id": "cmudwte2x0aqtroghe1b5cxfd",
+      "channel": "aihot",
+      "title": "Qwen 发布 Qwen-Audio-3.1 全家桶，ASR、TTS、Realtime 升级并新增 TTS-Next 与 ASR-Next",
+      "title_en": "⚡ Meet Qwen-Audio-3.1！ ASR， TTS & Realtime are fully upgraded， joined by two new models： TTS-Next fo…",
+      "summary": "Qwen 发布 Qwen-Audio-3.1，ASR、TTS 与 Realtime 全面升级，并新增音频创作模型 TTS-Next 和音频理解模型 ASR-Next，共五个模型覆盖理解、生成、交互与创作。全线降价，TTS 约 70% off、Realtime 约 85% off、ASR 最高 95% off；Realtime 可边说边听、随时打断，检测到低落情绪时会放慢语速并共情回应。",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "published_at": "2026-09-23T09:11:23.000Z",
+      "category": "ai-models",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmudwte2x0aqtroghe1b5cxfd",
+      "original_url": "https://x.com/Alibaba_Qwen/status/2102687258990026993",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmudwte2x0aqtroghe1b5cxfd"
+      }
+    },
+    {
+      "id": "cmudnpv0k0hrrrogg9gcyun5n",
+      "channel": "aihot",
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
+      "title_en": "OpenAI Releases GPT-6 Sol and Luna： 50% Cheaper API Pricing and Benchmarks",
+      "summary": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。",
+      "source": "MarkTechPost（RSS）",
+      "published_at": "2026-09-23T05:18:36.000Z",
+      "category": "ai-models",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n",
+      "original_url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n"
+      }
+    },
+    {
+      "id": "cmudfo3yi090orogg6bl51tiq",
+      "channel": "aihot",
+      "title": "Qwen-Image-2.1 登顶 Arena 图像编辑与文生图开源榜第一",
+      "title_en": "Thanks @arena for the recognition！ 🏆 Qwen-Image-2.1 is now the #1 open-source model in both the Ima…",
+      "summary": "通义千问宣布 Qwen-Image-2.1 在 Arena 的 Image Edit Arena 和 Text-to-Image Arena 均为开源模型第一。引用内容显示其 Image Edit Arena 得分 1367，总榜第 16，距第 15 名 GPT-Image-1.5-high-fidelity 仅 3 分，官方邀请用户体验该模型。",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "published_at": "2026-09-23T01:24:44.000Z",
+      "category": "ai-products",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmudfo3yi090orogg6bl51tiq",
+      "original_url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmudfo3yi090orogg6bl51tiq"
+      }
+    },
     {
       "id": "cmude350u077jroggw7odbigk",
       "channel": "aihot",
@@ -22,6 +472,42 @@
       }
     },
     {
+      "id": "cmuej9tln04hproynr12xpgt5",
+      "channel": "aihot",
+      "title": "Tomer Tunguz：AI 最重要的市场在中段而非前沿模型",
+      "title_en": "The Most Important Market in AI is the Middle",
+      "summary": "Tomer Tunguz 分析认为企业 AI 用量集中在需要足够智能且价格可负担的多步骤工作流中段市场，降价竞争正是证据。Anthropic 前沿模型 Fable 5.1 上线前十二天仅占网关支出的 3.7%，大型企业账户的前沿模型 token 消耗占比从 8 月初的 53% 降至 9 月的 45%；Cursor 用微调 Kimi K2.5 将成本降低 86%。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "published_at": "2026-09-23T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuej9tln04hproynr12xpgt5",
+      "original_url": "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuej9tln04hproynr12xpgt5"
+      }
+    },
+    {
+      "id": "cmueg56ob04iqrovxup3jp0ly",
+      "channel": "aihot",
+      "title": "Modal 详解如何以万亿 token 规模服务 Kimi K2.6 编码 Agent 推理",
+      "title_en": "How to serve trillions of tokens for trillion-parameter coding agents",
+      "summary": "Modal 分享为编码 Agent 提供万亿参数模型 Kimi K2.6 推理服务的优化实践，优化后单副本每用户性能提升 2.8x、副本整体吞吐提升 5.6x，单个服务日处理数千亿 token。",
+      "source": "Modal 官方工程博客（RSS）",
+      "published_at": "2026-09-23T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueg56ob04iqrovxup3jp0ly",
+      "original_url": "https://modal.com/blog/trillion-tokens-trillion-parameters",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueg56ob04iqrovxup3jp0ly"
+      }
+    },
+    {
       "id": "cmudch57g05bqroggl65fi9vo",
       "channel": "aihot",
       "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
@@ -37,6 +523,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmudch57g05bqroggl65fi9vo"
+      }
+    },
+    {
+      "id": "cmud9s4pn001groggnqsackao",
+      "channel": "aihot",
+      "title": "Artificial Analysis 评测：GPT-6 Sol 和 Luna 以约一半成本保持与 GPT-5.6 系列相近的 Intelligence Index 得分",
+      "title_en": "GPT-6 Sol and Luna continue to push the cost efficiency frontier for OpenAI. The two new models halv…",
+      "summary": "Artificial Analysis 发文指出，GPT-6 Sol 和 Luna 在 Intelligence Index 中得分与各自前代相近，但 token 定价下降约 50%，将单任务成本减半。其图表展示了各代 OpenAI 模型在智能与单任务成本之间的权衡曲线。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-09-22T22:38:23.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmud9s4pn001groggnqsackao",
+      "original_url": "https://x.com/ArtificialAnlys/status/2102527962201624915",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmud9s4pn001groggnqsackao"
       }
     },
     {

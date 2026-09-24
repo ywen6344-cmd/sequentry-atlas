@@ -1,11 +1,20 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-23",
- "total": 1369,
- "source_count": 56,
+ "updated": "2026-09-24",
+ "total": 1347,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "Shopify API 2027-01 起 includeRestOfWorld 设为 true 将报错",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/setting-includerestofworld-to-true-returns-an-error-in-api-version-2027-01",
+    "d": "2026-09-23",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 92
+   },
    {
     "t": "Polaris CDN 1.1 稳定版发布",
     "s": "Shopify Developer Changelog",
@@ -13,55 +22,102 @@ window.NAV_FEED = {
     "d": "2026-09-22",
     "p": "P0",
     "m": "US",
-    "score": 92
+    "score": 87
    },
    {
-    "t": "Shopify 移除市场货币设置更新接口",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/removing-marketcurrencysettingsupdate-mutation",
-    "d": "2026-09-22",
-    "p": "P0",
+    "t": "亚马逊英国站接入Affirm分期付款",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111001/amazon-adds-affirm-payments-option-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-23",
+    "p": "P1",
     "m": "GLOBAL",
-    "score": 92
+    "score": 79
    },
    {
-    "t": "La Joya珠宝应对渠道与履约成本上涨",
+    "t": "JD Sports部署Algolia推进代理式商务战略",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/22/la-joya-jewelry-fulfillment-channels-costs/",
-    "d": "2026-09-22",
+    "u": "https://www.digitalcommerce360.com/2026/09/23/jd-sports-algolia-agentic-commerce-strategy/",
+    "d": "2026-09-23",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "零点击时代：品牌仅靠曝光已不够",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/in-the-zero-click-era-visibility-alone-is-no-longer-enough-for-brands/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-22",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Shopify Rollouts 推出更精细的发布与测试控制",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/plan-launches-events-and-tests-with-clearer-and-more-granular-controls-in-rollouts",
-    "d": "2026-09-22",
+    "t": "Equifax推出两款反欺诈情报产品",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/110996/eqidfax-launches-two-new-fraud-intelligencce-products?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-09-23",
     "p": "P1",
     "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "Shop Pay分期付款现可覆盖多业务实体",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/shop-pay-installments-can-now-be-enabled-on-multiple-business-entities",
-    "d": "2026-09-22",
+    "t": "Temu联合八家检测认证机构扩展卖家教育",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/09/temu-expands-seller-education-with-bureau-veritas-qima-and-tuv-sud/",
+    "d": "2026-09-23",
     "p": "P1",
-    "m": "US",
+    "m": "CN",
     "score": 79
    }
   ],
+  "brand-retail": [
+   {
+    "t": "Proper Hotel 打造健康酒店蓝图",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/wellness/wellness-briefing-proper-hotel-is-creating-a-wellness-hospitality-blueprint-plus-news/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-23",
+    "p": "P0",
+    "m": "US",
+    "score": 87
+   },
+   {
+    "t": "Omidi推出Nyla真皮行政椅",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/09/23/nyla-leather-chair-omidi-dezeen-showroom/",
+    "d": "2026-09-23",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "名字听起来就很厚重",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/09/23/some-names-just-sound-thick/",
+    "d": "2026-09-23",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   },
+   {
+    "t": "Journeys.com增长动力何在？无花招",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-features/journeys-digital-strategy-1239237040/",
+    "d": "2026-09-23",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 66
+   }
+  ],
   "market-product": [
+   {
+    "t": "塔吉特新营销活动主打设计传承",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/target-inside-out-ad-campaign-marketing-design-legacy/831146/",
+    "d": "2026-09-23",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "Fanatics指定Afterpay为优先BNPL合作伙伴",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/23/fanatics-names-afterpay-preferred-bnpl-partner/",
+    "d": "2026-09-23",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "Gap携手男团推'时尚娱乐'战略",
     "s": "Retail Dive",
@@ -69,101 +125,36 @@ window.NAV_FEED = {
     "d": "2026-09-22",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 78
    },
    {
-    "t": "Chili's营销策略解析：墨西哥快餐成下一目标",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-chilis-marketing-works-and-why-mexican-qsrs-are-its-next-target/830959/",
-    "d": "2026-09-22",
+    "t": "花旗推持卡人广告平台进军广告市场",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/citi-enters-advertising-market-with-new-cardholder-platform/",
+    "d": "2026-09-23",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "2026领袖访谈：THG Ingenuity首席技术官Jo Drake",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/2026-leaders-interview-jo-drake-thg-ingenuity/",
-    "d": "2026-09-22",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Whatnot下调高销量卖家佣金费率",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/whatnot-commission-rates-cut-for-high-volume-sellers/",
-    "d": "2026-09-22",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Costco联手DoorDash全美上线配送",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/21/costco-launches-nationwide-on-doordash/",
-    "d": "2026-09-21",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "Target推美妆工作室吸引韩妆品牌",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/target-gets-k-beauty-brands-to-think-beyond-sephora-ulta-with-new-beauty-studio/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-21",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "非洲移动支付巨头Airtel Money拟伦敦IPO",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/newsarticle/48457/airtel-money-to-launch-london-ipo?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-09-22",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Design By Them 推出 Cattle 扶手椅等 13 款新品",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/22/cattle-armchair-design-seating-furniture-furnishings-surfaces-tiles-dezeen-showroom/",
-    "d": "2026-09-22",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "Ugg推出国际品牌平台“Born to Feel”延续热度",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/ugg-unveils-international-born-to-feel-brand-platform-to-continue-its-hot-streak/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-22",
-    "p": "P1",
-    "m": "US",
-    "score": 69
+    "score": 71
    }
   ],
   "compliance-fulfillment": [
    {
-    "t": "欧盟委员Roswall在零污染利益相关方平台第九次会议上的讲话",
-    "s": "EU 委员会新闻",
-    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1935",
-    "d": "2026-09-22",
+    "t": "Shopify分析工具升级运费与关税数据",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/improved-shipping-and-duty-data-in-analytics",
+    "d": "2026-09-23",
     "p": "P1",
-    "m": "EU",
+    "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "服装品牌如何利用自贸区降低关税成本",
-    "s": "ShipBob Blog",
-    "u": "https://www.shipbob.com/blog/ftz-apparel-brands/",
-    "d": "2026-09-21",
-    "p": "P0",
-    "m": "US",
-    "score": 74
+    "t": "欧盟委员会每日新闻 2026年9月23日",
+    "s": "EU 委员会新闻",
+    "u": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1951",
+    "d": "2026-09-23",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
    }
   ]
  }
