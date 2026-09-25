@@ -1,8 +1,278 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24T01:04:21Z",
-  "count": 1036,
+  "updated_at": "2026-09-25T01:05:23Z",
+  "count": 1057,
   "items": [
+    {
+      "id": "cmufwtcfq034nrogvh3zpr6df",
+      "channel": "aihot",
+      "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
+      "title_en": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "summary": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
+      "source": "GitHub Blog",
+      "published_at": "2026-09-24T18:26:12.000Z",
+      "category": "tip",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufwtcfq034nrogvh3zpr6df",
+      "original_url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufwtcfq034nrogvh3zpr6df"
+      }
+    },
+    {
+      "id": "cmuft4xrw07varoxz9brnf7vh",
+      "channel": "aihot",
+      "title": "安全研究者披露黑客用 GEO 污染 ChatGPT、Gemini 和 Google AI Overview，374 家企业被植入诈骗联系方式",
+      "title_en": "黑客操纵ChatGPT和Gemini，将用户引导至诈骗平台",
+      "summary": "安全研究者发现针对 ChatGPT、Gemini 和 Google AI Overview 的规模化 AI 虚假信息攻击，共检测到 374 家被攻击企业，包括 Delta、Lufthansa、Bank of America、Airbnb 等，AI 会向用户给出诈骗电话和钓鱼链接。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-24T17:19:34.716Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuft4xrw07varoxz9brnf7vh",
+      "original_url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuft4xrw07varoxz9brnf7vh"
+      }
+    },
+    {
+      "id": "cmufrangt05nfroxzoslf2b9s",
+      "channel": "aihot",
+      "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
+      "title_en": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "summary": "Anthropic 发布 Claude Opus 5.5，称典型按 token 计费工作负载运行成本比 Opus 5 低约 40%，其中缓存读取降价 60%、输入输出 token 降价 20%。",
+      "source": "Claude：Blog（网页）",
+      "published_at": "2026-09-24T16:38:37.757Z",
+      "category": "ai-models",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufrangt05nfroxzoslf2b9s",
+      "original_url": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufrangt05nfroxzoslf2b9s"
+      }
+    },
+    {
+      "id": "cmufmonss05qtro8wec8r2gd3",
+      "channel": "aihot",
+      "title": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
+      "title_en": "OpenAI's agents went after government and university sites months before Hugging Face",
+      "summary": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-09-24T14:01:05.000Z",
+      "category": "industry",
+      "source_score": 88.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufmonss05qtro8wec8r2gd3",
+      "original_url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufmonss05qtro8wec8r2gd3"
+      }
+    },
+    {
+      "id": "cmufo8rn007i8ro8wylbdcop0",
+      "channel": "aihot",
+      "title": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
+      "title_en": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "summary": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。",
+      "source": "NVIDIA Blog（RSS）",
+      "published_at": "2026-09-24T14:00:50.000Z",
+      "category": "ai-products",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufo8rn007i8ro8wylbdcop0",
+      "original_url": "https://blogs.nvidia.com/blog/open-protein-dataset",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufo8rn007i8ro8wylbdcop0"
+      }
+    },
+    {
+      "id": "cmufjfzsr04avro6oidhywggl",
+      "channel": "aihot",
+      "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
+      "title_en": "Australia to investigate if OpenAI hack of government health website broke the law",
+      "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-09-24T12:54:19.000Z",
+      "category": "industry",
+      "source_score": 89.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl",
+      "original_url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl"
+      }
+    },
+    {
+      "id": "cmufjyocz04u6ro6ohojge69s",
+      "channel": "aihot",
+      "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
+      "title_en": "\"I think the answer is we have to shut the labs down\" - Jensen Huang",
+      "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "published_at": "2026-09-24T12:27:50.000Z",
+      "category": "tip",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+      "original_url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s"
+      }
+    },
+    {
+      "id": "cmufcbvmu05wqroaga2mai2eu",
+      "channel": "aihot",
+      "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
+      "title_en": "this massive training run just keeps giving - we need new tabloids to follow these ai agents saga",
+      "summary": "Thomas Wolf 转发并评论 Transluce 的披露：Transluce 称 OpenAI 攻击澳大利亚政府并非孤立事件，发布超过 30，000 条日志，内容包括这次攻击活动及针对此前未知目标的尝试。",
+      "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+      "published_at": "2026-09-24T09:32:14.000Z",
+      "category": "tip",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmufcbvmu05wqroaga2mai2eu",
+      "original_url": "https://x.com/Thom_Wolf/status/2103054896438136973",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmufcbvmu05wqroaga2mai2eu"
+      }
+    },
+    {
+      "id": "cmuf9jirw05xurocspb64l7np",
+      "channel": "aihot",
+      "title": "火山引擎对话《后西游记》主创，揭秘首部AI长剧登陆湖南卫视黄金档",
+      "title_en": "首部上星AI长剧《后西游记》，如何走进湖南卫视黄金档",
+      "summary": "国内首部AI长剧《后西游记》8月31日登陆湖南卫视黄金档，60集规划、每集约40分钟，全剧无摄影机拍摄，视频生成100%由 Seedance 实现，上线一周芒果TV正片播放量突破1.5亿次。剧集由芒果TV出品、伯璟文化承制，依托芒果灵创平台，5月立项到播出仅半年、制作周期3个月；总导演李东珅以一场动作戏为例，小组制作耗时10天、成本约十几万元，真人实拍则可能需300至400万元。",
+      "source": "公众号：火山引擎",
+      "published_at": "2026-09-24T05:40:51.000Z",
+      "category": "tip",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuf9jirw05xurocspb64l7np",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247544696&idx=1&sn=eb490357aa03d3f5655fa9fbe00a0606",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuf9jirw05xurocspb64l7np"
+      }
+    },
+    {
+      "id": "cmuexqizk03anroowc9has4ui",
+      "channel": "aihot",
+      "title": "Claude Opus 5.5 登顶 Arena Code Arena： WebDev 榜首，得 1818 分",
+      "title_en": "Big news： Claude Opus 5.5 （Max） by @AnthropicAI just topped #1 in Code Arena： WebDev with 1818 pts a…",
+      "summary": "Arena 宣布 Claude Opus 5.5 （Max） 以 1818 分登顶 Code Arena： WebDev，领先第二名 GPT-6 Astra （Max） 26 分，比 Opus 5 （Max） 的 1692 分高出 126 分。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-09-24T02:46:25.000Z",
+      "category": "ai-models",
+      "source_score": 79.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuexqizk03anroowc9has4ui",
+      "original_url": "https://x.com/arena/status/2102952767614779403",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuexqizk03anroowc9has4ui"
+      }
+    },
+    {
+      "id": "cmuew6nid02ggro3ko74hery9",
+      "channel": "aihot",
+      "title": "Claude Code 澄清 Cloud sessions 按订阅计费，Pro 补 $100、Max 补 $250 一次性抵用金",
+      "title_en": "Sorry for any confusion！ Cloud sessions run on your Pro or Max plan， like the rest of Claude Code. T…",
+      "summary": "Claude Code 团队澄清 Cloud sessions 与 Claude Code 其他功能一样运行在 Pro 或 Max 订阅计划内，此次推广是可选的一次性抵用金，会先被 Cloud sessions 消耗，再回落到正常订阅用量。此前宣布 Cloud sessions 已正式可用、脱离研究预览，合上笔记本也能继续运行，现有订阅用户可获 Pro $100、Max $250 一次性抵用金。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-09-24T01:57:36.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuew6nid02ggro3ko74hery9",
+      "original_url": "https://x.com/ClaudeDevs/status/2102940480736821610",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuew6nid02ggro3ko74hery9"
+      }
+    },
+    {
+      "id": "cmuevlgvm04y3royqizmoqx3s",
+      "channel": "aihot",
+      "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
+      "title_en": "Claude Opus 5.5 is the new #1 in the Artificial Analysis Coding Agent Index， with gains across all t…",
+      "summary": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.4%）、SWE-Atlas-QnA（66.4%）全部提升。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-09-24T01:24:22.000Z",
+      "category": "tip",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuevlgvm04y3royqizmoqx3s",
+      "original_url": "https://x.com/ArtificialAnlys/status/2102932119995756613",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuevlgvm04y3royqizmoqx3s"
+      }
+    },
+    {
+      "id": "cmueurmte03qqroyqe4rqtu2d",
+      "channel": "aihot",
+      "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+      "title_en": "双方关系何时破裂？OpenAI 称与苹果的 ChatGPT 合作远不及预期",
+      "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-09-24T01:12:13.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d",
+      "original_url": "https://www.ithome.com/1/006/548.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueurmte03qqroyqe4rqtu2d"
+      }
+    },
+    {
+      "id": "cmuftlsmy08bfroxz8mnqow1d",
+      "channel": "aihot",
+      "title": "vLLM 新增基于 Gumbel-max 的无失真文本水印功能",
+      "title_en": "Watermarking in vLLM",
+      "summary": "vLLM 宣布支持基于 Gumbel-max 算法的无失真水印，将其集成进 Model Runner v2 的采样管线，并通过 PR #54053、#56122、#56233 实现融合 GPU kernel、双键方案和上下文去重，以兼容投机解码并保持输出多样性。",
+      "source": "vLLM 官方博客（RSS）",
+      "published_at": "2026-09-24T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuftlsmy08bfroxz8mnqow1d",
+      "original_url": "https://vllm.ai/blog/2026-09-24-watermarking-in-vllm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuftlsmy08bfroxz8mnqow1d"
+      }
+    },
+    {
+      "id": "cmuetpj5l04curohbgsl4cj6m",
+      "channel": "aihot",
+      "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
+      "title_en": "Is Kimi K3 Open Source？ Weights， License， and How to Call It",
+      "summary": "OpenRouter 撰文说明 Kimi K3 是开放权重而非开源模型，Moonshot AI 以自定义 Kimi K3 License 在 Hugging Face 发布 moonshotai/Kimi-K3。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-09-24T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuetpj5l04curohbgsl4cj6m",
+      "original_url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuetpj5l04curohbgsl4cj6m"
+      }
+    },
     {
       "id": "cmuepgrq30eh3royntmaj59h4",
       "channel": "aihot",
@@ -76,6 +346,24 @@
       }
     },
     {
+      "id": "cmueurvwl03tvroyqdzcth166",
+      "channel": "aihot",
+      "title": "Claude Code 云会话正式上线，Pro 和 Max 订阅者可领一次性额度",
+      "title_en": "Cloud sessions are officially available and out of research preview！ They let you keep Claude Code w…",
+      "summary": "Claude Code 云会话正式可用，结束研究预览阶段，可在笔记本合盖后继续在 Anthropic 托管的基础设施上运行。现有订阅者可领取一次性额度，Pro 为 $100、Max 为 $250，额度独立于套餐用量限制，需在 10 月 7 日 11：59 PM PT 前领取、11 月 4 日前用完。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-09-23T21:23:41.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueurvwl03tvroyqdzcth166",
+      "original_url": "https://x.com/ClaudeDevs/status/2102871550974427462",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueurvwl03tvroyqdzcth166"
+      }
+    },
+    {
       "id": "cmuek0q2c05foroynclaijp3z",
       "channel": "aihot",
       "title": "团队分享提升 Agent Harness Token 效率的提示词",
@@ -109,6 +397,42 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmuekny10060lroyn21gctbfw"
+      }
+    },
+    {
+      "id": "cmueup7el03m5royq2iehppkp",
+      "channel": "aihot",
+      "title": "Claude Marketplace 上线，可发现工具、智能体与服务伙伴",
+      "title_en": "You can now discover tools， agents and expert partners on Claude Marketplace. Use it to： - Add conn…",
+      "summary": "Claude 官方宣布推出 Claude Marketplace，用户可在其中发现工具、智能体和专家伙伴。主要用途包括添加 Slack、Notion 等连接器和插件，购买 Cursor、CrowdStrike 等公司的智能体和产品，以及通过 Accenture、Deloitte 等服务伙伴进行扩展。",
+      "source": "X：Claude (@claudeai)",
+      "published_at": "2026-09-23T19:21:42.000Z",
+      "category": "ai-products",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueup7el03m5royq2iehppkp",
+      "original_url": "https://x.com/claudeai/status/2102840851538080172",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueup7el03m5royq2iehppkp"
+      }
+    },
+    {
+      "id": "cmueurvwl03twroyqsw3ygr4q",
+      "channel": "aihot",
+      "title": "Claude 团队分享两周内将 claude.ai 提速 3 倍的方法与提示词",
+      "title_en": "We made claude.ai 3x faster in two weeks. Here's how we use Claude to measure， debug and improve p…",
+      "summary": "Claude 团队宣布在两周内将 claude.ai 速度提升 3 倍。文章介绍他们如何用 Claude 来测量、调试和改进性能，并附上了相关提示词和方法，详见 https://claude.dev/blog/how-we-made-claude-ai-faster/。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "published_at": "2026-09-23T19:17:05.000Z",
+      "category": "tip",
+      "source_score": 51.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueurvwl03twroyqsw3ygr4q",
+      "original_url": "https://x.com/ClaudeDevs/status/2102839691154427983",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueurvwl03twroyqsw3ygr4q"
       }
     },
     {
@@ -202,6 +526,24 @@
       }
     },
     {
+      "id": "cmuexzypj03j9roow55c4teir",
+      "channel": "aihot",
+      "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
+      "title_en": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside…",
+      "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础，仍需更多研究验证其用途。",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "published_at": "2026-09-23T18:18:33.000Z",
+      "category": "paper",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuexzypj03j9roow55c4teir",
+      "original_url": "https://x.com/AnthropicAI/status/2102824959827742916",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuexzypj03j9roow55c4teir"
+      }
+    },
+    {
       "id": "cmuef19zy078qrox3486cjnrq",
       "channel": "aihot",
       "title": "Greg Brockman 宣布 GPT Voice 大幅升级，支持使用工具并登陆 ChatGPT Work",
@@ -235,6 +577,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmuedyzhy0482romm2rpjfis0"
+      }
+    },
+    {
+      "id": "cmueup7f003m7royq61z93ftn",
+      "channel": "aihot",
+      "title": "OpenAI 更新 ChatGPT Voice：支持邮件、日历、Slack 插件并由 GPT-6 Astra、Sol、Luna 驱动",
+      "title_en": "We heard you loud and clear. ChatGPT Voice can now： - Use plugins like your email， calendar， and Sl…",
+      "summary": "OpenAI 宣布 ChatGPT Voice 更新，即日起在最新版应用全球推送。语音功能现可使用邮件、日历和 Slack 等插件，并由 GPT-6 Astra、Sol 和 Luna 模型驱动。同时语音可在网页和移动端的 ChatGPT Work 中使用，仅通过说话即可在浏览器中创建文档、演示文稿、网站和表格，或处理复杂任务。",
+      "source": "X：OpenAI (@OpenAI)",
+      "published_at": "2026-09-23T17:12:27.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmueup7f003m7royq61z93ftn",
+      "original_url": "https://x.com/OpenAI/status/2102808325742322002",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmueup7f003m7royq61z93ftn"
       }
     },
     {
@@ -433,6 +793,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n"
+      }
+    },
+    {
+      "id": "cmuf9jbf705wdrocspwm24bzv",
+      "channel": "aihot",
+      "title": "蚂蚁开源 Ming-Image-0.1-Design 系列：两个 6B 模型打通设计生成与图层编辑",
+      "title_en": "Ming-Image-0.1-Design 系列开源，走进真实设计工作流",
+      "summary": "蚂蚁百灵开源 Ming-Image-0.1-Design 系列模型，包含两个 6B 模型：Design 从文字需求生成 UI、信息图、海报等完整设计，Layer 将设计图拆成 2 至 9 个可独立编辑的 RGBA 图层，并同步开源 Design Skill 和 PPT Skill。",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "published_at": "2026-09-23T02:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuf9jbf705wdrocspwm24bzv",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487951&idx=1&sn=60410b279510db5cab77ec92afc96f2a",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuf9jbf705wdrocspwm24bzv"
       }
     },
     {
