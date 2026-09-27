@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-09-27T01:08:04.887027+00:00",
+  "generated_at": "2026-09-27T04:08:09.388333+00:00",
   "count": 1336,
-  "featured_count": 24,
+  "featured_count": 25,
   "source_count": 56,
   "score_min": 60,
-  "overview": "AI正从工具变成货架本身：ChatGPT推荐位与Shopify技能包整合，意味着品牌要争夺的不再只是搜索排名，而是模型心智。与此同时，Patagonia用投票激励换优惠、亚马逊打通多平台销售，说明DTC的下一战是\"渠道外的渠道\"与\"价值观驱动的转化\"。",
+  "overview": "AI正从工具变成货架本身：ChatGPT推荐位和Shopify技能包意味着品牌要争夺的不再只是搜索排名，而是模型心智。同时亚马逊打通多平台、Stitch Fix与ASOS靠AI回血，说明DTC的下一轮竞争是“被AI选中”的能力。",
   "items": [
     {
       "id": "sig_e72cbd7d5de8",
@@ -1700,7 +1700,7 @@
       "escalated": false,
       "original_url": "https://www.modernretail.co/technology/marketers-bemoan-the-culture-of-good-enough-go-as-standards-fall-amid-the-ai-bubble/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_ba8e5822d64c",

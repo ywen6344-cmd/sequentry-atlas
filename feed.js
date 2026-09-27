@@ -106,6 +106,15 @@ window.NAV_FEED = {
     "p": "P2",
     "m": "CN",
     "score": 49
+   },
+   {
+    "t": "创作者转化力：4位商业领袖谈全漏斗营销",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/brand-marketing/creators-that-convert-4-business-leaders-on-driving-full-funnel-marketing-results/",
+    "d": "2026-09-25",
+    "p": "P2",
+    "m": "US",
+    "score": 51
    }
   ],
   "brand-retail": [

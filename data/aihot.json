@@ -4,7 +4,7 @@
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
   "fingerprint": "f1-91da866598bcba63",
-  "fetched_at": "2026-09-27T01:08:08Z",
+  "fetched_at": "2026-09-27T04:08:14Z",
   "stale": false,
   "count": 50,
   "items": [
@@ -988,23 +988,6 @@
     },
     {
       "rank": 5,
-      "id": "cmuhc2ao208ejro3bf11momwn",
-      "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
-      "url": "https://x.com/ClaudeDevs/status/2103561342057943314",
-      "permalink": "https://aihot.news/items/cmuhc2ao208ejro3bf11momwn",
-      "storyPermalink": "https://aihot.virxact.com/story/ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "sourceCount": 2,
-      "signalCount": 4,
-      "participantCount": 6,
-      "sourceNames": [
-        "X：Claude Devs (@ClaudeDevs)",
-        "IT之家（RSS）"
-      ],
-      "latestAt": "2026-09-26T07:11:18.000Z"
-    },
-    {
-      "rank": 6,
       "id": "cmugxssng1h79rogvb7o30o9u",
       "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
       "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
@@ -1023,10 +1006,47 @@
         "X：Testing Catalog (@testingcatalog)",
         "The Decoder：AI News（RSS）"
       ],
-      "latestAt": "2026-09-26T02:15:16.000Z"
+      "latestAt": "2026-09-27T01:18:44.000Z"
+    },
+    {
+      "rank": 6,
+      "id": "cmuhc2ao208ejro3bf11momwn",
+      "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
+      "url": "https://x.com/ClaudeDevs/status/2103561342057943314",
+      "permalink": "https://aihot.news/items/cmuhc2ao208ejro3bf11momwn",
+      "storyPermalink": "https://aihot.virxact.com/story/ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "sourceCount": 2,
+      "signalCount": 4,
+      "participantCount": 6,
+      "sourceNames": [
+        "X：Claude Devs (@ClaudeDevs)",
+        "IT之家（RSS）"
+      ],
+      "latestAt": "2026-09-26T07:11:18.000Z"
     },
     {
       "rank": 7,
+      "id": "cmufjyocz04u6ro6ohojge69s",
+      "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
+      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "permalink": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+      "storyPermalink": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "sourceCount": 5,
+      "signalCount": 0,
+      "participantCount": 5,
+      "sourceNames": [
+        "IT之家（RSS）",
+        "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "TechCrunch：AI（RSS）",
+        "The Decoder：AI News（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "latestAt": "2026-09-26T14:03:54.000Z"
+    },
+    {
+      "rank": 8,
       "id": "cmuhmrxkf0etrrojnw4r0b4rh",
       "title": "服务方称 Codex 和 ChatGPT 已恢复并将重置所有付费用户的用量限制",
       "url": "https://x.com/thsottiaux/status/2103637477760311522",
@@ -1042,7 +1062,7 @@
       "latestAt": "2026-09-26T06:53:30.000Z"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "cmudld3gg0f7crogg3c5fh9rs",
       "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率",
       "url": "https://x.com/WorkBuddy_AI/status/2102611673962213506",
@@ -1060,7 +1080,7 @@
       "latestAt": "2026-09-26T11:07:36.000Z"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "id": "cmui6vnaz07wyrov0sm15g4x6",
       "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理",
       "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
@@ -1076,26 +1096,6 @@
         "IT之家（RSS）"
       ],
       "latestAt": "2026-09-26T23:12:53.000Z"
-    },
-    {
-      "rank": 10,
-      "id": "cmuh6zqk806pfro55mzok81xo",
-      "title": "美国联邦上诉法院小组周五以2比1维持五角大楼对Anthropic的供应链风险列名，并推迟裁决立即生效",
-      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "permalink": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
-      "storyPermalink": "https://aihot.virxact.com/story/c9cf5db4-0072-401f-928b-d5b3f93fdd5e",
-      "source": "Hacker News：AI 热帖",
-      "sourceCount": 5,
-      "signalCount": 0,
-      "participantCount": 5,
-      "sourceNames": [
-        "Hacker News：AI 热帖",
-        "The Decoder：AI News（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "Ars Technica：AI（RSS）",
-        "IT之家（RSS）"
-      ],
-      "latestAt": "2026-09-26T08:27:01.000Z"
     }
   ],
   "daily": {
