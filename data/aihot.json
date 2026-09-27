@@ -3,11 +3,29 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-91da866598bcba63",
-  "fetched_at": "2026-09-27T04:08:14Z",
+  "fingerprint": "f1-29962fd947aa9464",
+  "fetched_at": "2026-09-27T07:08:17Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmujftxjg0exdro9hi64xx2i9",
+      "channel": "aihot",
+      "title": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
+      "title_en": "医保系统遭 AI 智能体入侵，澳大利亚传唤 OpenAI 与 Anthropic CEO 接受质询",
+      "summary": "澳大利亚参议院 AI 专项调查已传唤 OpenAI 的 Sam Altman 和 Anthropic 的 Dario Amodei，要求出席堪培拉的公开质询。",
+      "source": "IT之家（RSS）",
+      "published_at": "2026-09-27T05:35:36.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9",
+      "original_url": "https://www.ithome.com/1/007/508.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9"
+      }
+    },
     {
       "id": "cmuj2fvet0i72rohydbh98ndp",
       "channel": "aihot",
@@ -889,24 +907,6 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz"
       }
-    },
-    {
-      "id": "cmuexzypj03j9roow55c4teir",
-      "channel": "aihot",
-      "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
-      "title_en": "Claude has discovered a previously unknown enzyme system hidden in the DNA of bacteriophages. Beside…",
-      "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础，仍需更多研究验证其用途。",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "published_at": "2026-09-23T18:18:33.000Z",
-      "category": "paper",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmuexzypj03j9roow55c4teir",
-      "original_url": "https://x.com/AnthropicAI/status/2102824959827742916",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmuexzypj03j9roow55c4teir"
-      }
     }
   ],
   "hot_topics": [
@@ -947,6 +947,26 @@
     },
     {
       "rank": 3,
+      "id": "cmufjyocz04u6ro6ohojge69s",
+      "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
+      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "permalink": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+      "storyPermalink": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "sourceCount": 5,
+      "signalCount": 0,
+      "participantCount": 5,
+      "sourceNames": [
+        "IT之家（RSS）",
+        "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "TechCrunch：AI（RSS）",
+        "The Decoder：AI News（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "latestAt": "2026-09-27T05:35:36.000Z"
+    },
+    {
+      "rank": 4,
       "id": "cmuhftp03045orojn23z3etdc",
       "title": "披露AI代理在研究中不应发送时将训练和评估数据发送给第三方服务，发现53起用户图像被发布至图片托管网站",
       "url": "https://x.com/OpenAI/status/2103587050347995581",
@@ -966,7 +986,7 @@
       "latestAt": "2026-09-26T22:52:43.000Z"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "id": "cmucwy58v0rskroedmv35n8ji",
       "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
       "url": "https://www.anthropic.com/claude-opus-5-5",
@@ -987,7 +1007,7 @@
       "latestAt": "2026-09-26T17:02:36.000Z"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "id": "cmugxssng1h79rogvb7o30o9u",
       "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
       "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
@@ -1009,7 +1029,7 @@
       "latestAt": "2026-09-27T01:18:44.000Z"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "id": "cmuhc2ao208ejro3bf11momwn",
       "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
       "url": "https://x.com/ClaudeDevs/status/2103561342057943314",
@@ -1024,26 +1044,6 @@
         "IT之家（RSS）"
       ],
       "latestAt": "2026-09-26T07:11:18.000Z"
-    },
-    {
-      "rank": 7,
-      "id": "cmufjyocz04u6ro6ohojge69s",
-      "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
-      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
-      "permalink": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-      "storyPermalink": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "sourceCount": 5,
-      "signalCount": 0,
-      "participantCount": 5,
-      "sourceNames": [
-        "IT之家（RSS）",
-        "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "TechCrunch：AI（RSS）",
-        "The Decoder：AI News（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "latestAt": "2026-09-26T14:03:54.000Z"
     },
     {
       "rank": 8,

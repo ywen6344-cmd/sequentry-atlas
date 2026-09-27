@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-09-27T04:08:09.388333+00:00",
+  "generated_at": "2026-09-27T07:08:13.086243+00:00",
   "count": 1336,
   "featured_count": 25,
   "source_count": 56,
   "score_min": 60,
-  "overview": "AI正从工具变成货架本身：ChatGPT推荐位和Shopify技能包意味着品牌要争夺的不再只是搜索排名，而是模型心智。同时亚马逊打通多平台、Stitch Fix与ASOS靠AI回血，说明DTC的下一轮竞争是“被AI选中”的能力。",
+  "overview": "今天最值得注意的，是AI正从工具变成渠道：ChatGPT推荐位和Shopify技能整合，意味着品牌要开始争夺“被AI选中”的资格。同时亚马逊打通多平台、Stitch Fix加码AI，说明分销与算法正重塑DTC的流量入口。",
   "items": [
     {
       "id": "sig_e72cbd7d5de8",
@@ -1788,7 +1788,7 @@
       "escalated": true,
       "original_url": "https://packagingoftheworld.com/2026/09/inside-the-cell.html",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_4dabdb642c62",

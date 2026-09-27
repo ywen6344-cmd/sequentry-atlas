@@ -119,15 +119,6 @@ window.NAV_FEED = {
   ],
   "brand-retail": [
    {
-    "t": "细胞科学视觉化：Institut Esthederm 公关礼盒",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/09/inside-the-cell.html",
-    "d": "2026-09-25",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 67
-   },
-   {
     "t": "Jeep如何开辟营销新航向",
     "s": "Marketing Dive",
     "u": "https://www.marketingdive.com/news/how-jeep-is-charting-a-new-course-for-its-marketing/831335/",
