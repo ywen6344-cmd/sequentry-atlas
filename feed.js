@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-26",
- "total": 1345,
+ "updated": "2026-09-27",
+ "total": 1336,
  "source_count": 56,
  "score_min": 60,
  "by_cat": {
@@ -13,7 +13,16 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P0",
     "m": "US",
-    "score": 92
+    "score": 87
+   },
+   {
+    "t": "AI货架崛起：品牌争抢ChatGPT推荐位",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/the-rise-of-the-ai-shelf/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-09-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    },
    {
     "t": "Shopify Payments交易类型新增货币转换",
@@ -22,7 +31,16 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
+    "score": 79
+   },
+   {
+    "t": "Stitch Fix营收恢复增长，AI战略比重加大",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/25/stitch-fix-revenue-q4-2026/",
+    "d": "2026-09-25",
+    "p": "P1",
+    "m": "US",
+    "score": 74
    },
    {
     "t": "Shopify：2026年起美国退货运费将计税",
@@ -31,7 +49,7 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "亚马逊卖家助手插件接入Claude",
@@ -40,25 +58,7 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "亚马逊推出多平台销售工具，打通eBay、Shopify、TikTok和沃尔玛",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/new-amazon-multichannel-selling-tools-for-ebay-shopify-tiktok-and-walmart/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "AI泡沫下营销标准下滑，营销人哀叹'差不多就上'文化",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/technology/marketers-bemoan-the-culture-of-good-enough-go-as-standards-fall-amid-the-ai-bubble/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 77
+    "score": 74
    }
   ],
   "market-product": [
@@ -69,7 +69,16 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 78
+   },
+   {
+    "t": "Essendant出售自有品牌，ORS Nasco接手",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/09/25/essendant-sells-brands-ors-nasco-acquisitions/",
+    "d": "2026-09-25",
+    "p": "P1",
+    "m": "US",
+    "score": 74
    },
    {
     "t": "ASOS恢复增长，但客户群仍在萎缩",
@@ -78,43 +87,25 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "EU",
-    "score": 79
-   },
-   {
-    "t": "劳氏联手Wing与DoorDash推出无人机配送",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/24/lowes-launches-drone-delivery-partnership-wing-doordash/",
-    "d": "2026-09-24",
-    "p": "P1",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "智能时代营销者的创新之道",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/how-marketers-are-innovating-in-the-age-of-intelligence/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-24",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "Instacart为何聚焦降低商品加价以推动配送平台增长",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/technology/why-instacart-is-focused-on-reducing-item-markups-to-grow-its-delivery-platform/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-24",
+    "t": "Neighborhood Intelligence 重组 Fathom 交易",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/neighborhood-intelligence-bed-bath-beyond-reworks-fathom-deal/831381/",
+    "d": "2026-09-25",
     "p": "P1",
     "m": "US",
-    "score": 68
+    "score": 64
    },
    {
-    "t": "水资源短缺或重塑服装产地格局",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/09/as-water-runs-short-could-the-price-of-water-reshape-where-clothes-are-made/",
-    "d": "2026-09-24",
-    "p": "P0",
-    "m": "UK",
-    "score": 67
+    "t": "携手王一博出海，HELLY HANSEN如何把1877年专业积淀转化为增长",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/483504",
+    "d": "2026-09-26",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    }
   ],
   "brand-retail": [
@@ -125,16 +116,7 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 72
-   },
-   {
-    "t": "Tecovas借音乐营销深耕西部风",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/why-tecovas-places-music-at-the-center-of-its-western-focused-marketing/830565/",
-    "d": "2026-09-24",
-    "p": "P1",
-    "m": "US",
-    "score": 74
+    "score": 67
    },
    {
     "t": "Jeep如何开辟营销新航向",
@@ -143,7 +125,7 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Laminex发布2027色彩系列",
@@ -152,27 +134,34 @@ window.NAV_FEED = {
     "d": "2026-09-25",
     "p": "P1",
     "m": "UK",
-    "score": 69
+    "score": 64
    },
    {
-    "t": "Polysmiths改造伦敦住宅，以光为主要材料",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/25/polysmiths-pine-house/",
+    "t": "Brooklinen首次启用名人营销，转为内部操盘",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/campaign-trail-brooklinen-goes-in-house-for-first-celebrity-led-effort/830987/",
     "d": "2026-09-25",
     "p": "P1",
     "m": "US",
-    "score": 69
-   }
-  ],
-  "compliance-fulfillment": [
+    "score": 64
+   },
    {
-    "t": "最低免税额终结，跨境电商需重构配送",
+    "t": "Whitworths携手乐购加速英国零售扩张",
     "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/the-end-of-de-minimis-demands-a-delivery-reset/",
-    "d": "2026-09-24",
-    "p": "P0",
+    "u": "https://retailtimes.co.uk/whitworths-accelerates-uk-retail-expansion-with-major-tesco-partnership/",
+    "d": "2026-09-26",
+    "p": "P3",
     "m": "UK",
-    "score": 67
+    "score": 56
+   },
+   {
+    "t": "Partners Group获6.75亿欧元信贷 拟收购Aroma-Zone控股权",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/482323",
+    "d": "2026-09-26",
+    "p": "P2",
+    "m": "EU",
+    "score": 49
    }
   ]
  }
