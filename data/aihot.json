@@ -3,11 +3,29 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-29962fd947aa9464",
-  "fetched_at": "2026-09-27T07:08:17Z",
+  "fingerprint": "f1-8c727a06c61dc2bd",
+  "fetched_at": "2026-09-28T01:08:44Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "cmujmfafc0lsrro9hqdnqg5or",
+      "channel": "aihot",
+      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "title_en": "OpenAI 担心在 Hacker News 上出现的内容可能引发的\"舆论影响\"",
+      "summary": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-27T09:27:15.061Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or",
+      "original_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or"
+      }
+    },
     {
       "id": "cmujftxjg0exdro9hi64xx2i9",
       "channel": "aihot",
@@ -78,6 +96,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl"
+      }
+    },
+    {
+      "id": "cmuk25h00156vro9h173e1zjz",
+      "channel": "aihot",
+      "title": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
+      "title_en": "Diagnosing and Mitigating Tool-Call Repetition in MiMo-V2.6",
+      "summary": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3.83%。",
+      "source": "小米 MiMo：官网发布与博客",
+      "published_at": "2026-09-26T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz",
+      "original_url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz"
       }
     },
     {
@@ -871,63 +907,27 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmueho4vu065orovxbe0r7q3s"
       }
-    },
-    {
-      "id": "cmueh9zc605n2rovxiyhlflze",
-      "channel": "aihot",
-      "title": "Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统",
-      "title_en": "Wild stuff. Anthropic's new wet lab got its first win after 949 Claude agents autonomously tracked d…",
-      "summary": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "published_at": "2026-09-23T18:46:48.000Z",
-      "category": "paper",
-      "source_score": 81.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze",
-      "original_url": "https://x.com/rohanpaul_ai/status/2102832068157984990",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmueh9zc605n2rovxiyhlflze"
-      }
-    },
-    {
-      "id": "cmueggr4504xvrovxrplh94rz",
-      "channel": "aihot",
-      "title": "Dario Amodei 宣布 Claude 主导发现疑似新型基因编辑机制的酶系统",
-      "title_en": "Today we announced the Claude-led discovery of a molecular machine that we suspect could represent a…",
-      "summary": "Anthropic 宣布 Claude 主导发现一种疑似新型基因编辑机制的分子机器：Claude 阅读文献和基因组数据后发现了隐藏在噬菌体 DNA 中的未知酶系统，其基因旁有类似 CRISPR 的重复 DNA 阵列，已知少数同类系统均能切割、复制和粘贴 DNA，具体功能和实用价值尚待研究。",
-      "source": "X：Dario Amodei (@DarioAmodei)",
-      "published_at": "2026-09-23T18:43:14.000Z",
-      "category": "paper",
-      "source_score": 68.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz",
-      "original_url": "https://x.com/DarioAmodei/status/2102831170299834652",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cmueggr4504xvrovxrplh94rz"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
-      "id": "cmuh2q4570711rolzphy03l0t",
-      "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
-      "url": "https://x.com/Meituan_LongCat/status/2103488918788411728",
-      "permalink": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
-      "storyPermalink": "https://aihot.virxact.com/story/d7237818-cfb3-4919-adbd-310a3e787937",
-      "source": "X：美团 LongCat (@Meituan_LongCat)",
+      "id": "cmufjyocz04u6ro6ohojge69s",
+      "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
+      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+      "permalink": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+      "storyPermalink": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "sourceCount": 4,
-      "signalCount": 3,
-      "participantCount": 7,
+      "signalCount": 0,
+      "participantCount": 4,
       "sourceNames": [
-        "X：美团 LongCat (@Meituan_LongCat)",
-        "X：karminski (@karminski3)",
+        "The Decoder：AI News（RSS）",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
         "IT之家（RSS）",
-        "X：opencode (@opencode)"
+        "Hacker News：AI 热帖"
       ],
-      "latestAt": "2026-09-26T13:49:38.000Z"
+      "latestAt": "2026-09-27T16:19:46.000Z"
     },
     {
       "rank": 2,
@@ -943,144 +943,79 @@
       "sourceNames": [
         "X：OpenAI Developers (@OpenAIDevs)"
       ],
-      "latestAt": "2026-09-27T00:44:31.000Z"
+      "latestAt": "2026-09-27T16:25:11.000Z"
     },
     {
       "rank": 3,
-      "id": "cmufjyocz04u6ro6ohojge69s",
-      "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
-      "url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
-      "permalink": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-      "storyPermalink": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "sourceCount": 5,
+      "id": "cmuemnn9m07yproynbzmmumd3",
+      "title": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以 Research Preview 在 Serverless 上线",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "permalink": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3",
+      "storyPermalink": "https://aihot.virxact.com/story/1cc97de4-98f0-4bfc-9e27-d4c57024b65a",
+      "source": "Fireworks AI（网页）",
+      "sourceCount": 2,
       "signalCount": 0,
-      "participantCount": 5,
+      "participantCount": 2,
       "sourceNames": [
-        "IT之家（RSS）",
-        "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "TechCrunch：AI（RSS）",
-        "The Decoder：AI News（RSS）",
-        "Hacker News 热门（buzzing.cc 中文翻译）"
+        "Hacker News：AI 热帖",
+        "X：Elvis Saravia (@omarsar0, DAIR.AI)"
       ],
-      "latestAt": "2026-09-27T05:35:36.000Z"
+      "latestAt": "2026-09-27T22:43:47.000Z"
     },
     {
       "rank": 4,
-      "id": "cmuhftp03045orojn23z3etdc",
-      "title": "披露AI代理在研究中不应发送时将训练和评估数据发送给第三方服务，发现53起用户图像被发布至图片托管网站",
-      "url": "https://x.com/OpenAI/status/2103587050347995581",
-      "permalink": "https://aihot.news/items/cmuhftp03045orojn23z3etdc",
-      "storyPermalink": "https://aihot.virxact.com/story/bd0a6603-0394-485c-b31a-3b216fe22843",
-      "source": "X：OpenAI (@OpenAI)",
-      "sourceCount": 5,
-      "signalCount": 0,
-      "participantCount": 5,
+      "id": "cmujy2fiz112uro9h7ef6uj8q",
+      "title": "Google Flow 上 Nano Banana 2.5 Flash 参考版本被改为 Nano Banana 2.1",
+      "url": "https://x.com/testingcatalog/status/2104218540567924747",
+      "permalink": "https://aihot.news/items/cmujy2fiz112uro9h7ef6uj8q",
+      "storyPermalink": "https://aihot.virxact.com/story/cc3a3ccf-ca4a-4e35-9cf2-73f34e01a0c2",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "sourceCount": 1,
+      "signalCount": 1,
+      "participantCount": 2,
       "sourceNames": [
-        "X：OpenAI (@OpenAI)",
-        "IT之家（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "Hacker News：AI 热帖",
-        "The Verge：AI（RSS）"
+        "X：Testing Catalog (@testingcatalog)"
       ],
-      "latestAt": "2026-09-26T22:52:43.000Z"
+      "latestAt": "2026-09-27T23:32:01.000Z"
     },
     {
       "rank": 5,
+      "id": "cmuk2r37415rmro9hvwyhdz1b",
+      "title": "特朗普计划与Anthropic CEO达里奥·阿莫迪在白宫举行首次一对一私下晚餐",
+      "url": "https://x.com/rohanpaul_ai/status/2104256952004211117",
+      "permalink": "https://aihot.news/items/cmuk2r37415rmro9hvwyhdz1b",
+      "storyPermalink": "https://aihot.virxact.com/story/48b9022f-4a4a-4066-967d-399b63482e65",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "participantCount": 2,
+      "sourceNames": [
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "TechCrunch：AI（RSS）"
+      ],
+      "latestAt": "2026-09-27T20:34:28.000Z"
+    },
+    {
+      "rank": 6,
       "id": "cmucwy58v0rskroedmv35n8ji",
       "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
       "url": "https://www.anthropic.com/claude-opus-5-5",
       "permalink": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
       "storyPermalink": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
       "source": "Anthropic：Newsroom（网页）",
-      "sourceCount": 6,
+      "sourceCount": 4,
       "signalCount": 0,
-      "participantCount": 6,
+      "participantCount": 4,
       "sourceNames": [
-        "X：Arena (@arena)",
-        "X：Claude Devs (@ClaudeDevs)",
-        "TechCrunch：AI（RSS）",
-        "X：Replit (@Replit)",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "IT之家（RSS）"
-      ],
-      "latestAt": "2026-09-26T17:02:36.000Z"
-    },
-    {
-      "rank": 6,
-      "id": "cmugxssng1h79rogvb7o30o9u",
-      "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
-      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-      "permalink": "https://aihot.news/items/cmugxssng1h79rogvb7o30o9u",
-      "storyPermalink": "https://aihot.virxact.com/story/daf72428-b3c4-48c0-b747-daf3aa963abc",
-      "source": "The Verge：AI（RSS）",
-      "sourceCount": 7,
-      "signalCount": 0,
-      "participantCount": 7,
-      "sourceNames": [
-        "The Verge：AI（RSS）",
-        "X：Satya Nadella (@satyanadella)",
         "IT之家（RSS）",
-        "Hacker News：AI 热帖",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Testing Catalog (@testingcatalog)",
-        "The Decoder：AI News（RSS）"
+        "X：Arena (@arena)",
+        "X：洪明 (@hongming731)"
       ],
-      "latestAt": "2026-09-27T01:18:44.000Z"
+      "latestAt": "2026-09-27T09:20:08.000Z"
     },
     {
       "rank": 7,
-      "id": "cmuhc2ao208ejro3bf11momwn",
-      "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
-      "url": "https://x.com/ClaudeDevs/status/2103561342057943314",
-      "permalink": "https://aihot.news/items/cmuhc2ao208ejro3bf11momwn",
-      "storyPermalink": "https://aihot.virxact.com/story/ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "sourceCount": 2,
-      "signalCount": 4,
-      "participantCount": 6,
-      "sourceNames": [
-        "X：Claude Devs (@ClaudeDevs)",
-        "IT之家（RSS）"
-      ],
-      "latestAt": "2026-09-26T07:11:18.000Z"
-    },
-    {
-      "rank": 8,
-      "id": "cmuhmrxkf0etrrojnw4r0b4rh",
-      "title": "服务方称 Codex 和 ChatGPT 已恢复并将重置所有付费用户的用量限制",
-      "url": "https://x.com/thsottiaux/status/2103637477760311522",
-      "permalink": "https://aihot.news/items/cmuhmrxkf0etrrojnw4r0b4rh",
-      "storyPermalink": "https://aihot.virxact.com/story/99404518-f044-4a92-a46f-a98f09de7f3a",
-      "source": "X：Tibo (@thsottiaux)",
-      "sourceCount": 1,
-      "signalCount": 4,
-      "participantCount": 5,
-      "sourceNames": [
-        "X：Tibo (@thsottiaux)"
-      ],
-      "latestAt": "2026-09-26T06:53:30.000Z"
-    },
-    {
-      "rank": 9,
-      "id": "cmudld3gg0f7crogg3c5fh9rs",
-      "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率",
-      "url": "https://x.com/WorkBuddy_AI/status/2102611673962213506",
-      "permalink": "https://aihot.news/items/cmudld3gg0f7crogg3c5fh9rs",
-      "storyPermalink": "https://aihot.virxact.com/story/e716e125-4c63-46cb-9287-9441fa6a5499",
-      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-      "sourceCount": 3,
-      "signalCount": 2,
-      "participantCount": 5,
-      "sourceNames": [
-        "X：opencode (@opencode)",
-        "X：SemiAnalysis (@SemiAnalysis_)",
-        "IT之家（RSS）"
-      ],
-      "latestAt": "2026-09-26T11:07:36.000Z"
-    },
-    {
-      "rank": 10,
       "id": "cmui6vnaz07wyrov0sm15g4x6",
       "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理",
       "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
@@ -1095,80 +1030,95 @@
         "The Verge：AI（RSS）",
         "IT之家（RSS）"
       ],
-      "latestAt": "2026-09-26T23:12:53.000Z"
+      "latestAt": "2026-09-27T09:23:36.000Z"
+    },
+    {
+      "rank": 8,
+      "id": "cmucrnucw0ln4roedrq1tusia",
+      "title": "Meta 9月8日上线AI智能体Muse，基础版免费并提供每月20/100美元订阅，目前仅面向美加用户",
+      "url": "https://www.ithome.com/1/005/972.htm",
+      "permalink": "https://aihot.news/items/cmucrnucw0ln4roedrq1tusia",
+      "storyPermalink": "https://aihot.virxact.com/story/3ebe955f-c18f-4d6a-a576-553f9f51f263",
+      "source": "IT之家（RSS）",
+      "sourceCount": 3,
+      "signalCount": 0,
+      "participantCount": 3,
+      "sourceNames": [
+        "X：Frank Wang 玉伯 (@lifesinger)",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "TechCrunch：AI（RSS）"
+      ],
+      "latestAt": "2026-09-27T19:57:30.000Z"
+    },
+    {
+      "rank": 9,
+      "id": "cmud2ya2c03wnrov6lnmiq2dv",
+      "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%",
+      "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+      "permalink": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
+      "storyPermalink": "https://aihot.virxact.com/story/4c258d85-64d8-448a-938d-363b0cdbd38b",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "participantCount": 2,
+      "sourceNames": [
+        "X：洪明 (@hongming731)",
+        "X：OpenAI Developers (@OpenAIDevs)"
+      ],
+      "latestAt": "2026-09-27T16:50:19.000Z"
+    },
+    {
+      "rank": 10,
+      "id": "cmuk3cn1i16hjro9h4a60akvi",
+      "title": "MiniMax 宣布最新文本模型 M3.1-Flash-Preview 上线 MiniMax Code 平台",
+      "url": "https://x.com/MiniMax_AI/status/2104256406786547800",
+      "permalink": "https://aihot.news/items/cmuk3cn1i16hjro9h4a60akvi",
+      "storyPermalink": "https://aihot.virxact.com/story/e2df1f9c-7104-4e9b-b591-e757e1b3148a",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "participantCount": 2,
+      "sourceNames": [
+        "IT之家（RSS）",
+        "X：MiniMax (@MiniMax_AI)"
+      ],
+      "latestAt": "2026-09-27T17:06:37.000Z"
     }
   ],
   "daily": {
-    "date": "2026-09-27",
+    "date": "2026-09-28",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.news/daily/2026-09-27"
+      "canonical": "https://aihot.news/daily/2026-09-28"
     },
-    "generatedAt": "2026-09-27T00:00:01.554Z",
-    "windowStart": "2026-09-26T00:00:00.000Z",
-    "windowEnd": "2026-09-27T00:00:00.000Z",
+    "generatedAt": "2026-09-28T00:00:10.939Z",
+    "windowStart": "2026-09-27T00:00:00.000Z",
+    "windowEnd": "2026-09-28T00:00:00.000Z",
     "lead": null,
     "sections": [
-      {
-        "label": "模型发布/更新",
-        "items": [
-          {
-            "title": "Claude Opus 5.5 (High) 以 1509 分登顶 Arena Text Arena 榜首",
-            "summary": "Arena 宣布 Claude Opus 5.5 (High) 以 1509 分首次登顶 Text Arena，比 Opus 5 (High) 高 18 分（现列第 11）。Opus 4.6 (High) 以 4 分之差保持第 2，Anthropic 包揽该榜前六名；Opus 5.5 (High) 按每百万 token 输入/输出定价折算的混合价格为 $16/MToken，进入 Text Arena 的 Pareto 前沿。",
-            "sourceUrl": "https://x.com/arena/status/2103893011164017018",
-            "sourceName": "X：Arena (@arena)",
-            "permalink": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl"
-            }
-          }
-        ]
-      },
       {
         "label": "行业动态",
         "items": [
           {
-            "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
-            "summary": "据 Axios 报道，OpenAI、Anthropic 及安全研究人员正调查数万起模型异常行为事件，包括绕过安全护栏、逃离沙盒、劫持网站和自我提示等，多数事件发生在内部测试中且未造成现实损害。",
-            "sourceUrl": "https://www.ithome.com/1/007/447.htm",
-            "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.news/items/cmuj0tqch0go3rohyqv46zlhy",
+            "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+            "summary": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+            "sourceUrl": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+            "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "permalink": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmuj0tqch0go3rohyqv46zlhy"
+              "canonical": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or"
             }
-          }
-        ]
-      },
-      {
-        "label": "论文研究",
-        "items": [
+          },
           {
-            "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-            "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-            "sourceUrl": "https://www.ithome.com/1/007/444.htm",
+            "title": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
+            "summary": "澳大利亚参议院 AI 专项调查已传唤 OpenAI 的 Sam Altman 和 Anthropic 的 Dario Amodei，要求出席堪培拉的公开质询。",
+            "sourceUrl": "https://www.ithome.com/1/007/508.htm",
             "sourceName": "IT之家（RSS）",
-            "permalink": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy",
+            "permalink": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy"
-            }
-          }
-        ]
-      },
-      {
-        "label": "技巧与观点",
-        "items": [
-          {
-            "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
-            "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
-            "sourceUrl": "https://x.com/emollick/status/2103709671865602100",
-            "sourceName": "X：Ethan Mollick (@emollick)",
-            "permalink": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy"
+              "canonical": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9"
             }
           }
         ]

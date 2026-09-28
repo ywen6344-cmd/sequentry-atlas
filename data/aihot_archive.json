@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-27T07:08:17Z",
-  "count": 1084,
+  "updated_at": "2026-09-28T01:08:44Z",
+  "count": 1086,
   "items": [
+    {
+      "id": "cmujmfafc0lsrro9hqdnqg5or",
+      "channel": "aihot",
+      "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+      "title_en": "OpenAI 担心在 Hacker News 上出现的内容可能引发的\"舆论影响\"",
+      "summary": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "published_at": "2026-09-27T09:27:15.061Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or",
+      "original_url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or"
+      }
+    },
     {
       "id": "cmujftxjg0exdro9hi64xx2i9",
       "channel": "aihot",
@@ -73,6 +91,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl"
+      }
+    },
+    {
+      "id": "cmuk25h00156vro9h173e1zjz",
+      "channel": "aihot",
+      "title": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
+      "title_en": "Diagnosing and Mitigating Tool-Call Repetition in MiMo-V2.6",
+      "summary": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3.83%。",
+      "source": "小米 MiMo：官网发布与博客",
+      "published_at": "2026-09-26T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz",
+      "original_url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz"
       }
     },
     {

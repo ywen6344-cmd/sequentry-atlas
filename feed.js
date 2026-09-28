@@ -1,20 +1,22 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-09-27",
- "total": 1336,
+ "updated": "2026-09-28",
+ "total": 1311,
  "source_count": 56,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "market-product": [
    {
-    "t": "Shopify将AI工具包技能整合为单一shopify技能",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/ai-toolkit-skills-have-been-consolidated",
-    "d": "2026-09-25",
-    "p": "P0",
-    "m": "US",
-    "score": 87
-   },
+    "t": "ASOS恢复增长，但客户群仍在萎缩",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/asos-returns-to-growth-but-customer-base-is-still-smaller/",
+    "d": "2026-09-27",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   }
+  ],
+  "platform-channel": [
    {
     "t": "AI货架崛起：品牌争抢ChatGPT推荐位",
     "s": "Modern Retail",
@@ -22,128 +24,63 @@ window.NAV_FEED = {
     "d": "2026-09-26",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "Shopify Payments交易类型新增货币转换",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/shopify-payments-balance-transaction-graphql-type-supports-currency-conversion-type",
-    "d": "2026-09-25",
-    "p": "P1",
+    "t": "NASA创意总监谈品牌：信任比以往更重要",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/design/we-have-the-kind-of-stuff-ai-wishes-it-could-make-why-trust-is-more-important-than-ever-for-the-nasa-brand",
+    "d": "2026-09-27",
+    "p": "P2",
     "m": "GLOBAL",
-    "score": 79
+    "score": 66
    },
    {
-    "t": "Stitch Fix营收恢复增长，AI战略比重加大",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/25/stitch-fix-revenue-q4-2026/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Shopify：2026年起美国退货运费将计税",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/tax-is-now-calculated-on-return-shipping-fees",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "亚马逊卖家助手插件接入Claude",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/09/amazon-seller-assistant-plugin-for-amazon-quick-and-anthropics-claude/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "UK",
-    "score": 74
-   }
-  ],
-  "market-product": [
-   {
-    "t": "TJX CEO：分销模式有助应对厄尔尼诺",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/tjx-ceo-distribution-model-el-nino/831118/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 78
-   },
-   {
-    "t": "Essendant出售自有品牌，ORS Nasco接手",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/09/25/essendant-sells-brands-ors-nasco-acquisitions/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "ASOS恢复增长，但客户群仍在萎缩",
-    "s": "Ecommerce News Europe",
-    "u": "https://ecommercenews.eu/asos-returns-to-growth-but-customer-base-is-still-smaller/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "EU",
-    "score": 74
-   },
-   {
-    "t": "Neighborhood Intelligence 重组 Fathom 交易",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/neighborhood-intelligence-bed-bath-beyond-reworks-fathom-deal/831381/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
-   {
-    "t": "携手王一博出海，HELLY HANSEN如何把1877年专业积淀转化为增长",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/483504",
-    "d": "2026-09-26",
+    "t": "ROAS的首要真相来源",
+    "s": "Practical Ecommerce",
+    "u": "https://www.practicalecommerce.com/roass-first-source-of-truth",
+    "d": "2026-09-27",
     "p": "P2",
-    "m": "CN",
+    "m": "US",
     "score": 49
-   },
-   {
-    "t": "创作者转化力：4位商业领袖谈全漏斗营销",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/creators-that-convert-4-business-leaders-on-driving-full-funnel-marketing-results/",
-    "d": "2026-09-25",
-    "p": "P2",
-    "m": "US",
-    "score": 51
    }
   ],
   "brand-retail": [
    {
-    "t": "Jeep如何开辟营销新航向",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-jeep-is-charting-a-new-course-for-its-marketing/831335/",
-    "d": "2026-09-25",
+    "t": "DHL电商瞄准东欧更多收购",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe/",
+    "d": "2026-09-27",
     "p": "P1",
     "m": "US",
-    "score": 64
+    "score": 62
    },
    {
-    "t": "Laminex发布2027色彩系列",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/09/25/laminex-colour-collection-2027-dezeen-showroom/",
-    "d": "2026-09-25",
-    "p": "P1",
+    "t": "Melora推麦卢卡蜂蜜气泡饮，英国首发",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/melora-expands-manuka-offering-with-uk-first-sparkling-infusions/",
+    "d": "2026-09-27",
+    "p": "P3",
     "m": "UK",
-    "score": 64
+    "score": 56
    },
    {
-    "t": "Brooklinen首次启用名人营销，转为内部操盘",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/campaign-trail-brooklinen-goes-in-house-for-first-celebrity-led-effort/830987/",
-    "d": "2026-09-25",
-    "p": "P1",
-    "m": "US",
-    "score": 64
+    "t": "拜尔斯道夫CEO：欧洲美妆勿蹈汽车业覆辙",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/482337",
+    "d": "2026-09-27",
+    "p": "P2",
+    "m": "EU",
+    "score": 49
+   },
+   {
+    "t": "La Perla重启：聚焦高定内衣并设工匠学校",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/483328",
+    "d": "2026-09-27",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    },
    {
     "t": "Whitworths携手乐购加速英国零售扩张",
@@ -152,16 +89,7 @@ window.NAV_FEED = {
     "d": "2026-09-26",
     "p": "P3",
     "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "Partners Group获6.75亿欧元信贷 拟收购Aroma-Zone控股权",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/482323",
-    "d": "2026-09-26",
-    "p": "P2",
-    "m": "EU",
-    "score": 49
+    "score": 51
    }
   ]
  }
