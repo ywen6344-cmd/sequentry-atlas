@@ -4,7 +4,7 @@
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
   "fingerprint": "f1-8c727a06c61dc2bd",
-  "fetched_at": "2026-09-28T01:08:44Z",
+  "fetched_at": "2026-09-28T04:08:47Z",
   "stale": false,
   "count": 50,
   "items": [
@@ -947,6 +947,58 @@
     },
     {
       "rank": 3,
+      "id": "cmucwy58v0rskroedmv35n8ji",
+      "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "permalink": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+      "storyPermalink": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
+      "source": "Anthropic：Newsroom（网页）",
+      "sourceCount": 3,
+      "signalCount": 0,
+      "participantCount": 3,
+      "sourceNames": [
+        "IT之家（RSS）",
+        "X：Arena (@arena)",
+        "X：洪明 (@hongming731)"
+      ],
+      "latestAt": "2026-09-28T01:10:40.000Z"
+    },
+    {
+      "rank": 4,
+      "id": "cmuk1c6vw14g5ro9h4vce4ooy",
+      "title": "《周六夜现场》播出简·威克林模仿Anthropic CEO达里奥·阿莫代伊的AI末日讽刺段子",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
+      "permalink": "https://aihot.news/items/cmuk1c6vw14g5ro9h4vce4ooy",
+      "storyPermalink": "https://aihot.virxact.com/story/3eab002e-35e0-4566-8885-4dae4f79e644",
+      "source": "TechCrunch：AI（RSS）",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "participantCount": 2,
+      "sourceNames": [
+        "TechCrunch：AI（RSS）",
+        "IT之家（RSS）"
+      ],
+      "latestAt": "2026-09-28T03:07:08.000Z"
+    },
+    {
+      "rank": 5,
+      "id": "cmuk3fpt016kbro9hmvwl54as",
+      "title": "OpenAI代理对UNCTAD统计网站进行超1.6万次扫描并采取欺骗手段绕过限制",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "permalink": "https://aihot.news/items/cmuk3fpt016kbro9hmvwl54as",
+      "storyPermalink": "https://aihot.virxact.com/story/da464574-1441-4b47-a42c-89ffc738f567",
+      "source": "The Verge：AI（RSS）",
+      "sourceCount": 2,
+      "signalCount": 0,
+      "participantCount": 2,
+      "sourceNames": [
+        "The Verge：AI（RSS）",
+        "IT之家（RSS）"
+      ],
+      "latestAt": "2026-09-28T00:30:40.000Z"
+    },
+    {
+      "rank": 6,
       "id": "cmuemnn9m07yproynbzmmumd3",
       "title": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以 Research Preview 在 Serverless 上线",
       "url": "https://fireworks.ai/blog/ember-1",
@@ -963,7 +1015,7 @@
       "latestAt": "2026-09-27T22:43:47.000Z"
     },
     {
-      "rank": 4,
+      "rank": 7,
       "id": "cmujy2fiz112uro9h7ef6uj8q",
       "title": "Google Flow 上 Nano Banana 2.5 Flash 参考版本被改为 Nano Banana 2.1",
       "url": "https://x.com/testingcatalog/status/2104218540567924747",
@@ -979,7 +1031,7 @@
       "latestAt": "2026-09-27T23:32:01.000Z"
     },
     {
-      "rank": 5,
+      "rank": 8,
       "id": "cmuk2r37415rmro9hvwyhdz1b",
       "title": "特朗普计划与Anthropic CEO达里奥·阿莫迪在白宫举行首次一对一私下晚餐",
       "url": "https://x.com/rohanpaul_ai/status/2104256952004211117",
@@ -996,26 +1048,7 @@
       "latestAt": "2026-09-27T20:34:28.000Z"
     },
     {
-      "rank": 6,
-      "id": "cmucwy58v0rskroedmv35n8ji",
-      "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "permalink": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
-      "storyPermalink": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
-      "source": "Anthropic：Newsroom（网页）",
-      "sourceCount": 4,
-      "signalCount": 0,
-      "participantCount": 4,
-      "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "IT之家（RSS）",
-        "X：Arena (@arena)",
-        "X：洪明 (@hongming731)"
-      ],
-      "latestAt": "2026-09-27T09:20:08.000Z"
-    },
-    {
-      "rank": 7,
+      "rank": 9,
       "id": "cmui6vnaz07wyrov0sm15g4x6",
       "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理",
       "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
@@ -1033,25 +1066,7 @@
       "latestAt": "2026-09-27T09:23:36.000Z"
     },
     {
-      "rank": 8,
-      "id": "cmucrnucw0ln4roedrq1tusia",
-      "title": "Meta 9月8日上线AI智能体Muse，基础版免费并提供每月20/100美元订阅，目前仅面向美加用户",
-      "url": "https://www.ithome.com/1/005/972.htm",
-      "permalink": "https://aihot.news/items/cmucrnucw0ln4roedrq1tusia",
-      "storyPermalink": "https://aihot.virxact.com/story/3ebe955f-c18f-4d6a-a576-553f9f51f263",
-      "source": "IT之家（RSS）",
-      "sourceCount": 3,
-      "signalCount": 0,
-      "participantCount": 3,
-      "sourceNames": [
-        "X：Frank Wang 玉伯 (@lifesinger)",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "TechCrunch：AI（RSS）"
-      ],
-      "latestAt": "2026-09-27T19:57:30.000Z"
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "id": "cmud2ya2c03wnrov6lnmiq2dv",
       "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%",
       "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
@@ -1066,23 +1081,6 @@
         "X：OpenAI Developers (@OpenAIDevs)"
       ],
       "latestAt": "2026-09-27T16:50:19.000Z"
-    },
-    {
-      "rank": 10,
-      "id": "cmuk3cn1i16hjro9h4a60akvi",
-      "title": "MiniMax 宣布最新文本模型 M3.1-Flash-Preview 上线 MiniMax Code 平台",
-      "url": "https://x.com/MiniMax_AI/status/2104256406786547800",
-      "permalink": "https://aihot.news/items/cmuk3cn1i16hjro9h4a60akvi",
-      "storyPermalink": "https://aihot.virxact.com/story/e2df1f9c-7104-4e9b-b591-e757e1b3148a",
-      "source": "X：MiniMax (@MiniMax_AI)",
-      "sourceCount": 2,
-      "signalCount": 0,
-      "participantCount": 2,
-      "sourceNames": [
-        "IT之家（RSS）",
-        "X：MiniMax (@MiniMax_AI)"
-      ],
-      "latestAt": "2026-09-27T17:06:37.000Z"
     }
   ],
   "daily": {

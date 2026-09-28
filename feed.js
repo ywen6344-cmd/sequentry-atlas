@@ -18,15 +18,6 @@ window.NAV_FEED = {
   ],
   "platform-channel": [
    {
-    "t": "AI货架崛起：品牌争抢ChatGPT推荐位",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/the-rise-of-the-ai-shelf/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-09-26",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
     "t": "NASA创意总监谈品牌：信任比以往更重要",
     "s": "Creative Bloq 设计",
     "u": "https://www.creativebloq.com/design/we-have-the-kind-of-stuff-ai-wishes-it-could-make-why-trust-is-more-important-than-ever-for-the-nasa-brand",
