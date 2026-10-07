@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-09-28T07:05:14.798904+00:00",
+  "generated_at": "2026-10-07T08:19:40.930567+00:00",
   "count": 1360,
-  "featured_count": 17,
+  "featured_count": 0,
   "source_count": 57,
   "score_min": 60,
   "overview": "今天最值得注意的，是DTC品牌正把“体验”和“信任”当作对抗AI与成本挤压的护城河：Burton用街头化和中国市场续命，TJ Maxx靠寻宝式购物黏住用户，Duer甚至回归印刷杂志。当AI冲击入门岗位、海运涨72%推高成本时，品牌竞争已从流量转向不可替代的线下体验与真实信任。",
@@ -204,7 +204,7 @@
       "escalated": false,
       "original_url": "https://www.glossy.co/fashion/burton-at-50-the-snowboard-icon-is-setting-its-sights-on-streetwear-and-china/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_45336439585c",
@@ -248,7 +248,7 @@
       "escalated": false,
       "original_url": "https://www.finextra.com/newsarticle/48482/singapore-to-train-80000-fs-sector-employees-in-ai-skills?utm_medium=rssfinextra&utm_source=finextrafeed",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_6cc223a8b754",
@@ -270,7 +270,7 @@
       "escalated": false,
       "original_url": "https://digiday.com/marketing/not-hiring-entry-level-talent-industry-acknowledges-runaway-crisis-brought-on-by-introducing-ai-to-the-workforce/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_cd0434065c96",
@@ -380,7 +380,7 @@
       "escalated": false,
       "original_url": "http://www.baijing.cn/article/56837",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_26879c681034",
@@ -534,7 +534,7 @@
       "escalated": false,
       "original_url": "https://digiday.com/media/digiday-publishing-summit-september-2026-recap-how-publishers-are-rebuilding-for-the-post-search-era/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_f1b3891f898d",
@@ -622,7 +622,7 @@
       "escalated": false,
       "original_url": "https://www.modernretail.co/marketing/canadian-apparel-brand-duer-launches-a-print-magazine-as-analog-comes-back-in-style/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_22ddc5010007",
@@ -732,7 +732,7 @@
       "escalated": false,
       "original_url": "https://splash247.com/enjoy-the-tanker-party-but-watch-the-hangover/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_f00169fe3bfb",
@@ -820,7 +820,7 @@
       "escalated": false,
       "original_url": "http://www.baijing.cn/article/56838",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_f8a0bceae389",
@@ -1194,7 +1194,7 @@
       "escalated": false,
       "original_url": "https://ecommercenews.eu/asos-returns-to-growth-but-customer-base-is-still-smaller/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_e9c8bc57f31c",
@@ -1744,7 +1744,7 @@
       "escalated": false,
       "original_url": "https://www.creativebloq.com/design/we-have-the-kind-of-stuff-ai-wishes-it-could-make-why-trust-is-more-important-than-ever-for-the-nasa-brand",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_54b671413b11",
@@ -1876,7 +1876,7 @@
       "escalated": false,
       "original_url": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_2e359d5e9fd7",
