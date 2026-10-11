@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-10",
- "total": 968,
+ "updated": "2026-10-11",
+ "total": 1007,
  "source_count": 52,
  "score_min": 60,
  "by_cat": {
@@ -13,7 +13,16 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 92
+    "score": 87
+   },
+   {
+    "t": "Maildun for Mac：AI 手工设计品牌邮件",
+    "s": "Product Hunt",
+    "u": "https://www.producthunt.com/products/maildun-for-mac",
+    "d": "2026-10-10",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
    },
    {
     "t": "Shopify Catalog API 新增 list_price 返回比价",
@@ -22,7 +31,16 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
+    "score": 79
+   },
+   {
+    "t": "沃尔玛在加州启用自动化履约中心",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/10/09/walmart-fulfillment-center-stockton-california/",
+    "d": "2026-10-09",
+    "p": "P1",
+    "m": "US",
+    "score": 74
    },
    {
     "t": "Shopify翻译应用更新：支持8种语言自动同步",
@@ -31,7 +49,7 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "DE",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Shopify向AI购物代理开放对比价数据",
@@ -40,36 +58,18 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "ChatGPT上线虚拟试穿功能",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/virtual-try-on-launch-chatgpt/832244/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "ChatGPT广告今年难撼动假日销售大盘",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/why-chatgpt-ads-wont-likely-impact-holiday-sales-in-a-major-way-this-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "US",
-    "score": 79
+    "score": 74
    }
   ],
   "market-product": [
    {
-    "t": "阿里国际站CoCreate欧洲创业赛回归，明星评委阵容公布",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/alibaba-coms-cocreate-europe-judges-rio-ferdinand-deborah-meaden-and-simon-squibb/",
-    "d": "2026-10-08",
-    "p": "P0",
-    "m": "EU",
-    "score": 86
+    "t": "品牌如何借势秋季Prime Day余温",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/how-brands-can-capitalize-on-post-fall-prime-day-momentum/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-10",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    },
    {
     "t": "瑞典第二季度电商销售额增长8%",
@@ -78,7 +78,7 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "EU",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Free People为何在明星合作中强调文化共创",
@@ -87,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "金州女武神高管谈赞助：使命与资本可共存",
@@ -96,7 +96,7 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "巴黎时装周最具影响力的设计师、产品与趋势",
@@ -105,19 +105,28 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "无塑料成咖啡机新战场",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/plastic-free-is-the-new-battleground-in-coffee-makers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-08",
+    "t": "营销追踪：Polymarket借明星打造自有广告宇宙",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/campaign-trail-polymarket-bets-on-celebs-to-build-its-own-ad-universe/832012/",
+    "d": "2026-10-09",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 64
    }
   ],
   "brand-retail": [
+   {
+    "t": "李维斯电商营收增长10%，看好假日销售",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/10/09/levi-strauss-dtc-ecommerce-sales-q3-fy26/",
+    "d": "2026-10-09",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
    {
     "t": "Aesop全球门店变身香水工坊，以纸书装置讲述香氛寓言",
     "s": "Dezeen 设计",
@@ -125,7 +134,7 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Laminex推出澳洲自然灵感色彩系列",
@@ -134,7 +143,16 @@ window.NAV_FEED = {
     "d": "2026-10-09",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
+   },
+   {
+    "t": "本周盘点：E.l.f.进军香水，Athleta高管变动是机会？",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/elf-brands-fragrance-athleta-ceo-lululemon-crocs-bark/832592/",
+    "d": "2026-10-09",
+    "p": "P1",
+    "m": "US",
+    "score": 64
    },
    {
     "t": "OPay申请赴美IPO，月活用户达5000万",
@@ -143,27 +161,16 @@ window.NAV_FEED = {
     "d": "2026-10-10",
     "p": "P2",
     "m": "US",
-    "score": 66
+    "score": 61
    },
    {
-    "t": "Magic Spoon 换货架友好新包装，保留周六早晨精髓",
-    "s": "The Dieline 包装设计",
-    "u": "https://thedieline.com/magic-spoon-gets-a-shelf-friendly-redesign-without-losing-its-saturday-morning-essence/",
-    "d": "2026-10-08",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 61
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "关税退款与批发业务助李维斯度过艰难三季度",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/levis-q3-wholesale-tariff-refunds-deliver/832468/",
-    "d": "2026-10-08",
-    "p": "P0",
-    "m": "US",
-    "score": 82
+    "t": "Bearfields 在乐购新增两款火腿产品",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/bearfields-expands-tesco-range-with-two-new-ham-formats/",
+    "d": "2026-10-10",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    }
   ]
  }
