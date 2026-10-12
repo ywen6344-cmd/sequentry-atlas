@@ -1,66 +1,10 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-11",
- "total": 1007,
+ "updated": "2026-10-12",
+ "total": 1028,
  "source_count": 52,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
-   {
-    "t": "Shopify全球目录REST API将于2026年11月停服",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/global-catalog-rest-api-stops-serving-traffic-on-november-2-2026",
-    "d": "2026-10-09",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 87
-   },
-   {
-    "t": "Maildun for Mac：AI 手工设计品牌邮件",
-    "s": "Product Hunt",
-    "u": "https://www.producthunt.com/products/maildun-for-mac",
-    "d": "2026-10-10",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Shopify Catalog API 新增 list_price 返回比价",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/catalog-api-now-returns-compare-at-prices-as-list_price",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "沃尔玛在加州启用自动化履约中心",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/09/walmart-fulfillment-center-stockton-california/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Shopify翻译应用更新：支持8种语言自动同步",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/translate-adapt-auto-sync-translations-for-up-to-8-languages",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "DE",
-    "score": 74
-   },
-   {
-    "t": "Shopify向AI购物代理开放对比价数据",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/compare-at-prices-now-displayed-to-agentic-channels",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   }
-  ],
   "market-product": [
    {
     "t": "品牌如何借势秋季Prime Day余温",
@@ -69,108 +13,101 @@ window.NAV_FEED = {
     "d": "2026-10-10",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "瑞典第二季度电商销售额增长8%",
-    "s": "Ecommerce News Europe",
-    "u": "https://ecommercenews.eu/swedish-ecommerce-grew-8-in-q2/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "EU",
     "score": 74
    },
    {
-    "t": "Free People为何在明星合作中强调文化共创",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/why-free-people-prioritizes-cultural-co-authorship-in-celeb-tie-ups/832568/",
-    "d": "2026-10-09",
-    "p": "P1",
+    "t": "美联储数据：20%美国人贷款逾期",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/consumer-finance/2026/20-of-americans-behind-on-loans-fed-data-shows/",
+    "d": "2026-10-11",
+    "p": "P2",
     "m": "US",
+    "score": 56
+   },
+   {
+    "t": "Global Brands推出Pickly Pete's腌黄瓜风味利口酒",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/global-brands-launches-pickly-petes-pickle-liquor/",
+    "d": "2026-10-11",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "Maildun for Mac：AI 手工设计品牌邮件",
+    "s": "Product Hunt",
+    "u": "https://www.producthunt.com/products/maildun-for-mac",
+    "d": "2026-10-10",
+    "p": "P1",
+    "m": "GLOBAL",
     "score": 74
    },
    {
-    "t": "金州女武神高管谈赞助：使命与资本可共存",
-    "s": "Digiday",
-    "u": "https://digiday.com/marketing/mission-and-capital-can-coexist-golden-state-valkyries-jess-smith-on-pitch-to-sponsors/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-09",
-    "p": "P1",
+    "t": "BP3 Global任命Richard Neish为CEO，加速智能体编排业务扩张",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/bp3-global-names-richard-neish-ceo-to-scale-agentic-orchestration/",
+    "d": "2026-10-11",
+    "p": "P3",
     "m": "US",
-    "score": 74
+    "score": 56
    },
    {
-    "t": "巴黎时装周最具影响力的设计师、产品与趋势",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/podcasts/glossy-podcast-the-most-impactful-designers-products-and-trends-from-paris-fashion-week/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-09",
-    "p": "P1",
+    "t": "零售媒体的机会成本",
+    "s": "Practical Ecommerce",
+    "u": "https://www.practicalecommerce.com/retail-medias-opportunity-cost",
+    "d": "2026-10-11",
+    "p": "P2",
     "m": "US",
-    "score": 74
+    "score": 56
    },
    {
-    "t": "营销追踪：Polymarket借明星打造自有广告宇宙",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/campaign-trail-polymarket-bets-on-celebs-to-build-its-own-ad-universe/832012/",
-    "d": "2026-10-09",
-    "p": "P1",
+    "t": "反AI广告走红的笔现享七折优惠",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/deals/the-pen-that-went-viral-with-those-anti-ai-ads-has-27-percent-off-right-now",
+    "d": "2026-10-10",
+    "p": "P2",
     "m": "US",
-    "score": 64
+    "score": 51
    }
   ],
   "brand-retail": [
    {
-    "t": "李维斯电商营收增长10%，看好假日销售",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/09/levi-strauss-dtc-ecommerce-sales-q3-fy26/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "US",
-    "score": 74
+    "t": "可口可乐换标三个月仍引困惑",
+    "s": "Creative Bloq 设计",
+    "u": "https://www.creativebloq.com/news/the-coca-cola-rebrand-is-still-causing-confusion-three-months-on",
+    "d": "2026-10-11",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 56
    },
    {
-    "t": "Aesop全球门店变身香水工坊，以纸书装置讲述香氛寓言",
+    "t": "捷豹Type 01电动车正式发布",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/09/aesop-fragrant-fables-perfumes-installation-video/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "UK",
-    "score": 74
-   },
-   {
-    "t": "Laminex推出澳洲自然灵感色彩系列",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/09/laminex-colour-collection-2027/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "UK",
-    "score": 74
-   },
-   {
-    "t": "本周盘点：E.l.f.进军香水，Athleta高管变动是机会？",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/elf-brands-fragrance-athleta-ceo-lululemon-crocs-bark/832592/",
-    "d": "2026-10-09",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
-   {
-    "t": "OPay申请赴美IPO，月活用户达5000万",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/news/investment-tracker/ipo/2026/opay-files-for-us-ipo-with-50-million-active-users-and-expansion-plan/",
+    "u": "https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week/",
     "d": "2026-10-10",
+    "p": "P1",
+    "m": "US",
+    "score": 57
+   },
+   {
+    "t": "美户外高管复出投资加盟男士功能鞋品牌Stoke Shoes",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/484321",
+    "d": "2026-10-11",
     "p": "P2",
     "m": "US",
-    "score": 61
+    "score": 49
    },
    {
-    "t": "Bearfields 在乐购新增两款火腿产品",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/bearfields-expands-tesco-range-with-two-new-ham-formats/",
-    "d": "2026-10-10",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
+    "t": "香奈儿收购瑞士腕表品牌EBEL控股权",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/484506",
+    "d": "2026-10-11",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    }
   ]
  }

@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-11T01:04:22Z",
-  "count": 1212,
+  "updated_at": "2026-10-12T01:04:54Z",
+  "count": 1213,
   "items": [
+    {
+      "id": "z54sznsd0r2teb6gqyvwu4nc2",
+      "channel": "aihot",
+      "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+      "title_en": "Day 7/",
+      "summary": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
+      "source": "X：Tibo (@thsottiaux)",
+      "published_at": "2026-10-11T23:45:59.000Z",
+      "category": "ai-products",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
+      "original_url": "https://x.com/thsottiaux/status/2109430343346581527",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2"
+      }
+    },
     {
       "id": "q4nihovltk9ofbhq1jn47lcgp",
       "channel": "aihot",
