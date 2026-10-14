@@ -1,8 +1,440 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-13T01:08:25Z",
-  "count": 1230,
+  "updated_at": "2026-10-14T02:15:47Z",
+  "count": 1255,
   "items": [
+    {
+      "id": "e8516i4snh2ut9d6zedoc9jsv",
+      "channel": "aihot",
+      "title": "Gemini 4 Argon 全面开放，作者实测后认为难以撼动 Claude Opus 5.5 和 GPT-6 Astra",
+      "title_en": "实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。",
+      "summary": "Google 于10月14日全面开放 Gemini 4 Argon，作者实测后认为其很难冲击 Claude Opus 5.5 和 GPT-6 Astra 的地位。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "published_at": "2026-10-14T01:02:59.000Z",
+      "category": "ai-models",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/e8516i4snh2ut9d6zedoc9jsv",
+      "original_url": "https://x.com/Khazix0918/status/2110174495420064055",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/e8516i4snh2ut9d6zedoc9jsv"
+      }
+    },
+    {
+      "id": "oxaap1c1cvxi9ngybxks1gngi",
+      "channel": "aihot",
+      "title": "实测Gemini 4 Argon：知识工作强劲但体验糟糕，卡兹克称难撼Claude Opus 5.5与GPT-6 Astra",
+      "title_en": "实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。",
+      "summary": "Gemini 4 Argon于10月13日全面开放，Pro会员可在Gemini APP使用，Antigravity需100刀Ultra会员。作者实测认为其知识类专业能力强，Vals Index综合第一（68.9）且单次成本仅15.68美元，但CUA-bench仅4.83%排倒数第二；前端效果不及GPT-6 Astra，额度消耗快，中文写作味道重，整体体验糟糕，不建议订阅Ultra。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-10-13T22:56:51.000Z",
+      "category": "opinion",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/oxaap1c1cvxi9ngybxks1gngi",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687032&idx=1&sn=c5368ed503c4b529ee3946cce017543e",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/oxaap1c1cvxi9ngybxks1gngi"
+      }
+    },
+    {
+      "id": "o8h7g7pscq0qrlenoadabbb96",
+      "channel": "aihot",
+      "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析",
+      "title_en": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
+      "summary": "Johann Rehberger 披露 Visual Studio Copilot 与 SQL Server Management Studio 中的远程代码执行漏洞 CVE-2026-103572，根因是利用文件名末尾多加一个点绕过路径校验，写入 .mcp. 或 settings.VisualStudio. 等受保护配置文件，实现任意命令执行。",
+      "source": "Johann Rehberger / Embrace The Red（RSS）",
+      "published_at": "2026-10-13T22:00:40.000Z",
+      "category": "paper",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/o8h7g7pscq0qrlenoadabbb96",
+      "original_url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/o8h7g7pscq0qrlenoadabbb96"
+      }
+    },
+    {
+      "id": "ob6ryetyialrnqhyjusr2s1iz",
+      "channel": "aihot",
+      "title": "Meta Muse Wonder (Max) 进入 Arena 榜单：WebDev 第15、文本第2",
+      "title_en": "Muse Wonder (Max) by @AIatMeta has entered Code Arena: WebDev at #15 with 1651 pts and Text Arena at #2 with 1513 pts!",
+      "summary": "Arena 宣布 Meta 的 Muse Wonder (Max) 进入 Code Arena: WebDev 榜单第15名（1651分），与 Kimi K3 (Max) 的 1655 分相差 4 分。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-10-13T21:27:15.000Z",
+      "category": "ai-models",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ob6ryetyialrnqhyjusr2s1iz",
+      "original_url": "https://x.com/arena/status/2110120205464846828",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ob6ryetyialrnqhyjusr2s1iz"
+      }
+    },
+    {
+      "id": "pjy8fk8cfl1qvwex08y6kdau8",
+      "channel": "aihot",
+      "title": "Character.ai 破产文件显示 AI 商业模式难以为继",
+      "title_en": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+      "summary": "Character.ai 进入破产程序，法院文件显示其商业模式难以支撑开支。公司 2024 年每月 AI 算力支出 1380 万美元、2025 年为 1000 万美元，订阅收入峰值仅每月 280 万美元，含广告的全部收入峰值 530 万美元；2026 年 1 至 8 月算力支出 5610 万美元，8 月时每月仍亏损约 800-900 万美元。",
+      "source": "404 Media（RSS）",
+      "published_at": "2026-10-13T20:06:53.000Z",
+      "category": "industry",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/pjy8fk8cfl1qvwex08y6kdau8",
+      "original_url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/pjy8fk8cfl1qvwex08y6kdau8"
+      }
+    },
+    {
+      "id": "fgxi5gwvctlssc05odpcyf6ov",
+      "channel": "aihot",
+      "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+      "title_en": "We discovered a sophisticated recording device that was hidden inside one of our offices. We used our models to understand the device and...",
+      "summary": "OpenAI 宣布在办公室内发现一个隐蔽的录音装置，利用自家模型分析该设备及其来源，确认是一名员工几天前安放。OpenAI 已将此事移交 FBI，FBI 已迅速逮捕相关人员，调查仍在进行中。OpenAI 表示目前没有迹象显示该员工不当访问或外泄模型权重、源代码或客户数据，该员工已被解雇，并将此案视为 AI 协助应对复杂安全威胁的实例。",
+      "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+      "published_at": "2026-10-13T19:48:42.000Z",
+      "category": "industry",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+      "original_url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov"
+      }
+    },
+    {
+      "id": "uy1d8e2pcm6sked0p57flawpq",
+      "channel": "aihot",
+      "title": "ComfyUI 上线 NVIDIA VFX 节点，支持视频超分、补帧与 SDR 转 HDR",
+      "title_en": "Nvidia VFX Nodes for Video Upscaling, Frame Generation and SDR-to-HDR, for VFX Professionals",
+      "summary": "NVIDIA 的 RTX 视频特效模型以自定义节点形式登陆 ComfyUI，模型随节点分发并在本地 RTX GPU 上运行。",
+      "source": "Comfy Blog",
+      "published_at": "2026-10-13T19:41:39.000Z",
+      "category": "ai-products",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/uy1d8e2pcm6sked0p57flawpq",
+      "original_url": "https://blog.comfy.org/p/nvidia-vfx-nodes-for-video-upscaling",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/uy1d8e2pcm6sked0p57flawpq"
+      }
+    },
+    {
+      "id": "ekphiltd4fdsskdlueleul8qa",
+      "channel": "aihot",
+      "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
+      "title_en": "GPT 5.6 Sol btw",
+      "summary": "XBOW 团队使用 OpenAI 的 GPT-5.6 Sol 辅助，在 6 天内以 4 万美元算力构建出 Chrome 全链漏洞，获得 Google 25 万美元赏金，这是 Google 第二次就 Chrome 全链漏洞发放赏金，也是 2026 年新规则下的首次。受影响范围为 Windows 上的 Chrome，作者称过去类似漏洞需约 6 个月构建，并提醒用户在出现 Update 按钮时及时重启 Chrome。",
+      "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+      "published_at": "2026-10-13T19:15:03.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa",
+      "original_url": "https://x.com/reach_vb/status/2110086935733833893",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa"
+      }
+    },
+    {
+      "id": "w2fkb8pssvuc0mtttxnufchc9",
+      "channel": "aihot",
+      "title": "Gemini 4 Argon 正式 GA，智能指数追平 GPT-6 Astra，Cost per Task 仅为 60%",
+      "title_en": "Gemini 4 Argon is now GA. Argon ranks equal to GPT-6 Astra on the Artificial Analysis Intelligence Index at 60% of the Cost per Task with...",
+      "summary": "Gemini 4 Argon 正式进入 GA，在 Artificial Analysis Intelligence Index 上与 GPT-6 Astra 排名持平，Cost per Task 为后者的 60%。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-10-13T18:00:33.000Z",
+      "category": "ai-models",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/w2fkb8pssvuc0mtttxnufchc9",
+      "original_url": "https://x.com/ArtificialAnlys/status/2110068185793970576",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/w2fkb8pssvuc0mtttxnufchc9"
+      }
+    },
+    {
+      "id": "d4oyzg3qte4pt0ywsonolctwf",
+      "channel": "aihot",
+      "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
+      "title_en": "Gemini 4 Argon from @GoogleDeepMind is live on OpenRouter, via Google AI Studio and @googlecloud.",
+      "summary": "Gemini 4 Argon 已上线 OpenRouter，可通过 Google AI Studio 和 Google Cloud 调用。该模型在 AutomationBench 拿到 51.3%、LVBench 拿到 91.7%，并以 68% 并列 CWE-bench v1 第一； introductory 定价为输入 $2/M、输出 $10/M。试用入口：https://openrouter.ai/google/gemini-4-argon",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "published_at": "2026-10-13T16:26:15.000Z",
+      "category": "ai-products",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf",
+      "original_url": "https://x.com/OpenRouter/status/2110044453977403412",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf"
+      }
+    },
+    {
+      "id": "smxxtw5ca2c9jscojk4ppe5hf",
+      "channel": "aihot",
+      "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+      "title_en": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
+      "source": "Google Blog：AI（RSS）",
+      "published_at": "2026-10-13T16:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 88.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
+      "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf"
+      }
+    },
+    {
+      "id": "tggiswcje6mz1ti081jfbro43",
+      "channel": "aihot",
+      "title": "ElevenLabs AI 重建嗓音助力 Baroness Campbell 在英国上议院发表演讲",
+      "title_en": "Today, Baroness Campbell of Surbiton delivered a speech in the @UKHouseofLords using an AI recreation of her voice, built by ElevenLabs. ...",
+      "summary": "ElevenLabs 宣布，Baroness Campbell of Surbiton 今日在英国上议院使用由其构建的 AI 重建嗓音发表演讲，为英国议会首次。Baroness 患有脊髓性肌萎缩症影响说话，AI 嗓音复刻了她原声的音调、节奏和音高。ElevenLabs 称其技术已帮助超过 11,000 名因伤病失声者恢复嗓音，并承诺帮助全球 100 万失声人群。",
+      "source": "X：ElevenLabs (@elevenlabs)",
+      "published_at": "2026-10-13T15:58:09.000Z",
+      "category": "industry",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/tggiswcje6mz1ti081jfbro43",
+      "original_url": "https://x.com/ElevenLabs/status/2110037384192774210",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/tggiswcje6mz1ti081jfbro43"
+      }
+    },
+    {
+      "id": "kjcq4dywmvs5xijl4emac5o40",
+      "channel": "aihot",
+      "title": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
+      "title_en": "Meet Apple HomeView, a new way to enjoy entertainment and manage the home",
+      "summary": "Apple 发布配备 7 英寸 Liquid Retina 显示屏的 HomeView，集娱乐、FaceTime、家庭监控和语音自动化于一体，标准版与壁挂版均定价 299 美元，11 月 13 日起在美英加澳等市场发售。",
+      "source": "Apple：Newsroom（RSS）",
+      "published_at": "2026-10-13T12:59:16.617Z",
+      "category": "ai-products",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40",
+      "original_url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40"
+      }
+    },
+    {
+      "id": "cgbpvdepk4p1jrrawgzbfbxov",
+      "channel": "aihot",
+      "title": "LangSmith 推出 AI Search，用自然语言按行为搜索 agent 轨迹",
+      "title_en": "Search agent traces by behavior with AI Search in LangSmith",
+      "summary": "LangChain 在 LangSmith 中推出 AI Search 公测，允许用自然语言描述行为来查询 agent 轨迹，例如 PII 泄露或用户受挫等无法靠标签和全文检索回答的问题。",
+      "source": "LangChain：Blog（RSS）",
+      "published_at": "2026-10-13T12:59:12.000Z",
+      "category": "ai-products",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/cgbpvdepk4p1jrrawgzbfbxov",
+      "original_url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/cgbpvdepk4p1jrrawgzbfbxov"
+      }
+    },
+    {
+      "id": "vwu0li2nl5hztqeztnq8b5udc",
+      "channel": "aihot",
+      "title": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney",
+      "title_en": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "summary": "Character.AI 已申请 Chapter 11 破产，法院文件显示其资产和负债在 5000 万至 1 亿美元之间，并同意以 2000 万美元向 Disney 出售部分资产及技术非独占永久许可。出售过程预计 11 月底或 12 月初完成，期间平台继续运营，但尚无竞购方，若无买家平台将关停；此前公司因未成年用户诉讼、德州调查等困境，曾尝试 AI 视频生成、社交信息流和微短剧等转型未果。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-10-13T12:23:42.000Z",
+      "category": "industry",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
+      "original_url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc"
+      }
+    },
+    {
+      "id": "ug7g6psicfobnnft0ebgpyl10",
+      "channel": "aihot",
+      "title": "NVIDIA 官宣 RTX Spark 软件生态就绪，10 月 16 日笔记本上市",
+      "title_en": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "summary": "NVIDIA 介绍 RTX Spark 平台生态就绪情况，RTX Spark 笔记本将于 10 月 16 日（周五）上市，搭载最高 128GB 统一内存和 1 petaflop AI 算力。",
+      "source": "NVIDIA Blog（RSS）",
+      "published_at": "2026-10-13T12:00:49.000Z",
+      "category": "ai-products",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ug7g6psicfobnnft0ebgpyl10",
+      "original_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ug7g6psicfobnnft0ebgpyl10"
+      }
+    },
+    {
+      "id": "uljn62mk9ujyya1xg51hc6dp8",
+      "channel": "aihot",
+      "title": "LangChain 发布 langchain-scaledown 集成，用 ScaleDown 约束解码模型管理长时智能体上下文",
+      "title_en": "Building Long-Running Agents with ScaleDown and Deep Agents",
+      "summary": "LangChain 发布 langchain-scaledown 集成，并在 LangSmith LLM Gateway 中支持 ScaleDown 的约束解码模型（CDM），用于降低长时智能体上下文管理的成本和延迟。",
+      "source": "LangChain：Blog（RSS）",
+      "published_at": "2026-10-13T11:56:53.000Z",
+      "category": "tip",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/uljn62mk9ujyya1xg51hc6dp8",
+      "original_url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/uljn62mk9ujyya1xg51hc6dp8"
+      }
+    },
+    {
+      "id": "fidy0y9chlgs0puyn96qkmj1b",
+      "channel": "aihot",
+      "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+      "title_en": "端侧多模态新上限，350 亿参数 MoE 手机平板 3GB 内存畅跑，MiniCPM-V 4.7正式开源",
+      "summary": "面壁智能联合 OpenBMB 社区于10月13日发布并开源 MiniCPM-V 4.7，包含 35B-A3B 和 1B 两个版本，称其为全球首个可在端侧无损流畅运行的开源 MoE 多模态大模型。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "published_at": "2026-10-13T10:29:21.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b"
+      }
+    },
+    {
+      "id": "tmj0de0vmzpezz0o5j67nqskj",
+      "channel": "aihot",
+      "title": "Pydantic AI 创始人 Samuel Colvin：图库是个错误，代码本身就是图",
+      "title_en": "The code is the graph",
+      "summary": "Pydantic AI 创始人 Samuel Colvin 发文认为图库是个错误，代码本身就是图，通过类型提示获得类型安全、通过 async 获得并行执行。他提出图 API 存在类似 CAP 定理的取舍，类型安全、并行与快照三者不可兼得，并以此解释为何在 pydantic-graph V2 移除持久化、将持久执行交给 Temporal。",
+      "source": "Pydantic AI 官方文章",
+      "published_at": "2026-10-13T09:00:00.000Z",
+      "category": "opinion",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/tmj0de0vmzpezz0o5j67nqskj",
+      "original_url": "https://pydantic.dev/articles/the-code-is-the-graph",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/tmj0de0vmzpezz0o5j67nqskj"
+      }
+    },
+    {
+      "id": "bnwd1psqg66c268n4i1mal2pi",
+      "channel": "aihot",
+      "title": "千问发布AI眼镜N1/N1 Pro及首款AI耳夹式耳机并现货开售",
+      "title_en": "全新N系列AI眼镜和首款AI耳夹式耳机，开售！",
+      "summary": "千问发布三款硬件新品：AI眼镜N1、N1 Pro和AI耳夹式耳机，今日在淘宝、天猫、京东、抖音等平台现货开售，眼镜到手价2218元起，耳机1099元起。",
+      "source": "公众号：千问APP（阿里）",
+      "published_at": "2026-10-13T08:06:57.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bnwd1psqg66c268n4i1mal2pi",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247489149&idx=1&sn=26d7fefe24bfb18efa4582467313b1eb",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bnwd1psqg66c268n4i1mal2pi"
+      }
+    },
+    {
+      "id": "qbi6xi7a3re15txfell8i9a7c",
+      "channel": "aihot",
+      "title": "Hassabis 祝贺 AMIE 前瞻性临床研究发表于 The Lancet",
+      "title_en": "Amazing to see research move from the lab to real-world clinical utility - congrats to the team on this milestone & @TheLancet paper!",
+      "summary": "Google 与 BIDMC 合作的 AMIE 患者对话式诊断前瞻性研究在 TheLancet 发表，是 AMIE 首次在真实诊所外测试。临床医生报告称 AMIE 的病史摘要在 75% 的病例中有助于访视准备，其鉴别诊断与医生最终诊断的吻合率达 90%，这也是 Google 首篇登上 The Lancet 主刊的论文。",
+      "source": "X：Demis Hassabis (@demishassabis)",
+      "published_at": "2026-10-13T01:09:37.000Z",
+      "category": "industry",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/qbi6xi7a3re15txfell8i9a7c",
+      "original_url": "https://x.com/demishassabis/status/2109813775377563908",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/qbi6xi7a3re15txfell8i9a7c"
+      }
+    },
+    {
+      "id": "z371wogdvjh86jh8s6v6vlrui",
+      "channel": "aihot",
+      "title": "Google 用 Gemini 4 Argon 无人值守优化 20 万行 Python 代码库 ADK",
+      "title_en": "Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon",
+      "summary": "Google 工程师用 Gemini 4 Argon 在 google/adk-python 上无人值守跑 11 小时，提出 6 项优化、审查后合并 2 项，使长会话内存会话准备时间降低约 40%，包导入加快 21%。",
+      "source": "Google Developers Blog（RSS）",
+      "published_at": "2026-10-13T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/z371wogdvjh86jh8s6v6vlrui",
+      "original_url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/z371wogdvjh86jh8s6v6vlrui"
+      }
+    },
+    {
+      "id": "j0hjfg7ioz2gs0s8msqnafpjj",
+      "channel": "aihot",
+      "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
+      "title_en": "LFM2.5-24B-A2B: Built for Fast On-Device Agents",
+      "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，总参数 24B、每 token 激活 2B，定位端侧快速智能体。",
+      "source": "Liquid AI 模型与工程博客（网页）",
+      "published_at": "2026-10-13T00:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj",
+      "original_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj"
+      }
+    },
+    {
+      "id": "fpyjwv3o9zwxc9zs7j1bmnw8i",
+      "channel": "aihot",
+      "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+      "title_en": "Redesigning source control at Anthropic",
+      "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
+      "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+      "published_at": "2026-10-13T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
+      "original_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i"
+      }
+    },
     {
       "id": "kcwro19vl7dr5jgcjgec7mive",
       "channel": "aihot",
@@ -91,6 +523,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/w2408fxlrc7tc7nt3ivrzh9ys"
+      }
+    },
+    {
+      "id": "rruqd7cz78jq6l889kjp56jlz",
+      "channel": "aihot",
+      "title": "Prime Intellect 收购 Moondream，联合创始人加入主导推理与多模态",
+      "title_en": "Moondream is joining Prime Intellect",
+      "summary": "Prime Intellect 宣布收购 Moondream，创始人 Vik Korrapati 和 Jay Allen 加入并负责推理业务及视觉、computer use 等多模态模型工作。",
+      "source": "Prime Intellect（网页）",
+      "published_at": "2026-10-12T16:00:00.000Z",
+      "category": "industry",
+      "source_score": 62.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/rruqd7cz78jq6l889kjp56jlz",
+      "original_url": "https://www.primeintellect.ai/blog/moondream",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/rruqd7cz78jq6l889kjp56jlz"
       }
     },
     {
