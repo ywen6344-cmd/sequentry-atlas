@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-10-14T02:15:42.434228+00:00",
+  "generated_at": "2026-10-15T01:10:08.203434+00:00",
   "count": 1077,
-  "featured_count": 26,
+  "featured_count": 0,
   "source_count": 52,
   "score_min": 60,
   "overview": "关税正把成本压力直接推给消费端，DTC品牌靠涨价转嫁的空间在收窄。与此同时，Free People主动让渡明星合作主导权、达美用忠诚度撬动营收，都指向同一件事：品牌资产正从“控制叙事”转向“共建关系”。今天最该想的是，你的信任结构是否还撑得住钱包份额的重新分配。",
@@ -50,7 +50,7 @@
       "escalated": true,
       "original_url": "https://www.retaildive.com/news/tariffs-pushed-up-consumer-goods-prices-ny-fed-inflation-elections-tax-taxes/832701/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_38357ebbf49a",
@@ -116,7 +116,7 @@
       "escalated": false,
       "original_url": "https://shopify.dev/changelog/detect-when-a-pos-extension-screen-finishes-navigating",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_b50beebb2751",
@@ -138,7 +138,7 @@
       "escalated": false,
       "original_url": "https://shopify.dev/changelog/identify-the-published-version-running-in-a-pos-extension",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_5e6703a56bb1",
@@ -182,7 +182,7 @@
       "escalated": false,
       "original_url": "https://www.retaildive.com/news/free-people-willow-smith-marketing-cultural-co-authorship/832707/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_b961756cb169",
@@ -402,7 +402,7 @@
       "escalated": false,
       "original_url": "https://www.modernretail.co/operations/supply-chain-stories-to-watch-this-holiday-season/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_ea760d2c4dde",
@@ -490,7 +490,7 @@
       "escalated": false,
       "original_url": "https://channelx.world/2026/10/meet-the-company-channelweave/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_c2c00d8069d8",
@@ -512,7 +512,7 @@
       "escalated": false,
       "original_url": "https://channelx.world/2026/10/mystery-shopping-study-reveals-the-reality-of-uk-cross-border-returns/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_103e53b59aa5",
@@ -578,7 +578,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/spons/why-the-joy-of-checking-out-belongs-in-every-holiday-media-plan/832626/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_471015fb9674",
@@ -952,7 +952,7 @@
       "escalated": false,
       "original_url": "https://www.dezeen.com/2026/10/12/profondo-seating-zenith-interiors-furniture-accessories-dezeen-showroom/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_b62cca015b6b",
@@ -1304,7 +1304,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/spons/how-ai-use-in-webinars-builds-a-program-that-compounds/832206/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_8d1975a80e13",
@@ -1458,7 +1458,7 @@
       "escalated": false,
       "original_url": "https://www.dezeen.com/2026/10/12/luxurious-antolini-natural-stones-historic-amsterdam-canal-house/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_5da424f46690",
@@ -1480,7 +1480,7 @@
       "escalated": false,
       "original_url": "https://www.glossy.co/fashion/how-to-use-irl-events-to-build-community-against-a-sea-of-sameness-online/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_75d77ceb1148",
@@ -1656,7 +1656,7 @@
       "escalated": false,
       "original_url": "https://www.pymnts.com/news/loyalty-and-rewards-news/2026/delta-ceo-credits-loyalty-program-airline-achieves-record-september-quarter-revenue/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_38222755333d",
@@ -1986,7 +1986,7 @@
       "escalated": false,
       "original_url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/why-42percent-companies-layered-defense-stacks-combat-payments-fraud/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_37d542925479",
@@ -2096,7 +2096,7 @@
       "escalated": false,
       "original_url": "https://www.parcelandpostaltechnologyinternational.com/news/freight/kodiak-ai-and-charger-usa-launch-autonomous-freight-service-between-dallas-and-laredo-texas.html",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_11ec6e7a1cec",
@@ -2426,7 +2426,7 @@
       "escalated": false,
       "original_url": "https://ecommercegermany.com/blog/for-me-being-real-is-not-a-trend-its-the-foundation-for-everything-10-lessons-from-miriam-jacks-founder-ceo-of-jacks-beauty-line/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_6c43de569ec8",
@@ -2448,7 +2448,7 @@
       "escalated": false,
       "original_url": "https://blog.youtube/news-and-events/europe-creator-consultation-creative-capital-report/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_4410be208bd6",
@@ -2822,7 +2822,7 @@
       "escalated": false,
       "original_url": "https://www.glossy.co/fashion/universal-standard-us-x-abisola-inclusive-sizing-glp-1/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_340adf4c3239",
