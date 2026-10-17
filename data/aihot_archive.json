@@ -1,8 +1,152 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-16T01:59:27Z",
-  "count": 1315,
+  "updated_at": "2026-10-17T01:03:54Z",
+  "count": 1334,
   "items": [
+    {
+      "id": "bjzjg5k7af07c1c20bc1a8gxp",
+      "channel": "aihot",
+      "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+      "title_en": "Exciting news: Muse Spark Open (Max) by @AIatMeta is the #1 US open model in the Code Arena: WebDev! With 1511 pts, it’s #13 among open m...",
+      "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-10-16T22:22:42.000Z",
+      "category": "ai-models",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bjzjg5k7af07c1c20bc1a8gxp",
+      "original_url": "https://x.com/arena/status/2111221323217412318",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bjzjg5k7af07c1c20bc1a8gxp"
+      }
+    },
+    {
+      "id": "kygipgwqrajle6hctg9nqid7w",
+      "channel": "aihot",
+      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
+      "title_en": "Claude is building Claude Code.",
+      "summary": "Anthropic 的 ClaudeDevs 账号称 Claude 编写了约 90% 的 Claude Code 代码。6 月至 9 月间合并 PR 翻了一倍以上，回退比例下降超过 40%，团队发文介绍了为达到这一效果如何改造代码评审及采用方法，链接见 claude.dev/blog/solving-code-review-at-anthropic/。",
+      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+      "published_at": "2026-10-16T19:05:40.000Z",
+      "category": "industry",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/kygipgwqrajle6hctg9nqid7w",
+      "original_url": "https://x.com/adocomplete/status/2111171735806767558",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/kygipgwqrajle6hctg9nqid7w"
+      }
+    },
+    {
+      "id": "j5vlb3dn14h2b4xy1hbdschyc",
+      "channel": "aihot",
+      "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+      "title_en": "This Week in Charts: Agents Denied",
+      "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
+      "source": "a16z：News（RSS）",
+      "published_at": "2026-10-16T14:00:39.000Z",
+      "category": "opinion",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/j5vlb3dn14h2b4xy1hbdschyc",
+      "original_url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/j5vlb3dn14h2b4xy1hbdschyc"
+      }
+    },
+    {
+      "id": "rq32az1hr7zpbipiyega9ehjr",
+      "channel": "aihot",
+      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "title_en": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+      "summary": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "published_at": "2026-10-16T12:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+      "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr"
+      }
+    },
+    {
+      "id": "p11tj593iq5nrtiotvoxllop4",
+      "channel": "aihot",
+      "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+      "title_en": "商务部回应《中国禁止出口限制出口技术目录》拟增列人工智能等技术：确保安全可控，鼓励开源开放、合作共享",
+      "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
+      "source": "IT之家·人工智能",
+      "published_at": "2026-10-16T08:23:54.520Z",
+      "category": "industry",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
+      "original_url": "https://www.ithome.com/1/013/983.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4"
+      }
+    },
+    {
+      "id": "xwgy3mhme6nur9kndswxlu0es",
+      "channel": "aihot",
+      "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
+      "title_en": "Hello Toronto! Waymo is En Route",
+      "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
+      "source": "Waymo：Blog（网页）",
+      "published_at": "2026-10-16T07:00:00.000Z",
+      "category": "industry",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/xwgy3mhme6nur9kndswxlu0es",
+      "original_url": "https://waymo.com/blog/2026/10/waymo-in-toronto",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/xwgy3mhme6nur9kndswxlu0es"
+      }
+    },
+    {
+      "id": "bvljy29i9xwh3wnkwign3npt4",
+      "channel": "aihot",
+      "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+      "title_en": "丹麦最高法院裁定：AI 生成儿童色情内容同样获刑",
+      "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+      "source": "IT之家·人工智能",
+      "published_at": "2026-10-16T06:14:36.073Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bvljy29i9xwh3wnkwign3npt4",
+      "original_url": "https://www.ithome.com/1/013/914.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bvljy29i9xwh3wnkwign3npt4"
+      }
+    },
+    {
+      "id": "kbccvteado5kgzbk5ah9yv5ip",
+      "channel": "aihot",
+      "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
+      "title_en": "刚刚，可灵4.0深夜上线，支持30秒一镜到底，熟悉的可灵回来了。",
+      "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "published_at": "2026-10-16T02:03:07.000Z",
+      "category": "ai-products",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
+      "original_url": "https://x.com/Khazix0918/status/2110914404393091205",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip"
+      }
+    },
     {
       "id": "ldwt1jervkxlsh99322u661fc",
       "channel": "aihot",
@@ -55,6 +199,96 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/jc7pyt619xhznn9j28apoedto"
+      }
+    },
+    {
+      "id": "y1c13l53cd5u3wg565qu60q4d",
+      "channel": "aihot",
+      "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+      "title_en": "Open-weight models 88% more susceptible to cyber attacks",
+      "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+      "source": "PromptArmor：Threat Intelligence",
+      "published_at": "2026-10-16T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d",
+      "original_url": "https://www.promptarmor.com/resources/open-weight-susceptibility",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d"
+      }
+    },
+    {
+      "id": "kovelcbltjj7xf054h8mffaxo",
+      "channel": "aihot",
+      "title": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
+      "title_en": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "summary": "Google Research 发布三项研究，构建 AI 智能体自主湿实验室的基础模块。",
+      "source": "Google Research：Blog（网页）",
+      "published_at": "2026-10-16T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/kovelcbltjj7xf054h8mffaxo",
+      "original_url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/kovelcbltjj7xf054h8mffaxo"
+      }
+    },
+    {
+      "id": "i6u3av7zg8n3gfy6g7ynhns56",
+      "channel": "aihot",
+      "title": "SGLang 原生支持 Reflection 的 Beam 并驱动其生产 API",
+      "title_en": "Blog SGLang Powers Beam in Production Reflection’s Beam is a 501B-parameter mixture-of-experts model with 23B active parameters per token, built for software engineering and long-horizon agentic tasks. With its planned Apache 2.0 release,... SGLang Team October 16, 2026",
+      "summary": "SGLang 团队宣布原生支持 Reflection 的 Beam 1.0（501B 参数 MoE、每 token 激活 23B），并以其驱动 Reflection 的生产 API。",
+      "source": "LMSYS Blog",
+      "published_at": "2026-10-16T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/i6u3av7zg8n3gfy6g7ynhns56",
+      "original_url": "https://www.lmsys.org/blog/2026-10-16-beam",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/i6u3av7zg8n3gfy6g7ynhns56"
+      }
+    },
+    {
+      "id": "f14brdupsvks0k2hoang4lx6w",
+      "channel": "aihot",
+      "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
+      "title_en": "Reflection's Beam is freely available on Ollama for a limited time",
+      "summary": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
+      "source": "Ollama：Blog（RSS）",
+      "published_at": "2026-10-16T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w",
+      "original_url": "https://ollama.com/blog/reflection-beam",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w"
+      }
+    },
+    {
+      "id": "d0pow9b93paydjtg2i76ang83",
+      "channel": "aihot",
+      "title": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
+      "title_en": "Serving Reflection Beam on vLLM from Day 0",
+      "summary": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。",
+      "source": "vLLM 官方博客（RSS）",
+      "published_at": "2026-10-16T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/d0pow9b93paydjtg2i76ang83",
+      "original_url": "https://vllm.ai/blog/2026-10-16-reflection-beam",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/d0pow9b93paydjtg2i76ang83"
       }
     },
     {
@@ -274,6 +508,96 @@
       }
     },
     {
+      "id": "oetmf0o04av0c4h7yrgfkb4zc",
+      "channel": "aihot",
+      "title": "Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟",
+      "title_en": "The AI expectations gap",
+      "summary": "Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）与其员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大。91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-10-15T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
+      "original_url": "https://www.anthropic.com/research/ai-expectations-gap",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc"
+      }
+    },
+    {
+      "id": "nextj30ehkdcjpzpk4fgz1p1w",
+      "channel": "aihot",
+      "title": "Anthropic 报告：AI 如何改变公司内部的雇佣与工作组织",
+      "title_en": "How employment is changing at Anthropic",
+      "summary": "Anthropic 发布基于内部数据的技术报告，研究 AI 对自身雇佣与工作组织的影响。到 2026 年 8 月，交互式 AI agent 工时已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-10-15T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/nextj30ehkdcjpzpk4fgz1p1w",
+      "original_url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/nextj30ehkdcjpzpk4fgz1p1w"
+      }
+    },
+    {
+      "id": "jn8i9j3ppsb0f79mrtldd43h8",
+      "channel": "aihot",
+      "title": "Anthropic 用 Claude Mythos 5 设计出更高效的量子电路，多项超过已发表最优设计",
+      "title_en": "Designing more efficient quantum circuits with Claude",
+      "summary": "Anthropic 发布研究报告，让 Claude Mythos 5 在闭环中自主优化量子电路：模型提出电路设计、由自动评估器验证正确性并按 qubit 数乘以门数打分，八项涵盖化学、优化、量子模拟和数论的任务均超过此前最优已发表设计，部分提升达一个数量级以上。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-10-15T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 73.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/jn8i9j3ppsb0f79mrtldd43h8",
+      "original_url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/jn8i9j3ppsb0f79mrtldd43h8"
+      }
+    },
+    {
+      "id": "ckrtcqc9dnngil5ev7m60ns4v",
+      "channel": "aihot",
+      "title": "Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
+      "title_en": "Claude reveals ECDSA curve origins",
+      "summary": "Anthropic 团队让内部研究模型在不到半小时内发现 NIST P-192、P-224、P-256、P-384、P-521 等曲线种子的来源：它们并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需要 1842 次迭代。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "published_at": "2026-10-15T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
+      "original_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v"
+      }
+    },
+    {
+      "id": "a3roan35e4kghyxdjffek1hop",
+      "channel": "aihot",
+      "title": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
+      "title_en": "Reflection has released Beam, their first model launch",
+      "summary": "Artificial Analysis 评测 Reflection 首个模型 Beam，其在 Artificial Analysis Intelligence Index 得 30 分，在美国开源权重模型中排第二，仅次于 Meta 的 Muse Spark Open（39）。",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "published_at": "2026-10-15T16:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop",
+      "original_url": "https://artificialanalysis.ai/articles/reflection-beam",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop"
+      }
+    },
+    {
       "id": "mimehokpfhvz10dk3pdz131ky",
       "channel": "aihot",
       "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
@@ -294,9 +618,9 @@
     {
       "id": "l9jgzg24ei3a7m8xu1xfhy9n7",
       "channel": "aihot",
-      "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
+      "title": "NVIDIA 发布 Nemotron 3.5 Super VL 与 Bolt 系列开放模型，覆盖数据中心到桌面端",
       "title_en": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "summary": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方开放，已有数十家机构基于自有数据后训练。",
+      "summary": "NVIDIA 发布开源 1200 亿参数多模态模型 Nemotron 3.5 Super VL，以及面向端侧的 Nemotron 3.5 Bolt 74B-A9B 24GB 和 Bolt E4B 4GB（后者 10 月 23 日上线）。",
       "source": "NVIDIA Blog（RSS）",
       "published_at": "2026-10-15T15:00:24.000Z",
       "category": "ai-models",
@@ -361,6 +685,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/l3g1uzem751ki1oxckrxa1b3e"
+      }
+    },
+    {
+      "id": "f6wm1u4huahekganurrbdqyhi",
+      "channel": "aihot",
+      "title": "404 Media 实测 ChatGPT 广告如何基于提示词、手机号和邮箱定向投放",
+      "title_en": "How ChatGPT Targets Ads To You Based On Your Prompts, Phone Number, and Email",
+      "summary": "404 Media 通过自行测试发现，OpenAI 允许广告主向 ChatGPT 用户投放广告，并可基于邮箱地址、手机号或手机上的唯一标识符定向特定人群。ChatGPT 的广告定向还基于用户输入的提示词，这些提示词用户可能以为是私密的，但可能被人工审查，或被用于广告定向。ChatGPT 拥有约 10 亿月活跃用户，他们多数可能不知道自己正因广告主上传给 OpenAI 的个人数据而被精准定向。",
+      "source": "404 Media（RSS）",
+      "published_at": "2026-10-15T13:25:19.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/f6wm1u4huahekganurrbdqyhi",
+      "original_url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/f6wm1u4huahekganurrbdqyhi"
       }
     },
     {
