@@ -1,8 +1,8 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-17",
- "total": 1120,
- "source_count": 54,
+ "updated": "2026-10-18",
+ "total": 1110,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
@@ -13,16 +13,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "Shopify结账页脚可见性设置仅控制商家内容",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/checkout-footer-visibility-now-applies-to-merchant-configurable-content",
-    "d": "2026-10-15",
-    "p": "P0",
-    "m": "US",
-    "score": 87
+    "score": 79
    },
    {
     "t": "美国运通推出框架验证AI购物代理交易",
@@ -31,7 +22,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "谷歌推出跨零售商通用购物车",
@@ -40,7 +31,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Shopify在荷兰和波兰上线DHL电商运费标签购买",
@@ -49,7 +40,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Splitit推出银行品牌分期信用卡",
@@ -58,7 +49,16 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
+   },
+   {
+    "t": "Finextra与ACI Worldwide发布全球支付调查《2030支付：回报之年》",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/newsarticle/48597/finextra--aci-worldwide-launch-global-survey-report-payments-2030-the-payoff-year?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-10-16",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 74
    }
   ],
   "brand-retail": [
@@ -69,7 +69,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Ruggable调整广告支出策略，转向ShopMy创作者",
@@ -78,34 +78,16 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 73
+    "score": 68
    },
    {
-    "t": "E.l.f.化妆品入驻Zepeto元宇宙平台",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/elf-cosmetics-returns-to-metaverse-on-avatar-based-gaming-platform/833027/",
-    "d": "2026-10-15",
-    "p": "P1",
-    "m": "KR",
-    "score": 74
-   },
-   {
-    "t": "Shaded创始人：人们需负担得起适应气候变化",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview/",
-    "d": "2026-10-15",
-    "p": "P1",
-    "m": "UK",
-    "score": 64
-   },
-   {
-    "t": "DNCO打造佛蒙特州首个消费者旅游品牌，旨在“化喜爱为行动”",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/10/15/dnco-vermont-state-tourism-brand-identity/",
-    "d": "2026-10-15",
-    "p": "P1",
-    "m": "US",
-    "score": 64
+    "t": "百年水晶灯品牌G. Moscatelli启动重塑",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/484648",
+    "d": "2026-10-17",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    }
   ],
   "compliance-fulfillment": [
@@ -116,18 +98,27 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    }
   ],
   "market-product": [
    {
-    "t": "Wendy’s成为Bravo应用内粉丝体验首个赞助商",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/wendys-signs-on-as-first-sponsor-for-in-app-bravo-fan-experience/833067/",
-    "d": "2026-10-15",
+    "t": "奢侈品消费者转向个性鞋履",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/news/retail/2026/luxury-shoppers-put-money-where-their-feet-are/",
+    "d": "2026-10-17",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "Depop借音乐营销突围，联手Zara Larsson与Olivia Rodrigo",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/why-depop-is-putting-music-at-the-center-of-its-marketing-collaborating-with-zara-larsson-and-olivia-rodrigo/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-17",
     "p": "P1",
     "m": "US",
-    "score": 74
+    "score": 62
    },
    {
     "t": "美妆品牌为何把产品变成时尚配饰",
@@ -136,7 +127,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Bath & Body Works节日季扩展与Ulta全门店合作",
@@ -145,7 +136,7 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Nordstrom Rack重返旧金山",
@@ -154,25 +145,16 @@ window.NAV_FEED = {
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
-    "t": "迈阿密鞋履公益活动为乳腺癌研究筹款",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/shoes-for-a-cure-miami-design-district-mother-wolf-event-1239365061/",
-    "d": "2026-10-16",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
-   },
-   {
-    "t": "奢侈品简报：Dior 引爆巴黎时装周社媒热度",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/luxury/luxury-briefing-dior-drove-paris-fashion-weeks-record-buzz/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "t": "黑五前优化广告支出：数据揭示的关键策略",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/optimizing-ad-spend-ahead-of-black-friday-what-the-numbers-say/833154/",
     "d": "2026-10-16",
     "p": "P1",
     "m": "US",
-    "score": 62
+    "score": 64
    }
   ]
  }
