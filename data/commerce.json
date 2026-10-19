@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-10-18T01:04:20.122269+00:00",
+  "generated_at": "2026-10-19T02:49:45.560759+00:00",
   "count": 1110,
-  "featured_count": 26,
+  "featured_count": 7,
   "source_count": 55,
   "score_min": 60,
-  "overview": "今天最值得注意的，是购物入口正被平台与支付方重新定义：谷歌通用购物车、Shopify结账MCP与运通AI代理验证框架同步推进，意味着“结账权”和“代理信任”将成为DTC品牌的新竞争维度。品牌需提前思考：当AI代理替消费者跨店比价下单，你的品牌靠什么被选中而非被跳过。",
+  "overview": "今天最值得注意的，是DTC品牌的“价值叙事”正从功能转向文化与情感：Depop借音乐营销突围、耐克用限量联名与奢华升级维持稀缺感，说明流量红利退潮后，品牌要靠圈层文化和叙事溢价留住人。同时Brunello Cucinelli在华营收13.5%增长提示，高端DTC的本土化深耕仍是确定性增量。",
   "items": [
     {
       "id": "sig_42fbf835c7c5",
@@ -842,7 +842,7 @@
       "escalated": false,
       "original_url": "https://shopify.dev/changelog/checkout-mcp-and-cart-mcp-now-support-ucp-buyer-consent",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_c601297ee5f8",
@@ -908,7 +908,7 @@
       "escalated": false,
       "original_url": "https://www.digitalcommerce360.com/2026/10/16/american-express-ai-framework/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_a372d5f76ce9",
@@ -996,7 +996,7 @@
       "escalated": false,
       "original_url": "https://www.digitalcommerce360.com/2026/10/16/google-universal-cart-launch-features/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_9a24f7609372",
@@ -1260,7 +1260,7 @@
       "escalated": false,
       "original_url": "https://www.dezeen.com/2026/10/16/baird-architects-first-furniture-line-ba-objeto/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_a7a5cb321822",
@@ -1282,7 +1282,7 @@
       "escalated": false,
       "original_url": "https://changelog.shopify.com/posts/fulfill-orders-in-batches",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_5509d3d4019e",
@@ -1304,7 +1304,7 @@
       "escalated": false,
       "original_url": "https://changelog.shopify.com/posts/buy-shipping-labels-on-shopify-now-in-the-netherlands-and-poland",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_471015fb9674",
@@ -1348,7 +1348,7 @@
       "escalated": false,
       "original_url": "https://www.finextra.com/pressarticle/111315/splitit-unveils-bank-branded-instalment-charge-card?utm_medium=rssfinextra&utm_source=finextrafeed",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_30f55f55d009",
@@ -1458,7 +1458,7 @@
       "escalated": false,
       "original_url": "https://www.finextra.com/newsarticle/48597/finextra--aci-worldwide-launch-global-survey-report-payments-2030-the-payoff-year?utm_medium=rssfinextra&utm_source=finextrafeed",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_763d0ed964ce",
@@ -1700,7 +1700,7 @@
       "escalated": false,
       "original_url": "https://therobinreport.com/a-good-return-experience-triggers-the-next-purchase/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_20ee5a9df7ab",
@@ -1920,7 +1920,7 @@
       "escalated": false,
       "original_url": "https://www.modernretail.co/marketing/ruggables-new-ad-spend-strategy-shifts-focus-to-shopmy-creators/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_fdb9c8932045",
@@ -2118,7 +2118,7 @@
       "escalated": false,
       "original_url": "https://www.glossy.co/pop/why-brands-are-turning-your-favorite-beauty-products-into-fashion-accessories/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_eb54309dc3b8",
@@ -2184,7 +2184,7 @@
       "escalated": false,
       "original_url": "https://www.retaildive.com/news/bath-body-works-ulta-beauty-pink-suede/833214/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_10e30b7813b6",
@@ -2206,7 +2206,7 @@
       "escalated": false,
       "original_url": "https://www.retaildive.com/news/nordstrom-rack-returns-san-francisco-store-opening/833229/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_2515cdd20cc9",
@@ -2602,7 +2602,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/news/what-marketers-need-to-know-from-advertising-week-new-york-2026/833139/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_8589b4447424",
@@ -2624,7 +2624,7 @@
       "escalated": false,
       "original_url": "https://www.marketingdive.com/news/optimizing-ad-spend-ahead-of-black-friday-what-the-numbers-say/833154/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_3a1679e569d9",
@@ -3020,7 +3020,7 @@
       "escalated": false,
       "original_url": "https://www.pymnts.com/blockchain/2026/marqeta-and-coinbase-take-stablecoin-spending-mainstream/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_7ed389e3e198",
@@ -3328,7 +3328,7 @@
       "escalated": false,
       "original_url": "https://wwd.com/footwear-news/shoe-industry-news/shoes-for-a-cure-miami-design-district-mother-wolf-event-1239365061/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_227df89e9789",
@@ -3812,7 +3812,7 @@
       "escalated": false,
       "original_url": "https://www.practicalecommerce.com/ai-platforms-attract-a-growing-ecosystem",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_9447e8a52cef",
@@ -3900,7 +3900,7 @@
       "escalated": false,
       "original_url": "https://splash247.com/shippings-ai-winners-will-build-capability-not-buy-technology/",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_4017bd076114",

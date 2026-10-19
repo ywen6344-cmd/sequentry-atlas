@@ -3,11 +3,101 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-9406dce4baf14994",
-  "fetched_at": "2026-10-18T01:04:30Z",
+  "fingerprint": "f1-63e5a5eba3753c5f",
+  "fetched_at": "2026-10-19T02:49:52Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "bm95oliei5mcgy2tau7e22d59",
+      "channel": "aihot",
+      "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+      "title_en": "Exciting news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Code Arena: WebDev, surpassing Kimi K3 (Max...",
+      "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-10-18T18:56:03.000Z",
+      "category": "ai-models",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59",
+      "original_url": "https://x.com/arena/status/2111894091168682086",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59"
+      }
+    },
+    {
+      "id": "c7pt5mbzh5h0atlbprfzbs8o0",
+      "channel": "aihot",
+      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+      "title_en": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-10-18T13:22:26.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0",
+      "original_url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0"
+      }
+    },
+    {
+      "id": "bbr25r9mbi8zbbtmu2uiati7f",
+      "channel": "aihot",
+      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+      "title_en": "Two German courts now hold Google liable for what its AI overviews say",
+      "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-10-18T10:52:39.000Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f",
+      "original_url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f"
+      }
+    },
+    {
+      "id": "i8vi0763u7lz34lkoagoh0agt",
+      "channel": "aihot",
+      "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+      "title_en": "这台卖37999的RTX Spark电脑，让我实现了Token自由。",
+      "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "published_at": "2026-10-18T02:04:38.000Z",
+      "category": "tip",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt",
+      "original_url": "https://x.com/Khazix0918/status/2111639562720329976",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt"
+      }
+    },
+    {
+      "id": "w3vpc68lufgj57zcy1hd38a60",
+      "channel": "aihot",
+      "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+      "title_en": "What Is a Browser Agent? How It Works and When to Use One",
+      "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+      "source": "Browser Use",
+      "published_at": "2026-10-18T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60",
+      "original_url": "https://browser-use.com/posts/browser-agents",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60"
+      }
+    },
     {
       "id": "xgj246drlw70qbgypibz6atla",
       "channel": "aihot",
@@ -817,96 +907,6 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/pd501xipe38ooxo1t7jn7hphn"
       }
-    },
-    {
-      "id": "allv4n9g9lhfy72m1pg725apv",
-      "channel": "aihot",
-      "title": "Anthropic Q3营收达168亿美元但增速放缓，11月IPO前估值预期或下调",
-      "title_en": "Anthropic's Q3 revenue hits $16.8B but growth slows ahead of planned November IPO",
-      "summary": "Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元。",
-      "source": "The Decoder：AI News（RSS）",
-      "published_at": "2026-10-15T09:50:43.000Z",
-      "category": "industry",
-      "source_score": 81.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
-      "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv"
-      }
-    },
-    {
-      "id": "cklrpr58z4b8ilif89c5h1vr7",
-      "channel": "aihot",
-      "title": "面壁智能等联合开源 PilotDeck 2.0，主打办公全流程交付与长任务稳定运行",
-      "title_en": "Harness「小钢炮」来了！一键上手，长难任务高效稳定交付：PilotDeck 2.0 正式开源",
-      "summary": "10 月 15 日，清华大学 THUNLP、面壁智能、OpenBMB 与 AI9Stars 联合开发的 AI Agent 工作台 PilotDeck 2.0 正式开源。",
-      "source": "公众号：面壁智能（MiniCPM）",
-      "published_at": "2026-10-15T04:53:56.000Z",
-      "category": "ai-products",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/cklrpr58z4b8ilif89c5h1vr7",
-      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499498&idx=1&sn=a475c3637de9f432a34f207df9659516",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/cklrpr58z4b8ilif89c5h1vr7"
-      }
-    },
-    {
-      "id": "f9mfexmd1udr4ehzn5t6pawi5",
-      "channel": "aihot",
-      "title": "Payload 集成 Figma Make，支持在 Figma 内构建、托管和管理数据驱动网站",
-      "title_en": "Create, ship, and manage data-backed websites with Payload in Figma",
-      "summary": "Figma 宣布开源内容框架 Payload 集成到 Figma Make，用提示词创建应用时自动配套数据库、文件存储、用户登录和管理面板。Payload 加入 Figma 一年内下载量增长 6x，成为 NPM 上增长最快的开源 CMS；面向所有计划开放，托管基础设施目前处于 beta 且免费，定价将在生效前公布。",
-      "source": "Figma AI / Agent / Make",
-      "published_at": "2026-10-15T04:50:00.000Z",
-      "category": "ai-products",
-      "source_score": 60.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/f9mfexmd1udr4ehzn5t6pawi5",
-      "original_url": "https://www.figma.com/blog/websites-with-payload-in-figma/",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/f9mfexmd1udr4ehzn5t6pawi5"
-      }
-    },
-    {
-      "id": "kg6bx3goagkn4k8kt7jl9lqgd",
-      "channel": "aihot",
-      "title": "卡兹克实测开源Skill Anatomy，一句话让AI生成原理科普视频",
-      "title_en": "分享一个最近很惊艳的开源Skill，一句话让AI搓出任何原理的科普视频。",
-      "summary": "作者卡兹克分享实测开源Skill Anatomy（GitHub：https://github.com/wheresryan22/anatomy/tree/main），它能把抽象原理做成可交互的机械模型动画，在其基础上还能让AI一轮直出带讲解配音的科普视频。",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "published_at": "2026-10-15T04:24:18.000Z",
-      "category": "tip",
-      "source_score": 75.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/kg6bx3goagkn4k8kt7jl9lqgd",
-      "original_url": "https://x.com/Khazix0918/status/2110587546271191166",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/kg6bx3goagkn4k8kt7jl9lqgd"
-      }
-    },
-    {
-      "id": "hie2iw214agnrwu3mxy3t79af",
-      "channel": "aihot",
-      "title": "蚂蚁百灵正式开源 Ling-3.1-flash，560B 参数模型可 4 卡部署",
-      "title_en": "Ling-3.1-flash 正式开源：让真实业务需求更快变成可用成果",
-      "summary": "蚂蚁百灵正式开源 Ling-3.1-flash，总参数约 560B、每 Token 激活约 25B、最高支持 1M 上下文，权重已上架 Hugging Face 和 ModelScope。",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "published_at": "2026-10-15T01:10:27.000Z",
-      "category": "ai-models",
-      "source_score": 68.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/hie2iw214agnrwu3mxy3t79af",
-      "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247488073&idx=1&sn=1deff0f84dce1931113975e212a91644",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/hie2iw214agnrwu3mxy3t79af"
-      }
     }
   ],
   "hot_topics": [
@@ -919,38 +919,36 @@
       "storyPermalink": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
       "source": "DeepSeek：API 更新日志",
       "sourceCount": 15,
-      "signalCount": 32,
-      "participantCount": 47,
+      "signalCount": 42,
+      "participantCount": 57,
       "sourceNames": [
+        "X：Arena (@arena)",
+        "X：邵猛 (@shao__meng)",
         "X：Yuchen Jin (@Yuchenj_UW)",
         "X：Nathan Lambert (@natolambert)",
-        "X：邵猛 (@shao__meng)",
         "The Decoder：AI News（RSS）",
         "X：Tencent WorkBuddy (@WorkBuddy_AI)",
         "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-        "X：Oran Ge (@oran_ge)",
-        "X：Testing Catalog (@testingcatalog)"
+        "X：Oran Ge (@oran_ge)"
       ],
-      "latestAt": "2026-10-17T17:31:24.000Z"
+      "latestAt": "2026-10-18T18:56:03.000Z"
     },
     {
       "rank": 2,
-      "id": "s80tw5g2v22j1se4bmqejyaq4",
-      "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
-      "url": "https://pytorch.org/blog/muse-spark-open/",
-      "permalink": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-      "storyPermalink": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
-      "source": "PyTorch：Blog（RSS）",
-      "sourceCount": 4,
-      "signalCount": 31,
-      "participantCount": 35,
+      "id": "eg3kb6utc3fzmkjqyxdi4i92b",
+      "title": "Anthropic设公益基金 承诺投入5%股份",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "permalink": "https://aihot.news/items/eg3kb6utc3fzmkjqyxdi4i92b",
+      "storyPermalink": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532",
+      "source": "Anthropic：Newsroom（网页）",
+      "sourceCount": 2,
+      "signalCount": 10,
+      "participantCount": 12,
       "sourceNames": [
-        "X：Nathan Lambert (@natolambert)",
-        "X：Arena (@arena)",
-        "MarkTechPost（RSS）",
-        "IT之家·人工智能"
+        "TechCrunch：AI（RSS）",
+        "Anthropic：Newsroom（网页）"
       ],
-      "latestAt": "2026-10-17T14:15:29.000Z"
+      "latestAt": "2026-10-18T20:37:40.000Z"
     },
     {
       "rank": 3,
@@ -961,8 +959,8 @@
       "storyPermalink": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5",
       "source": "IT之家·人工智能",
       "sourceCount": 5,
-      "signalCount": 6,
-      "participantCount": 11,
+      "signalCount": 12,
+      "participantCount": 17,
       "sourceNames": [
         "IT之家·人工智能",
         "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
@@ -974,181 +972,176 @@
     },
     {
       "rank": 4,
-      "id": "rq32az1hr7zpbipiyega9ehjr",
-      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "permalink": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-      "storyPermalink": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "sourceCount": 6,
+      "id": "x7hxr1lvyddc8hrbrugfx4uyg",
+      "title": "DeepSeek开放自研搜索API并按次计费",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+      "permalink": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+      "storyPermalink": "https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a",
+      "source": "DeepSeek：API 更新日志",
+      "sourceCount": 1,
       "signalCount": 11,
-      "participantCount": 17,
+      "participantCount": 12,
       "sourceNames": [
-        "NVIDIA Blog（RSS）",
-        "公众号：数字生命卡兹克",
-        "X：Unsloth (@UnslothAI)",
-        "X：OpenClaw (@openclaw)",
-        "The Verge：AI（RSS）",
-        "X：卡兹克 (@Khazix0918)"
+        "IT之家·人工智能"
       ],
-      "latestAt": "2026-10-17T21:00:13.000Z"
+      "latestAt": "2026-10-18T11:59:52.953Z"
     },
     {
       "rank": 5,
-      "id": "p11tj593iq5nrtiotvoxllop4",
-      "title": "商务部拟增列23项AI技术出口管制并答问",
-      "url": "https://www.ithome.com/1/013/983.htm",
-      "permalink": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
-      "storyPermalink": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
+      "id": "zdr1iocr9utx4dpu6qqhfj6r6",
+      "title": "微软终止与Nscale数据中心合作",
+      "url": "https://www.ithome.com/1/014/574.htm",
+      "permalink": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
+      "storyPermalink": "https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a",
       "source": "IT之家·人工智能",
-      "sourceCount": 5,
-      "signalCount": 14,
-      "participantCount": 19,
+      "sourceCount": 1,
+      "signalCount": 7,
+      "participantCount": 8,
       "sourceNames": [
-        "X：邵猛 (@shao__meng)",
-        "X：X.PIN (@thexpin)",
-        "The Decoder：AI News（RSS）",
-        "X：Nathan Lambert (@natolambert)",
         "IT之家·人工智能"
       ],
-      "latestAt": "2026-10-17T01:30:54.000Z"
+      "latestAt": "2026-10-18T10:42:51.370Z"
     },
     {
       "rank": 6,
-      "id": "ckrtcqc9dnngil5ev7m60ns4v",
-      "title": "Claude 查明 NIST 椭圆曲线种子来源",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "permalink": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
-      "storyPermalink": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "sourceCount": 3,
-      "signalCount": 10,
-      "participantCount": 13,
-      "sourceNames": [
-        "The Decoder：AI News（RSS）",
-        "IT之家·人工智能",
-        "X：Yuchen Jin (@Yuchenj_UW)"
-      ],
-      "latestAt": "2026-10-17T14:42:56.000Z"
-    },
-    {
-      "rank": 7,
-      "id": "ib3axwzp3wkqdd8teu8zpj7c9",
-      "title": "Meta 删除涉 AI 训练抓取争议条款",
-      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-      "permalink": "https://aihot.news/items/ib3axwzp3wkqdd8teu8zpj7c9",
-      "storyPermalink": "https://aihot.virxact.com/story/278a9f24-bfd7-489e-98f4-958d6bbf2352",
-      "source": "The Verge：AI（RSS）",
-      "sourceCount": 4,
-      "signalCount": 4,
-      "participantCount": 8,
-      "sourceNames": [
-        "IT之家·人工智能",
-        "TechCrunch：AI（RSS）",
-        "The Verge：AI（RSS）",
-        "Ars Technica：AI（RSS）"
-      ],
-      "latestAt": "2026-10-18T00:00:43.787Z"
-    },
-    {
-      "rank": 8,
-      "id": "x6s9la8005d0zobyd908cf5su",
-      "title": "腾讯混元发布并开源 Hy Memory 2.0",
-      "url": "https://x.com/shao__meng/status/2111082839068246301",
-      "permalink": "https://aihot.news/items/x6s9la8005d0zobyd908cf5su",
-      "storyPermalink": "https://aihot.virxact.com/story/a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
-      "source": "X：邵猛 (@shao__meng)",
-      "sourceCount": 4,
-      "signalCount": 9,
-      "participantCount": 13,
-      "sourceNames": [
-        "X：邵猛 (@shao__meng)",
-        "IT之家·人工智能",
-        "X：腾讯混元 (@TencentHunyuan)",
-        "公众号：腾讯混元"
-      ],
-      "latestAt": "2026-10-16T13:12:25.000Z"
-    },
-    {
-      "rank": 9,
       "id": "oetmf0o04av0c4h7yrgfkb4zc",
       "title": "Anthropic 发布内部 AI 经济影响研究",
       "url": "https://www.anthropic.com/research/ai-expectations-gap",
       "permalink": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
       "storyPermalink": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117",
       "source": "Anthropic：Research（发表成果 · 网页）",
-      "sourceCount": 3,
-      "signalCount": 6,
-      "participantCount": 9,
-      "sourceNames": [
-        "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
-        "TechCrunch：AI（RSS）",
-        "IT之家·人工智能"
-      ],
-      "latestAt": "2026-10-17T22:58:56.000Z"
-    },
-    {
-      "rank": 10,
-      "id": "ew969eizz0eyqmitrz9g62chm",
-      "title": "Elorian 发布首个视觉推理模型 Glimpse",
-      "url": "https://x.com/testingcatalog/status/2111174690337177607",
-      "permalink": "https://aihot.news/items/ew969eizz0eyqmitrz9g62chm",
-      "storyPermalink": "https://aihot.virxact.com/story/d04da2cc-3656-4558-8c1a-a379c01b6dae",
-      "source": "X：Testing Catalog (@testingcatalog)",
       "sourceCount": 4,
       "signalCount": 6,
       "participantCount": 10,
       "sourceNames": [
-        "X：Testing Catalog (@testingcatalog)",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Jeff Dean (@JeffDean)",
+        "IT之家·人工智能",
+        "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
         "TechCrunch：AI（RSS）"
       ],
-      "latestAt": "2026-10-16T19:17:24.000Z"
+      "latestAt": "2026-10-18T06:27:48.000Z"
+    },
+    {
+      "rank": 7,
+      "id": "bhawxaabotw0ecxenp7uujfbo",
+      "title": "OpenAI API 短暂出现三个 aurora 模型引用后移除",
+      "url": "https://x.com/testingcatalog/status/2111724606927028578",
+      "permalink": "https://aihot.news/items/bhawxaabotw0ecxenp7uujfbo",
+      "storyPermalink": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4",
+      "source": "X：Testing Catalog (@testingcatalog)",
+      "sourceCount": 1,
+      "signalCount": 7,
+      "participantCount": 8,
+      "sourceNames": [
+        "X：Testing Catalog (@testingcatalog)"
+      ],
+      "latestAt": "2026-10-18T18:57:25.000Z"
+    },
+    {
+      "rank": 8,
+      "id": "rq32az1hr7zpbipiyega9ehjr",
+      "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "permalink": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+      "storyPermalink": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "sourceCount": 3,
+      "signalCount": 5,
+      "participantCount": 8,
+      "sourceNames": [
+        "X：卡兹克 (@Khazix0918)",
+        "NVIDIA Blog（RSS）",
+        "公众号：数字生命卡兹克"
+      ],
+      "latestAt": "2026-10-18T02:04:38.000Z"
+    },
+    {
+      "rank": 9,
+      "id": "v5eu5y82xm0p72lcmumgbzis4",
+      "title": "我国首个全国产十万卡AI超集群真机亮相",
+      "url": "https://www.ithome.com/1/014/456.htm",
+      "permalink": "https://aihot.news/items/v5eu5y82xm0p72lcmumgbzis4",
+      "storyPermalink": "https://aihot.virxact.com/story/55ac5afb-c949-4128-8fee-b0f02d4440cf",
+      "source": "IT之家·人工智能",
+      "sourceCount": 1,
+      "signalCount": 5,
+      "participantCount": 6,
+      "sourceNames": [
+        "IT之家·人工智能"
+      ],
+      "latestAt": "2026-10-18T02:06:43.060Z"
+    },
+    {
+      "rank": 10,
+      "id": "dx71nlu9cfqru07lmiqaiqu9d",
+      "title": "Google Research 开源 Harness² 智能体优化框架",
+      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+      "permalink": "https://aihot.news/items/dx71nlu9cfqru07lmiqaiqu9d",
+      "storyPermalink": "https://aihot.virxact.com/story/f39d32a1-c72e-4310-b8d5-d7ab5345c6d1",
+      "source": "MarkTechPost（RSS）",
+      "sourceCount": 2,
+      "signalCount": 4,
+      "participantCount": 6,
+      "sourceNames": [
+        "MarkTechPost（RSS）",
+        "X：邵猛 (@shao__meng)"
+      ],
+      "latestAt": "2026-10-18T08:15:04.000Z"
     }
   ],
   "daily": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.news/daily/2026-10-18"
+      "canonical": "https://aihot.news/daily/2026-10-19"
     },
-    "generatedAt": "2026-10-18T00:00:12.874Z",
-    "windowStart": "2026-10-17T00:00:00.000Z",
-    "windowEnd": "2026-10-18T00:00:00.000Z",
+    "generatedAt": "2026-10-19T00:00:14.129Z",
+    "windowStart": "2026-10-18T00:00:00.000Z",
+    "windowEnd": "2026-10-19T00:00:00.000Z",
     "lead": {
-      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
-      "leadParagraph": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。"
+      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+      "leadParagraph": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。"
     },
     "sections": [
       {
-        "label": "模型发布/更新",
+        "label": "行业动态",
         "items": [
           {
-            "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
-            "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
-            "sourceUrl": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
-            "sourceName": "DeepSeek：API 更新日志",
-            "permalink": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+            "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+            "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+            "sourceUrl": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+            "sourceName": "The Decoder：AI News（RSS）",
+            "permalink": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr"
+              "canonical": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0"
+            }
+          },
+          {
+            "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+            "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+            "sourceUrl": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+            "sourceName": "The Decoder：AI News（RSS）",
+            "permalink": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f"
             }
           }
         ]
       },
       {
-        "label": "产品发布/更新",
+        "label": "技巧与观点",
         "items": [
           {
-            "title": "DeepSeek 开放自研搜索 API",
-            "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
-            "sourceUrl": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
-            "sourceName": "DeepSeek：API 更新日志",
-            "permalink": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+            "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+            "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+            "sourceUrl": "https://browser-use.com/posts/browser-agents",
+            "sourceName": "Browser Use",
+            "permalink": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg"
+              "canonical": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60"
             }
           }
         ]
@@ -1156,14 +1149,14 @@
     ],
     "flashes": [
       {
-        "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
-        "sourceName": "公众号：数字生命卡兹克",
-        "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
-        "publishedAt": "2026-10-17T10:19:04.000Z",
-        "permalink": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz",
+        "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+        "sourceName": "X：Arena (@arena)",
+        "sourceUrl": "https://x.com/arena/status/2111894091168682086",
+        "publishedAt": "2026-10-18T18:56:03.000Z",
+        "permalink": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz"
+          "canonical": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59"
         }
       }
     ],

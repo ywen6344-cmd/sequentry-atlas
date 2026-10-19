@@ -1,8 +1,98 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-18T01:04:30Z",
-  "count": 1339,
+  "updated_at": "2026-10-19T02:49:52Z",
+  "count": 1344,
   "items": [
+    {
+      "id": "bm95oliei5mcgy2tau7e22d59",
+      "channel": "aihot",
+      "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+      "title_en": "Exciting news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Code Arena: WebDev, surpassing Kimi K3 (Max...",
+      "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-10-18T18:56:03.000Z",
+      "category": "ai-models",
+      "source_score": 69.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59",
+      "original_url": "https://x.com/arena/status/2111894091168682086",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59"
+      }
+    },
+    {
+      "id": "c7pt5mbzh5h0atlbprfzbs8o0",
+      "channel": "aihot",
+      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+      "title_en": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-10-18T13:22:26.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0",
+      "original_url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0"
+      }
+    },
+    {
+      "id": "bbr25r9mbi8zbbtmu2uiati7f",
+      "channel": "aihot",
+      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+      "title_en": "Two German courts now hold Google liable for what its AI overviews say",
+      "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-10-18T10:52:39.000Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f",
+      "original_url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f"
+      }
+    },
+    {
+      "id": "i8vi0763u7lz34lkoagoh0agt",
+      "channel": "aihot",
+      "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+      "title_en": "这台卖37999的RTX Spark电脑，让我实现了Token自由。",
+      "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "published_at": "2026-10-18T02:04:38.000Z",
+      "category": "tip",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt",
+      "original_url": "https://x.com/Khazix0918/status/2111639562720329976",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt"
+      }
+    },
+    {
+      "id": "w3vpc68lufgj57zcy1hd38a60",
+      "channel": "aihot",
+      "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+      "title_en": "What Is a Browser Agent? How It Works and When to Use One",
+      "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+      "source": "Browser Use",
+      "published_at": "2026-10-18T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60",
+      "original_url": "https://browser-use.com/posts/browser-agents",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60"
+      }
+    },
     {
       "id": "xgj246drlw70qbgypibz6atla",
       "channel": "aihot",
