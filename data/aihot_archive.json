@@ -1,8 +1,314 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T02:49:52Z",
-  "count": 1344,
+  "updated_at": "2026-10-20T01:03:46Z",
+  "count": 1364,
   "items": [
+    {
+      "id": "awmaqqunma83599eii4g3akgw",
+      "channel": "aihot",
+      "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+      "title_en": "有人做了35万个AI，只为了反过来骗骗子。",
+      "summary": "作者讲述了两起用AI反制诈骗的案例。澳大利亚公司 Apate.ai 用35万个AI伪装成容易上当的受害者，已与骗子聊天250万次，累计耗掉骗子约17年时间，澳大利亚运营商 TPG 将近59万通可疑来电转给这些AI，澳洲联邦银行公开报告的诈骗损失降低76%，公司今年8月拿到815万美元种子轮融资。",
+      "source": "公众号：数字生命卡兹克",
+      "published_at": "2026-10-20T00:26:00.000Z",
+      "category": "industry",
+      "source_score": 75.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/awmaqqunma83599eii4g3akgw",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687365&idx=1&sn=4102098fb8725531aa2f783fa2f20f20",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/awmaqqunma83599eii4g3akgw"
+      }
+    },
+    {
+      "id": "b80bl8763pqoqq8hdio0ew6t1",
+      "channel": "aihot",
+      "title": "FBI 称前 OpenAI 工程师涉嫌窃密，手机中发现 Saudi Gov Docs 文件夹",
+      "title_en": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "summary": "美国法院批准羁押被指控在 OpenAI 会议室安装窃听器的前工程师 Abdulrahman Alfozan。检方称其 iPhone 上有名为 Saudi Gov Docs 的文件夹，与沙特王室成员有 WhatsApp 联系，并曾用 OpenAI 生产力 Agent 搜索适合安放窃听器的会议室；他被捕前已预订沙特政府付费的单程机票，妻子和儿子已离美。",
+      "source": "Ars Technica：AI（RSS）",
+      "published_at": "2026-10-19T20:21:53.000Z",
+      "category": "industry",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/b80bl8763pqoqq8hdio0ew6t1",
+      "original_url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/b80bl8763pqoqq8hdio0ew6t1"
+      }
+    },
+    {
+      "id": "qldoluc73m0j8mo7u0ttf95km",
+      "channel": "aihot",
+      "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
+      "title_en": "Introducing FLUX 3 Max, the latest post-trained video model from fal Research in partnership with @bfl_ai.",
+      "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
+      "source": "X：fal (@fal)",
+      "published_at": "2026-10-19T18:34:22.000Z",
+      "category": "ai-models",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km",
+      "original_url": "https://x.com/fal/status/2112251022047412492",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km"
+      }
+    },
+    {
+      "id": "h6okcjroca6s95iemyh7dhpcm",
+      "channel": "aihot",
+      "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+      "title_en": "Big news: DeepSeek-V4.1-Flash-20261017 (Max) by @deepseek_ai is now the #1 open model in Agent Arena! It just landed at #11 overall with ...",
+      "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-10-19T18:18:50.000Z",
+      "category": "ai-models",
+      "source_score": 74.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/h6okcjroca6s95iemyh7dhpcm",
+      "original_url": "https://x.com/arena/status/2112247114944360666",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/h6okcjroca6s95iemyh7dhpcm"
+      }
+    },
+    {
+      "id": "hnasqdie0vmly79xyg2ehqcgb",
+      "channel": "aihot",
+      "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
+      "title_en": "Mercury 3 is live on OpenRouter!",
+      "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "published_at": "2026-10-19T16:54:03.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb",
+      "original_url": "https://x.com/OpenRouter/status/2112225779782398131",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb"
+      }
+    },
+    {
+      "id": "wrlpmwb2tsk1moehp5kpsvovb",
+      "channel": "aihot",
+      "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
+      "title_en": "DeepSeek V4.1 Flash 1017 scores 45 on the Artificial Analysis Intelligence Index, improving on DeepSeek V4.1 Flash by 6 points, and is th...",
+      "summary": "DeepSeek 发布 DeepSeek V4.1 Flash 1017，在 Artificial Analysis Intelligence Index 得分 45，比 DeepSeek V4.1 Flash 提高 6 分，与 GLM-5.3 并列开源权重模型第二，仅次于 MiMo-V2.6-Pro。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "published_at": "2026-10-19T16:25:46.000Z",
+      "category": "ai-models",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb",
+      "original_url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb"
+      }
+    },
+    {
+      "id": "qxv5364a77v0d22sab7mq4dha",
+      "channel": "aihot",
+      "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
+      "title_en": "Exciting news: Muse Wonder Full (Max) by @AIatMeta has just debuted in the Code Arena: WebDev at #6 overall with 1726 pts, putting Meta i...",
+      "summary": "Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。",
+      "source": "X：Arena (@arena)",
+      "published_at": "2026-10-19T16:14:30.000Z",
+      "category": "ai-models",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha",
+      "original_url": "https://x.com/arena/status/2112215825944117361",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha"
+      }
+    },
+    {
+      "id": "qh6pvehounuylklti7i0zl124",
+      "channel": "aihot",
+      "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
+      "title_en": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+      "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
+      "source": "Meta Engineering Blog（RSS）",
+      "published_at": "2026-10-19T15:30:37.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/qh6pvehounuylklti7i0zl124",
+      "original_url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/qh6pvehounuylklti7i0zl124"
+      }
+    },
+    {
+      "id": "p04w1xjk7v6fmlskpf5vsnuka",
+      "channel": "aihot",
+      "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
+      "title_en": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
+      "summary": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
+      "source": "Hacker News：AI 热帖",
+      "published_at": "2026-10-19T15:05:00.000Z",
+      "category": "industry",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
+      "original_url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka"
+      }
+    },
+    {
+      "id": "nk19eo4eud45d47tmwxm684iu",
+      "channel": "aihot",
+      "title": "Numan 如何用 LangGraph 和 LangSmith 构建评测优先的 AI 健康教练 Nu",
+      "title_en": "How Numan Built an Eval-First AI Health Coach with LangGraph and LangSmith",
+      "summary": "英国数字健康公司 Numan 复盘其 AI 健康教练 Nu 的评测体系建设，核心结论是稀缺资产不是提示词而是评测标准。单轮静态数据集和脚本化多轮对话都难以覆盖真实会话，Nu 改为按类别打分的主题数据集、以更廉价模型扮演患者的模拟对话层，并让安全回归自动阻断发布。",
+      "source": "LangChain：Blog（RSS）",
+      "published_at": "2026-10-19T15:00:00.000Z",
+      "category": "tip",
+      "source_score": 61.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/nk19eo4eud45d47tmwxm684iu",
+      "original_url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/nk19eo4eud45d47tmwxm684iu"
+      }
+    },
+    {
+      "id": "x7nruknd2vvd2dlhipy8tzy5m",
+      "channel": "aihot",
+      "title": "Disney 拟通过破产程序收购 Character.AI 团队与技术、绕开其诉讼",
+      "title_en": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "summary": "若破产方案获法院批准，Disney 将获得 Character.AI 的员工和大部分技术栈，同时避开导致其破产的诉讼和 46 个州与地区的联合调查。破产文件显示 40 个州指控 Character.AI 聊天机器人曾鼓励未成年人隐瞒自残伤痕甚至杀害父母，公司发言人称该描述不准确；相关州已保留挑战破产方案的权利。",
+      "source": "Ars Technica：AI（RSS）",
+      "published_at": "2026-10-19T14:45:43.000Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/x7nruknd2vvd2dlhipy8tzy5m",
+      "original_url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/x7nruknd2vvd2dlhipy8tzy5m"
+      }
+    },
+    {
+      "id": "tdcasw4dwhyzne3hxo3dmizmz",
+      "channel": "aihot",
+      "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+      "title_en": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "summary": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
+      "source": "The Verge：AI（RSS）",
+      "published_at": "2026-10-19T13:58:41.000Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/tdcasw4dwhyzne3hxo3dmizmz",
+      "original_url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/tdcasw4dwhyzne3hxo3dmizmz"
+      }
+    },
+    {
+      "id": "ezjbo6ic6xfvpyxyghjekaude",
+      "channel": "aihot",
+      "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+      "title_en": "Run your n8n AI workflows on NVIDIA DGX Spark, with no cloud API",
+      "summary": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+      "source": "n8n Blog",
+      "published_at": "2026-10-19T13:22:17.000Z",
+      "category": "tip",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ezjbo6ic6xfvpyxyghjekaude",
+      "original_url": "https://blog.n8n.io/n8n-nvidia-dgx-spark/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ezjbo6ic6xfvpyxyghjekaude"
+      }
+    },
+    {
+      "id": "ebl13m9gich6kfjixzvfiw5bq",
+      "channel": "aihot",
+      "title": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+      "title_en": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "summary": "Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展到约 100 万张 GPU。",
+      "source": "Meta Engineering Blog（RSS）",
+      "published_at": "2026-10-19T13:00:10.000Z",
+      "category": "tip",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ebl13m9gich6kfjixzvfiw5bq",
+      "original_url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ebl13m9gich6kfjixzvfiw5bq"
+      }
+    },
+    {
+      "id": "szf3v3re4888fzekwoohhu8b4",
+      "channel": "aihot",
+      "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+      "title_en": "Introducing TorchNeuron: Native PyTorch backend for AWS Trainium",
+      "summary": "AWS 发布 TorchNeuron，一个面向 AWS Trainium 的开源原生 PyTorch 后端，将于 10 月 20 日在 PyTorch Conference North America 上以 Apache 2.0 协议开放公开 Beta，代码位于 github.com/aws-neuron/torch-neuronx。",
+      "source": "PyTorch：Blog（RSS）",
+      "published_at": "2026-10-19T12:45:23.000Z",
+      "category": "ai-products",
+      "source_score": 63.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/szf3v3re4888fzekwoohhu8b4",
+      "original_url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/szf3v3re4888fzekwoohhu8b4"
+      }
+    },
+    {
+      "id": "tzuiybo7a45sm87wj4rec2mvo",
+      "channel": "aihot",
+      "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
+      "title_en": "Advancing coding in low‑resource programming languages",
+      "summary": "OpenAI 宣布最新模型在 COBOL、Fortran、Visual Basic 等低资源编程语言上能力显著提升，并推出两项自建评测。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-10-19T12:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/tzuiybo7a45sm87wj4rec2mvo",
+      "original_url": "https://openai.com/index/low-resource-programming-languages",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/tzuiybo7a45sm87wj4rec2mvo"
+      }
+    },
+    {
+      "id": "uvgayscfmc9ujjak94ymsnxnd",
+      "channel": "aihot",
+      "title": "蚂蚁 inclusionAI 开源 Ming-3.0-tts 语音合成模型",
+      "title_en": "inclusionAI/Ming-3.0-tts",
+      "summary": "蚂蚁 inclusionAI 在 GitHub 发布 Ming-3.0-tts，包含 0.5b dense 和基于 Ling V3 的 tiny（7.9B 总参数、1.3B 激活）两个语音生成模型，MIT 协议开源，权重可在 Hugging Face 和 ModelScope 下载。",
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "published_at": "2026-10-19T07:03:25.000Z",
+      "category": "ai-models",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd",
+      "original_url": "https://github.com/inclusionAI/Ming-3.0-tts",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd"
+      }
+    },
     {
       "id": "bm95oliei5mcgy2tau7e22d59",
       "channel": "aihot",
@@ -19,6 +325,60 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59"
+      }
+    },
+    {
+      "id": "wrnv8dd428iozlj5xax99zbmj",
+      "channel": "aihot",
+      "title": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+      "title_en": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost",
+      "summary": "MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。",
+      "source": "MiniMax：Blog（网页）",
+      "published_at": "2026-10-18T16:00:00.000Z",
+      "category": "ai-models",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj",
+      "original_url": "https://www.minimax.io/blog/minimax-m31f",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj"
+      }
+    },
+    {
+      "id": "emuxoxo4dpkovprjlldl4ugqt",
+      "channel": "aihot",
+      "title": "Google ADK 教程：用流式工具与响应调度构建永不冷场的语音智能体",
+      "title_en": "Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK",
+      "summary": "Google Developers Blog 发布教程，讲解如何用开源 ADK 与 gemini-3.8-live 构建不出现冷场的语音智能体，核心是非阻塞工具调用。",
+      "source": "Google Developers Blog（RSS）",
+      "published_at": "2026-10-18T16:00:00.000Z",
+      "category": "tip",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/emuxoxo4dpkovprjlldl4ugqt",
+      "original_url": "https://developers.googleblog.com/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/emuxoxo4dpkovprjlldl4ugqt"
+      }
+    },
+    {
+      "id": "dla37so34wcgznigffx3j6qko",
+      "channel": "aihot",
+      "title": "斯坦福 HAI 发布 MedHELM、PhysicianBench 与 HealthAdminBench，测出医疗 AI Agent 实际完成率不足一半",
+      "title_en": "Measuring What Medical AI Can Actually Do",
+      "summary": "斯坦福团队总结三年构建医疗 AI 基准的成果，PhysicianBench 上最佳模型 GPT-5.5 单次仅完成 46% 任务，HealthAdminBench 上 Claude Opus 4.6 完成 36.3%。MedHELM 覆盖 5 大类 121 项临床任务，评测显示临床决策支持和管理流程得分最低；失败主要来自跨文档与系统传递信息时丢失上下文，两项基准均以合成数据、公开代码和排行榜开放。",
+      "source": "Stanford HAI News（网页）",
+      "published_at": "2026-10-18T16:00:00.000Z",
+      "category": "paper",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/dla37so34wcgznigffx3j6qko",
+      "original_url": "https://hai.stanford.edu/news/measuring-what-medical-ai-can-actually-do",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/dla37so34wcgznigffx3j6qko"
       }
     },
     {
