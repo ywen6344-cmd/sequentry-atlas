@@ -3,11 +3,47 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-a9a97e1b09a4dccb",
-  "fetched_at": "2026-10-21T01:08:58Z",
+  "fingerprint": "f1-126b5fb1fa83059c",
+  "fetched_at": "2026-10-21T04:04:58Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "gf3h1rt1vsjw3dnw4hxlie3fv",
+      "channel": "aihot",
+      "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
+      "title_en": "Day 16/",
+      "summary": "OpenAI 开发者账号宣布 API 现已可选 12 小时 prompt 缓存，持续运行的智能体可在请求间隔数小时的情况下继续以更低的缓存输入费率复用指令、工具和上下文。Tibo 补充称，Codex 与 Work 中已登录用户的缓存会永久保留，返回旧对话或数小时后恢复会话保证命中缓存，且无额外惩罚。",
+      "source": "X：Tibo (@thsottiaux)",
+      "published_at": "2026-10-21T01:10:02.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/gf3h1rt1vsjw3dnw4hxlie3fv",
+      "original_url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/gf3h1rt1vsjw3dnw4hxlie3fv"
+      }
+    },
+    {
+      "id": "afv7us0zbvzo789rghqkfhq5q",
+      "channel": "aihot",
+      "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+      "title_en": "Announcing Humming: Fast, Flexible Kernels for Quantized Inference",
+      "summary": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。",
+      "source": "vLLM 官方博客（RSS）",
+      "published_at": "2026-10-21T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q",
+      "original_url": "https://vllm.ai/blog/2026-10-21-humming",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q"
+      }
+    },
     {
       "id": "cbzvuf1atk51l7i5c2dpgboao",
       "channel": "aihot",
@@ -871,70 +907,55 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/xgj246drlw70qbgypibz6atla"
       }
-    },
-    {
-      "id": "ffpkck4k06le4smuaz4slhvcz",
-      "channel": "aihot",
-      "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
-      "title_en": "这台卖37999的RTX Spark电脑，让我实现了Token自由。",
-      "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
-      "source": "公众号：数字生命卡兹克",
-      "published_at": "2026-10-17T10:19:04.000Z",
-      "category": "tip",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz",
-      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz"
-      }
-    },
-    {
-      "id": "p4mq9t7wyzlxritu15i6d8dtv",
-      "channel": "aihot",
-      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
-      "title_en": "当 Claude 写了 Claude Code 约 90% 的代码后，团队如何重新设计代码评审 ？",
-      "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
-      "source": "X：邵猛 (@shao__meng)",
-      "published_at": "2026-10-17T01:52:43.000Z",
-      "category": "tip",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/p4mq9t7wyzlxritu15i6d8dtv",
-      "original_url": "https://x.com/shao__meng/status/2111274173192638932",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/p4mq9t7wyzlxritu15i6d8dtv"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
       "id": "ckykonvith99q6hvd0utjdwfn",
-      "title": "DeepSeek 开源内部推理框架 DeepInfer",
+      "title": "DeepSeek 开源生产推理框架 DeepInfer",
       "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
       "permalink": "https://aihot.news/items/ckykonvith99q6hvd0utjdwfn",
       "storyPermalink": "https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457",
       "source": "公众号：DeepSeek（深度求索）",
-      "sourceCount": 11,
-      "signalCount": 39,
-      "participantCount": 50,
+      "sourceCount": 12,
+      "signalCount": 40,
+      "participantCount": 52,
       "sourceNames": [
+        "X：邵猛 (@shao__meng)",
         "The Decoder：AI News（RSS）",
         "X：Yuchen Jin (@Yuchenj_UW)",
         "MarkTechPost（RSS）",
         "X：Tianyi Cui（@tianyi）",
         "X：Rohan Paul (@rohanpaul_ai)",
         "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-        "X：Nathan Lambert (@natolambert)",
-        "X：Oran Ge (@oran_ge)"
+        "X：Nathan Lambert (@natolambert)"
       ],
-      "latestAt": "2026-10-20T18:56:15.000Z"
+      "latestAt": "2026-10-21T02:57:34.000Z"
     },
     {
       "rank": 2,
+      "id": "p04w1xjk7v6fmlskpf5vsnuka",
+      "title": "美土安全部令联邦文职机构移除DeepSeek及关联产品",
+      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "permalink": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
+      "storyPermalink": "https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72",
+      "source": "Hacker News：AI 热帖",
+      "sourceCount": 6,
+      "signalCount": 36,
+      "participantCount": 42,
+      "sourceNames": [
+        "TechCrunch：AI（RSS）",
+        "The Decoder：AI News（RSS）",
+        "IT之家·人工智能",
+        "X：X.PIN (@thexpin)",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "Hacker News：AI 热帖"
+      ],
+      "latestAt": "2026-10-20T13:07:24.000Z"
+    },
+    {
+      "rank": 3,
       "id": "wrnv8dd428iozlj5xax99zbmj",
       "title": "MiniMax 发布 M3.1 Flash，10 月 23 日开放权重",
       "url": "https://www.minimax.io/blog/minimax-m31f",
@@ -942,8 +963,8 @@
       "storyPermalink": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3",
       "source": "MiniMax：Blog（网页）",
       "sourceCount": 12,
-      "signalCount": 36,
-      "participantCount": 48,
+      "signalCount": 37,
+      "participantCount": 49,
       "sourceNames": [
         "X：MiniMax (@MiniMax_AI)",
         "X：OpenClaw (@openclaw)",
@@ -955,27 +976,6 @@
         "IT之家·人工智能"
       ],
       "latestAt": "2026-10-20T20:14:56.000Z"
-    },
-    {
-      "rank": 3,
-      "id": "p04w1xjk7v6fmlskpf5vsnuka",
-      "title": "美土安全部令联邦文职机构移除DeepSeek及关联产品",
-      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
-      "permalink": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
-      "storyPermalink": "https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72",
-      "source": "Hacker News：AI 热帖",
-      "sourceCount": 6,
-      "signalCount": 34,
-      "participantCount": 40,
-      "sourceNames": [
-        "TechCrunch：AI（RSS）",
-        "The Decoder：AI News（RSS）",
-        "IT之家·人工智能",
-        "X：X.PIN (@thexpin)",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "Hacker News：AI 热帖"
-      ],
-      "latestAt": "2026-10-20T13:07:24.000Z"
     },
     {
       "rank": 4,
@@ -1020,6 +1020,26 @@
     },
     {
       "rank": 6,
+      "id": "lh8vm7yp332xoffhqoscusss4",
+      "title": "Google 与 Meta 开源 TorchTPU，Hugging Face 原生支持 TPU",
+      "url": "https://pytorch.org/blog/introducing-torchtpu/",
+      "permalink": "https://aihot.news/items/lh8vm7yp332xoffhqoscusss4",
+      "storyPermalink": "https://aihot.virxact.com/story/d7566385-503b-4b33-acd6-21a80dd4085a",
+      "source": "PyTorch：Blog（RSS）",
+      "sourceCount": 5,
+      "signalCount": 7,
+      "participantCount": 12,
+      "sourceNames": [
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "TechCrunch：AI（RSS）",
+        "PyTorch：Blog（RSS）",
+        "MarkTechPost（RSS）",
+        "Hugging Face 官方团队博客"
+      ],
+      "latestAt": "2026-10-20T19:31:43.000Z"
+    },
+    {
+      "rank": 7,
       "id": "duhjb2yq1x0tlcxiwgqwyrjxm",
       "title": "Google 将 Gemini 个人智能引入车载系统",
       "url": "https://x.com/Google/status/2112655614132285592",
@@ -1037,43 +1057,7 @@
       "latestAt": "2026-10-20T22:11:34.000Z"
     },
     {
-      "rank": 7,
-      "id": "lh8vm7yp332xoffhqoscusss4",
-      "title": "Google 与 Meta 开源 TorchTPU，Hugging Face 原生支持 TPU",
-      "url": "https://pytorch.org/blog/introducing-torchtpu/",
-      "permalink": "https://aihot.news/items/lh8vm7yp332xoffhqoscusss4",
-      "storyPermalink": "https://aihot.virxact.com/story/d7566385-503b-4b33-acd6-21a80dd4085a",
-      "source": "PyTorch：Blog（RSS）",
-      "sourceCount": 5,
-      "signalCount": 5,
-      "participantCount": 10,
-      "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "TechCrunch：AI（RSS）",
-        "PyTorch：Blog（RSS）",
-        "MarkTechPost（RSS）",
-        "Hugging Face 官方团队博客"
-      ],
-      "latestAt": "2026-10-20T19:31:43.000Z"
-    },
-    {
       "rank": 8,
-      "id": "ov4nfafvbhe7d8mj1uirkgsxb",
-      "title": "SpaceX 三季度 AI 业务收入占比过半并扭亏为盈",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "permalink": "https://aihot.news/items/ov4nfafvbhe7d8mj1uirkgsxb",
-      "storyPermalink": "https://aihot.virxact.com/story/2ba6c88e-eaa2-47c1-b517-8f89994933d9",
-      "source": "TechCrunch：AI（RSS）",
-      "sourceCount": 1,
-      "signalCount": 8,
-      "participantCount": 9,
-      "sourceNames": [
-        "TechCrunch：AI（RSS）"
-      ],
-      "latestAt": "2026-10-20T20:40:41.000Z"
-    },
-    {
-      "rank": 9,
       "id": "asyalmeuxw45l5wj2tar3tda5",
       "title": "ChatGPT上线锁定聊天，全套餐可PIN或生物识别保护",
       "url": "https://x.com/ChatGPT/status/2112597766333673624",
@@ -1081,8 +1065,8 @@
       "storyPermalink": "https://aihot.virxact.com/story/4ae113ab-ed43-4b60-8667-e154b21617cd",
       "source": "X：ChatGPT (@ChatGPT)",
       "sourceCount": 4,
-      "signalCount": 5,
-      "participantCount": 9,
+      "signalCount": 7,
+      "participantCount": 11,
       "sourceNames": [
         "IT之家·人工智能",
         "TechCrunch：AI（RSS）",
@@ -1092,20 +1076,38 @@
       "latestAt": "2026-10-20T23:22:26.990Z"
     },
     {
-      "rank": 10,
-      "id": "srgsfi8edabzrwgg6vjtgw3ya",
-      "title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元",
-      "url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
-      "permalink": "https://aihot.news/items/srgsfi8edabzrwgg6vjtgw3ya",
-      "storyPermalink": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "rank": 9,
+      "id": "ov4nfafvbhe7d8mj1uirkgsxb",
+      "title": "SpaceX 三季度 AI 业务收入占比过半并扭亏为盈",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "permalink": "https://aihot.news/items/ov4nfafvbhe7d8mj1uirkgsxb",
+      "storyPermalink": "https://aihot.virxact.com/story/2ba6c88e-eaa2-47c1-b517-8f89994933d9",
+      "source": "TechCrunch：AI（RSS）",
       "sourceCount": 1,
-      "signalCount": 10,
-      "participantCount": 11,
+      "signalCount": 9,
+      "participantCount": 10,
       "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)"
+        "TechCrunch：AI（RSS）"
       ],
-      "latestAt": "2026-10-20T08:06:25.000Z"
+      "latestAt": "2026-10-20T20:40:41.000Z"
+    },
+    {
+      "rank": 10,
+      "id": "tg02d4j3421erivjnmogan129",
+      "title": "Meta Muse首日留存超ChatGPT，14日反落后",
+      "url": "https://www.ithome.com/1/015/631.htm",
+      "permalink": "https://aihot.news/items/tg02d4j3421erivjnmogan129",
+      "storyPermalink": "https://aihot.virxact.com/story/c36f8d4b-027d-40a0-8d41-321b17a56489",
+      "source": "IT之家·人工智能",
+      "sourceCount": 3,
+      "signalCount": 7,
+      "participantCount": 10,
+      "sourceNames": [
+        "IT之家·人工智能",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "TechCrunch：AI（RSS）"
+      ],
+      "latestAt": "2026-10-20T23:34:16.363Z"
     }
   ],
   "daily": {

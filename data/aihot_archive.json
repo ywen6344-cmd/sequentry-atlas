@@ -1,8 +1,44 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T01:08:58Z",
-  "count": 1388,
+  "updated_at": "2026-10-21T04:04:58Z",
+  "count": 1390,
   "items": [
+    {
+      "id": "gf3h1rt1vsjw3dnw4hxlie3fv",
+      "channel": "aihot",
+      "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
+      "title_en": "Day 16/",
+      "summary": "OpenAI 开发者账号宣布 API 现已可选 12 小时 prompt 缓存，持续运行的智能体可在请求间隔数小时的情况下继续以更低的缓存输入费率复用指令、工具和上下文。Tibo 补充称，Codex 与 Work 中已登录用户的缓存会永久保留，返回旧对话或数小时后恢复会话保证命中缓存，且无额外惩罚。",
+      "source": "X：Tibo (@thsottiaux)",
+      "published_at": "2026-10-21T01:10:02.000Z",
+      "category": "ai-products",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/gf3h1rt1vsjw3dnw4hxlie3fv",
+      "original_url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/gf3h1rt1vsjw3dnw4hxlie3fv"
+      }
+    },
+    {
+      "id": "afv7us0zbvzo789rghqkfhq5q",
+      "channel": "aihot",
+      "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+      "title_en": "Announcing Humming: Fast, Flexible Kernels for Quantized Inference",
+      "summary": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。",
+      "source": "vLLM 官方博客（RSS）",
+      "published_at": "2026-10-21T00:00:00.000Z",
+      "category": "ai-products",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q",
+      "original_url": "https://vllm.ai/blog/2026-10-21-humming",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/afv7us0zbvzo789rghqkfhq5q"
+      }
+    },
     {
       "id": "cbzvuf1atk51l7i5c2dpgboao",
       "channel": "aihot",

@@ -1,66 +1,10 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
  "updated": "2026-10-21",
- "total": 1239,
- "source_count": 55,
+ "total": 1271,
+ "source_count": 57,
  "score_min": 60,
  "by_cat": {
-  "market-product": [
-   {
-    "t": "关税冲击供应链，Veja转向聚焦增长",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/veja-brazil-us-tariffs-wholesale-retail-strategy/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-20",
-    "p": "P0",
-    "m": "US",
-    "score": 87
-   },
-   {
-    "t": "万智牌季度营收创6亿美元纪录",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/hasbro-q3-magic-the-gathering-record-revenue/833451/",
-    "d": "2026-10-20",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Anthropologie假日营销：携手DoorDash推《真爱至上》重聚",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/love-actually-reunions-delivered-by-doordash-inside-anthropologies-holiday-sales-pitch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-19",
-    "p": "P1",
-    "m": "US",
-    "score": 78
-   },
-   {
-    "t": "Amy's Kitchen发起全国 campaign 破除超加工食品迷思",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/amys-kitchen-tackles-ultra-processed-food-myths-in-national-campaign/833334/",
-    "d": "2026-10-19",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "百事押注冷藏鲜食汤和牛油果酱驱动增长",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/pepsico-bets-on-refrigerated-fresh-foods-like-gazpacho-and-guacamole-to-drive-growth/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-20",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "1-800-Flowers.com将两个业务部门出售给PlanetArt",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/19/1-800-flowers-com-sells-two-business-units-to-planetart/",
-    "d": "2026-10-19",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   }
-  ],
   "platform-channel": [
    {
     "t": "Shopify管理API新增元对象分析可查询能力",
@@ -99,6 +43,15 @@ window.NAV_FEED = {
     "score": 81
    },
    {
+    "t": "Evervault推出浏览器令牌，保障智能体支付安全",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111376/evervault-launches-browser-tokens-enabling-secure-agentic-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-10-20",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
     "t": "Dollar Shave Club借AI营销推“够好用”剃须刀",
     "s": "Marketing Dive",
     "u": "https://www.marketingdive.com/news/dollar-shave-club-markets-perfectly-good-razors-as-ai-push-continues/833343/",
@@ -106,15 +59,6 @@ window.NAV_FEED = {
     "p": "P1",
     "m": "US",
     "score": 79
-   },
-   {
-    "t": "Bonobos上线Shopify新站，打通全渠道尺码档案",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/19/bonobos-launches-shopify-powered-site-with-omnichannel-fit-and-profile-capabilities/",
-    "d": "2026-10-19",
-    "p": "P1",
-    "m": "US",
-    "score": 74
    }
   ],
   "brand-retail": [
@@ -126,15 +70,6 @@ window.NAV_FEED = {
     "p": "P1",
     "m": "UK",
     "score": 83
-   },
-   {
-    "t": "Glossy+研究发布2026创作者营销指数",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/research/glossy-research-2026-creator-marketing-index-a-brand-guide-to-effective-social-media-campaigns/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-20",
-    "p": "P1",
-    "m": "US",
-    "score": 69
    },
    {
     "t": "HarborLab：航运港口使费为何仍困在Excel",
@@ -162,6 +97,62 @@ window.NAV_FEED = {
     "p": "P1",
     "m": "US",
     "score": 62
+   }
+  ],
+  "market-product": [
+   {
+    "t": "万智牌季度营收创6亿美元纪录",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/hasbro-q3-magic-the-gathering-record-revenue/833451/",
+    "d": "2026-10-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "City & County信用社签约Mahalo Banking",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111371/city--county-credit-union-signs-with-mahalo-banking?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-10-20",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "关税冲击供应链，Veja转向聚焦增长",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/veja-brazil-us-tariffs-wholesale-retail-strategy/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-20",
+    "p": "P0",
+    "m": "US",
+    "score": 82
+   },
+   {
+    "t": "Anthropologie假日营销：携手DoorDash推《真爱至上》重聚",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/love-actually-reunions-delivered-by-doordash-inside-anthropologies-holiday-sales-pitch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-19",
+    "p": "P1",
+    "m": "US",
+    "score": 78
+   },
+   {
+    "t": "Amy's Kitchen发起全国 campaign 破除超加工食品迷思",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/amys-kitchen-tackles-ultra-processed-food-myths-in-national-campaign/833334/",
+    "d": "2026-10-19",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
+   {
+    "t": "调查：近三成假日预算10月底前花完",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/nearly-30-of-holiday-budgets-expected-to-be-spent-by-the-end-of-october/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-19",
+    "p": "P1",
+    "m": "US",
+    "score": 68
    }
   ]
  }
