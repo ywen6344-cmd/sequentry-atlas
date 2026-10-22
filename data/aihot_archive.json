@@ -1,8 +1,80 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T01:07:36Z",
-  "count": 1408,
+  "updated_at": "2026-10-22T04:08:55Z",
+  "count": 1412,
   "items": [
+    {
+      "id": "nag5wgod0havrmodeo75pwnge",
+      "channel": "aihot",
+      "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+      "title_en": "WSJ: Musk wants to combine a $2T rocket company with a $1.5T carmaker around AI.",
+      "summary": "WSJ 报道，马斯克希望以 AI 为核心将估值约 $2T 的 SpaceX 与约 $1.5T 的 Tesla 合并。SpaceX 的 AI 业务已成其最大业务，Q3 营收 $7.56B（一年前仅 $813M），季度 $19.6B 资本开支中超过 $16.4B 投向 AI，推动 SpaceX 实现季度利润 $4.4B（上年同期亏损 $1.05B）。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-10-22T03:16:19.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge",
+      "original_url": "https://x.com/rohanpaul_ai/status/2113107154219741231",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge"
+      }
+    },
+    {
+      "id": "eud25k8zsrrwc63xp39ptvfah",
+      "channel": "aihot",
+      "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+      "title_en": "Bloomberg: DeepSeek has raised about $15B, one of China’s largest private financings.",
+      "summary": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。投前估值约 748 亿美元，加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-10-22T03:13:00.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah",
+      "original_url": "https://x.com/rohanpaul_ai/status/2113106318659928525",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah"
+      }
+    },
+    {
+      "id": "h1v8wxdkljwpiyadhmy7miw4x",
+      "channel": "aihot",
+      "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+      "title_en": "AI挖出藏了十几年的底层PHP漏洞，网络安全也回不去那个旧时代了。",
+      "summary": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "published_at": "2026-10-22T02:33:39.000Z",
+      "category": "industry",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x",
+      "original_url": "https://x.com/Khazix0918/status/2113096414469464281",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x"
+      }
+    },
+    {
+      "id": "p6muwj8t5l4p2fcshu0tpzpek",
+      "channel": "aihot",
+      "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+      "title_en": "迈步“史上最大 IPO”，消息称 Anthropic 最快本周五公开提交上市申请",
+      "summary": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。",
+      "source": "IT之家·人工智能",
+      "published_at": "2026-10-22T02:17:14.247Z",
+      "category": "industry",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/p6muwj8t5l4p2fcshu0tpzpek",
+      "original_url": "https://www.ithome.com/1/016/243.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/p6muwj8t5l4p2fcshu0tpzpek"
+      }
+    },
     {
       "id": "ianx6h2f39f9xcxpno4a3cspi",
       "channel": "aihot",

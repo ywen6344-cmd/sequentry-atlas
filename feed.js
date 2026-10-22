@@ -16,15 +16,6 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "关税冲击供应链，Veja转向聚焦增长",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/veja-brazil-us-tariffs-wholesale-retail-strategy/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-20",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
     "t": "City & County信用社签约Mahalo Banking",
     "s": "Finextra 金融科技",
     "u": "https://www.finextra.com/pressarticle/111371/city--county-credit-union-signs-with-mahalo-banking?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -59,6 +50,15 @@ window.NAV_FEED = {
     "p": "P2",
     "m": "CN",
     "score": 66
+   },
+   {
+    "t": "尼克斯逆转赛点教品牌做实时营销",
+    "s": "Digiday",
+    "u": "https://digiday.com/sponsored/what-championship-moments-like-the-knicks-game-four-comeback-teach-brands-about-real-time-marketing/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-21",
+    "p": "P1",
+    "m": "US",
+    "score": 62
    }
   ],
   "platform-channel": [

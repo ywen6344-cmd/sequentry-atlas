@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "provider": "Sequentry Feed Collectors",
-  "generated_at": "2026-10-22T01:07:30.485144+00:00",
+  "generated_at": "2026-10-22T04:08:50.758375+00:00",
   "count": 1240,
-  "featured_count": 25,
+  "featured_count": 26,
   "source_count": 58,
   "score_min": 60,
-  "overview": "今天最值得注意的，是DTC竞争正从流量与商品转向\"供给整合+智能代理\"的基础设施之争：AI广告、智能体支付安全、平台外链与退货接入同时铺开，品牌触点正被重构。Veja在关税冲击下转向聚焦增长，也提示研究者：供应链韧性正成为品牌策略的一等变量。",
+  "overview": "今天最值得注意的，是 DTC 竞争正从“流量与货盘”转向“供给整合＋智能代理”的系统能力：平台合作扩品类、AI 代理重塑广告与支付安全、退货与配送被接入内容与本地履约。品牌研究者应重点观察谁在把 AI 助手、清晰定价与履约体验串成可复用的增长基础设施。",
   "items": [
     {
       "id": "sig_dd10febe7165",
@@ -3379,7 +3379,7 @@
       "channel": "commerce",
       "title": "尼克斯第四场逆转等冠军时刻给品牌实时营销的启示",
       "original_title": "What championship moments like the Knicks’ Game Four comeback teach brands about real-time marketing",
-      "summary": "Nikolaus Beier, svp of media and marketing services, Sportradar The power sports hold for marketers — to attract massive attention, foster engagement and bring fans together — were on full display during the New York Knicks’ run to the NBA championship this summer, and, more specifically, their massive Game Four comeback. It was a significant […]",
+      "summary": "借NBA逆转热点拆解实时营销节奏，研究Sportradar如何用赛事数据帮品牌抓瞬间流量。",
       "source": "Digiday",
       "source_id": "digiday",
       "published_at": "2026-10-21",
@@ -3394,7 +3394,7 @@
       "escalated": false,
       "original_url": "https://digiday.com/sponsored/what-championship-moments-like-the-knicks-game-four-comeback-teach-brands-about-real-time-marketing/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": false
+      "featured": true
     },
     {
       "id": "sig_81b057fa4f5e",
@@ -3988,7 +3988,7 @@
       "escalated": true,
       "original_url": "https://www.glossy.co/fashion/veja-brazil-us-tariffs-wholesale-retail-strategy/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
       "verified_date": true,
-      "featured": true
+      "featured": false
     },
     {
       "id": "sig_f7e0baf968f5",
@@ -5572,7 +5572,7 @@
       "escalated": false,
       "original_url": "https://www.digitalcommerce360.com/2026/10/20/walmart-and-sams-club-plus-memberships-to-come-bundled-in-120-subscription/",
       "verified_date": true,
-      "featured": false
+      "featured": true
     },
     {
       "id": "sig_d692f1bef185",

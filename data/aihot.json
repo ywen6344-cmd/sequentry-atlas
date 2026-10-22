@@ -3,11 +3,83 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-d383812936ce462a",
-  "fetched_at": "2026-10-22T01:07:36Z",
+  "fingerprint": "f1-6a90a46ee2f3d6ac",
+  "fetched_at": "2026-10-22T04:08:55Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "nag5wgod0havrmodeo75pwnge",
+      "channel": "aihot",
+      "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
+      "title_en": "WSJ: Musk wants to combine a $2T rocket company with a $1.5T carmaker around AI.",
+      "summary": "WSJ 报道，马斯克希望以 AI 为核心将估值约 $2T 的 SpaceX 与约 $1.5T 的 Tesla 合并。SpaceX 的 AI 业务已成其最大业务，Q3 营收 $7.56B（一年前仅 $813M），季度 $19.6B 资本开支中超过 $16.4B 投向 AI，推动 SpaceX 实现季度利润 $4.4B（上年同期亏损 $1.05B）。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-10-22T03:16:19.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge",
+      "original_url": "https://x.com/rohanpaul_ai/status/2113107154219741231",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge"
+      }
+    },
+    {
+      "id": "eud25k8zsrrwc63xp39ptvfah",
+      "channel": "aihot",
+      "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
+      "title_en": "Bloomberg: DeepSeek has raised about $15B, one of China’s largest private financings.",
+      "summary": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。投前估值约 748 亿美元，加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-10-22T03:13:00.000Z",
+      "category": "industry",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah",
+      "original_url": "https://x.com/rohanpaul_ai/status/2113106318659928525",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah"
+      }
+    },
+    {
+      "id": "h1v8wxdkljwpiyadhmy7miw4x",
+      "channel": "aihot",
+      "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+      "title_en": "AI挖出藏了十几年的底层PHP漏洞，网络安全也回不去那个旧时代了。",
+      "summary": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "published_at": "2026-10-22T02:33:39.000Z",
+      "category": "industry",
+      "source_score": 83.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x",
+      "original_url": "https://x.com/Khazix0918/status/2113096414469464281",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x"
+      }
+    },
+    {
+      "id": "p6muwj8t5l4p2fcshu0tpzpek",
+      "channel": "aihot",
+      "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+      "title_en": "迈步“史上最大 IPO”，消息称 Anthropic 最快本周五公开提交上市申请",
+      "summary": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。",
+      "source": "IT之家·人工智能",
+      "published_at": "2026-10-22T02:17:14.247Z",
+      "category": "industry",
+      "source_score": 82.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/p6muwj8t5l4p2fcshu0tpzpek",
+      "original_url": "https://www.ithome.com/1/016/243.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/p6muwj8t5l4p2fcshu0tpzpek"
+      }
+    },
     {
       "id": "ianx6h2f39f9xcxpno4a3cspi",
       "channel": "aihot",
@@ -835,78 +907,6 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/h4dx2g41nbw5jofprsfwr2xmq"
       }
-    },
-    {
-      "id": "bnkk7s6s6tijtopwjxvx6eiw3",
-      "channel": "aihot",
-      "title": "Meta 开源权重模型 Muse Spark Open 在 Fireworks 上线，主打长上下文编码与 Agent 工作",
-      "title_en": "Muse Spark Open on Fireworks: Meta’s open weights wodel, available on US serverless",
-      "summary": "Meta 的开源权重模型 Muse Spark Open 在 Fireworks 上 Day-0 开放 serverless 调用，为 816B 参数 MoE 模型，每 token 激活 42B 参数，上下文窗口 1M token。",
-      "source": "Fireworks AI（网页）",
-      "published_at": "2026-10-19T16:00:00.000Z",
-      "category": "ai-products",
-      "source_score": 72.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/bnkk7s6s6tijtopwjxvx6eiw3",
-      "original_url": "https://fireworks.ai/blog/meta-muse-spark-open",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/bnkk7s6s6tijtopwjxvx6eiw3"
-      }
-    },
-    {
-      "id": "apaky0ybxpb9uwt12jrwj954p",
-      "channel": "aihot",
-      "title": "Redact 调查：WhatsApp 帮助页面隐藏 LLM 指令，让 AI 不推荐监管机构、不提 GDPR",
-      "title_en": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "summary": "Redact 发现 WhatsApp 帮助中心页面向 LLM 发送用户看不到的隐藏指令，指示其支持聊天机器人不推荐数据保护监管机构，并在用户提到律师或法律行动后不引用 GDPR、LGPD 或 CCPA。",
-      "source": "Hacker News：AI 热帖",
-      "published_at": "2026-10-19T16:00:00.000Z",
-      "category": "industry",
-      "source_score": 80.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/apaky0ybxpb9uwt12jrwj954p",
-      "original_url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/apaky0ybxpb9uwt12jrwj954p"
-      }
-    },
-    {
-      "id": "qh6pvehounuylklti7i0zl124",
-      "channel": "aihot",
-      "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
-      "title_en": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-      "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
-      "source": "Meta Engineering Blog（RSS）",
-      "published_at": "2026-10-19T15:30:37.000Z",
-      "category": "tip",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/qh6pvehounuylklti7i0zl124",
-      "original_url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/qh6pvehounuylklti7i0zl124"
-      }
-    },
-    {
-      "id": "p04w1xjk7v6fmlskpf5vsnuka",
-      "channel": "aihot",
-      "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
-      "title_en": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
-      "summary": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
-      "source": "Hacker News：AI 热帖",
-      "published_at": "2026-10-19T15:05:00.000Z",
-      "category": "industry",
-      "source_score": 85.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
-      "original_url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka"
-      }
     }
   ],
   "hot_topics": [
@@ -918,43 +918,43 @@
       "permalink": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx",
       "storyPermalink": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd",
       "source": "Claude：Blog（网页）",
-      "sourceCount": 9,
-      "signalCount": 33,
-      "participantCount": 42,
+      "sourceCount": 10,
+      "signalCount": 38,
+      "participantCount": 48,
       "sourceNames": [
+        "X：邵猛 (@shao__meng)",
         "X：howie.serious (@howie_serious)",
         "IT之家·人工智能",
         "X：indigo (@indigox)",
         "X：Testing Catalog (@testingcatalog)",
         "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
         "The Verge：AI（RSS）",
-        "X：Yuchen Jin (@Yuchenj_UW)",
-        "Claude 应用发布说明"
+        "X：Yuchen Jin (@Yuchenj_UW)"
       ],
-      "latestAt": "2026-10-22T00:32:59.000Z"
+      "latestAt": "2026-10-22T01:22:36.000Z"
     },
     {
       "rank": 2,
       "id": "r4saw5foxj8v0eb82f3b66cs0",
-      "title": "OpenAI称模型协助发现PHP核心漏洞，Wiz披露可致RCE",
+      "title": "OpenAI称AI模型协助发现PHP核心RCE漏洞，补丁已发布",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
       "permalink": "https://aihot.news/items/r4saw5foxj8v0eb82f3b66cs0",
       "storyPermalink": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "sourceCount": 8,
-      "signalCount": 30,
-      "participantCount": 38,
+      "sourceCount": 9,
+      "signalCount": 35,
+      "participantCount": 44,
       "sourceNames": [
+        "X：卡兹克 (@Khazix0918)",
         "X：Ethan Mollick (@emollick)",
         "公众号：数字生命卡兹克",
         "The Decoder：AI News（RSS）",
         "Simon Willison 博客",
         "TechCrunch：AI（RSS）",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "X：OpenAI (@OpenAI)",
-        "Wiz：Research（安全研究）"
+        "X：OpenAI (@OpenAI)"
       ],
-      "latestAt": "2026-10-22T00:22:07.000Z"
+      "latestAt": "2026-10-22T02:33:39.000Z"
     },
     {
       "rank": 3,
@@ -981,43 +981,6 @@
     },
     {
       "rank": 4,
-      "id": "h05v2w7n5qxnee1h89espx59t",
-      "title": "马斯克称SpaceX与特斯拉已设委员会评估合并",
-      "url": "https://x.com/rohanpaul_ai/status/2112830424418500861",
-      "permalink": "https://aihot.news/items/h05v2w7n5qxnee1h89espx59t",
-      "storyPermalink": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "sourceCount": 1,
-      "signalCount": 26,
-      "participantCount": 27,
-      "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)"
-      ],
-      "latestAt": "2026-10-21T08:56:42.000Z"
-    },
-    {
-      "rank": 5,
-      "id": "nkn1qfqlo0oyt205jfrk4th22",
-      "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "permalink": "https://aihot.news/items/nkn1qfqlo0oyt205jfrk4th22",
-      "storyPermalink": "https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997",
-      "source": "TechCrunch：AI（RSS）",
-      "sourceCount": 6,
-      "signalCount": 12,
-      "participantCount": 18,
-      "sourceNames": [
-        "MarkTechPost（RSS）",
-        "TechCrunch：AI（RSS）",
-        "X：Testing Catalog (@testingcatalog)",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-        "vLLM 官方博客（RSS）"
-      ],
-      "latestAt": "2026-10-21T22:39:41.000Z"
-    },
-    {
-      "rank": 6,
       "id": "bm4bwid4hdnitbtz7pr6gtd0r",
       "title": "OpenAI三款模型上架Google Cloud私测",
       "url": "https://openai.com/index/openai-models-google-cloud",
@@ -1025,8 +988,8 @@
       "storyPermalink": "https://aihot.virxact.com/story/49445e2f-d496-4acd-bc5e-70027cffd24a",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "sourceCount": 5,
-      "signalCount": 12,
-      "participantCount": 17,
+      "signalCount": 16,
+      "participantCount": 21,
       "sourceNames": [
         "X：OpenAI (@OpenAI)",
         "X：Testing Catalog (@testingcatalog)",
@@ -1037,7 +1000,62 @@
       "latestAt": "2026-10-21T19:23:19.000Z"
     },
     {
+      "rank": 5,
+      "id": "h05v2w7n5qxnee1h89espx59t",
+      "title": "马斯克推动SpaceX与特斯拉以AI为核心合并",
+      "url": "https://x.com/rohanpaul_ai/status/2112830424418500861",
+      "permalink": "https://aihot.news/items/h05v2w7n5qxnee1h89espx59t",
+      "storyPermalink": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "sourceCount": 1,
+      "signalCount": 26,
+      "participantCount": 27,
+      "sourceNames": [
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "latestAt": "2026-10-22T03:16:19.000Z"
+    },
+    {
+      "rank": 6,
+      "id": "nkn1qfqlo0oyt205jfrk4th22",
+      "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "permalink": "https://aihot.news/items/nkn1qfqlo0oyt205jfrk4th22",
+      "storyPermalink": "https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997",
+      "source": "TechCrunch：AI（RSS）",
+      "sourceCount": 7,
+      "signalCount": 12,
+      "participantCount": 19,
+      "sourceNames": [
+        "X：邵猛 (@shao__meng)",
+        "MarkTechPost（RSS）",
+        "TechCrunch：AI（RSS）",
+        "X：Testing Catalog (@testingcatalog)",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+        "vLLM 官方博客（RSS）"
+      ],
+      "latestAt": "2026-10-22T01:58:01.000Z"
+    },
+    {
       "rank": 7,
+      "id": "allv4n9g9lhfy72m1pg725apv",
+      "title": "Anthropic三季度收入168亿美元，增速放缓",
+      "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+      "permalink": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
+      "storyPermalink": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
+      "source": "The Decoder：AI News（RSS）",
+      "sourceCount": 2,
+      "signalCount": 17,
+      "participantCount": 19,
+      "sourceNames": [
+        "IT之家·人工智能",
+        "X：Rohan Paul (@rohanpaul_ai)"
+      ],
+      "latestAt": "2026-10-22T02:17:14.247Z"
+    },
+    {
+      "rank": 8,
       "id": "p04w1xjk7v6fmlskpf5vsnuka",
       "title": "美土安全部令联邦文职机构移除DeepSeek及关联产品",
       "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
@@ -1045,8 +1063,8 @@
       "storyPermalink": "https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72",
       "source": "Hacker News：AI 热帖",
       "sourceCount": 4,
-      "signalCount": 25,
-      "participantCount": 29,
+      "signalCount": 24,
+      "participantCount": 28,
       "sourceNames": [
         "The Decoder：AI News（RSS）",
         "TechCrunch：AI（RSS）",
@@ -1056,7 +1074,7 @@
       "latestAt": "2026-10-21T13:04:19.000Z"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "id": "uaewh6yvv55k3kqgy7zsxyqi7",
       "title": "OpenAI通报两起模型抑制失准监控事件",
       "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
@@ -1075,23 +1093,6 @@
       "latestAt": "2026-10-21T13:57:43.000Z"
     },
     {
-      "rank": 9,
-      "id": "e35drm2tixen1lpydh1icju57",
-      "title": "Amodei 回应 Anthropic 安全立场批评",
-      "url": "https://x.com/DarioAmodei/status/2112732230124818891",
-      "permalink": "https://aihot.news/items/e35drm2tixen1lpydh1icju57",
-      "storyPermalink": "https://aihot.virxact.com/story/91257b3c-06c3-4abf-96c2-d36872494857",
-      "source": "X：Dario Amodei (@DarioAmodei)",
-      "sourceCount": 2,
-      "signalCount": 14,
-      "participantCount": 16,
-      "sourceNames": [
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Dario Amodei (@DarioAmodei)"
-      ],
-      "latestAt": "2026-10-21T06:40:27.000Z"
-    },
-    {
       "rank": 10,
       "id": "znxfhvd3rdohvd4nynrypst74",
       "title": "宇树发布H2-X功夫机器人，称续航约8小时",
@@ -1100,8 +1101,8 @@
       "storyPermalink": "https://aihot.virxact.com/story/17f55a61-59e1-4723-ac94-a66e106a8524",
       "source": "X：宇树 Unitree (@UnitreeRobotics)",
       "sourceCount": 2,
-      "signalCount": 11,
-      "participantCount": 13,
+      "signalCount": 12,
+      "participantCount": 14,
       "sourceNames": [
         "X：Rohan Paul (@rohanpaul_ai)",
         "X：宇树 Unitree (@UnitreeRobotics)"
