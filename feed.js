@@ -1,81 +1,81 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-23",
- "total": 1279,
- "source_count": 57,
+ "updated": "2026-10-24",
+ "total": 1254,
+ "source_count": 56,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
    {
-    "t": "Salesforce以56.6亿美元收购Braze，加码AI营销",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/22/salesforce-to-acquire-braze-for-5-66-billion-to-expand-ai-powered-marketing/",
-    "d": "2026-10-22",
-    "p": "P0",
-    "m": "US",
-    "score": 87
-   },
-   {
-    "t": "Shopify店铺支持UCP门店搜索与查询",
+    "t": "Shopify GraphQL管理API支持解绑客户身份提供商",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/discover-a-merchant-s-retail-stores-with-ucp-location-search-and-lookup",
-    "d": "2026-10-22",
-    "p": "P1",
-    "m": "US",
-    "score": 84
-   },
-   {
-    "t": "Shopify POS UI扩展支持响应式存储访问",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/pos-ui-extensions-now-support-reactive-storage-access",
-    "d": "2026-10-22",
+    "u": "https://shopify.dev/changelog/unlink-a-customers-identity-provider-subject-with-the-admin-graphql-api",
+    "d": "2026-10-23",
     "p": "P1",
     "m": "GLOBAL",
     "score": 84
    },
    {
-    "t": "David's Bridal计划分拆其AI驱动的Pearl平台",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/22/davids-bridal-pearl-ai-spinoff/",
-    "d": "2026-10-22",
+    "t": "亚马逊推出Bee Frontier与Bee Eclipse可穿戴AI助手",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/amazon-bee-frontier-and-bee-eclipse-wearable-ai-assistants/",
+    "d": "2026-10-23",
+    "p": "P1",
+    "m": "UK",
+    "score": 83
+   },
+   {
+    "t": "研究：AI提升商品发现，评论仍决定成交",
+    "s": "Digiday",
+    "u": "https://digiday.com/marketing/ai-boosts-discovery-but-reviews-still-seal-the-deal-new-research-shows/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-23",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "Etsy更新AI政策强调手工真实性",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/etsy-updates-ai-use-policies-emphasize-craftsmanship/833838/",
+    "d": "2026-10-23",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "处方护肤品牌Musely联盟营销收入增长1200%",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/sponsored/how-prescription-skincare-brand-musely-drove-1200-affiliate-revenue-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-22",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "SoFi推出代币化存款",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-10-22",
+    "t": "Shopify Rollouts支持定时测试商品目录变更",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/schedule-and-test-catalog-changes-with-rollouts",
+    "d": "2026-10-23",
     "p": "P1",
     "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "翻新电子产品平台refurbed登陆英国",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/refurbed-marketplace-launches-in-the-uk/",
+    "d": "2026-10-23",
+    "p": "P1",
+    "m": "UK",
     "score": 79
    }
   ],
   "market-product": [
    {
-    "t": "假日退货潮迫使零售商重新思考策略",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/why-holiday-returns-demand-fresh-thinking-from-retailers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-22",
+    "t": "假日退货潮倒逼零售商转变思路",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/sponsored/why-holiday-returns-demand-fresh-thinking-from-retailers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-23",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 83
    },
    {
-    "t": "Tractor Supply任命前家得宝高管为首席技术数字官",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/tractor-supply-hires-home-depot-vet-chief-digital-technology-officer/833724/",
-    "d": "2026-10-22",
+    "t": "SharkNinja借粉丝带货备战假日季",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/pop/sharkninja-fans-beauty-creators-holiday-shopping/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-23",
     "p": "P1",
     "m": "US",
     "score": 79
@@ -87,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-10-22",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "欧盟欢迎可口可乐、雀巢、达能承诺修改塑料瓶回收声明",
@@ -96,53 +96,55 @@ window.NAV_FEED = {
     "d": "2026-10-22",
     "p": "P1",
     "m": "EU",
-    "score": 79
-   },
-   {
-    "t": "调查：营销者看好2026假日季营收，无惧经济压力",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/modern-retail-research-marketers-express-revenue-optimism-for-the-2026-holiday-season-despite-economic-pressures/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-22",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "碎片化时代为何需整合供给、需求与智能",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/why-uniting-supply-demand-and-intelligence-matters-in-an-era-of-fragmentation/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-21",
-    "p": "P1",
-    "m": "US",
     "score": 74
+   },
+   {
+    "t": "奥地利线上零售支出占比达16%",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/austrians-spent-16-of-retail-expenditure-online/",
+    "d": "2026-10-23",
+    "p": "P1",
+    "m": "EU",
+    "score": 69
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "Shopify按履约地精准计算英国VAT",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/more-accurate-uk-vat-based-on-fulfillment-location",
+    "d": "2026-10-23",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "库比柳斯委员在第三届混合威胁报告发布活动上的开场致辞",
+    "s": "EU 委员会新闻",
+    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2242",
+    "d": "2026-10-23",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
    }
   ],
   "brand-retail": [
    {
-    "t": "Cymbiotika售出2亿条脂质体条包，进军美容补充剂市场",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/podcasts/cymbiotika-sold-200-million-liposomal-sachets-now-its-taking-on-the-beauty-supplement-market/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-22",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Carminati极简窗框点亮迪拜宝格丽酒店天际线",
+    "t": "上海茶饮品牌Basao旗舰店融入外滩历史建筑",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/22/carminati-lift-slide-windows-frame-dubai-skyline-bvlgari-hotel-resort/",
-    "d": "2026-10-22",
+    "u": "https://www.dezeen.com/2026/10/23/shanghai-tea-shop-basao-rockbund-historic-buildings/",
+    "d": "2026-10-23",
     "p": "P1",
     "m": "UK",
     "score": 69
    },
    {
-    "t": "触达胜过创意：营销数学的关键",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/why-reach-beats-creative-angela-voss-and-dale-harrison-on-the-marketing-math-that-matters/",
-    "d": "2026-10-22",
+    "t": "斯凯奇第18届友谊步行活动筹得330万美元",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-industry-news/skechers-18th-pier-to-pier-friendship-walk-3-3-million-1239384456/",
+    "d": "2026-10-23",
     "p": "P2",
-    "m": "US",
+    "m": "GLOBAL",
     "score": 66
    }
   ]
