@@ -1,11 +1,132 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-26",
- "total": 1240,
- "source_count": 56,
+ "updated": "2026-10-27",
+ "total": 1232,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
+  "platform-channel": [
+   {
+    "t": "Banana Republic推出TikTok内容系列吸引年轻消费者",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/banana-republic-debuts-tiktok-content-series-in-bid-for-younger-shoppers/833851/",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "Shopify结账页脚政策链接合并为单一入口",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/the-checkout-footer-now-shows-one-terms-and-policies-link",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Shopify后台内置知识库，管理AI代理获取的店铺信息",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/knowledge-base-is-now-available-in-your-admin",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "阳狮为Marcel平台设领导层，AI代理驱动增长",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/publicis-installs-leadership-atop-marcel-as-agentic-drives-growth-plans/872691/",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Zooplus宠物电商平台登陆西班牙",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/zooplus-marketplace-launches-in-spain/",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Strawberry推出面向非技术团队的AI学习平台",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/strawberry-ai-companions-for-non-technical-teams/",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   }
+  ],
+  "market-product": [
+   {
+    "t": "CVS扩大宝可梦及收藏品销售",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "零售商精准策略备战万亿假日销售季",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/retailers-take-a-targeted-approach-to-seasonal-hiring-in-preparation-for-historic-holiday-sales-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Glossy+研究：2026假日季品牌对自有渠道的重视度动摇",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/research/glossy-research-brands-focus-on-owned-channels-wavers-for-the-2026-holiday-season/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Bath & Body Works假日季告捷，Zooey Deschanel能否助其再下一城？",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/bath-body-works-has-a-successful-holiday-season-on-its-wishlist-can-zooey-deschanel-help-it-deliver/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "二手电商如何重塑最后一公里配送",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/podcast/episode-seven-is-second-hand-e-commerce-reshaping-the-last-mile.html",
+    "d": "2026-10-26",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "Stagwell收购Freestar，将出版商广告销售纳入控股公司",
+    "s": "Digiday",
+    "u": "https://digiday.com/media-buying/stagwell-buys-freestar-putting-publisher-ad-sales-inside-a-holdco/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "US",
+    "score": 62
+   }
+  ],
   "compliance-fulfillment": [
+   {
+    "t": "Grindstore称新关税生效后欧盟订单降61%",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/grindstore-reports-61-fall-in-eu-orders-since-new-customs-charges-took-effect/",
+    "d": "2026-10-26",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   },
    {
     "t": "美国邮政可向卖家收取外国关税",
     "s": "Practical Ecommerce",
@@ -13,112 +134,45 @@ window.NAV_FEED = {
     "d": "2026-10-25",
     "p": "P0",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Shopify Managed Markets 推出国际运费统一费率管理",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/guaranteed-flat-rate-shipping-now-in-managed-markets",
-    "d": "2026-10-24",
-    "p": "P1",
-    "m": "GLOBAL",
     "score": 74
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Kalshi向银行推介通胀相关期货市场",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/economy/markets/2026/kalshi-pitches-banks-on-inflation-related-futures-market/",
-    "d": "2026-10-25",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "Karen Millen携手Desmond & Dempsey推出独家睡衣系列",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/karen-millen-to-launch-exclusive-pyjama-collection-designed-by-desmond-dempsey/",
-    "d": "2026-10-25",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "成人万圣节兴起：成年人撑起135亿美元消费",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/the-rise-of-adultoween-and-how-adults-are-driving-halloween-spending/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-24",
-    "p": "P1",
-    "m": "US",
-    "score": 57
-   },
-   {
-    "t": "支付能力拖累消费者信心一年降10%",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/economy/2026/affordability-drags-consumer-sentiment-down-10-in-a-year/",
-    "d": "2026-10-25",
-    "p": "P2",
-    "m": "US",
-    "score": 49
-   },
-   {
-    "t": "TOSS推节日礼盒，主打无酒精伴手礼",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/toss-great-taste-award-winning-dressings-launches-festive-gift-box/",
-    "d": "2026-10-24",
-    "p": "P3",
-    "m": "UK",
-    "score": 51
    }
   ],
   "brand-retail": [
    {
-    "t": "Ste Marie为Monos温哥华办公室注入住宅质感",
+    "t": "Apple Music发布首度换标，声波物理生成新Logo",
     "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/24/monos-headquarters-vancouver-ste-marie/",
-    "d": "2026-10-24",
+    "u": "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/",
+    "d": "2026-10-26",
     "p": "P1",
     "m": "UK",
-    "score": 64
+    "score": 79
    },
    {
-    "t": "Castore创始人称收到安踏李宁收购问询",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/485994",
-    "d": "2026-10-25",
-    "p": "P2",
-    "m": "UK",
-    "score": 49
-   },
-   {
-    "t": "HOKA与UGG母公司最新季报：营收增3.5%，盈利超预期",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/486163",
-    "d": "2026-10-25",
-    "p": "P2",
-    "m": "CN",
-    "score": 49
-   },
-   {
-    "t": "Ben & Jerry's 如何成为品牌勇气的标杆",
-    "s": "Creative Bloq 设计",
-    "u": "https://www.creativebloq.com/news/how-ben-and-jerrys-became-a-beacon-of-brand-bravery",
-    "d": "2026-10-24",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 44
-   }
-  ],
-  "platform-channel": [
-   {
-    "t": "沃尔玛与山姆会员店推出联合会员计划",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/walmart-sams-the-robin-report-retail-hits-of-the-week-10-24-26/",
-    "d": "2026-10-24",
+    "t": "Roca推出创新一体式Avant马桶",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/10/26/roca-innovative-avant-toilet/",
+    "d": "2026-10-26",
     "p": "P1",
-    "m": "US",
-    "score": 64
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "Love Laura在The Boulevard开设首家独立门店",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/love-laura-opens-first-ever-standalone-store-at-the-boulevard/",
+    "d": "2026-10-26",
+    "p": "P0",
+    "m": "UK",
+    "score": 72
+   },
+   {
+    "t": "Shopware联合创始人Sebastian Hamann的10条电商经验",
+    "s": "Ecommerce Germany News",
+    "u": "https://ecommercegermany.com/blog/lead-with-vision-not-fear-and-the-future-will-belong-to-you-10-lessons-from-sebastian-hamann-co-ceo-and-co-founder-shopware/",
+    "d": "2026-10-26",
+    "p": "P3",
+    "m": "DE",
+    "score": 53
    }
   ]
  }
