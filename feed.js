@@ -1,11 +1,56 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-27",
- "total": 1232,
+ "updated": "2026-10-28",
+ "total": 1184,
  "source_count": 55,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "Shopify开发者仪表盘新增商店与应用安装详情",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/store-and-app-install-details-in-the-dev-dashboard",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "Shopify将合作伙伴结算与账单设置迁移至Dev Dashboard",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/manage-partner-payouts-billing-and-settings-from-organization-settings",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "Adidas、Gamefam、Poppi与沃尔玛Connect获2026 Digiday奖",
+    "s": "Digiday",
+    "u": "https://digiday.com/announcement/awards/adidas-and-gamefam-poppi-and-walmart-connect-are-winners-for-the-2026-digiday-awards/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Shopify翻译应用更新：支持8种语言自动同步翻译",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/translate-adapt-us-can-update-auto-sync-translations-for-up-to-8-languages",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "《戴帽子的猫》登陆亚马逊广告品牌 takeover",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/the-cat-in-the-hat-amazon-ads-brand-takeover/",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
    {
     "t": "Banana Republic推出TikTok内容系列吸引年轻消费者",
     "s": "Retail Dive",
@@ -13,128 +58,18 @@ window.NAV_FEED = {
     "d": "2026-10-26",
     "p": "P1",
     "m": "US",
-    "score": 83
-   },
-   {
-    "t": "Shopify结账页脚政策链接合并为单一入口",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/the-checkout-footer-now-shows-one-terms-and-policies-link",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Shopify后台内置知识库，管理AI代理获取的店铺信息",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/knowledge-base-is-now-available-in-your-admin",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "阳狮为Marcel平台设领导层，AI代理驱动增长",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/publicis-installs-leadership-atop-marcel-as-agentic-drives-growth-plans/872691/",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Zooplus宠物电商平台登陆西班牙",
-    "s": "Ecommerce News Europe",
-    "u": "https://ecommercenews.eu/zooplus-marketplace-launches-in-spain/",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Strawberry推出面向非技术团队的AI学习平台",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/strawberry-ai-companions-for-non-technical-teams/",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "EU",
-    "score": 79
-   }
-  ],
-  "market-product": [
-   {
-    "t": "CVS扩大宝可梦及收藏品销售",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/cvs-pokemon-collectibles-beauty-seasonal/872755/",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "零售商精准策略备战万亿假日销售季",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/retailers-take-a-targeted-approach-to-seasonal-hiring-in-preparation-for-historic-holiday-sales-year/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Glossy+研究：2026假日季品牌对自有渠道的重视度动摇",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/research/glossy-research-brands-focus-on-owned-channels-wavers-for-the-2026-holiday-season/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Bath & Body Works假日季告捷，Zooey Deschanel能否助其再下一城？",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/bath-body-works-has-a-successful-holiday-season-on-its-wishlist-can-zooey-deschanel-help-it-deliver/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "二手电商如何重塑最后一公里配送",
-    "s": "Parcel & Postal Tech",
-    "u": "https://www.parcelandpostaltechnologyinternational.com/podcast/episode-seven-is-second-hand-e-commerce-reshaping-the-last-mile.html",
-    "d": "2026-10-26",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "Stagwell收购Freestar，将出版商广告销售纳入控股公司",
-    "s": "Digiday",
-    "u": "https://digiday.com/media-buying/stagwell-buys-freestar-putting-publisher-ad-sales-inside-a-holdco/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "US",
-    "score": 62
+    "score": 78
    }
   ],
   "compliance-fulfillment": [
    {
-    "t": "Grindstore称新关税生效后欧盟订单降61%",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/grindstore-reports-61-fall-in-eu-orders-since-new-customs-charges-took-effect/",
-    "d": "2026-10-26",
+    "t": "欧盟2025年道路死亡人数下降",
+    "s": "EU 委员会新闻",
+    "u": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2270",
+    "d": "2026-10-27",
     "p": "P1",
     "m": "EU",
     "score": 79
-   },
-   {
-    "t": "美国邮政可向卖家收取外国关税",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/usps-can-bill-sellers-for-foreign-duties",
-    "d": "2026-10-25",
-    "p": "P0",
-    "m": "US",
-    "score": 74
    }
   ],
   "brand-retail": [
@@ -145,7 +80,7 @@ window.NAV_FEED = {
     "d": "2026-10-26",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Roca推出创新一体式Avant马桶",
@@ -154,7 +89,34 @@ window.NAV_FEED = {
     "d": "2026-10-26",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
+   },
+   {
+    "t": "培恩龙舌兰借亡灵节办限定喜剧秀",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/patron-embraces-dia-de-muertos-for-one-night-only-comedy-show/872814/",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "美妆简报：詹妮弗·劳伦斯进军名人美妆赛道",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/beauty-briefing-jennifer-lawrence-steps-into-the-celebrity-beauty-arena/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "货运航运可从邮轮业学船员技术",
+    "s": "Splash247 海运",
+    "u": "https://splash247.com/what-cargo-shipping-can-learn-from-cruise-about-crewing-technology/",
+    "d": "2026-10-27",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 66
    },
    {
     "t": "Love Laura在The Boulevard开设首家独立门店",
@@ -163,16 +125,18 @@ window.NAV_FEED = {
     "d": "2026-10-26",
     "p": "P0",
     "m": "UK",
-    "score": 72
-   },
+    "score": 67
+   }
+  ],
+  "market-product": [
    {
-    "t": "Shopware联合创始人Sebastian Hamann的10条电商经验",
-    "s": "Ecommerce Germany News",
-    "u": "https://ecommercegermany.com/blog/lead-with-vision-not-fear-and-the-future-will-belong-to-you-10-lessons-from-sebastian-hamann-co-ceo-and-co-founder-shopware/",
-    "d": "2026-10-26",
-    "p": "P3",
-    "m": "DE",
-    "score": 53
+    "t": "Glossy+研究：2026年品牌假日营销策略转向",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/research/glossy-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-27",
+    "p": "P1",
+    "m": "US",
+    "score": 69
    }
   ]
  }
