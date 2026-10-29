@@ -1,11 +1,56 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-28",
- "total": 1184,
- "source_count": 55,
+ "updated": "2026-10-29",
+ "total": 1192,
+ "source_count": 52,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
+   {
+    "t": "Shopify应用内可一键唤起Sidekick对话",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/start-sidekick-conversations-from-your-app",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 84
+   },
+   {
+    "t": "Shopify Messaging 支持创建 WhatsApp 营销自动化",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/create-whatsapp-marketing-automations-in-shopify-messaging",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Shopify POS 借助支付网络识别更多到店顾客",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/identify-more-in-store-customers-with-pos",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "英国预算案：个体市场卖家面临税务重大调整",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/big-tax-changes-for-self-employed-marketplace-sellers/",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "zooplus在西班牙推出第三个第三方市场",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/zooplus-spainish-marketplace-launched/",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "Shopify开发者仪表盘新增商店与应用安装详情",
     "s": "Shopify Developer Changelog",
@@ -13,52 +58,110 @@ window.NAV_FEED = {
     "d": "2026-10-27",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
-   },
+    "score": 79
+   }
+  ],
+  "market-product": [
    {
-    "t": "Shopify将合作伙伴结算与账单设置迁移至Dev Dashboard",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/manage-partner-payouts-billing-and-settings-from-organization-settings",
-    "d": "2026-10-27",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "Adidas、Gamefam、Poppi与沃尔玛Connect获2026 Digiday奖",
-    "s": "Digiday",
-    "u": "https://digiday.com/announcement/awards/adidas-and-gamefam-poppi-and-walmart-connect-are-winners-for-the-2026-digiday-awards/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-27",
+    "t": "Jos. A. Bank新店概念以顾客体验为核心",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/jos-a-bank-new-store-concept/872882/",
+    "d": "2026-10-28",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Shopify翻译应用更新：支持8种语言自动同步翻译",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/translate-adapt-us-can-update-auto-sync-translations-for-up-to-8-languages",
-    "d": "2026-10-27",
+    "t": "P.F. Chang's CMO谋划重拾品牌魔力",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/pf-changs-cmo-is-cooking-up-a-plan-to-recapture-chains-old-magic/872879/",
+    "d": "2026-10-28",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "《戴帽子的猫》登陆亚马逊广告品牌 takeover",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/the-cat-in-the-hat-amazon-ads-brand-takeover/",
-    "d": "2026-10-27",
+    "t": "丝芙兰邀塞斯·罗根拍节日广告，瞄准送礼人群",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/sephora-casts-seth-rogen-holiday-ads/873013/",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "US",
+    "score": 73
+   },
+   {
+    "t": "Camino Partners押注6200万美元，优化呼吸能否成为健康身份象征？",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/wellness/can-intake-turn-optimized-breathing-into-a-wellness-status-symbol-camino-partners-is-betting-on-it/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "电商折扣策略：优惠券如何成为增长杠杆",
+    "s": "Ecommerce Germany News",
+    "u": "https://ecommercegermany.com/blog/discount-strategy-in-e-commerce-why-vouchers-can-become-a-serious-growth-lever/",
+    "d": "2026-10-28",
+    "p": "P3",
+    "m": "US",
+    "score": 63
+   }
+  ],
+  "brand-retail": [
+   {
+    "t": "Flokk设计感座椅亮相Dezeen展厅",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/10/28/flokk-design-forward-seating-task-chairs-modular-dezeen-showroom/",
+    "d": "2026-10-28",
     "p": "P1",
     "m": "UK",
     "score": 79
    },
    {
-    "t": "Banana Republic推出TikTok内容系列吸引年轻消费者",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/banana-republic-debuts-tiktok-content-series-in-bid-for-younger-shoppers/833851/",
-    "d": "2026-10-26",
+    "t": "Aldo首度联名高定品牌Zuhair Murad",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/luxury/aldo-zuhair-murad-couture-collaboration-footwear/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-28",
     "p": "P1",
     "m": "US",
-    "score": 78
+    "score": 79
+   },
+   {
+    "t": "Intake Breathing获6200万美元投资，进军鼻腔健康新趋势",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/intake-breathing-62-million-funding-round/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "诺曼·福斯特携手Lebond推出首款腕表",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/10/28/norman-foster-first-watch-lebond/",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   },
+   {
+    "t": "禁果",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/10/28/forbidden-fruit/",
+    "d": "2026-10-28",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   },
+   {
+    "t": "同源同文化基因，不同表达",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/10/same-origin-same-cultural-dna-a-different-expression.html",
+    "d": "2026-10-28",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 62
    }
   ],
   "compliance-fulfillment": [
@@ -69,74 +172,7 @@ window.NAV_FEED = {
     "d": "2026-10-27",
     "p": "P1",
     "m": "EU",
-    "score": 79
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "Apple Music发布首度换标，声波物理生成新Logo",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound/",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "UK",
     "score": 74
-   },
-   {
-    "t": "Roca推出创新一体式Avant马桶",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/26/roca-innovative-avant-toilet/",
-    "d": "2026-10-26",
-    "p": "P1",
-    "m": "UK",
-    "score": 74
-   },
-   {
-    "t": "培恩龙舌兰借亡灵节办限定喜剧秀",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/patron-embraces-dia-de-muertos-for-one-night-only-comedy-show/872814/",
-    "d": "2026-10-27",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "美妆简报：詹妮弗·劳伦斯进军名人美妆赛道",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/beauty-briefing-jennifer-lawrence-steps-into-the-celebrity-beauty-arena/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-27",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "货运航运可从邮轮业学船员技术",
-    "s": "Splash247 海运",
-    "u": "https://splash247.com/what-cargo-shipping-can-learn-from-cruise-about-crewing-technology/",
-    "d": "2026-10-27",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
-   },
-   {
-    "t": "Love Laura在The Boulevard开设首家独立门店",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/love-laura-opens-first-ever-standalone-store-at-the-boulevard/",
-    "d": "2026-10-26",
-    "p": "P0",
-    "m": "UK",
-    "score": 67
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Glossy+研究：2026年品牌假日营销策略转向",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/research/glossy-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-27",
-    "p": "P1",
-    "m": "US",
-    "score": 69
    }
   ]
  }

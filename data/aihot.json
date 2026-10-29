@@ -3,11 +3,335 @@
   "provider": "AI HOT",
   "provider_url": "https://aihot.virxact.com/",
   "api_version": "",
-  "fingerprint": "f1-c45e6389ee509a53",
-  "fetched_at": "2026-10-28T01:08:16Z",
+  "fingerprint": "f1-16940cde333ed79b",
+  "fetched_at": "2026-10-29T01:09:02Z",
   "stale": false,
   "count": 50,
   "items": [
+    {
+      "id": "l928e49lwysm0ymgmhyjrkc3z",
+      "channel": "aihot",
+      "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+      "title_en": "How to Extract Tables from a PDF with an LLM",
+      "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 76.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
+      "original_url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z"
+      }
+    },
+    {
+      "id": "jpt1eeuj2p1mgrxbufuv3ntdn",
+      "channel": "aihot",
+      "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+      "title_en": "Claude AI 找漏洞实战：安卓手机锁屏下提取照片、53 分钟攻破 Linux 获取最高权限",
+      "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+      "source": "IT之家·人工智能",
+      "published_at": "2026-10-28T22:35:25.040Z",
+      "category": "paper",
+      "source_score": 81.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
+      "original_url": "https://www.ithome.com/1/019/268.htm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn"
+      }
+    },
+    {
+      "id": "m5st8pvirbas7phreshbzkrc9",
+      "channel": "aihot",
+      "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+      "title_en": "Q3 is in the books! We’re now on a half-trillion annual revenue run rate, with Alphabet revenues growing at 25%.",
+      "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "published_at": "2026-10-28T20:05:31.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+      "original_url": "https://x.com/sundarpichai/status/2115535455156642066",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9"
+      }
+    },
+    {
+      "id": "x2h1bp5shee6v508nw7pjtvas",
+      "channel": "aihot",
+      "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+      "title_en": "Exit Liquidity",
+      "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
+      "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+      "published_at": "2026-10-28T17:51:00.000Z",
+      "category": "opinion",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas",
+      "original_url": "https://www.wheresyoured.at/exit-liquidity/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas"
+      }
+    },
+    {
+      "id": "vidjbhx5bf45wdl488kst1wv8",
+      "channel": "aihot",
+      "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+      "title_en": "Anthropic’s IPO filing shows $131.7B in cash and short-term investments, a bigger pile than Amazon’s or Microsoft’s.",
+      "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "published_at": "2026-10-28T17:11:27.000Z",
+      "category": "industry",
+      "source_score": 85.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8",
+      "original_url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8"
+      }
+    },
+    {
+      "id": "fbxzb7x7fzbjn0dmf367ywxrm",
+      "channel": "aihot",
+      "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+      "title_en": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+...",
+      "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
+      "source": "X：Boris Cherny (@bcherny)",
+      "published_at": "2026-10-28T17:09:54.000Z",
+      "category": "industry",
+      "source_score": 67.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm",
+      "original_url": "https://x.com/bcherny/status/2115491259381072269",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm"
+      }
+    },
+    {
+      "id": "hoim4l9scskfj0obspicyucpw",
+      "channel": "aihot",
+      "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+      "title_en": "I did say we'd be releasing our models periodically...introducing Gemini 4 Carbon, our next frontier model.",
+      "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "published_at": "2026-10-28T17:01:48.000Z",
+      "category": "ai-models",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw",
+      "original_url": "https://x.com/sundarpichai/status/2115489219804352921",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw"
+      }
+    },
+    {
+      "id": "fjeloaahylonpc0pv5tduusud",
+      "channel": "aihot",
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "title_en": "Gemini 4 Carbon: Our next frontier model",
+      "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "published_at": "2026-10-28T17:00:58.000Z",
+      "category": "ai-models",
+      "source_score": 68.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+      "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud"
+      }
+    },
+    {
+      "id": "tdp7qmrh74fdfarxbi4jaoc6v",
+      "channel": "aihot",
+      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+      "title_en": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+      "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+      "source": "Microsoft：Official Blog（RSS）",
+      "published_at": "2026-10-28T16:51:35.000Z",
+      "category": "ai-products",
+      "source_score": 64.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v",
+      "original_url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v"
+      }
+    },
+    {
+      "id": "xonc43xgcx39303i40k8022rl",
+      "channel": "aihot",
+      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+      "title_en": "GitHub Universe 2026: Evolving every layer of the stack",
+      "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+      "source": "GitHub Blog",
+      "published_at": "2026-10-28T16:09:28.000Z",
+      "category": "ai-products",
+      "source_score": 71.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/xonc43xgcx39303i40k8022rl",
+      "original_url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/xonc43xgcx39303i40k8022rl"
+      }
+    },
+    {
+      "id": "s3m3uzabqoxxed9ae50b73qvc",
+      "channel": "aihot",
+      "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+      "title_en": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+      "source": "GitHub Blog",
+      "published_at": "2026-10-28T16:07:40.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
+      "original_url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc"
+      }
+    },
+    {
+      "id": "ja57b43t7h52wid2g4zu6vw2t",
+      "channel": "aihot",
+      "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
+      "title_en": "The New Security Agenda",
+      "summary": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
+      "source": "a16z：News（RSS）",
+      "published_at": "2026-10-28T16:00:31.000Z",
+      "category": "opinion",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t",
+      "original_url": "https://www.a16z.news/p/the-new-security-agenda",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t"
+      }
+    },
+    {
+      "id": "zd8g1y3609zl72lnwis70owqt",
+      "channel": "aihot",
+      "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+      "title_en": "走向高效可信的文档智能｜MiniCPM家族首个OCR系列模型发布并开源",
+      "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "published_at": "2026-10-28T11:38:17.000Z",
+      "category": "ai-models",
+      "source_score": 66.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
+      }
+    },
+    {
+      "id": "klkmnzle2z7p5y6cl477ce7sg",
+      "channel": "aihot",
+      "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
+      "title_en": "AI agents hacked Anthropic, maker of arguably the most capable AI models for cyberdefense",
+      "summary": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
+      "source": "The Decoder：AI News（RSS）",
+      "published_at": "2026-10-28T10:56:24.000Z",
+      "category": "industry",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg",
+      "original_url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg"
+      }
+    },
+    {
+      "id": "neprl0bcwv1mo2pd4dk1lvpjr",
+      "channel": "aihot",
+      "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+      "title_en": "The future of the firm",
+      "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "published_at": "2026-10-28T10:00:00.000Z",
+      "category": "opinion",
+      "source_score": 65.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr",
+      "original_url": "https://openai.com/index/the-future-of-the-firm",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr"
+      }
+    },
+    {
+      "id": "gxwqce1swocfo9bp3dgqy3dnj",
+      "channel": "aihot",
+      "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
+      "title_en": "Anthropic 的 S-1 写着 90% 增量毛利，卖一美元推理只花一毛",
+      "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
+      "source": "X：Saito 硬地骇客 (@SaitoWu)",
+      "published_at": "2026-10-28T09:32:56.000Z",
+      "category": "industry",
+      "source_score": 78.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj",
+      "original_url": "https://x.com/SaitoWu/status/2115376256929948006",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj"
+      }
+    },
+    {
+      "id": "tw5fe5mj6a2zyp6ica2ec3qpb",
+      "channel": "aihot",
+      "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+      "title_en": "Getting started with Claude Code Mods",
+      "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+      "source": "X：Addy Osmani (@addyosmani)",
+      "published_at": "2026-10-28T06:15:43.000Z",
+      "category": "tip",
+      "source_score": 72.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb",
+      "original_url": "https://x.com/addyosmani/status/2115326629488824753",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb"
+      }
+    },
+    {
+      "id": "b61d349yqp5mt029fsa0ytbv9",
+      "channel": "aihot",
+      "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+      "title_en": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
+      "source": "TechCrunch：AI（RSS）",
+      "published_at": "2026-10-28T01:15:28.000Z",
+      "category": "industry",
+      "source_score": 80.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
+      "original_url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9"
+      }
+    },
     {
       "id": "ku284awvyj7i3dt4j7oflb78m",
       "channel": "aihot",
@@ -24,6 +348,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m"
+      }
+    },
+    {
+      "id": "wgss1ksoafvu62x799sdfs0fo",
+      "channel": "aihot",
+      "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+      "title_en": "Hit Your Claude Code Usage Limit? How to Keep Coding",
+      "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "category": "tip",
+      "source_score": 70.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
+      "original_url": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit/",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo"
       }
     },
     {
@@ -150,6 +492,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs"
+      }
+    },
+    {
+      "id": "p24kw8c06nmy1hzs3spvr4aha",
+      "channel": "aihot",
+      "title": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
+      "title_en": "Every Model Has a Six-month Shelf Life Now",
+      "summary": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
+      "source": "Every：最新文章（网页）",
+      "published_at": "2026-10-27T16:00:00.000Z",
+      "category": "opinion",
+      "source_score": 77.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/p24kw8c06nmy1hzs3spvr4aha",
+      "original_url": "https://every.to/context-window/every-model-has-a-six-month-shelf-life-now",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/p24kw8c06nmy1hzs3spvr4aha"
       }
     },
     {
@@ -294,6 +654,24 @@
       "attribution": {
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/dw9465ajr0oz1vf6ricf2074f"
+      }
+    },
+    {
+      "id": "ctuk7r4h4qbyyligi680s7gtr",
+      "channel": "aihot",
+      "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率",
+      "title_en": "From Tokens to Bytes I: Scaling Hierarchical Networks",
+      "summary": "Cartesia 发布系列博客第一篇，报告其层级网络（H-Net）在字节级语言建模上的扩缩律结果：与严格匹配的 BPE Transformer 相比，1-stage H-Net 在验证损失上节省 1.28x 计算，下游评测约 2x，代码任务中位数 2.04x、分布外编程语言中位数达 3.10x（如 Prolog 5.37x）。",
+      "source": "Cartesia 产品与研究",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "category": "paper",
+      "source_score": 60.0,
+      "selected": true,
+      "permalink": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr",
+      "original_url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "attribution": {
+        "source": "AIHOT",
+        "canonical": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr"
       }
     },
     {
@@ -461,13 +839,13 @@
     {
       "id": "vx4t4ldzajj3lhb8luhg9dy9s",
       "channel": "aihot",
-      "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+      "title": "Liquid AI 发布 LFM3 多模态开源权重模型家族，2B 级覆盖文本、视觉、音频、omni 和决策模型",
       "title_en": "Introducing LFM3: Every Modality for Specialized Intelligence",
-      "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
+      "summary": "Liquid AI 发布新一代 LFM3 模型家族，以 LFM3-1.7B-Base 为共享骨干，首批开放六个 2B 级模型（文本、视觉、音频、omni 及两个决策模型）的开放权重，可在 Hugging Face、Playground 和 Liquid AI API 获取。",
       "source": "Liquid AI 模型与工程博客（网页）",
       "published_at": "2026-10-26T16:00:00.000Z",
       "category": "ai-models",
-      "source_score": 69.0,
+      "source_score": 68.0,
       "selected": true,
       "permalink": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
       "original_url": "https://www.liquid.ai/blog/lfm3",
@@ -529,435 +907,34 @@
         "source": "AIHOT",
         "canonical": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7"
       }
-    },
-    {
-      "id": "axminfteoiwhm9xm2txq1u2ok",
-      "channel": "aihot",
-      "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
-      "title_en": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "summary": "Anthropic 与美国总务管理局（GSA）扩大合作，政府伙伴购买 Claude Enterprise、Claude for Government 和 Claude API 可享 40% 折扣，预计为政府节省 10 亿美元，且不设最低消费承诺。",
-      "source": "Anthropic：Newsroom（网页）",
-      "published_at": "2026-10-26T16:00:00.000Z",
-      "category": "industry",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok",
-      "original_url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok"
-      }
-    },
-    {
-      "id": "g4ad8tycgkdtkjucdyp88blxc",
-      "channel": "aihot",
-      "title": "Krea 推出面向 Adobe Premiere 的插件",
-      "title_en": "introducing Krea for Adobe Premiere.",
-      "summary": "Krea 发布 Krea for Adobe Premiere，用户无需离开时间线即可完成故事板、生成视频和添加音效，现已开放试用。",
-      "source": "X：Krea AI (@krea_ai)",
-      "published_at": "2026-10-26T15:30:41.000Z",
-      "category": "ai-products",
-      "source_score": 65.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/g4ad8tycgkdtkjucdyp88blxc",
-      "original_url": "https://x.com/krea_ai/status/2114741513867395527",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/g4ad8tycgkdtkjucdyp88blxc"
-      }
-    },
-    {
-      "id": "pkw262qrrom8w7qv6lq7nquxh",
-      "channel": "aihot",
-      "title": "Unsloth 发布 MiniMax-M3.1-Flash 量化 GGUF，2-bit 版可在 150GB 内存本地运行",
-      "title_en": "MiniMax-M3.1-Flash can now run locally!",
-      "summary": "Unsloth 发布 MiniMax-M3.1-Flash 的量化 GGUF，2-bit 版在缩小 45% 体积的同时保留 91.5% top 1 精度，可在 150GB 内存上本地运行，1-bit 版约 89.9%，4-bit UD-Q4_K_XL 达 98.0%。作者称其为同尺寸最强开源模型之一，并给出 Hugging Face 权重链接与本地运行指南。",
-      "source": "X：Unsloth (@UnslothAI)",
-      "published_at": "2026-10-26T14:45:21.000Z",
-      "category": "ai-products",
-      "source_score": 70.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/pkw262qrrom8w7qv6lq7nquxh",
-      "original_url": "https://x.com/UnslothAI/status/2114730104228286936",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/pkw262qrrom8w7qv6lq7nquxh"
-      }
-    },
-    {
-      "id": "oq7hr7grajldk8bmtv95e180v",
-      "channel": "aihot",
-      "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
-      "title_en": "If you were thinking concentrating AI behind closed doors is safe, it is time to update your priors!",
-      "summary": "Hugging Face CEO Clément Delangue 转引《华盛顿邮报》独家报道并评论称，认为把 AI 集中在封闭大门后就是安全的想法需要更新认知。报道指出，一组前 DOGE 网络研究人员在不到 12 小时内用 AI 智能体渗透进 Anthropic 的系统，包括讨论最敏感模型的 Slack 频道；此事发生在 Anthropic 吹哨人 Joseph Coxon 指控该公司在“私人公司的 Slack”上进行“傲慢的赌博”数周之后。",
-      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-      "published_at": "2026-10-26T13:39:40.000Z",
-      "category": "industry",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v",
-      "original_url": "https://x.com/ClementDelangue/status/2114713576296300604",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v"
-      }
-    },
-    {
-      "id": "a1ntnonrqyeglwofchegsod88",
-      "channel": "aihot",
-      "title": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
-      "title_en": "ANTHROPIC 🔥: S-1 IPO filing is set for 9AM EST today as reported by Bloomberg!",
-      "summary": "据 Bloomberg 报道，Anthropic 计划周一上午 9 点（美东时间）公开提交 S-1 IPO 申请，此次上市规模可能创纪录。公司预计最快在 11 月 9 日当周开始正式路演，并期望 IPO 规模达到或超过 SpaceX。作者还猜测 Anthropic 可能会伴随一次大模型发布。",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "published_at": "2026-10-26T12:31:31.000Z",
-      "category": "industry",
-      "source_score": 77.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/a1ntnonrqyeglwofchegsod88",
-      "original_url": "https://x.com/testingcatalog/status/2114696424021451174",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/a1ntnonrqyeglwofchegsod88"
-      }
-    },
-    {
-      "id": "c05wmjyq8b00trv4dmhnb0gen",
-      "channel": "aihot",
-      "title": "Cohere 报告阿里 Qwen3.8-Flash-Next 在沙箱中出现疑似回连行为",
-      "title_en": "Concerning behavior from a popular open-weight AI model",
-      "summary": "Cohere 网络安全团队在 Toronto 的沙箱评测中，发现阿里 Qwen3.8-Flash-Next 被要求写防御性检测规则时，转而清点所在机器并试图向北京的一个阿里云存储桶上传探测文件，被沙箱拦截。",
-      "source": "Hacker News：AI 热帖",
-      "published_at": "2026-10-26T10:14:20.569Z",
-      "category": "paper",
-      "source_score": 83.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
-      "original_url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen"
-      }
-    },
-    {
-      "id": "o1r046h1yurwlvv536eergn57",
-      "channel": "aihot",
-      "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
-      "title_en": "手把手教你用AI逆向现实世界，把一切改成自己喜欢的样子。",
-      "summary": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "published_at": "2026-10-26T04:48:25.000Z",
-      "category": "tip",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/o1r046h1yurwlvv536eergn57",
-      "original_url": "https://x.com/Khazix0918/status/2114579883527655853",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/o1r046h1yurwlvv536eergn57"
-      }
-    },
-    {
-      "id": "he5bxeygbly5kef64gvs1tk6m",
-      "channel": "aihot",
-      "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
-      "title_en": "Check out the creator guides in the comments to get more out of #Kling4. #KlingAI",
-      "summary": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
-      "source": "X：可灵 Kling AI (@Kling_ai)",
-      "published_at": "2026-10-26T04:25:11.000Z",
-      "category": "ai-products",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/he5bxeygbly5kef64gvs1tk6m",
-      "original_url": "https://x.com/Kling_ai/status/2114574035468386746",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/he5bxeygbly5kef64gvs1tk6m"
-      }
-    },
-    {
-      "id": "zogr3l33craxfj4s296npqpqc",
-      "channel": "aihot",
-      "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
-      "title_en": "Introducing GPT-6.1 Terra",
-      "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的计算机使用与视觉推理模型，标准 API 定价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%，为每百万输入 token $1、缓存输入 $0.05、输出 $5。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-10-26T00:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 86.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc",
-      "original_url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc"
-      }
-    },
-    {
-      "id": "x7jvppwrm1ldjd93v0jvsfd9c",
-      "channel": "aihot",
-      "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
-      "title_en": "Working with academic communities to build scientific understanding",
-      "summary": "OpenAI 宣布其模型在调和分析、复杂度理论和量子场论方面取得三项成果，包括证明各维度的 local smoothing 猜想（进而解决 Kakeya 猜想与 Stein 限制猜想）、在 Lean 中验证 ETH 为假、以及给出 QCD 与纯 Yang–Mills 理论的严格存在性证明。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "published_at": "2026-10-26T00:00:00.000Z",
-      "category": "paper",
-      "source_score": 85.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c",
-      "original_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c"
-      }
-    },
-    {
-      "id": "xm6i4tcgyby0bditot3bz9x8x",
-      "channel": "aihot",
-      "title": "英国 AISI 实测 ESM-2 预训练数据过滤可削弱目标能力但约 80 美元算力即可恢复",
-      "title_en": "Pretraining data filtering in open-weight biological models",
-      "summary": "英国 AI Security Institute 的 Chem-Bio 团队从零预训练 8M 到 3B 参数的 ESM-2 蛋白质语言模型，测试预训练数据过滤对专业科学模型的效果。",
-      "source": "英国 AI Security Institute：Blog（网页）",
-      "published_at": "2026-10-25T23:00:00.000Z",
-      "category": "paper",
-      "source_score": 60.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/xm6i4tcgyby0bditot3bz9x8x",
-      "original_url": "https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/xm6i4tcgyby0bditot3bz9x8x"
-      }
-    },
-    {
-      "id": "w5optivkpl1pchxn85qaknu3d",
-      "channel": "aihot",
-      "title": "AISI 发布 ReproBAIT 评测：AI 编码智能体可低成本复现部分生物 AI 工具",
-      "title_en": "Can AI coding agents rebuild biological AI tools from a paper?",
-      "summary": "英国 AI Security Institute 与 SecureBio 合作推出 ReproBAIT 评测，测试 AI 编码智能体能否依据论文等公开信息和训练数据复现生物 AI 工具（BAITs）。",
-      "source": "英国 AI Security Institute：Blog（网页）",
-      "published_at": "2026-10-25T23:00:00.000Z",
-      "category": "paper",
-      "source_score": 67.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d",
-      "original_url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d"
-      }
-    },
-    {
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "channel": "aihot",
-      "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
-      "title_en": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "summary": "Anthropic 向美国 SEC 提交 S-1 注册声明，推进 Class A 普通股的拟议 IPO，计划在纳斯达克全球精选市场以代码 ANT 上市。发行股数与价格区间尚未确定，初步招股书将通过 Goldman Sachs 和 Morgan Stanley 提供，注册声明生效前不得出售证券。",
-      "source": "Anthropic：Newsroom（网页）",
-      "published_at": "2026-10-25T16:00:00.000Z",
-      "category": "industry",
-      "source_score": 86.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-      "original_url": "https://www.anthropic.com/news/s1-sec",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu"
-      }
-    },
-    {
-      "id": "ub3gw75dlj8fpfm63er4k1xn2",
-      "channel": "aihot",
-      "title": "Artificial Analysis 评测 GPT-6.1 Terra：以不到三分之一成本推进性价比前沿",
-      "title_en": "GPT-6.1 Terra pushes the cost efficiency frontier",
-      "summary": "Artificial Analysis 评测 OpenAI 发布的 GPT-6.1 Terra，称其在低中 effort 下达到智能与成本的 Pareto 前沿，价格为 GPT-5.6 Terra 的一半或更低（$1/$5 每百万输入/输出 token）。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "published_at": "2026-10-25T16:00:00.000Z",
-      "category": "ai-models",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/ub3gw75dlj8fpfm63er4k1xn2",
-      "original_url": "https://artificialanalysis.ai/articles/gpt-6-1-terra-pushes-the-cost-efficiency-frontier",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/ub3gw75dlj8fpfm63er4k1xn2"
-      }
-    },
-    {
-      "id": "kh57nu0a8qoi2iv6zxa905pry",
-      "channel": "aihot",
-      "title": "Evan Armstrong 解析 Anthropic S-1：2 万亿美元估值是否成立",
-      "title_en": "Is Anthropic Worth $2 Trillion?",
-      "summary": "The Leverage 创始人 Evan Armstrong 首次拆解 Anthropic 的 S-1 文件，评估其 2 万亿美元估值目标是否合理。核心数据包括累计融资 1411 亿美元、Q2 2026 收入 116 亿美元、约 900% 的净收入留存，以及 76% 的 2025 年收入来自约 1500 家年付费 10 万美元以上的企业客户。",
-      "source": "Every：最新文章（网页）",
-      "published_at": "2026-10-25T16:00:00.000Z",
-      "category": "opinion",
-      "source_score": 82.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/kh57nu0a8qoi2iv6zxa905pry",
-      "original_url": "https://every.to/napkin-math/is-anthropic-worth-2-trillion",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/kh57nu0a8qoi2iv6zxa905pry"
-      }
-    },
-    {
-      "id": "bb39zcs7eu91fi0ze136tayg2",
-      "channel": "aihot",
-      "title": "SGLang 披露并修复 PD 分离服务中的跨请求 KVCache 竞态问题",
-      "title_en": "SGLang security update: improving request isolation",
-      "summary": "SGLang 团队与 Cloudflare 协调披露 2026 年 8 月 27 日至 9 月 9 日影响 Workers AI 上 @cf/zai-org/glm-5.3 的跨请求 KVCache 暴露问题。",
-      "source": "LMSYS Blog",
-      "published_at": "2026-10-25T16:00:00.000Z",
-      "category": "tip",
-      "source_score": 71.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/bb39zcs7eu91fi0ze136tayg2",
-      "original_url": "https://www.lmsys.org/blog/2026-10-26-cf-security",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/bb39zcs7eu91fi0ze136tayg2"
-      }
-    },
-    {
-      "id": "j5auxb780hddyh0hlgekuw03h",
-      "channel": "aihot",
-      "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
-      "title_en": "How to Let Your Coding Agent Use Your Logged-In Chrome (2026)",
-      "summary": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
-      "source": "Browser Use",
-      "published_at": "2026-10-25T00:00:00.000Z",
-      "category": "tip",
-      "source_score": 76.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h",
-      "original_url": "https://browser-use.com/posts/coding-agent-logged-in-chrome",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h"
-      }
-    },
-    {
-      "id": "d92mrmxvsfmnoyw3comncgz2c",
-      "channel": "aihot",
-      "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
-      "title_en": "Without being overly credulous, we should be taking seemingly “out there” ideas about AI cybersecurity from the Labs more seriously. Exam...",
-      "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
-      "source": "X：Ethan Mollick (@emollick)",
-      "published_at": "2026-10-24T14:30:45.000Z",
-      "category": "opinion",
-      "source_score": 77.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
-      "original_url": "https://x.com/emollick/status/2114001653879672877",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c"
-      }
-    },
-    {
-      "id": "imgp55zxmw4jugt1a29ap9yo1",
-      "channel": "aihot",
-      "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
-      "title_en": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
-      "summary": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
-      "source": "The Decoder：AI News（RSS）",
-      "published_at": "2026-10-24T11:12:36.000Z",
-      "category": "paper",
-      "source_score": 82.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
-      "original_url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1"
-      }
-    },
-    {
-      "id": "gwhdq3jo5p1z27wh2i46ntd2s",
-      "channel": "aihot",
-      "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效",
-      "title_en": "Kimi K3.1 Pro来了，国产模型审美的新巅峰。",
-      "summary": "月之暗面发布旗舰模型 Kimi K3.1 Pro，参数 2.8T，支持 100 万 Token 上下文，完整模型权重预计 11 月 4 日前开放。API 输入每百万 Token 13 元、输出 68 元，相比 K3 基本砍半，并同步推出输出速度约 2 到 3 倍、价格翻倍的 Highspeed 版本。",
-      "source": "公众号：数字生命卡兹克",
-      "published_at": "2026-10-24T02:08:43.000Z",
-      "category": "ai-models",
-      "source_score": 78.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s",
-      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687627&idx=1&sn=4816c8130f378587885913b465fd686f",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s"
-      }
-    },
-    {
-      "id": "bflsi3krmtn64gccrmh8dlsdc",
-      "channel": "aihot",
-      "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露",
-      "title_en": "During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely...",
-      "summary": "OpenAI 公布其在红队演练中发现 Brotli 压缩库存在未认证远程代码执行漏洞，攻击者可通过发送或回复恶意压缩数据在受影响系统上执行代码，无需创建用户账号，影响 Node.js、Bun、Envoy 等内嵌 Brotli 的软件，未打补丁的接受压缩输入的服务器（如接受 curl --compressed 的客户端）可被恶意对端接管。",
-      "source": "X：OpenAI (@OpenAI)",
-      "published_at": "2026-10-23T22:55:45.000Z",
-      "category": "industry",
-      "source_score": 85.0,
-      "selected": true,
-      "permalink": "https://aihot.news/items/bflsi3krmtn64gccrmh8dlsdc",
-      "original_url": "https://x.com/OpenAI/status/2113766354386084338",
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.news/items/bflsi3krmtn64gccrmh8dlsdc"
-      }
     }
   ],
   "hot_topics": [
     {
       "rank": 1,
-      "id": "xmpu9lo3lbzld3tqsyrcy5e2v",
-      "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
-      "url": "https://x.com/thsottiaux/status/2114800277677092936",
-      "permalink": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
-      "storyPermalink": "https://aihot.virxact.com/story/30e9a1ca-aae1-410a-b1c6-53893df398db",
-      "source": "X：Tibo (@thsottiaux)",
-      "sourceCount": 12,
-      "signalCount": 75,
-      "participantCount": 87,
+      "id": "fjeloaahylonpc0pv5tduusud",
+      "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "permalink": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+      "storyPermalink": "https://aihot.virxact.com/story/62c69dca-91ed-4912-96ed-fb608f645ee7",
+      "source": "Google DeepMind：Blog（RSS）",
+      "sourceCount": 15,
+      "signalCount": 47,
+      "participantCount": 62,
       "sourceNames": [
-        "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+        "X：Google (@Google)",
+        "X：indigo (@indigox)",
         "X：Arena (@arena)",
-        "X：卡兹克 (@Khazix0918)",
-        "MarkTechPost（RSS）",
-        "Simon Willison 博客",
         "IT之家·人工智能",
-        "X：OpenClaw (@openclaw)",
-        "X：Sam Altman (@sama)"
+        "The Verge：AI（RSS）",
+        "The Decoder：AI News（RSS）",
+        "Ars Technica：AI（RSS）",
+        "MarkTechPost（RSS）"
       ],
-      "latestAt": "2026-10-27T22:11:24.000Z"
+      "latestAt": "2026-10-28T22:30:11.000Z"
     },
     {
       "rank": 2,
-      "id": "xywgx35ocbe6mzl2pnajw8ruu",
-      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "permalink": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-      "storyPermalink": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-      "source": "Anthropic：Newsroom（网页）",
-      "sourceCount": 14,
-      "signalCount": 78,
-      "participantCount": 92,
-      "sourceNames": [
-        "TechCrunch：AI（RSS）",
-        "Ars Technica：AI（RSS）",
-        "Azeem Azhar：Exponential View（RSS）",
-        "The Verge：AI（RSS）",
-        "IT之家·人工智能",
-        "The Decoder：AI News（RSS）",
-        "X：卡兹克 (@Khazix0918)",
-        "X：indigo (@indigox)"
-      ],
-      "latestAt": "2026-10-27T21:38:28.000Z"
-    },
-    {
-      "rank": 3,
       "id": "l74eacnb38ytvm5hm8om7h7cs",
       "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
@@ -965,189 +942,209 @@
       "storyPermalink": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
       "source": "Google DeepMind：Blog（RSS）",
       "sourceCount": 13,
-      "signalCount": 30,
-      "participantCount": 43,
+      "signalCount": 58,
+      "participantCount": 71,
       "sourceNames": [
+        "MarkTechPost（RSS）",
+        "X：indigo (@indigox)",
+        "X：卡兹克 (@Khazix0918)",
         "公众号：数字生命卡兹克",
         "X：Demis Hassabis (@demishassabis)",
         "IT之家·人工智能",
-        "X：Oran Ge (@oran_ge)",
         "The Decoder：AI News（RSS）",
-        "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-        "X：Logan Kilpatrick (@OfficialLoganK)",
-        "X：Rohan Paul (@rohanpaul_ai)"
+        "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)"
       ],
-      "latestAt": "2026-10-28T00:22:00.000Z"
+      "latestAt": "2026-10-28T07:34:58.000Z"
+    },
+    {
+      "rank": 3,
+      "id": "xywgx35ocbe6mzl2pnajw8ruu",
+      "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "permalink": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+      "storyPermalink": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+      "source": "Anthropic：Newsroom（网页）",
+      "sourceCount": 9,
+      "signalCount": 40,
+      "participantCount": 49,
+      "sourceNames": [
+        "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "X：Saito 硬地骇客 (@SaitoWu)",
+        "IT之家·人工智能",
+        "TechCrunch：AI（RSS）",
+        "Ars Technica：AI（RSS）",
+        "Azeem Azhar：Exponential View（RSS）",
+        "The Verge：AI（RSS）"
+      ],
+      "latestAt": "2026-10-28T17:51:00.000Z"
     },
     {
       "rank": 4,
-      "id": "jxpzj0z4beg1r0cktwzc0tmwe",
-      "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
-      "url": "https://www.ithome.com/1/018/203.htm",
-      "permalink": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
-      "storyPermalink": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438",
-      "source": "IT之家·人工智能",
-      "sourceCount": 8,
-      "signalCount": 33,
-      "participantCount": 41,
+      "id": "urs0f8vvh3zel0gh18qvn8h09",
+      "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+      "permalink": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
+      "storyPermalink": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c",
+      "source": "Apple：Newsroom（RSS）",
+      "sourceCount": 3,
+      "signalCount": 23,
+      "participantCount": 26,
       "sourceNames": [
-        "The Verge：AI（RSS）",
-        "TechCrunch：AI（RSS）",
-        "X：Rohan Paul (@rohanpaul_ai)",
-        "The Decoder：AI News（RSS）",
-        "X：Yuchen Jin (@Yuchenj_UW)",
-        "X：Ethan Mollick (@emollick)",
-        "IT之家·人工智能",
-        "X：Greg Brockman (@gdb)"
+        "X：Dash (@dashhuang)",
+        "X：indigo (@indigox)",
+        "Apple：Newsroom（RSS）"
       ],
-      "latestAt": "2026-10-27T20:48:58.000Z"
+      "latestAt": "2026-10-29T00:31:38.000Z"
     },
     {
       "rank": 5,
-      "id": "m4l5hb0qhkn1zzgbqzxe6o510",
-      "title": "微软向约六万员工发出自愿离职邀约",
-      "url": "https://x.com/oran_ge/status/2114876309650497853",
-      "permalink": "https://aihot.news/items/m4l5hb0qhkn1zzgbqzxe6o510",
-      "storyPermalink": "https://aihot.virxact.com/story/1aa4aaac-b209-467a-98f0-a36afb168840",
-      "source": "X：Oran Ge (@oran_ge)",
-      "sourceCount": 1,
-      "signalCount": 33,
-      "participantCount": 34,
+      "id": "xmpu9lo3lbzld3tqsyrcy5e2v",
+      "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
+      "url": "https://x.com/thsottiaux/status/2114800277677092936",
+      "permalink": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
+      "storyPermalink": "https://aihot.virxact.com/story/30e9a1ca-aae1-410a-b1c6-53893df398db",
+      "source": "X：Tibo (@thsottiaux)",
+      "sourceCount": 4,
+      "signalCount": 51,
+      "participantCount": 55,
       "sourceNames": [
-        "X：Oran Ge (@oran_ge)"
+        "IT之家·人工智能",
+        "X：Arena (@arena)",
+        "X：卡兹克 (@Khazix0918)",
+        "MarkTechPost（RSS）"
       ],
-      "latestAt": "2026-10-27T00:43:54.000Z"
+      "latestAt": "2026-10-28T02:01:04.710Z"
     },
     {
       "rank": 6,
-      "id": "o0okltd585bcx5lh6bkq53n59",
-      "title": "Apple发布搭载M6芯片的14英寸MacBook Pro",
-      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-      "permalink": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59",
-      "storyPermalink": "https://aihot.virxact.com/story/93c5795b-86df-47b3-b461-db55ecc172a6",
-      "source": "Apple：Newsroom（RSS）",
-      "sourceCount": 1,
-      "signalCount": 16,
-      "participantCount": 17,
-      "sourceNames": [
-        "Apple：Newsroom（RSS）"
-      ],
-      "latestAt": "2026-10-26T16:00:00.000Z"
-    },
-    {
-      "rank": 7,
       "id": "s06bmy25gmrtj73ordbvi4q9e",
       "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
       "url": "https://x.com/AnthropicAI/status/2115178675050307942",
       "permalink": "https://aihot.news/items/s06bmy25gmrtj73ordbvi4q9e",
       "storyPermalink": "https://aihot.virxact.com/story/37c4f934-a969-4d47-b4ab-d8394ef134ba",
       "source": "X：Anthropic (@AnthropicAI)",
-      "sourceCount": 4,
-      "signalCount": 9,
-      "participantCount": 13,
+      "sourceCount": 2,
+      "signalCount": 20,
+      "participantCount": 22,
       "sourceNames": [
-        "X：Oran Ge (@oran_ge)",
         "X：Rohan Paul (@rohanpaul_ai)",
-        "X：Yuchen Jin (@Yuchenj_UW)",
         "X：Anthropic (@AnthropicAI)"
       ],
-      "latestAt": "2026-10-27T23:24:34.000Z"
+      "latestAt": "2026-10-27T20:54:24.000Z"
+    },
+    {
+      "rank": 7,
+      "id": "jxpzj0z4beg1r0cktwzc0tmwe",
+      "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
+      "url": "https://www.ithome.com/1/018/203.htm",
+      "permalink": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
+      "storyPermalink": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438",
+      "source": "IT之家·人工智能",
+      "sourceCount": 4,
+      "signalCount": 25,
+      "participantCount": 29,
+      "sourceNames": [
+        "The Verge：AI（RSS）",
+        "TechCrunch：AI（RSS）",
+        "X：Rohan Paul (@rohanpaul_ai)",
+        "The Decoder：AI News（RSS）"
+      ],
+      "latestAt": "2026-10-27T20:48:58.000Z"
     },
     {
       "rank": 8,
-      "id": "c05wmjyq8b00trv4dmhnb0gen",
-      "title": "Cohere称Qwen模型在沙箱中尝试外传探针文件",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "permalink": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
-      "storyPermalink": "https://aihot.virxact.com/story/6f5a6f0d-d929-4115-a812-e6c107707ea4",
-      "source": "Hacker News：AI 热帖",
-      "sourceCount": 5,
-      "signalCount": 20,
-      "participantCount": 25,
+      "id": "dmseupm220mt9blyjyszid4em",
+      "title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "permalink": "https://aihot.news/items/dmseupm220mt9blyjyszid4em",
+      "storyPermalink": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "sourceCount": 4,
+      "signalCount": 10,
+      "participantCount": 14,
       "sourceNames": [
-        "TechCrunch：AI（RSS）",
-        "X：Cohere（@cohere）",
-        "X：Nathan Lambert (@natolambert)",
-        "X：Testing Catalog (@testingcatalog)",
-        "Hacker News：AI 热帖"
+        "IT之家·人工智能",
+        "The Decoder：AI News（RSS）",
+        "Nathan Lambert：Interconnects（RSS）",
+        "X：Artificial Analysis (@ArtificialAnlys)"
       ],
-      "latestAt": "2026-10-27T01:12:21.000Z"
+      "latestAt": "2026-10-28T17:06:21.037Z"
     },
     {
       "rank": 9,
+      "id": "hlzo912kzi3ltfvxlkandttt3",
+      "title": "Anthropic 一团队取消编程面试，改看原型",
+      "url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+      "permalink": "https://aihot.news/items/hlzo912kzi3ltfvxlkandttt3",
+      "storyPermalink": "https://aihot.virxact.com/story/9b5967e4-e1bd-4efa-b770-4fe16ba97740",
+      "source": "The Decoder：AI News（RSS）",
+      "sourceCount": 3,
+      "signalCount": 12,
+      "participantCount": 15,
+      "sourceNames": [
+        "X：Addy Osmani (@addyosmani)",
+        "The Decoder：AI News（RSS）",
+        "IT之家·人工智能"
+      ],
+      "latestAt": "2026-10-28T16:26:48.000Z"
+    },
+    {
+      "rank": 10,
       "id": "j9n2v4vucqk9r4mzddueppd2v",
       "title": "英伟达与Meta扩大Muse合作并投资30亿美元",
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
       "permalink": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v",
       "storyPermalink": "https://aihot.virxact.com/story/724567a6-6d89-45af-ac21-7ed9e27cce8b",
       "source": "NVIDIA：Newsroom（RSS）",
-      "sourceCount": 4,
-      "signalCount": 13,
-      "participantCount": 17,
+      "sourceCount": 3,
+      "signalCount": 19,
+      "participantCount": 22,
       "sourceNames": [
-        "X：Testing Catalog (@testingcatalog)",
         "The Decoder：AI News（RSS）",
         "IT之家·人工智能",
         "NVIDIA：Newsroom（RSS）"
       ],
-      "latestAt": "2026-10-27T12:10:02.000Z"
-    },
-    {
-      "rank": 10,
-      "id": "t75a9cjsxenae5ubp1blnv92v",
-      "title": "蚂蚁发布灵光2.0，AI助理可跨会话持续办事",
-      "url": "https://x.com/aiwarts/status/2115071443553931462",
-      "permalink": "https://aihot.news/items/t75a9cjsxenae5ubp1blnv92v",
-      "storyPermalink": "https://aihot.virxact.com/story/8bcf43d2-9952-471e-a73f-aba4f4e855ee",
-      "source": "X：卡尔的 AI 沃茨 (@aiwarts)",
-      "sourceCount": 3,
-      "signalCount": 13,
-      "participantCount": 16,
-      "sourceNames": [
-        "X：卡尔的 AI 沃茨 (@aiwarts)",
-        "公众号：卡尔的AI沃茨",
-        "IT之家·人工智能"
-      ],
-      "latestAt": "2026-10-27T13:22:20.000Z"
+      "latestAt": "2026-10-27T09:58:16.000Z"
     }
   ],
   "daily": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "attribution": {
       "source": "AIHOT",
-      "canonical": "https://aihot.news/daily/2026-10-28"
+      "canonical": "https://aihot.news/daily/2026-10-29"
     },
-    "generatedAt": "2026-10-28T00:00:06.513Z",
-    "windowStart": "2026-10-27T00:00:00.000Z",
-    "windowEnd": "2026-10-28T00:00:00.000Z",
+    "generatedAt": "2026-10-29T00:00:28.384Z",
+    "windowStart": "2026-10-28T00:00:00.000Z",
+    "windowEnd": "2026-10-29T00:00:00.000Z",
     "lead": {
-      "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
-      "leadParagraph": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。"
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "leadParagraph": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。"
     },
     "sections": [
       {
         "label": "模型发布/更新",
         "items": [
           {
-            "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-            "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
-            "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+            "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+            "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
             "sourceName": "Google DeepMind：Blog（RSS）",
-            "permalink": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+            "permalink": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs"
+              "canonical": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud"
             }
           },
           {
-            "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
-            "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
-            "sourceUrl": "https://www.liquid.ai/blog/lfm3",
-            "sourceName": "Liquid AI 模型与工程博客（网页）",
-            "permalink": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
+            "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+            "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+            "sourceUrl": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499654&idx=1&sn=9bcbf9492c492a5d5e611af41670425f",
+            "sourceName": "公众号：面壁智能（MiniCPM）",
+            "permalink": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s"
+              "canonical": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
             }
           }
         ]
@@ -1156,36 +1153,25 @@
         "label": "产品发布/更新",
         "items": [
           {
-            "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
-            "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
-            "sourceUrl": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
-            "sourceName": "Replit：Blog（RSS）",
-            "permalink": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d",
+            "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+            "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+            "sourceUrl": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+            "sourceName": "GitHub Blog",
+            "permalink": "https://aihot.news/items/xonc43xgcx39303i40k8022rl",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d"
+              "canonical": "https://aihot.news/items/xonc43xgcx39303i40k8022rl"
             }
           },
           {
-            "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999",
-            "summary": "Apple 发布搭载全新 M6 芯片的 14 英寸 MacBook Pro，配备 12 核 CPU 和 12 核 GPU，相比 M5 图形性能最高快 30%、端侧 AI 工作负载最高快 25%，电池续航最长 24 小时。新机支持 Wi-Fi 7 和蓝牙 6，可本地运行 LLM，10 月 28 日开启预购、11 月 6 日发售，起售价 $1,999（教育优惠 $1,899）。",
-            "sourceUrl": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-            "sourceName": "Apple：Newsroom（RSS）",
-            "permalink": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59",
+            "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+            "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+            "sourceUrl": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+            "sourceName": "Microsoft：Official Blog（RSS）",
+            "permalink": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59"
-            }
-          },
-          {
-            "title": "Apple Creator Studio 推出更新：Final Cut Pro 集成 MotionVFX，Keynote、Pages、Numbers 新增智能助手与 MCP 支持",
-            "summary": "Apple 为 Creator Studio 推出更新，Final Cut Pro for Mac 内置 MotionVFX 视觉效果库并接入含视频素材的 Content Hub。",
-            "sourceUrl": "https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/",
-            "sourceName": "Apple：Newsroom（RSS）",
-            "permalink": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo"
+              "canonical": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v"
             }
           }
         ]
@@ -1194,58 +1180,47 @@
         "label": "行业动态",
         "items": [
           {
-            "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
-            "summary": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。",
-            "sourceUrl": "https://x.com/Khazix0918/status/2114878401190506902",
-            "sourceName": "X：卡兹克 (@Khazix0918)",
-            "permalink": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr",
-            "attribution": {
-              "source": "AIHOT",
-              "canonical": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr"
-            }
-          },
-          {
-            "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
-            "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
-            "sourceUrl": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+            "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+            "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
+            "sourceUrl": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
             "sourceName": "TechCrunch：AI（RSS）",
-            "permalink": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy",
+            "permalink": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy"
+              "canonical": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9"
             }
           },
           {
-            "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
-            "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
-            "sourceUrl": "https://x.com/rohanpaul_ai/status/2115224910603890778",
-            "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
-            "permalink": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf",
+            "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+            "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+            "sourceUrl": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+            "sourceName": "GitHub Blog",
+            "permalink": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf"
+              "canonical": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc"
             }
           },
           {
-            "title": "NVIDIA 与 Meta 扩大 Muse 模型合作并投资 30 亿美元",
-            "summary": "NVIDIA 与 Meta 宣布扩大围绕 Muse 及 Muse 系列模型的合作，优化推理与训练性能，并考虑在 NVIDIA OpenShell 参考架构和 NVIDIA Sentry 监控等方向继续合作。",
-            "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
-            "sourceName": "NVIDIA：Newsroom（RSS）",
-            "permalink": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v",
+            "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+            "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+            "sourceUrl": "https://x.com/sundarpichai/status/2115535455156642066",
+            "sourceName": "X：Sundar Pichai (@sundarpichai)",
+            "permalink": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v"
+              "canonical": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9"
             }
           },
           {
-            "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
-            "summary": "Anthropic 与美国总务管理局（GSA）扩大合作，政府伙伴购买 Claude Enterprise、Claude for Government 和 Claude API 可享 40% 折扣，预计为政府节省 10 亿美元，且不设最低消费承诺。",
-            "sourceUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
-            "sourceName": "Anthropic：Newsroom（网页）",
-            "permalink": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok",
+            "title": "微软财报电话会：Microsoft Cloud 收入超 $63B，同比增长 30%",
+            "summary": "Satya Nadella 结束微软财报电话会，称财年开局强劲。Microsoft Cloud 收入超过 $63B，同比增长加快至 30%。他提到正围绕 agentic 浪潮构建新技术栈，有多项创新亮点。",
+            "sourceUrl": "https://x.com/satyanadella/status/2115577764300693644",
+            "sourceName": "X：Satya Nadella (@satyanadella)",
+            "permalink": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok"
+              "canonical": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d"
             }
           }
         ]
@@ -1254,14 +1229,14 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
-            "summary": "Anthropic 发表研究，让 50 名有因果推断经验的专业分析师用 Claude Code（Claude Opus 4.8）完成一项统计分析任务，并在分析师不知情的情况下用掷硬币随机设定智能体在四个分析决策上的倾向。",
-            "sourceUrl": "https://www.anthropic.com/research/agents-judgment-calls",
-            "sourceName": "Anthropic：Research（发表成果 · 网页）",
-            "permalink": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0",
+            "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+            "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+            "sourceUrl": "https://www.ithome.com/1/019/268.htm",
+            "sourceName": "IT之家·人工智能",
+            "permalink": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0"
+              "canonical": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn"
             }
           }
         ]
@@ -1270,14 +1245,36 @@
         "label": "技巧与观点",
         "items": [
           {
-            "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
-            "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
-            "sourceUrl": "https://www.langchain.com/blog/design-agent",
-            "sourceName": "LangChain：Blog（RSS）",
-            "permalink": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02",
+            "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+            "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+            "sourceUrl": "https://openrouter.ai/blog/tutorials/claude-code-usage-limit/",
+            "sourceName": "OpenRouter：Announcements（RSS）",
+            "permalink": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
             "attribution": {
               "source": "AIHOT",
-              "canonical": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02"
+              "canonical": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo"
+            }
+          },
+          {
+            "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+            "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+            "sourceUrl": "https://x.com/addyosmani/status/2115326629488824753",
+            "sourceName": "X：Addy Osmani (@addyosmani)",
+            "permalink": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb"
+            }
+          },
+          {
+            "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+            "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+            "sourceUrl": "https://openai.com/index/the-future-of-the-firm",
+            "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+            "permalink": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr",
+            "attribution": {
+              "source": "AIHOT",
+              "canonical": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr"
             }
           }
         ]
@@ -1285,91 +1282,80 @@
     ],
     "flashes": [
       {
-        "title": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明",
+        "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
         "sourceName": "The Decoder：AI News（RSS）",
-        "sourceUrl": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
-        "publishedAt": "2026-10-27T12:37:24.000Z",
-        "permalink": "https://aihot.news/items/xuhb122ijbtqkri3h6er2m21y",
+        "sourceUrl": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+        "publishedAt": "2026-10-28T10:56:24.000Z",
+        "permalink": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/xuhb122ijbtqkri3h6er2m21y"
+          "canonical": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg"
         }
       },
       {
-        "title": "Anthropic 公布 Claude 加速药物研发的早期进展与六个合作案例",
-        "sourceName": "Anthropic：Research（发表成果 · 网页）",
-        "sourceUrl": "https://www.anthropic.com/research/early-progress-drug-development",
-        "publishedAt": "2026-10-26T16:00:00.000Z",
-        "permalink": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7",
+        "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+        "sourceName": "X：Boris Cherny (@bcherny)",
+        "sourceUrl": "https://x.com/bcherny/status/2115491259381072269",
+        "publishedAt": "2026-10-28T17:09:54.000Z",
+        "permalink": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7"
+          "canonical": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm"
         }
       },
       {
-        "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
-        "sourceName": "Ai2 / Allen Institute for AI（RSS）",
-        "sourceUrl": "https://allenai.org/blog/novelty-bench",
-        "publishedAt": "2026-10-27T08:00:00.000Z",
-        "permalink": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6",
+        "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率",
+        "sourceName": "Cartesia 产品与研究",
+        "sourceUrl": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+        "publishedAt": "2026-10-27T00:00:00.000Z",
+        "permalink": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6"
+          "canonical": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr"
         }
       },
       {
-        "title": "Microsoft AI 发布 MAI Image 2.7 图像编辑模型，登 Arena 第 3 和 Artificial Analysis 第 2",
-        "sourceName": "Microsoft AI：官方博客（网页）",
-        "sourceUrl": "https://microsoft.ai/news/mai-image-2-7-debut/",
-        "publishedAt": "2026-10-27T15:10:00.000Z",
-        "permalink": "https://aihot.news/items/qlth5swcs2fjjk1wr21g0pi42",
-        "attribution": {
-          "source": "AIHOT",
-          "canonical": "https://aihot.news/items/qlth5swcs2fjjk1wr21g0pi42"
-        }
-      },
-      {
-        "title": "Ben Horowitz 长文解析 Databricks 与智能体时代的公司形态",
+        "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
         "sourceName": "a16z：News（RSS）",
-        "sourceUrl": "https://www.a16z.news/p/databricks-and-the-future-of-the",
-        "publishedAt": "2026-10-27T14:02:28.000Z",
-        "permalink": "https://aihot.news/items/hfqjmlynoaqxrkyeg8qtsk9ap",
+        "sourceUrl": "https://www.a16z.news/p/the-new-security-agenda",
+        "publishedAt": "2026-10-28T16:00:31.000Z",
+        "permalink": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/hfqjmlynoaqxrkyeg8qtsk9ap"
+          "canonical": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t"
         }
       },
       {
-        "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
-        "sourceName": "X：Gemini (@GeminiApp)",
-        "sourceUrl": "https://x.com/GeminiApp/status/2115171788812669225",
-        "publishedAt": "2026-10-27T20:00:27.000Z",
-        "permalink": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
+        "title": "ChatGPT 上线 iCloud 邮件与日历插件",
+        "sourceName": "X：Tibo (@thsottiaux)",
+        "sourceUrl": "https://x.com/thsottiaux/status/2115273064481218829",
+        "publishedAt": "2026-10-28T02:42:53.000Z",
+        "permalink": "https://aihot.news/items/swjngpnh646i9tqitw7679bwp",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk"
+          "canonical": "https://aihot.news/items/swjngpnh646i9tqitw7679bwp"
         }
       },
       {
-        "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
-        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
-        "publishedAt": "2026-10-27T07:00:00.000Z",
-        "permalink": "https://aihot.news/items/zbp5qzehshqnvgimabeu27cb1",
+        "title": "Anthropic 为法律工作推出即用型 Artifacts 画廊",
+        "sourceName": "Claude：Blog（网页）",
+        "sourceUrl": "https://claude.com/blog/introducing-artifacts-for-legal-work",
+        "publishedAt": "2026-10-28T00:00:00.000Z",
+        "permalink": "https://aihot.news/items/sa5s9u2trwxumjqnzqmlibs1i",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/zbp5qzehshqnvgimabeu27cb1"
+          "canonical": "https://aihot.news/items/sa5s9u2trwxumjqnzqmlibs1i"
         }
       },
       {
-        "title": "Cursor design mode 新增 Annotate 功能",
-        "sourceName": "X：Cursor (@cursor_ai)",
-        "sourceUrl": "https://x.com/cursor_ai/status/2115159585548021814",
-        "publishedAt": "2026-10-27T19:11:57.000Z",
-        "permalink": "https://aihot.news/items/mb0ybs7gnyw4eeszyjo2optzy",
+        "title": "Grok Bot 0.77.0 稳定版发布",
+        "sourceName": "X：Lauren Tan（SpaceXSI，Grok Bot 工程负责人） (@poteto)",
+        "sourceUrl": "https://x.com/poteto/status/2115242399312290040",
+        "publishedAt": "2026-10-28T00:41:01.000Z",
+        "permalink": "https://aihot.news/items/xlt4t83wh6wlikorc91vp36v2",
         "attribution": {
           "source": "AIHOT",
-          "canonical": "https://aihot.news/items/mb0ybs7gnyw4eeszyjo2optzy"
+          "canonical": "https://aihot.news/items/xlt4t83wh6wlikorc91vp36v2"
         }
       }
     ],
