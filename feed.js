@@ -1,114 +1,123 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-29",
- "total": 1192,
+ "updated": "2026-10-30",
+ "total": 1256,
  "source_count": 52,
  "score_min": 60,
  "by_cat": {
+  "compliance-fulfillment": [
+   {
+    "t": "卖家因PPWR暂停欧盟销售及应对之策",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/10/why-sellers-are-pausing-eu-sales-over-the-ppwr-and-what-to-do-instead/",
+    "d": "2026-10-29",
+    "p": "P0",
+    "m": "UK",
+    "score": 87
+   }
+  ],
   "platform-channel": [
    {
-    "t": "Shopify应用内可一键唤起Sidekick对话",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/start-sidekick-conversations-from-your-app",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "Shopify Messaging 支持创建 WhatsApp 营销自动化",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/create-whatsapp-marketing-automations-in-shopify-messaging",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Shopify POS 借助支付网络识别更多到店顾客",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/identify-more-in-store-customers-with-pos",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "英国预算案：个体市场卖家面临税务重大调整",
+    "t": "Bodycare组建700人微网红网络，助力高街回归",
     "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/big-tax-changes-for-self-employed-marketplace-sellers/",
-    "d": "2026-10-28",
+    "u": "https://channelx.world/2026/10/bodycares-700-strong-micro-influencer-network-supporting-high-street-comeback/",
+    "d": "2026-10-29",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 83
    },
    {
-    "t": "zooplus在西班牙推出第三个第三方市场",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/zooplus-spainish-marketplace-launched/",
-    "d": "2026-10-28",
+    "t": "Shopify商品页现可直接管理变体",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/variants-are-now-managed-on-the-product-page",
+    "d": "2026-10-29",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Shopify开发者仪表盘新增商店与应用安装详情",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/store-and-app-install-details-in-the-dev-dashboard",
-    "d": "2026-10-27",
+    "t": "Shopify 支持直接免除订单应付余额",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/waive-outstanding-order-balances",
+    "d": "2026-10-29",
     "p": "P1",
     "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "FTC要求Target、沃尔玛提交个性化定价调查详情",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/ftc-orders-target-walmart-personalized-pricing-inquiry/873173/",
+    "d": "2026-10-29",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Unipaas携手摩根大通支付拓展爱尔兰市场",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111513/unipaas-expands-to-ireland-with-jp-morgan-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-10-29",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   },
+   {
+    "t": "谷歌AI搜索改版遇阻，广告收入增长放缓",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/googles-ai-overhaul-of-search-hits-snags-as-ad-revenue-growth-cools/873150/",
+    "d": "2026-10-29",
+    "p": "P1",
+    "m": "US",
     "score": 79
    }
   ],
-  "market-product": [
+  "brand-retail": [
    {
-    "t": "Jos. A. Bank新店概念以顾客体验为核心",
+    "t": "Heydude北美欲增销但无意开新店",
     "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/jos-a-bank-new-store-concept/872882/",
-    "d": "2026-10-28",
+    "u": "https://www.retaildive.com/news/heydude-north-america-wholesale-crocs-q3/873169/",
+    "d": "2026-10-29",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "P.F. Chang's CMO谋划重拾品牌魔力",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/pf-changs-cmo-is-cooking-up-a-plan-to-recapture-chains-old-magic/872879/",
-    "d": "2026-10-28",
+    "t": "JCB与河内地铁合作推出非接触式支付",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111502/jcb-partners-hanoi-metro-for-contactless-railway-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-10-29",
+    "p": "P1",
+    "m": "JP",
+    "score": 79
+   },
+   {
+    "t": "2026年哪些品类才算“健康”品类？",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/podcasts/which-categories-should-be-called-wellness-today-a-special-modern-retail-crossover-episode/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-29",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "丝芙兰邀塞斯·罗根拍节日广告，瞄准送礼人群",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/sephora-casts-seth-rogen-holiday-ads/873013/",
-    "d": "2026-10-28",
+    "t": "DoorDash以170亿美元收购Instacart",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/10/29/doordash-instacart-acquisition/",
+    "d": "2026-10-29",
     "p": "P1",
     "m": "US",
     "score": 73
    },
    {
-    "t": "Camino Partners押注6200万美元，优化呼吸能否成为健康身份象征？",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/wellness/can-intake-turn-optimized-breathing-into-a-wellness-status-symbol-camino-partners-is-betting-on-it/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "US",
-    "score": 69
+    "t": "格拉斯哥眼镜品牌IOLLA将在西区开设旗舰展厅",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/iolla-to-open-flagship-west-end-showroom-as-glasgow-eyewear-brand-continues-uk-growth/",
+    "d": "2026-10-29",
+    "p": "P0",
+    "m": "UK",
+    "score": 72
    },
-   {
-    "t": "电商折扣策略：优惠券如何成为增长杠杆",
-    "s": "Ecommerce Germany News",
-    "u": "https://ecommercegermany.com/blog/discount-strategy-in-e-commerce-why-vouchers-can-become-a-serious-growth-lever/",
-    "d": "2026-10-28",
-    "p": "P3",
-    "m": "US",
-    "score": 63
-   }
-  ],
-  "brand-retail": [
    {
     "t": "Flokk设计感座椅亮相Dezeen展厅",
     "s": "Dezeen 设计",
@@ -116,63 +125,36 @@ window.NAV_FEED = {
     "d": "2026-10-28",
     "p": "P1",
     "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Aldo首度联名高定品牌Zuhair Murad",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/luxury/aldo-zuhair-murad-couture-collaboration-footwear/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Intake Breathing获6200万美元投资，进军鼻腔健康新趋势",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/intake-breathing-62-million-funding-round/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "诺曼·福斯特携手Lebond推出首款腕表",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/28/norman-foster-first-watch-lebond/",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "禁果",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/10/28/forbidden-fruit/",
-    "d": "2026-10-28",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "同源同文化基因，不同表达",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/10/same-origin-same-cultural-dna-a-different-expression.html",
-    "d": "2026-10-28",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 62
+    "score": 74
    }
   ],
-  "compliance-fulfillment": [
+  "market-product": [
    {
-    "t": "欧盟2025年道路死亡人数下降",
-    "s": "EU 委员会新闻",
-    "u": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2270",
-    "d": "2026-10-27",
+    "t": "营销人员须知：算法定价的法律风险",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/what-marketers-should-know-about-the-legal-risks-of-algorithmic-pricing/832963/",
+    "d": "2026-10-29",
     "p": "P1",
-    "m": "EU",
-    "score": 74
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "创作者经济面临支付难题",
+    "s": "Digiday",
+    "u": "https://digiday.com/sponsored/the-creator-economy-has-a-payments-problem/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-29",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "美国运通将信用卡奖励转为银行存款",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/news/loyalty-and-rewards-news/2026/american-express-converts-card-rewards-into-bank-deposits/",
+    "d": "2026-10-29",
+    "p": "P2",
+    "m": "US",
+    "score": 66
    }
   ]
  }
