@@ -1,10 +1,66 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-10-31",
- "total": 1279,
- "source_count": 52,
+ "updated": "2026-11-01",
+ "total": 1266,
+ "source_count": 51,
  "score_min": 60,
  "by_cat": {
+  "brand-retail": [
+   {
+    "t": "什么构成一个健康品牌？",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/what-is-a-wellness-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-31",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "苹果推出首款触屏MacBook Pro",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/10/30/macbook-pro-touchscreen-apple/",
+    "d": "2026-10-30",
+    "p": "P1",
+    "m": "UK",
+    "score": 74
+   },
+   {
+    "t": "Signify高管称照明设计是战略性经济投资",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/10/30/lighting-design-strategic-economic-signifys-sameer-sodhi/",
+    "d": "2026-10-30",
+    "p": "P1",
+    "m": "UK",
+    "score": 74
+   },
+   {
+    "t": "时尚能搞笑吗？喜剧演员成秋季广告新面孔",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/podcasts/can-fashion-be-funny-how-comedians-became-the-faces-of-fall/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-30",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
+   {
+    "t": "Cotopaxi推双日上新策略为黑五预热造势",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/cotopaxi-adopts-a-drop-strategy-to-build-buzz-ahead-of-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-10-30",
+    "p": "P1",
+    "m": "US",
+    "score": 64
+   },
+   {
+    "t": "New Balance下周推出全新越野跑鞋TL900",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/sneaker-news/new-balance-tl900-release-date-utl909qq-1239393748/",
+    "d": "2026-10-30",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 61
+   }
+  ],
   "platform-channel": [
    {
     "t": "Shopify UI扩展取消多语言文件总大小限制",
@@ -13,7 +69,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
+    "score": 79
    },
    {
     "t": "Shopify支付应用API新增可信金库来源信号",
@@ -22,7 +78,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
+    "score": 79
    },
    {
     "t": "Visa与塞内加尔签署数字支付合作备忘录",
@@ -31,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Ouai推电影级长视频网剧，押注真实感内容",
@@ -40,7 +96,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "亚马逊CEO称零售业务被低估",
@@ -49,7 +105,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Prime Day调整致亚马逊广告收入增长放缓",
@@ -58,7 +114,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    }
   ],
   "market-product": [
@@ -69,7 +125,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "英国政府依公平支付准则表彰逾800家企业",
@@ -78,7 +134,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "下载量最高的五大购物应用",
@@ -87,7 +143,25 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "US",
-    "score": 71
+    "score": 66
+   },
+   {
+    "t": "赛琳娜·戈麦斯与泰特·麦克雷助阵Ulta Beauty假日营销",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/creativity/selena-gomez-and-tate-mcrae-bring-the-magic-to-ulta-beautys-holiday-campaign/",
+    "d": "2026-10-31",
+    "p": "P2",
+    "m": "US",
+    "score": 56
+   },
+   {
+    "t": "2027年最佳广告技术公司？RTB House满足的5项标准",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/10/30/looking-for-the-best-adtech-company-5-criteria-rtb-house-meets-in-2027/",
+    "d": "2026-10-30",
+    "p": "P1",
+    "m": "US",
+    "score": 57
    }
   ],
   "compliance-fulfillment": [
@@ -98,16 +172,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P1",
     "m": "EU",
-    "score": 79
-   },
-   {
-    "t": "卖家因PPWR暂停欧盟销售及应对之策",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/10/why-sellers-are-pausing-eu-sales-over-the-ppwr-and-what-to-do-instead/",
-    "d": "2026-10-29",
-    "p": "P0",
-    "m": "UK",
-    "score": 82
+    "score": 74
    },
    {
     "t": "Holland & Barrett 投资1750万欧元建爱尔兰履约体系",
@@ -116,63 +181,7 @@ window.NAV_FEED = {
     "d": "2026-10-30",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 70
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "苹果推出首款触屏MacBook Pro",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/30/macbook-pro-touchscreen-apple/",
-    "d": "2026-10-30",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Signify高管称照明设计是战略性经济投资",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/10/30/lighting-design-strategic-economic-signifys-sameer-sodhi/",
-    "d": "2026-10-30",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "时尚能搞笑吗？喜剧演员成秋季广告新面孔",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/podcasts/can-fashion-be-funny-how-comedians-became-the-faces-of-fall/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-30",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Cotopaxi推双日上新策略为黑五预热造势",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/cotopaxi-adopts-a-drop-strategy-to-build-buzz-ahead-of-bfcm/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-30",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "New Balance下周推出全新越野跑鞋TL900",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/sneaker-news/new-balance-tl900-release-date-utl909qq-1239393748/",
-    "d": "2026-10-30",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
-   },
-   {
-    "t": "DoorDash以170亿美元收购Instacart",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/10/29/doordash-instacart-acquisition/",
-    "d": "2026-10-29",
-    "p": "P1",
-    "m": "US",
-    "score": 68
+    "score": 65
    }
   ]
  }
