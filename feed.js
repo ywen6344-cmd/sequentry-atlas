@@ -1,54 +1,61 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-02",
- "total": 1269,
- "source_count": 51,
+ "updated": "2026-11-03",
+ "total": 1294,
+ "source_count": 53,
  "score_min": 60,
  "by_cat": {
-  "brand-retail": [
-   {
-    "t": "什么构成一个健康品牌？",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/what-is-a-wellness-brand/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-10-31",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "意大利老牌礼帽Borsalino跨界香氛，操盘手详解战略",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/486766",
-    "d": "2026-11-01",
-    "p": "P2",
-    "m": "EU",
-    "score": 49
-   },
-   {
-    "t": "一场降神会如何塑造这个灵媒平台的全新品牌形象",
-    "s": "Creative Bloq 设计",
-    "u": "https://www.creativebloq.com/features/how-a-seance-shaped-this-beautiful-psychic-app-rebrand",
-    "d": "2026-10-31",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 44
-   }
-  ],
   "platform-channel": [
    {
-    "t": "两党候选人主张设定信用卡利率上限",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/credit-cards/2026/candidates-of-both-parties-pitch-credit-card-interest-rate-caps/",
+    "t": "OKX在美国推出万事达稳定币卡",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111535/okx-launches-mastercard-stablecoin-card-in-the-us?utm_medium=rssfinextra&utm_source=finextrafeed",
     "d": "2026-11-02",
-    "p": "P2",
+    "p": "P1",
     "m": "US",
-    "score": 66
+    "score": 83
    },
    {
-    "t": "CarParts.com推出积分忠诚度计划，助力增长新阶段",
+    "t": "Shopify发布2026秋季版AI与电商工具",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/shopify-unveils-new-ai-and-commerce-tools-in-autumn-26-edition/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "SHEIN与Chavez家族推出节日童装系列",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/shein-and-the-chavez-family-festive-holiday-collection/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "CN",
+    "score": 79
+   },
+   {
+    "t": "沃尔玛推出节日餐食套餐",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/walmart-holiday-meal-2026-cheaper-2025/873287/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "你的买家正派AI代理来，它们会推荐你的品牌吗？",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/spons/your-buyers-are-sending-agents-will-they-recommend-your-brand/833812/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "万事达携手OpenAI与腾讯推动智能体商务",
     "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/earnings/2026/carparts-com-launches-loyalty-program-to-fuel-growth-phase/",
-    "d": "2026-11-01",
+    "u": "https://www.pymnts.com/partnerships/2026/mastercard-forms-openai-and-tencent-partnerships-to-drive-agentic-commerce/",
+    "d": "2026-11-03",
     "p": "P2",
     "m": "US",
     "score": 66
@@ -56,31 +63,114 @@ window.NAV_FEED = {
   ],
   "market-product": [
    {
-    "t": "Argos邀理查德·阿尤阿德出演2026圣诞广告",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/11/argos-enlists-richard-ayoade-for-2026-christmas-advert/",
-    "d": "2026-11-01",
+    "t": "锐步选定Foot Locker独家发售Question球鞋复刻版",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/reebok-foot-locker-question-shoe-launch-allen-iverson/873438/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "WPP Media两年来首次增长，转型步入正轨",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/wpp-media-posts-first-growth-in-2-years-as-turnaround-stays-on-track/873447/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "诺德斯特龙推非常规假日营销破局",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/holiday-timing-is-a-moving-target-nordstrom-aims-to-cut-through-the-noise-with-an-unexpected-campaign/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Modern Retail研究：2026年品牌假日营销策略转向",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/modern-retail-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 73
+   },
+   {
+    "t": "雅诗兰黛Q1净销售额增7%至37亿美元，香水领涨",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/the-estee-lauder-companies-reports-continued-growth-with-fragrance-still-driving-the-charge/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "超半数线上保健品消费者担忧假货",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/online-supplement-counterfeit-products/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   }
+  ],
+  "brand-retail": [
+   {
+    "t": "创作者机构LV8与姊妹公司Mirage合并，融资达“八位数高位”",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/agencies/lv8-mirage-velocity-merger-investment-creators-agency/",
+    "d": "2026-11-02",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "捷豹改造伦敦骑士桥旗舰店，呼应Type 01电动车设计",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/02/jaguar-flagship-store-knightsbridge-london-type-01/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "UK",
+    "score": 62
+   },
+   {
+    "t": "宜家品牌形象的变迁",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/the-changing-face-of-ikea/",
+    "d": "2026-11-02",
+    "p": "P1",
+    "m": "US",
+    "score": 62
+   },
+   {
+    "t": "Wrinkles Schminkles入驻QVC UK拓展英国零售",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/wrinkles-schminkles-expands-uk-retail-strategy-with-launch-at-qvc/",
+    "d": "2026-11-02",
     "p": "P3",
     "m": "UK",
     "score": 56
    },
    {
-    "t": "联合利华最新季报：营业额同比增长6.7%至132.71亿欧元，中国市场实现低个位数增长",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/487107",
-    "d": "2026-11-01",
-    "p": "P2",
-    "m": "CN",
-    "score": 49
+    "t": "Co-op Wholesale在Wishaw开设新Nisa门店",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/co-op-wholesale-launches-a-new-nisa-store-in-wishaw/",
+    "d": "2026-11-02",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    },
    {
-    "t": "赛琳娜·戈麦斯与泰特·麦克雷助阵Ulta Beauty假日营销",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/creativity/selena-gomez-and-tate-mcrae-bring-the-magic-to-ulta-beautys-holiday-campaign/",
-    "d": "2026-10-31",
-    "p": "P2",
-    "m": "US",
-    "score": 51
+    "t": "Screwfix快速配送服务扩展至英国600家门店",
+    "s": "Retail Gazette UK",
+    "u": "https://www.retailgazette.co.uk/blog/2026/11/screwfix-expands-rapid-delivery-service-to-600-stores-across-uk/",
+    "d": "2026-11-02",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    }
   ]
  }
