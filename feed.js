@@ -1,81 +1,146 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-03",
- "total": 1294,
+ "updated": "2026-11-04",
+ "total": 1340,
  "source_count": 53,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "brand-retail": [
    {
-    "t": "OKX在美国推出万事达稳定币卡",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111535/okx-launches-mastercard-stablecoin-card-in-the-us?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-02",
+    "t": "雅诗兰黛Q1净销售额增6.7%，CEO看好旅游零售与线上",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/03/estee-lauder-ceo-praises-travel-retail-online-sales-as-q1-net-sales-grow-6/",
+    "d": "2026-11-03",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 79
    },
    {
-    "t": "Shopify发布2026秋季版AI与电商工具",
+    "t": "ROCCO：以神经美容学打造提升情绪的护肤品牌",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/11/rocco.html",
+    "d": "2026-11-03",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 72
+   },
+   {
+    "t": "Baked by Melissa节日季在Target推出居家烘焙套装",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/baked-by-melissa-launches-at-home-baking-kits-at-target-in-time-for-the-holidays/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Nomasei伦敦快闪店邀E.L.V. Denim客座，瞄准巴黎常设店",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/",
+    "d": "2026-11-03",
+    "p": "P2",
+    "m": "UK",
+    "score": 66
+   },
+   {
+    "t": "John Tree为Vaarni设计松木雕塑感Hoop台灯",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/03/john-tree-sculptural-hoop-lamp-pine-vaarni/",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "UK",
+    "score": 62
+   },
+   {
+    "t": "Princess Andre与KAIIA推出首个休闲装系列",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/princess-andre-launches-first-ever-leisurewear-collection-with-kaiia/",
+    "d": "2026-11-03",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "Levi’s节日黏土动画广告致敬手工工艺",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/levis-claymation-holiday-campaign-celebrates-handmade-craft-amid-ai-bloat/873496/",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "AI推荐导致退货率上升",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/ai-recommendations-returns/873075/",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "AI创企Murphy任命前Revolut产品高管为CPO",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111552/ai-startup-murphy-appoints-former-revolut-product-exec-dmitry-zlokazov-as-cpo?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "假日购物者只想要一点AI辅助寻礼",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/holiday-shoppers-only-want-a-dash-of-ai-for-the-gift-hunt/873317/",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Rackhams销售额翻倍，投资AI搜索",
     "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/shopify-unveils-new-ai-and-commerce-tools-in-autumn-26-edition/",
-    "d": "2026-11-02",
+    "u": "https://channelx.world/2026/11/rackhams-doubles-sales-and-invests-in-ai-search/",
+    "d": "2026-11-03",
     "p": "P1",
     "m": "UK",
     "score": 79
    },
    {
-    "t": "SHEIN与Chavez家族推出节日童装系列",
+    "t": "英国五分之一知名品牌在AI购物推荐中隐形",
     "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/shein-and-the-chavez-family-festive-holiday-collection/",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "CN",
-    "score": 79
-   },
-   {
-    "t": "沃尔玛推出节日餐食套餐",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/walmart-holiday-meal-2026-cheaper-2025/873287/",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "你的买家正派AI代理来，它们会推荐你的品牌吗？",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/spons/your-buyers-are-sending-agents-will-they-recommend-your-brand/833812/",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "万事达携手OpenAI与腾讯推动智能体商务",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/partnerships/2026/mastercard-forms-openai-and-tencent-partnerships-to-drive-agentic-commerce/",
+    "u": "https://channelx.world/2026/11/one-in-five-of-britains-best-known-brands-is-invisible-when-shoppers-ask-ai-what-to-buy/",
     "d": "2026-11-03",
-    "p": "P2",
-    "m": "US",
-    "score": 66
+    "p": "P1",
+    "m": "UK",
+    "score": 79
    }
   ],
   "market-product": [
    {
-    "t": "锐步选定Foot Locker独家发售Question球鞋复刻版",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/reebok-foot-locker-question-shoe-launch-allen-iverson/873438/",
-    "d": "2026-11-02",
+    "t": "TD推出挑战赛助Z世代建立财务信心",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/newsarticle/48693/td-launches-challenge-to-help-gen-z-build-financial-confidence?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "阳狮完成收购LiveRamp后，部分品牌称将撤离",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/as-publicis-closes-liveramp-deal-some-brands-say-theyre-jumping-ship/873561/",
+    "d": "2026-11-03",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "WPP Media两年来首次增长，转型步入正轨",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/wpp-media-posts-first-growth-in-2-years-as-turnaround-stays-on-track/873447/",
-    "d": "2026-11-02",
+    "t": "重新定义黑色星期五：不信任",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/redefining-black-friday-distrust/",
+    "d": "2026-11-03",
     "p": "P1",
     "m": "US",
     "score": 79
@@ -87,90 +152,25 @@ window.NAV_FEED = {
     "d": "2026-11-02",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "Modern Retail研究：2026年品牌假日营销策略转向",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/modern-retail-research-brands-holiday-marketing-tactics-shift-in-2026/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "US",
-    "score": 73
-   },
-   {
-    "t": "雅诗兰黛Q1净销售额增7%至37亿美元，香水领涨",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/the-estee-lauder-companies-reports-continued-growth-with-fragrance-still-driving-the-charge/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "超半数线上保健品消费者担忧假货",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/online-supplement-counterfeit-products/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "创作者机构LV8与姊妹公司Mirage合并，融资达“八位数高位”",
+    "t": "Martech创业者Adam Robinson在佛州空难中遇难",
     "s": "Adweek",
-    "u": "https://www.adweek.com/agencies/lv8-mirage-velocity-merger-investment-creators-agency/",
-    "d": "2026-11-02",
-    "p": "P2",
+    "u": "https://www.adweek.com/media/martech-entrepreneur-adam-robinson-among-nine-dead-in-florida-plane-crash/",
+    "d": "2026-11-03",
+    "p": "P0",
     "m": "US",
-    "score": 66
+    "score": 69
    },
    {
-    "t": "捷豹改造伦敦骑士桥旗舰店，呼应Type 01电动车设计",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/11/02/jaguar-flagship-store-knightsbridge-london-type-01/",
-    "d": "2026-11-02",
-    "p": "P1",
-    "m": "UK",
-    "score": 62
-   },
-   {
-    "t": "宜家品牌形象的变迁",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/the-changing-face-of-ikea/",
-    "d": "2026-11-02",
+    "t": "品牌简报：包挂饰成CPG品牌周边新潮流",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/brands-briefing-bag-charms-are-the-hot-new-trend-in-branded-cpg-merch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-03",
     "p": "P1",
     "m": "US",
-    "score": 62
-   },
-   {
-    "t": "Wrinkles Schminkles入驻QVC UK拓展英国零售",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/wrinkles-schminkles-expands-uk-retail-strategy-with-launch-at-qvc/",
-    "d": "2026-11-02",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "Co-op Wholesale在Wishaw开设新Nisa门店",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/co-op-wholesale-launches-a-new-nisa-store-in-wishaw/",
-    "d": "2026-11-02",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "Screwfix快速配送服务扩展至英国600家门店",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/11/screwfix-expands-rapid-delivery-service-to-600-stores-across-uk/",
-    "d": "2026-11-02",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
+    "score": 69
    }
   ]
  }
