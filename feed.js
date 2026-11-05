@@ -1,139 +1,45 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-04",
- "total": 1340,
- "source_count": 53,
+ "updated": "2026-11-05",
+ "total": 1373,
+ "source_count": 54,
  "score_min": 60,
  "by_cat": {
-  "brand-retail": [
-   {
-    "t": "雅诗兰黛Q1净销售额增6.7%，CEO看好旅游零售与线上",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/03/estee-lauder-ceo-praises-travel-retail-online-sales-as-q1-net-sales-grow-6/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "ROCCO：以神经美容学打造提升情绪的护肤品牌",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/11/rocco.html",
-    "d": "2026-11-03",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 72
-   },
-   {
-    "t": "Baked by Melissa节日季在Target推出居家烘焙套装",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/baked-by-melissa-launches-at-home-baking-kits-at-target-in-time-for-the-holidays/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "Nomasei伦敦快闪店邀E.L.V. Denim客座，瞄准巴黎常设店",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-features/nomasei-london-pop-up-elv-denim-retail-expansion-1239395361/",
-    "d": "2026-11-03",
-    "p": "P2",
-    "m": "UK",
-    "score": 66
-   },
-   {
-    "t": "John Tree为Vaarni设计松木雕塑感Hoop台灯",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/11/03/john-tree-sculptural-hoop-lamp-pine-vaarni/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "UK",
-    "score": 62
-   },
-   {
-    "t": "Princess Andre与KAIIA推出首个休闲装系列",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/princess-andre-launches-first-ever-leisurewear-collection-with-kaiia/",
-    "d": "2026-11-03",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   }
-  ],
-  "platform-channel": [
-   {
-    "t": "Levi’s节日黏土动画广告致敬手工工艺",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/levis-claymation-holiday-campaign-celebrates-handmade-craft-amid-ai-bloat/873496/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "AI推荐导致退货率上升",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/ai-recommendations-returns/873075/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "AI创企Murphy任命前Revolut产品高管为CPO",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111552/ai-startup-murphy-appoints-former-revolut-product-exec-dmitry-zlokazov-as-cpo?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "假日购物者只想要一点AI辅助寻礼",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/holiday-shoppers-only-want-a-dash-of-ai-for-the-gift-hunt/873317/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Rackhams销售额翻倍，投资AI搜索",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/rackhams-doubles-sales-and-invests-in-ai-search/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "英国五分之一知名品牌在AI购物推荐中隐形",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/one-in-five-of-britains-best-known-brands-is-invisible-when-shoppers-ask-ai-what-to-buy/",
-    "d": "2026-11-03",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   }
-  ],
   "market-product": [
    {
-    "t": "TD推出挑战赛助Z世代建立财务信心",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/newsarticle/48693/td-launches-challenge-to-help-gen-z-build-financial-confidence?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-03",
+    "t": "Rhode欧洲夏季热销，E.l.f. Beauty销售额飙升51%",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/rhodes-european-summer-fuels-51-sales-spike-for-e-l-f-beauty/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-04",
     "p": "P1",
-    "m": "GLOBAL",
+    "m": "EU",
     "score": 79
    },
    {
-    "t": "阳狮完成收购LiveRamp后，部分品牌称将撤离",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/as-publicis-closes-liveramp-deal-some-brands-say-theyre-jumping-ship/873561/",
-    "d": "2026-11-03",
+    "t": "Wayfair创疫情以来最强季度增长",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/wayfair-strongest-quarter-since-pandemic/873740/",
+    "d": "2026-11-04",
     "p": "P1",
     "m": "US",
+    "score": 79
+   },
+   {
+    "t": "阿迪达斯Q3财报揭示鞋类市场走向",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/adidas-q3-earnings-sales-growth-lifestyle-footwear-market/873640/",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "欧盟委员Albuquerque在第十三届ESAs消费者保护日发表视频演讲",
+    "s": "EU 委员会新闻",
+    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2336",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "EU",
     "score": 79
    },
    {
@@ -143,34 +49,128 @@ window.NAV_FEED = {
     "d": "2026-11-03",
     "p": "P1",
     "m": "US",
+    "score": 74
+   },
+   {
+    "t": "DP World在意大利设首个快消品物流中心",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/news/logistics/dp-world-strengthens-european-food-and-beverage-logistics-offering-with-new-italy-hub.html",
+    "d": "2026-11-04",
+    "p": "P2",
+    "m": "EU",
+    "score": 66
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "Travis信用合作社联手Finalytics.ai打造个性化数字体验",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111579/travis-credit-union-turns-to-finalyticsai-for-personalised-digital-experience?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "诺德斯特龙推非常规假日营销破局",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/holiday-timing-is-a-moving-target-nordstrom-aims-to-cut-through-the-noise-with-an-unexpected-campaign/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-02",
+    "t": "ReFiBuy支持Meta Muse，购物成智能体首要用途",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/refibuy-launches-meta-muse-support-as-shopping-becomes-the-agents-top-use/",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "塔吉特与沃尔玛：今年假日营销 stakes 更高",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/target-vs-walmart-holiday-marketings-stakes-feel-higher-this-year/873343/",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Capra Bank携手Zact推出SpendLink商业银行平台",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111576/capra-bank-taps-zact-to-launch-spendlink-platform-for-commercial-banking-customers?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Stitch Fix如何用AI与客户反馈打造自有品牌",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/how-stitch-fix-is-using-ai-and-customer-feedback-to-build-its-private-brands/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Levi’s节日黏土动画广告致敬手工工艺",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/levis-claymation-holiday-campaign-celebrates-handmade-craft-amid-ai-bloat/873496/",
+    "d": "2026-11-03",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   }
+  ],
+  "brand-retail": [
+   {
+    "t": "雅诗兰黛Q1净销售额增6.7%，CEO看好旅游零售与线上",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/03/estee-lauder-ceo-praises-travel-retail-online-sales-as-q1-net-sales-grow-6/",
+    "d": "2026-11-03",
     "p": "P1",
     "m": "US",
     "score": 74
    },
    {
-    "t": "Martech创业者Adam Robinson在佛州空难中遇难",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/media/martech-entrepreneur-adam-robinson-among-nine-dead-in-florida-plane-crash/",
-    "d": "2026-11-03",
-    "p": "P0",
+    "t": "CVS Health拟拆分零售药房与医疗服务为两家公司",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/04/cvs-health-to-split-retail-pharmacy-and-health-care-service-into-two-companies/",
+    "d": "2026-11-04",
+    "p": "P1",
     "m": "US",
     "score": 69
    },
    {
-    "t": "品牌简报：包挂饰成CPG品牌周边新潮流",
+    "t": "Lapalma在Dezeen Showroom展示产品精选",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/04/lapalma-colourways-furniture-seating-dezeen-showroom/",
+    "d": "2026-11-04",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   },
+   {
+    "t": "沃伦有望执掌参议院银行委员会，金融科技公司权衡推出风险",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/legal/2026/warren-poised-to-lead-senate-banking-as-fintechs-weigh-launch-risks/",
+    "d": "2026-11-05",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "DoorDash收购Instacart：配送平台转向零售科技",
     "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/brands-briefing-bag-charms-are-the-hot-new-trend-in-branded-cpg-merch/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "u": "https://www.modernretail.co/operations/doordash-instacart-acquisition-delivery-platform/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
     "d": "2026-11-03",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 68
+   },
+   {
+    "t": "ROCCO：以神经美容学打造提升情绪的护肤品牌",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/11/rocco.html",
+    "d": "2026-11-03",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 67
    }
   ]
  }
