@@ -1,10 +1,66 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-07",
- "total": 1346,
+ "updated": "2026-11-08",
+ "total": 1382,
  "source_count": 54,
  "score_min": 60,
  "by_cat": {
+  "brand-retail": [
+   {
+    "t": "Oner Active纽约开全球首家旗舰店",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/inside-oner-actives-tequila-scented-new-flagship-in-nyc/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-07",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "兰芝押注体验式零售，推出唇膜混搭站",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/k-beauty-brand-laneige-bets-on-experiential-retail-with-a-mix-and-match-lip-mask-station/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-06",
+    "p": "P1",
+    "m": "KR",
+    "score": 74
+   },
+   {
+    "t": "CVS Health宣布分拆为两家公司",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/cvs-health-the-robin-report-retail-miss-of-the-week-11-7-26/",
+    "d": "2026-11-07",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "New Balance 990v7 售罄后推明星云集新广告，品牌大使与运动员出镜",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-campaign-iu-rosalia-josh-allen-cooper-flagg-1239405570/",
+    "d": "2026-11-07",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 66
+   },
+   {
+    "t": "Wet Ones街头投放'手屁股'广告",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/campaign-trail-wet-ones-puts-hand-butts-on-the-streets/873564/",
+    "d": "2026-11-06",
+    "p": "P1",
+    "m": "US",
+    "score": 64
+   },
+   {
+    "t": "特斯拉将逐步停产Cybertruck",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/06/tesla-cybertruck-production-discontinuation/",
+    "d": "2026-11-06",
+    "p": "P1",
+    "m": "UK",
+    "score": 57
+   }
+  ],
   "platform-channel": [
    {
     "t": "Shopify要求应用启用批量操作权限后方可使用",
@@ -13,7 +69,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
+    "score": 79
    },
    {
     "t": "Shopify要求应用先启用批量操作权限",
@@ -22,7 +78,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 84
+    "score": 79
    },
    {
     "t": "Shopify POS法国门店支持Cartes Bancaires借记卡支付",
@@ -31,7 +87,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Shopify POS结账提速：刷卡更快、操作更少",
@@ -40,7 +96,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "我用于邮件、SEO和报告的AI机器人",
@@ -49,7 +105,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P0",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "调查：美国大型零售商近半屏蔽AI购物流量",
@@ -58,7 +114,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    }
   ],
   "market-product": [
@@ -69,7 +125,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Lands' End假日快闪如何支撑全天候营销战略",
@@ -78,7 +134,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Foot Locker假日营销让员工站C位",
@@ -87,7 +143,7 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "欧盟附条件批准京东收购Ceconomy",
@@ -96,92 +152,25 @@ window.NAV_FEED = {
     "d": "2026-11-06",
     "p": "P1",
     "m": "EU",
-    "score": 79
-   },
-   {
-    "t": "refurbed CEO谈英国市场扩张",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/peter-windischhofer-ceo-refurbed-talks-about-their-uk-launch/",
-    "d": "2026-11-05",
-    "p": "P1",
-    "m": "EU",
     "score": 74
    },
    {
-    "t": "杂货店如何成为媒体渠道？",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/in-store-grocery-media/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-05",
+    "t": "美国银行加密服务滞后于消费者兴趣",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/u-s-banks-are-lagging-on-crypto-as-consumer-interest-grows/",
+    "d": "2026-11-06",
+    "p": "P1",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "Bed Bath & Beyond新店回归毛巾墙与优惠券",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/bed-bath-beyonds-new-concept-original-store-format-earnings/874012/",
+    "d": "2026-11-06",
     "p": "P1",
     "m": "US",
     "score": 64
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "兰芝押注体验式零售，推出唇膜混搭站",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/k-beauty-brand-laneige-bets-on-experiential-retail-with-a-mix-and-match-lip-mask-station/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "KR",
-    "score": 79
-   },
-   {
-    "t": "Bark第二季度营收下滑，电商业务恢复增长",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/05/bark-revenue-falls-despite-commerce-growth-resuming-in-q2/",
-    "d": "2026-11-05",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Lombard Systems融资400万美元，推进代币化证券融资",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111594/lombard-systems-raises-4m-for-tokenised-securities-financing?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-05",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "Interparfums将于2027年推出Off-White与Longchamp新香水",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/interparfums-inc-to-launch-new-off-white-longchamp-fragrances-in-2027/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-05",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "欧莱雅微短剧策略转向娱乐优先",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/loreals-evolving-microdrama-strategy-puts-entertainment-over-product/873646/",
-    "d": "2026-11-05",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "CVS未经品牌授权在门店上架美妆产品",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/podcasts/how-is-cvs-sneaking-brands-into-its-stores-without-brand-approval/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-05",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "Hydro Flask母公司拒绝Empower Brands收购要约",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/hydro-flask-owner-rejects-opportunistic-takeover-proposal-empower-brands/873837/",
-    "d": "2026-11-05",
-    "p": "P0",
-    "m": "US",
-    "score": 82
    }
   ]
  }
