@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-08",
- "total": 1382,
+ "updated": "2026-11-09",
+ "total": 1365,
  "source_count": 54,
  "score_min": 60,
  "by_cat": {
@@ -13,16 +13,16 @@ window.NAV_FEED = {
     "d": "2026-11-07",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "兰芝押注体验式零售，推出唇膜混搭站",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/k-beauty-brand-laneige-bets-on-experiential-retail-with-a-mix-and-match-lip-mask-station/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "KR",
-    "score": 74
+    "t": "Vir Vijay香料品牌形象与包装重塑",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/11/vir-vijay-spices-a-legacy-reimagined.html",
+    "d": "2026-11-08",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 62
    },
    {
     "t": "CVS Health宣布分拆为两家公司",
@@ -31,7 +31,7 @@ window.NAV_FEED = {
     "d": "2026-11-07",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "New Balance 990v7 售罄后推明星云集新广告，品牌大使与运动员出镜",
@@ -40,137 +40,92 @@ window.NAV_FEED = {
     "d": "2026-11-07",
     "p": "P2",
     "m": "GLOBAL",
-    "score": 66
+    "score": 61
    },
    {
-    "t": "Wet Ones街头投放'手屁股'广告",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/campaign-trail-wet-ones-puts-hand-butts-on-the-streets/873564/",
-    "d": "2026-11-06",
-    "p": "P1",
+    "t": "Mavé Soda-Pop气泡水包装设计",
+    "s": "Packaging of World",
+    "u": "https://packagingoftheworld.com/2026/11/mave-soda-pop-water.html",
+    "d": "2026-11-08",
+    "p": "P3",
     "m": "US",
-    "score": 64
+    "score": 56
    },
    {
-    "t": "特斯拉将逐步停产Cybertruck",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/11/06/tesla-cybertruck-production-discontinuation/",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "UK",
-    "score": 57
+    "t": "进博会快报：Qeelin、lululemon、ASICS首秀新品",
+    "s": "华丽志",
+    "u": "https://luxe.co/post/488016",
+    "d": "2026-11-08",
+    "p": "P2",
+    "m": "CN",
+    "score": 49
    }
   ],
   "platform-channel": [
    {
-    "t": "Shopify要求应用启用批量操作权限后方可使用",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/partner-apps-must-enable-bulk-operations-before-use",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Shopify要求应用先启用批量操作权限",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/apps-must-enable-bulk-operations-before-use",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Shopify POS法国门店支持Cartes Bancaires借记卡支付",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/accept-cartes-bancaires-debit-payments-in-store-in-france",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "Shopify POS结账提速：刷卡更快、操作更少",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/faster-pos-checkout",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "我用于邮件、SEO和报告的AI机器人",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/my-ai-bots-for-email-seo-reports-more",
-    "d": "2026-11-06",
-    "p": "P0",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "调查：美国大型零售商近半屏蔽AI购物流量",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/americas-biggest-stores-arent-ready-for-agentic-commerce-this-black-friday/",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   }
-  ],
-  "market-product": [
-   {
-    "t": "The Children's Place破产传闻中高层大换血",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/the-childrens-place-leadership-shakeup-bankruptcy-rumors/874004/",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Lands' End假日快闪如何支撑全天候营销战略",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-lands-ends-holiday-pop-up-feeds-an-always-on-marketing-strategy/873792/",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Foot Locker假日营销让员工站C位",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/foot-locker-puts-employees-front-and-center-in-its-holiday-campaign/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "欧盟附条件批准京东收购Ceconomy",
-    "s": "Ecommerce News Europe",
-    "u": "https://ecommercenews.eu/eu-commission-approves-takeover-ceconomy-by-jd-com/",
-    "d": "2026-11-06",
-    "p": "P1",
-    "m": "EU",
-    "score": 74
-   },
-   {
-    "t": "美国银行加密服务滞后于消费者兴趣",
-    "s": "Payments Journal",
-    "u": "https://www.paymentsjournal.com/u-s-banks-are-lagging-on-crypto-as-consumer-interest-grows/",
-    "d": "2026-11-06",
-    "p": "P1",
+    "t": "新一届国会将加强对加密行业审查",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/cryptocurrency/2026/crypto-sector-geared-for-more-scrutiny-under-new-congress/",
+    "d": "2026-11-08",
+    "p": "P2",
     "m": "US",
     "score": 66
    },
    {
-    "t": "Bed Bath & Beyond新店回归毛巾墙与优惠券",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/bed-bath-beyonds-new-concept-original-store-format-earnings/874012/",
-    "d": "2026-11-06",
+    "t": "AI代理犯错谁担责？",
+    "s": "Practical Ecommerce",
+    "u": "https://www.practicalecommerce.com/who-owns-an-ai-agents-mistakes",
+    "d": "2026-11-08",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   },
+   {
+    "t": "外卖应用如何成为“发现平台”",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/podcasts/how-delivery-apps-came-to-be-discovery-platforms/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-07",
     "p": "P1",
     "m": "US",
     "score": 64
+   }
+  ],
+  "market-product": [
+   {
+    "t": "20亿美元退出后，Poppi创始人瞄准补水饮料",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/brand-marketing/after-a-2-billion-exit-poppis-founders-take-aim-at-hydration-drinks/",
+    "d": "2026-11-08",
+    "p": "P2",
+    "m": "US",
+    "score": 56
+   },
+   {
+    "t": "Too Good To Go与Greggs合作拯救700万份惊喜袋",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/too-good-to-go-saves-7-million-surprise-bags-with-greggs/",
+    "d": "2026-11-08",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
+   },
+   {
+    "t": "奇西克Tamp Coffee致敬街头艺术家Helch遗作",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/chiswicks-tamp-coffee-celebrates-the-legacy-of-street-artist-helch/",
+    "d": "2026-11-08",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
+   },
+   {
+    "t": "美联邦汽车运输安全局推出新投诉平台",
+    "s": "Trucking Info",
+    "u": "https://www.truckinginfo.com/news/fmcsas-new-complaint-platform-makes-it-easier-to-report-safety-and-compliance-concerns",
+    "d": "2026-11-08",
+    "p": "P3",
+    "m": "US",
+    "score": 46
    }
   ]
  }
