@@ -1,131 +1,167 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-09",
- "total": 1365,
- "source_count": 54,
+ "updated": "2026-11-10",
+ "total": 1391,
+ "source_count": 56,
  "score_min": 60,
  "by_cat": {
-  "brand-retail": [
-   {
-    "t": "Oner Active纽约开全球首家旗舰店",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/inside-oner-actives-tequila-scented-new-flagship-in-nyc/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-07",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "Vir Vijay香料品牌形象与包装重塑",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/11/vir-vijay-spices-a-legacy-reimagined.html",
-    "d": "2026-11-08",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 62
-   },
-   {
-    "t": "CVS Health宣布分拆为两家公司",
-    "s": "The Robin Report",
-    "u": "https://therobinreport.com/cvs-health-the-robin-report-retail-miss-of-the-week-11-7-26/",
-    "d": "2026-11-07",
-    "p": "P1",
-    "m": "US",
-    "score": 64
-   },
-   {
-    "t": "New Balance 990v7 售罄后推明星云集新广告，品牌大使与运动员出镜",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/sneaker-news/new-balance-990v7-campaign-iu-rosalia-josh-allen-cooper-flagg-1239405570/",
-    "d": "2026-11-07",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 61
-   },
-   {
-    "t": "Mavé Soda-Pop气泡水包装设计",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/11/mave-soda-pop-water.html",
-    "d": "2026-11-08",
-    "p": "P3",
-    "m": "US",
-    "score": 56
-   },
-   {
-    "t": "进博会快报：Qeelin、lululemon、ASICS首秀新品",
-    "s": "华丽志",
-    "u": "https://luxe.co/post/488016",
-    "d": "2026-11-08",
-    "p": "P2",
-    "m": "CN",
-    "score": 49
-   }
-  ],
   "platform-channel": [
    {
-    "t": "新一届国会将加强对加密行业审查",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/cryptocurrency/2026/crypto-sector-geared-for-more-scrutiny-under-new-congress/",
-    "d": "2026-11-08",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "AI代理犯错谁担责？",
-    "s": "Practical Ecommerce",
-    "u": "https://www.practicalecommerce.com/who-owns-an-ai-agents-mistakes",
-    "d": "2026-11-08",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "外卖应用如何成为“发现平台”",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/podcasts/how-delivery-apps-came-to-be-discovery-platforms/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-07",
+    "t": "Levi’s节日黏土动画广告致敬手工工艺",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/levis-claymation-holiday-campaign-celebrates-handmade-craft-amid-ai-bloat/873842/",
+    "d": "2026-11-09",
     "p": "P1",
     "m": "US",
-    "score": 64
+    "score": 83
+   },
+   {
+    "t": "TikTok Shop推出付费会员Plus，面向百万美国高频买家",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/exclusive-tiktok-shop-launches-a-paid-premium-tier-for-1m-of-its-top-us-shoppers/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "奥美与CAA合作，用AI克隆名人拍广告",
+    "s": "Digiday",
+    "u": "https://digiday.com/marketing/ogilvy-and-caa-launch-partnership-to-clone-celebrity-talent-for-ai-ads/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "奥美用AI为品牌人才拍摄扩规模、护权益",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/how-ogilvy-uses-ai-to-unlock-scale-protect-rights-for-brand-talent-shoots/874014/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Shopify改版合作伙伴目录，档案基于平台数据",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/partner-directory-profiles-now-display-verified-collaboration-data",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 78
+   },
+   {
+    "t": "出版商为何须立即保护内容免受AI抓取",
+    "s": "Digiday",
+    "u": "https://digiday.com/sponsored/why-publishers-must-act-now-to-protect-content-from-ai-scrapers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 69
    }
   ],
   "market-product": [
    {
-    "t": "20亿美元退出后，Poppi创始人瞄准补水饮料",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/after-a-2-billion-exit-poppis-founders-take-aim-at-hydration-drinks/",
-    "d": "2026-11-08",
+    "t": "儿童服饰零售商The Children's Place申请破产，12月启动资产竞标",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/09/the-childrens-place-bankruptcy-filing-sets-bidding-in-december/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "儿童服饰零售商The Children's Place申请破产并寻求出售",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/the-childrens-place-in-search-of-new-ownership-files-for-bankruptcy/874078/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "GSAi推出Q4优惠助商家寻找批发供应商",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/find-wholesale-suppliers-with-gsai-q4-offer/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "欧盟跨境网购近半支出流向时尚品类",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/almost-half-of-eu-online-spending-abroad-goes-to-fashion/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "EU",
+    "score": 69
+   },
+   {
+    "t": "Ulta Beauty携手Oura，千店布局健康追踪",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/wellness/ulta-beauty-oura-ring-health-tracking/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "消费者对经济更乐观但假日预算收紧",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/consumer-insights/2026/consumers-see-a-brighter-economy-but-less-room-in-the-holiday-budget/",
+    "d": "2026-11-09",
     "p": "P2",
     "m": "US",
-    "score": 56
+    "score": 66
+   }
+  ],
+  "brand-retail": [
+   {
+    "t": "英国电器品牌Comet时隔14年正式回归",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/iconic-british-electricals-brand-comet-officially-returns-after-14-years/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 79
    },
    {
-    "t": "Too Good To Go与Greggs合作拯救700万份惊喜袋",
+    "t": "百事假日营销：扩大零售铺货，推圣诞老人苏打",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/pepsis-holiday-push-includes-bigger-retail-presence-soda-for-santa/874072/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Azuna凭强大供应链实现九位数销售额",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/how-azunas-strong-supply-chain-fuels-its-9-figure-sales/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "惠普DesignJet T250打印机让专业打印触手可及",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/09/hp-designjet-t250-printer-places-professional-printing-users-hands/",
+    "d": "2026-11-09",
+    "p": "P1",
+    "m": "US",
+    "score": 62
+   },
+   {
+    "t": "Cartwright & Butler 携手 Saicho 推圣诞茶饮礼盒",
     "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/too-good-to-go-saves-7-million-surprise-bags-with-greggs/",
-    "d": "2026-11-08",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "奇西克Tamp Coffee致敬街头艺术家Helch遗作",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/chiswicks-tamp-coffee-celebrates-the-legacy-of-street-artist-helch/",
-    "d": "2026-11-08",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
-   },
-   {
-    "t": "美联邦汽车运输安全局推出新投诉平台",
-    "s": "Trucking Info",
-    "u": "https://www.truckinginfo.com/news/fmcsas-new-complaint-platform-makes-it-easier-to-report-safety-and-compliance-concerns",
-    "d": "2026-11-08",
+    "u": "https://retailtimes.co.uk/cartwright-butler-collaborates-with-saicho-sparkling-jasmine-tea/",
+    "d": "2026-11-09",
     "p": "P3",
     "m": "US",
-    "score": 46
+    "score": 56
    }
   ]
  }
