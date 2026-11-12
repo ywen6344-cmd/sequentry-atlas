@@ -1,8 +1,8 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
  "updated": "2026-11-12",
- "total": 1365,
- "source_count": 56,
+ "total": 1384,
+ "source_count": 58,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
@@ -25,6 +25,15 @@ window.NAV_FEED = {
     "score": 84
    },
    {
+    "t": "eBay为商品上架工具新增视觉识别功能",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/11/ebay-visual-identification-magical-listing-tool/",
+    "d": "2026-11-11",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
     "t": "eBay推出拍照即上架AI新体验",
     "s": "ChannelX",
     "u": "https://channelx.world/2026/11/ebay-magical-listing-new-camera-first-experience/",
@@ -34,31 +43,22 @@ window.NAV_FEED = {
     "score": 79
    },
    {
-    "t": "eBay英国推出手机和iPad成色保障服务",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/ebay-uk-launches-condition-guarantee-for-phones-ipads/",
+    "t": "Emirates NBD为数字财富客户推出实时AI市场洞察",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111646/emirates-nbd-launches-real-time-ai-market-insights-for-digital-wealth-customers?utm_medium=rssfinextra&utm_source=finextrafeed",
     "d": "2026-11-11",
     "p": "P1",
-    "m": "UK",
+    "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "Shopify Tax免费折扣将不再每年重置",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/shopify-tax-free-discount-will-no-longer-reset-annually",
+    "t": "Swipesum推出支付指挥中心",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111645/swipesum-launches-payments-command-centre?utm_medium=rssfinextra&utm_source=finextrafeed",
     "d": "2026-11-11",
     "p": "P1",
-    "m": "EU",
+    "m": "GLOBAL",
     "score": 79
-   },
-   {
-    "t": "Target与沃尔玛假日营销战升级",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/target-vs-walmart-holiday-marketings-stakes-feel-higher-this-year/873764/",
-    "d": "2026-11-10",
-    "p": "P1",
-    "m": "US",
-    "score": 78
    }
   ],
   "market-product": [
@@ -137,15 +137,6 @@ window.NAV_FEED = {
     "score": 72
    },
    {
-    "t": "Wirex任命前Starling首席运营官Julian Sawyer为董事",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111639/wirex-appoints-former-starling-coo-julian-sawyer-to-board?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-10",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
     "t": "e.l.f. Beauty第二季度销售额增长51%，加码数字平台",
     "s": "Digital Commerce 360",
     "u": "https://www.digitalcommerce360.com/2026/11/10/e-l-f-beauty-q2-sales-grow-51-as-it-embraces-digital-platforms/",
@@ -162,15 +153,6 @@ window.NAV_FEED = {
     "p": "P1",
     "m": "UK",
     "score": 69
-   },
-   {
-    "t": "Caixa银行近30年来首次品牌焕新，新标志活力十足",
-    "s": "Creative Bloq 设计",
-    "u": "https://www.creativebloq.com/news/this-banks-vibrant-new-logo-design-ticks-all-the-boxes",
-    "d": "2026-11-11",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
    }
   ],
   "compliance-fulfillment": [
@@ -180,15 +162,6 @@ window.NAV_FEED = {
     "u": "https://wwd.com/footwear-news/shoe-industry-news/shoe-firms-retailers-ieepa-refunds-corporate-price-decrease-1239408697/",
     "d": "2026-11-10",
     "p": "P0",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "DTCC推出欧盟MiFID认证报告机制",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111634/dtcc-launches-eu-mifid-approved-reporting-mechanism?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-10",
-    "p": "P1",
     "m": "GLOBAL",
     "score": 74
    }
