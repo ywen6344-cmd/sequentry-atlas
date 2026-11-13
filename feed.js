@@ -1,8 +1,8 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-12",
- "total": 1384,
- "source_count": 58,
+ "updated": "2026-11-13",
+ "total": 1380,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
@@ -13,55 +13,73 @@ window.NAV_FEED = {
     "d": "2026-11-11",
     "p": "P0",
     "m": "GLOBAL",
-    "score": 92
+    "score": 87
    },
    {
-    "t": "Shopify要求外部安装的自定义应用配置IP白名单",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/ip-allowlists-are-now-required-for-custom-apps-installed-outside-your-organization",
-    "d": "2026-11-11",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "eBay为商品上架工具新增视觉识别功能",
+    "t": "J.Crew联手Claude推出AI造型顾问工具",
     "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/11/ebay-visual-identification-magical-listing-tool/",
-    "d": "2026-11-11",
+    "u": "https://www.digitalcommerce360.com/2026/11/12/j-crew-claude-style-advisor/",
+    "d": "2026-11-12",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "eBay推出拍照即上架AI新体验",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/ebay-magical-listing-new-camera-first-experience/",
-    "d": "2026-11-11",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Emirates NBD为数字财富客户推出实时AI市场洞察",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111646/emirates-nbd-launches-real-time-ai-market-insights-for-digital-wealth-customers?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-11",
+    "t": "Shopify客户账户新增店铺积分与个性化推荐",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/customer-accounts-now-show-store-credit-and-personalized-product-recommendations",
+    "d": "2026-11-12",
     "p": "P1",
     "m": "GLOBAL",
     "score": 79
    },
    {
-    "t": "Swipesum推出支付指挥中心",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111645/swipesum-launches-payments-command-centre?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-11",
+    "t": "沃尔玛无人机配送站点计划翻倍以上",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/walmart-more-than-doubles-planned-drone-delivery-sites-zipline/874378/",
+    "d": "2026-11-12",
     "p": "P1",
-    "m": "GLOBAL",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "TikTok Shop试点付费会员制",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/tiktok-shop-plus-paid-membership/874451/",
+    "d": "2026-11-12",
+    "p": "P1",
+    "m": "CN",
+    "score": 79
+   },
+   {
+    "t": "雅虎成为首个AI内容集体授权模式被许可方",
+    "s": "Digiday",
+    "u": "https://digiday.com/media/yahoo-becomes-first-licensee-of-spotify-like-collective-ai-content-licensing-model/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-12",
+    "p": "P1",
+    "m": "US",
     "score": 79
    }
   ],
   "market-product": [
+   {
+    "t": "品牌押注假日季直播购物",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/the-holiday-playbook-how-brands-are-banking-on-live-shopping-this-holiday-season/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-12",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "欧盟推数字公平法案，整治在线销售套路",
+    "s": "Ecommerce News Europe",
+    "u": "https://ecommercenews.eu/eu-targets-online-sales-tricks-with-digital-fairness-act/",
+    "d": "2026-11-12",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   },
    {
     "t": "欧盟发布《数字公平法案》及消费者执法倡议",
     "s": "EU 委员会新闻",
@@ -69,101 +87,63 @@ window.NAV_FEED = {
     "d": "2026-11-11",
     "p": "P1",
     "m": "EU",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "Bed Bath & Beyond母公司关闭马里兰配送中心",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/bed-bath-beyond-parent-to-close-maryland-distribution-center/874363/",
-    "d": "2026-11-11",
+    "t": "为何以用户为先的广告体验能成就最强应用业务",
+    "s": "Digiday",
+    "u": "https://digiday.com/sponsored/why-user-first-ad-experiences-build-the-strongest-app-businesses/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-12",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Air Jordan 4仍是乔丹最受欢迎球鞋，Air Jordan 5紧随其后",
+    "s": "Footwear News",
+    "u": "https://wwd.com/footwear-news/sneaker-news/air-jordan-4-most-popular-stockx-2026-trend-report-1239412971/",
+    "d": "2026-11-12",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   }
+  ],
+  "brand-retail": [
+   {
+    "t": "Modern Retail+ 2026创作者营销指数：品牌社媒投放指南",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/modern-retail-research-2026-creator-marketing-index-a-brand-guide-to-effective-social-media-campaigns/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-12",
     "p": "P1",
     "m": "US",
     "score": 73
    },
    {
-    "t": "Biscoff圣诞新品登顶创新榜，四款节日产品获五星",
+    "t": "Quiver收购Stuart以加速下一阶段增长",
     "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/biscoff-tops-christmas-innovation-rankings-as-four-festive-launches-score-exceptional-5-stars/",
-    "d": "2026-11-11",
+    "u": "https://retailtimes.co.uk/stuart-acquired-by-quiver-to-accelerate-next-phase-of-growth/",
+    "d": "2026-11-12",
     "p": "P0",
-    "m": "UK",
+    "m": "US",
     "score": 72
    },
    {
-    "t": "欧盟委员会推《数字公平法》强化消费者保护",
-    "s": "EU 委员会新闻",
-    "u": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407",
-    "d": "2026-11-10",
-    "p": "P1",
-    "m": "EU",
-    "score": 74
-   },
-   {
-    "t": "下一代门店奖：Anthropologie、Diptyque等如何重塑线下体验",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/announcement/awards/the-next-gen-store-awards-how-anthropologie-diptyque-and-others-are-transforming-the-in-store-experience/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-10",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "美宝莲更新'Maybe'标语，顺应美妆观念演变",
+    "t": "Welch's假日微剧借Y2K怀旧瞄准成父母Z世代",
     "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/maybelline-updates-maybe-tagline-as-beauty-perceptions-evolve/874376/",
-    "d": "2026-11-11",
+    "u": "https://www.marketingdive.com/news/welchs-holiday-microdrama-embraces-y2k-nostalgia-as-gen-z-become-parents/874453/",
+    "d": "2026-11-12",
     "p": "P1",
     "m": "US",
     "score": 69
-   }
-  ],
-  "brand-retail": [
-   {
-    "t": "兰芝押注体验式零售，开设唇膜体验站",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/k-beauty-brand-laneige-bets-on-experiential-retail-with-new-lip-mask-station/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-10",
-    "p": "P1",
-    "m": "KR",
-    "score": 78
    },
    {
-    "t": "ASOS推出首个圣诞派对服饰与礼品专项营销活动",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/11/asos-christmas-partywear/",
-    "d": "2026-11-11",
-    "p": "P0",
-    "m": "UK",
-    "score": 72
-   },
-   {
-    "t": "e.l.f. Beauty第二季度销售额增长51%，加码数字平台",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/10/e-l-f-beauty-q2-sales-grow-51-as-it-embraces-digital-platforms/",
-    "d": "2026-11-10",
-    "p": "P1",
-    "m": "EU",
-    "score": 74
-   },
-   {
-    "t": "瑞典人爱吃鱼，但并非全年无休",
+    "t": "更短更锐利：丹麦国家美术馆以SMK新标识重塑品牌",
     "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/11/11/swedes-love-fish/",
-    "d": "2026-11-11",
+    "u": "https://bpando.org/2026/11/12/smk-statens-museum-for-kunst-etypes-brand-identity-design/",
+    "d": "2026-11-12",
     "p": "P1",
     "m": "UK",
     "score": 69
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "鞋企如何利用关税退款",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/shoe-firms-retailers-ieepa-refunds-corporate-price-decrease-1239408697/",
-    "d": "2026-11-10",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 74
    }
   ]
  }
