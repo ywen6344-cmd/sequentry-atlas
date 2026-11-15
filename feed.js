@@ -1,67 +1,20 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-14",
- "total": 1389,
+ "updated": "2026-11-15",
+ "total": 1378,
  "source_count": 54,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "market-product": [
    {
-    "t": "Shopify要求应用11月20日前启用IP白名单",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/app-security-updates-thank-you-plus-what-s-required-next",
+    "t": "线下购物体验失灵，能否修复？",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/podcasts/in-store-shopping-experience-broken/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
     "d": "2026-11-14",
     "p": "P1",
     "m": "US",
-    "score": 84
-   },
-   {
-    "t": "Shopify结账API更新：cart.deliverableLine支持成本建模与行项目关联",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/checkout-function-cart-deliverableline-inputs-now-model-cost-and-link-to-their-relevant-cart-line",
-    "d": "2026-11-13",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 84
-   },
-   {
-    "t": "GrubMarket推出AI代理，将发票转为采购订单",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/13/grubmarket-ai-agent/",
-    "d": "2026-11-13",
-    "p": "P1",
-    "m": "US",
     "score": 79
    },
-   {
-    "t": "Shopify重建店铺活动日志，可追溯18个月变更",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/review-store-changes-in-the-new-store-activity-log",
-    "d": "2026-11-13",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Target与沃尔玛美妆区改造重塑品牌策略",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/big-box-briefing-how-targets-and-walmarts-beauty-department-makeovers-are-reshaping-brand-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-13",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "现代信用卡推出AI驱动新一代联名信用卡模式",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111668/hyundai-card-launches-new-ai-powered-credit-card-model?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-13",
-    "p": "P1",
-    "m": "KR",
-    "score": 79
-   }
-  ],
-  "market-product": [
    {
     "t": "Pinterest推出节日购物工具，将灵感转化为购买",
     "s": "ChannelX",
@@ -69,7 +22,7 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P1",
     "m": "UK",
-    "score": 83
+    "score": 78
    },
    {
     "t": "NEURYN机器人携电商退货机器人“大脑”角逐CoCreate路演",
@@ -78,7 +31,7 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P1",
     "m": "UK",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Family Dollar付6300万美元和解定价欺诈指控",
@@ -87,7 +40,7 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Twitch推出可购物可跳过广告，TwitchCon面临成长阵痛",
@@ -96,7 +49,7 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Sally Beauty将于2027年扩展焕新门店模式",
@@ -105,16 +58,63 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P1",
     "m": "US",
+    "score": 74
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "Shopify要求应用11月20日前启用IP白名单",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/app-security-updates-thank-you-plus-what-s-required-next",
+    "d": "2026-11-14",
+    "p": "P1",
+    "m": "US",
     "score": 79
    },
    {
-    "t": "Anthropologie等品牌为何转向委托创作者制作节目而非发帖",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/why-brands-like-anthropologie-are-commissioning-creator-created-shows-instead-of-posts/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "t": "Shopify结账API更新：cart.deliverableLine支持成本建模与行项目关联",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/checkout-function-cart-deliverableline-inputs-now-model-cost-and-link-to-their-relevant-cart-line",
+    "d": "2026-11-13",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "GrubMarket推出AI代理，将发票转为采购订单",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/13/grubmarket-ai-agent/",
     "d": "2026-11-13",
     "p": "P1",
     "m": "US",
-    "score": 73
+    "score": 74
+   },
+   {
+    "t": "Shopify重建店铺活动日志，可追溯18个月变更",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/review-store-changes-in-the-new-store-activity-log",
+    "d": "2026-11-13",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
+   {
+    "t": "Target与沃尔玛美妆区改造重塑品牌策略",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/big-box-briefing-how-targets-and-walmarts-beauty-department-makeovers-are-reshaping-brand-strategies/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-13",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
+   {
+    "t": "现代信用卡推出AI驱动新一代联名信用卡模式",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111668/hyundai-card-launches-new-ai-powered-credit-card-model?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-13",
+    "p": "P1",
+    "m": "KR",
+    "score": 74
    }
   ],
   "compliance-fulfillment": [
@@ -125,7 +125,7 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    }
   ],
   "brand-retail": [
@@ -136,16 +136,16 @@ window.NAV_FEED = {
     "d": "2026-11-13",
     "p": "P0",
     "m": "UK",
-    "score": 72
+    "score": 67
    },
    {
-    "t": "Quiver收购Stuart以加速下一阶段增长",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/stuart-acquired-by-quiver-to-accelerate-next-phase-of-growth/",
-    "d": "2026-11-12",
-    "p": "P0",
+    "t": "Target新任CMO欲重拾品牌锋芒",
+    "s": "Adweek",
+    "u": "https://www.adweek.com/commerce/targets-new-cmo-wants-the-brand-to-get-its-edge-back/",
+    "d": "2026-11-13",
+    "p": "P2",
     "m": "US",
-    "score": 67
+    "score": 61
    }
   ]
  }
