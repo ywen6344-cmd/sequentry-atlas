@@ -1,7 +1,7 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
  "updated": "2026-11-19",
- "total": 1279,
+ "total": 1355,
  "source_count": 53,
  "score_min": 60,
  "by_cat": {
@@ -14,15 +14,6 @@ window.NAV_FEED = {
     "p": "P0",
     "m": "US",
     "score": 87
-   },
-   {
-    "t": "Boden携手OneStock加速美国DTC扩张",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/boden-selects-onestock-to-power-its-u-s-expansion/",
-    "d": "2026-11-17",
-    "p": "P1",
-    "m": "US",
-    "score": 78
    },
    {
     "t": "Yōkai拉面品牌视觉与包装设计",
@@ -43,22 +34,13 @@ window.NAV_FEED = {
     "score": 69
    },
    {
-    "t": "英伟达黄仁勋卸任后首次全员会：临时CEO提加薪",
-    "s": "PYMNTS 支付新闻",
-    "u": "https://www.pymnts.com/personnel/2026/nvidia-leadership-floats-pay-hikes-during-first-post-huang-all-hands-meeting/",
-    "d": "2026-11-19",
-    "p": "P2",
-    "m": "US",
-    "score": 66
-   },
-   {
-    "t": "JD Sports北美CEO：Yeezy八月上线后，我们准备承接更多",
-    "s": "Footwear News",
-    "u": "https://wwd.com/footwear-news/shoe-industry-news/jd-sports-ceo-yeezy-growth-interview-1239425254/",
+    "t": "更轻负担",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/11/18/less-loaded/",
     "d": "2026-11-18",
-    "p": "P2",
+    "p": "P1",
     "m": "US",
-    "score": 66
+    "score": 69
    }
   ],
   "platform-channel": [
@@ -81,40 +63,40 @@ window.NAV_FEED = {
     "score": 84
    },
    {
-    "t": "KERV.ai、麦克米伦与Chomps入围年度工作生活奖",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/announcement/awards/kerv-ai-macmillan-publishers-and-chomps-are-among-this-years-work-life-awards-finalists/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-17",
+    "t": "Daloopa在Snowflake市场推出审计级财务数据",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111722/daloopa-delivers-audit-ready-financial-data-directly-on-snowflake-marketplace?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-18",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Miden与Visa合作在非洲发行商业卡",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111717/miden-and-visa-partner-on-commercial-card-issuing-for-african-businesses?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-18",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Tradebyte推出TB.360盈利功能，聚焦利润率而非仅营收增长",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/tradebyte-tb-360-profitability-focus-on-margin-not-just-top-line-growth/",
+    "d": "2026-11-18",
     "p": "P1",
     "m": "US",
-    "score": 82
+    "score": 79
    },
    {
-    "t": "Meta旗下Muse迎来首个加拿大零售合作伙伴Loblaw",
-    "s": "Meta Research Blog",
-    "u": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
-    "d": "2026-11-18",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 74
-   },
-   {
-    "t": "Shopify后台自建应用迁移至开发者仪表盘",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/custom-apps-created-in-the-shopify-admin-are-moving-to-the-dev-dashboard",
-    "d": "2026-11-17",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 78
-   },
-   {
-    "t": "Temu黑五前联合TrueLayer上线银行支付",
+    "t": "Replenit助Escentual实现单客决策9倍营收",
     "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/temu-rolls-out-pay-by-bank-with-truelayer-ahead-of-black-friday/",
-    "d": "2026-11-17",
+    "u": "https://channelx.world/2026/11/replenit-delivers-9x-revenue-per-customer-decision-at-escentual/",
+    "d": "2026-11-18",
     "p": "P1",
-    "m": "CN",
-    "score": 74
+    "m": "UK",
+    "score": 79
    }
   ],
   "market-product": [
