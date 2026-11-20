@@ -1,119 +1,108 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-19",
- "total": 1355,
- "source_count": 53,
+ "updated": "2026-11-20",
+ "total": 1319,
+ "source_count": 54,
  "score_min": 60,
  "by_cat": {
-  "brand-retail": [
-   {
-    "t": "报告：付费媒体成品牌资助创作者增长最大推手",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/paid-media-now-plays-largest-role-in-brand-funded-creator-growth-report/875032/",
-    "d": "2026-11-18",
-    "p": "P0",
-    "m": "US",
-    "score": 87
-   },
-   {
-    "t": "Yōkai拉面品牌视觉与包装设计",
-    "s": "Packaging of World",
-    "u": "https://packagingoftheworld.com/2026/11/yokai-noodle-brand-identity-and-packaging-design.html",
-    "d": "2026-11-18",
-    "p": "P0",
-    "m": "US",
-    "score": 72
-   },
-   {
-    "t": "Nendo佐藤大钦点未来20年最具影响力设计师",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/11/18/linde-freya-tangelder-20-20/",
-    "d": "2026-11-18",
-    "p": "P1",
-    "m": "UK",
-    "score": 69
-   },
-   {
-    "t": "更轻负担",
-    "s": "BP&O 品牌标识案例",
-    "u": "https://bpando.org/2026/11/18/less-loaded/",
-    "d": "2026-11-18",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   }
-  ],
   "platform-channel": [
    {
-    "t": "Shopify应用事件扩展至管理后台与嵌入式应用",
+    "t": "Shopify应用安全新规：IP白名单明日截止",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/app-events-send-events-from-admin-ui-extensions-and-embedded-apps",
-    "d": "2026-11-18",
+    "u": "https://shopify.dev/changelog/app-security-updates-ip-allowlist-due-tomorrow",
+    "d": "2026-11-19",
     "p": "P1",
-    "m": "GLOBAL",
+    "m": "US",
     "score": 84
    },
    {
-    "t": "Shopify草稿订单折扣接口需新权限",
+    "t": "Shopify函数设置扩展现可同时报告多个错误",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/draft-order-discount-permission",
-    "d": "2026-11-18",
+    "u": "https://shopify.dev/changelog/function-settings-extensions-can-now-report-several-errors-at-once",
+    "d": "2026-11-19",
     "p": "P1",
-    "m": "GLOBAL",
+    "m": "US",
     "score": 84
    },
    {
-    "t": "Daloopa在Snowflake市场推出审计级财务数据",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111722/daloopa-delivers-audit-ready-financial-data-directly-on-snowflake-marketplace?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-18",
+    "t": "图解：迎接智能体商务季",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/technology/in-graphic-detail-welcome-to-the-agentic-commerce-quarter/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-19",
     "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
+    "m": "US",
+    "score": 83
    },
    {
-    "t": "Miden与Visa合作在非洲发行商业卡",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111717/miden-and-visa-partner-on-commercial-card-issuing-for-african-businesses?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-18",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Tradebyte推出TB.360盈利功能，聚焦利润率而非仅营收增长",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/tradebyte-tb-360-profitability-focus-on-margin-not-just-top-line-growth/",
-    "d": "2026-11-18",
+    "t": "沃尔玛探讨AI代理购物时代广告角色",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/walmart-mulls-role-advertising-will-play-in-an-agentic-shopping-world/875185/",
+    "d": "2026-11-19",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "Replenit助Escentual实现单客决策9倍营收",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/replenit-delivers-9x-revenue-per-customer-decision-at-escentual/",
-    "d": "2026-11-18",
+    "t": "N26推出高端账户Aura",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111745/n26-launches-premium-account?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-19",
     "p": "P1",
-    "m": "UK",
+    "m": "GLOBAL",
     "score": 79
+   },
+   {
+    "t": "Instagram与亚马逊打通，可挂商品链接",
+    "s": "白鲸出海",
+    "u": "http://www.baijing.cn/article/57425",
+    "d": "2026-11-19",
+    "p": "P2",
+    "m": "CN",
+    "score": 70
    }
   ],
   "market-product": [
    {
-    "t": "经济乐观情绪跌至大衰退以来最低",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/economic-optimism-plunges-lowest-level-great-recession-gallup-inflation/875058/",
-    "d": "2026-11-18",
+    "t": "Gap集团押注“时尚娱乐化”驱动增长",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-19",
     "p": "P1",
     "m": "US",
     "score": 79
    },
    {
-    "t": "塔吉特客流增长5%，计划明年最高投资60亿美元",
+    "t": "首个购物在聊天中完成的假日季",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/this-is-the-first-holiday-season-where-the-shopping-happens-in-chat/",
+    "d": "2026-11-19",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "幕后观察：百货商店如何布局今年假日季",
     "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/target-traffic-rises-q3-earnings/874959/",
-    "d": "2026-11-18",
+    "u": "https://www.retaildive.com/news/the-backroom-podcast-department-stores-holiday-season/875199/",
+    "d": "2026-11-19",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Bath & Body Works CEO：进展达标但远未满意",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/bath-body-works-turnaround-q3-consumer-first-formula/875168/",
+    "d": "2026-11-19",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "零售商借《GTA VI》热潮推专属促销",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/marketing/retailers-ride-the-grand-theft-auto-vi-wave-with-special-promos/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-19",
     "p": "P1",
     "m": "US",
     "score": 79
@@ -125,34 +114,54 @@ window.NAV_FEED = {
     "d": "2026-11-18",
     "p": "P1",
     "m": "US",
+    "score": 74
+   }
+  ],
+  "brand-retail": [
+   {
+    "t": "GLS与Geopost拟合并德国包裹业务",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/news/business-diversification/gls-group-and-geopost-plan-joint-venture-combining-german-parcel-businesses.html",
+    "d": "2026-11-19",
+    "p": "P0",
+    "m": "DE",
     "score": 79
    },
    {
-    "t": "零售商价格战恐流失顾客，品质成价值更大驱动力",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/retailers-risk-losing-shoppers-by-competing-on-price-as-quality-becomes-the-bigger-driver-of-value/",
+    "t": "报告：付费媒体成品牌资助创作者增长最大推手",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/paid-media-now-plays-largest-role-in-brand-funded-creator-growth-report/875032/",
     "d": "2026-11-18",
     "p": "P0",
+    "m": "US",
+    "score": 82
+   },
+   {
+    "t": "Cosentino推出Ēclos矿物表面材料，支持建筑创意",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/19/cosentino-eclos-surface-architecture-creativity/",
+    "d": "2026-11-19",
+    "p": "P1",
     "m": "UK",
-    "score": 72
-   },
-   {
-    "t": "汉堡王发起反馈活动，剑指自家门店",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/burger-kings-push-for-consumer-feedback-takes-aim-at-its-own-restaurants/874704/",
-    "d": "2026-11-17",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "创作者将YouTube旧视频库变现为可观收入",
-    "s": "Digiday",
-    "u": "https://digiday.com/media/some-creators-are-turning-youtube-back-catalogs-into-sizable-paychecks/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-18",
-    "p": "P1",
-    "m": "US",
     "score": 69
+   },
+   {
+    "t": "SHoP建筑事务所设计德约科维奇背书的迈阿密超高层",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/19/shop-architects-novak-djokovic-atma-miami-supertall-skyscraper/",
+    "d": "2026-11-19",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   },
+   {
+    "t": "Arvato收购土耳其Ekol物流",
+    "s": "Parcel & Postal Tech",
+    "u": "https://www.parcelandpostaltechnologyinternational.com/news/business-diversification/arvato-to-acquire-ekol-logistics-in-turkey.html",
+    "d": "2026-11-19",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 66
    }
   ]
  }
