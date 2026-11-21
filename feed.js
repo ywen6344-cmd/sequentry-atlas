@@ -1,28 +1,55 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-20",
- "total": 1319,
- "source_count": 54,
+ "updated": "2026-11-21",
+ "total": 1298,
+ "source_count": 56,
  "score_min": 60,
  "by_cat": {
   "platform-channel": [
    {
-    "t": "Shopify应用安全新规：IP白名单明日截止",
+    "t": "Shopify像素更新接口将要求用户应用访问权限",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/app-security-updates-ip-allowlist-due-tomorrow",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 84
+    "u": "https://shopify.dev/changelog/eventbridgeserverpixelupdate-and-pubsubserverpixelupdate-now-require-user-access-to-the-app",
+    "d": "2026-11-20",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 92
    },
    {
-    "t": "Shopify函数设置扩展现可同时报告多个错误",
+    "t": "Shopify目录API支持产品选项图片色板",
     "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/function-settings-extensions-can-now-report-several-errors-at-once",
+    "u": "https://shopify.dev/changelog/show-image-swatches-for-product-options-in-the-catalog-api",
     "d": "2026-11-19",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 87
+   },
+   {
+    "t": "Shopify Flow新增订单、客户等八项更新触发器",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/flow-new-updated-triggers-for-orders-customers-and-more",
+    "d": "2026-11-20",
     "p": "P1",
-    "m": "US",
-    "score": 84
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Shopify POS电子收据与打印版内容一致",
+    "s": "Shopify 商家更新日志",
+    "u": "https://changelog.shopify.com/posts/email-and-text-receipts-now-match-your-printed-receip",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "DE",
+    "score": 79
+   },
+   {
+    "t": "77%英国人用AI，仅27%愿让其代购",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/77-of-brits-use-ai-but-only-27-would-let-it-purchase-items/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
    },
    {
     "t": "图解：迎接智能体商务季",
@@ -31,93 +58,19 @@ window.NAV_FEED = {
     "d": "2026-11-19",
     "p": "P1",
     "m": "US",
-    "score": 83
-   },
-   {
-    "t": "沃尔玛探讨AI代理购物时代广告角色",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/walmart-mulls-role-advertising-will-play-in-an-agentic-shopping-world/875185/",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "N26推出高端账户Aura",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111745/n26-launches-premium-account?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Instagram与亚马逊打通，可挂商品链接",
-    "s": "白鲸出海",
-    "u": "http://www.baijing.cn/article/57425",
-    "d": "2026-11-19",
-    "p": "P2",
-    "m": "CN",
-    "score": 70
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Gap集团押注“时尚娱乐化”驱动增长",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "首个购物在聊天中完成的假日季",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/this-is-the-first-holiday-season-where-the-shopping-happens-in-chat/",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "幕后观察：百货商店如何布局今年假日季",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/the-backroom-podcast-department-stores-holiday-season/875199/",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Bath & Body Works CEO：进展达标但远未满意",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/bath-body-works-turnaround-q3-consumer-first-formula/875168/",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "零售商借《GTA VI》热潮推专属促销",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/retailers-ride-the-grand-theft-auto-vi-wave-with-special-promos/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Selfridges设韩妆专柜推体验式购买",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/selfridges-k-beauty-medicube-biodance-counters/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-18",
-    "p": "P1",
-    "m": "US",
-    "score": 74
+    "score": 78
    }
   ],
   "brand-retail": [
+   {
+    "t": "暖冬拖累Old Navy复苏，Gap品牌持续亮眼",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/old-navy-recovery-gap-shines-q3-earnings-warm-weather/875291/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
    {
     "t": "GLS与Geopost拟合并德国包裹业务",
     "s": "Parcel & Postal Tech",
@@ -125,43 +78,110 @@ window.NAV_FEED = {
     "d": "2026-11-19",
     "p": "P0",
     "m": "DE",
+    "score": 74
+   },
+   {
+    "t": "Mitek Systems任命Laura Apel为首席营销官",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111756/mitek-systems-appoints-laura-apel-as-chief-marketing-officer?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 69
+   },
+   {
+    "t": "蒂芙尼携手好莱坞演员讲述人性化节日故事",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/campaign-trail-tiffany-tells-human-holiday-story-with-hollywood-talent/874914/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Lovesac如何随消费者演变而进化",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/how-lovesac-evolves-with-its-customers/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   },
+   {
+    "t": "Framery推灵活隔音舱订阅制，应对办公家具浪费",
+    "s": "Dezeen 设计",
+    "u": "https://www.dezeen.com/2026/11/20/framerys-flexible-office-pod-subscription-office-needs/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   }
+  ],
+  "compliance-fulfillment": [
+   {
+    "t": "每周盘点：纽约市禁监控定价，FabFitFun入驻沃尔玛",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/nyc-surveillance-pricing-ban-fabfitfun-walmart/875277/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   }
+  ],
+  "market-product": [
+   {
+    "t": "Target第三季度财报：新CEO初显成效但挑战犹存",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/operations/big-box-briefing-targets-retail-reset-means-facing-off-with-trader-joes-quince-and-homegoods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
     "score": 79
    },
    {
-    "t": "报告：付费媒体成品牌资助创作者增长最大推手",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/paid-media-now-plays-largest-role-in-brand-funded-creator-growth-report/875032/",
-    "d": "2026-11-18",
-    "p": "P0",
+    "t": "The Peak Bulletin 2026年第一期",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/the-peak-bulletin-2026-issue-1/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "Gap集团押注“时尚娱乐化”驱动增长",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-19",
+    "p": "P1",
     "m": "US",
-    "score": 82
+    "score": 74
    },
    {
-    "t": "Cosentino推出Ēclos矿物表面材料，支持建筑创意",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/11/19/cosentino-eclos-surface-architecture-creativity/",
-    "d": "2026-11-19",
+    "t": "烘焙品牌抢滩美妆时尚联名",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/pop/get-it-while-its-hot-the-bakeries-snagging-major-beauty-and-fashion-collaborations/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-20",
     "p": "P1",
-    "m": "UK",
+    "m": "US",
     "score": 69
    },
    {
-    "t": "SHoP建筑事务所设计德约科维奇背书的迈阿密超高层",
-    "s": "Dezeen 设计",
-    "u": "https://www.dezeen.com/2026/11/19/shop-architects-novak-djokovic-atma-miami-supertall-skyscraper/",
+    "t": "2026年假日购物季线上销售三大关键因素",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/19/holiday-shopping-forecast/",
     "d": "2026-11-19",
     "p": "P1",
-    "m": "UK",
-    "score": 69
+    "m": "US",
+    "score": 64
    },
    {
-    "t": "Arvato收购土耳其Ekol物流",
-    "s": "Parcel & Postal Tech",
-    "u": "https://www.parcelandpostaltechnologyinternational.com/news/business-diversification/arvato-to-acquire-ekol-logistics-in-turkey.html",
+    "t": "阳狮媒体老将John Muszynski将退休",
+    "s": "Digiday",
+    "u": "https://digiday.com/media-buying/last-of-the-old-school-buyers-publicis-media-vet-john-muszynski-prepares-to-retire/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
     "d": "2026-11-19",
-    "p": "P2",
-    "m": "GLOBAL",
-    "score": 66
+    "p": "P1",
+    "m": "US",
+    "score": 64
    }
   ]
  }
