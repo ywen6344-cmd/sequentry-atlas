@@ -1,25 +1,36 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-21",
- "total": 1298,
- "source_count": 56,
+ "updated": "2026-11-22",
+ "total": 1283,
+ "source_count": 55,
  "score_min": 60,
  "by_cat": {
+  "compliance-fulfillment": [
+   {
+    "t": "TJX、史丹利百得、Titleist等：本周零售败笔",
+    "s": "The Robin Report",
+    "u": "https://therobinreport.com/tjx-stanley-black-decker-titleist-et-al-the-robin-report-retail-misses-of-the-week-11-21-26/",
+    "d": "2026-11-21",
+    "p": "P0",
+    "m": "US",
+    "score": 87
+   },
+   {
+    "t": "每周盘点：纽约市禁监控定价，FabFitFun入驻沃尔玛",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/nyc-surveillance-pricing-ban-fabfitfun-walmart/875277/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   }
+  ],
   "platform-channel": [
    {
     "t": "Shopify像素更新接口将要求用户应用访问权限",
     "s": "Shopify Developer Changelog",
     "u": "https://shopify.dev/changelog/eventbridgeserverpixelupdate-and-pubsubserverpixelupdate-now-require-user-access-to-the-app",
     "d": "2026-11-20",
-    "p": "P0",
-    "m": "GLOBAL",
-    "score": 92
-   },
-   {
-    "t": "Shopify目录API支持产品选项图片色板",
-    "s": "Shopify Developer Changelog",
-    "u": "https://shopify.dev/changelog/show-image-swatches-for-product-options-in-the-catalog-api",
-    "d": "2026-11-19",
     "p": "P0",
     "m": "GLOBAL",
     "score": 87
@@ -31,7 +42,7 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
+    "score": 74
    },
    {
     "t": "Shopify POS电子收据与打印版内容一致",
@@ -40,7 +51,7 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "DE",
-    "score": 79
+    "score": 74
    },
    {
     "t": "77%英国人用AI，仅27%愿让其代购",
@@ -49,16 +60,81 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "UK",
+    "score": 74
+   },
+   {
+    "t": "Shopify API 2027-01 版：文件引用元字段可存 YouTube 和 Vimeo 视频",
+    "s": "Shopify Developer Changelog",
+    "u": "https://shopify.dev/changelog/file-reference-metafields-can-hold-youtube-and-vimeo-videos-as-of-api-version-2027-01",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 69
+   },
+   {
+    "t": "摩根大通、Visa与万事达卡数据泄露暴露第三方风险",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/jpmorgan-visa-and-mastercard-breaches-expose-third-party-vulnerabilities/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 66
+   }
+  ],
+  "market-product": [
+   {
+    "t": "2026年成食品人工色素淘汰转折点",
+    "s": "Modern Retail",
+    "u": "https://www.modernretail.co/podcasts/2026-artificial-dye-removal-from-food/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-21",
+    "p": "P1",
+    "m": "US",
     "score": 79
    },
    {
-    "t": "图解：迎接智能体商务季",
+    "t": "Target第三季度财报：新CEO初显成效但挑战犹存",
     "s": "Modern Retail",
-    "u": "https://www.modernretail.co/technology/in-graphic-detail-welcome-to-the-agentic-commerce-quarter/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-19",
+    "u": "https://www.modernretail.co/operations/big-box-briefing-targets-retail-reset-means-facing-off-with-trader-joes-quince-and-homegoods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-20",
     "p": "P1",
     "m": "US",
-    "score": 78
+    "score": 74
+   },
+   {
+    "t": "The Peak Bulletin 2026年第一期",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/the-peak-bulletin-2026-issue-1/",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "UK",
+    "score": 74
+   },
+   {
+    "t": "烘焙品牌抢滩美妆时尚联名",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/pop/get-it-while-its-hot-the-bakeries-snagging-major-beauty-and-fashion-collaborations/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 64
+   },
+   {
+    "t": "奢侈品简报：十年买一次，如何衡量忠诚度？",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/fashion/luxury/luxury-briefing-jewelry-customer-loyalty/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-20",
+    "p": "P1",
+    "m": "US",
+    "score": 64
+   },
+   {
+    "t": "Weetabix推出脆迷你巧克力碎随手包",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/breakfast-is-in-the-bag-with-weetabix-crispy-minis-grab-bags/",
+    "d": "2026-11-21",
+    "p": "P3",
+    "m": "UK",
+    "score": 56
    }
   ],
   "brand-retail": [
@@ -69,15 +145,6 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "GLS与Geopost拟合并德国包裹业务",
-    "s": "Parcel & Postal Tech",
-    "u": "https://www.parcelandpostaltechnologyinternational.com/news/business-diversification/gls-group-and-geopost-plan-joint-venture-combining-german-parcel-businesses.html",
-    "d": "2026-11-19",
-    "p": "P0",
-    "m": "DE",
     "score": 74
    },
    {
@@ -87,7 +154,7 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 69
+    "score": 64
    },
    {
     "t": "蒂芙尼携手好莱坞演员讲述人性化节日故事",
@@ -96,7 +163,7 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Lovesac如何随消费者演变而进化",
@@ -105,7 +172,7 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Framery推灵活隔音舱订阅制，应对办公家具浪费",
@@ -114,74 +181,16 @@ window.NAV_FEED = {
     "d": "2026-11-20",
     "p": "P1",
     "m": "US",
-    "score": 69
-   }
-  ],
-  "compliance-fulfillment": [
-   {
-    "t": "每周盘点：纽约市禁监控定价，FabFitFun入驻沃尔玛",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/nyc-surveillance-pricing-ban-fabfitfun-walmart/875277/",
-    "d": "2026-11-20",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Target第三季度财报：新CEO初显成效但挑战犹存",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/big-box-briefing-targets-retail-reset-means-facing-off-with-trader-joes-quince-and-homegoods/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-20",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "The Peak Bulletin 2026年第一期",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/the-peak-bulletin-2026-issue-1/",
-    "d": "2026-11-20",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "Gap集团押注“时尚娱乐化”驱动增长",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/gap-inc-is-betting-on-fashiontainment-to-fuel-growth/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   },
-   {
-    "t": "烘焙品牌抢滩美妆时尚联名",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/pop/get-it-while-its-hot-the-bakeries-snagging-major-beauty-and-fashion-collaborations/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-20",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   },
-   {
-    "t": "2026年假日购物季线上销售三大关键因素",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/19/holiday-shopping-forecast/",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
     "score": 64
    },
    {
-    "t": "阳狮媒体老将John Muszynski将退休",
-    "s": "Digiday",
-    "u": "https://digiday.com/media-buying/last-of-the-old-school-buyers-publicis-media-vet-john-muszynski-prepares-to-retire/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-19",
-    "p": "P1",
-    "m": "US",
-    "score": 64
+    "t": "&Walsh为Insomnia Cookies焕新包装，突出曲奇本身",
+    "s": "The Dieline 包装设计",
+    "u": "https://thedieline.com/walsh-gives-insomnia-cookies-a-fresh-new-look-that-highlights-what-already-makes-the-brand-great-the-cookies/",
+    "d": "2026-11-21",
+    "p": "P2",
+    "m": "GLOBAL",
+    "score": 56
    }
   ]
  }
