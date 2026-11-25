@@ -1,11 +1,123 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-24",
- "total": 1291,
- "source_count": 56,
+ "updated": "2026-11-25",
+ "total": 1282,
+ "source_count": 53,
  "score_min": 60,
  "by_cat": {
+  "platform-channel": [
+   {
+    "t": "Visa opens Cameroon office",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111774/visa-opens-cameroon-office?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-24",
+    "p": "P0",
+    "m": "GLOBAL",
+    "score": 87
+   },
+   {
+    "t": "UK retail group Frasers partners Visa for virtual card",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111771/uk-retail-group-frasers-partners-visa-for-virtual-card?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "US",
+    "score": 83
+   },
+   {
+    "t": "OnBuy and Octopia expand partnership to accelerate cross-border growth across Europe",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/onbuy-and-octopia-expand-partnership-to-accelerate-cross-border-growth-across-europe/",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "EU",
+    "score": 79
+   },
+   {
+    "t": "Chewy jumps on stop-motion animation trend lighting up holiday ads",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/chewy-jumps-on-stop-motion-animation-trend-lighting-up-holiday-ads/875412/",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Meta Muse launches in UK with M&S, Debenhams, Currys, Ocado, Argos, & Sainsbury’s",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/meta-muse-launches-in-uk-with-ms-debenhams-currys-ocado-argos-sainsburys/",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "UK",
+    "score": 79
+   },
+   {
+    "t": "The next test for agentic media",
+    "s": "Digiday",
+    "u": "https://digiday.com/sponsored/the-next-test-for-agentic-media/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-23",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   }
+  ],
+  "market-product": [
+   {
+    "t": "Dollar Tree predicts holiday shoppers will ‘buy closer to need’",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/dollar-tree-q3-holiday-shoppers-buy-closer-to-need/875619/",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "Beauty Briefing: What to expect this Black Friday and Cyber Monday",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/beauty-briefing-what-to-expect-this-black-friday-and-cyber-monday/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "US",
+    "score": 79
+   },
+   {
+    "t": "YouLovePrint: the print ads that shaped Christmas",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/youloveprint-the-print-ads-that-shaped-christmas/",
+    "d": "2026-11-24",
+    "p": "P0",
+    "m": "UK",
+    "score": 72
+   },
+   {
+    "t": "Majority of states now battling Dollar General over pricing practices",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/dollar-general-battles-states-ftc-pricing-practices/875454/",
+    "d": "2026-11-23",
+    "p": "P1",
+    "m": "US",
+    "score": 74
+   },
+   {
+    "t": "Your catalog is out of date the day it ships. Here’s how to fix that.",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/24/your-catalog-is-out-of-date-the-day-it-ships-heres-how-to-fix-that/",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "US",
+    "score": 69
+   }
+  ],
   "brand-retail": [
+   {
+    "t": "Jinjiang Shipping and Hong Kong ports forge liner partnership",
+    "s": "Seatrade Maritime",
+    "u": "https://www.seatrade-maritime.com/containers/jinjiang-shipping-and-hong-kong-ports-forge-liner-partnership",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
    {
     "t": "How Jell-O’s new creative platform looks to shift consumer perceptions",
     "s": "Marketing Dive",
@@ -13,7 +125,16 @@ window.NAV_FEED = {
     "d": "2026-11-23",
     "p": "P0",
     "m": "US",
-    "score": 87
+    "score": 82
+   },
+   {
+    "t": "How Dibs Beauty uses heat maps to optimize its Ulta Beauty presence",
+    "s": "Glossy",
+    "u": "https://www.glossy.co/beauty/how-dibs-beauty-uses-heat-maps-to-optimize-its-ulta-beauty-presence/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "US",
+    "score": 73
    },
    {
     "t": "Gap Q3 earnings: Online sales rise 3% as holiday outlook weakens",
@@ -22,155 +143,25 @@ window.NAV_FEED = {
     "d": "2026-11-23",
     "p": "P1",
     "m": "US",
-    "score": 79
+    "score": 74
    },
    {
-    "t": "Jigsaw opens at Cotswolds Designer Outlet in significant retail coup",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/jigsaw-opens-at-cotswolds-designer-outlet-in-significant-retail-coup/",
-    "d": "2026-11-23",
-    "p": "P0",
-    "m": "UK",
-    "score": 72
-   },
-   {
-    "t": "Williams-Sonoma ecommerce sales rise 6.8% as every brand posts comparable growth in Q3",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/23/williams-sonoma-online-sales-q3-fy26/",
-    "d": "2026-11-23",
+    "t": "Marx Design’s GoGetta identity makes a case for all that’s googly-eyed and cute in recruitment",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/11/24/marx-design-gogetta-recruitment-company-brand-identity-design-mascot/",
+    "d": "2026-11-24",
     "p": "P1",
     "m": "US",
     "score": 69
    },
    {
-    "t": "Adyen co-CEO van der Does retires",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/newsarticle/48801/adyen-co-ceo-van-der-does-retires?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 69
-   },
-   {
-    "t": "How Dibs Beauty uses heat maps to optimize its Ulta Beauty presence",
+    "t": "Pura doubles down on brand collaborations: ‘We want to be the Spotify of fragrance’",
     "s": "Modern Retail",
-    "u": "https://www.modernretail.co/operations/how-dibs-beauty-uses-heat-maps-to-optimize-its-ulta-beauty-presence/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
+    "u": "https://www.modernretail.co/marketing/pura-doubles-down-on-brand-collaborations-we-want-to-be-the-spotify-of-fragrance/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
+    "d": "2026-11-24",
     "p": "P1",
     "m": "US",
     "score": 69
-   }
-  ],
-  "platform-channel": [
-   {
-    "t": "The next test for agentic media",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/the-next-test-for-agentic-media/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Manage agentic checkout for ChatGPT",
-    "s": "Shopify 商家更新日志",
-    "u": "https://changelog.shopify.com/posts/manage-whether-ai-agents-can-buy-your-products-for-shoppers-through-chatgpt",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Agencies are selling AI efficiency — clients want outcomes",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/agencies-are-selling-ai-efficiency-clients-want-outcomes/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Expensify rolls out AI-powered analytics feature",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111762/expensify-rolls-out-ai-powered-analytics-feature?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "Why retailers prefer real human expertise over automated payment support",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/spons/why-retailers-prefer-real-human-expertise-over-automated-payment-support/875272/",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "How Amazon is becoming a discovery platform for beauty and wellness brands",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/sponsored/how-amazon-is-becoming-a-discovery-platform-for-beauty-and-wellness-brands/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 69
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Majority of states now battling Dollar General over pricing practices",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/dollar-general-battles-states-ftc-pricing-practices/875454/",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Base launch integration with ZEOS Multichannel Fulfilment",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/base-launch-integration-with-zeos-multichannel-fulfilment/",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "EU",
-    "score": 79
-   },
-   {
-    "t": "Why On gave running shops first dibs on the Cloudsurfer 3",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/fashion/on-cloudsurfer-3-specialty-running-retail/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Sweetgreen bets on cooking pop-ups to promote growing menu",
-    "s": "Modern Retail",
-    "u": "https://www.modernretail.co/marketing/sweetgreen-cooking-pop-ups/?utm_campaign=modernretaildis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 62
-   },
-   {
-    "t": "Pet Brands Find New Ways to Invite the Family Dog to Thanksgiving Dinner",
-    "s": "Adweek",
-    "u": "https://www.adweek.com/brand-marketing/pet-brands-find-new-ways-to-invite-the-family-dog-to-thanksgiving-dinner/",
-    "d": "2026-11-23",
-    "p": "P2",
-    "m": "US",
-    "score": 56
-   },
-   {
-    "t": "When Black Friday lasts a month, what gets shoppers into stores?",
-    "s": "Retail Gazette UK",
-    "u": "https://www.retailgazette.co.uk/blog/2026/11/when-black-friday-lasts-a-month-what-gets-shoppers-into-stores/",
-    "d": "2026-11-23",
-    "p": "P3",
-    "m": "UK",
-    "score": 56
    }
   ]
  }
