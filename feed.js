@@ -1,75 +1,46 @@
 // 近期动态快照 —— build_feed.py 从 feeds 项目生成；已做发布日期校验、跨来源去重与主题相关性过滤。
 window.NAV_FEED = {
- "updated": "2026-11-25",
- "total": 1282,
- "source_count": 53,
+ "updated": "2026-11-26",
+ "total": 1279,
+ "source_count": 54,
  "score_min": 60,
  "by_cat": {
-  "platform-channel": [
+  "market-product": [
    {
-    "t": "Visa opens Cameroon office",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111774/visa-opens-cameroon-office?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-24",
+    "t": "Adobe data shows online holiday spending up 9.1% ahead of Thanksgiving",
+    "s": "Digital Commerce 360",
+    "u": "https://www.digitalcommerce360.com/2026/11/25/adobe-online-holiday-spending-data/",
+    "d": "2026-11-25",
     "p": "P0",
-    "m": "GLOBAL",
+    "m": "US",
     "score": 87
    },
    {
-    "t": "UK retail group Frasers partners Visa for virtual card",
-    "s": "Finextra 金融科技",
-    "u": "https://www.finextra.com/pressarticle/111771/uk-retail-group-frasers-partners-visa-for-virtual-card?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "d": "2026-11-24",
+    "t": "Shoe Station flip flops on rebanner plan, again",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/shoe-station-flip-flops-rebanner-plan-again-shoe-carnival/875727/",
+    "d": "2026-11-25",
     "p": "P1",
     "m": "US",
-    "score": 83
+    "score": 79
    },
    {
-    "t": "OnBuy and Octopia expand partnership to accelerate cross-border growth across Europe",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/onbuy-and-octopia-expand-partnership-to-accelerate-cross-border-growth-across-europe/",
-    "d": "2026-11-24",
+    "t": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
+    "s": "EU 委员会新闻",
+    "u": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
+    "d": "2026-11-25",
     "p": "P1",
     "m": "EU",
     "score": 79
    },
    {
-    "t": "Chewy jumps on stop-motion animation trend lighting up holiday ads",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/chewy-jumps-on-stop-motion-animation-trend-lighting-up-holiday-ads/875412/",
-    "d": "2026-11-24",
+    "t": "It Wasn’t Credit Card Rates: What Really Moved the Midterm Vote",
+    "s": "Payments Journal",
+    "u": "https://www.paymentsjournal.com/it-wasnt-credit-card-rates-what-really-moved-the-midterm-vote/",
+    "d": "2026-11-25",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "Meta Muse launches in UK with M&S, Debenhams, Currys, Ocado, Argos, & Sainsbury’s",
-    "s": "ChannelX",
-    "u": "https://channelx.world/2026/11/meta-muse-launches-in-uk-with-ms-debenhams-currys-ocado-argos-sainsburys/",
-    "d": "2026-11-24",
-    "p": "P1",
-    "m": "UK",
-    "score": 79
-   },
-   {
-    "t": "The next test for agentic media",
-    "s": "Digiday",
-    "u": "https://digiday.com/sponsored/the-next-test-for-agentic-media/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
-    "score": 74
-   }
-  ],
-  "market-product": [
-   {
-    "t": "Dollar Tree predicts holiday shoppers will ‘buy closer to need’",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/dollar-tree-q3-holiday-shoppers-buy-closer-to-need/875619/",
-    "d": "2026-11-24",
-    "p": "P1",
-    "m": "US",
-    "score": 79
+    "score": 71
    },
    {
     "t": "Beauty Briefing: What to expect this Black Friday and Cyber Monday",
@@ -78,34 +49,72 @@ window.NAV_FEED = {
     "d": "2026-11-24",
     "p": "P1",
     "m": "US",
-    "score": 79
-   },
-   {
-    "t": "YouLovePrint: the print ads that shaped Christmas",
-    "s": "Retail Times",
-    "u": "https://retailtimes.co.uk/youloveprint-the-print-ads-that-shaped-christmas/",
-    "d": "2026-11-24",
-    "p": "P0",
-    "m": "UK",
-    "score": 72
-   },
-   {
-    "t": "Majority of states now battling Dollar General over pricing practices",
-    "s": "Retail Dive",
-    "u": "https://www.retaildive.com/news/dollar-general-battles-states-ftc-pricing-practices/875454/",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
     "score": 74
    },
    {
-    "t": "Your catalog is out of date the day it ships. Here’s how to fix that.",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/24/your-catalog-is-out-of-date-the-day-it-ships-heres-how-to-fix-that/",
-    "d": "2026-11-24",
+    "t": "US Jobless Claims Drop by 13,000 and Support Consumer Confidence Rebound",
+    "s": "PYMNTS 支付新闻",
+    "u": "https://www.pymnts.com/economy/2026/us-jobless-claims-drop-by-13000-and-support-consumer-confidence-rebound/",
+    "d": "2026-11-25",
+    "p": "P2",
+    "m": "US",
+    "score": 66
+   }
+  ],
+  "platform-channel": [
+   {
+    "t": "Shein to pay $100M in FTC settlement over deceptive practices claims",
+    "s": "Retail Dive",
+    "u": "https://www.retaildive.com/news/shein-to-pay-100m-in-ftc-settlement-over-deceptive-practices-claims/875748/",
+    "d": "2026-11-25",
+    "p": "P1",
+    "m": "CN",
+    "score": 79
+   },
+   {
+    "t": "Geico unites brand icons in holiday ad mixing human craft, nostalgia",
+    "s": "Marketing Dive",
+    "u": "https://www.marketingdive.com/news/geico-unites-brand-icons-in-holiday-ad-mixing-human-craft-nostalgia/875728/",
+    "d": "2026-11-25",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 79
+   },
+   {
+    "t": "LSEG and Tradeweb launch RepoAgent",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111784/lseg-and-tradeweb-launch-repoagent?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-25",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "Ant International and BNY ink MoU to explore 24/7 FX and payments innovation",
+    "s": "Finextra 金融科技",
+    "u": "https://www.finextra.com/pressarticle/111781/ant-international-and-bny-ink-mou-to-explore-247-fx-and-payments-innovation?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "d": "2026-11-25",
+    "p": "P1",
+    "m": "GLOBAL",
+    "score": 79
+   },
+   {
+    "t": "OnBuy and Octopia expand partnership to accelerate cross-border growth across Europe",
+    "s": "ChannelX",
+    "u": "https://channelx.world/2026/11/onbuy-and-octopia-expand-partnership-to-accelerate-cross-border-growth-across-europe/",
+    "d": "2026-11-24",
+    "p": "P1",
+    "m": "EU",
+    "score": 78
+   },
+   {
+    "t": "Twenty years after MyVoucherCodes, Mark Pearson is building a business with his daughter",
+    "s": "Retail Times",
+    "u": "https://retailtimes.co.uk/twenty-years-after-myvouchercodes-mark-pearson-is-building-a-business-with-his-daughter/",
+    "d": "2026-11-25",
+    "p": "P0",
+    "m": "UK",
+    "score": 72
    }
   ],
   "brand-retail": [
@@ -116,34 +125,25 @@ window.NAV_FEED = {
     "d": "2026-11-24",
     "p": "P1",
     "m": "GLOBAL",
-    "score": 79
-   },
-   {
-    "t": "How Jell-O’s new creative platform looks to shift consumer perceptions",
-    "s": "Marketing Dive",
-    "u": "https://www.marketingdive.com/news/how-jell-o-new-creative-platform-looks-to-shift-consumer-perceptions/875220/",
-    "d": "2026-11-23",
-    "p": "P0",
-    "m": "US",
-    "score": 82
-   },
-   {
-    "t": "How Dibs Beauty uses heat maps to optimize its Ulta Beauty presence",
-    "s": "Glossy",
-    "u": "https://www.glossy.co/beauty/how-dibs-beauty-uses-heat-maps-to-optimize-its-ulta-beauty-presence/?utm_campaign=glossydis&utm_medium=rss&utm_source=general-rss",
-    "d": "2026-11-24",
-    "p": "P1",
-    "m": "US",
-    "score": 73
-   },
-   {
-    "t": "Gap Q3 earnings: Online sales rise 3% as holiday outlook weakens",
-    "s": "Digital Commerce 360",
-    "u": "https://www.digitalcommerce360.com/2026/11/23/gap-online-sales-q3-fy26/",
-    "d": "2026-11-23",
-    "p": "P1",
-    "m": "US",
     "score": 74
+   },
+   {
+    "t": "When Packaging Heads West",
+    "s": "BP&O 品牌标识案例",
+    "u": "https://bpando.org/2026/11/25/when-packaging-heads-west/",
+    "d": "2026-11-25",
+    "p": "P1",
+    "m": "UK",
+    "score": 69
+   },
+   {
+    "t": "BEHIND THE CLICK PODCAST WITH MOONIE ZHU: WHAT EUROPE CAN LEARN FROM CHINA’S SHOPTAINMENT",
+    "s": "Ecommerce Germany News",
+    "u": "https://ecommercegermany.com/blog/behind-the-click-podcast-with-moonie-zhu-what-europe-can-learn-from-chinas-shoptainment/",
+    "d": "2026-11-25",
+    "p": "P3",
+    "m": "CN",
+    "score": 63
    },
    {
     "t": "Marx Design’s GoGetta identity makes a case for all that’s googly-eyed and cute in recruitment",
@@ -152,7 +152,7 @@ window.NAV_FEED = {
     "d": "2026-11-24",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    },
    {
     "t": "Pura doubles down on brand collaborations: ‘We want to be the Spotify of fragrance’",
@@ -161,7 +161,7 @@ window.NAV_FEED = {
     "d": "2026-11-24",
     "p": "P1",
     "m": "US",
-    "score": 69
+    "score": 64
    }
   ]
  }
